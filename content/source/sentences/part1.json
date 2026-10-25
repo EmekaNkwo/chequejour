@@ -1,0 +1,1522 @@
+[
+  {
+    "id": "s001",
+    "fr": "Je prends le bus tous les matins parce que je n'ai pas de voiture.",
+    "en": "I take the bus every morning because I don't have a car.",
+    "grammarNote": "Present tense for a daily routine: 'prendre' is irregular (je prends).",
+    "grammarTag": "present",
+    "level": "A2"
+  },
+  {
+    "id": "s002",
+    "fr": "Mon frère ne boit jamais de café après quatre heures de l'après-midi.",
+    "en": "My brother never drinks coffee after four in the afternoon.",
+    "grammarNote": "Ne… jamais means 'never'; 'du café' becomes 'de café' after a negation.",
+    "grammarTag": "negation",
+    "level": "A2"
+  },
+  {
+    "id": "s003",
+    "fr": "Hier soir, nous avons regardé un film et nous nous sommes couchés tard.",
+    "en": "Last night we watched a film and went to bed late.",
+    "grammarNote": "Passé composé with avoir (avons regardé) and with être for a reflexive verb (nous sommes couchés).",
+    "grammarTag": "passe-compose",
+    "level": "A2"
+  },
+  {
+    "id": "s004",
+    "fr": "Pour faire cette soupe, il faut des carottes, du sel et un peu de beurre.",
+    "en": "To make this soup, you need carrots, salt and a little butter.",
+    "grammarNote": "Partitive articles du/des for unspecified amounts; 'un peu de' with no article.",
+    "grammarTag": "partitifs",
+    "level": "A2"
+  },
+  {
+    "id": "s005",
+    "fr": "J'habite à Lyon, mais je travaille en banlieue, à vingt minutes en train.",
+    "en": "I live in Lyon, but I work in the suburbs, twenty minutes away by train.",
+    "grammarNote": "'À' before a city, 'en' for 'en banlieue' and for travelling by train.",
+    "grammarTag": "prepositions",
+    "level": "A2"
+  },
+  {
+    "id": "s006",
+    "fr": "Prends ton parapluie, il va pleuvoir cet après-midi.",
+    "en": "Take your umbrella, it's going to rain this afternoon.",
+    "grammarNote": "Imperative (tu form) of prendre: no subject pronoun.",
+    "grammarTag": "imperatif",
+    "level": "A2"
+  },
+  {
+    "id": "s007",
+    "fr": "Ma voisine fait du yoga le mardi et elle va à la piscine le jeudi.",
+    "en": "My neighbour does yoga on Tuesdays and goes to the pool on Thursdays.",
+    "grammarNote": "Present of irregular faire and aller; 'le mardi' means every Tuesday.",
+    "grammarTag": "present",
+    "level": "A2"
+  },
+  {
+    "id": "s008",
+    "fr": "Ce week-end, je vais ranger mon appartement et appeler mes parents.",
+    "en": "This weekend I'm going to tidy my flat and call my parents.",
+    "grammarNote": "Futur proche (aller + infinitive) for planned actions in the near future.",
+    "grammarTag": "futur-proche",
+    "level": "A2"
+  },
+  {
+    "id": "s009",
+    "fr": "Les fenêtres de la cuisine sont toujours ouvertes quand il fait chaud.",
+    "en": "The kitchen windows are always open when it's hot.",
+    "grammarNote": "The adjective 'ouvertes' agrees with the feminine plural noun 'fenêtres'.",
+    "grammarTag": "accord",
+    "level": "A2"
+  },
+  {
+    "id": "s010",
+    "fr": "J'en ai marre des embouteillages, je vais acheter un vélo.",
+    "en": "I'm fed up with traffic jams, I'm going to buy a bike.",
+    "grammarNote": "Informal idiom 'en avoir marre de' = to be fed up with.",
+    "grammarTag": "vocabulary",
+    "level": "A2"
+  },
+  {
+    "id": "s011",
+    "fr": "Ce manteau est parfait et pas trop cher, alors je le prends.",
+    "en": "This coat is perfect and not too expensive, so I'll take it.",
+    "grammarNote": "Direct object pronoun 'le' replaces 'ce manteau' and goes before the verb.",
+    "grammarTag": "cod",
+    "level": "A2"
+  },
+  {
+    "id": "s012",
+    "fr": "Elle est arrivée à la gare en retard et elle a raté son train.",
+    "en": "She got to the station late and missed her train.",
+    "grammarNote": "Être with arriver (participle agrees: arrivée), avoir with rater.",
+    "grammarTag": "passe-compose",
+    "level": "A2"
+  },
+  {
+    "id": "s013",
+    "fr": "Il n'y a plus de lait dans le frigo, tu peux en acheter ?",
+    "en": "There's no more milk in the fridge, can you buy some?",
+    "grammarNote": "Ne… plus means 'no more / no longer'; 'du lait' becomes 'de lait' after it.",
+    "grammarTag": "negation",
+    "level": "A2"
+  },
+  {
+    "id": "s014",
+    "fr": "Le train est plus rapide que le bus, mais il est aussi plus cher.",
+    "en": "The train is faster than the bus, but it's also more expensive.",
+    "grammarNote": "Comparative plus + adjective + que.",
+    "grammarTag": "comparatifs",
+    "level": "A2"
+  },
+  {
+    "id": "s015",
+    "fr": "Quand j'étais enfant, nous habitions dans une petite maison près de la mer.",
+    "en": "When I was a child, we lived in a small house near the sea.",
+    "grammarNote": "Imparfait to describe an ongoing situation in the past.",
+    "grammarTag": "imparfait",
+    "level": "A2"
+  },
+  {
+    "id": "s016",
+    "fr": "Tu connais ce restaurant ? J'y vais souvent avec mes collègues.",
+    "en": "Do you know this restaurant? I often go there with my colleagues.",
+    "grammarNote": "The pronoun 'y' replaces a place ('à ce restaurant') and goes before the verb.",
+    "grammarTag": "y-en",
+    "level": "A2"
+  },
+  {
+    "id": "s017",
+    "fr": "Le samedi matin, je me lève tard et je prends un long petit-déjeuner.",
+    "en": "On Saturday mornings I get up late and have a long breakfast.",
+    "grammarNote": "Present tense of a reflexive verb: je me lève.",
+    "grammarTag": "present",
+    "level": "A2"
+  },
+  {
+    "id": "s018",
+    "fr": "C'est la boulangerie qui vend le meilleur pain du quartier.",
+    "en": "That's the bakery that sells the best bread in the neighbourhood.",
+    "grammarNote": "Relative pronoun 'qui' is the subject of the verb that follows (vend).",
+    "grammarTag": "relatifs",
+    "level": "A2"
+  },
+  {
+    "id": "s019",
+    "fr": "Les clés sont sur la table, à côté de ton téléphone.",
+    "en": "The keys are on the table, next to your phone.",
+    "grammarNote": "Prepositions of place: 'sur' and 'à côté de'.",
+    "grammarTag": "prepositions",
+    "level": "A2"
+  },
+  {
+    "id": "s020",
+    "fr": "Bonjour, je voudrais un aller-retour pour Bordeaux, s'il vous plaît.",
+    "en": "Hello, I'd like a return ticket to Bordeaux, please.",
+    "grammarNote": "Conditional 'je voudrais' makes a request polite.",
+    "grammarTag": "conditionnel",
+    "level": "A2"
+  },
+  {
+    "id": "s021",
+    "fr": "Nous avons passé une semaine à la montagne et nous avons fait beaucoup de randonnées.",
+    "en": "We spent a week in the mountains and did a lot of hiking.",
+    "grammarNote": "Passé composé with avoir; 'fait' is the irregular participle of faire.",
+    "grammarTag": "passe-compose",
+    "level": "A2"
+  },
+  {
+    "id": "s022",
+    "fr": "Ne touchez pas à ce plat, il sort du four et il est brûlant.",
+    "en": "Don't touch that dish, it's just come out of the oven and it's boiling hot.",
+    "grammarNote": "Negative imperative: ne + verb + pas, with no subject pronoun.",
+    "grammarTag": "imperatif",
+    "level": "A2"
+  },
+  {
+    "id": "s023",
+    "fr": "Le matin, je bois du thé et je mange du pain avec de la confiture.",
+    "en": "In the morning I drink tea and eat bread with jam.",
+    "grammarNote": "Partitives du/de la for food you can't count.",
+    "grammarTag": "partitifs",
+    "level": "A2"
+  },
+  {
+    "id": "s024",
+    "fr": "Mes enfants font leurs devoirs avant le dîner, puis ils jouent un peu.",
+    "en": "My children do their homework before dinner, then they play for a bit.",
+    "grammarNote": "Present tense: irregular 'ils font' and regular 'ils jouent'.",
+    "grammarTag": "present",
+    "level": "A2"
+  },
+  {
+    "id": "s025",
+    "fr": "Ça ne me dit rien de sortir ce soir, je suis trop fatigué.",
+    "en": "I don't feel like going out tonight, I'm too tired.",
+    "grammarNote": "Idiom 'ça ne me dit rien de' + infinitive = I don't feel like.",
+    "grammarTag": "vocabulary",
+    "level": "A2"
+  },
+  {
+    "id": "s026",
+    "fr": "Dépêche-toi, le film va commencer dans cinq minutes !",
+    "en": "Hurry up, the film is going to start in five minutes!",
+    "grammarNote": "Futur proche for something about to happen.",
+    "grammarTag": "futur-proche",
+    "level": "A2"
+  },
+  {
+    "id": "s027",
+    "fr": "Tu as vu mes lunettes ? Je les cherche depuis ce matin.",
+    "en": "Have you seen my glasses? I've been looking for them since this morning.",
+    "grammarNote": "'Les' replaces 'mes lunettes'; present + depuis for an action still going on.",
+    "grammarTag": "cod",
+    "level": "A2"
+  },
+  {
+    "id": "s028",
+    "fr": "Ma sœur est très grande et elle a les cheveux courts et bruns.",
+    "en": "My sister is very tall and has short brown hair.",
+    "grammarNote": "Adjective agreement: 'grande' (feminine), 'courts et bruns' (masculine plural, with cheveux).",
+    "grammarTag": "accord",
+    "level": "A2"
+  },
+  {
+    "id": "s029",
+    "fr": "Je n'ai rien compris à ce message, tu peux me l'expliquer ?",
+    "en": "I didn't understand anything in this message, can you explain it to me?",
+    "grammarNote": "Ne… rien = nothing; in the passé composé 'rien' goes before the participle.",
+    "grammarTag": "negation",
+    "level": "A2"
+  },
+  {
+    "id": "s030",
+    "fr": "Mon nouvel appartement est aussi grand que l'ancien, mais il est moins bruyant.",
+    "en": "My new flat is as big as the old one, but it's less noisy.",
+    "grammarNote": "Comparisons of equality (aussi… que) and inferiority (moins).",
+    "grammarTag": "comparatifs",
+    "level": "A2"
+  },
+  {
+    "id": "s031",
+    "fr": "Avant, je travaillais le samedi, mais maintenant j'ai tout le week-end.",
+    "en": "I used to work on Saturdays, but now I have the whole weekend.",
+    "grammarNote": "Imparfait for a past habit, contrasted with the present ('avant… maintenant').",
+    "grammarTag": "imparfait",
+    "level": "A2"
+  },
+  {
+    "id": "s032",
+    "fr": "Tu as reçu mon message ? Je t'ai écrit ce matin.",
+    "en": "Did you get my message? I wrote to you this morning.",
+    "grammarNote": "Passé composé with irregular participles: reçu (recevoir), écrit (écrire).",
+    "grammarTag": "passe-compose",
+    "level": "A2"
+  },
+  {
+    "id": "s033",
+    "fr": "Des pommes ? Oui, j'en voudrais un kilo, s'il vous plaît.",
+    "en": "Apples? Yes, I'd like a kilo, please.",
+    "grammarNote": "'En' replaces 'des pommes' when you give a quantity.",
+    "grammarTag": "y-en",
+    "level": "A2"
+  },
+  {
+    "id": "s034",
+    "fr": "Je vais chez le médecin demain matin, avant d'aller au travail.",
+    "en": "I'm going to the doctor's tomorrow morning, before going to work.",
+    "grammarNote": "'Chez' + person for someone's place; 'au' = à + le.",
+    "grammarTag": "prepositions",
+    "level": "A2"
+  },
+  {
+    "id": "s035",
+    "fr": "Nous attendons le bus depuis vingt minutes et il n'arrive toujours pas.",
+    "en": "We've been waiting for the bus for twenty minutes and it still isn't coming.",
+    "grammarNote": "Present + depuis for an action that started in the past and is still going on.",
+    "grammarTag": "present",
+    "level": "A2"
+  },
+  {
+    "id": "s036",
+    "fr": "Allez tout droit, puis tournez à gauche au deuxième feu.",
+    "en": "Go straight ahead, then turn left at the second traffic light.",
+    "grammarNote": "Imperative (vous form) for giving directions.",
+    "grammarTag": "imperatif",
+    "level": "A2"
+  },
+  {
+    "id": "s037",
+    "fr": "J'ai téléphoné à ma mère et je lui ai raconté ma journée.",
+    "en": "I phoned my mother and told her about my day.",
+    "grammarNote": "Indirect object pronoun 'lui' replaces 'à ma mère'.",
+    "grammarTag": "coi",
+    "level": "A2"
+  },
+  {
+    "id": "s038",
+    "fr": "Il pleut des cordes, on reste à la maison cet après-midi.",
+    "en": "It's pouring with rain, we're staying at home this afternoon.",
+    "grammarNote": "Idiom 'il pleut des cordes' = it's raining heavily; 'on' means 'we'.",
+    "grammarTag": "vocabulary",
+    "level": "A2"
+  },
+  {
+    "id": "s039",
+    "fr": "Ils se sont rencontrés à l'université et ils se sont mariés trois ans plus tard.",
+    "en": "They met at university and got married three years later.",
+    "grammarNote": "Reflexive verbs take être in the passé composé; the participle agrees.",
+    "grammarTag": "passe-compose",
+    "level": "A2"
+  },
+  {
+    "id": "s040",
+    "fr": "Il y a beaucoup de monde au marché le dimanche matin.",
+    "en": "There are lots of people at the market on Sunday mornings.",
+    "grammarNote": "After a quantity word like 'beaucoup', use 'de' with no article.",
+    "grammarTag": "partitifs",
+    "level": "A2"
+  },
+  {
+    "id": "s041",
+    "fr": "Nous allons déménager en septembre parce que notre appartement est trop petit.",
+    "en": "We're going to move in September because our flat is too small.",
+    "grammarNote": "Futur proche for a decision already made.",
+    "grammarTag": "futur-proche",
+    "level": "A2"
+  },
+  {
+    "id": "s042",
+    "fr": "Personne ne répond au téléphone, le magasin est peut-être fermé.",
+    "en": "Nobody is answering the phone, maybe the shop is closed.",
+    "grammarNote": "'Personne ne' as the subject means 'nobody'; no 'pas'.",
+    "grammarTag": "negation",
+    "level": "A2"
+  },
+  {
+    "id": "s043",
+    "fr": "Le livre que tu m'as prêté est vraiment passionnant.",
+    "en": "The book you lent me is really gripping.",
+    "grammarNote": "Relative pronoun 'que' is the object of the verb that follows; English often drops it.",
+    "grammarTag": "relatifs",
+    "level": "A2"
+  },
+  {
+    "id": "s044",
+    "fr": "Qu'est-ce que tu fais dans la vie ? Je suis infirmière dans un hôpital.",
+    "en": "What do you do for a living? I'm a nurse in a hospital.",
+    "grammarNote": "Present of faire and être; no article before a profession after être.",
+    "grammarTag": "present",
+    "level": "A2"
+  },
+  {
+    "id": "s045",
+    "fr": "Mes amies sont arrivées en avance et elles étaient très contentes.",
+    "en": "My friends arrived early and they were very happy.",
+    "grammarNote": "With être, the participle agrees with the subject: 'arrivées' (feminine plural).",
+    "grammarTag": "accord",
+    "level": "A2"
+  },
+  {
+    "id": "s046",
+    "fr": "Cette recette est facile, je la fais souvent pour mes invités.",
+    "en": "This recipe is easy, I often make it for my guests.",
+    "grammarNote": "Direct object pronoun 'la' replaces the feminine noun 'cette recette'.",
+    "grammarTag": "cod",
+    "level": "A2"
+  },
+  {
+    "id": "s047",
+    "fr": "Il faisait beau, les enfants jouaient dans le parc et les oiseaux chantaient.",
+    "en": "The weather was nice, the children were playing in the park and the birds were singing.",
+    "grammarNote": "Imparfait to describe the background of a past scene.",
+    "grammarTag": "imparfait",
+    "level": "A2"
+  },
+  {
+    "id": "s048",
+    "fr": "Je pars en Espagne en août et je reviens au Canada en septembre.",
+    "en": "I'm leaving for Spain in August and coming back to Canada in September.",
+    "grammarNote": "'En' + feminine country, 'au' + masculine country, 'en' + month.",
+    "grammarTag": "prepositions",
+    "level": "A2"
+  },
+  {
+    "id": "s049",
+    "fr": "Pourriez-vous m'indiquer où se trouve la pharmacie la plus proche ?",
+    "en": "Could you tell me where the nearest pharmacy is?",
+    "grammarNote": "Conditional 'pourriez-vous' for a polite question.",
+    "grammarTag": "conditionnel",
+    "level": "A2"
+  },
+  {
+    "id": "s050",
+    "fr": "Je suis né en 1995 et j'ai grandi dans un petit village.",
+    "en": "I was born in 1995 and grew up in a small village.",
+    "grammarNote": "Être with naître (né), avoir with grandir.",
+    "grammarTag": "passe-compose",
+    "level": "A2"
+  },
+  {
+    "id": "s051",
+    "fr": "N'oublie pas de fermer la porte à clé en partant.",
+    "en": "Don't forget to lock the door when you leave.",
+    "grammarNote": "Negative imperative 'n'oublie pas de' + infinitive.",
+    "grammarTag": "imperatif",
+    "level": "A2"
+  },
+  {
+    "id": "s052",
+    "fr": "C'est le meilleur café de la ville, et en plus il n'est pas cher.",
+    "en": "It's the best café in town, and what's more it isn't expensive.",
+    "grammarNote": "Superlative 'le meilleur' (irregular form of bon) + de.",
+    "grammarTag": "comparatifs",
+    "level": "A2"
+  },
+  {
+    "id": "s053",
+    "fr": "Je ne sais pas conduire, alors je vais partout à pied ou à vélo.",
+    "en": "I can't drive, so I go everywhere on foot or by bike.",
+    "grammarNote": "Savoir + infinitive for a skill; present of savoir and aller.",
+    "grammarTag": "present",
+    "level": "A2"
+  },
+  {
+    "id": "s054",
+    "fr": "Le musée est ouvert jusqu'à 18 heures, on peut y aller après le déjeuner.",
+    "en": "The museum is open until 6 pm, we can go there after lunch.",
+    "grammarNote": "'Y' replaces 'au musée' and goes before the infinitive.",
+    "grammarTag": "y-en",
+    "level": "A2"
+  },
+  {
+    "id": "s055",
+    "fr": "Je ne suis jamais allé au Japon, mais j'aimerais beaucoup y aller.",
+    "en": "I've never been to Japan, but I'd really love to go.",
+    "grammarNote": "In the passé composé, 'ne… jamais' goes around the auxiliary.",
+    "grammarTag": "negation",
+    "level": "A2"
+  },
+  {
+    "id": "s056",
+    "fr": "Ça te dit d'aller boire un verre après le travail ?",
+    "en": "Do you fancy going for a drink after work?",
+    "grammarNote": "'Ça te dit de' + infinitive is a friendly way to suggest something.",
+    "grammarTag": "vocabulary",
+    "level": "A2"
+  },
+  {
+    "id": "s057",
+    "fr": "Qu'est-ce que tu as fait pendant les vacances ? J'ai lu et je me suis reposé.",
+    "en": "What did you do during the holidays? I read and had a rest.",
+    "grammarNote": "Irregular participles (fait, lu) and a reflexive verb with être.",
+    "grammarTag": "passe-compose",
+    "level": "A2"
+  },
+  {
+    "id": "s058",
+    "fr": "Je ne mets pas de sucre dans mon café, mais je mets du lait.",
+    "en": "I don't put sugar in my coffee, but I do put milk in it.",
+    "grammarNote": "'Du' becomes 'de' after a negation: pas de sucre.",
+    "grammarTag": "partitifs",
+    "level": "A2"
+  },
+  {
+    "id": "s059",
+    "fr": "Tu vas voir, ce quartier va beaucoup te plaire.",
+    "en": "You'll see, you're really going to like this neighbourhood.",
+    "grammarNote": "Futur proche with a pronoun before the infinitive (te plaire).",
+    "grammarTag": "futur-proche",
+    "level": "A2"
+  },
+  {
+    "id": "s060",
+    "fr": "Tu peux me prêter ton chargeur ? Mon téléphone n'a plus de batterie.",
+    "en": "Can you lend me your charger? My phone's battery is dead.",
+    "grammarNote": "Indirect object pronoun 'me' (prêter quelque chose à quelqu'un).",
+    "grammarTag": "coi",
+    "level": "A2"
+  },
+  {
+    "id": "s061",
+    "fr": "Mon grand-père se levait toujours à six heures pour lire le journal.",
+    "en": "My grandfather always got up at six to read the newspaper.",
+    "grammarNote": "Imparfait for a repeated habit in the past: 'toujours'.",
+    "grammarTag": "imparfait",
+    "level": "A2"
+  },
+  {
+    "id": "s062",
+    "fr": "Cette robe noire est un peu longue, vous l'avez en plus courte ?",
+    "en": "This black dress is a bit long, do you have it shorter?",
+    "grammarNote": "Adjectives agree with the feminine noun 'robe': noire, longue, courte.",
+    "grammarTag": "accord",
+    "level": "A2"
+  },
+  {
+    "id": "s063",
+    "fr": "Les magasins ferment à vingt heures en semaine et ouvrent à dix heures le dimanche.",
+    "en": "The shops close at 8 pm on weekdays and open at 10 am on Sundays.",
+    "grammarNote": "Present tense for timetables and regular facts.",
+    "grammarTag": "present",
+    "level": "A2"
+  },
+  {
+    "id": "s064",
+    "fr": "Le rendez-vous est à quinze heures, au deuxième étage, en face de l'ascenseur.",
+    "en": "The appointment is at 3 pm, on the second floor, opposite the lift.",
+    "grammarNote": "'À' for clock times, 'au' for floors, 'en face de' = opposite.",
+    "grammarTag": "prepositions",
+    "level": "A2"
+  },
+  {
+    "id": "s065",
+    "fr": "Je cherche un appartement où il y a assez de place pour un bureau.",
+    "en": "I'm looking for a flat with enough room for a study.",
+    "grammarNote": "Relative pronoun 'où' refers to a place.",
+    "grammarTag": "relatifs",
+    "level": "A2"
+  },
+  {
+    "id": "s066",
+    "fr": "La réunion a commencé à neuf heures et elle a duré toute la matinée.",
+    "en": "The meeting started at nine and lasted the whole morning.",
+    "grammarNote": "Passé composé with avoir for completed actions.",
+    "grammarTag": "passe-compose",
+    "level": "A2"
+  },
+  {
+    "id": "s067",
+    "fr": "Asseyez-vous, je vous en prie, le docteur arrive dans un instant.",
+    "en": "Please sit down, the doctor will be with you in a moment.",
+    "grammarNote": "Imperative of a reflexive verb: the pronoun follows with a hyphen (asseyez-vous).",
+    "grammarTag": "imperatif",
+    "level": "A2"
+  },
+  {
+    "id": "s068",
+    "fr": "En hiver, il fait moins froid ici que dans le nord du pays.",
+    "en": "In winter it's less cold here than in the north of the country.",
+    "grammarNote": "Comparative moins + adjective + que.",
+    "grammarTag": "comparatifs",
+    "level": "A2"
+  },
+  {
+    "id": "s069",
+    "fr": "Je n'ai pas encore fini mon travail, je te rappelle dans une heure.",
+    "en": "I haven't finished my work yet, I'll call you back in an hour.",
+    "grammarNote": "'Ne… pas encore' means 'not yet'.",
+    "grammarTag": "negation",
+    "level": "A2"
+  },
+  {
+    "id": "s070",
+    "fr": "Bon appétit ! Merci, à toi aussi, ça a l'air délicieux.",
+    "en": "Enjoy your meal! Thanks, you too, it looks delicious.",
+    "grammarNote": "'Avoir l'air' + adjective = to look / to seem.",
+    "grammarTag": "vocabulary",
+    "level": "A2"
+  },
+  {
+    "id": "s071",
+    "fr": "Je ne trouve pas mes clés, je les ai peut-être laissées au bureau.",
+    "en": "I can't find my keys, maybe I left them at the office.",
+    "grammarNote": "'Les' before avoir makes the participle agree: laissées.",
+    "grammarTag": "cod",
+    "level": "A2"
+  },
+  {
+    "id": "s072",
+    "fr": "Vous prenez le métro ou vous venez en voiture ce soir ?",
+    "en": "Are you taking the metro or coming by car tonight?",
+    "grammarNote": "Present tense of irregular prendre and venir in a question.",
+    "grammarTag": "present",
+    "level": "A2"
+  },
+  {
+    "id": "s073",
+    "fr": "Quand j'étais étudiant, je n'avais pas beaucoup d'argent, mais je sortais souvent.",
+    "en": "When I was a student, I didn't have much money, but I went out a lot.",
+    "grammarNote": "Imparfait of être and avoir for a past situation, and for a habit (sortais).",
+    "grammarTag": "imparfait",
+    "level": "A2"
+  },
+  {
+    "id": "s074",
+    "fr": "Je vais prendre rendez-vous chez le dentiste parce que j'ai mal aux dents.",
+    "en": "I'm going to make an appointment with the dentist because I have toothache.",
+    "grammarNote": "Futur proche for an intention; 'avoir mal à' for pain.",
+    "grammarTag": "futur-proche",
+    "level": "A2"
+  },
+  {
+    "id": "s075",
+    "fr": "Vous avez de la monnaie ? Je n'ai qu'un billet de cinquante euros.",
+    "en": "Do you have any change? I've only got a fifty-euro note.",
+    "grammarNote": "Partitive 'de la' for an uncountable noun (monnaie).",
+    "grammarTag": "partitifs",
+    "level": "A2"
+  },
+  {
+    "id": "s076",
+    "fr": "Tu as besoin de ton ordinateur ? Non, je n'en ai pas besoin aujourd'hui.",
+    "en": "Do you need your computer? No, I don't need it today.",
+    "grammarNote": "'En' replaces 'de + noun' after 'avoir besoin de'.",
+    "grammarTag": "y-en",
+    "level": "A2"
+  },
+  {
+    "id": "s077",
+    "fr": "Ce matin, je suis descendu à pied parce que l'ascenseur était en panne.",
+    "en": "This morning I walked down because the lift was out of order.",
+    "grammarNote": "Passé composé for the action, imparfait for the situation around it.",
+    "grammarTag": "pc-vs-imparfait",
+    "level": "A2"
+  },
+  {
+    "id": "s078",
+    "fr": "On se retrouve devant le cinéma, entre la banque et le café.",
+    "en": "Let's meet in front of the cinema, between the bank and the café.",
+    "grammarNote": "Prepositions of place: devant, entre.",
+    "grammarTag": "prepositions",
+    "level": "A2"
+  },
+  {
+    "id": "s079",
+    "fr": "J'aimerais réserver une table pour quatre personnes samedi soir, si possible.",
+    "en": "I'd like to book a table for four on Saturday evening, if possible.",
+    "grammarNote": "Conditional 'j'aimerais' for a polite request.",
+    "grammarTag": "conditionnel",
+    "level": "A2"
+  },
+  {
+    "id": "s080",
+    "fr": "Les nouveaux voisins sont gentils, mais leurs enfants sont un peu bruyants.",
+    "en": "The new neighbours are nice, but their children are a bit noisy.",
+    "grammarNote": "Plural agreement: nouveaux, gentils, bruyants.",
+    "grammarTag": "accord",
+    "level": "A2"
+  },
+  {
+    "id": "s081",
+    "fr": "Appelle-moi quand tu arriveras à la gare, je viendrai te chercher.",
+    "en": "Call me when you get to the station, I'll come and pick you up.",
+    "grammarNote": "Affirmative imperative: the pronoun follows the verb as 'moi', with a hyphen.",
+    "grammarTag": "imperatif",
+    "level": "A2"
+  },
+  {
+    "id": "s082",
+    "fr": "Ce n'est pas grave, ça arrive à tout le monde.",
+    "en": "It doesn't matter, it happens to everyone.",
+    "grammarNote": "Common negative phrase 'ce n'est pas grave' to reassure someone.",
+    "grammarTag": "negation",
+    "level": "A2"
+  },
+  {
+    "id": "s083",
+    "fr": "Le collègue qui s'occupe des congés est absent cette semaine.",
+    "en": "The colleague who deals with leave is away this week.",
+    "grammarNote": "Relative pronoun 'qui' as subject of 's'occupe'.",
+    "grammarTag": "relatifs",
+    "level": "A2"
+  },
+  {
+    "id": "s084",
+    "fr": "Je finis le travail à dix-sept heures et je rentre directement chez moi.",
+    "en": "I finish work at 5 pm and go straight home.",
+    "grammarNote": "Present of an -ir verb (je finis) and an -er verb (je rentre).",
+    "grammarTag": "present",
+    "level": "A2"
+  },
+  {
+    "id": "s085",
+    "fr": "Ma fille parle mieux anglais que moi, elle regarde des séries en version originale.",
+    "en": "My daughter speaks English better than I do, she watches series in the original language.",
+    "grammarNote": "'Mieux' is the comparative of the adverb bien; stressed pronoun 'moi' after que.",
+    "grammarTag": "comparatifs",
+    "level": "A2"
+  },
+  {
+    "id": "s086",
+    "fr": "Vous avez déjà essayé ce restaurant ? On y a très bien mangé.",
+    "en": "Have you ever tried this restaurant? We ate really well there.",
+    "grammarNote": "Short adverbs (déjà, bien) go between the auxiliary and the participle.",
+    "grammarTag": "passe-compose",
+    "level": "A2"
+  },
+  {
+    "id": "s087",
+    "fr": "L'hôtel était calme, la chambre était propre et le personnel très accueillant.",
+    "en": "The hotel was quiet, the room was clean and the staff very welcoming.",
+    "grammarNote": "Imparfait for describing places and people in the past.",
+    "grammarTag": "imparfait",
+    "level": "A2"
+  },
+  {
+    "id": "s088",
+    "fr": "Ces chaussures sont trop petites, je peux les échanger ?",
+    "en": "These shoes are too small, can I exchange them?",
+    "grammarNote": "'Les' goes before the infinitive it depends on (les échanger).",
+    "grammarTag": "cod",
+    "level": "A2"
+  },
+  {
+    "id": "s089",
+    "fr": "Attention, tu vas tomber si tu montes sur cette chaise !",
+    "en": "Careful, you're going to fall if you stand on that chair!",
+    "grammarNote": "Futur proche for a consequence that is about to happen.",
+    "grammarTag": "futur-proche",
+    "level": "A2"
+  },
+  {
+    "id": "s090",
+    "fr": "Je suis crevé, j'ai passé la journée à faire des cartons.",
+    "en": "I'm shattered, I spent the day packing boxes.",
+    "grammarNote": "Informal 'crevé' = exhausted; 'passer la journée à' + infinitive.",
+    "grammarTag": "vocabulary",
+    "level": "A2"
+  },
+  {
+    "id": "s091",
+    "fr": "Je regardais la télé quand quelqu'un a sonné à la porte.",
+    "en": "I was watching TV when someone rang the doorbell.",
+    "grammarNote": "Imparfait for the action in progress, passé composé for the event that interrupts it.",
+    "grammarTag": "pc-vs-imparfait",
+    "level": "A2+"
+  },
+  {
+    "id": "s092",
+    "fr": "Ce médicament, vous le prenez trois fois par jour, pendant les repas.",
+    "en": "You take this medicine three times a day, with meals.",
+    "grammarNote": "'Le' repeats the noun placed at the front for emphasis (ce médicament).",
+    "grammarTag": "cod",
+    "level": "A2+"
+  },
+  {
+    "id": "s093",
+    "fr": "L'année prochaine, je passerai le TCF et je chercherai du travail en France.",
+    "en": "Next year I'll take the TCF and look for work in France.",
+    "grammarNote": "Futur simple for future plans: infinitive + -ai.",
+    "grammarTag": "futur-simple",
+    "level": "A2+"
+  },
+  {
+    "id": "s094",
+    "fr": "J'ai écrit à mon propriétaire, mais il ne m'a pas encore répondu.",
+    "en": "I wrote to my landlord, but he hasn't replied to me yet.",
+    "grammarNote": "'Répondre à quelqu'un' takes an indirect pronoun: 'me'.",
+    "grammarTag": "coi",
+    "level": "A2+"
+  },
+  {
+    "id": "s095",
+    "fr": "La ville où j'ai grandi a beaucoup changé depuis dix ans.",
+    "en": "The town where I grew up has changed a lot in the last ten years.",
+    "grammarNote": "Relative pronoun 'où' for a place.",
+    "grammarTag": "relatifs",
+    "level": "A2+"
+  },
+  {
+    "id": "s096",
+    "fr": "J'ai mal à la gorge et je tousse depuis trois jours.",
+    "en": "I've had a sore throat and a cough for three days.",
+    "grammarNote": "Health vocabulary: 'avoir mal à la gorge', 'tousser'; present + depuis.",
+    "grammarTag": "vocabulary",
+    "level": "A2+"
+  },
+  {
+    "id": "s097",
+    "fr": "Si tu vois Paul, dis-lui que la réunion est annulée.",
+    "en": "If you see Paul, tell him the meeting is cancelled.",
+    "grammarNote": "Affirmative imperative with an indirect pronoun after the verb: dis-lui.",
+    "grammarTag": "imperatif",
+    "level": "A2+"
+  },
+  {
+    "id": "s098",
+    "fr": "Mon chef va me proposer un nouveau poste, mais je vais réfléchir avant de répondre.",
+    "en": "My boss is going to offer me a new position, but I'm going to think before answering.",
+    "grammarNote": "Futur proche: the pronoun goes before the infinitive (va me proposer).",
+    "grammarTag": "futur-proche",
+    "level": "A2+"
+  },
+  {
+    "id": "s099",
+    "fr": "Il pleuvait tellement que nous avons annulé le pique-nique.",
+    "en": "It was raining so hard that we cancelled the picnic.",
+    "grammarNote": "Imparfait for the circumstance, passé composé for the decision taken.",
+    "grammarTag": "pc-vs-imparfait",
+    "level": "A2+"
+  },
+  {
+    "id": "s100",
+    "fr": "Ce travail est moins bien payé, mais les horaires sont beaucoup plus flexibles.",
+    "en": "This job is less well paid, but the hours are much more flexible.",
+    "grammarNote": "'Moins bien' and 'beaucoup plus' to compare and intensify.",
+    "grammarTag": "comparatifs",
+    "level": "A2+"
+  },
+  {
+    "id": "s101",
+    "fr": "Il manque des documents ? Oui, il en manque encore deux.",
+    "en": "Are some documents missing? Yes, two are still missing.",
+    "grammarNote": "'En' replaces 'documents' when a number follows.",
+    "grammarTag": "y-en",
+    "level": "A2+"
+  },
+  {
+    "id": "s102",
+    "fr": "Je n'ai vu personne à l'accueil, alors je suis reparti.",
+    "en": "I didn't see anyone at reception, so I left again.",
+    "grammarNote": "'Ne… personne' as object: 'personne' goes after the participle.",
+    "grammarTag": "negation",
+    "level": "A2+"
+  },
+  {
+    "id": "s103",
+    "fr": "Quand tu auras ton diplôme, tu pourras travailler à l'étranger.",
+    "en": "When you get your degree, you'll be able to work abroad.",
+    "grammarNote": "After 'quand' about the future, French uses the futur simple, not the present.",
+    "grammarTag": "futur-simple",
+    "level": "A2+"
+  },
+  {
+    "id": "s104",
+    "fr": "Ma voiture est en panne, je l'apporte au garage demain matin.",
+    "en": "My car has broken down, I'm taking it to the garage tomorrow morning.",
+    "grammarNote": "'La' becomes 'l'' before a vowel: je l'apporte.",
+    "grammarTag": "cod",
+    "level": "A2+"
+  },
+  {
+    "id": "s105",
+    "fr": "Quand je suis arrivé au bureau, tout le monde était déjà en réunion.",
+    "en": "When I got to the office, everyone was already in a meeting.",
+    "grammarNote": "Passé composé for the arrival, imparfait for the situation found.",
+    "grammarTag": "pc-vs-imparfait",
+    "level": "A2+"
+  },
+  {
+    "id": "s106",
+    "fr": "C'est un film que j'ai vu trois fois et qui me fait toujours rire.",
+    "en": "It's a film I've seen three times and that always makes me laugh.",
+    "grammarNote": "'Que' as object (j'ai vu) and 'qui' as subject (fait) in the same sentence.",
+    "grammarTag": "relatifs",
+    "level": "A2+"
+  },
+  {
+    "id": "s107",
+    "fr": "Mes parents habitent loin, alors je leur téléphone tous les dimanches.",
+    "en": "My parents live far away, so I phone them every Sunday.",
+    "grammarNote": "'Leur' replaces 'à mes parents' and never takes an -s.",
+    "grammarTag": "coi",
+    "level": "A2+"
+  },
+  {
+    "id": "s108",
+    "fr": "Il faut envoyer le formulaire avant le 15 mars, par courrier ou par e-mail.",
+    "en": "You must send the form before 15 March, by post or by email.",
+    "grammarNote": "'Avant' + date for a deadline; 'par' for the means of sending.",
+    "grammarTag": "prepositions",
+    "level": "A2+"
+  },
+  {
+    "id": "s109",
+    "fr": "Demain, il fera beau dans le sud, mais il y aura des orages dans l'est.",
+    "en": "Tomorrow it will be sunny in the south, but there will be storms in the east.",
+    "grammarNote": "Irregular futur simple stems: fera (faire), aura (avoir).",
+    "grammarTag": "futur-simple",
+    "level": "A2+"
+  },
+  {
+    "id": "s110",
+    "fr": "Vous pourriez parler un peu plus lentement, s'il vous plaît ?",
+    "en": "Could you speak a little more slowly, please?",
+    "grammarNote": "Conditional 'vous pourriez' for a polite request.",
+    "grammarTag": "conditionnel",
+    "level": "A2+"
+  },
+  {
+    "id": "s111",
+    "fr": "Les lettres que j'ai envoyées la semaine dernière ne sont toujours pas arrivées.",
+    "en": "The letters I sent last week still haven't arrived.",
+    "grammarNote": "Participle agrees with a preceding direct object (que = les lettres) and with être.",
+    "grammarTag": "accord",
+    "level": "A2+"
+  },
+  {
+    "id": "s112",
+    "fr": "À l'époque, on n'avait pas de portable, on s'écrivait des lettres.",
+    "en": "Back then we didn't have mobile phones, we wrote letters to each other.",
+    "grammarNote": "Imparfait for situations and habits of a past period ('à l'époque').",
+    "grammarTag": "imparfait",
+    "level": "A2+"
+  },
+  {
+    "id": "s113",
+    "fr": "Ces photos sont magnifiques, tu peux me les envoyer ?",
+    "en": "These photos are beautiful, can you send them to me?",
+    "grammarNote": "Two pronouns together: 'me' comes before 'les'.",
+    "grammarTag": "cod",
+    "level": "A2+"
+  },
+  {
+    "id": "s114",
+    "fr": "J'étais très fatigué, alors je me suis couché sans dîner.",
+    "en": "I was very tired, so I went to bed without having dinner.",
+    "grammarNote": "Imparfait for a physical state, passé composé for the action that follows.",
+    "grammarTag": "pc-vs-imparfait",
+    "level": "A2+"
+  },
+  {
+    "id": "s115",
+    "fr": "Le train va partir avec un peu de retard en raison d'un problème technique.",
+    "en": "The train is going to leave slightly late due to a technical problem.",
+    "grammarNote": "Futur proche, typical of announcements; 'en raison de' = due to.",
+    "grammarTag": "futur-proche",
+    "level": "A2+"
+  },
+  {
+    "id": "s116",
+    "fr": "Je suis en arrêt maladie jusqu'à vendredi, je reprends le travail lundi.",
+    "en": "I'm on sick leave until Friday, I'm going back to work on Monday.",
+    "grammarNote": "Work vocabulary: 'être en arrêt maladie', 'reprendre le travail'.",
+    "grammarTag": "vocabulary",
+    "level": "A2+"
+  },
+  {
+    "id": "s117",
+    "fr": "Ce poste ? J'y pense depuis des semaines, mais je n'ose pas postuler.",
+    "en": "That job? I've been thinking about it for weeks, but I don't dare apply.",
+    "grammarNote": "'Penser à quelque chose' becomes 'y penser'.",
+    "grammarTag": "y-en",
+    "level": "A2+"
+  },
+  {
+    "id": "s118",
+    "fr": "Le bureau où vous devez déposer votre demande se trouve au rez-de-chaussée.",
+    "en": "The office where you need to submit your application is on the ground floor.",
+    "grammarNote": "'Où' introduces details about a place.",
+    "grammarTag": "relatifs",
+    "level": "A2+"
+  },
+  {
+    "id": "s119",
+    "fr": "Il ne reste que deux places pour le concert de ce soir.",
+    "en": "There are only two seats left for tonight's concert.",
+    "grammarNote": "'Ne… que' means 'only'; it is a restriction, not a true negation.",
+    "grammarTag": "negation",
+    "level": "A2+"
+  },
+  {
+    "id": "s120",
+    "fr": "Le serveur nous a apporté la carte et il nous a conseillé le plat du jour.",
+    "en": "The waiter brought us the menu and recommended the dish of the day.",
+    "grammarNote": "'Nous' as an indirect object: apporter / conseiller quelque chose à quelqu'un.",
+    "grammarTag": "coi",
+    "level": "A2+"
+  },
+  {
+    "id": "s121",
+    "fr": "Je vous enverrai le reçu dès que nous recevrons votre paiement.",
+    "en": "I'll send you the receipt as soon as we receive your payment.",
+    "grammarNote": "Futur simple in both clauses after 'dès que' about the future.",
+    "grammarTag": "futur-simple",
+    "level": "A2+"
+  },
+  {
+    "id": "s122",
+    "fr": "Pendant que je faisais les courses, on m'a volé mon portefeuille.",
+    "en": "While I was doing the shopping, someone stole my wallet.",
+    "grammarNote": "Imparfait after 'pendant que' for the background, passé composé for the event.",
+    "grammarTag": "pc-vs-imparfait",
+    "level": "A2+"
+  },
+  {
+    "id": "s123",
+    "fr": "C'est la pire semaine de l'année : j'ai trois examens et un déménagement.",
+    "en": "It's the worst week of the year: I have three exams and a house move.",
+    "grammarNote": "Superlative 'la pire' (irregular form of mauvaise) + de.",
+    "grammarTag": "comparatifs",
+    "level": "A2+"
+  },
+  {
+    "id": "s124",
+    "fr": "Ne t'inquiète pas pour les enfants, je m'occupe de tout ce soir.",
+    "en": "Don't worry about the children, I'll take care of everything tonight.",
+    "grammarNote": "Negative imperative of a reflexive verb: ne + te + verb + pas.",
+    "grammarTag": "imperatif",
+    "level": "A2+"
+  },
+  {
+    "id": "s125",
+    "fr": "Le directeur ? Je ne le connais pas, je ne l'ai jamais rencontré.",
+    "en": "The manager? I don't know him, I've never met him.",
+    "grammarNote": "Object pronoun placement with negation, in the present and passé composé.",
+    "grammarTag": "cod",
+    "level": "A2+"
+  },
+  {
+    "id": "s126",
+    "fr": "Si tu pars avant sept heures, tu éviteras les embouteillages sur l'autoroute.",
+    "en": "If you leave before seven, you'll avoid the traffic jams on the motorway.",
+    "grammarNote": "Si + present, then futur simple for a likely result.",
+    "grammarTag": "futur-simple",
+    "level": "A2+"
+  },
+  {
+    "id": "s127",
+    "fr": "Je suis allé à la mairie pour demander un extrait d'acte de naissance.",
+    "en": "I went to the town hall to ask for a copy of my birth certificate.",
+    "grammarNote": "'Pour' + infinitive to express purpose.",
+    "grammarTag": "prepositions",
+    "level": "A2+"
+  },
+  {
+    "id": "s128",
+    "fr": "Elle travaillait dans une banque, puis elle a décidé de devenir professeure.",
+    "en": "She used to work in a bank, then she decided to become a teacher.",
+    "grammarNote": "Imparfait for a past situation, passé composé for a turning point.",
+    "grammarTag": "pc-vs-imparfait",
+    "level": "A2+"
+  },
+  {
+    "id": "s129",
+    "fr": "Les étudiants qui veulent s'inscrire doivent remplir ce formulaire en ligne.",
+    "en": "Students who want to enrol must fill in this form online.",
+    "grammarNote": "'Qui' as subject identifies which students.",
+    "grammarTag": "relatifs",
+    "level": "A2+"
+  },
+  {
+    "id": "s130",
+    "fr": "Ça vaut la peine de comparer les prix avant d'acheter un billet d'avion.",
+    "en": "It's worth comparing prices before buying a plane ticket.",
+    "grammarNote": "Expression 'ça vaut la peine de' + infinitive = it's worth doing.",
+    "grammarTag": "vocabulary",
+    "level": "A2+"
+  },
+  {
+    "id": "s131",
+    "fr": "Cette veste te va très bien, tu devrais la prendre.",
+    "en": "That jacket really suits you, you should take it.",
+    "grammarNote": "'Aller à quelqu'un' (to suit) takes an indirect pronoun: te va.",
+    "grammarTag": "coi",
+    "level": "A2+"
+  },
+  {
+    "id": "s132",
+    "fr": "Je crois qu'il va neiger, le ciel est tout gris.",
+    "en": "I think it's going to snow, the sky is all grey.",
+    "grammarNote": "Futur proche for a prediction based on what you can see.",
+    "grammarTag": "futur-proche",
+    "level": "A2+"
+  },
+  {
+    "id": "s133",
+    "fr": "Chaque été, nous louions une maison au bord de la mer avec des amis.",
+    "en": "Every summer we used to rent a house by the sea with friends.",
+    "grammarNote": "Imparfait for a repeated habit: 'chaque été'.",
+    "grammarTag": "imparfait",
+    "level": "A2+"
+  },
+  {
+    "id": "s134",
+    "fr": "Tu as des frères et sœurs ? Oui, j'en ai deux, un frère et une sœur.",
+    "en": "Do you have any brothers and sisters? Yes, I have two, a brother and a sister.",
+    "grammarNote": "'En' with a number: j'en ai deux.",
+    "grammarTag": "y-en",
+    "level": "A2+"
+  },
+  {
+    "id": "s135",
+    "fr": "Ma fille est rentrée tard hier soir, elle était épuisée.",
+    "en": "My daughter came home late last night, she was exhausted.",
+    "grammarNote": "Agreement with être: rentrée; adjective agreement: épuisée.",
+    "grammarTag": "accord",
+    "level": "A2+"
+  },
+  {
+    "id": "s136",
+    "fr": "Quand j'ai ouvert la porte, il y avait de l'eau partout dans la cuisine.",
+    "en": "When I opened the door, there was water everywhere in the kitchen.",
+    "grammarNote": "Passé composé for the action, imparfait for what was already there.",
+    "grammarTag": "pc-vs-imparfait",
+    "level": "A2+"
+  },
+  {
+    "id": "s137",
+    "fr": "Je ne bois plus d'alcool depuis que je fais du sport.",
+    "en": "I haven't drunk alcohol since I took up sport.",
+    "grammarNote": "'Ne… plus' for something that has stopped.",
+    "grammarTag": "negation",
+    "level": "A2+"
+  },
+  {
+    "id": "s138",
+    "fr": "Est-ce que je pourrais changer la date de mon rendez-vous ?",
+    "en": "Could I change the date of my appointment?",
+    "grammarNote": "Conditional 'je pourrais' softens a request.",
+    "grammarTag": "conditionnel",
+    "level": "A2+"
+  },
+  {
+    "id": "s139",
+    "fr": "Cette offre d'emploi, je l'ai trouvée sur un site spécialisé.",
+    "en": "I found this job offer on a specialist website.",
+    "grammarNote": "'L'' before avoir makes the participle agree with 'offre': trouvée.",
+    "grammarTag": "cod",
+    "level": "A2+"
+  },
+  {
+    "id": "s140",
+    "fr": "Nous serons en vacances du 10 au 24 août, l'agence sera donc fermée.",
+    "en": "We'll be on holiday from 10 to 24 August, so the agency will be closed.",
+    "grammarNote": "Irregular futur simple of être: serons, sera.",
+    "grammarTag": "futur-simple",
+    "level": "A2+"
+  },
+  {
+    "id": "s141",
+    "fr": "Le jour où j'ai eu mon permis, j'ai fait le tour de la ville en voiture.",
+    "en": "The day I got my driving licence, I drove all around town.",
+    "grammarNote": "'Où' can also follow a time expression: le jour où.",
+    "grammarTag": "relatifs",
+    "level": "A2+"
+  },
+  {
+    "id": "s142",
+    "fr": "Envoyez-nous votre CV et une lettre de motivation avant la fin du mois.",
+    "en": "Send us your CV and a cover letter before the end of the month.",
+    "grammarNote": "Affirmative imperative with the pronoun after the verb: envoyez-nous.",
+    "grammarTag": "imperatif",
+    "level": "A2+"
+  },
+  {
+    "id": "s143",
+    "fr": "Je voulais t'appeler hier, mais j'ai complètement oublié.",
+    "en": "I meant to call you yesterday, but I completely forgot.",
+    "grammarNote": "Imparfait for an intention, passé composé for what actually happened.",
+    "grammarTag": "pc-vs-imparfait",
+    "level": "A2+"
+  },
+  {
+    "id": "s144",
+    "fr": "Qu'est-ce que tu vas offrir à ton père ? Je vais lui offrir un livre.",
+    "en": "What are you going to give your father? I'm going to give him a book.",
+    "grammarNote": "'Lui' replaces 'à ton père' and goes before the infinitive.",
+    "grammarTag": "coi",
+    "level": "A2+"
+  },
+  {
+    "id": "s145",
+    "fr": "Il y a plus de touristes en juillet qu'en novembre, évidemment.",
+    "en": "There are more tourists in July than in November, obviously.",
+    "grammarNote": "'Plus de' + noun + que to compare quantities.",
+    "grammarTag": "comparatifs",
+    "level": "A2+"
+  },
+  {
+    "id": "s146",
+    "fr": "J'ai un entretien d'embauche demain, je croise les doigts.",
+    "en": "I have a job interview tomorrow, fingers crossed.",
+    "grammarNote": "Idiom 'croiser les doigts' = to keep your fingers crossed.",
+    "grammarTag": "vocabulary",
+    "level": "A2+"
+  },
+  {
+    "id": "s147",
+    "fr": "Un jour, j'achèterai une petite maison à la campagne et j'aurai un grand jardin.",
+    "en": "One day I'll buy a little house in the country and have a big garden.",
+    "grammarNote": "Futur simple for long-term dreams; note achèterai and irregular aurai.",
+    "grammarTag": "futur-simple",
+    "level": "A2+"
+  },
+  {
+    "id": "s148",
+    "fr": "Le sport ? Je m'y intéresse beaucoup, surtout au football.",
+    "en": "Sport? I'm very interested in it, especially football.",
+    "grammarNote": "'S'intéresser à quelque chose' becomes 's'y intéresser'.",
+    "grammarTag": "y-en",
+    "level": "A2+"
+  },
+  {
+    "id": "s149",
+    "fr": "Quand j'avais dix ans, je suis tombé de vélo et je me suis cassé le bras.",
+    "en": "When I was ten, I fell off my bike and broke my arm.",
+    "grammarNote": "Imparfait for age and background, passé composé for the events.",
+    "grammarTag": "pc-vs-imparfait",
+    "level": "A2+"
+  },
+  {
+    "id": "s150",
+    "fr": "Je compte sur toi pour m'aider à préparer la fête.",
+    "en": "I'm counting on you to help me get the party ready.",
+    "grammarNote": "Verbs with fixed prepositions: compter sur, aider à.",
+    "grammarTag": "prepositions",
+    "level": "A2+"
+  },
+  {
+    "id": "s151",
+    "fr": "Il n'y a aucun problème, vous pouvez payer en plusieurs fois.",
+    "en": "There's no problem at all, you can pay in instalments.",
+    "grammarNote": "'Ne… aucun' means 'no / not a single' and agrees with the noun.",
+    "grammarTag": "negation",
+    "level": "A2+"
+  },
+  {
+    "id": "s152",
+    "fr": "Les enfants, je les emmène à l'école à huit heures et demie.",
+    "en": "I take the children to school at half past eight.",
+    "grammarNote": "'Les' repeats the noun placed first (les enfants) for emphasis.",
+    "grammarTag": "cod",
+    "level": "A2+"
+  },
+  {
+    "id": "s153",
+    "fr": "Autrefois, le quartier était très animé et il y avait des petits commerces partout.",
+    "en": "In the old days the neighbourhood was very lively and there were small shops everywhere.",
+    "grammarNote": "Imparfait to describe how a place used to be.",
+    "grammarTag": "imparfait",
+    "level": "A2+"
+  },
+  {
+    "id": "s154",
+    "fr": "Je vais m'inscrire à un cours de cuisine pour apprendre à faire du pain.",
+    "en": "I'm going to sign up for a cooking class to learn how to make bread.",
+    "grammarNote": "Futur proche with a reflexive verb: the pronoun goes before the infinitive.",
+    "grammarTag": "futur-proche",
+    "level": "A2+"
+  },
+  {
+    "id": "s155",
+    "fr": "J'ai rencontré quelqu'un qui travaille dans la même entreprise que toi.",
+    "en": "I met someone who works at the same company as you.",
+    "grammarNote": "'Qui' as subject after 'quelqu'un'.",
+    "grammarTag": "relatifs",
+    "level": "A2+"
+  },
+  {
+    "id": "s156",
+    "fr": "Le propriétaire nous a demandé de payer le loyer avant le cinq du mois.",
+    "en": "The landlord asked us to pay the rent before the fifth of the month.",
+    "grammarNote": "'Demander à quelqu'un de faire' takes an indirect pronoun: nous.",
+    "grammarTag": "coi",
+    "level": "A2+"
+  },
+  {
+    "id": "s157",
+    "fr": "Nous étions en train de dîner quand il y a eu une coupure de courant.",
+    "en": "We were having dinner when there was a power cut.",
+    "grammarNote": "'Être en train de' in the imparfait for an ongoing action, interrupted by a passé composé.",
+    "grammarTag": "pc-vs-imparfait",
+    "level": "A2+"
+  },
+  {
+    "id": "s158",
+    "fr": "Votre colis arrivera chez vous dans trois à cinq jours ouvrés.",
+    "en": "Your parcel will arrive at your home within three to five working days.",
+    "grammarNote": "Futur simple for a promise or forecast in formal messages.",
+    "grammarTag": "futur-simple",
+    "level": "A2+"
+  },
+  {
+    "id": "s159",
+    "fr": "Toutes les chambres sont réservées ce week-end, mais quelques-unes seront libres lundi.",
+    "en": "All the rooms are booked this weekend, but a few will be free on Monday.",
+    "grammarNote": "'Toutes', 'réservées' and 'quelques-unes' agree with the feminine plural 'chambres'.",
+    "grammarTag": "accord",
+    "level": "A2+"
+  },
+  {
+    "id": "s160",
+    "fr": "Je n'arrive pas à me concentrer avec tout ce bruit.",
+    "en": "I can't concentrate with all this noise.",
+    "grammarNote": "'Arriver à' + infinitive means 'to manage to'.",
+    "grammarTag": "vocabulary",
+    "level": "A2+"
+  },
+  {
+    "id": "s161",
+    "fr": "Si vous avez des questions, n'hésitez pas à me contacter.",
+    "en": "If you have any questions, don't hesitate to contact me.",
+    "grammarNote": "Negative imperative 'n'hésitez pas à' + infinitive, very common in emails.",
+    "grammarTag": "imperatif",
+    "level": "A2+"
+  },
+  {
+    "id": "s162",
+    "fr": "Tu reprends du gâteau ? Non merci, j'en ai déjà mangé deux parts.",
+    "en": "Will you have some more cake? No thanks, I've already had two slices.",
+    "grammarNote": "'En' replaces 'du gâteau' before the auxiliary in the passé composé.",
+    "grammarTag": "y-en",
+    "level": "A2+"
+  },
+  {
+    "id": "s163",
+    "fr": "Comme le restaurant était complet, nous avons mangé une pizza à la maison.",
+    "en": "As the restaurant was full, we had a pizza at home.",
+    "grammarNote": "'Comme' + imparfait gives the cause; passé composé for the result.",
+    "grammarTag": "pc-vs-imparfait",
+    "level": "A2+"
+  },
+  {
+    "id": "s164",
+    "fr": "Le formulaire ? Tu dois le remplir, le signer et le renvoyer avant lundi.",
+    "en": "The form? You have to fill it in, sign it and send it back before Monday.",
+    "grammarNote": "'Le' is repeated before each infinitive.",
+    "grammarTag": "cod",
+    "level": "A2+"
+  },
+  {
+    "id": "s165",
+    "fr": "Le nouveau centre sportif ouvrira ses portes au printemps prochain.",
+    "en": "The new sports centre will open its doors next spring.",
+    "grammarNote": "Futur simple of a regular -ir verb: ouvrira.",
+    "grammarTag": "futur-simple",
+    "level": "A2+"
+  },
+  {
+    "id": "s166",
+    "fr": "Ce film ne m'a pas plu, mais il a beaucoup plu à mon mari.",
+    "en": "I didn't like this film, but my husband really liked it.",
+    "grammarNote": "'Plaire à quelqu'un' takes an indirect object; the thing liked is the subject.",
+    "grammarTag": "coi",
+    "level": "A2+"
+  },
+  {
+    "id": "s167",
+    "fr": "La maison que nous avons visitée samedi avait un très beau jardin.",
+    "en": "The house we visited on Saturday had a really nice garden.",
+    "grammarNote": "'Que' as object; the participle agrees with it: visitée.",
+    "grammarTag": "relatifs",
+    "level": "A2+"
+  },
+  {
+    "id": "s168",
+    "fr": "Je cours de plus en plus vite grâce à mon entraînement régulier.",
+    "en": "I'm running faster and faster thanks to my regular training.",
+    "grammarNote": "'De plus en plus' = more and more (or -er and -er).",
+    "grammarTag": "comparatifs",
+    "level": "A2+"
+  },
+  {
+    "id": "s169",
+    "fr": "Ni mon frère ni ma sœur ne savent nager.",
+    "en": "Neither my brother nor my sister can swim.",
+    "grammarNote": "'Ni… ni… ne' = neither… nor; no 'pas'.",
+    "grammarTag": "negation",
+    "level": "A2+"
+  },
+  {
+    "id": "s170",
+    "fr": "Je suis resté à la maison toute la journée parce que j'avais de la fièvre.",
+    "en": "I stayed at home all day because I had a temperature.",
+    "grammarNote": "Passé composé for the completed action, imparfait for the cause (a state).",
+    "grammarTag": "pc-vs-imparfait",
+    "level": "A2+"
+  },
+  {
+    "id": "s171",
+    "fr": "À ta place, je prendrais un taxi, il est déjà tard.",
+    "en": "If I were you, I'd take a taxi, it's already late.",
+    "grammarNote": "Conditional after 'à ta place' to give advice.",
+    "grammarTag": "conditionnel",
+    "level": "A2+"
+  },
+  {
+    "id": "s172",
+    "fr": "Petite, ma fille avait peur du noir et dormait avec la lumière allumée.",
+    "en": "When she was little, my daughter was afraid of the dark and slept with the light on.",
+    "grammarNote": "Imparfait for childhood states and habits.",
+    "grammarTag": "imparfait",
+    "level": "A2+"
+  },
+  {
+    "id": "s173",
+    "fr": "Il faudra apporter une pièce d'identité et un justificatif de domicile.",
+    "en": "You'll need to bring ID and proof of address.",
+    "grammarNote": "'Il faudra' is the futur simple of 'il faut'.",
+    "grammarTag": "futur-simple",
+    "level": "A2+"
+  },
+  {
+    "id": "s174",
+    "fr": "Le centre commercial est loin d'ici : il faut traverser le pont et continuer jusqu'au rond-point.",
+    "en": "The shopping centre is a long way from here: you have to cross the bridge and carry on to the roundabout.",
+    "grammarNote": "'Loin de' and 'jusqu'à' (jusqu'au = jusqu'à + le).",
+    "grammarTag": "prepositions",
+    "level": "A2+"
+  },
+  {
+    "id": "s175",
+    "fr": "Les billets ? Ne t'inquiète pas, je m'en occupe ce soir.",
+    "en": "The tickets? Don't worry, I'll sort them out tonight.",
+    "grammarNote": "'S'occuper de quelque chose' becomes 's'en occuper'.",
+    "grammarTag": "y-en",
+    "level": "A2+"
+  },
+  {
+    "id": "s176",
+    "fr": "Au début, je ne comprenais rien aux réunions, mais petit à petit j'ai fait des progrès.",
+    "en": "At first I didn't understand anything in meetings, but little by little I made progress.",
+    "grammarNote": "Imparfait for a lasting state, passé composé for the change that followed.",
+    "grammarTag": "pc-vs-imparfait",
+    "level": "B1"
+  },
+  {
+    "id": "s177",
+    "fr": "Si j'avais plus de temps, je ferais du bénévolat dans une association.",
+    "en": "If I had more time, I'd volunteer for a charity.",
+    "grammarNote": "Si + imparfait, then conditionnel, for an imaginary situation.",
+    "grammarTag": "conditionnel",
+    "level": "B1"
+  },
+  {
+    "id": "s178",
+    "fr": "Voici le collègue dont je t'ai parlé, il connaît bien le dossier.",
+    "en": "This is the colleague I told you about, he knows the file well.",
+    "grammarNote": "'Dont' replaces de + noun: parler de quelqu'un.",
+    "grammarTag": "dont",
+    "level": "B1"
+  },
+  {
+    "id": "s179",
+    "fr": "Il a beaucoup révisé, pourtant il n'a pas réussi son examen.",
+    "en": "He revised a lot, yet he didn't pass his exam.",
+    "grammarNote": "'Pourtant' (yet / however) introduces an unexpected contrast.",
+    "grammarTag": "connecteurs",
+    "level": "B1"
+  },
+  {
+    "id": "s180",
+    "fr": "Il faut que tu remplisses ce formulaire avant la fin de la semaine.",
+    "en": "You need to fill in this form before the end of the week.",
+    "grammarNote": "'Il faut que' is followed by the subjonctif: que tu remplisses.",
+    "grammarTag": "subjonctif",
+    "level": "B1"
+  },
+  {
+    "id": "s181",
+    "fr": "Tes clés ? Je les lui ai données ce matin avant de partir.",
+    "en": "Your keys? I gave them to him this morning before leaving.",
+    "grammarNote": "Pronoun order 'les lui'; the participle agrees with 'les': données.",
+    "grammarTag": "cod",
+    "level": "B1"
+  },
+  {
+    "id": "s182",
+    "fr": "Dans dix ans, la plupart des voitures seront probablement électriques.",
+    "en": "In ten years, most cars will probably be electric.",
+    "grammarNote": "Futur simple for a prediction; 'la plupart des' takes a plural verb.",
+    "grammarTag": "futur-simple",
+    "level": "B1"
+  },
+  {
+    "id": "s183",
+    "fr": "Plus on pratique une langue, plus on la parle facilement.",
+    "en": "The more you practise a language, the more easily you speak it.",
+    "grammarNote": "'Plus… plus…' = the more… the more…",
+    "grammarTag": "comparatifs",
+    "level": "B1"
+  },
+  {
+    "id": "s184",
+    "fr": "Mon chef dit qu'il est content de mon travail et qu'il veut me garder.",
+    "en": "My boss says he's happy with my work and wants to keep me on.",
+    "grammarNote": "Reported speech with a present reporting verb: dire que + clause; 'que' is repeated.",
+    "grammarTag": "discours-indirect",
+    "level": "B1"
+  },
+  {
+    "id": "s185",
+    "fr": "Je n'ai jamais rien vu d'aussi beau que ce coucher de soleil.",
+    "en": "I've never seen anything as beautiful as this sunset.",
+    "grammarNote": "Two negative words combined: jamais rien; 'rien de' + adjective.",
+    "grammarTag": "negation",
+    "level": "B1"
+  },
+  {
+    "id": "s186",
+    "fr": "Ce n'est pas la peine de te presser, on a largement le temps.",
+    "en": "There's no need to rush, we've got plenty of time.",
+    "grammarNote": "'Ce n'est pas la peine de' = there's no need to; 'largement' = plenty.",
+    "grammarTag": "vocabulary",
+    "level": "B1"
+  },
+  {
+    "id": "s187",
+    "fr": "Des problèmes, il y en a toujours, mais on finit par trouver une solution.",
+    "en": "There are always problems, but you end up finding a solution.",
+    "grammarNote": "'Il y en a' replaces 'il y a des problèmes'; 'finir par' = to end up.",
+    "grammarTag": "y-en",
+    "level": "B1"
+  },
+  {
+    "id": "s188",
+    "fr": "Je ne savais pas que tu parlais espagnol, tu l'as appris où ?",
+    "en": "I didn't know you spoke Spanish, where did you learn it?",
+    "grammarNote": "Imparfait for states of knowledge (savais), passé composé for a completed action (appris).",
+    "grammarTag": "pc-vs-imparfait",
+    "level": "B1"
+  },
+  {
+    "id": "s189",
+    "fr": "Ce qui me plaît dans ce travail, c'est le contact avec les clients.",
+    "en": "What I like about this job is the contact with customers.",
+    "grammarNote": "'Ce qui… c'est…' highlights the subject: 'what I like is…'.",
+    "grammarTag": "relatifs",
+    "level": "B1"
+  },
+  {
+    "id": "s190",
+    "fr": "Ça vous dérangerait de fermer la fenêtre ? Il fait un peu froid.",
+    "en": "Would you mind closing the window? It's a bit cold.",
+    "grammarNote": "Conditional 'ça vous dérangerait de' for a very polite request.",
+    "grammarTag": "conditionnel",
+    "level": "A2+"
+  }
+]

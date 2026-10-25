@@ -1,25 +1,72 @@
 {
   "expo": {
-    "name": "chequejour",
+    "name": "Chèque du jour",
     "slug": "chequejour",
+    "scheme": "chequejour",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
-    "userInterfaceStyle": "light",
+    "userInterfaceStyle": "automatic",
+    "backgroundColor": "#EEF3F8",
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.emeka.chequejour"
     },
     "android": {
+      "package": "com.emeka.chequejour",
       "adaptiveIcon": {
-        "backgroundColor": "#E6F4FE",
+        "backgroundColor": "#EEF3F8",
         "foregroundImage": "./assets/android-icon-foreground.png",
         "backgroundImage": "./assets/android-icon-background.png",
         "monochromeImage": "./assets/android-icon-monochrome.png"
       },
+      "permissions": [
+        "android.permission.POST_NOTIFICATIONS",
+        "android.permission.SCHEDULE_EXACT_ALARM",
+        "android.permission.RECEIVE_BOOT_COMPLETED",
+        "android.permission.RECORD_AUDIO"
+      ],
       "predictiveBackGestureEnabled": false
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": [
+      "expo-router",
+      "expo-status-bar",
+      "expo-sqlite",
+      [
+        "expo-audio",
+        {
+          "microphonePermission": "Chèque du jour records your speaking practice. Recordings stay on this device.",
+          "enableBackgroundPlayback": false,
+          "enableBackgroundRecording": false
+        }
+      ],
+      [
+        "expo-notifications",
+        {
+          "color": "#F26B5B",
+          "icon": "./assets/notification-icon.png"
+        }
+      ],
+      "expo-sharing",
+      "expo-font",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/splash-icon.png",
+          "imageWidth": 120,
+          "resizeMode": "contain",
+          "backgroundColor": "#EEF3F8",
+          "dark": {
+            "backgroundColor": "#141A2E"
+          }
+        }
+      ],
+      "expo-asset",
+      "expo-build-properties",
+      "@react-native-community/datetimepicker"
+    ]
   }
 }

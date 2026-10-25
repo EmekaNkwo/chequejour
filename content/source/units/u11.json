@@ -1,0 +1,2233 @@
+{
+  "id": "u11",
+  "order": 11,
+  "level": "B1",
+  "theme": "Studies and training",
+  "titleFr": "Études et formation",
+  "description": "School, university, adult training and exams. Grammar: comparing with plus, moins, aussi and autant, and picking out the best with superlatives.",
+  "vocab": [
+    {
+      "id": "u11-w001",
+      "fr": "formation",
+      "en": "training, course of study",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "formations",
+      "level": "A2+",
+      "core": true,
+      "example": {
+        "fr": "Elle suit une formation de six mois en comptabilité.",
+        "en": "She's doing a six-month training course in accounting."
+      }
+    },
+    {
+      "id": "u11-w002",
+      "fr": "diplôme",
+      "en": "diploma, degree, qualification",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "diplômes",
+      "level": "A2",
+      "core": true,
+      "example": {
+        "fr": "Avec ce diplôme, il pourra enseigner dans un lycée.",
+        "en": "With this qualification, he'll be able to teach in a secondary school."
+      }
+    },
+    {
+      "id": "u11-w003",
+      "fr": "examen",
+      "en": "exam",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "examens",
+      "level": "A2",
+      "core": true,
+      "example": {
+        "fr": "L'examen de fin d'année dure quatre heures.",
+        "en": "The end-of-year exam lasts four hours."
+      }
+    },
+    {
+      "id": "u11-w004",
+      "fr": "concours",
+      "en": "competitive entrance exam",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "concours",
+      "level": "B1",
+      "core": true,
+      "example": {
+        "fr": "Pour devenir professeur des écoles, il faut réussir un concours.",
+        "en": "To become a primary school teacher, you have to pass a competitive exam."
+      }
+    },
+    {
+      "id": "u11-w005",
+      "fr": "matière",
+      "en": "(school) subject",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "matières",
+      "level": "A2",
+      "core": true,
+      "example": {
+        "fr": "Ma matière préférée a toujours été la géographie.",
+        "en": "My favourite subject has always been geography."
+      }
+    },
+    {
+      "id": "u11-w006",
+      "fr": "note",
+      "en": "mark, grade",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "notes",
+      "level": "A2",
+      "core": true,
+      "example": {
+        "fr": "J'ai eu une très bonne note en philosophie.",
+        "en": "I got a very good mark in philosophy."
+      }
+    },
+    {
+      "id": "u11-w007",
+      "fr": "inscription",
+      "en": "enrolment, registration",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "inscriptions",
+      "level": "A2+",
+      "core": true,
+      "example": {
+        "fr": "Les inscriptions à l'université se font en juillet.",
+        "en": "University enrolment takes place in July."
+      }
+    },
+    {
+      "id": "u11-w008",
+      "fr": "s'inscrire",
+      "en": "to enrol, to sign up",
+      "pos": "verb",
+      "level": "A2+",
+      "core": true,
+      "example": {
+        "fr": "Je me suis inscrite à un cours d'espagnol pour débutants.",
+        "en": "I signed up for a beginners' Spanish class."
+      }
+    },
+    {
+      "id": "u11-w009",
+      "fr": "réussir",
+      "en": "to pass, to succeed",
+      "pos": "verb",
+      "level": "A2",
+      "core": true,
+      "example": {
+        "fr": "Il a réussi son examen du premier coup.",
+        "en": "He passed his exam at the first attempt."
+      }
+    },
+    {
+      "id": "u11-w010",
+      "fr": "échouer",
+      "en": "to fail",
+      "pos": "verb",
+      "level": "B1",
+      "core": true,
+      "example": {
+        "fr": "Elle a échoué à l'oral, mais elle va réessayer l'an prochain.",
+        "en": "She failed the oral, but she's going to try again next year."
+      }
+    },
+    {
+      "id": "u11-w011",
+      "fr": "réviser",
+      "en": "to revise, to study (for an exam)",
+      "pos": "verb",
+      "level": "A2+",
+      "core": true,
+      "example": {
+        "fr": "Je révise mieux le matin que le soir.",
+        "en": "I revise better in the morning than in the evening."
+      }
+    },
+    {
+      "id": "u11-w012",
+      "fr": "cours",
+      "en": "class, lesson, course",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "cours",
+      "level": "A2",
+      "core": true,
+      "example": {
+        "fr": "Le cours de chimie commence à huit heures.",
+        "en": "The chemistry class starts at eight."
+      }
+    },
+    {
+      "id": "u11-w013",
+      "fr": "enseignant",
+      "en": "teacher (f: enseignante)",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "enseignants",
+      "level": "A2+",
+      "core": true,
+      "example": {
+        "fr": "Les enseignants de ce lycée sont très disponibles.",
+        "en": "The teachers at this school are always ready to help."
+      }
+    },
+    {
+      "id": "u11-w014",
+      "fr": "université",
+      "en": "university",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "universités",
+      "level": "A2",
+      "core": true,
+      "example": {
+        "fr": "C'est l'une des plus anciennes universités d'Europe.",
+        "en": "It's one of the oldest universities in Europe."
+      }
+    },
+    {
+      "id": "u11-w015",
+      "fr": "licence",
+      "en": "bachelor's degree (3 years)",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "licences",
+      "level": "B1",
+      "core": true,
+      "example": {
+        "fr": "Après sa licence de droit, elle veut faire un master.",
+        "en": "After her law degree, she wants to do a master's."
+      }
+    },
+    {
+      "id": "u11-w016",
+      "fr": "apprentissage",
+      "en": "learning; apprenticeship",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "apprentissages",
+      "level": "B1",
+      "core": true,
+      "example": {
+        "fr": "L'apprentissage d'une langue demande de la patience.",
+        "en": "Learning a language takes patience."
+      }
+    },
+    {
+      "id": "u11-w017",
+      "fr": "alternance",
+      "en": "work-study programme (school + company)",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "alternances",
+      "level": "B1",
+      "core": true,
+      "example": {
+        "fr": "En alternance, il passe deux semaines à l'école et deux semaines en entreprise.",
+        "en": "On his work-study programme, he spends two weeks at school and two weeks in a company."
+      }
+    },
+    {
+      "id": "u11-w018",
+      "fr": "bourse",
+      "en": "grant, scholarship",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "bourses",
+      "level": "B1",
+      "core": true,
+      "example": {
+        "fr": "Grâce à sa bourse, elle n'a pas besoin de travailler pendant ses études.",
+        "en": "Thanks to her grant, she doesn't need to work while studying."
+      }
+    },
+    {
+      "id": "u11-w019",
+      "fr": "niveau",
+      "en": "level",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "niveaux",
+      "level": "A2",
+      "core": true,
+      "example": {
+        "fr": "Mon niveau d'anglais est meilleur à l'écrit qu'à l'oral.",
+        "en": "My level of English is better in writing than in speaking."
+      }
+    },
+    {
+      "id": "u11-w020",
+      "fr": "compétence",
+      "en": "skill, competence",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "compétences",
+      "level": "B1",
+      "core": true,
+      "example": {
+        "fr": "Cette formation permet d'acquérir des compétences en informatique.",
+        "en": "This training lets you acquire computer skills."
+      }
+    },
+    {
+      "id": "u11-w021",
+      "fr": "étudiant",
+      "en": "student (f: étudiante)",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "étudiants",
+      "level": "A2",
+      "core": false,
+      "example": {
+        "fr": "Les étudiants de première année sont plus nombreux cette année.",
+        "en": "There are more first-year students this year."
+      }
+    },
+    {
+      "id": "u11-w022",
+      "fr": "lycéen",
+      "en": "secondary-school pupil (f: lycéenne)",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "lycéens",
+      "level": "A2+",
+      "core": false,
+      "example": {
+        "fr": "Les lycéens passent le bac à la fin de la terminale.",
+        "en": "Secondary-school pupils take the bac at the end of their final year."
+      }
+    },
+    {
+      "id": "u11-w023",
+      "fr": "rentrée",
+      "en": "start of the school year",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "rentrées",
+      "level": "A2+",
+      "core": false,
+      "example": {
+        "fr": "La rentrée universitaire a lieu début septembre.",
+        "en": "The university year starts in early September."
+      }
+    },
+    {
+      "id": "u11-w024",
+      "fr": "contrôle",
+      "en": "(school) test",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "contrôles",
+      "level": "A2+",
+      "core": false,
+      "example": {
+        "fr": "On a un contrôle de maths vendredi, je dois réviser.",
+        "en": "We've got a maths test on Friday; I need to revise."
+      }
+    },
+    {
+      "id": "u11-w025",
+      "fr": "copie",
+      "en": "exam paper, (student's) script",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "copies",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Le professeur rend les copies corrigées lundi.",
+        "en": "The teacher is giving back the marked papers on Monday."
+      }
+    },
+    {
+      "id": "u11-w026",
+      "fr": "mémoire",
+      "en": "dissertation, thesis (master's level)",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "mémoires",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Elle écrit son mémoire sur l'histoire du cinéma africain.",
+        "en": "She's writing her dissertation on the history of African cinema."
+      }
+    },
+    {
+      "id": "u11-w027",
+      "fr": "soutenance",
+      "en": "(oral) defence of a thesis",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "soutenances",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Sa soutenance s'est très bien passée : le jury l'a félicitée.",
+        "en": "Her defence went very well: the panel congratulated her."
+      }
+    },
+    {
+      "id": "u11-w028",
+      "fr": "master",
+      "en": "master's degree",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "masters",
+      "level": "A2+",
+      "core": false,
+      "example": {
+        "fr": "Il prépare un master de biologie à Montpellier.",
+        "en": "He's doing a master's in biology in Montpellier."
+      }
+    },
+    {
+      "id": "u11-w029",
+      "fr": "doctorat",
+      "en": "doctorate, PhD",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "doctorats",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Un doctorat dure en général trois ou quatre ans.",
+        "en": "A PhD usually lasts three or four years."
+      }
+    },
+    {
+      "id": "u11-w030",
+      "fr": "baccalauréat",
+      "en": "baccalaureate (French school-leaving exam)",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "baccalauréats",
+      "level": "A2+",
+      "core": false,
+      "example": {
+        "fr": "Le baccalauréat, qu'on appelle souvent « le bac », marque la fin du lycée.",
+        "en": "The baccalaureate, often called 'the bac', marks the end of secondary school."
+      }
+    },
+    {
+      "id": "u11-w031",
+      "fr": "mention",
+      "en": "distinction, honours (grade on a diploma)",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "mentions",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Il a eu son bac avec mention bien.",
+        "en": "He got his bac with a 'good' distinction."
+      }
+    },
+    {
+      "id": "u11-w032",
+      "fr": "moyenne",
+      "en": "average (mark)",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "moyennes",
+      "level": "A2+",
+      "core": false,
+      "example": {
+        "fr": "Il faut avoir au moins dix de moyenne pour valider l'année.",
+        "en": "You need an average of at least ten to pass the year."
+      }
+    },
+    {
+      "id": "u11-w033",
+      "fr": "épreuve",
+      "en": "test, exam paper (part of an exam)",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "épreuves",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "L'épreuve de mathématiques est la plus longue du concours.",
+        "en": "The maths paper is the longest part of the competitive exam."
+      }
+    },
+    {
+      "id": "u11-w034",
+      "fr": "oral",
+      "en": "oral exam",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "oraux",
+      "level": "A2+",
+      "core": false,
+      "example": {
+        "fr": "J'ai plus de trac pour l'oral que pour l'écrit.",
+        "en": "I get more nervous for the oral than for the written exam."
+      }
+    },
+    {
+      "id": "u11-w035",
+      "fr": "partiel",
+      "en": "end-of-semester university exam",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "partiels",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Les partiels commencent la semaine prochaine, je n'ai pas le temps de sortir.",
+        "en": "Exams start next week; I don't have time to go out."
+      }
+    },
+    {
+      "id": "u11-w036",
+      "fr": "semestre",
+      "en": "semester, term",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "semestres",
+      "level": "A2+",
+      "core": false,
+      "example": {
+        "fr": "Au deuxième semestre, nous aurons moins de cours magistraux.",
+        "en": "In the second semester, we'll have fewer lectures."
+      }
+    },
+    {
+      "id": "u11-w037",
+      "fr": "filière",
+      "en": "stream, track, programme of study",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "filières",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Les filières scientifiques attirent de plus en plus de filles.",
+        "en": "Science tracks are attracting more and more girls."
+      }
+    },
+    {
+      "id": "u11-w038",
+      "fr": "orientation",
+      "en": "careers and study guidance",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "orientations",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Le choix d'orientation se fait souvent à quinze ou seize ans.",
+        "en": "The choice of study path is often made at fifteen or sixteen."
+      }
+    },
+    {
+      "id": "u11-w039",
+      "fr": "conseiller d'orientation",
+      "en": "careers adviser (f: conseillère d'orientation)",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "conseillers d'orientation",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Le conseiller d'orientation m'a aidée à choisir une formation.",
+        "en": "The careers adviser helped me choose a course."
+      }
+    },
+    {
+      "id": "u11-w040",
+      "fr": "reconversion",
+      "en": "career change, retraining",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "reconversions",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Après dix ans dans la banque, il a fait une reconversion dans la menuiserie.",
+        "en": "After ten years in banking, he retrained as a carpenter."
+      }
+    },
+    {
+      "id": "u11-w041",
+      "fr": "remise à niveau",
+      "en": "refresher course",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "remises à niveau",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Avant la formation, il a suivi une remise à niveau en maths.",
+        "en": "Before the course, he took a maths refresher course."
+      }
+    },
+    {
+      "id": "u11-w042",
+      "fr": "cours du soir",
+      "en": "evening class",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "cours du soir",
+      "level": "A2+",
+      "core": false,
+      "example": {
+        "fr": "Elle prend des cours du soir pour apprendre l'italien.",
+        "en": "She's taking evening classes to learn Italian."
+      }
+    },
+    {
+      "id": "u11-w043",
+      "fr": "certificat",
+      "en": "certificate",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "certificats",
+      "level": "A2+",
+      "core": false,
+      "example": {
+        "fr": "À la fin du stage, chaque participant reçoit un certificat.",
+        "en": "At the end of the course, each participant receives a certificate."
+      }
+    },
+    {
+      "id": "u11-w044",
+      "fr": "formation à distance",
+      "en": "distance learning",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "formations à distance",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "La formation à distance convient bien aux gens qui travaillent.",
+        "en": "Distance learning suits people who work."
+      }
+    },
+    {
+      "id": "u11-w045",
+      "fr": "en présentiel",
+      "en": "in person, face to face (of a class)",
+      "pos": "expression",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Je préfère les cours en présentiel : on se concentre mieux.",
+        "en": "I prefer face-to-face classes: you concentrate better."
+      }
+    },
+    {
+      "id": "u11-w046",
+      "fr": "à distance",
+      "en": "remotely, online (of a class)",
+      "pos": "expression",
+      "level": "A2+",
+      "core": false,
+      "example": {
+        "fr": "Pendant l'hiver, certains cours ont lieu à distance.",
+        "en": "During the winter, some classes take place remotely."
+      }
+    },
+    {
+      "id": "u11-w047",
+      "fr": "autodidacte",
+      "en": "self-taught (person)",
+      "pos": "noun",
+      "gender": "mf",
+      "plural": "autodidactes",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Ce pianiste est un autodidacte : il n'a jamais pris de cours.",
+        "en": "This pianist is self-taught: he has never taken lessons."
+      }
+    },
+    {
+      "id": "u11-w048",
+      "fr": "apprenant",
+      "en": "learner (f: apprenante)",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "apprenants",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Chaque apprenant avance à son propre rythme.",
+        "en": "Each learner progresses at their own pace."
+      }
+    },
+    {
+      "id": "u11-w049",
+      "fr": "formateur",
+      "en": "trainer, instructor (f: formatrice)",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "formateurs",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Le formateur nous a donné des exercices très concrets.",
+        "en": "The trainer gave us very practical exercises."
+      }
+    },
+    {
+      "id": "u11-w050",
+      "fr": "cours magistral",
+      "en": "lecture (in a lecture hall)",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "cours magistraux",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Les cours magistraux ont lieu dans un grand amphithéâtre.",
+        "en": "Lectures take place in a large lecture hall."
+      }
+    },
+    {
+      "id": "u11-w051",
+      "fr": "travaux dirigés",
+      "en": "tutorials, seminar classes (TD)",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "travaux dirigés",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "En travaux dirigés, on est vingt et on peut poser des questions.",
+        "en": "In tutorials, there are twenty of us and we can ask questions."
+      },
+      "pluralOnly": true
+    },
+    {
+      "id": "u11-w052",
+      "fr": "amphithéâtre",
+      "en": "lecture hall",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "amphithéâtres",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "L'amphithéâtre était tellement plein que des étudiants étaient assis par terre.",
+        "en": "The lecture hall was so full that some students were sitting on the floor."
+      }
+    },
+    {
+      "id": "u11-w053",
+      "fr": "frais d'inscription",
+      "en": "tuition fees, registration fees",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "frais d'inscription",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Les frais d'inscription sont moins élevés dans les universités publiques.",
+        "en": "Tuition fees are lower at public universities."
+      },
+      "pluralOnly": true
+    },
+    {
+      "id": "u11-w054",
+      "fr": "redoubler",
+      "en": "to repeat a year",
+      "pos": "verb",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Il a redoublé sa seconde parce que ses notes étaient trop basses.",
+        "en": "He repeated Year 11 because his marks were too low."
+      }
+    },
+    {
+      "id": "u11-w055",
+      "fr": "passer un examen",
+      "en": "to take / sit an exam",
+      "pos": "expression",
+      "level": "A2+",
+      "core": false,
+      "example": {
+        "fr": "Je passe mon examen d'anglais demain matin.",
+        "en": "I'm taking my English exam tomorrow morning."
+      }
+    },
+    {
+      "id": "u11-w056",
+      "fr": "être diplômé",
+      "en": "to be a graduate, to hold a degree",
+      "pos": "expression",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Elle est diplômée d'une école de commerce.",
+        "en": "She's a business school graduate."
+      }
+    },
+    {
+      "id": "u11-w057",
+      "fr": "se former",
+      "en": "to train, to learn a skill",
+      "pos": "verb",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Il s'est formé seul à la photographie en regardant des vidéos.",
+        "en": "He taught himself photography by watching videos."
+      }
+    },
+    {
+      "id": "u11-w058",
+      "fr": "suivre un cours",
+      "en": "to take a class / course",
+      "pos": "expression",
+      "level": "A2+",
+      "core": false,
+      "example": {
+        "fr": "Cette année, je suis un cours de dessin le mercredi.",
+        "en": "This year I'm taking a drawing class on Wednesdays."
+      }
+    },
+    {
+      "id": "u11-w059",
+      "fr": "assister à",
+      "en": "to attend",
+      "pos": "verb",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Il faut assister à tous les cours pour avoir le certificat.",
+        "en": "You must attend every class to get the certificate."
+      }
+    },
+    {
+      "id": "u11-w060",
+      "fr": "sécher un cours",
+      "en": "to skip / cut a class (informal)",
+      "pos": "expression",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Il a séché le cours de physique pour aller au cinéma.",
+        "en": "He skipped physics class to go to the cinema."
+      }
+    },
+    {
+      "id": "u11-w061",
+      "fr": "prendre des notes",
+      "en": "to take notes",
+      "pos": "expression",
+      "level": "A2+",
+      "core": false,
+      "example": {
+        "fr": "Je prends des notes plus vite sur ordinateur qu'à la main.",
+        "en": "I take notes faster on a computer than by hand."
+      }
+    },
+    {
+      "id": "u11-w062",
+      "fr": "apprendre par cœur",
+      "en": "to learn by heart",
+      "pos": "expression",
+      "level": "A2+",
+      "core": false,
+      "example": {
+        "fr": "Les élèves doivent apprendre ce poème par cœur.",
+        "en": "The pupils have to learn this poem by heart."
+      }
+    },
+    {
+      "id": "u11-w063",
+      "fr": "s'améliorer",
+      "en": "to improve, to get better",
+      "pos": "verb",
+      "level": "A2+",
+      "core": false,
+      "example": {
+        "fr": "Ses notes se sont beaucoup améliorées ce trimestre.",
+        "en": "Her marks have improved a lot this term."
+      }
+    },
+    {
+      "id": "u11-w064",
+      "fr": "relevé de notes",
+      "en": "(academic) transcript",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "relevés de notes",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Joignez votre dernier relevé de notes à votre dossier.",
+        "en": "Attach your latest transcript to your application."
+      }
+    },
+    {
+      "id": "u11-w065",
+      "fr": "approfondir",
+      "en": "to deepen, to go further into",
+      "pos": "verb",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "En master, on approfondit les sujets vus en licence.",
+        "en": "In a master's, you go deeper into the topics covered in the bachelor's."
+      }
+    },
+    {
+      "id": "u11-w066",
+      "fr": "se spécialiser",
+      "en": "to specialise",
+      "pos": "verb",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Après ses études de médecine, elle s'est spécialisée en pédiatrie.",
+        "en": "After medical school, she specialised in paediatrics."
+      }
+    },
+    {
+      "id": "u11-w067",
+      "fr": "corriger",
+      "en": "to correct, to mark",
+      "pos": "verb",
+      "level": "A2+",
+      "core": false,
+      "example": {
+        "fr": "Le professeur corrige les copies pendant le week-end.",
+        "en": "The teacher marks the papers at the weekend."
+      }
+    },
+    {
+      "id": "u11-w068",
+      "fr": "évaluer",
+      "en": "to assess, to evaluate",
+      "pos": "verb",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Les étudiants sont évalués sur un projet de groupe.",
+        "en": "Students are assessed on a group project."
+      }
+    },
+    {
+      "id": "u11-w069",
+      "fr": "bachoter",
+      "en": "to cram (for an exam, informal)",
+      "pos": "verb",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Il a bachoté toute la nuit, mais il a tout oublié le lendemain.",
+        "en": "He crammed all night, but he forgot everything the next day."
+      }
+    },
+    {
+      "id": "u11-w070",
+      "fr": "studieux / studieuse",
+      "en": "studious, hard-working",
+      "pos": "adjective",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "C'est une élève studieuse qui rend toujours ses devoirs à temps.",
+        "en": "She's a studious pupil who always hands her homework in on time."
+      }
+    },
+    {
+      "id": "u11-w071",
+      "fr": "sélectif / sélective",
+      "en": "selective",
+      "pos": "adjective",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Les écoles de médecine sont parmi les formations les plus sélectives.",
+        "en": "Medical schools are among the most selective programmes."
+      }
+    },
+    {
+      "id": "u11-w072",
+      "fr": "assidu",
+      "en": "diligent; regular in attendance",
+      "pos": "adjective",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Les étudiants les plus assidus ont souvent les meilleurs résultats.",
+        "en": "The most diligent students often get the best results."
+      }
+    },
+    {
+      "id": "u11-w073",
+      "fr": "doué",
+      "en": "gifted, talented",
+      "pos": "adjective",
+      "level": "A2+",
+      "core": false,
+      "example": {
+        "fr": "Elle est très douée pour les langues.",
+        "en": "She's very gifted at languages."
+      }
+    },
+    {
+      "id": "u11-w074",
+      "fr": "nul / nulle",
+      "en": "hopeless, useless (at something, informal)",
+      "pos": "adjective",
+      "level": "A2+",
+      "core": false,
+      "example": {
+        "fr": "J'étais nulle en maths au collège, mais j'adorais le français.",
+        "en": "I was hopeless at maths at secondary school, but I loved French."
+      }
+    },
+    {
+      "id": "u11-w075",
+      "fr": "être fort en",
+      "en": "to be good at (a subject)",
+      "pos": "expression",
+      "level": "A2+",
+      "core": false,
+      "example": {
+        "fr": "Mon fils est plus fort en histoire qu'en sciences.",
+        "en": "My son is better at history than at science."
+      }
+    },
+    {
+      "id": "u11-w076",
+      "fr": "taux de réussite",
+      "en": "pass rate, success rate",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "taux de réussite",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Le taux de réussite à ce concours est inférieur à vingt pour cent.",
+        "en": "The pass rate for this competitive exam is below twenty per cent."
+      }
+    },
+    {
+      "id": "u11-w077",
+      "fr": "boursier",
+      "en": "grant holder, scholarship student (f: boursière)",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "boursiers",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Les boursiers ne paient pas de frais d'inscription.",
+        "en": "Grant holders don't pay tuition fees."
+      }
+    },
+    {
+      "id": "u11-w078",
+      "fr": "progrès",
+      "en": "progress, improvement",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "progrès",
+      "level": "A2+",
+      "core": false,
+      "example": {
+        "fr": "Tu as fait d'énormes progrès en grammaire !",
+        "en": "You've made huge progress in grammar!"
+      }
+    },
+    {
+      "id": "u11-w079",
+      "fr": "connaissance",
+      "en": "knowledge (often plural)",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "connaissances",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Ce test vérifie vos connaissances en économie.",
+        "en": "This test checks your knowledge of economics."
+      }
+    },
+    {
+      "id": "u11-w080",
+      "fr": "fiche de révision",
+      "en": "revision card, revision notes",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "fiches de révision",
+      "level": "A2+",
+      "core": false,
+      "example": {
+        "fr": "Je fais une fiche de révision pour chaque chapitre.",
+        "en": "I make a revision card for each chapter."
+      }
+    },
+    {
+      "id": "u11-w081",
+      "fr": "avoir le trac",
+      "en": "to have nerves, to get stage fright",
+      "pos": "expression",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "J'ai toujours le trac avant un oral.",
+        "en": "I always get nervous before an oral exam."
+      }
+    },
+    {
+      "id": "u11-w082",
+      "fr": "de plus en plus",
+      "en": "more and more",
+      "pos": "expression",
+      "level": "A2+",
+      "core": false,
+      "example": {
+        "fr": "Les cours en ligne sont de plus en plus populaires.",
+        "en": "Online courses are more and more popular."
+      }
+    },
+    {
+      "id": "u11-w083",
+      "fr": "de moins en moins",
+      "en": "less and less, fewer and fewer",
+      "pos": "expression",
+      "level": "A2+",
+      "core": false,
+      "example": {
+        "fr": "Les jeunes choisissent de moins en moins les études littéraires.",
+        "en": "Fewer and fewer young people choose literary studies."
+      }
+    },
+    {
+      "id": "u11-w084",
+      "fr": "davantage",
+      "en": "more (formal)",
+      "pos": "adverb",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Si tu veux réussir, il faudra travailler davantage.",
+        "en": "If you want to succeed, you'll have to work more."
+      }
+    }
+  ],
+  "grammar": [
+    {
+      "id": "u11-g01",
+      "title": "Comparatives: plus, moins, aussi, autant… que",
+      "level": "B1",
+      "grammarTag": "comparatifs",
+      "explanation": [
+        "To compare with an adjective or an adverb, put plus (more), moins (less) or aussi (as) before it, and que before the second element: « Ce cours est plus intéressant que l'autre. » « Elle parle aussi vite que son professeur. » The adjective agrees with the noun it describes: « Les épreuves orales sont plus difficiles que l'écrit. »",
+        "With nouns, use plus de, moins de or autant de + noun + que: « J'ai plus de cours que l'an dernier. » « Il y a autant d'étudiantes que d'étudiants. » With verbs, put plus, moins or autant after the verb: « Il révise autant que moi. » Remember: aussi goes with adjectives and adverbs, autant with nouns and verbs.",
+        "Two very common forms are irregular. Bon (good, adjective) becomes meilleur: « Ses notes sont meilleures que les miennes. » Bien (well, adverb) becomes mieux: « Je travaille mieux le matin. » Never say « plus bon » or « plus bien ». For 'not as good / well', say moins bon(ne) or moins bien. Mauvais has two comparatives: plus mauvais and pire (stronger).",
+        "After que, use a stressed pronoun: moi, toi, lui, elle, nous, vous, eux, elles. Que becomes qu' before a vowel: « plus jeune qu'elle », « moins cher qu'à Paris ».",
+        "To describe a trend, use de plus en plus or de moins en moins: « Les formations à distance sont de plus en plus populaires. » With nouns, add de: « de plus en plus d'adultes reprennent leurs études »."
+      ],
+      "table": [
+        [
+          "",
+          "more",
+          "as",
+          "less"
+        ],
+        [
+          "Adjective / adverb",
+          "plus facile que",
+          "aussi facile que",
+          "moins facile que"
+        ],
+        [
+          "Noun",
+          "plus de cours que",
+          "autant de cours que",
+          "moins de cours que"
+        ],
+        [
+          "Verb",
+          "il travaille plus que",
+          "il travaille autant que",
+          "il travaille moins que"
+        ],
+        [
+          "bon → meilleur",
+          "meilleur(e)(s) que",
+          "aussi bon(ne)(s) que",
+          "moins bon(ne)(s) que"
+        ],
+        [
+          "bien → mieux",
+          "mieux que",
+          "aussi bien que",
+          "moins bien que"
+        ]
+      ],
+      "examples": [
+        {
+          "fr": "Le master est plus exigeant que la licence.",
+          "en": "The master's is more demanding than the bachelor's."
+        },
+        {
+          "fr": "Les cours du soir sont moins chers que les cours particuliers.",
+          "en": "Evening classes are cheaper than private lessons."
+        },
+        {
+          "fr": "Cette année, j'ai autant de devoirs que l'an dernier.",
+          "en": "This year I have as much homework as last year."
+        },
+        {
+          "fr": "Ma sœur est aussi douée que moi pour les langues.",
+          "en": "My sister is as gifted at languages as I am."
+        },
+        {
+          "fr": "Avec des fiches, je retiens beaucoup mieux qu'avant.",
+          "en": "With revision cards, I remember much better than before."
+        },
+        {
+          "fr": "Ses résultats sont meilleurs que ceux du premier semestre.",
+          "en": "Her results are better than those of the first semester."
+        },
+        {
+          "fr": "De plus en plus d'adultes se forment à distance.",
+          "en": "More and more adults are training remotely."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "Ce cours est plus bon que l'autre.",
+          "right": "Ce cours est meilleur que l'autre.",
+          "why": "The comparative of the adjective bon is meilleur, never « plus bon »."
+        },
+        {
+          "wrong": "Elle parle plus bien français que moi.",
+          "right": "Elle parle mieux français que moi.",
+          "why": "Bien is an adverb here (how she speaks); its comparative is mieux."
+        },
+        {
+          "wrong": "J'ai aussi de travail que toi.",
+          "right": "J'ai autant de travail que toi.",
+          "why": "Before a noun, use autant de, not aussi."
+        },
+        {
+          "wrong": "Il est plus âgé que je.",
+          "right": "Il est plus âgé que moi.",
+          "why": "After que in a comparison, use the stressed pronoun moi, toi, lui…"
+        }
+      ]
+    },
+    {
+      "id": "u11-g02",
+      "title": "Superlatives: le plus, le moins, le meilleur, le mieux",
+      "level": "B1",
+      "grammarTag": "comparatifs",
+      "explanation": [
+        "The superlative picks out the top or bottom of a group. Use le, la or les + plus / moins + adjective. The article and the adjective agree with the noun: « la matière la plus difficile », « les étudiants les plus motivés ».",
+        "Most adjectives come after the noun, and so does the superlative, with the article repeated: « l'examen le plus difficile », « la formation la moins chère ». Adjectives that normally come before the noun (grand, petit, bon, beau, jeune, vieux…) can stay before it: « la plus grande université de France ».",
+        "To say 'in' or 'of' the group, use de (du, de la, des): « le meilleur étudiant de la classe », « la ville la plus chère du pays ». Do not use dans here.",
+        "Irregular forms: le meilleur / la meilleure / les meilleur(e)s is the adjective (the best): « C'est la meilleure note de la classe. » Le mieux is the adverb (the best way) and never changes: « C'est Léa qui explique le mieux. » With a verb, the article is always le: « C'est elle qui travaille le plus. » Le pire means 'the worst'.",
+        "With nouns, use le plus de / le moins de: « C'est en juin qu'on a le plus d'examens. » You can soften a superlative with l'un(e) des… les plus: « C'est l'une des écoles les plus sélectives. »"
+      ],
+      "table": [
+        [
+          "",
+          "most",
+          "least",
+          "best"
+        ],
+        [
+          "Masculine",
+          "le cours le plus utile",
+          "le cours le moins utile",
+          "le meilleur cours"
+        ],
+        [
+          "Feminine",
+          "la matière la plus utile",
+          "la matière la moins utile",
+          "la meilleure matière"
+        ],
+        [
+          "Plural",
+          "les cours les plus utiles",
+          "les cours les moins utiles",
+          "les meilleurs cours"
+        ],
+        [
+          "Adverb / verb",
+          "il travaille le plus",
+          "il travaille le moins",
+          "il explique le mieux"
+        ]
+      ],
+      "examples": [
+        {
+          "fr": "C'est l'épreuve la plus longue du concours.",
+          "en": "It's the longest paper in the competitive exam."
+        },
+        {
+          "fr": "Le droit est la filière la plus demandée de cette université.",
+          "en": "Law is the most popular programme at this university."
+        },
+        {
+          "fr": "Inès a eu la meilleure moyenne de la promotion.",
+          "en": "Inès had the best average in her year group."
+        },
+        {
+          "fr": "Ce sont les formations les moins chères de la région.",
+          "en": "These are the cheapest training courses in the region."
+        },
+        {
+          "fr": "De tous mes professeurs, c'est elle qui explique le mieux.",
+          "en": "Of all my teachers, she's the one who explains best."
+        },
+        {
+          "fr": "C'est en mai que les étudiants ont le plus de stress.",
+          "en": "May is when students feel the most stress."
+        },
+        {
+          "fr": "Oxford est l'une des universités les plus anciennes du monde.",
+          "en": "Oxford is one of the oldest universities in the world."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "C'est la plus difficile matière.",
+          "right": "C'est la matière la plus difficile.",
+          "why": "Difficile normally comes after the noun, so the superlative goes after it too, with the article repeated."
+        },
+        {
+          "wrong": "C'est le meilleur étudiant dans la classe.",
+          "right": "C'est le meilleur étudiant de la classe.",
+          "why": "After a superlative, the group is introduced by de, not dans."
+        },
+        {
+          "wrong": "Ce sont les étudiantes le plus motivées.",
+          "right": "Ce sont les étudiantes les plus motivées.",
+          "why": "Before an adjective, the article agrees with the noun: les plus motivées."
+        },
+        {
+          "wrong": "C'est lui qui travaille le meilleur.",
+          "right": "C'est lui qui travaille le mieux.",
+          "why": "Travailler is a verb, so you need the adverb: le mieux."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "u11-ex01",
+      "type": "mcq",
+      "level": "B1",
+      "skill": "structures",
+      "grammarTag": "comparatifs",
+      "prompt": "The master's is MORE demanding than the bachelor's. Choose the right word.",
+      "promptFr": "Le master est ___ exigeant que la licence.",
+      "options": [
+        "plus",
+        "plus de",
+        "autant",
+        "le plus"
+      ],
+      "answer": 0,
+      "explanation": "Before an adjective (exigeant), use plus… que. Plus de goes before a noun, autant with a noun or verb, and le plus is a superlative."
+    },
+    {
+      "id": "u11-ex02",
+      "type": "mcq",
+      "level": "B1",
+      "skill": "structures",
+      "grammarTag": "comparatifs",
+      "prompt": "Karim gets better marks than me. Choose the right form.",
+      "promptFr": "Karim a de ___ notes que moi.",
+      "options": [
+        "mieux",
+        "meilleures",
+        "plus bonnes",
+        "meilleurs"
+      ],
+      "answer": 1,
+      "explanation": "Notes is a feminine plural noun, so you need the adjective meilleur in the feminine plural: meilleures. Mieux is an adverb, and « plus bonnes » doesn't exist."
+    },
+    {
+      "id": "u11-ex03",
+      "type": "mcq",
+      "level": "B1",
+      "skill": "structures",
+      "grammarTag": "comparatifs",
+      "prompt": "Choose the right form.",
+      "promptFr": "Depuis qu'elle suit des cours du soir, elle parle anglais ___ qu'avant.",
+      "options": [
+        "meilleur",
+        "plus bien",
+        "mieux",
+        "bon"
+      ],
+      "answer": 2,
+      "explanation": "The word describes how she speaks (a verb), so you need the adverb bien, whose comparative is mieux."
+    },
+    {
+      "id": "u11-ex04",
+      "type": "mcq",
+      "level": "B1",
+      "skill": "structures",
+      "grammarTag": "comparatifs",
+      "prompt": "Choose the right form.",
+      "promptFr": "C'est l'épreuve ___ difficile de l'examen.",
+      "options": [
+        "le plus",
+        "plus",
+        "la meilleure",
+        "la plus"
+      ],
+      "answer": 3,
+      "explanation": "Épreuve is feminine, so the superlative is la plus difficile. La meilleure means 'the best' and can't go before another adjective."
+    },
+    {
+      "id": "u11-ex05",
+      "type": "mcq",
+      "level": "B1",
+      "skill": "structures",
+      "grammarTag": "comparatifs",
+      "prompt": "Choose the right word.",
+      "promptFr": "C'est la meilleure école de commerce ___ pays.",
+      "options": [
+        "du",
+        "que le",
+        "en",
+        "à"
+      ],
+      "answer": 0,
+      "explanation": "After a superlative, the group is introduced by de: de + le pays = du pays. Que is used for comparisons (plus… que), not after a superlative."
+    },
+    {
+      "id": "u11-ex06",
+      "type": "fill_blank",
+      "level": "B1",
+      "skill": "structures",
+      "grammarTag": "comparatifs",
+      "prompt": "Complete the comparison.",
+      "sentence": "Cette année, j'ai ___ cours que l'an dernier : seulement douze heures par semaine.",
+      "answers": [
+        "moins de"
+      ],
+      "hint": "fewer",
+      "translation": "This year I have fewer classes than last year: only twelve hours a week.",
+      "explanation": "Before a noun (cours), use moins de… que."
+    },
+    {
+      "id": "u11-ex07",
+      "type": "fill_blank",
+      "level": "B1",
+      "skill": "structures",
+      "grammarTag": "comparatifs",
+      "prompt": "Complete the comparison.",
+      "sentence": "Ma sœur travaille ___ que moi, et pourtant ses notes sont meilleures.",
+      "answers": [
+        "autant"
+      ],
+      "hint": "as much",
+      "translation": "My sister works as much as I do, and yet her marks are better.",
+      "explanation": "To compare how much someone does something (a verb), use autant que after the verb, not aussi."
+    },
+    {
+      "id": "u11-ex08",
+      "type": "fill_blank",
+      "level": "B1",
+      "skill": "structures",
+      "grammarTag": "comparatifs",
+      "prompt": "Complete the superlative.",
+      "sentence": "C'est la matière la ___ intéressante de mon emploi du temps.",
+      "answers": [
+        "plus"
+      ],
+      "hint": "most",
+      "translation": "It's the most interesting subject on my timetable.",
+      "explanation": "The superlative is la plus + adjective after the noun: la matière la plus intéressante."
+    },
+    {
+      "id": "u11-ex09",
+      "type": "fill_blank",
+      "level": "B1",
+      "skill": "structures",
+      "grammarTag": "comparatifs",
+      "prompt": "Complete with one word.",
+      "sentence": "Les formations à distance sont de plus en ___ populaires.",
+      "answers": [
+        "plus"
+      ],
+      "hint": "more and more",
+      "translation": "Distance-learning courses are more and more popular.",
+      "explanation": "'More and more' is de plus en plus."
+    },
+    {
+      "id": "u11-ex10",
+      "type": "fill_blank",
+      "level": "B1",
+      "skill": "structures",
+      "grammarTag": "vocabulary",
+      "prompt": "Complete with the right verb in the infinitive.",
+      "sentence": "Si tu veux ___ ton examen, il faut réviser régulièrement.",
+      "answers": [
+        "réussir",
+        "avoir",
+        "valider"
+      ],
+      "hint": "to pass",
+      "translation": "If you want to pass your exam, you need to revise regularly.",
+      "explanation": "Réussir un examen = to pass an exam (informally avoir son examen; at university also valider). Passer un examen only means to take it."
+    },
+    {
+      "id": "u11-ex11",
+      "type": "fill_blank",
+      "level": "B1",
+      "skill": "structures",
+      "grammarTag": "comparatifs",
+      "prompt": "Léa got 15/20 and Hugo got 15/20. Complete the comparison.",
+      "sentence": "Léa a eu une note ___ bonne que celle de Hugo.",
+      "answers": [
+        "aussi"
+      ],
+      "translation": "Léa got a mark as good as Hugo's.",
+      "explanation": "The marks are equal and bonne is an adjective, so use aussi… que."
+    },
+    {
+      "id": "u11-ex12",
+      "type": "fill_blank",
+      "level": "B1",
+      "skill": "structures",
+      "grammarTag": "comparatifs",
+      "prompt": "Turn « C'est un étudiant motivé. » into a superlative: he is the most motivated in the group.",
+      "sentence": "C'est l'étudiant ___ motivé du groupe.",
+      "answers": [
+        "le plus"
+      ],
+      "translation": "He's the most motivated student in the group.",
+      "explanation": "Motivé comes after the noun, so the superlative is l'étudiant le plus motivé, with the article repeated."
+    },
+    {
+      "id": "u11-ex13",
+      "type": "fill_blank",
+      "level": "B1",
+      "skill": "structures",
+      "grammarTag": "comparatifs",
+      "prompt": "Complete with the superlative of bon, with the correct agreement.",
+      "sentence": "C'est Inès qui a eu la ___ note de la classe.",
+      "answers": [
+        "meilleure"
+      ],
+      "hint": "best",
+      "translation": "Inès is the one who got the best mark in the class.",
+      "explanation": "The superlative of bon is le meilleur; note is feminine, so: la meilleure note."
+    },
+    {
+      "id": "u11-ex14",
+      "type": "reorder",
+      "level": "B1",
+      "skill": "structures",
+      "grammarTag": "comparatifs",
+      "prompt": "Put the words in order.",
+      "tokens": [
+        "Cette",
+        "formation",
+        "est",
+        "plus",
+        "pratique",
+        "que",
+        "la",
+        "licence."
+      ],
+      "translation": "This training course is more practical than the bachelor's degree.",
+      "explanation": "Plus + adjective + que + the second element."
+    },
+    {
+      "id": "u11-ex15",
+      "type": "reorder",
+      "level": "B1",
+      "skill": "structures",
+      "grammarTag": "comparatifs",
+      "prompt": "Put the words in order.",
+      "tokens": [
+        "Sophie",
+        "est",
+        "l'étudiante",
+        "la",
+        "plus",
+        "douée",
+        "de",
+        "sa",
+        "classe."
+      ],
+      "translation": "Sophie is the most gifted student in her class.",
+      "explanation": "Noun + la plus + adjective, then de + the group."
+    },
+    {
+      "id": "u11-ex16",
+      "type": "match",
+      "level": "B1",
+      "skill": "structures",
+      "grammarTag": "vocabulary",
+      "prompt": "Match the French words with their English meaning.",
+      "pairs": [
+        {
+          "left": "une matière",
+          "right": "a school subject"
+        },
+        {
+          "left": "une note",
+          "right": "a mark"
+        },
+        {
+          "left": "une bourse",
+          "right": "a grant"
+        },
+        {
+          "left": "l'alternance",
+          "right": "a work-study programme"
+        },
+        {
+          "left": "la rentrée",
+          "right": "the start of the school year"
+        }
+      ],
+      "explanation": "Key words for talking about studies in France."
+    },
+    {
+      "id": "u11-ex17",
+      "type": "match",
+      "level": "B1",
+      "skill": "structures",
+      "grammarTag": "comparatifs",
+      "prompt": "Match each French form with its meaning.",
+      "pairs": [
+        {
+          "left": "meilleur",
+          "right": "better (adjective)"
+        },
+        {
+          "left": "mieux",
+          "right": "better (adverb)"
+        },
+        {
+          "left": "autant de",
+          "right": "as much / as many"
+        },
+        {
+          "left": "le moins",
+          "right": "the least"
+        },
+        {
+          "left": "pire",
+          "right": "worse"
+        }
+      ],
+      "explanation": "Meilleur describes a noun, mieux describes a verb; autant de goes before a noun."
+    },
+    {
+      "id": "u11-ex18",
+      "type": "translate",
+      "level": "B1",
+      "skill": "structures",
+      "grammarTag": "comparatifs",
+      "direction": "en-fr",
+      "source": "This course is better than the one I took last year.",
+      "answers": [
+        "Ce cours est meilleur que celui que j'ai suivi l'année dernière.",
+        "Ce cours est meilleur que celui que j'ai suivi l'an dernier.",
+        "Ce cours est meilleur que celui que j'ai suivi l'an passé.",
+        "Ce cours est meilleur que celui que j'ai suivi l'année passée.",
+        "Ce cours est meilleur que celui que j'ai pris l'année dernière.",
+        "Ce cours est meilleur que celui que j'ai pris l'an dernier.",
+        "Cette formation est meilleure que celle que j'ai suivie l'année dernière.",
+        "Cette formation est meilleure que celle que j'ai suivie l'an dernier."
+      ],
+      "explanation": "Cours is a noun, so 'better' is the adjective meilleur. 'The one' = celui (masculine) or celle (feminine)."
+    },
+    {
+      "id": "u11-ex19",
+      "type": "translate",
+      "level": "B1",
+      "skill": "structures",
+      "grammarTag": "comparatifs",
+      "direction": "fr-en",
+      "source": "C'est la filière la plus sélective de l'université.",
+      "answers": [
+        "It's the most selective programme at the university.",
+        "It's the most selective programme in the university.",
+        "It's the most selective course at the university.",
+        "It's the most selective track at the university.",
+        "This is the most selective programme at the university.",
+        "That's the most selective programme at the university.",
+        "It is the most selective programme at the university.",
+        "It's the most selective program at the university.",
+        "It's the university's most selective programme."
+      ],
+      "explanation": "La plus sélective = the most selective; de l'université = at / in the university."
+    },
+    {
+      "id": "u11-ex20",
+      "type": "dictation",
+      "level": "B1",
+      "skill": "listening",
+      "grammarTag": "comparatifs",
+      "text": "Les épreuves orales sont souvent moins stressantes que l'écrit.",
+      "translation": "Oral exams are often less stressful than the written exam.",
+      "explanation": "Listen for moins… que and the feminine plural agreement: stressantes."
+    }
+  ],
+  "listening": [
+    {
+      "id": "u11-li01",
+      "title": "Licence ou alternance ?",
+      "level": "B1",
+      "kind": "dialogue",
+      "context": "A secondary-school student talks to a careers adviser about two options after the bac.",
+      "lines": [
+        {
+          "speaker": "Conseiller",
+          "fr": "Alors Inès, vous hésitez toujours entre la licence d'informatique et le BTS en alternance ?"
+        },
+        {
+          "speaker": "Inès",
+          "fr": "Oui. La licence me plaît, mais j'ai peur que ce soit trop théorique."
+        },
+        {
+          "speaker": "Conseiller",
+          "fr": "C'est vrai qu'à l'université, il y a plus de cours magistraux et moins de pratique. En alternance, vous passez la moitié du temps en entreprise."
+        },
+        {
+          "speaker": "Inès",
+          "fr": "Et c'est plus difficile d'être accepté ?"
+        },
+        {
+          "speaker": "Conseiller",
+          "fr": "Le BTS est assez sélectif, mais le plus difficile, c'est de trouver une entreprise. Sans contrat, on ne peut pas commencer."
+        },
+        {
+          "speaker": "Inès",
+          "fr": "Je vois. Et pour l'argent ? Mes parents ne peuvent pas beaucoup m'aider."
+        },
+        {
+          "speaker": "Conseiller",
+          "fr": "Là, l'alternance est la meilleure solution : vous êtes payée, et la formation est gratuite. À l'université, les frais d'inscription sont bas, mais vous n'avez pas de salaire. Vous pourriez demander une bourse, bien sûr."
+        },
+        {
+          "speaker": "Inès",
+          "fr": "Et après, avec quel diplôme est-ce qu'on trouve du travail le plus facilement ?"
+        },
+        {
+          "speaker": "Conseiller",
+          "fr": "Honnêtement, les alternants trouvent un emploi plus vite, parce qu'ils ont déjà de l'expérience. Mais avec une licence, on peut continuer plus facilement jusqu'au master."
+        },
+        {
+          "speaker": "Inès",
+          "fr": "Donc, l'alternance d'abord, et peut-être un master plus tard ?"
+        },
+        {
+          "speaker": "Conseiller",
+          "fr": "Exactement, c'est tout à fait possible. Beaucoup d'étudiants font ce choix aujourd'hui."
+        }
+      ],
+      "translation": "Adviser: So, Inès, are you still hesitating between the computer science degree and the work-study BTS?\nInès: Yes. I like the degree, but I'm afraid it's too theoretical.\nAdviser: It's true that at university there are more lectures and less practice. On a work-study programme, you spend half your time in a company.\nInès: And is it harder to get in?\nAdviser: The BTS is fairly selective, but the hardest part is finding a company. Without a contract, you can't start.\nInès: I see. And what about money? My parents can't help me much.\nAdviser: There, work-study is the best solution: you're paid and the training is free. At university, the fees are low, but you don't earn a salary. You could apply for a grant, of course.\nInès: And afterwards, with which qualification do you find work most easily?\nAdviser: Honestly, work-study students find a job faster, because they already have experience. But with a degree, it's easier to carry on to a master's.\nInès: So work-study first, and maybe a master's later?\nAdviser: Exactly, that's entirely possible. Lots of students make that choice today.",
+      "questions": [
+        {
+          "id": "u11-li01-q1",
+          "question": "What worries Inès about the university degree?",
+          "options": [
+            "It is too expensive.",
+            "It may be too theoretical.",
+            "It is too far from home.",
+            "It is too selective."
+          ],
+          "answer": 1,
+          "explanation": "She says: « j'ai peur que ce soit trop théorique »."
+        },
+        {
+          "id": "u11-li01-q2",
+          "question": "According to the adviser, what is the hardest part of the work-study BTS?",
+          "options": [
+            "Passing the entrance exam",
+            "Paying the fees",
+            "Finding a company",
+            "Following the lectures"
+          ],
+          "answer": 2,
+          "explanation": "« Le plus difficile, c'est de trouver une entreprise. »"
+        },
+        {
+          "id": "u11-li01-q3",
+          "question": "Why is work-study the best option financially?",
+          "options": [
+            "The student is paid and the training is free.",
+            "The university gives a grant to everyone.",
+            "The fees are lower than at university.",
+            "Parents get money from the state."
+          ],
+          "answer": 0,
+          "explanation": "« Vous êtes payée, et la formation est gratuite. »"
+        },
+        {
+          "id": "u11-li01-q4",
+          "question": "What does Inès seem to decide at the end?",
+          "options": [
+            "To do the university degree straight away",
+            "To stop studying and look for a job",
+            "To repeat her final year",
+            "To start with work-study and maybe do a master's later"
+          ],
+          "answer": 3,
+          "explanation": "She sums up: « l'alternance d'abord, et peut-être un master plus tard », and the adviser agrees."
+        }
+      ]
+    },
+    {
+      "id": "u11-li02",
+      "title": "Les adultes se forment davantage",
+      "level": "B1",
+      "kind": "announcement",
+      "context": "A short report on the radio news about adult training.",
+      "lines": [
+        {
+          "speaker": "Journaliste",
+          "fr": "Les Français se forment de plus en plus tout au long de leur vie. C'est la conclusion d'une enquête publiée ce matin par un institut spécialisé."
+        },
+        {
+          "speaker": "Journaliste",
+          "fr": "L'an dernier, près d'un salarié sur deux a suivi au moins une formation, contre un sur trois il y a dix ans."
+        },
+        {
+          "speaker": "Journaliste",
+          "fr": "Les formations les plus demandées sont les langues étrangères et l'informatique, loin devant la gestion."
+        },
+        {
+          "speaker": "Journaliste",
+          "fr": "Autre changement : les cours à distance sont désormais plus populaires que les cours en présentiel, surtout chez les moins de quarante ans."
+        },
+        {
+          "speaker": "Journaliste",
+          "fr": "Mais tout le monde n'en profite pas autant. Les ouvriers et les employés se forment beaucoup moins que les cadres."
+        },
+        {
+          "speaker": "Journaliste",
+          "fr": "Pour les auteurs de l'étude, le principal obstacle reste le manque de temps, bien plus que le prix des formations."
+        }
+      ],
+      "translation": "French people are training more and more throughout their lives. That is the conclusion of a survey published this morning by a specialist institute.\nLast year, nearly one employee in two took at least one training course, compared with one in three ten years ago.\nThe most requested courses are foreign languages and IT, well ahead of management.\nAnother change: distance courses are now more popular than face-to-face classes, especially among the under-forties.\nBut not everyone benefits as much. Manual and clerical workers train much less than managers.\nFor the authors of the study, the main obstacle is still lack of time, much more than the price of courses.",
+      "questions": [
+        {
+          "id": "u11-li02-q1",
+          "question": "What has changed in ten years?",
+          "options": [
+            "Fewer employees take training courses.",
+            "Training has become much cheaper.",
+            "About one employee in two now takes training, compared with one in three before.",
+            "Companies no longer pay for training."
+          ],
+          "answer": 2,
+          "explanation": "« Près d'un salarié sur deux… contre un sur trois il y a dix ans. »"
+        },
+        {
+          "id": "u11-li02-q2",
+          "question": "Which courses are the most popular?",
+          "options": [
+            "Foreign languages and IT",
+            "Management and accounting",
+            "Cooking and DIY",
+            "Driving lessons"
+          ],
+          "answer": 0,
+          "explanation": "« Les formations les plus demandées sont les langues étrangères et l'informatique. »"
+        },
+        {
+          "id": "u11-li02-q3",
+          "question": "Which group trains the least?",
+          "options": [
+            "Managers",
+            "People under forty",
+            "Manual and clerical workers",
+            "Students"
+          ],
+          "answer": 2,
+          "explanation": "« Les ouvriers et les employés se forment beaucoup moins que les cadres. »"
+        },
+        {
+          "id": "u11-li02-q4",
+          "question": "What is the main obstacle to training?",
+          "options": [
+            "The price",
+            "Lack of time",
+            "Lack of courses",
+            "The distance"
+          ],
+          "answer": 1,
+          "explanation": "« Le principal obstacle reste le manque de temps, bien plus que le prix. »"
+        }
+      ]
+    }
+  ],
+  "reading": [
+    {
+      "id": "u11-re01",
+      "title": "Reprendre ses études à 41 ans",
+      "level": "B1",
+      "kind": "article",
+      "text": "Reprendre ses études à 41 ans : le pari de Karine\n\nPendant quinze ans, Karine a été caissière dans un supermarché de Rouen. « Ce n'était pas le travail le plus passionnant du monde, mais j'avais un salaire et des horaires fixes », raconte-t-elle. À 41 ans, elle a pourtant décidé de tout changer : elle prépare aujourd'hui un diplôme d'aide-soignante.\n\nSa reconversion n'a pas été simple. « Les premières semaines ont été les plus dures. Je n'avais plus l'habitude de prendre des notes ni de réviser le soir. Les autres élèves avaient vingt ans de moins que moi et apprenaient beaucoup plus vite. » Mais Karine a un avantage : son expérience. « Je suis plus patiente qu'avant, et je sais mieux m'organiser. Face aux patients, c'est un vrai atout. »\n\nSon cas n'est pas isolé. Grâce aux aides à la formation, de plus en plus d'adultes reprennent des études pour changer de métier. Selon les formateurs, ces apprenants sont souvent les plus motivés du groupe, car ils ont fait un choix réfléchi.\n\nKarine passera ses examens en juin. « J'ai le trac, bien sûr. Mais je n'ai jamais été aussi heureuse d'apprendre. »",
+      "translation": "Going back to school at 41: Karine's gamble\n\nFor fifteen years, Karine was a cashier in a supermarket in Rouen. 'It wasn't the most exciting job in the world, but I had a salary and fixed hours,' she says. At 41, however, she decided to change everything: today she is studying for a care assistant's diploma.\n\nHer career change hasn't been easy. 'The first weeks were the hardest. I was no longer used to taking notes or revising in the evening. The other students were twenty years younger than me and learned much faster.' But Karine has one advantage: her experience. 'I'm more patient than before, and I'm better at organising myself. With patients, that's a real asset.'\n\nHer case is not unusual. Thanks to training grants, more and more adults are going back to study to change careers. According to trainers, these learners are often the most motivated in the group, because they have made a carefully considered choice.\n\nKarine will take her exams in June. 'I'm nervous, of course. But I've never been so happy to learn.'",
+      "questions": [
+        {
+          "id": "u11-re01-q1",
+          "question": "What did Karine find hardest at the start?",
+          "options": [
+            "Paying for the course",
+            "Getting used to studying again",
+            "Working with patients",
+            "Travelling to Rouen"
+          ],
+          "answer": 1,
+          "explanation": "She was no longer used to taking notes or revising in the evening."
+        },
+        {
+          "id": "u11-re01-q2",
+          "question": "Compared with the younger students, Karine…",
+          "options": [
+            "learns faster.",
+            "has better marks.",
+            "is more patient and better organised.",
+            "has less time to study."
+          ],
+          "answer": 2,
+          "explanation": "« Je suis plus patiente qu'avant, et je sais mieux m'organiser. »"
+        },
+        {
+          "id": "u11-re01-q3",
+          "question": "Why, according to trainers, are adult learners often very motivated?",
+          "options": [
+            "They have chosen this path deliberately.",
+            "They are paid more than young people.",
+            "Their courses are shorter.",
+            "They have no other choice."
+          ],
+          "answer": 0,
+          "explanation": "« Ils ont fait un choix réfléchi » — a carefully considered choice."
+        },
+        {
+          "id": "u11-re01-q4",
+          "question": "How does Karine seem to feel about her decision?",
+          "options": [
+            "She regrets leaving the supermarket.",
+            "She is happy, despite being nervous about the exams.",
+            "She is sure she will fail.",
+            "She finds the course too easy."
+          ],
+          "answer": 1,
+          "explanation": "She admits she's nervous (« j'ai le trac ») but says she has never been so happy to learn."
+        }
+      ]
+    },
+    {
+      "id": "u11-re02",
+      "title": "Cours du soir de langues",
+      "level": "B1",
+      "kind": "notice",
+      "text": "CENTRE DE LANGUES – UNIVERSITÉ DE VALMONT\nCours du soir de langues étrangères : inscriptions pour le second semestre\n\nLes inscriptions sont ouvertes du 6 au 24 janvier, uniquement en ligne, sur votre espace étudiant.\n\nDeux formules sont proposées :\n– Formule intensive : 4 heures par semaine, en présentiel. C'est la formule la plus efficace pour progresser rapidement, mais aussi la plus exigeante : trois absences entraînent l'exclusion du cours.\n– Formule souple : 2 heures par semaine, à distance, avec un tuteur. Elle demande moins de présence, mais autant de travail personnel.\n\nAvant de vous inscrire, vous devez passer un test de niveau en ligne (30 minutes). Les groupes sont limités à 18 personnes : les premiers inscrits seront les premiers servis.\n\nTarifs : gratuit pour les étudiants de l'université ; 180 € par semestre pour les personnes extérieures.\n\nDébut des cours : lundi 3 février.",
+      "translation": "LANGUAGE CENTRE – UNIVERSITY OF VALMONT\nEvening foreign-language classes: enrolment for the second semester\n\nEnrolment is open from 6 to 24 January, online only, through your student account.\n\nTwo options are offered:\n– Intensive option: 4 hours a week, in person. It is the most effective option for making fast progress, but also the most demanding: three absences lead to exclusion from the class.\n– Flexible option: 2 hours a week, remotely, with a tutor. It requires less attendance, but just as much personal work.\n\nBefore enrolling, you must take a 30-minute online placement test. Groups are limited to 18 people: first come, first served.\n\nFees: free for students of the university; €180 per semester for external participants.\n\nClasses start: Monday 3 February.",
+      "questions": [
+        {
+          "id": "u11-re02-q1",
+          "question": "How do you enrol?",
+          "options": [
+            "At the language centre reception",
+            "By post",
+            "By phone",
+            "Online, through your student account"
+          ],
+          "answer": 3,
+          "explanation": "« Uniquement en ligne, sur votre espace étudiant. »"
+        },
+        {
+          "id": "u11-re02-q2",
+          "question": "What is true about the flexible option?",
+          "options": [
+            "It requires less attendance but as much personal work.",
+            "It is more effective than the intensive option.",
+            "It takes place in person.",
+            "It is more expensive."
+          ],
+          "answer": 0,
+          "explanation": "« Elle demande moins de présence, mais autant de travail personnel. »"
+        },
+        {
+          "id": "u11-re02-q3",
+          "question": "A student wants to improve as fast as possible and can come to every class. What should she choose?",
+          "options": [
+            "The flexible option",
+            "The intensive option",
+            "Neither: she must wait until next year",
+            "Private lessons outside the university"
+          ],
+          "answer": 1,
+          "explanation": "The intensive option is « la formule la plus efficace pour progresser rapidement », and attendance won't be a problem for her."
+        },
+        {
+          "id": "u11-re02-q4",
+          "question": "Why is it a good idea to enrol early?",
+          "options": [
+            "Prices go up after 10 January.",
+            "The placement test is only available on 6 January.",
+            "Places are limited and given in order of enrolment.",
+            "Early enrolments get a certificate."
+          ],
+          "answer": 2,
+          "explanation": "Groups are limited to 18 people and « les premiers inscrits seront les premiers servis »."
+        }
+      ]
+    }
+  ],
+  "writing": [
+    {
+      "id": "u11-wr01",
+      "title": "Université ou apprentissage ?",
+      "level": "B1",
+      "taskType": "opinion",
+      "instructions": "TCF task 3: give and justify your opinion. Compare the two options, give arguments and examples, and conclude. Use comparatives and at least one superlative.",
+      "promptFr": "« Pour trouver un emploi, l'apprentissage est plus utile que les études universitaires. » Êtes-vous d'accord avec cette affirmation ? Donnez votre opinion en présentant des arguments et des exemples. (120 à 180 mots)",
+      "minWords": 120,
+      "maxWords": 180,
+      "modelAnswer": "Aujourd'hui, beaucoup de jeunes se demandent s'il vaut mieux aller à l'université ou choisir l'apprentissage. À mon avis, l'apprentissage est souvent plus efficace pour trouver un premier emploi, mais il n'est pas la meilleure solution pour tout le monde.\n\nD'abord, un apprenti acquiert plus d'expérience qu'un étudiant. Il connaît déjà le monde de l'entreprise et il a souvent un employeur qui peut l'embaucher à la fin de sa formation. En plus, il est payé, ce qui est un avantage important pour les familles qui ont peu de moyens.\n\nCependant, l'université offre des connaissances plus larges. Pour certains métiers, comme médecin, chercheur ou professeur, un diplôme universitaire reste indispensable. De plus, un étudiant a autant de chances de réussir qu'un apprenti s'il fait des stages pendant ses études.\n\nEn conclusion, je pense que les deux voies sont complémentaires. Le plus important, c'est de choisir la formation qui correspond le mieux à son projet et à sa personnalité.",
+      "checklist": [
+        "I stated my opinion clearly in the introduction.",
+        "I gave at least two arguments, each with an example.",
+        "I considered the other side with a connector (cependant, en revanche…).",
+        "I used comparatives (plus… que, autant de… que) and at least one superlative (le plus…, le mieux, la meilleure…).",
+        "I chose meilleur or mieux correctly.",
+        "I wrote a conclusion and stayed between 120 and 180 words."
+      ]
+    },
+    {
+      "id": "u11-wr02",
+      "title": "Demande d'informations",
+      "level": "B1",
+      "taskType": "message",
+      "instructions": "Write an email to a language school. Introduce yourself, explain what you are looking for, and ask about the differences between two courses (price, timetable, level).",
+      "promptFr": "Vous voulez améliorer votre anglais pour votre travail. Une école de langues propose un cours intensif et un cours du soir. Écrivez un courriel à l'école : présentez-vous, expliquez votre besoin et posez des questions pour comparer les deux formules. (60 à 120 mots)",
+      "minWords": 60,
+      "maxWords": 120,
+      "modelAnswer": "Objet : Renseignements sur vos cours d'anglais\n\nMadame, Monsieur,\n\nJe travaille dans une entreprise de transport et je dois de plus en plus souvent parler anglais avec des clients étrangers. J'ai un niveau intermédiaire, mais je voudrais être plus à l'aise à l'oral.\n\nJ'ai vu sur votre site que vous proposez un cours intensif et un cours du soir. Pourriez-vous m'indiquer quelle formule permet de progresser le plus vite ? Le cours du soir est-il beaucoup moins cher que le cours intensif ? Enfin, y a-t-il autant d'heures de conversation dans les deux cours ?\n\nJe vous remercie par avance de votre réponse.\n\nCordialement,\n\nAmina Traoré",
+      "checklist": [
+        "I used a subject line and formal greetings.",
+        "I introduced myself and explained my need.",
+        "I asked at least three clear questions comparing the two courses.",
+        "I used comparatives and/or superlatives correctly.",
+        "I stayed between 60 and 120 words."
+      ]
+    }
+  ],
+  "speaking": [
+    {
+      "id": "u11-sp01",
+      "title": "Choisir une formation",
+      "level": "B1",
+      "taskType": "interaction",
+      "instructions": "Role-play: you phone a training centre (the examiner) to compare two courses before enrolling. Ask about content, timetable, price and certificates, then decide.",
+      "promptFr": "Vous voulez suivre une formation en informatique. Vous téléphonez à un centre de formation qui propose une formation en présentiel et une formation à distance. Vous posez des questions pour comparer les deux et vous choisissez. L'examinateur joue le rôle du conseiller.",
+      "prepSeconds": 120,
+      "speakSeconds": 210,
+      "modelAnswer": "Bonjour monsieur, je vous appelle parce que je voudrais m'inscrire à une formation en informatique, et j'hésite entre vos deux formules. Quelle est la différence principale ? … D'accord. Et la formation en présentiel, elle dure plus longtemps que la formation à distance ? … Trois mois contre six, je vois. Pour le prix, est-ce que la formation à distance est moins chère ? … Ah, elles coûtent autant l'une que l'autre. Et est-ce qu'on obtient le même certificat à la fin ? … Très bien. Personnellement, je travaille la journée, donc j'ai peur de ne pas avoir assez de temps pour venir en cours. Mais je sais aussi que j'apprends mieux avec un formateur et d'autres apprenants. Est-ce qu'il y a des cours en présentiel le soir ou le samedi ? … Parfait ! Dans ce cas, c'est la meilleure solution pour moi. Comment est-ce que je peux m'inscrire ?",
+      "tips": [
+        "Explain your situation at the start so your questions make sense.",
+        "Use comparative questions: est-ce que c'est plus long / moins cher / aussi efficace… ?",
+        "Reformulate the answers to show you understood (Trois mois contre six, je vois).",
+        "End by making a choice and justifying it with a superlative (c'est la meilleure solution pour moi)."
+      ]
+    },
+    {
+      "id": "u11-sp02",
+      "title": "Apprendre en ligne ou en classe ?",
+      "level": "B1",
+      "taskType": "opinion",
+      "instructions": "Give and justify your opinion: is it better to learn online or in a classroom? Compare the two, give examples, and conclude.",
+      "promptFr": "Selon vous, est-ce qu'on apprend mieux en ligne ou en classe, avec un professeur ? Donnez votre opinion et justifiez-la avec des exemples.",
+      "prepSeconds": 0,
+      "speakSeconds": 270,
+      "modelAnswer": "Pour moi, on apprend mieux en classe, même si les cours en ligne ont de vrais avantages. D'abord, les cours en ligne sont plus pratiques : on peut étudier quand on veut, et ils sont souvent moins chers. Pour les gens qui travaillent, comme moi, c'est parfois la seule solution. Mais à mon avis, ce n'est pas la méthode la plus efficace. En classe, le professeur voit tout de suite quand on ne comprend pas, et on peut poser des questions. On parle aussi beaucoup plus avec les autres élèves, et pour une langue, c'est essentiel. Par exemple, j'ai suivi un cours d'espagnol sur une application pendant six mois : j'ai appris du vocabulaire, mais je n'osais toujours pas parler. Avec un vrai cours, j'ai fait plus de progrès en deux mois. Donc, je pense que la meilleure solution, c'est de mélanger les deux.",
+      "tips": [
+        "Give your opinion in the first sentence, then compare the two options.",
+        "Use a range of comparisons: plus pratique, moins cher, beaucoup plus, la méthode la plus efficace.",
+        "Give a concrete personal example to support your view.",
+        "Conclude with a clear, balanced answer."
+      ]
+    }
+  ],
+  "checkpoint": [
+    {
+      "id": "u11-cp01",
+      "type": "mcq",
+      "level": "B1",
+      "skill": "structures",
+      "grammarTag": "comparatifs",
+      "prompt": "The evening class is LESS expensive than the day course. Choose the right word.",
+      "promptFr": "Le cours du soir est ___ cher que le cours de jour.",
+      "options": [
+        "moins",
+        "plus",
+        "aussi",
+        "autant"
+      ],
+      "answer": 0,
+      "explanation": "'Less' + adjective = moins… que. Autant can't go before an adjective."
+    },
+    {
+      "id": "u11-cp02",
+      "type": "mcq",
+      "level": "B1",
+      "skill": "structures",
+      "grammarTag": "comparatifs",
+      "prompt": "He speaks French better than his brother. Choose the right form.",
+      "promptFr": "Il parle français ___ que son frère.",
+      "options": [
+        "meilleur",
+        "mieux",
+        "plus bien",
+        "le mieux"
+      ],
+      "answer": 1,
+      "explanation": "It describes how he speaks (a verb), so use the adverb mieux. Le mieux is a superlative."
+    },
+    {
+      "id": "u11-cp03",
+      "type": "mcq",
+      "level": "B1",
+      "skill": "structures",
+      "grammarTag": "comparatifs",
+      "prompt": "Choose the right form.",
+      "promptFr": "C'est la ___ note de ma vie !",
+      "options": [
+        "meilleure",
+        "mieux",
+        "plus bonne",
+        "meilleur"
+      ],
+      "answer": 0,
+      "explanation": "Note is a feminine noun, so the superlative of bon is la meilleure."
+    },
+    {
+      "id": "u11-cp04",
+      "type": "mcq",
+      "level": "B1",
+      "skill": "structures",
+      "grammarTag": "comparatifs",
+      "prompt": "I have as much homework as you this week. Choose the right form.",
+      "promptFr": "J'ai ___ devoirs que toi cette semaine.",
+      "options": [
+        "aussi",
+        "aussi de",
+        "autant de",
+        "autant"
+      ],
+      "answer": 2,
+      "explanation": "Before a noun (devoirs), 'as much / as many' is autant de."
+    },
+    {
+      "id": "u11-cp05",
+      "type": "mcq",
+      "level": "B1",
+      "skill": "structures",
+      "grammarTag": "vocabulary",
+      "prompt": "Which word means money given to a student to pay for their studies?",
+      "options": [
+        "une mention",
+        "une note",
+        "une matière",
+        "une bourse"
+      ],
+      "answer": 3,
+      "explanation": "Une bourse is a grant. Une mention is a distinction, une note a mark, une matière a subject."
+    },
+    {
+      "id": "u11-cp06",
+      "type": "fill_blank",
+      "level": "B1",
+      "skill": "structures",
+      "grammarTag": "comparatifs",
+      "prompt": "Complete the superlative.",
+      "sentence": "Ce sont les épreuves les ___ difficiles de l'année.",
+      "answers": [
+        "plus"
+      ],
+      "hint": "most",
+      "translation": "These are the most difficult exams of the year.",
+      "explanation": "Les plus + adjective = the most…"
+    },
+    {
+      "id": "u11-cp07",
+      "type": "fill_blank",
+      "level": "B1",
+      "skill": "structures",
+      "grammarTag": "comparatifs",
+      "prompt": "Complete with one word.",
+      "sentence": "Cette méthode marche ___ que l'autre : j'ai vraiment progressé.",
+      "answers": [
+        "mieux"
+      ],
+      "hint": "better",
+      "translation": "This method works better than the other one: I've really made progress.",
+      "explanation": "Marcher is a verb, so 'better' is the adverb mieux."
+    },
+    {
+      "id": "u11-cp08",
+      "type": "fill_blank",
+      "level": "B1",
+      "skill": "structures",
+      "grammarTag": "comparatifs",
+      "prompt": "They are equally motivated. Complete the comparison.",
+      "sentence": "Elle est ___ motivée que lui.",
+      "answers": [
+        "aussi"
+      ],
+      "hint": "as",
+      "translation": "She's as motivated as he is.",
+      "explanation": "Equality with an adjective (motivée): aussi… que."
+    },
+    {
+      "id": "u11-cp09",
+      "type": "fill_blank",
+      "level": "B1",
+      "skill": "structures",
+      "grammarTag": "vocabulary",
+      "prompt": "Complete with the right verb in the infinitive.",
+      "sentence": "S'il ne travaille pas davantage, il risque d'___ à l'examen.",
+      "answers": [
+        "échouer"
+      ],
+      "hint": "to fail",
+      "translation": "If he doesn't work harder, he may fail the exam.",
+      "explanation": "Échouer à un examen = to fail an exam."
+    },
+    {
+      "id": "u11-cp10",
+      "type": "fill_blank",
+      "level": "B1",
+      "skill": "structures",
+      "grammarTag": "vocabulary",
+      "prompt": "Complete with the right verb in the infinitive.",
+      "sentence": "Pour m'___ à l'université, j'ai rempli un dossier en ligne.",
+      "answers": [
+        "inscrire"
+      ],
+      "hint": "to enrol",
+      "translation": "To enrol at the university, I filled in an application online.",
+      "explanation": "S'inscrire = to enrol; here pour m'inscrire (to enrol myself)."
+    }
+  ]
+}

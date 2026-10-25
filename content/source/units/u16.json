@@ -1,0 +1,2172 @@
+{
+  "id": "u16",
+  "order": 16,
+  "level": "B1",
+  "theme": "Plans and ambitions",
+  "titleFr": "Projets et ambitions",
+  "description": "Talk about your plans, dreams and goals, express feelings and doubts about the future with the subjonctif, and say why you do things with pour que and afin de.",
+  "vocab": [
+    {
+      "id": "u16-w001",
+      "fr": "projet",
+      "en": "plan, project",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "projets",
+      "level": "A2+",
+      "core": true,
+      "example": {
+        "fr": "Notre projet, c'est d'ouvrir une petite librairie à la campagne.",
+        "en": "Our plan is to open a small bookshop in the countryside."
+      }
+    },
+    {
+      "id": "u16-w002",
+      "fr": "ambition",
+      "en": "ambition",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "ambitions",
+      "level": "B1",
+      "core": true,
+      "example": {
+        "fr": "Son ambition est de devenir cheffe d'orchestre.",
+        "en": "Her ambition is to become a conductor."
+      }
+    },
+    {
+      "id": "u16-w003",
+      "fr": "rêve",
+      "en": "dream",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "rêves",
+      "level": "A2+",
+      "core": true,
+      "example": {
+        "fr": "Partir vivre au Québec, c'est mon rêve depuis l'enfance.",
+        "en": "Going to live in Quebec has been my dream since childhood."
+      }
+    },
+    {
+      "id": "u16-w004",
+      "fr": "objectif",
+      "en": "goal, objective",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "objectifs",
+      "level": "B1",
+      "core": true,
+      "example": {
+        "fr": "Je me suis fixé un objectif : parler couramment espagnol d'ici deux ans.",
+        "en": "I've set myself a goal: to speak Spanish fluently within two years."
+      }
+    },
+    {
+      "id": "u16-w005",
+      "fr": "but",
+      "en": "aim, purpose",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "buts",
+      "level": "B1",
+      "core": true,
+      "example": {
+        "fr": "Le but de ce voyage est de mieux connaître ma famille au Portugal.",
+        "en": "The aim of this trip is to get to know my family in Portugal better."
+      }
+    },
+    {
+      "id": "u16-w006",
+      "fr": "réaliser",
+      "en": "to achieve, to fulfil (a dream, a plan)",
+      "pos": "verb",
+      "level": "B1",
+      "core": true,
+      "example": {
+        "fr": "Elle a enfin réalisé son rêve d'enfant : voler en montgolfière.",
+        "en": "She has finally fulfilled her childhood dream: flying in a hot-air balloon."
+      }
+    },
+    {
+      "id": "u16-w007",
+      "fr": "se lancer",
+      "en": "to take the plunge, to launch into",
+      "pos": "verb",
+      "level": "B1",
+      "core": true,
+      "example": {
+        "fr": "Après des mois d'hésitation, Karim s'est lancé dans la création d'une application.",
+        "en": "After months of hesitation, Karim took the plunge and started building an app."
+      }
+    },
+    {
+      "id": "u16-w008",
+      "fr": "envisager",
+      "en": "to consider, to think about (doing)",
+      "pos": "verb",
+      "level": "B1",
+      "core": true,
+      "example": {
+        "fr": "Nous envisageons de partir un an en Australie.",
+        "en": "We're thinking about going to Australia for a year."
+      }
+    },
+    {
+      "id": "u16-w009",
+      "fr": "prévoir",
+      "en": "to plan, to foresee",
+      "pos": "verb",
+      "level": "A2+",
+      "core": true,
+      "example": {
+        "fr": "J'ai prévu de reprendre la guitare en septembre.",
+        "en": "I've planned to take up the guitar again in September."
+      }
+    },
+    {
+      "id": "u16-w010",
+      "fr": "avenir",
+      "en": "future",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "avenirs",
+      "level": "A2+",
+      "core": true,
+      "example": {
+        "fr": "Personne ne sait de quoi l'avenir sera fait.",
+        "en": "Nobody knows what the future holds."
+      }
+    },
+    {
+      "id": "u16-w011",
+      "fr": "carrière",
+      "en": "career",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "carrières",
+      "level": "B1",
+      "core": true,
+      "example": {
+        "fr": "Elle a fait toute sa carrière dans la même entreprise.",
+        "en": "She spent her whole career at the same company."
+      }
+    },
+    {
+      "id": "u16-w012",
+      "fr": "défi",
+      "en": "challenge",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "défis",
+      "level": "B1",
+      "core": true,
+      "example": {
+        "fr": "Apprendre le chinois à cinquante ans, c'est un beau défi !",
+        "en": "Learning Chinese at fifty is quite a challenge!"
+      }
+    },
+    {
+      "id": "u16-w013",
+      "fr": "étape",
+      "en": "step, stage",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "étapes",
+      "level": "A2+",
+      "core": true,
+      "example": {
+        "fr": "La première étape, c'est de trouver un local.",
+        "en": "The first step is to find premises."
+      }
+    },
+    {
+      "id": "u16-w014",
+      "fr": "atteindre",
+      "en": "to reach, to achieve",
+      "pos": "verb",
+      "level": "B1",
+      "core": true,
+      "example": {
+        "fr": "Il a atteint son objectif plus vite que prévu.",
+        "en": "He reached his goal faster than expected."
+      }
+    },
+    {
+      "id": "u16-w015",
+      "fr": "réussite",
+      "en": "success",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "réussites",
+      "level": "B1",
+      "core": true,
+      "example": {
+        "fr": "La réussite de ce projet dépend de toute l'équipe.",
+        "en": "The success of this project depends on the whole team."
+      }
+    },
+    {
+      "id": "u16-w016",
+      "fr": "échec",
+      "en": "failure",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "échecs",
+      "level": "B1",
+      "core": true,
+      "example": {
+        "fr": "Cet échec lui a appris beaucoup de choses.",
+        "en": "That failure taught him a lot."
+      }
+    },
+    {
+      "id": "u16-w017",
+      "fr": "oser",
+      "en": "to dare",
+      "pos": "verb",
+      "level": "B1",
+      "core": true,
+      "example": {
+        "fr": "Je n'ai jamais osé parler de mon projet à mes parents.",
+        "en": "I've never dared to talk to my parents about my plan."
+      }
+    },
+    {
+      "id": "u16-w018",
+      "fr": "hésiter",
+      "en": "to hesitate, to be torn",
+      "pos": "verb",
+      "level": "A2+",
+      "core": true,
+      "example": {
+        "fr": "J'hésite encore entre rester à Lyon et partir à Montréal.",
+        "en": "I'm still torn between staying in Lyon and moving to Montreal."
+      }
+    },
+    {
+      "id": "u16-w019",
+      "fr": "reconversion",
+      "en": "career change, retraining",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "reconversions",
+      "level": "B1",
+      "core": true,
+      "example": {
+        "fr": "À 42 ans, Sophie a entamé une reconversion dans l'ébénisterie.",
+        "en": "At 42, Sophie began a career change into cabinet-making."
+      }
+    },
+    {
+      "id": "u16-w020",
+      "fr": "motivé",
+      "en": "motivated",
+      "pos": "adjective",
+      "level": "A2+",
+      "core": true,
+      "example": {
+        "fr": "Elle est très motivée : elle se lève à six heures pour travailler sur son projet.",
+        "en": "She's very motivated: she gets up at six to work on her project."
+      }
+    },
+    {
+      "id": "u16-w021",
+      "fr": "ambitieux / ambitieuse",
+      "en": "ambitious",
+      "pos": "adjective",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "C'est un projet ambitieux, mais il est réalisable.",
+        "en": "It's an ambitious project, but it's achievable."
+      }
+    },
+    {
+      "id": "u16-w022",
+      "fr": "déterminé",
+      "en": "determined",
+      "pos": "adjective",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Malgré les difficultés, ils restent déterminés à ouvrir leur restaurant.",
+        "en": "Despite the difficulties, they remain determined to open their restaurant."
+      }
+    },
+    {
+      "id": "u16-w023",
+      "fr": "épanouissement",
+      "en": "fulfilment, personal growth",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Pour lui, l'épanouissement personnel compte plus que le salaire.",
+        "en": "For him, personal fulfilment matters more than salary."
+      }
+    },
+    {
+      "id": "u16-w024",
+      "fr": "s'épanouir",
+      "en": "to blossom, to feel fulfilled",
+      "pos": "verb",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Depuis qu'elle travaille dehors, elle s'épanouit vraiment.",
+        "en": "Since she started working outdoors, she has really blossomed."
+      }
+    },
+    {
+      "id": "u16-w025",
+      "fr": "persévérance",
+      "en": "perseverance",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Avec de la persévérance, tu finiras par y arriver.",
+        "en": "With perseverance, you'll get there in the end."
+      }
+    },
+    {
+      "id": "u16-w026",
+      "fr": "persévérer",
+      "en": "to persevere, to keep going",
+      "pos": "verb",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Il faut persévérer, même quand les résultats se font attendre.",
+        "en": "You have to keep going, even when the results are slow to come."
+      }
+    },
+    {
+      "id": "u16-w027",
+      "fr": "volonté",
+      "en": "willpower, will",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "volontés",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Elle a une volonté de fer.",
+        "en": "She has an iron will."
+      }
+    },
+    {
+      "id": "u16-w028",
+      "fr": "obstacle",
+      "en": "obstacle",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "obstacles",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Le principal obstacle, c'est le manque de temps.",
+        "en": "The main obstacle is the lack of time."
+      }
+    },
+    {
+      "id": "u16-w029",
+      "fr": "imprévu",
+      "en": "something unexpected, unforeseen event",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "imprévus",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Sauf imprévu, nous partirons le 3 juillet.",
+        "en": "Barring anything unexpected, we'll leave on 3 July."
+      }
+    },
+    {
+      "id": "u16-w030",
+      "fr": "échéance",
+      "en": "deadline, due date",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "échéances",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "L'échéance approche : le dossier doit être rendu vendredi.",
+        "en": "The deadline is getting close: the file has to be handed in on Friday."
+      }
+    },
+    {
+      "id": "u16-w031",
+      "fr": "planifier",
+      "en": "to plan (in detail)",
+      "pos": "verb",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Elle a planifié chaque étape de son tour d'Europe.",
+        "en": "She planned every stage of her tour of Europe."
+      }
+    },
+    {
+      "id": "u16-w032",
+      "fr": "compter (+ infinitif)",
+      "en": "to intend to, to plan to",
+      "pos": "verb",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Je compte m'inscrire à un cours de céramique cet automne.",
+        "en": "I intend to sign up for a pottery class this autumn."
+      }
+    },
+    {
+      "id": "u16-w033",
+      "fr": "avoir l'intention de",
+      "en": "to intend to",
+      "pos": "expression",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Nous avons l'intention de rénover cette vieille ferme.",
+        "en": "We intend to renovate this old farmhouse."
+      }
+    },
+    {
+      "id": "u16-w034",
+      "fr": "tenir à",
+      "en": "to be keen on, to insist on",
+      "pos": "verb",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Je tiens à terminer mes études avant de voyager.",
+        "en": "I'm determined to finish my studies before travelling."
+      }
+    },
+    {
+      "id": "u16-w035",
+      "fr": "avoir hâte de",
+      "en": "to look forward to, can't wait to",
+      "pos": "expression",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "J'ai hâte de commencer ma nouvelle vie à Bordeaux.",
+        "en": "I can't wait to start my new life in Bordeaux."
+      }
+    },
+    {
+      "id": "u16-w036",
+      "fr": "rêver de",
+      "en": "to dream of",
+      "pos": "verb",
+      "level": "A2+",
+      "core": false,
+      "example": {
+        "fr": "Il rêve de traverser l'Atlantique à la voile.",
+        "en": "He dreams of sailing across the Atlantic."
+      }
+    },
+    {
+      "id": "u16-w037",
+      "fr": "se consacrer à",
+      "en": "to devote oneself to",
+      "pos": "verb",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Après sa retraite, elle veut se consacrer à la peinture.",
+        "en": "After she retires, she wants to devote herself to painting."
+      }
+    },
+    {
+      "id": "u16-w038",
+      "fr": "s'engager",
+      "en": "to commit (oneself), to get involved",
+      "pos": "verb",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Il s'est engagé à finir le chantier avant l'hiver.",
+        "en": "He committed to finishing the building work before winter."
+      }
+    },
+    {
+      "id": "u16-w039",
+      "fr": "entreprendre",
+      "en": "to undertake, to set about",
+      "pos": "verb",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Ils ont entrepris de rénover la maison eux-mêmes.",
+        "en": "They set about renovating the house themselves."
+      }
+    },
+    {
+      "id": "u16-w040",
+      "fr": "créer son entreprise",
+      "en": "to start one's own business",
+      "pos": "expression",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Mon frère a créé son entreprise de paysagisme l'année dernière.",
+        "en": "My brother started his own landscaping business last year."
+      }
+    },
+    {
+      "id": "u16-w041",
+      "fr": "s'expatrier",
+      "en": "to move abroad, to become an expat",
+      "pos": "verb",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Beaucoup de jeunes ingénieurs choisissent de s'expatrier quelques années.",
+        "en": "Many young engineers choose to move abroad for a few years."
+      }
+    },
+    {
+      "id": "u16-w042",
+      "fr": "année sabbatique",
+      "en": "gap year, sabbatical",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "années sabbatiques",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Elle prend une année sabbatique pour faire du bénévolat en Amérique du Sud.",
+        "en": "She's taking a sabbatical to do volunteer work in South America."
+      }
+    },
+    {
+      "id": "u16-w043",
+      "fr": "tour du monde",
+      "en": "round-the-world trip",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "tours du monde",
+      "level": "A2+",
+      "core": false,
+      "example": {
+        "fr": "Ils ont vendu leur voiture pour financer leur tour du monde.",
+        "en": "They sold their car to pay for their round-the-world trip."
+      }
+    },
+    {
+      "id": "u16-w044",
+      "fr": "bénévolat",
+      "en": "volunteering, voluntary work",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Le bénévolat m'a donné envie de travailler dans le social.",
+        "en": "Volunteering made me want to work in social care."
+      }
+    },
+    {
+      "id": "u16-w045",
+      "fr": "vocation",
+      "en": "vocation, calling",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "vocations",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Soigner les animaux, c'est sa vocation depuis toujours.",
+        "en": "Caring for animals has always been her calling."
+      }
+    },
+    {
+      "id": "u16-w046",
+      "fr": "passion",
+      "en": "passion",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "passions",
+      "level": "A2+",
+      "core": false,
+      "example": {
+        "fr": "Il a fait de sa passion pour le vélo un métier.",
+        "en": "He turned his passion for cycling into a job."
+      }
+    },
+    {
+      "id": "u16-w047",
+      "fr": "potentiel",
+      "en": "potential",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "potentiels",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Ton idée a un vrai potentiel ; il faut la développer.",
+        "en": "Your idea has real potential; you need to develop it."
+      }
+    },
+    {
+      "id": "u16-w048",
+      "fr": "progresser",
+      "en": "to make progress, to improve",
+      "pos": "verb",
+      "level": "A2+",
+      "core": false,
+      "example": {
+        "fr": "Elle a beaucoup progressé en piano cette année.",
+        "en": "She has made a lot of progress at the piano this year."
+      }
+    },
+    {
+      "id": "u16-w049",
+      "fr": "évoluer",
+      "en": "to develop, to move on (in a career)",
+      "pos": "verb",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Je voudrais évoluer vers un poste plus créatif.",
+        "en": "I'd like to move on to a more creative position."
+      }
+    },
+    {
+      "id": "u16-w050",
+      "fr": "perspective",
+      "en": "prospect, outlook",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "perspectives",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Ce nouveau diplôme lui ouvre des perspectives intéressantes.",
+        "en": "This new qualification opens up interesting prospects for him."
+      }
+    },
+    {
+      "id": "u16-w051",
+      "fr": "opportunité",
+      "en": "opportunity",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "opportunités",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Cette offre est une opportunité à ne pas manquer.",
+        "en": "This offer is an opportunity not to be missed."
+      }
+    },
+    {
+      "id": "u16-w052",
+      "fr": "saisir sa chance",
+      "en": "to seize the opportunity",
+      "pos": "expression",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Quand on lui a proposé de partir au Japon, il a saisi sa chance.",
+        "en": "When he was offered the chance to go to Japan, he seized it."
+      }
+    },
+    {
+      "id": "u16-w053",
+      "fr": "risque",
+      "en": "risk",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "risques",
+      "level": "A2+",
+      "core": false,
+      "example": {
+        "fr": "Quitter un emploi stable comporte des risques.",
+        "en": "Leaving a stable job involves risks."
+      }
+    },
+    {
+      "id": "u16-w054",
+      "fr": "regretter",
+      "en": "to regret, to be sorry",
+      "pos": "verb",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Je regrette que tu ne puisses pas venir à mon spectacle.",
+        "en": "I'm sorry you can't come to my show."
+      }
+    },
+    {
+      "id": "u16-w055",
+      "fr": "craindre",
+      "en": "to fear, to be afraid",
+      "pos": "verb",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Je crains que le projet coûte plus cher que prévu.",
+        "en": "I fear the project will cost more than planned."
+      }
+    },
+    {
+      "id": "u16-w056",
+      "fr": "douter",
+      "en": "to doubt",
+      "pos": "verb",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Je doute qu'il soit prêt à tout quitter.",
+        "en": "I doubt he's ready to leave everything behind."
+      }
+    },
+    {
+      "id": "u16-w057",
+      "fr": "ravi",
+      "en": "delighted",
+      "pos": "adjective",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Nous sommes ravis que vous acceptiez notre proposition.",
+        "en": "We're delighted that you're accepting our offer."
+      }
+    },
+    {
+      "id": "u16-w058",
+      "fr": "déçu",
+      "en": "disappointed",
+      "pos": "adjective",
+      "level": "A2+",
+      "core": false,
+      "example": {
+        "fr": "Elle est déçue de ne pas obtenir la bourse.",
+        "en": "She's disappointed not to get the grant."
+      }
+    },
+    {
+      "id": "u16-w059",
+      "fr": "fier / fière",
+      "en": "proud",
+      "pos": "adjective",
+      "level": "A2+",
+      "core": false,
+      "example": {
+        "fr": "Ses parents sont fiers qu'il fasse ce métier.",
+        "en": "His parents are proud that he does this job."
+      }
+    },
+    {
+      "id": "u16-w060",
+      "fr": "inquiet / inquiète",
+      "en": "worried",
+      "pos": "adjective",
+      "level": "A2+",
+      "core": false,
+      "example": {
+        "fr": "Sa mère est inquiète qu'il parte seul si loin.",
+        "en": "His mother is worried about him going so far away alone."
+      }
+    },
+    {
+      "id": "u16-w061",
+      "fr": "soulagé",
+      "en": "relieved",
+      "pos": "adjective",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Je suis soulagé que tout se passe bien.",
+        "en": "I'm relieved that everything is going well."
+      }
+    },
+    {
+      "id": "u16-w062",
+      "fr": "sceptique",
+      "en": "sceptical",
+      "pos": "adjective",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Mes amis sont sceptiques : ils ne croient pas que je puisse tout changer.",
+        "en": "My friends are sceptical: they don't believe I can change everything."
+      }
+    },
+    {
+      "id": "u16-w063",
+      "fr": "surmonter",
+      "en": "to overcome",
+      "pos": "verb",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Elle a surmonté sa peur de parler en public.",
+        "en": "She overcame her fear of speaking in public."
+      }
+    },
+    {
+      "id": "u16-w064",
+      "fr": "renoncer à",
+      "en": "to give up (on)",
+      "pos": "verb",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Il a renoncé à son voyage à cause de sa santé.",
+        "en": "He gave up on his trip because of his health."
+      }
+    },
+    {
+      "id": "u16-w065",
+      "fr": "se décourager",
+      "en": "to lose heart, to get discouraged",
+      "pos": "verb",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Ne te décourage pas, tu y es presque !",
+        "en": "Don't lose heart, you're almost there!"
+      }
+    },
+    {
+      "id": "u16-w066",
+      "fr": "repousser",
+      "en": "to postpone, to put off",
+      "pos": "verb",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Nous avons dû repousser notre départ d'un mois.",
+        "en": "We had to put off our departure by a month."
+      }
+    },
+    {
+      "id": "u16-w067",
+      "fr": "à long terme",
+      "en": "in the long term",
+      "pos": "expression",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "À long terme, j'aimerais vivre de ma musique.",
+        "en": "In the long term, I'd like to make a living from my music."
+      }
+    },
+    {
+      "id": "u16-w068",
+      "fr": "à court terme",
+      "en": "in the short term",
+      "pos": "expression",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "À court terme, mon objectif est de trouver un appartement.",
+        "en": "In the short term, my goal is to find a flat."
+      }
+    },
+    {
+      "id": "u16-w069",
+      "fr": "d'ici",
+      "en": "by, within (a point in the future)",
+      "pos": "preposition",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "D'ici trois ans, je voudrais avoir mon propre atelier.",
+        "en": "Within three years, I'd like to have my own workshop."
+      }
+    },
+    {
+      "id": "u16-w070",
+      "fr": "désormais",
+      "en": "from now on",
+      "pos": "adverb",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Désormais, je consacre une heure par jour à l'écriture.",
+        "en": "From now on, I devote an hour a day to writing."
+      }
+    },
+    {
+      "id": "u16-w071",
+      "fr": "tôt ou tard",
+      "en": "sooner or later",
+      "pos": "expression",
+      "level": "A2+",
+      "core": false,
+      "example": {
+        "fr": "Tôt ou tard, tu trouveras ta voie.",
+        "en": "Sooner or later, you'll find your path."
+      }
+    },
+    {
+      "id": "u16-w072",
+      "fr": "peu à peu",
+      "en": "little by little",
+      "pos": "adverb",
+      "level": "A2+",
+      "core": false,
+      "example": {
+        "fr": "Peu à peu, son projet a pris forme.",
+        "en": "Little by little, her project took shape."
+      }
+    },
+    {
+      "id": "u16-w073",
+      "fr": "afin de",
+      "en": "in order to",
+      "pos": "preposition",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Elle prend des cours du soir afin de changer de métier.",
+        "en": "She's taking evening classes in order to change careers."
+      }
+    },
+    {
+      "id": "u16-w074",
+      "fr": "pour que",
+      "en": "so that",
+      "pos": "conjunction",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Je t'envoie le plan pour que tu puisses le relire.",
+        "en": "I'm sending you the plan so that you can read it over."
+      }
+    },
+    {
+      "id": "u16-w075",
+      "fr": "afin que",
+      "en": "so that, in order that",
+      "pos": "conjunction",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Nous avons tout organisé afin que la fête soit une surprise.",
+        "en": "We organised everything so that the party would be a surprise."
+      }
+    },
+    {
+      "id": "u16-w076",
+      "fr": "de peur que",
+      "en": "for fear that",
+      "pos": "conjunction",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Il n'a rien dit de peur qu'on se moque de lui.",
+        "en": "He said nothing for fear that people would laugh at him."
+      }
+    },
+    {
+      "id": "u16-w077",
+      "fr": "faire en sorte que",
+      "en": "to make sure that, to see to it that",
+      "pos": "expression",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Je ferai en sorte que tout soit prêt à temps.",
+        "en": "I'll make sure everything is ready on time."
+      }
+    },
+    {
+      "id": "u16-w078",
+      "fr": "s'attendre à",
+      "en": "to expect",
+      "pos": "verb",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Je ne m'attendais pas à un tel succès.",
+        "en": "I wasn't expecting such success."
+      }
+    },
+    {
+      "id": "u16-w079",
+      "fr": "aspirer à",
+      "en": "to aspire to, to long for",
+      "pos": "verb",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Elle aspire à une vie plus calme, loin de la ville.",
+        "en": "She longs for a quieter life, far from the city."
+      }
+    },
+    {
+      "id": "u16-w080",
+      "fr": "mener à bien",
+      "en": "to see through, to carry out successfully",
+      "pos": "expression",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Il a mené à bien son projet malgré le manque de moyens.",
+        "en": "He saw his project through despite the lack of resources."
+      }
+    },
+    {
+      "id": "u16-w081",
+      "fr": "bilan",
+      "en": "review, assessment, stock-taking",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "bilans",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "À la fin de l'année, je fais toujours le bilan de mes objectifs.",
+        "en": "At the end of the year, I always take stock of my goals."
+      }
+    },
+    {
+      "id": "u16-w082",
+      "fr": "soutien",
+      "en": "support",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "soutiens",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Sans le soutien de ma sœur, je n'aurais jamais osé me lancer.",
+        "en": "Without my sister's support, I would never have dared to take the plunge."
+      }
+    },
+    {
+      "id": "u16-w083",
+      "fr": "parcours",
+      "en": "path, background (career or life)",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "parcours",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Son parcours est atypique : il a été cuisinier avant de devenir pilote.",
+        "en": "His background is unusual: he was a cook before becoming a pilot."
+      }
+    },
+    {
+      "id": "u16-w084",
+      "fr": "résolution",
+      "en": "resolution",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "résolutions",
+      "level": "A2+",
+      "core": false,
+      "example": {
+        "fr": "Ma bonne résolution pour cette année : apprendre à nager.",
+        "en": "My New Year's resolution for this year: learn to swim."
+      }
+    }
+  ],
+  "grammar": [
+    {
+      "id": "u16-g01",
+      "title": "The subjonctif after emotion and doubt",
+      "level": "B1",
+      "grammarTag": "subjonctif",
+      "explanation": [
+        "When the main clause expresses a feeling — joy, sadness, fear, surprise, regret, pride — about what someone else does, the verb after que goes into the subjonctif: Je suis content que tu viennes. Common triggers: être content / heureux / ravi / triste / déçu / surpris / fier que, avoir peur que, craindre que, regretter que.",
+        "Doubt and uncertainty also trigger the subjonctif: douter que, ne pas être sûr que, ne pas penser que, ne pas croire que, il est possible que. In the affirmative, penser, croire and être sûr present something as true, so they take the indicative: Je pense qu'il viendra, but Je ne pense pas qu'il vienne.",
+        "Espérer is the classic trap. Although it expresses a wish, it takes the indicative, very often the future: J'espère que tu réussiras. In the same way, être sûr que, il est certain que and il est probable que take the indicative.",
+        "If both clauses have the same subject, French does not use que + subjonctif. Use de + infinitive instead: Je suis content de partir (not que je parte), Je regrette de ne pas pouvoir venir, J'ai peur d'échouer.",
+        "Reminder of the forms: take the ils form of the present (ils prennent → prenn-) and add -e, -es, -e, -ions, -iez, -ent. Key irregulars: être (que je sois), avoir (que j'aie), aller (que j'aille), faire (que je fasse), pouvoir (que je puisse), savoir (que je sache), vouloir (que je veuille)."
+      ],
+      "table": [
+        [
+          "Main clause",
+          "Mood after que",
+          "Example"
+        ],
+        [
+          "être content / triste / surpris que",
+          "subjonctif",
+          "Je suis surpris qu'il parte."
+        ],
+        [
+          "avoir peur que / craindre que",
+          "subjonctif",
+          "J'ai peur qu'il soit trop tard."
+        ],
+        [
+          "regretter que",
+          "subjonctif",
+          "Je regrette que tu ne viennes pas."
+        ],
+        [
+          "douter que / ne pas être sûr que",
+          "subjonctif",
+          "Je doute qu'elle ait le temps."
+        ],
+        [
+          "ne pas penser / ne pas croire que",
+          "subjonctif",
+          "Je ne crois pas que ce soit possible."
+        ],
+        [
+          "penser / croire / être sûr que",
+          "indicatif",
+          "Je crois que c'est possible."
+        ],
+        [
+          "espérer que",
+          "indicatif",
+          "J'espère qu'elle aura le temps."
+        ]
+      ],
+      "examples": [
+        {
+          "fr": "Je suis ravie que tu te lances enfin dans ce projet.",
+          "en": "I'm delighted that you're finally launching into this project."
+        },
+        {
+          "fr": "Mes parents ont peur que je fasse une erreur.",
+          "en": "My parents are afraid I'm making a mistake."
+        },
+        {
+          "fr": "Je doute que nous puissions partir avant l'été.",
+          "en": "I doubt we'll be able to leave before the summer."
+        },
+        {
+          "fr": "Je ne pense pas que ce soit le bon moment.",
+          "en": "I don't think it's the right time."
+        },
+        {
+          "fr": "Je pense que c'est le bon moment.",
+          "en": "I think it's the right time."
+        },
+        {
+          "fr": "J'espère que tu atteindras ton objectif.",
+          "en": "I hope you'll reach your goal."
+        },
+        {
+          "fr": "Il regrette de ne pas avoir osé plus tôt.",
+          "en": "He regrets not having dared sooner."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "J'espère que tu réussisses ton examen.",
+          "right": "J'espère que tu réussiras ton examen.",
+          "why": "Espérer takes the indicative (usually the future), not the subjonctif."
+        },
+        {
+          "wrong": "Je pense qu'il soit prêt.",
+          "right": "Je pense qu'il est prêt.",
+          "why": "Affirmative penser / croire present a fact you believe, so they take the indicative. Only the negative (je ne pense pas que) takes the subjonctif."
+        },
+        {
+          "wrong": "Je suis content que je parte en vacances.",
+          "right": "Je suis content de partir en vacances.",
+          "why": "Same subject in both parts of the sentence: use de + infinitive, not que + subjonctif."
+        },
+        {
+          "wrong": "J'ai peur qu'il est en retard.",
+          "right": "J'ai peur qu'il soit en retard.",
+          "why": "Avoir peur que expresses an emotion, so it is followed by the subjonctif."
+        }
+      ]
+    },
+    {
+      "id": "u16-g02",
+      "title": "Expressing purpose: pour que, afin que, pour, afin de",
+      "level": "B1",
+      "grammarTag": "subjonctif",
+      "explanation": [
+        "To say why you do something, use pour or afin de + infinitive when the person doing the action is also the person who will do the second action: J'apprends le français pour travailler à Paris. Afin de means the same but is more formal and common in writing.",
+        "When the purpose concerns another person, use pour que or afin que + subjonctif: Je parle lentement pour que tu comprennes. These conjunctions always take the subjonctif, never the indicative or the future.",
+        "To express something you want to avoid, use de peur que / de crainte que + subjonctif (different subjects) or de peur de + infinitive (same subject): Il part tôt de peur de rater le train. In everyday speech, pour ne pas + infinitive is the simplest option: pour ne pas rater le train.",
+        "Watch the position of the negation. With an infinitive, both parts go before the verb: pour ne pas oublier. With pour que, the negation surrounds the conjugated verb: pour qu'il ne s'inquiète pas."
+      ],
+      "table": [
+        [
+          "Same subject",
+          "Different subjects"
+        ],
+        [
+          "pour + infinitif",
+          "pour que + subjonctif"
+        ],
+        [
+          "afin de + infinitif",
+          "afin que + subjonctif"
+        ],
+        [
+          "de peur de + infinitif",
+          "de peur que + subjonctif"
+        ],
+        [
+          "pour ne pas + infinitif",
+          "pour que … ne … pas + subjonctif"
+        ]
+      ],
+      "examples": [
+        {
+          "fr": "Elle économise pour faire le tour du monde.",
+          "en": "She's saving up to travel round the world."
+        },
+        {
+          "fr": "Je t'explique mon projet pour que tu me donnes ton avis.",
+          "en": "I'm explaining my plan to you so that you can give me your opinion."
+        },
+        {
+          "fr": "Nous suivons une formation afin de créer notre entreprise.",
+          "en": "We're doing a training course in order to start our own business."
+        },
+        {
+          "fr": "Le directeur a tout prévu afin que le projet soit prêt en juin.",
+          "en": "The manager planned everything so that the project would be ready in June."
+        },
+        {
+          "fr": "Il prend des notes pour ne rien oublier.",
+          "en": "He takes notes so as not to forget anything."
+        },
+        {
+          "fr": "Je l'appelle tous les soirs pour qu'elle ne se sente pas seule.",
+          "en": "I call her every evening so that she doesn't feel lonely."
+        },
+        {
+          "fr": "Ils ne disent rien de peur que leur fille renonce à son rêve.",
+          "en": "They say nothing for fear that their daughter will give up on her dream."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "Je travaille dur pour que je réussisse.",
+          "right": "Je travaille dur pour réussir.",
+          "why": "The subject is the same (je … je), so use pour + infinitive."
+        },
+        {
+          "wrong": "Je te le dis pour que tu sais la vérité.",
+          "right": "Je te le dis pour que tu saches la vérité.",
+          "why": "Pour que is always followed by the subjonctif: savoir → que tu saches."
+        },
+        {
+          "wrong": "Elle part tôt pour ne arriver pas en retard.",
+          "right": "Elle part tôt pour ne pas arriver en retard.",
+          "why": "With an infinitive, ne and pas both go before the verb."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "u16-ex01",
+      "type": "mcq",
+      "level": "B1",
+      "skill": "structures",
+      "grammarTag": "subjonctif",
+      "prompt": "Choose the correct verb form.",
+      "promptFr": "Je suis content que tu ___ venir à la fête.",
+      "options": [
+        "peux",
+        "puisses",
+        "pourras",
+        "pouvoir"
+      ],
+      "answer": 1,
+      "explanation": "Être content que expresses an emotion about someone else's action, so it takes the subjonctif: que tu puisses."
+    },
+    {
+      "id": "u16-ex02",
+      "type": "mcq",
+      "level": "B1",
+      "skill": "structures",
+      "grammarTag": "subjonctif",
+      "prompt": "Choose the correct verb form.",
+      "promptFr": "J'espère que tu ___ ton objectif cette année.",
+      "options": [
+        "atteignes",
+        "atteindre",
+        "aies atteint",
+        "atteindras"
+      ],
+      "answer": 3,
+      "explanation": "Espérer que takes the indicative, usually the future: tu atteindras. Atteignes and aies atteint are subjonctif forms."
+    },
+    {
+      "id": "u16-ex03",
+      "type": "mcq",
+      "level": "B1",
+      "skill": "structures",
+      "grammarTag": "subjonctif",
+      "prompt": "Choose the correct verb form.",
+      "promptFr": "Je ne pense pas que ce projet ___ réaliste.",
+      "options": [
+        "soit",
+        "est",
+        "sera",
+        "être"
+      ],
+      "answer": 0,
+      "explanation": "Negative penser (je ne pense pas que) expresses doubt, so it takes the subjonctif: soit."
+    },
+    {
+      "id": "u16-ex04",
+      "type": "mcq",
+      "level": "B1",
+      "skill": "structures",
+      "grammarTag": "subjonctif",
+      "prompt": "Choose the word that completes the sentence.",
+      "promptFr": "Je mets de l'argent de côté ___ partir en voyage l'été prochain.",
+      "options": [
+        "pour que",
+        "afin que",
+        "pour",
+        "de peur que"
+      ],
+      "answer": 2,
+      "explanation": "The same person saves and travels, and the next verb is an infinitive, so use pour + infinitive. Pour que, afin que and de peur que need a conjugated verb in the subjonctif."
+    },
+    {
+      "id": "u16-ex05",
+      "type": "mcq",
+      "level": "B1",
+      "skill": "structures",
+      "grammarTag": "vocabulary",
+      "prompt": "Which word fits best?",
+      "promptFr": "Après dix ans à la banque, Inès a fait une ___ : elle est devenue boulangère.",
+      "options": [
+        "réussite",
+        "échéance",
+        "reconversion",
+        "résolution"
+      ],
+      "answer": 2,
+      "explanation": "A reconversion is a career change. Réussite (success), échéance (deadline) and résolution (resolution) don't describe changing jobs."
+    },
+    {
+      "id": "u16-ex06",
+      "type": "fill_blank",
+      "level": "B1",
+      "skill": "structures",
+      "grammarTag": "subjonctif",
+      "prompt": "Put the verb in brackets in the correct form.",
+      "sentence": "Mes parents ont peur que je ___ trop de risques. (prendre)",
+      "answers": [
+        "prenne"
+      ],
+      "hint": "subjonctif of prendre",
+      "translation": "My parents are afraid I'm taking too many risks.",
+      "explanation": "Avoir peur que + subjonctif. Prendre: ils prennent → que je prenne."
+    },
+    {
+      "id": "u16-ex07",
+      "type": "fill_blank",
+      "level": "B1",
+      "skill": "structures",
+      "grammarTag": "subjonctif",
+      "prompt": "Put the verb in brackets in the correct form.",
+      "sentence": "Je t'explique tout afin que tu ___ mon choix. (comprendre)",
+      "answers": [
+        "comprennes"
+      ],
+      "hint": "subjonctif of comprendre",
+      "translation": "I'm explaining everything to you so that you understand my choice.",
+      "explanation": "Afin que is always followed by the subjonctif: ils comprennent → que tu comprennes."
+    },
+    {
+      "id": "u16-ex08",
+      "type": "fill_blank",
+      "level": "B1",
+      "skill": "structures",
+      "grammarTag": "subjonctif",
+      "prompt": "Put the verb in brackets in the correct form.",
+      "sentence": "Je doute qu'il ___ son projet à temps. (finir)",
+      "answers": [
+        "finisse"
+      ],
+      "hint": "subjonctif of finir",
+      "translation": "I doubt he'll finish his project on time.",
+      "explanation": "Douter que expresses doubt, so it takes the subjonctif: ils finissent → qu'il finisse."
+    },
+    {
+      "id": "u16-ex09",
+      "type": "fill_blank",
+      "level": "B1",
+      "skill": "structures",
+      "grammarTag": "subjonctif",
+      "prompt": "Complete with a word or phrase expressing purpose.",
+      "sentence": "Elle travaille le soir ___ financer ses études.",
+      "answers": [
+        "pour",
+        "afin de"
+      ],
+      "hint": "followed by an infinitive",
+      "translation": "She works in the evenings to pay for her studies.",
+      "explanation": "Financer is an infinitive and the subject is the same (elle), so use pour or afin de."
+    },
+    {
+      "id": "u16-ex10",
+      "type": "fill_blank",
+      "level": "B1",
+      "skill": "structures",
+      "grammarTag": "vocabulary",
+      "prompt": "Complete with a word from the unit.",
+      "sentence": "Monter sa propre entreprise à vingt ans, c'est un vrai ___ !",
+      "answers": [
+        "défi"
+      ],
+      "hint": "a challenge (m)",
+      "translation": "Setting up your own business at twenty is a real challenge!",
+      "explanation": "Un défi is a challenge, something difficult that you decide to take on."
+    },
+    {
+      "id": "u16-ex11",
+      "type": "conjugation",
+      "level": "B1",
+      "skill": "structures",
+      "grammarTag": "subjonctif",
+      "verb": "faire",
+      "tense": "subjonctif présent",
+      "person": "ils",
+      "answers": [
+        "fassent"
+      ],
+      "explanation": "Faire has an irregular subjonctif stem fass-: que je fasse, qu'ils fassent."
+    },
+    {
+      "id": "u16-ex12",
+      "type": "conjugation",
+      "level": "B1",
+      "skill": "structures",
+      "grammarTag": "subjonctif",
+      "verb": "pouvoir",
+      "tense": "subjonctif présent",
+      "person": "je",
+      "answers": [
+        "puisse"
+      ],
+      "explanation": "Pouvoir has an irregular subjonctif stem puiss-: que je puisse, que nous puissions."
+    },
+    {
+      "id": "u16-ex13",
+      "type": "conjugation",
+      "level": "B1",
+      "skill": "structures",
+      "grammarTag": "subjonctif",
+      "verb": "être",
+      "tense": "subjonctif présent",
+      "person": "nous",
+      "answers": [
+        "soyons"
+      ],
+      "explanation": "Être is fully irregular in the subjonctif: que je sois, que tu sois, qu'il soit, que nous soyons, que vous soyez, qu'ils soient."
+    },
+    {
+      "id": "u16-ex14",
+      "type": "reorder",
+      "level": "B1",
+      "skill": "structures",
+      "grammarTag": "subjonctif",
+      "prompt": "Put the words in order to make a sentence.",
+      "tokens": [
+        "Je",
+        "suis",
+        "ravie",
+        "que",
+        "tu",
+        "réalises",
+        "enfin",
+        "ton",
+        "rêve"
+      ],
+      "translation": "I'm delighted that you're finally fulfilling your dream.",
+      "explanation": "Emotion + que + subject + verb in the subjonctif. For -er verbs, the tu form of the subjonctif looks like the present: que tu réalises."
+    },
+    {
+      "id": "u16-ex15",
+      "type": "reorder",
+      "level": "B1",
+      "skill": "structures",
+      "grammarTag": "subjonctif",
+      "prompt": "Put the words in order to make a sentence.",
+      "tokens": [
+        "Nous",
+        "économisons",
+        "pour",
+        "que",
+        "nos",
+        "enfants",
+        "puissent",
+        "étudier"
+      ],
+      "translation": "We're saving so that our children can study.",
+      "explanation": "The subjects are different (nous / nos enfants), so use pour que + subjonctif: puissent."
+    },
+    {
+      "id": "u16-ex16",
+      "type": "match",
+      "level": "B1",
+      "skill": "structures",
+      "grammarTag": "subjonctif",
+      "prompt": "Match each expression with its meaning. All of them are followed by the subjonctif.",
+      "pairs": [
+        {
+          "left": "être ravi que",
+          "right": "to be delighted that"
+        },
+        {
+          "left": "regretter que",
+          "right": "to be sorry that"
+        },
+        {
+          "left": "craindre que",
+          "right": "to fear that"
+        },
+        {
+          "left": "douter que",
+          "right": "to doubt that"
+        },
+        {
+          "left": "être soulagé que",
+          "right": "to be relieved that"
+        }
+      ],
+      "explanation": "Feelings (ravi, soulagé, regretter, craindre) and doubt (douter) about another person's action all trigger the subjonctif."
+    },
+    {
+      "id": "u16-ex17",
+      "type": "match",
+      "level": "B1",
+      "skill": "structures",
+      "grammarTag": "vocabulary",
+      "prompt": "Match the verbs with their English meaning.",
+      "pairs": [
+        {
+          "left": "se lancer",
+          "right": "to take the plunge"
+        },
+        {
+          "left": "envisager",
+          "right": "to consider"
+        },
+        {
+          "left": "renoncer à",
+          "right": "to give up on"
+        },
+        {
+          "left": "atteindre",
+          "right": "to reach"
+        },
+        {
+          "left": "oser",
+          "right": "to dare"
+        }
+      ],
+      "explanation": "These verbs are all useful for talking about plans: envisager de partir, oser se lancer, atteindre un objectif, renoncer à un projet."
+    },
+    {
+      "id": "u16-ex18",
+      "type": "translate",
+      "level": "B1",
+      "skill": "structures",
+      "grammarTag": "subjonctif",
+      "direction": "en-fr",
+      "source": "I'm afraid he'll give up.",
+      "answers": [
+        "J'ai peur qu'il abandonne.",
+        "J'ai peur qu'il n'abandonne.",
+        "Je crains qu'il abandonne.",
+        "Je crains qu'il n'abandonne.",
+        "J'ai peur qu'il renonce.",
+        "J'ai peur qu'il ne renonce.",
+        "Je crains qu'il renonce.",
+        "Je crains qu'il ne renonce."
+      ],
+      "explanation": "Avoir peur que / craindre que + subjonctif. French uses the present subjonctif even for a future idea. The ne before the verb is optional and formal (it is not a negation)."
+    },
+    {
+      "id": "u16-ex19",
+      "type": "translate",
+      "level": "B1",
+      "skill": "structures",
+      "grammarTag": "subjonctif",
+      "direction": "fr-en",
+      "source": "Je ne suis pas sûr que ce soit le bon moment.",
+      "answers": [
+        "I'm not sure it's the right time.",
+        "I'm not sure that it's the right time.",
+        "I am not sure it is the right time.",
+        "I am not sure that it is the right time.",
+        "I'm not sure it's the right moment.",
+        "I'm not sure that it's the right moment.",
+        "I am not sure it is the right moment.",
+        "I am not sure that it is the right moment."
+      ],
+      "explanation": "Ne pas être sûr que expresses doubt, which is why soit (subjonctif of être) is used. In English it is simply 'it is'."
+    },
+    {
+      "id": "u16-ex20",
+      "type": "dictation",
+      "level": "B1",
+      "skill": "structures",
+      "grammarTag": "subjonctif",
+      "text": "Je suis heureuse que tu puisses enfin réaliser ton rêve.",
+      "translation": "I'm happy that you can finally fulfil your dream.",
+      "explanation": "Être heureuse que + subjonctif: tu puisses. Note the feminine heureuse: the speaker is a woman."
+    }
+  ],
+  "checkpoint": [
+    {
+      "id": "u16-cp01",
+      "type": "mcq",
+      "level": "B1",
+      "skill": "structures",
+      "grammarTag": "subjonctif",
+      "prompt": "Choose the correct verb form.",
+      "promptFr": "Je suis triste que tu ___ si loin.",
+      "options": [
+        "partes",
+        "pars",
+        "partiras",
+        "partir"
+      ],
+      "answer": 0,
+      "explanation": "Être triste que + subjonctif: ils partent → que tu partes."
+    },
+    {
+      "id": "u16-cp02",
+      "type": "mcq",
+      "level": "B1",
+      "skill": "structures",
+      "grammarTag": "subjonctif",
+      "prompt": "Choose the correct verb form.",
+      "promptFr": "Je pense que ton plan ___ excellent.",
+      "options": [
+        "soit",
+        "sois",
+        "être",
+        "est"
+      ],
+      "answer": 3,
+      "explanation": "Affirmative je pense que takes the indicative: est."
+    },
+    {
+      "id": "u16-cp03",
+      "type": "mcq",
+      "level": "B1",
+      "skill": "structures",
+      "grammarTag": "subjonctif",
+      "prompt": "Choose the correct option.",
+      "promptFr": "Elle prend des cours du soir ___ changer de métier.",
+      "options": [
+        "afin que",
+        "afin de",
+        "pour que",
+        "de peur que"
+      ],
+      "answer": 1,
+      "explanation": "Same subject and an infinitive (changer), so afin de. The other options need que + subjonctif."
+    },
+    {
+      "id": "u16-cp04",
+      "type": "mcq",
+      "level": "B1",
+      "skill": "structures",
+      "grammarTag": "subjonctif",
+      "prompt": "Choose the correct option.",
+      "promptFr": "Je parle lentement ___ tout le monde me comprenne.",
+      "options": [
+        "pour que",
+        "pour",
+        "afin de",
+        "parce que"
+      ],
+      "answer": 0,
+      "explanation": "Different subjects (je / tout le monde) and a subjonctif verb (comprenne): pour que. Parce que gives a cause, not a purpose, and would need the indicative."
+    },
+    {
+      "id": "u16-cp05",
+      "type": "mcq",
+      "level": "B1",
+      "skill": "structures",
+      "grammarTag": "vocabulary",
+      "prompt": "Which word fits best?",
+      "promptFr": "Mon ___ est de courir un marathon avant quarante ans.",
+      "options": [
+        "échec",
+        "imprévu",
+        "objectif",
+        "obstacle"
+      ],
+      "answer": 2,
+      "explanation": "Un objectif is a goal you set yourself. Échec (failure), imprévu (unexpected event) and obstacle don't make sense here."
+    },
+    {
+      "id": "u16-cp06",
+      "type": "fill_blank",
+      "level": "B1",
+      "skill": "structures",
+      "grammarTag": "subjonctif",
+      "prompt": "Put the verb in brackets in the correct form.",
+      "sentence": "Je regrette que vous ne ___ pas venir samedi. (pouvoir)",
+      "answers": [
+        "puissiez"
+      ],
+      "hint": "subjonctif, vous",
+      "translation": "I'm sorry you can't come on Saturday.",
+      "explanation": "Regretter que + subjonctif. Pouvoir: que vous puissiez."
+    },
+    {
+      "id": "u16-cp07",
+      "type": "fill_blank",
+      "level": "B1",
+      "skill": "structures",
+      "grammarTag": "subjonctif",
+      "prompt": "Put the verb in brackets in the correct form.",
+      "sentence": "Nous doutons que le local ___ prêt en juin. (être)",
+      "answers": [
+        "soit"
+      ],
+      "hint": "subjonctif, il",
+      "translation": "We doubt the premises will be ready in June.",
+      "explanation": "Douter que + subjonctif. Être: qu'il soit."
+    },
+    {
+      "id": "u16-cp08",
+      "type": "fill_blank",
+      "level": "B1",
+      "skill": "structures",
+      "grammarTag": "subjonctif",
+      "prompt": "Put the verb in brackets in the correct form.",
+      "sentence": "J'espère que tu ___ à ma fête samedi. (venir)",
+      "answers": [
+        "viendras",
+        "viens"
+      ],
+      "hint": "espérer → indicative",
+      "translation": "I hope you'll come to my party on Saturday.",
+      "explanation": "Espérer takes the indicative: the future viendras is the most natural, the present viens is also accepted. Never the subjonctif viennes."
+    },
+    {
+      "id": "u16-cp09",
+      "type": "fill_blank",
+      "level": "B1",
+      "skill": "structures",
+      "grammarTag": "vocabulary",
+      "prompt": "Complete with a word from the unit.",
+      "sentence": "Après son premier ___, il a recommencé avec encore plus d'énergie.",
+      "answers": [
+        "échec"
+      ],
+      "hint": "failure (m)",
+      "translation": "After his first failure, he started again with even more energy.",
+      "explanation": "Un échec is a failure, the opposite of une réussite."
+    },
+    {
+      "id": "u16-cp10",
+      "type": "fill_blank",
+      "level": "B1",
+      "skill": "structures",
+      "grammarTag": "vocabulary",
+      "prompt": "Complete with the past participle of a verb from the unit.",
+      "sentence": "Elle a enfin ___ démissionner pour ouvrir son café.",
+      "answers": [
+        "osé"
+      ],
+      "hint": "dared",
+      "translation": "She finally dared to resign to open her café.",
+      "explanation": "Oser + infinitive means to dare to do something. With avoir, the past participle does not agree here: elle a osé."
+    }
+  ],
+  "listening": [
+    {
+      "id": "u16-li01",
+      "title": "Léa se lance",
+      "level": "B1",
+      "kind": "dialogue",
+      "context": "Two friends chat in a café about Léa's new plan.",
+      "lines": [
+        {
+          "speaker": "Thomas",
+          "fr": "Alors Léa, il paraît que tu quittes ton poste à la banque ?"
+        },
+        {
+          "speaker": "Léa",
+          "fr": "Oui, c'est décidé. Je veux ouvrir un atelier de réparation de vélos."
+        },
+        {
+          "speaker": "Thomas",
+          "fr": "Sérieusement ? Je suis surpris que tu prennes un tel risque !"
+        },
+        {
+          "speaker": "Léa",
+          "fr": "Je sais, mais j'y pense depuis trois ans. J'ai déjà suivi une formation de mécanicienne le week-end."
+        },
+        {
+          "speaker": "Thomas",
+          "fr": "Et tes parents, qu'est-ce qu'ils en disent ?"
+        },
+        {
+          "speaker": "Léa",
+          "fr": "Ma mère a peur que je ne gagne pas assez d'argent. Mon père, lui, est plutôt content que je fasse enfin ce que j'aime."
+        },
+        {
+          "speaker": "Thomas",
+          "fr": "Tu as déjà trouvé un local ?"
+        },
+        {
+          "speaker": "Léa",
+          "fr": "Pas encore. La prochaine étape, c'est de rencontrer la banque pour obtenir un prêt. Ironique, non ?"
+        },
+        {
+          "speaker": "Thomas",
+          "fr": "Un peu ! Et tu ouvres quand, si tout va bien ?"
+        },
+        {
+          "speaker": "Léa",
+          "fr": "J'espère que l'atelier ouvrira au printemps, pour que les gens puissent préparer leurs vélos avant l'été."
+        },
+        {
+          "speaker": "Thomas",
+          "fr": "En tout cas, je suis ravi que tu te lances. Je serai ton premier client !"
+        }
+      ],
+      "translation": "Thomas: So, Léa, I hear you're leaving your job at the bank?\nLéa: Yes, it's decided. I want to open a bike repair workshop.\nThomas: Seriously? I'm surprised you're taking such a risk!\nLéa: I know, but I've been thinking about it for three years. I've already done a mechanic's training course at weekends.\nThomas: And your parents, what do they say about it?\nLéa: My mother is afraid I won't earn enough money. My father is rather pleased that I'm finally doing what I love.\nThomas: Have you found premises yet?\nLéa: Not yet. The next step is to meet the bank to get a loan. Ironic, isn't it?\nThomas: A bit! And when do you open, if all goes well?\nLéa: I hope the workshop will open in spring, so that people can get their bikes ready before summer.\nThomas: Anyway, I'm delighted you're taking the plunge. I'll be your first customer!",
+      "questions": [
+        {
+          "id": "u16-li01-q1",
+          "question": "What does Léa do at the moment?",
+          "options": [
+            "She repairs bikes.",
+            "She works at a bank.",
+            "She is a student.",
+            "She works in a café."
+          ],
+          "answer": 1,
+          "explanation": "Thomas says « tu quittes ton poste à la banque », and Léa confirms it."
+        },
+        {
+          "id": "u16-li01-q2",
+          "question": "How does Léa's mother feel about the plan?",
+          "options": [
+            "She's glad Léa is doing what she loves.",
+            "She wants Léa to train first.",
+            "She thinks the shop should open in summer.",
+            "She's worried Léa won't earn enough."
+          ],
+          "answer": 3,
+          "explanation": "« Ma mère a peur que je ne gagne pas assez d'argent. » It is her father who is pleased."
+        },
+        {
+          "id": "u16-li01-q3",
+          "question": "What is Léa's next step?",
+          "options": [
+            "Doing a mechanic's course",
+            "Meeting the bank to get a loan",
+            "Finding her first customers",
+            "Talking to her parents"
+          ],
+          "answer": 1,
+          "explanation": "« La prochaine étape, c'est de rencontrer la banque pour obtenir un prêt. » She has already done the course."
+        },
+        {
+          "id": "u16-li01-q4",
+          "question": "Why does Léa want to open in spring?",
+          "options": [
+            "Because the loan will arrive then",
+            "Because she finishes her training then",
+            "So Thomas can help her",
+            "So people can get their bikes ready before summer"
+          ],
+          "answer": 3,
+          "explanation": "« pour que les gens puissent préparer leurs vélos avant l'été »."
+        }
+      ]
+    },
+    {
+      "id": "u16-li02",
+      "title": "Le programme « Cap Avenir »",
+      "level": "B1",
+      "kind": "announcement",
+      "context": "A short report on a local radio station.",
+      "lines": [
+        {
+          "speaker": "Présentatrice",
+          "fr": "Vous avez entre 18 et 30 ans et un projet qui vous tient à cœur ? La région lance le programme « Cap Avenir »."
+        },
+        {
+          "speaker": "Présentatrice",
+          "fr": "Que vous rêviez de créer votre entreprise, de faire du bénévolat à l'étranger ou d'organiser un festival dans votre village, Cap Avenir peut vous aider."
+        },
+        {
+          "speaker": "Présentatrice",
+          "fr": "Chaque projet retenu recevra une aide pouvant aller jusqu'à 5 000 euros, ainsi que l'accompagnement d'un mentor pendant un an."
+        },
+        {
+          "speaker": "Présentatrice",
+          "fr": "Attention : les dossiers doivent être déposés en ligne avant le 15 mars."
+        },
+        {
+          "speaker": "Présentatrice",
+          "fr": "Un jury rencontrera ensuite les candidats en avril afin de sélectionner une quarantaine de projets."
+        },
+        {
+          "speaker": "Présentatrice",
+          "fr": "Et pour que chacun ait sa chance, des ateliers gratuits ont lieu tous les mercredis à la Maison des jeunes pour vous aider à préparer votre dossier."
+        }
+      ],
+      "translation": "Are you between 18 and 30 and do you have a project close to your heart? The region is launching the 'Cap Avenir' programme.\nWhether you dream of starting your own business, volunteering abroad or organising a festival in your village, Cap Avenir can help you.\nEach project selected will receive funding of up to 5,000 euros, as well as support from a mentor for a year.\nPlease note: applications must be submitted online before 15 March.\nA jury will then meet the candidates in April in order to select about forty projects.\nAnd so that everyone has a fair chance, free workshops take place every Wednesday at the youth centre to help you prepare your application.",
+      "questions": [
+        {
+          "id": "u16-li02-q1",
+          "question": "Who is the programme for?",
+          "options": [
+            "Young people aged 18 to 30 with a project",
+            "Anyone who wants to start a business",
+            "Students who want to study abroad",
+            "Villages that organise festivals"
+          ],
+          "answer": 0,
+          "explanation": "« Vous avez entre 18 et 30 ans et un projet qui vous tient à cœur ? » Business, volunteering and festivals are just examples."
+        },
+        {
+          "id": "u16-li02-q2",
+          "question": "What will each selected project receive?",
+          "options": [
+            "Exactly €5,000 and free workshops",
+            "A year of free training",
+            "Up to €5,000 and a mentor for a year",
+            "A place at the youth centre"
+          ],
+          "answer": 2,
+          "explanation": "« une aide pouvant aller jusqu'à 5 000 euros, ainsi que l'accompagnement d'un mentor pendant un an »."
+        },
+        {
+          "id": "u16-li02-q3",
+          "question": "How and when must you apply?",
+          "options": [
+            "At the youth centre, before 15 March",
+            "Online, in April",
+            "Online, before 15 March",
+            "By meeting the jury on a Wednesday"
+          ],
+          "answer": 2,
+          "explanation": "« les dossiers doivent être déposés en ligne avant le 15 mars ». April is when the jury meets the candidates."
+        },
+        {
+          "id": "u16-li02-q4",
+          "question": "Why are the Wednesday workshops offered?",
+          "options": [
+            "So that everyone has a fair chance",
+            "To select the forty projects",
+            "To train the mentors",
+            "To present the winning projects"
+          ],
+          "answer": 0,
+          "explanation": "« pour que chacun ait sa chance, des ateliers gratuits ont lieu tous les mercredis »."
+        }
+      ]
+    }
+  ],
+  "reading": [
+    {
+      "id": "u16-re01",
+      "title": "Changer de vie à 40 ans",
+      "level": "B1",
+      "kind": "article",
+      "text": "Changer de vie à 40 ans : la tentation de la reconversion\n\nIls étaient comptables, ingénieurs ou commerciaux. Aujourd'hui, ils sont boulangers, menuisiers ou professeurs de yoga. Selon une étude récente, près d'un actif sur deux envisage une reconversion professionnelle au cours de sa carrière, et la tendance s'accélère chez les 35-45 ans.\n\nPourquoi un tel désir de changement ? Le salaire n'est pas la première raison. La plupart des personnes interrogées disent chercher un métier qui ait du sens et qui leur permette de mieux concilier vie professionnelle et vie familiale.\n\nPourtant, le chemin n'est pas toujours simple. « J'avais peur que ma famille ne me suive pas, et je doutais d'être capable d'apprendre un nouveau métier à 41 ans », raconte Julien, ancien cadre devenu fromager dans le Jura. Il lui a fallu deux ans de formation et beaucoup de persévérance avant d'ouvrir sa boutique.\n\nLes spécialistes conseillent de ne pas tout quitter du jour au lendemain. Faire un bilan de compétences, rencontrer des professionnels du secteur et tester le métier lors d'un stage sont des étapes essentielles afin d'éviter les mauvaises surprises. Car si la reconversion peut être une source d'épanouissement, elle reste aussi un pari.",
+      "translation": "Changing your life at 40: the lure of a career change\n\nThey were accountants, engineers or salespeople. Today they are bakers, carpenters or yoga teachers. According to a recent study, nearly one working person in two considers a career change at some point in their working life, and the trend is speeding up among 35- to 45-year-olds.\n\nWhy such a desire for change? Salary is not the main reason. Most of the people surveyed say they are looking for a job that has meaning and that allows them to balance work and family life better.\n\nHowever, the road is not always easy. 'I was afraid my family wouldn't follow me, and I doubted I could learn a new trade at 41,' says Julien, a former manager who became a cheesemaker in the Jura. It took him two years of training and a lot of perseverance before he opened his shop.\n\nSpecialists advise against quitting everything overnight. Doing a skills assessment, meeting professionals in the sector and trying out the job during a work placement are essential steps to avoid unpleasant surprises. For although a career change can be a source of fulfilment, it is still a gamble.",
+      "questions": [
+        {
+          "id": "u16-re01-q1",
+          "question": "According to the article, why do most people want to change careers?",
+          "options": [
+            "To earn a higher salary",
+            "Because their employer asks them to",
+            "Because they have lost their job",
+            "To find meaningful work and a better work-life balance"
+          ],
+          "answer": 3,
+          "explanation": "« Le salaire n'est pas la première raison » — they want « un métier qui ait du sens » and to « concilier vie professionnelle et vie familiale »."
+        },
+        {
+          "id": "u16-re01-q2",
+          "question": "What worried Julien before his career change?",
+          "options": [
+            "The cost of opening a shop",
+            "His family's reaction and his own ability to learn a new trade",
+            "The lack of training in the Jura",
+            "Losing his manager's salary"
+          ],
+          "answer": 1,
+          "explanation": "« J'avais peur que ma famille ne me suive pas, et je doutais d'être capable d'apprendre un nouveau métier »."
+        },
+        {
+          "id": "u16-re01-q3",
+          "question": "What do specialists recommend?",
+          "options": [
+            "Preparing the change step by step",
+            "Quitting your job as soon as possible",
+            "Choosing a job in the same sector",
+            "Waiting until you are 45"
+          ],
+          "answer": 0,
+          "explanation": "They advise « de ne pas tout quitter du jour au lendemain » and list several preparatory steps."
+        },
+        {
+          "id": "u16-re01-q4",
+          "question": "What does the last sentence suggest?",
+          "options": [
+            "Most career changes fail.",
+            "Career changes are only for people over 40.",
+            "A career change can be fulfilling, but success is not guaranteed.",
+            "A career change is always a good financial decision."
+          ],
+          "answer": 2,
+          "explanation": "« si la reconversion peut être une source d'épanouissement, elle reste aussi un pari » — un pari (a bet) implies a risk, not a certain failure."
+        }
+      ]
+    },
+    {
+      "id": "u16-re02",
+      "title": "Grande nouvelle !",
+      "level": "B1",
+      "kind": "email",
+      "text": "Objet : Grande nouvelle !\n\nSalut Nadia,\n\nJe t'écris parce que j'ai enfin pris ma décision : à partir de septembre, je prends une année sabbatique ! Mon entreprise a accepté, et je retrouverai mon poste à mon retour.\n\nMon idée, c'est de passer six mois au Canada pour améliorer mon anglais, puis de faire du bénévolat dans une ferme bio au Portugal. Je sais que ça peut paraître fou, mais j'ai besoin de prendre du recul avant d'avoir trente-cinq ans.\n\nJ'aimerais te demander un service : comme tu as vécu à Toronto, pourrais-tu me donner quelques conseils pour trouver un logement ? Je voudrais que tout soit organisé avant mon départ, pour que mes parents ne s'inquiètent pas trop. Tu les connais…\n\nOn se voit bientôt pour en parler autour d'un café ?\n\nJe t'embrasse,\nCamille",
+      "translation": "Subject: Big news!\n\nHi Nadia,\n\nI'm writing because I've finally made my decision: from September, I'm taking a sabbatical year! My company has agreed, and I'll get my job back when I return.\n\nMy idea is to spend six months in Canada to improve my English, then do volunteer work on an organic farm in Portugal. I know it may sound crazy, but I need to take a step back before I turn thirty-five.\n\nI'd like to ask you a favour: since you lived in Toronto, could you give me some advice on finding accommodation? I'd like everything to be organised before I leave, so that my parents don't worry too much. You know what they're like…\n\nShall we meet up soon to talk about it over a coffee?\n\nLove,\nCamille",
+      "questions": [
+        {
+          "id": "u16-re02-q1",
+          "question": "What will happen to Camille's job?",
+          "options": [
+            "She has resigned.",
+            "She will get it back when she returns.",
+            "She will work remotely from Canada.",
+            "She will look for a new job in Portugal."
+          ],
+          "answer": 1,
+          "explanation": "« Mon entreprise a accepté, et je retrouverai mon poste à mon retour. »"
+        },
+        {
+          "id": "u16-re02-q2",
+          "question": "Why does Camille ask Nadia for help?",
+          "options": [
+            "Nadia works on an organic farm.",
+            "Nadia speaks good English.",
+            "Nadia knows Camille's employer.",
+            "Nadia has lived in Toronto."
+          ],
+          "answer": 3,
+          "explanation": "« comme tu as vécu à Toronto, pourrais-tu me donner quelques conseils pour trouver un logement ? »"
+        },
+        {
+          "id": "u16-re02-q3",
+          "question": "What does « Tu les connais… » suggest about Camille's parents?",
+          "options": [
+            "They don't want her to leave.",
+            "They tend to worry a lot.",
+            "They have already organised everything.",
+            "They live in Toronto."
+          ],
+          "answer": 1,
+          "explanation": "She wants everything organised « pour que mes parents ne s'inquiètent pas trop », and « Tu les connais » implies Nadia knows they are anxious people."
+        },
+        {
+          "id": "u16-re02-q4",
+          "question": "What will Camille do in Portugal?",
+          "options": [
+            "Take English lessons",
+            "Look for a flat",
+            "Work for her company",
+            "Volunteer on an organic farm"
+          ],
+          "answer": 3,
+          "explanation": "« faire du bénévolat dans une ferme bio au Portugal »."
+        }
+      ]
+    }
+  ],
+  "writing": [
+    {
+      "id": "u16-wr01",
+      "title": "Suivre ses rêves ou choisir la sécurité ?",
+      "level": "B1",
+      "taskType": "opinion",
+      "instructions": "TCF task 3: write an argued opinion. Present both sides, give your view and support it with an example.",
+      "promptFr": "Certaines personnes pensent qu'il faut tout faire pour réaliser ses rêves, même si c'est risqué. D'autres préfèrent un emploi stable et une vie sans surprises. Et vous, qu'en pensez-vous ? Donnez votre opinion en l'illustrant d'exemples. (120 à 180 mots)",
+      "minWords": 120,
+      "maxWords": 180,
+      "modelAnswer": "À mon avis, il est important de suivre ses rêves, mais pas n'importe comment.\n\nD'un côté, je comprends que beaucoup de gens préfèrent la sécurité. Quand on a des enfants ou un loyer à payer, on a peur qu'un échec ait des conséquences graves. De plus, un emploi stable permet de faire des projets à long terme.\n\nD'un autre côté, je ne pense pas qu'on puisse être heureux en faisant toute sa vie un travail qui ne nous plaît pas. Mon oncle, par exemple, a quitté son poste dans une compagnie d'assurances à 45 ans pour devenir guide de montagne. Il avoue qu'il a eu peur au début, mais aujourd'hui il est épanoui.\n\nSelon moi, la meilleure solution est de préparer son projet étape par étape : se former, économiser et tester son idée afin de prendre un risque calculé. Ainsi, on peut réaliser ses rêves sans tout perdre.",
+      "checklist": [
+        "I state my opinion clearly at the beginning and at the end.",
+        "I present both sides with connectors (d'un côté, d'un autre côté, de plus, ainsi).",
+        "I give at least one concrete example.",
+        "I use the subjonctif correctly after an emotion or doubt (on a peur que…, je ne pense pas que…).",
+        "I express a purpose with pour / afin de or pour que.",
+        "My text is between 120 and 180 words."
+      ]
+    },
+    {
+      "id": "u16-wr02",
+      "title": "J'ai un nouveau projet",
+      "level": "B1",
+      "taskType": "message",
+      "instructions": "Write an email to a friend announcing an important plan. Explain the plan and your reasons, and ask for their opinion.",
+      "promptFr": "Vous écrivez un courriel à un ami pour lui annoncer un projet important (changement de métier, voyage, formation…). Vous lui expliquez votre projet et vos raisons, et vous lui demandez son avis. (60 à 120 mots)",
+      "minWords": 60,
+      "maxWords": 120,
+      "modelAnswer": "Salut Marco,\n\nJ'ai une grande nouvelle : j'ai décidé de me lancer dans la pâtisserie ! À partir de janvier, je vais suivre une formation de six mois à Lyon, puis je compte ouvrir un petit salon de thé.\n\nJe travaille dans un bureau depuis huit ans et je ne m'y épanouis plus. Cuisiner, c'est ma passion depuis toujours, alors je veux essayer avant qu'il soit trop tard.\n\nMes parents ont peur que je perde ma sécurité, mais moi, je suis plutôt optimiste. Et toi, qu'en penses-tu ? Tu crois que c'est une bonne idée ?\n\nÀ bientôt,\nInès",
+      "checklist": [
+        "I greet my friend and sign off in an informal register (tu).",
+        "I explain the plan with future forms (je vais…, je compte…).",
+        "I give at least one reason for my choice.",
+        "I express a feeling with the subjonctif (ont peur que…).",
+        "I ask for my friend's opinion.",
+        "My message is between 60 and 120 words."
+      ]
+    }
+  ],
+  "speaking": [
+    {
+      "id": "u16-sp01",
+      "title": "Vos projets",
+      "level": "B1",
+      "taskType": "entretien",
+      "instructions": "Answer the examiner's question about your plans. Speak for about two minutes without preparation.",
+      "promptFr": "Quels sont vos projets pour les cinq prochaines années ?",
+      "prepSeconds": 0,
+      "speakSeconds": 120,
+      "modelAnswer": "Dans les cinq prochaines années, j'ai deux projets principaux. D'abord, je voudrais atteindre le niveau B2 en français, afin de pouvoir travailler dans une entreprise francophone. Pour cela, je prends des cours deux fois par semaine et j'écoute la radio tous les jours.\n\nEnsuite, mon rêve, c'est d'acheter une petite maison avec un jardin. Ma femme et moi économisons déjà pour que nos enfants aient plus d'espace.\n\nBien sûr, il y aura des obstacles. J'ai un peu peur que mon travail me laisse peu de temps pour étudier, mais je suis motivé. Je ne pense pas que ce soit impossible : il faut juste avancer étape par étape. J'espère que dans cinq ans, je pourrai dire que j'ai réussi !",
+      "tips": [
+        "Organise your answer with d'abord, ensuite, enfin.",
+        "Vary the ways you talk about the future: je voudrais, je compte, j'espère que + futur.",
+        "Mention an obstacle and a feeling about it with the subjonctif (j'ai peur que…).",
+        "Use pour / afin de or pour que to explain why you do things."
+      ]
+    },
+    {
+      "id": "u16-sp02",
+      "title": "Faut-il des objectifs précis ?",
+      "level": "B1",
+      "taskType": "opinion",
+      "instructions": "TCF task 3: give and justify your opinion on the statement.",
+      "promptFr": "« Pour réussir sa vie, il faut avoir des objectifs précis. » Êtes-vous d'accord ? Justifiez votre point de vue.",
+      "prepSeconds": 0,
+      "speakSeconds": 240,
+      "modelAnswer": "Je suis en partie d'accord avec cette idée. Avoir des objectifs précis aide à rester motivé : quand on sait où on veut aller, on peut planifier les étapes et mesurer ses progrès. Par exemple, une amie s'était fixé l'objectif de courir un semi-marathon, et elle s'entraînait chaque semaine pour y arriver.\n\nCependant, je ne crois pas qu'il faille tout planifier. La vie est pleine d'imprévus, et parfois les meilleures opportunités arrivent par hasard. Si on suit un plan trop strict, on risque de les manquer, ou d'être très déçu en cas d'échec.\n\nFinalement, je pense qu'il est utile d'avoir une direction générale, tout en restant flexible. Pour moi, réussir sa vie, ce n'est pas cocher toutes les cases d'une liste, c'est être épanoui et en accord avec ses valeurs.",
+      "tips": [
+        "Start by saying clearly how far you agree (tout à fait, en partie, pas du tout).",
+        "Give one argument for and one against, with a concrete example.",
+        "Contrast je pense que + indicatif with je ne crois pas que + subjonctif.",
+        "Finish with a short conclusion that sums up your position."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,2231 @@
+{
+  "id": "u15",
+  "order": 15,
+  "level": "B1",
+  "theme": "Money and consumption",
+  "titleFr": "Argent et consommation",
+  "description": "Talk about budgets, banking, saving, spending and consumer habits, and deal with refunds and complaints. Learn the subjonctif présent after il faut que and vouloir que.",
+  "vocab": [
+    {
+      "id": "u15-w001",
+      "fr": "budget",
+      "en": "budget",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "budgets",
+      "level": "A2+",
+      "core": true,
+      "example": {
+        "fr": "Nous préparons notre budget au début de chaque mois.",
+        "en": "We prepare our budget at the start of every month."
+      }
+    },
+    {
+      "id": "u15-w002",
+      "fr": "dépense",
+      "en": "expense, spending",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "dépenses",
+      "level": "B1",
+      "core": true,
+      "example": {
+        "fr": "Le loyer est notre plus grosse dépense.",
+        "en": "Rent is our biggest expense."
+      }
+    },
+    {
+      "id": "u15-w003",
+      "fr": "dépenser",
+      "en": "to spend (money)",
+      "pos": "verb",
+      "level": "A2+",
+      "core": true,
+      "example": {
+        "fr": "J'ai dépensé presque cent euros en cadeaux de Noël.",
+        "en": "I spent almost a hundred euros on Christmas presents."
+      }
+    },
+    {
+      "id": "u15-w004",
+      "fr": "faire des économies",
+      "en": "to save money, to make savings",
+      "pos": "expression",
+      "level": "B1",
+      "core": true,
+      "example": {
+        "fr": "Nous faisons des économies pour partir au Canada l'été prochain.",
+        "en": "We're saving up to go to Canada next summer."
+      }
+    },
+    {
+      "id": "u15-w005",
+      "fr": "épargner",
+      "en": "to save (put money aside)",
+      "pos": "verb",
+      "level": "B1",
+      "core": true,
+      "example": {
+        "fr": "Elle épargne un peu chaque mois pour acheter un appartement.",
+        "en": "She saves a little every month to buy a flat."
+      }
+    },
+    {
+      "id": "u15-w006",
+      "fr": "compte bancaire",
+      "en": "bank account",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "comptes bancaires",
+      "level": "A2+",
+      "core": true,
+      "example": {
+        "fr": "Pour recevoir votre salaire, il faut que vous ouvriez un compte bancaire.",
+        "en": "To receive your salary, you need to open a bank account."
+      }
+    },
+    {
+      "id": "u15-w007",
+      "fr": "carte bancaire",
+      "en": "bank card, debit card",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "cartes bancaires",
+      "level": "A2+",
+      "core": true,
+      "example": {
+        "fr": "Est-ce que je peux payer par carte bancaire ?",
+        "en": "Can I pay by card?"
+      }
+    },
+    {
+      "id": "u15-w008",
+      "fr": "virement",
+      "en": "bank transfer",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "virements",
+      "level": "B1",
+      "core": true,
+      "example": {
+        "fr": "Je vous ferai un virement dès que j'aurai reçu la facture.",
+        "en": "I'll make a transfer to you as soon as I've received the invoice."
+      }
+    },
+    {
+      "id": "u15-w009",
+      "fr": "prêt",
+      "en": "loan",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "prêts",
+      "level": "B1",
+      "core": true,
+      "example": {
+        "fr": "Ils ont obtenu un prêt pour acheter leur maison.",
+        "en": "They got a loan to buy their house."
+      }
+    },
+    {
+      "id": "u15-w010",
+      "fr": "emprunter",
+      "en": "to borrow",
+      "pos": "verb",
+      "level": "A2+",
+      "core": true,
+      "example": {
+        "fr": "J'ai dû emprunter de l'argent à mon frère pour payer la réparation.",
+        "en": "I had to borrow money from my brother to pay for the repair."
+      }
+    },
+    {
+      "id": "u15-w011",
+      "fr": "rembourser",
+      "en": "to pay back, to refund",
+      "pos": "verb",
+      "level": "B1",
+      "core": true,
+      "example": {
+        "fr": "Je te rembourserai les vingt euros demain, promis.",
+        "en": "I'll pay you back the twenty euros tomorrow, I promise."
+      }
+    },
+    {
+      "id": "u15-w012",
+      "fr": "facture",
+      "en": "bill, invoice",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "factures",
+      "level": "A2+",
+      "core": true,
+      "example": {
+        "fr": "La facture de gaz est arrivée ce matin.",
+        "en": "The gas bill arrived this morning."
+      }
+    },
+    {
+      "id": "u15-w013",
+      "fr": "abonnement",
+      "en": "subscription",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "abonnements",
+      "level": "A2+",
+      "core": true,
+      "example": {
+        "fr": "J'ai pris un abonnement annuel à la salle de sport.",
+        "en": "I took out an annual gym membership."
+      }
+    },
+    {
+      "id": "u15-w014",
+      "fr": "achat",
+      "en": "purchase",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "achats",
+      "level": "A2+",
+      "core": true,
+      "example": {
+        "fr": "Gardez votre ticket : il prouve la date de votre achat.",
+        "en": "Keep your receipt: it proves the date of your purchase."
+      }
+    },
+    {
+      "id": "u15-w015",
+      "fr": "consommation",
+      "en": "consumption",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "consommations",
+      "level": "B1",
+      "core": true,
+      "example": {
+        "fr": "La consommation des ménages a baissé à cause de l'inflation.",
+        "en": "Household consumption has fallen because of inflation."
+      }
+    },
+    {
+      "id": "u15-w016",
+      "fr": "pouvoir d'achat",
+      "en": "purchasing power",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1",
+      "core": true,
+      "example": {
+        "fr": "Avec la hausse des prix, le pouvoir d'achat des familles diminue.",
+        "en": "With rising prices, families' purchasing power is going down."
+      }
+    },
+    {
+      "id": "u15-w017",
+      "fr": "promotion",
+      "en": "special offer, sale price",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "promotions",
+      "level": "A2+",
+      "core": true,
+      "example": {
+        "fr": "Les pâtes sont en promotion cette semaine : deux paquets pour le prix d'un.",
+        "en": "Pasta is on special offer this week: two packets for the price of one."
+      }
+    },
+    {
+      "id": "u15-w018",
+      "fr": "rapport qualité-prix",
+      "en": "value for money",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "rapports qualité-prix",
+      "level": "B1",
+      "core": true,
+      "example": {
+        "fr": "Ce petit restaurant offre un excellent rapport qualité-prix.",
+        "en": "This little restaurant offers excellent value for money."
+      }
+    },
+    {
+      "id": "u15-w019",
+      "fr": "d'occasion",
+      "en": "second-hand, used",
+      "pos": "expression",
+      "level": "B1",
+      "core": true,
+      "example": {
+        "fr": "J'ai acheté une voiture d'occasion qui n'a que deux ans.",
+        "en": "I bought a used car that is only two years old."
+      }
+    },
+    {
+      "id": "u15-w020",
+      "fr": "bon marché",
+      "en": "cheap, inexpensive (invariable)",
+      "pos": "adjective",
+      "level": "A2+",
+      "core": true,
+      "example": {
+        "fr": "Ces chaussures étaient bon marché, mais elles sont déjà abîmées.",
+        "en": "These shoes were cheap, but they're already damaged."
+      }
+    },
+    {
+      "id": "u15-w021",
+      "fr": "banque en ligne",
+      "en": "online bank",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "banques en ligne",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Les frais sont souvent plus bas dans une banque en ligne.",
+        "en": "Fees are often lower at an online bank."
+      }
+    },
+    {
+      "id": "u15-w022",
+      "fr": "distributeur de billets",
+      "en": "cash machine, ATM",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "distributeurs de billets",
+      "level": "A2+",
+      "core": false,
+      "example": {
+        "fr": "Il y a un distributeur de billets à côté de la boulangerie.",
+        "en": "There's a cash machine next to the bakery."
+      }
+    },
+    {
+      "id": "u15-w023",
+      "fr": "en espèces",
+      "en": "in cash",
+      "pos": "expression",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Au marché, beaucoup de vendeurs préfèrent être payés en espèces.",
+        "en": "At the market, many sellers prefer to be paid in cash."
+      }
+    },
+    {
+      "id": "u15-w024",
+      "fr": "monnaie",
+      "en": "change (coins); currency",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "monnaies",
+      "level": "A2+",
+      "core": false,
+      "example": {
+        "fr": "Désolé, je n'ai pas de monnaie, seulement un billet de cinquante.",
+        "en": "Sorry, I haven't got any change, only a fifty-euro note."
+      }
+    },
+    {
+      "id": "u15-w025",
+      "fr": "relevé de compte",
+      "en": "bank statement",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "relevés de compte",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "En lisant mon relevé de compte, j'ai découvert un paiement que je n'avais pas fait.",
+        "en": "Reading my bank statement, I found a payment I hadn't made."
+      }
+    },
+    {
+      "id": "u15-w026",
+      "fr": "découvert",
+      "en": "overdraft",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "découverts",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "À la fin du mois, je suis souvent à découvert.",
+        "en": "At the end of the month, I'm often overdrawn."
+      }
+    },
+    {
+      "id": "u15-w027",
+      "fr": "frais bancaires",
+      "en": "bank charges",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "frais bancaires",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "J'ai changé de banque parce que les frais bancaires étaient trop élevés.",
+        "en": "I changed banks because the bank charges were too high."
+      },
+      "pluralOnly": true
+    },
+    {
+      "id": "u15-w028",
+      "fr": "taux d'intérêt",
+      "en": "interest rate",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "taux d'intérêt",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Les taux d'intérêt ont augmenté, donc emprunter coûte plus cher.",
+        "en": "Interest rates have gone up, so borrowing costs more."
+      }
+    },
+    {
+      "id": "u15-w029",
+      "fr": "crédit",
+      "en": "credit, loan",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "crédits",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Ils ont acheté leur canapé à crédit, en dix mensualités.",
+        "en": "They bought their sofa on credit, in ten monthly instalments."
+      }
+    },
+    {
+      "id": "u15-w030",
+      "fr": "dette",
+      "en": "debt",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "dettes",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Il a mis cinq ans à rembourser toutes ses dettes.",
+        "en": "It took him five years to pay off all his debts."
+      }
+    },
+    {
+      "id": "u15-w031",
+      "fr": "revenu",
+      "en": "income",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "revenus",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Le montant de l'aide dépend de vos revenus.",
+        "en": "The amount of the benefit depends on your income."
+      }
+    },
+    {
+      "id": "u15-w032",
+      "fr": "épargne",
+      "en": "savings",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Grâce à leur épargne, ils ont pu faire face à la panne de la voiture.",
+        "en": "Thanks to their savings, they were able to cope when the car broke down."
+      }
+    },
+    {
+      "id": "u15-w033",
+      "fr": "livret d'épargne",
+      "en": "savings account",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "livrets d'épargne",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Mes grands-parents m'ont ouvert un livret d'épargne à ma naissance.",
+        "en": "My grandparents opened a savings account for me when I was born."
+      }
+    },
+    {
+      "id": "u15-w034",
+      "fr": "consommateur",
+      "en": "consumer (f: consommatrice)",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "consommateurs",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Les consommateurs font de plus en plus attention à l'origine des produits.",
+        "en": "Consumers are paying more and more attention to where products come from."
+      }
+    },
+    {
+      "id": "u15-w035",
+      "fr": "surconsommation",
+      "en": "overconsumption",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Les soldes encouragent parfois la surconsommation.",
+        "en": "Sales sometimes encourage overconsumption."
+      }
+    },
+    {
+      "id": "u15-w036",
+      "fr": "achat compulsif",
+      "en": "impulse buy, compulsive purchase",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "achats compulsifs",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Pour éviter les achats compulsifs, j'attends toujours vingt-quatre heures avant de commander.",
+        "en": "To avoid impulse buys, I always wait twenty-four hours before ordering."
+      }
+    },
+    {
+      "id": "u15-w037",
+      "fr": "marque",
+      "en": "brand",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "marques",
+      "level": "A2+",
+      "core": false,
+      "example": {
+        "fr": "Les produits sans marque sont souvent aussi bons que les autres.",
+        "en": "Own-brand products are often as good as the others."
+      }
+    },
+    {
+      "id": "u15-w038",
+      "fr": "étiquette",
+      "en": "label, price tag",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "étiquettes",
+      "level": "A2+",
+      "core": false,
+      "example": {
+        "fr": "Le prix sur l'étiquette ne correspond pas au prix en caisse.",
+        "en": "The price on the tag doesn't match the price at the till."
+      }
+    },
+    {
+      "id": "u15-w039",
+      "fr": "ticket de caisse",
+      "en": "receipt (from a till)",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "tickets de caisse",
+      "level": "A2+",
+      "core": false,
+      "example": {
+        "fr": "Sans ticket de caisse, le magasin refuse les échanges.",
+        "en": "Without a receipt, the shop refuses exchanges."
+      }
+    },
+    {
+      "id": "u15-w040",
+      "fr": "garantie",
+      "en": "guarantee, warranty",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "garanties",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Mon ordinateur est encore sous garantie, la réparation sera donc gratuite.",
+        "en": "My computer is still under warranty, so the repair will be free."
+      }
+    },
+    {
+      "id": "u15-w041",
+      "fr": "remboursement",
+      "en": "refund, repayment",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "remboursements",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "J'attends toujours le remboursement de mon billet de train annulé.",
+        "en": "I'm still waiting for the refund on my cancelled train ticket."
+      }
+    },
+    {
+      "id": "u15-w042",
+      "fr": "se faire rembourser",
+      "en": "to get a refund",
+      "pos": "verb",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Le concert a été annulé, mais nous avons pu nous faire rembourser.",
+        "en": "The concert was cancelled, but we were able to get a refund."
+      }
+    },
+    {
+      "id": "u15-w043",
+      "fr": "échanger",
+      "en": "to exchange",
+      "pos": "verb",
+      "level": "A2+",
+      "core": false,
+      "example": {
+        "fr": "Ce pull est trop petit : est-ce que je peux l'échanger contre une taille au-dessus ?",
+        "en": "This jumper is too small: can I exchange it for a size up?"
+      }
+    },
+    {
+      "id": "u15-w044",
+      "fr": "comparateur de prix",
+      "en": "price comparison site",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "comparateurs de prix",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Avant d'acheter un frigo, je consulte toujours un comparateur de prix.",
+        "en": "Before buying a fridge, I always check a price comparison site."
+      }
+    },
+    {
+      "id": "u15-w045",
+      "fr": "commerce en ligne",
+      "en": "online shopping, e-commerce",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Le commerce en ligne a fait fermer plusieurs magasins du centre-ville.",
+        "en": "Online shopping has caused several town-centre shops to close."
+      }
+    },
+    {
+      "id": "u15-w046",
+      "fr": "livraison",
+      "en": "delivery",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "livraisons",
+      "level": "A2+",
+      "core": false,
+      "example": {
+        "fr": "La livraison est gratuite à partir de cinquante euros d'achat.",
+        "en": "Delivery is free for orders over fifty euros."
+      }
+    },
+    {
+      "id": "u15-w047",
+      "fr": "frais de port",
+      "en": "postage, shipping costs",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "frais de port",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Avec les frais de port, le livre coûtait plus cher qu'en librairie.",
+        "en": "With postage, the book cost more than in a bookshop."
+      },
+      "pluralOnly": true
+    },
+    {
+      "id": "u15-w048",
+      "fr": "panier",
+      "en": "basket (shop or online)",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "paniers",
+      "level": "A2",
+      "core": false,
+      "example": {
+        "fr": "J'ai mis trois articles dans mon panier, mais je n'ai pas encore validé la commande.",
+        "en": "I've put three items in my basket, but I haven't confirmed the order yet."
+      }
+    },
+    {
+      "id": "u15-w049",
+      "fr": "de seconde main",
+      "en": "second-hand",
+      "pos": "expression",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Ma fille achète presque tous ses vêtements de seconde main.",
+        "en": "My daughter buys almost all her clothes second-hand."
+      }
+    },
+    {
+      "id": "u15-w050",
+      "fr": "vide-grenier",
+      "en": "car boot sale, flea market",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "vide-greniers",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Dimanche, nous vendrons nos vieux jouets au vide-grenier du quartier.",
+        "en": "On Sunday, we'll sell our old toys at the neighbourhood car boot sale."
+      }
+    },
+    {
+      "id": "u15-w051",
+      "fr": "troc",
+      "en": "bartering, swapping",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Dans ce café, on pratique le troc : un livre contre un autre livre.",
+        "en": "In this café, people swap: one book for another book."
+      }
+    },
+    {
+      "id": "u15-w052",
+      "fr": "résilier",
+      "en": "to cancel (a contract or subscription)",
+      "pos": "verb",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Il faut que je résilie mon abonnement avant la fin du mois.",
+        "en": "I need to cancel my subscription before the end of the month."
+      }
+    },
+    {
+      "id": "u15-w053",
+      "fr": "payant",
+      "en": "not free, chargeable",
+      "pos": "adjective",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Le parking de la gare est payant, même le dimanche.",
+        "en": "You have to pay for the station car park, even on Sundays."
+      }
+    },
+    {
+      "id": "u15-w054",
+      "fr": "abordable",
+      "en": "affordable",
+      "pos": "adjective",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Les logements sont plus abordables en banlieue qu'au centre.",
+        "en": "Housing is more affordable in the suburbs than in the centre."
+      }
+    },
+    {
+      "id": "u15-w055",
+      "fr": "hors de prix",
+      "en": "outrageously expensive",
+      "pos": "expression",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Les billets pour la finale sont hors de prix.",
+        "en": "Tickets for the final are outrageously expensive."
+      }
+    },
+    {
+      "id": "u15-w056",
+      "fr": "dépensier / dépensière",
+      "en": "extravagant, big-spending",
+      "pos": "adjective",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Mon frère est très dépensier : il n'a jamais un euro de côté.",
+        "en": "My brother is a big spender: he never has a euro put aside."
+      }
+    },
+    {
+      "id": "u15-w057",
+      "fr": "économe",
+      "en": "thrifty",
+      "pos": "adjective",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Ma grand-mère était très économe : elle ne gaspillait jamais rien.",
+        "en": "My grandmother was very thrifty: she never wasted anything."
+      }
+    },
+    {
+      "id": "u15-w058",
+      "fr": "radin",
+      "en": "stingy, tight (informal)",
+      "pos": "adjective",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Il ne laisse jamais de pourboire, il est un peu radin.",
+        "en": "He never leaves a tip; he's a bit stingy."
+      }
+    },
+    {
+      "id": "u15-w059",
+      "fr": "fauché",
+      "en": "broke (informal)",
+      "pos": "adjective",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Je ne peux pas sortir ce week-end, je suis complètement fauché.",
+        "en": "I can't go out this weekend, I'm completely broke."
+      }
+    },
+    {
+      "id": "u15-w060",
+      "fr": "avoir les moyens",
+      "en": "to be able to afford it",
+      "pos": "expression",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "J'adorerais partir au Japon, mais je n'en ai pas les moyens.",
+        "en": "I'd love to go to Japan, but I can't afford it."
+      }
+    },
+    {
+      "id": "u15-w061",
+      "fr": "joindre les deux bouts",
+      "en": "to make ends meet",
+      "pos": "expression",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Avec un seul salaire, ils ont du mal à joindre les deux bouts.",
+        "en": "With only one salary, they struggle to make ends meet."
+      }
+    },
+    {
+      "id": "u15-w062",
+      "fr": "coûter les yeux de la tête",
+      "en": "to cost an arm and a leg",
+      "pos": "expression",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Les réparations de la voiture nous ont coûté les yeux de la tête.",
+        "en": "The car repairs cost us an arm and a leg."
+      }
+    },
+    {
+      "id": "u15-w063",
+      "fr": "jeter l'argent par les fenêtres",
+      "en": "to throw money down the drain",
+      "pos": "expression",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Payer un abonnement qu'on n'utilise pas, c'est jeter l'argent par les fenêtres.",
+        "en": "Paying for a subscription you don't use is throwing money down the drain."
+      }
+    },
+    {
+      "id": "u15-w064",
+      "fr": "se priver de",
+      "en": "to go without, to deprive oneself of",
+      "pos": "verb",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Pour payer ses études, elle se prive de sorties.",
+        "en": "To pay for her studies, she goes without nights out."
+      }
+    },
+    {
+      "id": "u15-w065",
+      "fr": "se permettre",
+      "en": "to afford, to allow oneself",
+      "pos": "verb",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Cette année, nous ne pouvons pas nous permettre de partir en vacances.",
+        "en": "This year, we can't afford to go on holiday."
+      }
+    },
+    {
+      "id": "u15-w066",
+      "fr": "retirer",
+      "en": "to withdraw (money)",
+      "pos": "verb",
+      "level": "A2+",
+      "core": false,
+      "example": {
+        "fr": "Je dois retirer de l'argent avant d'aller au marché.",
+        "en": "I need to withdraw some money before going to the market."
+      }
+    },
+    {
+      "id": "u15-w067",
+      "fr": "investir",
+      "en": "to invest",
+      "pos": "verb",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Ils ont investi toutes leurs économies dans un petit restaurant.",
+        "en": "They invested all their savings in a little restaurant."
+      }
+    },
+    {
+      "id": "u15-w068",
+      "fr": "prêter",
+      "en": "to lend",
+      "pos": "verb",
+      "level": "A2+",
+      "core": false,
+      "example": {
+        "fr": "Tu peux me prêter dix euros jusqu'à demain ?",
+        "en": "Can you lend me ten euros until tomorrow?"
+      }
+    },
+    {
+      "id": "u15-w069",
+      "fr": "négocier",
+      "en": "to negotiate, to haggle",
+      "pos": "verb",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Au vide-grenier, on peut toujours négocier les prix.",
+        "en": "At a car boot sale, you can always haggle over prices."
+      }
+    },
+    {
+      "id": "u15-w070",
+      "fr": "craquer pour",
+      "en": "to give in and buy, to fall for (informal)",
+      "pos": "expression",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Je voulais être raisonnable, mais j'ai craqué pour ce manteau.",
+        "en": "I wanted to be sensible, but I gave in and bought this coat."
+      }
+    },
+    {
+      "id": "u15-w071",
+      "fr": "se faire plaisir",
+      "en": "to treat oneself",
+      "pos": "expression",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "De temps en temps, il faut aussi savoir se faire plaisir.",
+        "en": "Now and then, you also have to know how to treat yourself."
+      }
+    },
+    {
+      "id": "u15-w072",
+      "fr": "indispensable",
+      "en": "essential",
+      "pos": "adjective",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Pour moi, un bon matelas est un achat indispensable.",
+        "en": "For me, a good mattress is an essential purchase."
+      }
+    },
+    {
+      "id": "u15-w073",
+      "fr": "superflu",
+      "en": "unnecessary, superfluous",
+      "pos": "adjective",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Quand on a un petit budget, on supprime les dépenses superflues.",
+        "en": "When you're on a tight budget, you cut out unnecessary spending."
+      }
+    },
+    {
+      "id": "u15-w074",
+      "fr": "luxe",
+      "en": "luxury",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "luxes",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Prendre un taxi, pour moi, c'est un luxe.",
+        "en": "Taking a taxi is a luxury for me."
+      }
+    },
+    {
+      "id": "u15-w075",
+      "fr": "bonne affaire",
+      "en": "bargain, good deal",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "bonnes affaires",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "J'ai fait une bonne affaire : ce vélo ne m'a coûté que quarante euros.",
+        "en": "I got a bargain: this bike only cost me forty euros."
+      }
+    },
+    {
+      "id": "u15-w076",
+      "fr": "arnaque",
+      "en": "scam, rip-off (informal)",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "arnaques",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Douze euros pour un café ? C'est une arnaque !",
+        "en": "Twelve euros for a coffee? It's a rip-off!"
+      }
+    },
+    {
+      "id": "u15-w077",
+      "fr": "tirelire",
+      "en": "piggy bank",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "tirelires",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Mon fils met toutes ses pièces dans sa tirelire.",
+        "en": "My son puts all his coins in his piggy bank."
+      }
+    },
+    {
+      "id": "u15-w078",
+      "fr": "argent de poche",
+      "en": "pocket money",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2+",
+      "core": false,
+      "example": {
+        "fr": "Mes enfants reçoivent dix euros d'argent de poche par semaine.",
+        "en": "My children get ten euros of pocket money a week."
+      }
+    },
+    {
+      "id": "u15-w079",
+      "fr": "cagnotte",
+      "en": "kitty, shared fund",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "cagnottes",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Les collègues ont fait une cagnotte pour le départ à la retraite de Martine.",
+        "en": "The colleagues set up a kitty for Martine's retirement."
+      }
+    },
+    {
+      "id": "u15-w080",
+      "fr": "porte-monnaie",
+      "en": "purse, coin wallet",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "porte-monnaie",
+      "level": "A2+",
+      "core": false,
+      "example": {
+        "fr": "J'ai oublié mon porte-monnaie à la maison.",
+        "en": "I left my purse at home."
+      }
+    },
+    {
+      "id": "u15-w081",
+      "fr": "fin de mois",
+      "en": "end of the month (when money runs short)",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "fins de mois",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Beaucoup d'étudiants ont des fins de mois difficiles.",
+        "en": "Many students struggle to get to the end of the month."
+      }
+    },
+    {
+      "id": "u15-w082",
+      "fr": "hausse des prix",
+      "en": "price rise",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "hausses des prix",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "La hausse des prix de l'énergie inquiète les familles.",
+        "en": "The rise in energy prices worries families."
+      }
+    },
+    {
+      "id": "u15-w083",
+      "fr": "code promo",
+      "en": "discount code",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "codes promo",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Avec ce code promo, vous avez dix pour cent de réduction.",
+        "en": "With this discount code, you get ten per cent off."
+      }
+    },
+    {
+      "id": "u15-w084",
+      "fr": "paiement sans contact",
+      "en": "contactless payment",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "paiements sans contact",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Le paiement sans contact est pratique, mais on se rend moins compte de ce qu'on dépense.",
+        "en": "Contactless payment is handy, but you're less aware of what you spend."
+      }
+    }
+  ],
+  "grammar": [
+    {
+      "id": "u15-g01",
+      "title": "The subjonctif présent: how to form it",
+      "level": "B1",
+      "grammarTag": "subjonctif",
+      "explanation": [
+        "The subjonctif is a mood, not a tense: it shows that the action is seen as necessary, wanted or imagined rather than simply stated as a fact. It almost always comes after que: Il faut que tu paies. At B1, you need it above all after il faut que and vouloir que.",
+        "Regular formation: take the ils/elles form of the present, remove -ent and add -e, -es, -e, -ions, -iez, -ent. Ils paient → que je paie; ils choisissent → que je choisisse; ils vendent → que je vende; ils mettent → que je mette.",
+        "The nous and vous forms look like the imparfait: que nous payions, que vous choisissiez. This matters for verbs with two stems: prendre → que je prenne but que nous prenions; venir → que je vienne / que nous venions; acheter → que j'achète / que nous achetions; devoir → que je doive / que nous devions.",
+        "A few very common verbs are irregular: être, avoir, aller and faire (see the table), plus pouvoir → que je puisse (nous puissions), savoir → que je sache (nous sachions) and vouloir → que je veuille (but nous voulions).",
+        "For most -er verbs, the je, tu, il and ils forms sound exactly like the present (que je dépense = je dépense). The difference shows with nous and vous (que nous dépensions) and with irregular verbs, so learn those carefully."
+      ],
+      "table": [
+        [
+          "",
+          "être",
+          "avoir",
+          "aller",
+          "faire"
+        ],
+        [
+          "que je / j'",
+          "sois",
+          "aie",
+          "aille",
+          "fasse"
+        ],
+        [
+          "que tu",
+          "sois",
+          "aies",
+          "ailles",
+          "fasses"
+        ],
+        [
+          "qu'il / elle / on",
+          "soit",
+          "ait",
+          "aille",
+          "fasse"
+        ],
+        [
+          "que nous",
+          "soyons",
+          "ayons",
+          "allions",
+          "fassions"
+        ],
+        [
+          "que vous",
+          "soyez",
+          "ayez",
+          "alliez",
+          "fassiez"
+        ],
+        [
+          "qu'ils / elles",
+          "soient",
+          "aient",
+          "aillent",
+          "fassent"
+        ]
+      ],
+      "examples": [
+        {
+          "fr": "Il faut que je paie la facture d'électricité avant lundi.",
+          "en": "I have to pay the electricity bill before Monday."
+        },
+        {
+          "fr": "Il faut que vous choisissiez entre ces deux offres.",
+          "en": "You have to choose between these two offers."
+        },
+        {
+          "fr": "Il faut que nous prenions rendez-vous avec la banque.",
+          "en": "We need to make an appointment with the bank."
+        },
+        {
+          "fr": "Il faut que tu sois plus raisonnable avec ta carte bancaire.",
+          "en": "You need to be more sensible with your bank card."
+        },
+        {
+          "fr": "Il faut qu'ils aient leur ticket de caisse pour échanger l'article.",
+          "en": "They need to have their receipt to exchange the item."
+        },
+        {
+          "fr": "Il faut que j'aille au distributeur avant d'aller au marché.",
+          "en": "I need to go to the cash machine before going to the market."
+        },
+        {
+          "fr": "Il faut qu'on fasse une liste avant les courses.",
+          "en": "We have to make a list before doing the shopping."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "Il faut que tu fais attention à tes dépenses.",
+          "right": "Il faut que tu fasses attention à tes dépenses.",
+          "why": "Il faut que needs the subjonctif. Faire has an irregular subjonctif: que tu fasses."
+        },
+        {
+          "wrong": "Il faut que nous soyions à l'heure.",
+          "right": "Il faut que nous soyons à l'heure.",
+          "why": "The subjonctif of être has no i in the nous and vous forms: soyons, soyez."
+        },
+        {
+          "wrong": "Il faut que vous ayiez votre carte.",
+          "right": "Il faut que vous ayez votre carte.",
+          "why": "Avoir: que nous ayons, que vous ayez — no i after the y."
+        }
+      ]
+    },
+    {
+      "id": "u15-g02",
+      "title": "Using the subjonctif: il faut que, vouloir que",
+      "level": "B1",
+      "grammarTag": "subjonctif",
+      "explanation": [
+        "Il faut que + subjonctif expresses an obligation for a specific person: Il faut que tu rembourses ton prêt. If the obligation is general, use il faut + infinitive instead: Il faut comparer les prix avant d'acheter. In the negative, il ne faut pas que means \"must not\": Il ne faut pas que tu dépenses tout.",
+        "Verbs of wanting — vouloir, aimer, préférer, souhaiter, exiger — take que + subjonctif when the person who wants is different from the person who acts: Je veux que tu économises (I want you to save). English says \"want somebody to do\", but French needs a full clause with que.",
+        "When the subject is the same person, use the infinitive, never que + subjonctif: Je veux économiser (I want to save), not « Je veux que j'économise ». The polite conditionnel works the same way: Je voudrais que vous m'envoyiez la facture.",
+        "Other common triggers of the same kind: il est nécessaire que, il est important que, il vaut mieux que. Watch out for espérer que: it is followed by the indicative, not the subjonctif: J'espère que tu as assez d'argent."
+      ],
+      "table": [
+        [
+          "Structure",
+          "When",
+          "Example"
+        ],
+        [
+          "il faut + infinitive",
+          "general obligation",
+          "Il faut garder ses tickets de caisse."
+        ],
+        [
+          "il faut que + subjonctif",
+          "obligation for a specific person",
+          "Il faut que tu gardes ton ticket."
+        ],
+        [
+          "vouloir + infinitive",
+          "same subject",
+          "Je veux changer de banque."
+        ],
+        [
+          "vouloir que + subjonctif",
+          "different subjects",
+          "Je veux que tu changes de banque."
+        ],
+        [
+          "espérer que + indicatif",
+          "hope (no subjonctif!)",
+          "J'espère que le prix va baisser."
+        ]
+      ],
+      "examples": [
+        {
+          "fr": "Mes parents veulent que je fasse des économies pour mes études.",
+          "en": "My parents want me to save up for my studies."
+        },
+        {
+          "fr": "Le propriétaire exige que nous payions le loyer le premier du mois.",
+          "en": "The landlord insists that we pay the rent on the first of the month."
+        },
+        {
+          "fr": "Je voudrais que vous me remboursiez ce téléphone.",
+          "en": "I would like you to refund this phone."
+        },
+        {
+          "fr": "Il vaut mieux que tu attendes les soldes pour acheter ce manteau.",
+          "en": "You'd better wait for the sales to buy this coat."
+        },
+        {
+          "fr": "Il ne faut pas que les enfants sachent le prix du cadeau.",
+          "en": "The children mustn't know the price of the present."
+        },
+        {
+          "fr": "Je veux acheter moins, mais mieux.",
+          "en": "I want to buy less, but better."
+        },
+        {
+          "fr": "J'espère que la livraison arrivera avant samedi.",
+          "en": "I hope the delivery will arrive before Saturday."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "Je veux que je fasse des économies.",
+          "right": "Je veux faire des économies.",
+          "why": "Same subject (je… je) → use the infinitive, not que + subjonctif."
+        },
+        {
+          "wrong": "Ma mère veut moi payer en espèces.",
+          "right": "Ma mère veut que je paie en espèces.",
+          "why": "French does not copy the English \"want me to\": use vouloir que + subject + subjonctif."
+        },
+        {
+          "wrong": "J'espère que tu sois content de ton achat.",
+          "right": "J'espère que tu es content de ton achat.",
+          "why": "Espérer que is followed by the indicative, not the subjonctif."
+        },
+        {
+          "wrong": "Il faut que nous allons à la banque.",
+          "right": "Il faut que nous allions à la banque.",
+          "why": "Il faut que needs the subjonctif: que nous allions."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "u15-ex01",
+      "type": "mcq",
+      "level": "B1",
+      "skill": "structures",
+      "grammarTag": "subjonctif",
+      "prompt": "Choose the correct form after il faut que.",
+      "promptFr": "Il faut que tu ___ attention à tes dépenses.",
+      "options": [
+        "fais",
+        "fasses",
+        "feras",
+        "ferais"
+      ],
+      "answer": 1,
+      "explanation": "Il faut que is followed by the subjonctif. Faire is irregular: que tu fasses. Fais is the present, feras the future and ferais the conditionnel."
+    },
+    {
+      "id": "u15-ex02",
+      "type": "mcq",
+      "level": "B1",
+      "skill": "structures",
+      "grammarTag": "subjonctif",
+      "prompt": "Complete the sentence.",
+      "promptFr": "Mes parents veulent que j'___ un livret d'épargne.",
+      "options": [
+        "ai",
+        "aurai",
+        "avoir",
+        "aie"
+      ],
+      "answer": 3,
+      "explanation": "Vouloir que + subjonctif. The subjonctif of avoir with je is aie (que j'aie). Ai is the present indicative."
+    },
+    {
+      "id": "u15-ex03",
+      "type": "mcq",
+      "level": "B1",
+      "skill": "structures",
+      "grammarTag": "subjonctif",
+      "prompt": "Which sentence is correct?",
+      "options": [
+        "Je veux faire des économies.",
+        "Je veux que je fasse des économies.",
+        "Je veux que faire des économies.",
+        "Je veux de faire des économies."
+      ],
+      "answer": 0,
+      "explanation": "When the subject is the same person (I want / I save), use vouloir + infinitive with no que and no preposition."
+    },
+    {
+      "id": "u15-ex04",
+      "type": "mcq",
+      "level": "B1",
+      "skill": "structures",
+      "grammarTag": "subjonctif",
+      "prompt": "Careful: which verb form follows espérer que?",
+      "promptFr": "J'espère que le prix ___ raisonnable.",
+      "options": [
+        "soit",
+        "soient",
+        "être",
+        "sera"
+      ],
+      "answer": 3,
+      "explanation": "Espérer que is followed by the indicative (here the future: sera), not the subjonctif. Soit and soient are subjonctif forms, and être is an infinitive."
+    },
+    {
+      "id": "u15-ex05",
+      "type": "mcq",
+      "level": "B1",
+      "skill": "structures",
+      "grammarTag": "vocabulary",
+      "prompt": "Which expression means \"to make ends meet\"?",
+      "options": [
+        "coûter les yeux de la tête",
+        "jeter l'argent par les fenêtres",
+        "joindre les deux bouts",
+        "faire une bonne affaire"
+      ],
+      "answer": 2,
+      "explanation": "Joindre les deux bouts = to make ends meet. Coûter les yeux de la tête = to cost an arm and a leg; jeter l'argent par les fenêtres = to throw money away; faire une bonne affaire = to get a bargain."
+    },
+    {
+      "id": "u15-ex06",
+      "type": "fill_blank",
+      "level": "B1",
+      "skill": "structures",
+      "grammarTag": "subjonctif",
+      "prompt": "Put the verb in brackets in the subjonctif présent.",
+      "sentence": "Il faut que nous ___ (être) plus raisonnables avec notre budget.",
+      "answers": [
+        "soyons"
+      ],
+      "hint": "être, nous form — no i!",
+      "translation": "We need to be more sensible with our budget.",
+      "explanation": "The subjonctif of être with nous is soyons."
+    },
+    {
+      "id": "u15-ex07",
+      "type": "fill_blank",
+      "level": "B1",
+      "skill": "structures",
+      "grammarTag": "subjonctif",
+      "prompt": "Put the verb in brackets in the subjonctif présent.",
+      "sentence": "Je voudrais que vous m'___ (envoyer) la facture par e-mail.",
+      "answers": [
+        "envoyiez"
+      ],
+      "hint": "vous form: like the imparfait",
+      "translation": "I would like you to send me the invoice by email.",
+      "explanation": "Vouloir que + subjonctif. For vous, the subjonctif looks like the imparfait: que vous envoyiez."
+    },
+    {
+      "id": "u15-ex08",
+      "type": "fill_blank",
+      "level": "B1",
+      "skill": "structures",
+      "grammarTag": "subjonctif",
+      "prompt": "Put the verb in brackets in the subjonctif présent.",
+      "sentence": "Il faut que tu ___ (aller) à la banque avant midi.",
+      "answers": [
+        "ailles"
+      ],
+      "hint": "aller is irregular",
+      "translation": "You have to go to the bank before noon.",
+      "explanation": "Aller has an irregular subjonctif: que j'aille, que tu ailles, qu'il aille…"
+    },
+    {
+      "id": "u15-ex09",
+      "type": "fill_blank",
+      "level": "B1",
+      "skill": "structures",
+      "grammarTag": "vocabulary",
+      "prompt": "Complete with the right noun.",
+      "sentence": "Pour payer mon loyer, je fais un ___ à mon propriétaire chaque mois.",
+      "answers": [
+        "virement"
+      ],
+      "hint": "bank transfer",
+      "translation": "To pay my rent, I make a transfer to my landlord every month.",
+      "explanation": "Un virement is a bank transfer; faire un virement = to make a transfer."
+    },
+    {
+      "id": "u15-ex10",
+      "type": "fill_blank",
+      "level": "B1",
+      "skill": "structures",
+      "grammarTag": "subjonctif",
+      "prompt": "Put the verb in brackets in the subjonctif présent.",
+      "sentence": "Mon banquier veut que je ___ (rembourser) mon prêt plus rapidement.",
+      "answers": [
+        "rembourse"
+      ],
+      "hint": "ils remboursent → que je …",
+      "translation": "My bank adviser wants me to pay back my loan faster.",
+      "explanation": "Regular formation: ils remboursent → stem rembours- + -e: que je rembourse."
+    },
+    {
+      "id": "u15-ex11",
+      "type": "conjugation",
+      "level": "B1",
+      "skill": "structures",
+      "grammarTag": "subjonctif",
+      "verb": "pouvoir",
+      "tense": "subjonctif présent",
+      "person": "je",
+      "answers": [
+        "puisse"
+      ],
+      "explanation": "Pouvoir has an irregular subjonctif: que je puisse, que nous puissions."
+    },
+    {
+      "id": "u15-ex12",
+      "type": "conjugation",
+      "level": "B1",
+      "skill": "structures",
+      "grammarTag": "subjonctif",
+      "verb": "savoir",
+      "tense": "subjonctif présent",
+      "person": "vous",
+      "answers": [
+        "sachiez"
+      ],
+      "explanation": "Savoir has an irregular subjonctif: que je sache, que vous sachiez."
+    },
+    {
+      "id": "u15-ex13",
+      "type": "conjugation",
+      "level": "B1",
+      "skill": "structures",
+      "grammarTag": "subjonctif",
+      "verb": "prendre",
+      "tense": "subjonctif présent",
+      "person": "nous",
+      "answers": [
+        "prenions"
+      ],
+      "explanation": "Prendre has two stems: que je prenne, but que nous prenions (like the imparfait)."
+    },
+    {
+      "id": "u15-ex14",
+      "type": "reorder",
+      "level": "B1",
+      "skill": "structures",
+      "grammarTag": "subjonctif",
+      "prompt": "Put the words in order to make a sentence.",
+      "tokens": [
+        "Il",
+        "faut",
+        "que",
+        "nous",
+        "comparions",
+        "les",
+        "prix",
+        "avant",
+        "d'acheter."
+      ],
+      "translation": "We have to compare prices before buying.",
+      "explanation": "Il faut que + subject + subjonctif (comparions)."
+    },
+    {
+      "id": "u15-ex15",
+      "type": "reorder",
+      "level": "B1",
+      "skill": "structures",
+      "grammarTag": "subjonctif",
+      "prompt": "Put the words in order to make a sentence.",
+      "tokens": [
+        "Mes",
+        "parents",
+        "veulent",
+        "que",
+        "je",
+        "sois",
+        "plus",
+        "économe."
+      ],
+      "translation": "My parents want me to be more thrifty.",
+      "explanation": "Vouloir que + different subject + subjonctif: que je sois."
+    },
+    {
+      "id": "u15-ex16",
+      "type": "match",
+      "level": "B1",
+      "skill": "structures",
+      "grammarTag": "vocabulary",
+      "prompt": "Match each French word with its English meaning.",
+      "pairs": [
+        {
+          "left": "un virement",
+          "right": "a bank transfer"
+        },
+        {
+          "left": "une facture",
+          "right": "a bill"
+        },
+        {
+          "left": "emprunter",
+          "right": "to borrow"
+        },
+        {
+          "left": "rembourser",
+          "right": "to pay back"
+        },
+        {
+          "left": "d'occasion",
+          "right": "second-hand"
+        }
+      ],
+      "explanation": "Key words for talking about money and purchases."
+    },
+    {
+      "id": "u15-ex17",
+      "type": "match",
+      "level": "B1",
+      "skill": "structures",
+      "grammarTag": "subjonctif",
+      "prompt": "Match each infinitive with its subjonctif form.",
+      "pairs": [
+        {
+          "left": "être",
+          "right": "que je sois"
+        },
+        {
+          "left": "avoir",
+          "right": "que j'aie"
+        },
+        {
+          "left": "aller",
+          "right": "que j'aille"
+        },
+        {
+          "left": "faire",
+          "right": "que je fasse"
+        },
+        {
+          "left": "vouloir",
+          "right": "que je veuille"
+        }
+      ],
+      "explanation": "These five verbs have irregular subjonctif forms that you need to learn by heart."
+    },
+    {
+      "id": "u15-ex18",
+      "type": "translate",
+      "level": "B1",
+      "skill": "structures",
+      "grammarTag": "subjonctif",
+      "direction": "en-fr",
+      "source": "My parents want me to save money.",
+      "answers": [
+        "Mes parents veulent que je fasse des économies.",
+        "Mes parents veulent que j'économise de l'argent.",
+        "Mes parents veulent que j'économise.",
+        "Mes parents veulent que j'épargne de l'argent.",
+        "Mes parents veulent que j'épargne.",
+        "Mes parents veulent que je mette de l'argent de côté."
+      ],
+      "explanation": "\"Want me to\" becomes vouloir que + je + subjonctif. Never translate word for word (« veulent moi »)."
+    },
+    {
+      "id": "u15-ex19",
+      "type": "translate",
+      "level": "B1",
+      "skill": "structures",
+      "grammarTag": "subjonctif",
+      "direction": "fr-en",
+      "source": "Il faut que tu fasses attention à ton budget.",
+      "answers": [
+        "You have to be careful with your budget.",
+        "You must be careful with your budget.",
+        "You need to be careful with your budget.",
+        "You've got to be careful with your budget.",
+        "You have to watch your budget.",
+        "You need to watch your budget.",
+        "You must watch your budget.",
+        "You have to pay attention to your budget.",
+        "You need to pay attention to your budget."
+      ],
+      "explanation": "Il faut que tu… = you have to / you must… Faire attention à = to be careful with, to watch."
+    },
+    {
+      "id": "u15-ex20",
+      "type": "dictation",
+      "level": "B1",
+      "skill": "listening",
+      "grammarTag": "subjonctif",
+      "text": "Il faut que nous payions la facture avant la fin du mois.",
+      "translation": "We have to pay the bill before the end of the month.",
+      "explanation": "Listen for payions: the nous form of the subjonctif, which looks like the imparfait (with -yi-)."
+    }
+  ],
+  "listening": [
+    {
+      "id": "u15-li01",
+      "title": "Le budget du mois",
+      "level": "B1",
+      "kind": "dialogue",
+      "context": "A couple, Nadia and Paul, go through their monthly budget at home.",
+      "lines": [
+        {
+          "speaker": "Nadia",
+          "fr": "Bon, on fait le point sur le budget ? Nos dépenses ont encore augmenté ce mois-ci."
+        },
+        {
+          "speaker": "Paul",
+          "fr": "Oui, j'ai vu le relevé de compte. On a presque été à découvert la semaine dernière."
+        },
+        {
+          "speaker": "Nadia",
+          "fr": "Il faut vraiment qu'on fasse des économies. Regarde tous ces abonnements : la salle de sport, deux plateformes de streaming…"
+        },
+        {
+          "speaker": "Paul",
+          "fr": "La salle de sport, je n'y vais plus depuis septembre. Il faut que je résilie mon abonnement."
+        },
+        {
+          "speaker": "Nadia",
+          "fr": "Et pour le streaming, on pourrait n'en garder qu'une."
+        },
+        {
+          "speaker": "Paul",
+          "fr": "D'accord. Par contre, ma mère veut qu'on vienne la voir à Bordeaux en décembre, et le train coûte cher."
+        },
+        {
+          "speaker": "Nadia",
+          "fr": "Si on réserve maintenant, ce sera moins cher. Il faut que tu regardes les billets ce soir."
+        },
+        {
+          "speaker": "Paul",
+          "fr": "Je m'en occupe. Et pour les courses, tu veux que je fasse une liste avant d'aller au supermarché ?"
+        },
+        {
+          "speaker": "Nadia",
+          "fr": "Oui, comme ça on évitera les achats inutiles. On pourrait aussi aller au marché en fin de matinée : les prix baissent avant la fermeture."
+        },
+        {
+          "speaker": "Paul",
+          "fr": "Bonne idée. Avec tout ça, on pourrait mettre cent euros de côté chaque mois."
+        },
+        {
+          "speaker": "Nadia",
+          "fr": "Exactement. Et j'aimerais qu'on ouvre un livret d'épargne pour les vacances d'été."
+        },
+        {
+          "speaker": "Paul",
+          "fr": "Parfait, je prends rendez-vous à la banque demain."
+        }
+      ],
+      "translation": "Nadia: Right, shall we go over the budget? Our spending has gone up again this month.\nPaul: Yes, I've seen the bank statement. We were nearly overdrawn last week.\nNadia: We really need to save money. Look at all these subscriptions: the gym, two streaming platforms…\nPaul: I haven't been to the gym since September. I need to cancel my membership.\nNadia: And for streaming, we could keep just one.\nPaul: OK. On the other hand, my mother wants us to come and see her in Bordeaux in December, and the train is expensive.\nNadia: If we book now, it'll be cheaper. You need to look at the tickets tonight.\nPaul: I'll take care of it. And for the shopping, do you want me to make a list before going to the supermarket?\nNadia: Yes, that way we'll avoid unnecessary purchases. We could also go to the market late in the morning: prices drop before closing time.\nPaul: Good idea. With all that, we could put a hundred euros aside every month.\nNadia: Exactly. And I'd like us to open a savings account for the summer holidays.\nPaul: Perfect, I'll make an appointment at the bank tomorrow.",
+      "questions": [
+        {
+          "id": "u15-li01-q1",
+          "question": "Why do Nadia and Paul want to change their habits?",
+          "options": [
+            "They want to buy a house",
+            "Their spending has increased and they were nearly overdrawn",
+            "Paul has lost his job",
+            "The bank has refused them a loan"
+          ],
+          "answer": 1,
+          "explanation": "« Nos dépenses ont encore augmenté » and « On a presque été à découvert »."
+        },
+        {
+          "id": "u15-li01-q2",
+          "question": "What will Paul do about the gym?",
+          "options": [
+            "Go more often",
+            "Share his membership with Nadia",
+            "Cancel his membership",
+            "Ask for a discount"
+          ],
+          "answer": 2,
+          "explanation": "« Il faut que je résilie mon abonnement »."
+        },
+        {
+          "id": "u15-li01-q3",
+          "question": "Why should Paul look at train tickets tonight?",
+          "options": [
+            "Booking early will be cheaper",
+            "The trains are almost full",
+            "His mother has asked him to",
+            "There is a strike in December"
+          ],
+          "answer": 0,
+          "explanation": "« Si on réserve maintenant, ce sera moins cher »."
+        },
+        {
+          "id": "u15-li01-q4",
+          "question": "What does Nadia want to open?",
+          "options": [
+            "A joint current account",
+            "An online shop",
+            "A gym membership",
+            "A savings account for the summer holidays"
+          ],
+          "answer": 3,
+          "explanation": "« J'aimerais qu'on ouvre un livret d'épargne pour les vacances d'été »."
+        }
+      ]
+    },
+    {
+      "id": "u15-li02",
+      "title": "Chronique conso : attention aux faux sites",
+      "level": "B1",
+      "kind": "announcement",
+      "context": "A consumer-advice segment on a radio station.",
+      "lines": [
+        {
+          "speaker": "Chroniqueuse",
+          "fr": "Bonjour à tous, et bienvenue dans notre chronique consommation."
+        },
+        {
+          "speaker": "Chroniqueuse",
+          "fr": "Ce mois-ci, de nombreux auditeurs nous ont signalé de faux sites de vente en ligne."
+        },
+        {
+          "speaker": "Chroniqueuse",
+          "fr": "Ces sites proposent des produits de grandes marques à des prix incroyablement bas : des baskets à quinze euros, par exemple."
+        },
+        {
+          "speaker": "Chroniqueuse",
+          "fr": "Le problème, c'est qu'après le paiement, le colis n'arrive jamais."
+        },
+        {
+          "speaker": "Chroniqueuse",
+          "fr": "Pour éviter ces arnaques, il faut que vous vérifiiez l'adresse du site et que vous lisiez les avis d'autres clients."
+        },
+        {
+          "speaker": "Chroniqueuse",
+          "fr": "Il vaut mieux aussi payer par carte bancaire, car en cas de fraude, votre banque peut vous rembourser."
+        },
+        {
+          "speaker": "Chroniqueuse",
+          "fr": "Enfin, méfiez-vous des offres « valables seulement aujourd'hui » : elles sont faites pour vous pousser à acheter sans réfléchir."
+        }
+      ],
+      "translation": "Hello everyone, and welcome to our consumer segment.\nThis month, many listeners have told us about fake online shopping sites.\nThese sites offer big-brand products at incredibly low prices: trainers for fifteen euros, for example.\nThe problem is that after payment, the parcel never arrives.\nTo avoid these scams, you should check the website address and read other customers' reviews.\nIt's also better to pay by bank card, because in case of fraud, your bank can refund you.\nFinally, beware of offers that are \"valid today only\": they are designed to push you into buying without thinking.",
+      "questions": [
+        {
+          "id": "u15-li02-q1",
+          "question": "What problem have listeners reported?",
+          "options": [
+            "Very long delivery times",
+            "Fake shopping sites where parcels never arrive",
+            "Products that are more expensive online",
+            "Bank cards that don't work online"
+          ],
+          "answer": 1,
+          "explanation": "« De faux sites de vente en ligne… le colis n'arrive jamais »."
+        },
+        {
+          "id": "u15-li02-q2",
+          "question": "What does the presenter advise you to check?",
+          "options": [
+            "The site address and other customers' reviews",
+            "The delivery company's name",
+            "The size guide",
+            "Your bank statement every day"
+          ],
+          "answer": 0,
+          "explanation": "« Il faut que vous vérifiiez l'adresse du site et que vous lisiez les avis d'autres clients »."
+        },
+        {
+          "id": "u15-li02-q3",
+          "question": "Why is paying by bank card recommended?",
+          "options": [
+            "It's faster",
+            "There are no fees",
+            "Your bank can refund you in case of fraud",
+            "Sites give a discount for card payments"
+          ],
+          "answer": 2,
+          "explanation": "« En cas de fraude, votre banque peut vous rembourser »."
+        },
+        {
+          "id": "u15-li02-q4",
+          "question": "What can we infer about \"today only\" offers?",
+          "options": [
+            "They are always the best deals",
+            "They are illegal in France",
+            "They are only on big-brand sites",
+            "They use time pressure to stop you thinking"
+          ],
+          "answer": 3,
+          "explanation": "They are made « pour vous pousser à acheter sans réfléchir » — the urgency is a sales technique."
+        }
+      ]
+    }
+  ],
+  "reading": [
+    {
+      "id": "u15-re01",
+      "title": "La seconde main, nouvelle façon de consommer",
+      "level": "B1",
+      "kind": "article",
+      "text": "Acheter des vêtements d'occasion n'est plus réservé aux petits budgets. Selon une étude récente, près d'un Français sur deux a déjà acheté un article de seconde main sur Internet, et ce chiffre augmente chaque année chez les moins de 35 ans.\n\nPourquoi un tel succès ? D'abord, pour des raisons économiques : avec la hausse des prix, beaucoup de familles veulent que leur argent dure plus longtemps. Sur une application de revente, un manteau de marque peut coûter trois fois moins cher qu'en magasin. Ensuite, la seconde main permet de réduire la consommation de ressources : fabriquer un seul jean demande des milliers de litres d'eau.\n\nPourtant, ce nouveau mode de consommation a aussi ses limites. Certains utilisateurs achètent beaucoup plus qu'avant, simplement parce que les prix sont bas. « Il faut que les gens comprennent qu'un achat inutile reste un achat inutile, même s'il est d'occasion », explique Camille Roux, sociologue. Pour elle, l'objectif n'est pas seulement d'acheter moins cher, mais d'acheter moins.\n\nLes magasins traditionnels, eux, s'adaptent : plusieurs grandes enseignes proposent désormais un rayon seconde main dans leurs boutiques.",
+      "translation": "Buying second-hand clothes is no longer just for people on small budgets. According to a recent study, nearly one French person in two has already bought a second-hand item online, and this figure is rising every year among the under-35s.\n\nWhy such success? First, for economic reasons: with rising prices, many families want their money to last longer. On a resale app, a designer coat can cost three times less than in a shop. Next, second-hand buying reduces the consumption of resources: making a single pair of jeans takes thousands of litres of water.\n\nYet this new way of consuming also has its limits. Some users buy much more than before, simply because prices are low. \"People need to understand that an unnecessary purchase is still an unnecessary purchase, even if it's second-hand,\" explains Camille Roux, a sociologist. For her, the aim is not just to buy more cheaply, but to buy less.\n\nTraditional shops, for their part, are adapting: several big chains now offer a second-hand section in their stores.",
+      "questions": [
+        {
+          "id": "u15-re01-q1",
+          "question": "What is the first reason given for the success of second-hand buying?",
+          "options": [
+            "Fashion trends",
+            "Better quality",
+            "Saving money as prices rise",
+            "Faster delivery"
+          ],
+          "answer": 2,
+          "explanation": "« Pour des raisons économiques : avec la hausse des prix, beaucoup de familles veulent que leur argent dure plus longtemps »."
+        },
+        {
+          "id": "u15-re01-q2",
+          "question": "What environmental argument does the article give?",
+          "options": [
+            "Second-hand clothes are recycled into new ones",
+            "Producing new clothes uses a lot of resources, such as water",
+            "Second-hand shops use solar energy",
+            "Old clothes are biodegradable"
+          ],
+          "answer": 1,
+          "explanation": "« Fabriquer un seul jean demande des milliers de litres d'eau »."
+        },
+        {
+          "id": "u15-re01-q3",
+          "question": "What does Camille Roux suggest?",
+          "options": [
+            "Second-hand buying can still lead to overconsumption",
+            "People should stop buying second-hand",
+            "Second-hand items are too expensive",
+            "Resale apps should be banned"
+          ],
+          "answer": 0,
+          "explanation": "She says an unnecessary purchase stays unnecessary « même s'il est d'occasion » and the goal is « d'acheter moins »."
+        },
+        {
+          "id": "u15-re01-q4",
+          "question": "How are traditional shops reacting?",
+          "options": [
+            "They are lowering all their prices",
+            "They are closing their stores",
+            "They are complaining to the government",
+            "They are opening second-hand sections"
+          ],
+          "answer": 3,
+          "explanation": "« Plusieurs grandes enseignes proposent désormais un rayon seconde main »."
+        }
+      ]
+    },
+    {
+      "id": "u15-re02",
+      "title": "Réclamation : un aspirateur en panne",
+      "level": "B1",
+      "kind": "email",
+      "text": "Objet : Commande n° 48213 – demande de remboursement\n\nMadame, Monsieur,\n\nLe 3 mars, j'ai commandé sur votre site un aspirateur sans fil d'une valeur de 189 euros. Je l'ai reçu le 10 mars, mais il ne fonctionne pas : la batterie ne se charge pas, même après une nuit entière.\n\nJ'ai contacté votre service client à deux reprises par téléphone. On m'a promis qu'un technicien me rappellerait, mais je n'ai reçu aucun appel.\n\nJe souhaite donc que vous me remboursiez la totalité de mon achat, frais de port compris. Je voudrais également que vous m'envoyiez une étiquette de retour, afin que je puisse vous renvoyer l'appareil sans frais supplémentaires.\n\nSans réponse de votre part dans un délai de quinze jours, je serai obligé de contacter une association de consommateurs.\n\nDans l'attente de votre réponse, je vous prie d'agréer, Madame, Monsieur, mes salutations distinguées.\n\nThomas Girard",
+      "translation": "Subject: Order no. 48213 – refund request\n\nDear Sir or Madam,\n\nOn 3 March, I ordered a cordless vacuum cleaner worth 189 euros on your website. I received it on 10 March, but it doesn't work: the battery doesn't charge, even after a whole night.\n\nI contacted your customer service twice by phone. I was promised that a technician would call me back, but I haven't received any call.\n\nI would therefore like you to refund my entire purchase, including postage. I would also like you to send me a return label, so that I can send the appliance back to you at no extra cost.\n\nIf I receive no reply from you within fifteen days, I will have to contact a consumer association.\n\nI look forward to your reply.\nYours faithfully,\n\nThomas Girard",
+      "questions": [
+        {
+          "id": "u15-re02-q1",
+          "question": "What is wrong with the vacuum cleaner?",
+          "options": [
+            "It was delivered late",
+            "It is the wrong colour",
+            "The battery doesn't charge",
+            "It is too noisy"
+          ],
+          "answer": 2,
+          "explanation": "« La batterie ne se charge pas, même après une nuit entière »."
+        },
+        {
+          "id": "u15-re02-q2",
+          "question": "What happened when Thomas phoned customer service?",
+          "options": [
+            "He was promised a call back that never came",
+            "Nobody answered",
+            "He was refunded immediately",
+            "He was told to buy a new battery"
+          ],
+          "answer": 0,
+          "explanation": "« On m'a promis qu'un technicien me rappellerait, mais je n'ai reçu aucun appel »."
+        },
+        {
+          "id": "u15-re02-q3",
+          "question": "What does Thomas ask for?",
+          "options": [
+            "A replacement vacuum cleaner",
+            "A discount on his next order",
+            "A visit from a technician",
+            "A full refund and a return label"
+          ],
+          "answer": 3,
+          "explanation": "He wants them to refund « la totalité de mon achat, frais de port compris » and send « une étiquette de retour »."
+        },
+        {
+          "id": "u15-re02-q4",
+          "question": "How would you describe the tone of the email?",
+          "options": [
+            "Firm but polite",
+            "Angry and rude",
+            "Friendly and informal",
+            "Hesitant and apologetic"
+          ],
+          "answer": 0,
+          "explanation": "He uses formal expressions (Madame, Monsieur; je vous prie d'agréer…) but sets a clear deadline and mentions a consumer association."
+        }
+      ]
+    }
+  ],
+  "writing": [
+    {
+      "id": "u15-wr01",
+      "title": "Apprendre à gérer son argent à l'école ?",
+      "level": "B1",
+      "taskType": "opinion",
+      "instructions": "Write an argued opinion (120–180 words) with a clear position, two arguments, a counter-argument and a conclusion. Use connectors and at least two sentences with il faut que / vouloir que (or souhaiter que) + subjonctif.",
+      "promptFr": "Beaucoup de jeunes adultes ont des difficultés à gérer leur budget. Selon vous, l'école devrait-elle apprendre aux élèves à gérer leur argent ? Vous donnerez votre opinion en la justifiant par des arguments et des exemples. (120 à 180 mots)",
+      "minWords": 120,
+      "maxWords": 180,
+      "modelAnswer": "Aujourd'hui, beaucoup de jeunes adultes ont du mal à gérer leur budget. À mon avis, il faudrait donc enseigner l'éducation financière à l'école.\n\nTout d'abord, l'argent fait partie de la vie quotidienne. Pourtant, à dix-huit ans, beaucoup de jeunes ne savent ni lire un relevé de compte ni comparer deux offres de prêt. Il faut que l'école leur donne ces outils, car tous les parents ne peuvent pas le faire.\n\nEnsuite, avec le paiement sans contact et les achats en ligne, il est devenu très facile de dépenser sans s'en rendre compte. Des cours simples permettraient aux élèves de comprendre les pièges du crédit et de la publicité.\n\nCertains pensent que les programmes sont déjà trop chargés. C'est vrai ; cependant, une heure par mois suffirait, par exemple en cours de mathématiques.\n\nEn conclusion, je souhaite que tous les élèves quittent le lycée en sachant gérer un budget. Ce serait un vrai investissement pour leur avenir.",
+      "checklist": [
+        "My position is clear in the introduction and the conclusion.",
+        "I gave at least two arguments with examples.",
+        "I mentioned a counter-argument and answered it.",
+        "I used il faut que / vouloir que / souhaiter que + subjonctif correctly at least twice.",
+        "I organised my text with connectors (tout d'abord, ensuite, cependant, en conclusion…).",
+        "My text is between 120 and 180 words."
+      ]
+    },
+    {
+      "id": "u15-wr02",
+      "title": "Une cagnotte pour les courses",
+      "level": "B1",
+      "taskType": "message",
+      "instructions": "Write a message to your flatmates (60–120 words): explain the problem, suggest how to organise a shared food budget, and propose a time to discuss it. Use il faut que / vouloir que + subjonctif.",
+      "promptFr": "Vous vivez en colocation. Les dépenses pour les courses communes ont beaucoup augmenté. Vous écrivez un message à vos colocataires pour proposer une nouvelle organisation et un moment pour en parler. (60 à 120 mots)",
+      "minWords": 60,
+      "maxWords": 120,
+      "modelAnswer": "Salut à tous,\n\nCe mois-ci, nos dépenses pour les courses ont beaucoup augmenté, et je pense qu'il faut qu'on s'organise mieux. Je propose qu'on crée une cagnotte commune : chacun pourrait y mettre 80 euros au début du mois. Pour que ce soit juste, il faut que nous gardions tous les tickets de caisse. Je voudrais aussi qu'on fasse une liste ensemble le dimanche soir, pour éviter d'acheter deux fois la même chose. Qu'est-ce que vous en pensez ? On pourrait en parler jeudi, pendant le dîner.\n\nÀ plus,\nMehdi",
+      "checklist": [
+        "I explained the problem in one or two sentences.",
+        "I made at least two concrete proposals.",
+        "I used il faut que / je voudrais que + subjonctif correctly.",
+        "I suggested a time to talk about it.",
+        "My message is between 60 and 120 words, with a greeting and a closing."
+      ]
+    }
+  ],
+  "speaking": [
+    {
+      "id": "u15-sp01",
+      "title": "Rapporter un téléphone en panne",
+      "level": "B1",
+      "taskType": "interaction",
+      "instructions": "Role-play. You bought a phone two weeks ago and it keeps switching off. You go back to the shop to ask for an exchange or a refund. The examiner plays the shop assistant, who is not very cooperative at first.",
+      "promptFr": "Vous avez acheté un téléphone il y a deux semaines, mais il s'éteint tout seul plusieurs fois par jour. Vous retournez au magasin pour demander un échange ou un remboursement.",
+      "prepSeconds": 120,
+      "speakSeconds": 210,
+      "modelAnswer": "Bonjour monsieur. J'ai acheté ce téléphone ici il y a deux semaines, et il ne fonctionne pas correctement : il s'éteint tout seul plusieurs fois par jour. Voici mon ticket de caisse. Je voudrais que vous me l'échangiez ou que vous me remboursiez, s'il vous plaît. Vous dites qu'il faut l'envoyer au service après-vente ? Combien de temps est-ce que ça prendrait ? Trois semaines, c'est beaucoup trop long : j'ai besoin de mon téléphone pour travailler. Il est encore sous garantie et il a moins d'un mois, alors il me semble normal que vous le remplaciez tout de suite. Est-ce que vous pourriez au moins me prêter un appareil pendant la réparation ? Sinon, je préférerais être remboursé. Je comprends que ce ne soit pas vous qui décidiez. Est-ce que je pourrais parler au responsable du magasin ? Merci beaucoup.",
+      "tips": [
+        "Explain the problem clearly and show proof (ticket de caisse, garantie).",
+        "Make your request with the polite conditionnel and the subjonctif: Je voudrais que vous me remboursiez.",
+        "If the answer doesn't suit you, react politely but firmly and propose an alternative (un prêt, un avoir, le responsable).",
+        "Reformulate what the assistant says to gain time and show you understand: Vous dites que…"
+      ]
+    },
+    {
+      "id": "u15-sp02",
+      "title": "Consomme-t-on trop ?",
+      "level": "B1",
+      "taskType": "opinion",
+      "instructions": "Give and justify your opinion for about four minutes. Use examples from your own life and at least one sentence with il faut que + subjonctif.",
+      "promptFr": "Selon vous, le paiement sans contact et les achats en ligne nous poussent-ils à trop consommer ? Pourquoi ?",
+      "prepSeconds": 0,
+      "speakSeconds": 270,
+      "modelAnswer": "Je pense que oui, en grande partie. D'abord, quand on paie sans contact, on ne voit pas l'argent partir. Avant, je payais souvent en espèces, et quand mon porte-monnaie était vide, je m'arrêtais. Aujourd'hui, avec la carte, je dépense sans m'en rendre compte. Ensuite, sur Internet, tout est fait pour qu'on achète vite : les promotions qui durent une heure, la livraison gratuite, les publicités personnalisées. Il m'est déjà arrivé de craquer pour des vêtements dont je n'avais pas besoin. Cependant, ces outils ont aussi des avantages : on peut comparer les prix et trouver des produits d'occasion. Le problème, ce n'est donc pas la technologie, c'est notre façon de l'utiliser. À mon avis, il faut que chacun se fixe un budget et qu'il attende un jour avant de valider une commande. Comme ça, on garde le plaisir d'acheter, mais on évite les achats inutiles.",
+      "tips": [
+        "Answer the question directly in your first sentence, then develop your arguments.",
+        "Contrast past and present habits with the imparfait and the present: Avant, je payais…, aujourd'hui…",
+        "Bring in nuance with cependant or pourtant before your conclusion.",
+        "Propose a solution with il faut que + subjonctif to finish strongly."
+      ]
+    }
+  ],
+  "checkpoint": [
+    {
+      "id": "u15-cp01",
+      "type": "mcq",
+      "level": "B1",
+      "skill": "structures",
+      "grammarTag": "subjonctif",
+      "prompt": "Complete the sentence.",
+      "promptFr": "Il faut que vous ___ patients avec le service client.",
+      "options": [
+        "êtes",
+        "soyez",
+        "serez",
+        "soyiez"
+      ],
+      "answer": 1,
+      "explanation": "Il faut que + subjonctif. The vous form of être is soyez (no i). Êtes is the present and serez the future."
+    },
+    {
+      "id": "u15-cp02",
+      "type": "fill_blank",
+      "level": "B1",
+      "skill": "structures",
+      "grammarTag": "subjonctif",
+      "prompt": "Put the verb in brackets in the subjonctif présent.",
+      "sentence": "Je veux que tu ___ (faire) une liste avant d'aller au supermarché.",
+      "answers": [
+        "fasses"
+      ],
+      "hint": "faire is irregular",
+      "translation": "I want you to make a list before going to the supermarket.",
+      "explanation": "Vouloir que + different subject + subjonctif: que tu fasses."
+    },
+    {
+      "id": "u15-cp03",
+      "type": "mcq",
+      "level": "B1",
+      "skill": "structures",
+      "grammarTag": "subjonctif",
+      "prompt": "Which expression is followed by the indicative, NOT the subjonctif?",
+      "options": [
+        "il faut que",
+        "vouloir que",
+        "espérer que",
+        "il est important que"
+      ],
+      "answer": 2,
+      "explanation": "Espérer que takes the indicative: J'espère que tu vas bien. The others take the subjonctif."
+    },
+    {
+      "id": "u15-cp04",
+      "type": "fill_blank",
+      "level": "B1",
+      "skill": "structures",
+      "grammarTag": "subjonctif",
+      "prompt": "Put the verb in brackets in the subjonctif présent.",
+      "sentence": "Il faut qu'il ___ (avoir) assez d'argent sur son compte.",
+      "answers": [
+        "ait"
+      ],
+      "hint": "avoir, il form",
+      "translation": "He needs to have enough money in his account.",
+      "explanation": "The subjonctif of avoir with il is ait (qu'il ait)."
+    },
+    {
+      "id": "u15-cp05",
+      "type": "mcq",
+      "level": "B1",
+      "skill": "structures",
+      "grammarTag": "vocabulary",
+      "prompt": "Choose the right expression.",
+      "promptFr": "Acheter un vélo ___, c'est moins cher et plus écologique.",
+      "options": [
+        "hors de prix",
+        "d'occasion",
+        "payant",
+        "superflu"
+      ],
+      "answer": 1,
+      "explanation": "D'occasion means second-hand: cheaper and greener. Hors de prix means very expensive, payant means not free and superflu means unnecessary."
+    },
+    {
+      "id": "u15-cp06",
+      "type": "fill_blank",
+      "level": "B1",
+      "skill": "structures",
+      "grammarTag": "subjonctif",
+      "prompt": "Put the verb in brackets in the subjonctif présent.",
+      "sentence": "Ma banque veut que nous ___ (venir) signer le contrat mardi.",
+      "answers": [
+        "venions"
+      ],
+      "hint": "nous form: like the imparfait",
+      "translation": "My bank wants us to come and sign the contract on Tuesday.",
+      "explanation": "Venir has two stems in the subjonctif: que je vienne, but que nous venions."
+    },
+    {
+      "id": "u15-cp07",
+      "type": "mcq",
+      "level": "B1",
+      "skill": "structures",
+      "grammarTag": "subjonctif",
+      "prompt": "Choose the correct sentence.",
+      "options": [
+        "Je préfère que tu paies en espèces.",
+        "Je préfère que tu paieras en espèces.",
+        "Je préfère que tu payer en espèces.",
+        "Je préfère tu paies en espèces."
+      ],
+      "answer": 0,
+      "explanation": "Préférer que + different subject + subjonctif (que tu paies). Que cannot be left out, and the future or infinitive are not possible here."
+    },
+    {
+      "id": "u15-cp08",
+      "type": "fill_blank",
+      "level": "A2+",
+      "skill": "structures",
+      "grammarTag": "vocabulary",
+      "prompt": "Complete with the right noun.",
+      "sentence": "Mon ___ de téléphone coûte vingt euros par mois.",
+      "answers": [
+        "abonnement",
+        "forfait"
+      ],
+      "hint": "subscription, monthly plan",
+      "translation": "My phone plan costs twenty euros a month.",
+      "explanation": "Un abonnement is a subscription; for phones, people also say un forfait."
+    },
+    {
+      "id": "u15-cp09",
+      "type": "mcq",
+      "level": "B1",
+      "skill": "structures",
+      "grammarTag": "subjonctif",
+      "prompt": "Complete the sentence.",
+      "promptFr": "Il ne faut pas que tu ___ tout ton salaire en vêtements.",
+      "options": [
+        "dépenseras",
+        "dépensais",
+        "dépensez",
+        "dépenses"
+      ],
+      "answer": 3,
+      "explanation": "Il ne faut pas que + subjonctif: que tu dépenses. Dépenseras is the future, dépensais the imparfait and dépensez the vous form."
+    },
+    {
+      "id": "u15-cp10",
+      "type": "fill_blank",
+      "level": "B1",
+      "skill": "structures",
+      "grammarTag": "subjonctif",
+      "prompt": "Put the verb in brackets in the subjonctif présent.",
+      "sentence": "Il faut que je ___ (pouvoir) retirer de l'argent ce soir.",
+      "answers": [
+        "puisse"
+      ],
+      "hint": "pouvoir is irregular",
+      "translation": "I need to be able to withdraw some money tonight.",
+      "explanation": "Pouvoir has an irregular subjonctif: que je puisse."
+    }
+  ]
+}

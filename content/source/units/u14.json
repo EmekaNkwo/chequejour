@@ -1,0 +1,364 @@
+{
+  "id": "u14",
+  "order": 14,
+  "level": "B1",
+  "theme": "Opinions and debate",
+  "titleFr": "Donner son avis",
+  "description": "Express and justify your opinion, agree and disagree politely, and take part in a debate. Learn the connectors that make an argument clear: cependant, pourtant, donc, alors que, même si, grâce à…",
+  "vocab": [
+    { "id": "u14-w001", "fr": "opinion", "en": "opinion", "pos": "noun", "gender": "f", "plural": "opinions", "level": "A2+", "core": true, "example": { "fr": "Chacun a le droit d'exprimer son opinion pendant la réunion.", "en": "Everyone has the right to express their opinion during the meeting." } },
+    { "id": "u14-w002", "fr": "avis", "en": "opinion, view", "pos": "noun", "gender": "m", "plural": "avis", "level": "A2+", "core": true, "example": { "fr": "J'aimerais avoir ton avis sur ce projet avant de décider.", "en": "I'd like your opinion on this project before I decide." } },
+    { "id": "u14-w003", "fr": "point de vue", "en": "point of view", "pos": "noun", "gender": "m", "plural": "points de vue", "level": "B1", "core": true, "example": { "fr": "Je respecte ton point de vue, même si je ne le partage pas.", "en": "I respect your point of view, even if I don't share it." } },
+    { "id": "u14-w004", "fr": "argument", "en": "argument (reason given)", "pos": "noun", "gender": "m", "plural": "arguments", "level": "B1", "core": true, "example": { "fr": "Ton argument est intéressant, mais il manque un exemple concret.", "en": "Your argument is interesting, but it lacks a concrete example." } },
+    { "id": "u14-w005", "fr": "débat", "en": "debate", "pos": "noun", "gender": "m", "plural": "débats", "level": "B1", "core": true, "example": { "fr": "Le débat entre les deux candidats a duré deux heures.", "en": "The debate between the two candidates lasted two hours." } },
+    { "id": "u14-w006", "fr": "à mon avis", "en": "in my opinion", "pos": "expression", "level": "A2+", "core": true, "example": { "fr": "À mon avis, ce film est beaucoup trop long.", "en": "In my opinion, this film is far too long." } },
+    { "id": "u14-w007", "fr": "selon moi", "en": "in my view, according to me", "pos": "expression", "level": "B1", "core": true, "example": { "fr": "Selon moi, il faudrait ouvrir la bibliothèque le dimanche.", "en": "In my view, the library should open on Sundays." } },
+    { "id": "u14-w008", "fr": "être d'accord avec", "en": "to agree with", "pos": "expression", "level": "A2+", "core": true, "example": { "fr": "Je suis d'accord avec toi sur ce point, mais pas sur le reste.", "en": "I agree with you on this point, but not on the rest." } },
+    { "id": "u14-w009", "fr": "convaincre", "en": "to convince", "pos": "verb", "level": "B1", "core": true, "example": { "fr": "Elle a réussi à convaincre ses parents de la laisser partir seule.", "en": "She managed to convince her parents to let her go alone." } },
+    { "id": "u14-w010", "fr": "défendre", "en": "to defend, to stand up for", "pos": "verb", "level": "B1", "core": true, "example": { "fr": "Il défend ses idées avec beaucoup de passion.", "en": "He defends his ideas with a lot of passion." } },
+    { "id": "u14-w011", "fr": "critiquer", "en": "to criticise", "pos": "verb", "level": "B1", "core": true, "example": { "fr": "Il est facile de critiquer, mais plus difficile de proposer des solutions.", "en": "It's easy to criticise, but harder to suggest solutions." } },
+    { "id": "u14-w012", "fr": "cependant", "en": "however", "pos": "adverb", "level": "B1", "core": true, "example": { "fr": "Le projet est ambitieux. Cependant, il coûte très cher.", "en": "The project is ambitious. However, it is very expensive." } },
+    { "id": "u14-w013", "fr": "pourtant", "en": "and yet, even so", "pos": "adverb", "level": "B1", "core": true, "example": { "fr": "Il a beaucoup révisé, et pourtant il a raté son examen.", "en": "He revised a lot, and yet he failed his exam." } },
+    { "id": "u14-w014", "fr": "donc", "en": "so, therefore", "pos": "conjunction", "level": "A2+", "core": true, "example": { "fr": "Le dernier bus est parti, donc nous rentrerons à pied.", "en": "The last bus has left, so we'll walk home." } },
+    { "id": "u14-w015", "fr": "alors que", "en": "whereas, while", "pos": "conjunction", "level": "B1", "core": true, "example": { "fr": "Mon frère adore débattre, alors que moi, je préfère écouter.", "en": "My brother loves debating, whereas I prefer to listen." } },
+    { "id": "u14-w016", "fr": "en revanche", "en": "on the other hand", "pos": "adverb", "level": "B1", "core": true, "example": { "fr": "Le loyer est élevé. En revanche, l'appartement est très bien situé.", "en": "The rent is high. On the other hand, the flat is very well located." } },
+    { "id": "u14-w017", "fr": "par conséquent", "en": "consequently, as a result", "pos": "adverb", "level": "B1", "core": true, "example": { "fr": "Les trains sont en grève ; par conséquent, la réunion est reportée.", "en": "The trains are on strike; consequently, the meeting is postponed." } },
+    { "id": "u14-w018", "fr": "même si", "en": "even if, even though", "pos": "conjunction", "level": "B1", "core": true, "example": { "fr": "Même s'il pleut, nous irons au marché.", "en": "Even if it rains, we'll go to the market." } },
+    { "id": "u14-w019", "fr": "grâce à", "en": "thanks to", "pos": "preposition", "level": "B1", "core": true, "example": { "fr": "Grâce à ses conseils, j'ai trouvé le courage de parler en public.", "en": "Thanks to her advice, I found the courage to speak in public." } },
+    { "id": "u14-w020", "fr": "à cause de", "en": "because of (negative cause)", "pos": "preposition", "level": "A2+", "core": true, "example": { "fr": "Le concert a été annulé à cause de l'orage.", "en": "The concert was cancelled because of the storm." } },
+
+    { "id": "u14-w021", "fr": "avantage", "en": "advantage", "pos": "noun", "gender": "m", "plural": "avantages", "level": "A2+", "core": false, "example": { "fr": "Le principal avantage du télétravail, c'est le temps gagné dans les transports.", "en": "The main advantage of remote working is the time saved on commuting." } },
+    { "id": "u14-w022", "fr": "inconvénient", "en": "disadvantage, drawback", "pos": "noun", "gender": "m", "plural": "inconvénients", "level": "B1", "core": false, "example": { "fr": "Vivre à la campagne a aussi des inconvénients, comme l'isolement.", "en": "Living in the countryside also has drawbacks, such as isolation." } },
+    { "id": "u14-w023", "fr": "désaccord", "en": "disagreement", "pos": "noun", "gender": "m", "plural": "désaccords", "level": "B1", "core": false, "example": { "fr": "Il y a un désaccord entre les deux équipes sur le calendrier.", "en": "There is a disagreement between the two teams over the schedule." } },
+    { "id": "u14-w024", "fr": "preuve", "en": "proof, evidence", "pos": "noun", "gender": "f", "plural": "preuves", "level": "B1", "core": false, "example": { "fr": "Tu dis que c'est faux, mais as-tu des preuves ?", "en": "You say it's false, but do you have any proof?" } },
+    { "id": "u14-w025", "fr": "contre-argument", "en": "counter-argument", "pos": "noun", "gender": "m", "plural": "contre-arguments", "level": "B1", "core": false, "example": { "fr": "Dans une bonne dissertation, il faut aussi présenter des contre-arguments.", "en": "In a good essay, you also need to present counter-arguments." } },
+    { "id": "u14-w026", "fr": "polémique", "en": "controversy, heated debate", "pos": "noun", "gender": "f", "plural": "polémiques", "level": "B1", "core": false, "example": { "fr": "Les propos du ministre ont provoqué une vive polémique.", "en": "The minister's remarks caused a heated controversy." } },
+    { "id": "u14-w027", "fr": "sondage", "en": "opinion poll, survey", "pos": "noun", "gender": "m", "plural": "sondages", "level": "B1", "core": false, "example": { "fr": "D'après un sondage récent, la majorité des Français sont favorables à cette loi.", "en": "According to a recent poll, most French people are in favour of this law." } },
+    { "id": "u14-w028", "fr": "majorité", "en": "majority", "pos": "noun", "gender": "f", "plural": "majorités", "level": "B1", "core": false, "example": { "fr": "La majorité des élèves a voté pour la sortie au musée.", "en": "Most of the pupils voted for the museum trip." } },
+    { "id": "u14-w029", "fr": "préjugé", "en": "prejudice, preconceived idea", "pos": "noun", "gender": "m", "plural": "préjugés", "level": "B1", "core": false, "example": { "fr": "Voyager nous aide à dépasser nos préjugés.", "en": "Travelling helps us get past our preconceived ideas." } },
+    { "id": "u14-w030", "fr": "nuance", "en": "nuance, subtle difference", "pos": "noun", "gender": "f", "plural": "nuances", "level": "B1", "core": false, "example": { "fr": "Ce n'est pas tout blanc ou tout noir : il faut apporter des nuances.", "en": "It's not all black and white: you need to add some nuance." } },
+    { "id": "u14-w031", "fr": "compromis", "en": "compromise", "pos": "noun", "gender": "m", "plural": "compromis", "level": "B1", "core": false, "example": { "fr": "Après une longue discussion, ils ont trouvé un compromis.", "en": "After a long discussion, they found a compromise." } },
+    { "id": "u14-w032", "fr": "conviction", "en": "conviction, firm belief", "pos": "noun", "gender": "f", "plural": "convictions", "level": "B1", "core": false, "example": { "fr": "Elle a parlé avec conviction et tout le monde l'a écoutée.", "en": "She spoke with conviction and everyone listened to her." } },
+    { "id": "u14-w033", "fr": "affirmer", "en": "to state, to claim", "pos": "verb", "level": "B1", "core": false, "example": { "fr": "Le directeur affirme que l'usine ne fermera pas.", "en": "The manager states that the factory will not close." } },
+    { "id": "u14-w034", "fr": "prétendre", "en": "to claim (doubtfully)", "pos": "verb", "level": "B1", "core": false, "example": { "fr": "Il prétend qu'il n'a jamais reçu mon message.", "en": "He claims he never got my message." } },
+    { "id": "u14-w035", "fr": "soutenir", "en": "to support", "pos": "verb", "level": "B1", "core": false, "example": { "fr": "Tous ses collègues ont soutenu sa proposition.", "en": "All her colleagues supported her proposal." } },
+    { "id": "u14-w036", "fr": "s'opposer à", "en": "to oppose, to be against", "pos": "verb", "level": "B1", "core": false, "example": { "fr": "Les habitants s'opposent à la fermeture de l'école du village.", "en": "The residents are opposed to the closure of the village school." } },
+    { "id": "u14-w037", "fr": "approuver", "en": "to approve of", "pos": "verb", "level": "B1", "core": false, "example": { "fr": "Je n'approuve pas sa décision, mais je la respecte.", "en": "I don't approve of his decision, but I respect it." } },
+    { "id": "u14-w038", "fr": "contester", "en": "to dispute, to challenge", "pos": "verb", "level": "B1", "core": false, "example": { "fr": "Plusieurs joueurs ont contesté la décision de l'arbitre.", "en": "Several players disputed the referee's decision." } },
+    { "id": "u14-w039", "fr": "nuancer", "en": "to qualify (an opinion), to add nuance", "pos": "verb", "level": "B1", "core": false, "example": { "fr": "Je voudrais nuancer ce que tu viens de dire.", "en": "I'd like to qualify what you've just said." } },
+    { "id": "u14-w040", "fr": "persuader", "en": "to persuade", "pos": "verb", "level": "B1", "core": false, "example": { "fr": "Je l'ai persuadé de venir avec nous au débat.", "en": "I persuaded him to come with us to the debate." } },
+    { "id": "u14-w041", "fr": "justifier", "en": "to justify", "pos": "verb", "level": "B1", "core": false, "example": { "fr": "Dans votre réponse, justifiez votre choix avec des exemples.", "en": "In your answer, justify your choice with examples." } },
+    { "id": "u14-w042", "fr": "reconnaître", "en": "to admit, to acknowledge", "pos": "verb", "level": "B1", "core": false, "example": { "fr": "Je reconnais que ton idée est meilleure que la mienne.", "en": "I admit that your idea is better than mine." } },
+    { "id": "u14-w043", "fr": "admettre", "en": "to admit, to accept", "pos": "verb", "level": "B1", "core": false, "example": { "fr": "Il a fini par admettre qu'il s'était trompé.", "en": "He finally admitted that he had been wrong." } },
+    { "id": "u14-w044", "fr": "avoir raison", "en": "to be right", "pos": "expression", "level": "A2+", "core": false, "example": { "fr": "Tu avais raison : le restaurant était fermé le lundi.", "en": "You were right: the restaurant was closed on Mondays." } },
+    { "id": "u14-w045", "fr": "avoir tort", "en": "to be wrong", "pos": "expression", "level": "A2+", "core": false, "example": { "fr": "Je pense que tu as tort de refuser cette proposition.", "en": "I think you're wrong to turn down this offer." } },
+    { "id": "u14-w046", "fr": "changer d'avis", "en": "to change one's mind", "pos": "expression", "level": "B1", "core": false, "example": { "fr": "Après avoir lu cet article, j'ai complètement changé d'avis.", "en": "After reading this article, I completely changed my mind." } },
+    { "id": "u14-w047", "fr": "prendre position", "en": "to take a stand", "pos": "expression", "level": "B1", "core": false, "example": { "fr": "Le maire a refusé de prendre position sur ce sujet sensible.", "en": "The mayor refused to take a stand on this sensitive issue." } },
+    { "id": "u14-w048", "fr": "convaincant", "en": "convincing", "pos": "adjective", "level": "B1", "core": false, "example": { "fr": "Sa présentation était claire et très convaincante.", "en": "Her presentation was clear and very convincing." } },
+    { "id": "u14-w049", "fr": "discutable", "en": "debatable, questionable", "pos": "adjective", "level": "B1", "core": false, "example": { "fr": "Ce chiffre me paraît discutable : d'où vient-il ?", "en": "This figure seems questionable to me: where does it come from?" } },
+    { "id": "u14-w050", "fr": "contradictoire", "en": "contradictory", "pos": "adjective", "level": "B1", "core": false, "example": { "fr": "Les témoins ont donné des versions contradictoires.", "en": "The witnesses gave contradictory accounts." } },
+    { "id": "u14-w051", "fr": "objectif / objective", "en": "objective, impartial", "pos": "adjective", "level": "B1", "core": false, "example": { "fr": "Il est difficile de rester objectif quand on parle de sa famille.", "en": "It's hard to stay objective when you talk about your family." } },
+    { "id": "u14-w052", "fr": "subjectif / subjective", "en": "subjective", "pos": "adjective", "level": "B1", "core": false, "example": { "fr": "Le goût est quelque chose de très subjectif.", "en": "Taste is something very subjective." } },
+    { "id": "u14-w053", "fr": "pertinent", "en": "relevant, to the point", "pos": "adjective", "level": "B1", "core": false, "example": { "fr": "Ta remarque est très pertinente, merci de l'avoir soulevée.", "en": "Your remark is very relevant; thanks for raising it." } },
+    { "id": "u14-w054", "fr": "favorable", "en": "in favour (of)", "pos": "adjective", "level": "B1", "core": false, "example": { "fr": "Je suis plutôt favorable à la semaine de quatre jours.", "en": "I'm rather in favour of the four-day week." } },
+    { "id": "u14-w055", "fr": "opposé", "en": "opposed (to), against", "pos": "adjective", "level": "B1", "core": false, "example": { "fr": "Ma mère est totalement opposée à l'idée d'acheter une moto.", "en": "My mother is totally against the idea of buying a motorbike." } },
+    { "id": "u14-w056", "fr": "sceptique", "en": "sceptical", "pos": "adjective", "level": "B1", "core": false, "example": { "fr": "Au début, j'étais sceptique, mais le résultat m'a surpris.", "en": "At first I was sceptical, but the result surprised me." } },
+    { "id": "u14-w057", "fr": "injuste", "en": "unfair", "pos": "adjective", "level": "A2+", "core": false, "example": { "fr": "Je trouve injuste que tout le monde soit puni pour la faute d'un seul élève.", "en": "I think it's unfair that everyone is punished for one pupil's mistake." } },
+    { "id": "u14-w058", "fr": "tandis que", "en": "while, whereas", "pos": "conjunction", "level": "B1", "core": false, "example": { "fr": "Paul aime la montagne, tandis que sa femme préfère la mer.", "en": "Paul likes the mountains, while his wife prefers the sea." } },
+    { "id": "u14-w059", "fr": "puisque", "en": "since (as we know)", "pos": "conjunction", "level": "B1", "core": false, "example": { "fr": "Puisque tu connais bien le sujet, explique-le-nous.", "en": "Since you know the subject well, explain it to us." } },
+    { "id": "u14-w060", "fr": "car", "en": "because, for", "pos": "conjunction", "level": "B1", "core": false, "example": { "fr": "Je ne viendrai pas ce soir, car je dois finir un dossier.", "en": "I won't come tonight, because I have to finish a file." } },
+    { "id": "u14-w061", "fr": "c'est pourquoi", "en": "that's why", "pos": "expression", "level": "B1", "core": false, "example": { "fr": "Il habite loin du centre ; c'est pourquoi il a besoin d'une voiture.", "en": "He lives far from the centre; that's why he needs a car." } },
+    { "id": "u14-w062", "fr": "ainsi", "en": "thus, in this way", "pos": "adverb", "level": "B1", "core": false, "example": { "fr": "Prenons le train de 7 heures ; ainsi, nous arriverons avant le début.", "en": "Let's take the 7 o'clock train; that way, we'll arrive before the start." } },
+    { "id": "u14-w063", "fr": "de plus", "en": "what's more, moreover", "pos": "expression", "level": "B1", "core": false, "example": { "fr": "Ce quartier est calme. De plus, il y a beaucoup de commerces.", "en": "This neighbourhood is quiet. What's more, there are lots of shops." } },
+    { "id": "u14-w064", "fr": "en outre", "en": "furthermore, in addition", "pos": "adverb", "level": "B1", "core": false, "example": { "fr": "Ce logiciel est gratuit ; en outre, il est très facile à utiliser.", "en": "This software is free; furthermore, it is very easy to use." } },
+    { "id": "u14-w065", "fr": "d'ailleurs", "en": "besides, by the way, in fact", "pos": "adverb", "level": "B1", "core": false, "example": { "fr": "Ce restaurant est excellent ; d'ailleurs, il est toujours complet.", "en": "This restaurant is excellent; in fact, it's always full." } },
+    { "id": "u14-w066", "fr": "d'une part… d'autre part", "en": "on the one hand… on the other hand; firstly… secondly", "pos": "expression", "level": "B1", "core": false, "example": { "fr": "D'une part, le vélo est bon pour la santé ; d'autre part, il ne pollue pas.", "en": "On the one hand, cycling is good for your health; on the other, it doesn't pollute." } },
+    { "id": "u14-w067", "fr": "malgré", "en": "despite, in spite of", "pos": "preposition", "level": "B1", "core": false, "example": { "fr": "Malgré la pluie, beaucoup de gens sont venus à la manifestation.", "en": "Despite the rain, many people came to the demonstration." } },
+    { "id": "u14-w068", "fr": "bien que", "en": "although (+ subjonctif)", "pos": "conjunction", "level": "B1", "core": false, "example": { "fr": "Bien qu'il soit très occupé, il prend toujours le temps de m'écouter.", "en": "Although he is very busy, he always takes the time to listen to me." } },
+    { "id": "u14-w069", "fr": "au contraire", "en": "on the contrary", "pos": "expression", "level": "B1", "core": false, "example": { "fr": "Ce n'est pas ennuyeux ; au contraire, c'est passionnant !", "en": "It's not boring; on the contrary, it's fascinating!" } },
+    { "id": "u14-w070", "fr": "en effet", "en": "indeed (introduces an explanation)", "pos": "adverb", "level": "B1", "core": false, "example": { "fr": "Il faut réserver à l'avance. En effet, la salle n'a que cinquante places.", "en": "You need to book in advance. Indeed, the room only has fifty seats." } },
+    { "id": "u14-w071", "fr": "en fait", "en": "actually, in fact", "pos": "adverb", "level": "A2+", "core": false, "example": { "fr": "Je pensais qu'il était fâché, mais en fait il était juste fatigué.", "en": "I thought he was angry, but actually he was just tired." } },
+    { "id": "u14-w072", "fr": "bref", "en": "in short, anyway", "pos": "adverb", "level": "B1", "core": false, "example": { "fr": "Il a plu, le train était en retard, bref, une journée difficile !", "en": "It rained, the train was late — in short, a difficult day!" } },
+    { "id": "u14-w073", "fr": "en conclusion", "en": "in conclusion", "pos": "expression", "level": "B1", "core": false, "example": { "fr": "En conclusion, je pense que les avantages sont plus nombreux que les inconvénients.", "en": "In conclusion, I think the advantages outweigh the disadvantages." } },
+    { "id": "u14-w074", "fr": "tout d'abord", "en": "first of all", "pos": "expression", "level": "B1", "core": false, "example": { "fr": "Tout d'abord, je voudrais remercier tous les participants.", "en": "First of all, I would like to thank all the participants." } },
+    { "id": "u14-w075", "fr": "néanmoins", "en": "nevertheless", "pos": "adverb", "level": "B1", "core": false, "example": { "fr": "La route était longue ; néanmoins, le voyage a été agréable.", "en": "The road was long; nevertheless, the trip was pleasant." } },
+    { "id": "u14-w076", "fr": "comme", "en": "as, since (at the start of a sentence)", "pos": "conjunction", "level": "B1", "core": false, "example": { "fr": "Comme il faisait beau, nous avons mangé dans le jardin.", "en": "As the weather was nice, we ate in the garden." } },
+    { "id": "u14-w077", "fr": "étant donné que", "en": "given that", "pos": "conjunction", "level": "B1", "core": false, "example": { "fr": "Étant donné que la salle est petite, il faut s'inscrire avant samedi.", "en": "Given that the room is small, you need to sign up before Saturday." } },
+    { "id": "u14-w078", "fr": "en ce qui concerne", "en": "as far as … is concerned, regarding", "pos": "expression", "level": "B1", "core": false, "example": { "fr": "En ce qui concerne le budget, nous en parlerons la semaine prochaine.", "en": "As for the budget, we'll talk about it next week." } },
+    { "id": "u14-w079", "fr": "il me semble que", "en": "it seems to me that", "pos": "expression", "level": "B1", "core": false, "example": { "fr": "Il me semble que cette solution est la plus simple.", "en": "It seems to me that this solution is the simplest." } },
+    { "id": "u14-w080", "fr": "il est vrai que", "en": "it is true that (admitting a point)", "pos": "expression", "level": "B1", "core": false, "example": { "fr": "Il est vrai que la ville est chère, mais on y trouve facilement du travail.", "en": "It's true that the city is expensive, but it's easy to find work there." } },
+    { "id": "u14-w081", "fr": "ça dépend", "en": "it depends", "pos": "expression", "level": "A2+", "core": false, "example": { "fr": "Tu préfères lire ou regarder un film ? — Ça dépend de mon humeur.", "en": "Do you prefer reading or watching a film? — It depends on my mood." } },
+    { "id": "u14-w082", "fr": "à vrai dire", "en": "to tell the truth", "pos": "expression", "level": "B1", "core": false, "example": { "fr": "À vrai dire, je n'ai pas encore réfléchi à la question.", "en": "To tell the truth, I haven't thought about the question yet." } },
+    { "id": "u14-w083", "fr": "tout à fait", "en": "absolutely, completely", "pos": "adverb", "level": "A2+", "core": false, "example": { "fr": "Je suis tout à fait d'accord avec ce que vous dites.", "en": "I completely agree with what you're saying." } },
+    { "id": "u14-w084", "fr": "si bien que", "en": "so that, with the result that", "pos": "conjunction", "level": "B1", "core": false, "example": { "fr": "Il a beaucoup neigé, si bien que les écoles sont restées fermées.", "en": "It snowed heavily, so the schools stayed closed." } }
+  ],
+  "grammar": [
+    {
+      "id": "u14-g01",
+      "title": "Contrast and concession: cependant, pourtant, alors que, même si…",
+      "level": "B1",
+      "grammarTag": "connecteurs",
+      "explanation": [
+        "Connectors of opposition link two ideas that contrast. Mais is the basic one, but at B1 you are expected to vary: examiners reward cependant, pourtant, alors que, en revanche and même si.",
+        "Cependant and néanmoins mean \"however\". They usually start a new sentence or clause and are followed by a comma: Le projet est utile. Cependant, il coûte cher. Pourtant means \"and yet\": the second fact is surprising given the first. Il a beaucoup travaillé, pourtant il a échoué.",
+        "Alors que and tandis que (\"whereas, while\") are followed by a full clause and compare two facts in the same sentence: Je vis en ville, alors que mes parents vivent à la campagne. En revanche and par contre (\"on the other hand\") do the same job but start a new sentence; par contre is more common in speech.",
+        "To make a concession (admitting a fact that doesn't change your conclusion), use même si + indicative (\"even if\"), bien que + subjonctif (\"although\") or malgré + noun (\"despite\"). Même si le billet est cher, j'irai. Bien qu'il soit tard, je continue. Malgré la pluie, nous sommes sortis.",
+        "Careful: malgré is a preposition, so it is followed by a noun or pronoun, never by a verb with a subject. And même si elides only before il and ils: même s'il, but même si elle."
+      ],
+      "table": [
+        ["Connector", "Meaning", "Followed by", "Example"],
+        ["mais", "but", "a clause", "C'est cher, mais c'est utile."],
+        ["cependant / néanmoins", "however / nevertheless", "a clause (often after a full stop)", "Cependant, il manque de temps."],
+        ["pourtant", "and yet (surprise)", "a clause", "Il pleuvait, pourtant elle est sortie."],
+        ["alors que / tandis que", "whereas, while", "a clause", "Je lis, alors qu'il regarde la télé."],
+        ["en revanche / par contre", "on the other hand", "a new sentence", "En revanche, le quartier est calme."],
+        ["même si", "even if", "indicative", "Même si c'est difficile, j'essaie."],
+        ["bien que", "although", "subjonctif", "Bien qu'il soit malade, il travaille."],
+        ["malgré", "despite", "a noun", "Malgré la grève, il est venu."]
+      ],
+      "examples": [
+        { "fr": "Cette solution est rapide. Cependant, elle n'est pas très écologique.", "en": "This solution is quick. However, it is not very eco-friendly." },
+        { "fr": "Elle n'a pas dormi de la nuit, et pourtant elle est en pleine forme.", "en": "She didn't sleep all night, and yet she is full of energy." },
+        { "fr": "Les jeunes s'informent sur les réseaux sociaux, alors que leurs parents lisent encore le journal.", "en": "Young people get their news from social media, whereas their parents still read the paper." },
+        { "fr": "Le centre-ville est bruyant. En revanche, tout est accessible à pied.", "en": "The town centre is noisy. On the other hand, everything is within walking distance." },
+        { "fr": "Même si je ne suis pas d'accord, je comprends tes arguments.", "en": "Even if I don't agree, I understand your arguments." },
+        { "fr": "Bien que le débat soit animé, tout le monde reste poli.", "en": "Although the debate is lively, everyone stays polite." },
+        { "fr": "Malgré ses efforts, il n'a pas réussi à convaincre le public.", "en": "Despite his efforts, he didn't manage to convince the audience." }
+      ],
+      "commonMistakes": [
+        { "wrong": "Malgré il pleut, nous sortons.", "right": "Malgré la pluie, nous sortons. / Même s'il pleut, nous sortons.", "why": "Malgré is followed by a noun. To use a verb, choose même si or bien que." },
+        { "wrong": "Bien qu'il est fatigué, il continue.", "right": "Bien qu'il soit fatigué, il continue.", "why": "Bien que always takes the subjonctif." },
+        { "wrong": "Il a beaucoup travaillé, pourtant il a réussi.", "right": "Il a beaucoup travaillé, donc il a réussi.", "why": "Pourtant introduces a surprising result. When the result is logical, use donc." },
+        { "wrong": "Même si il pleut, j'irai.", "right": "Même s'il pleut, j'irai.", "why": "Si elides before il and ils, including in même si." }
+      ]
+    },
+    {
+      "id": "u14-g02",
+      "title": "Cause, consequence and organising an argument",
+      "level": "B1",
+      "grammarTag": "connecteurs",
+      "explanation": [
+        "To give a cause, use parce que (answers pourquoi ?), car (more written; it never starts a sentence), puisque (the cause is already known or obvious) or comme (always at the start of the sentence). Before a noun, use grâce à for a positive cause and à cause de for a negative one.",
+        "Remember the contractions: à cause de + le → à cause du, à cause de + les → à cause des; grâce à + le → grâce au, grâce à + les → grâce aux.",
+        "To give a consequence, use donc (so), alors (spoken), c'est pourquoi (that's why), par conséquent (consequently, more formal), ainsi (thus) or si bien que (with the result that). In formal writing, donc often comes after the verb: Il est donc nécessaire d'agir.",
+        "To organise an argued text, signal each step: tout d'abord / d'abord (first), ensuite (next), de plus / en outre (what's more), d'une part… d'autre part (on the one hand… on the other), enfin (finally), en conclusion / bref (in conclusion / in short). Use en effet to introduce the explanation or proof of what you have just said.",
+        "In the TCF writing task 3, a clear plan with three or four connectors (introduction → arguments → counter-argument → conclusion) is one of the easiest ways to gain points."
+      ],
+      "table": [
+        ["Function", "Connectors", "Example"],
+        ["Cause + clause", "parce que, car, puisque, comme", "Comme il pleuvait, nous sommes restés."],
+        ["Cause + noun", "grâce à (positive), à cause de (negative)", "Grâce au vélo, je suis en forme."],
+        ["Consequence", "donc, alors, c'est pourquoi, par conséquent, ainsi, si bien que", "Il est malade, par conséquent il reste chez lui."],
+        ["Adding", "de plus, en outre, d'ailleurs", "De plus, c'est gratuit."],
+        ["Ordering", "tout d'abord, ensuite, enfin", "Tout d'abord, …; ensuite, …; enfin, …"],
+        ["Concluding", "en conclusion, bref, pour conclure", "En conclusion, je suis pour."]
+      ],
+      "examples": [
+        { "fr": "Je suis contre cette réforme parce qu'elle ne règle pas le vrai problème.", "en": "I'm against this reform because it doesn't solve the real problem." },
+        { "fr": "Comme le débat a commencé en retard, nous n'avons pas eu le temps de poser nos questions.", "en": "As the debate started late, we didn't have time to ask our questions." },
+        { "fr": "Puisque tout le monde est là, nous pouvons commencer.", "en": "Since everyone is here, we can start." },
+        { "fr": "Grâce aux transports en commun, je n'ai pas besoin de voiture.", "en": "Thanks to public transport, I don't need a car." },
+        { "fr": "Les loyers ont beaucoup augmenté ; c'est pourquoi de nombreuses familles quittent la ville.", "en": "Rents have risen a lot; that's why many families are leaving the city." },
+        { "fr": "Tout d'abord, le télétravail fait gagner du temps. De plus, il réduit la pollution.", "en": "First of all, remote working saves time. What's more, it reduces pollution." },
+        { "fr": "Il a neigé toute la nuit, si bien que la route est fermée.", "en": "It snowed all night, so the road is closed." }
+      ],
+      "commonMistakes": [
+        { "wrong": "Car il était malade, il n'est pas venu.", "right": "Comme il était malade, il n'est pas venu.", "why": "Car cannot start a sentence. At the beginning, use comme (or puisque)." },
+        { "wrong": "Le match est annulé grâce à la pluie.", "right": "Le match est annulé à cause de la pluie.", "why": "Grâce à is for a positive cause; for a negative one, use à cause de." },
+        { "wrong": "Je suis en retard à cause de le bus.", "right": "Je suis en retard à cause du bus.", "why": "De + le contracts to du (and de + les to des)." }
+      ]
+    }
+  ],
+  "exercises": [
+    { "id": "u14-ex01", "type": "mcq", "level": "B1", "skill": "structures", "grammarTag": "connecteurs", "prompt": "Choose the connector that shows a surprising contrast.", "promptFr": "Il fait très froid. ___, Marc est sorti en tee-shirt.", "options": ["Pourtant", "Donc", "Parce que", "Grâce à"], "answer": 0, "explanation": "Going out in a T-shirt is surprising when it's cold, so we need pourtant (and yet). Donc would make it a logical consequence, parce que gives a cause and grâce à needs a noun." },
+    { "id": "u14-ex02", "type": "mcq", "level": "B1", "skill": "structures", "grammarTag": "connecteurs", "prompt": "Choose the connector that compares two people.", "promptFr": "Mon frère adore les débats, ___ ma sœur évite toujours les discussions.", "options": ["donc", "car", "alors que", "malgré"], "answer": 2, "explanation": "Alors que (whereas) compares two contrasting facts. Donc and car would create a cause/consequence link that makes no sense, and malgré must be followed by a noun." },
+    { "id": "u14-ex03", "type": "mcq", "level": "B1", "skill": "structures", "grammarTag": "connecteurs", "prompt": "Complete the sentence.", "promptFr": "___ la pluie, la manifestation a eu lieu.", "options": ["Bien que", "Malgré", "Même si", "Pourtant"], "answer": 1, "explanation": "La pluie is a noun, so we need the preposition malgré (despite). Bien que and même si must be followed by a clause, and pourtant doesn't work before a noun." },
+    { "id": "u14-ex04", "type": "mcq", "level": "B1", "skill": "structures", "grammarTag": "connecteurs", "prompt": "Which connector introduces a consequence?", "options": ["puisque", "par conséquent", "bien que", "alors que"], "answer": 1, "explanation": "Par conséquent means consequently. Puisque introduces a cause, bien que a concession and alors que a contrast." },
+    { "id": "u14-ex05", "type": "mcq", "level": "B1", "skill": "structures", "grammarTag": "connecteurs", "prompt": "Choose the right connector.", "promptFr": "___ ses arguments solides, il a réussi à convaincre le jury.", "options": ["À cause de", "Malgré", "Bien que", "Grâce à"], "answer": 3, "explanation": "His good arguments are a positive cause of his success: grâce à. À cause de is for negative causes, malgré would mean the opposite, and bien que needs a verb." },
+    { "id": "u14-ex06", "type": "fill_blank", "level": "B1", "skill": "structures", "grammarTag": "connecteurs", "prompt": "Complete with the connector meaning \"even if\".", "sentence": "Je vais voter, ___ aucun candidat ne me plaît vraiment.", "answers": ["même si"], "hint": "even if", "translation": "I'm going to vote, even if none of the candidates really appeals to me.", "explanation": "Même si + indicative introduces a concession: a fact that does not change the decision." },
+    { "id": "u14-ex07", "type": "fill_blank", "level": "B1", "skill": "structures", "grammarTag": "connecteurs", "prompt": "Complete with the expression meaning \"because of\".", "sentence": "Il est resté à la maison ___ sa fièvre.", "answers": ["à cause de"], "hint": "because of (negative cause) + noun", "translation": "He stayed at home because of his fever.", "explanation": "Before a noun, a negative cause is introduced by à cause de. Parce que would need a full clause." },
+    { "id": "u14-ex08", "type": "fill_blank", "level": "B1", "skill": "structures", "grammarTag": "connecteurs", "prompt": "Complete with a connector of consequence.", "sentence": "Les transports sont en grève ; ___, beaucoup de gens travaillent de chez eux.", "answers": ["par conséquent", "donc", "ainsi", "c'est pourquoi", "alors"], "hint": "consequently", "translation": "Public transport is on strike; consequently, a lot of people are working from home.", "explanation": "Working from home is the consequence of the strike: par conséquent (or donc, ainsi, c'est pourquoi)." },
+    { "id": "u14-ex09", "type": "fill_blank", "level": "B1", "skill": "structures", "grammarTag": "connecteurs", "prompt": "Complete with a connector of cause that can start a sentence.", "sentence": "___ tu connais bien le sujet, tu pourrais animer le débat.", "answers": ["Puisque", "Comme"], "hint": "since", "translation": "Since you know the subject well, you could lead the debate.", "explanation": "At the start of a sentence, use puisque or comme. Car and parce que cannot begin a sentence like this." },
+    { "id": "u14-ex10", "type": "fill_blank", "level": "B1", "skill": "structures", "grammarTag": "connecteurs", "prompt": "Bien que takes the subjonctif. Put the verb in brackets in the right form.", "sentence": "Bien qu'il ___ (être) tard, ils continuent à discuter.", "answers": ["soit"], "hint": "subjonctif of être, il form", "translation": "Although it is late, they keep on talking.", "explanation": "Bien que is always followed by the subjonctif: qu'il soit." },
+    { "id": "u14-ex11", "type": "conjugation", "level": "B1", "skill": "structures", "grammarTag": "conditionnel", "verb": "dire", "tense": "conditionnel présent", "person": "je", "answers": ["dirais"], "explanation": "Je dirais que… (I would say that…) is a soft way to give an opinion. Dire → stem dir- + -ais." },
+    { "id": "u14-ex12", "type": "conjugation", "level": "B1", "skill": "structures", "grammarTag": "passe-compose", "verb": "convaincre", "tense": "passé composé", "person": "elle", "answers": ["a convaincu"], "explanation": "Convaincre takes avoir and its past participle is convaincu: elle a convaincu." },
+    { "id": "u14-ex13", "type": "conjugation", "level": "A2+", "skill": "structures", "grammarTag": "present", "verb": "croire", "tense": "présent", "person": "nous", "answers": ["croyons"], "explanation": "Croire changes i to y in the nous and vous forms: nous croyons, vous croyez." },
+    { "id": "u14-ex14", "type": "reorder", "level": "B1", "skill": "structures", "grammarTag": "connecteurs", "prompt": "Put the words in order to make a sentence.", "tokens": ["Elle", "adore", "débattre,", "alors", "que", "son", "frère", "déteste", "les", "conflits."], "translation": "She loves debating, whereas her brother hates conflict.", "explanation": "Alors que links two clauses that contrast." },
+    { "id": "u14-ex15", "type": "reorder", "level": "B1", "skill": "structures", "grammarTag": "connecteurs", "prompt": "Put the words in order to make a sentence.", "tokens": ["Grâce", "à", "ses", "arguments,", "il", "a", "convaincu", "le", "public."], "translation": "Thanks to his arguments, he convinced the audience.", "explanation": "Grâce à + noun introduces a positive cause, here at the start of the sentence." },
+    { "id": "u14-ex16", "type": "match", "level": "B1", "skill": "structures", "grammarTag": "connecteurs", "prompt": "Match each connector with its English meaning.", "pairs": [ { "left": "cependant", "right": "however" }, { "left": "pourtant", "right": "and yet" }, { "left": "donc", "right": "so, therefore" }, { "left": "alors que", "right": "whereas" }, { "left": "malgré", "right": "despite" } ], "explanation": "These five connectors are essential for organising an argument." },
+    { "id": "u14-ex17", "type": "match", "level": "B1", "skill": "structures", "grammarTag": "connecteurs", "prompt": "Match the beginnings and endings of the sentences.", "pairs": [ { "left": "Comme il pleuvait,", "right": "nous sommes restés à l'intérieur." }, { "left": "Il a réussi son examen", "right": "grâce à son travail régulier." }, { "left": "Même si le billet est cher,", "right": "j'irai voir ce concert." }, { "left": "Puisque tu insistes,", "right": "je vais te dire la vérité." } ], "explanation": "Comme gives a cause at the start, grâce à a positive cause before a noun, même si a concession and puisque a cause that is already known." },
+    { "id": "u14-ex18", "type": "translate", "level": "B1", "skill": "structures", "grammarTag": "connecteurs", "direction": "en-fr", "source": "I don't agree with you; however, your argument is interesting.", "answers": ["Je ne suis pas d'accord avec toi ; cependant, ton argument est intéressant.", "Je ne suis pas d'accord avec vous ; cependant, votre argument est intéressant.", "Je ne suis pas d'accord avec toi ; néanmoins, ton argument est intéressant.", "Je ne suis pas d'accord avec vous ; néanmoins, votre argument est intéressant.", "Je ne suis pas d'accord avec toi ; toutefois, ton argument est intéressant.", "Je ne suis pas d'accord avec vous ; toutefois, votre argument est intéressant.", "Je ne suis pas d'accord avec toi, mais ton argument est intéressant.", "Je ne suis pas d'accord avec vous, mais votre argument est intéressant."], "explanation": "However = cependant (or néanmoins, toutefois). To agree with someone = être d'accord avec quelqu'un." },
+    { "id": "u14-ex19", "type": "translate", "level": "B1", "skill": "structures", "grammarTag": "connecteurs", "direction": "fr-en", "source": "Même s'il fait froid, nous irons à la manifestation.", "answers": ["Even if it is cold, we will go to the demonstration.", "Even if it's cold, we'll go to the demonstration.", "Even if it is cold, we will go to the protest.", "Even if it's cold, we'll go to the protest.", "Even though it is cold, we will go to the demonstration.", "Even though it's cold, we'll go to the demonstration.", "Even if it's cold, we're going to go to the demonstration.", "Even if it is cold, we will go to the march."], "explanation": "Même si = even if; nous irons is the futur simple of aller (we will go)." },
+    { "id": "u14-ex20", "type": "dictation", "level": "B1", "skill": "listening", "grammarTag": "connecteurs", "text": "Elle a raison, pourtant personne ne veut l'écouter.", "translation": "She is right, and yet nobody wants to listen to her.", "explanation": "Avoir raison means to be right. Pourtant shows the surprising contrast; note the elision in l'écouter." }
+  ],
+  "listening": [
+    {
+      "id": "u14-li01",
+      "title": "Le portable au lycée : pour ou contre ?",
+      "level": "B1",
+      "kind": "interview",
+      "context": "A radio debate between a French teacher, Claire, and a final-year student, Yanis, about banning mobile phones at secondary school.",
+      "lines": [
+        { "speaker": "Animatrice", "fr": "Bonsoir. Ce soir, une question qui divise : faut-il interdire les téléphones portables au lycée ? Claire Morel, vous êtes professeure de français. Vous êtes pour l'interdiction ?" },
+        { "speaker": "Claire", "fr": "Tout à fait. En classe, les élèves sont sans cesse distraits par les notifications. Par conséquent, ils se concentrent moins et retiennent moins bien." },
+        { "speaker": "Animatrice", "fr": "Yanis, vous êtes en terminale. Vous n'êtes pas d'accord ?" },
+        { "speaker": "Yanis", "fr": "Pas complètement. Je reconnais que c'est un problème en cours. Cependant, interdire le téléphone dans tout le lycée, ça me semble excessif." },
+        { "speaker": "Animatrice", "fr": "Pourquoi ?" },
+        { "speaker": "Yanis", "fr": "Parce qu'on s'en sert aussi pour s'organiser : on vérifie l'emploi du temps, on fait des recherches, on prévient nos parents." },
+        { "speaker": "Claire", "fr": "Je comprends, mais on peut gérer ces besoins autrement. D'ailleurs, depuis que notre lycée a installé des casiers à l'entrée, l'ambiance a changé." },
+        { "speaker": "Animatrice", "fr": "C'est-à-dire ?" },
+        { "speaker": "Claire", "fr": "Les élèves se parlent davantage pendant la récréation, alors qu'avant, chacun regardait son écran." },
+        { "speaker": "Yanis", "fr": "C'est vrai que c'est plus convivial. Pourtant, beaucoup d'élèves cachent quand même leur téléphone dans leur poche !" },
+        { "speaker": "Animatrice", "fr": "Alors, quelle serait votre solution, Yanis ?" },
+        { "speaker": "Yanis", "fr": "À mon avis, il faudrait interdire le portable en classe, mais l'autoriser pendant les pauses. Ce serait un bon compromis." }
+      ],
+      "translation": "Host: Good evening. Tonight, a question that divides opinion: should mobile phones be banned at secondary school? Claire Morel, you're a French teacher. Are you in favour of a ban?\nClaire: Absolutely. In class, pupils are constantly distracted by notifications. As a result, they concentrate less and remember less well.\nHost: Yanis, you're in your final year. You don't agree?\nYanis: Not completely. I admit it's a problem in lessons. However, banning phones in the whole school seems excessive to me.\nHost: Why?\nYanis: Because we also use them to get organised: we check the timetable, do research, let our parents know things.\nClaire: I understand, but those needs can be handled differently. Besides, since our school installed lockers at the entrance, the atmosphere has changed.\nHost: Meaning?\nClaire: Pupils talk to each other more at break time, whereas before, everyone looked at their screen.\nYanis: It's true it's friendlier. And yet a lot of pupils still hide their phone in their pocket!\nHost: So what would your solution be, Yanis?\nYanis: In my opinion, phones should be banned in class but allowed during breaks. That would be a good compromise.",
+      "questions": [
+        { "id": "u14-li01-q1", "question": "What is Claire's main argument?", "options": ["Phones are too expensive for families", "Phones distract pupils and reduce their concentration", "Phones are often stolen at school", "Pupils use phones to cheat in exams"], "answer": 1, "explanation": "« Les élèves sont sans cesse distraits… Par conséquent, ils se concentrent moins »." },
+        { "id": "u14-li01-q2", "question": "What is Yanis's position at first?", "options": ["He partly agrees but finds a total ban excessive", "He completely agrees with Claire", "He thinks phones should be allowed in class", "He has no opinion"], "answer": 0, "explanation": "He says « Pas complètement… Cependant, interdire le téléphone dans tout le lycée, ça me semble excessif »." },
+        { "id": "u14-li01-q3", "question": "What has changed at Claire's school since the lockers were installed?", "options": ["Results have improved in every subject", "Pupils have stopped bringing phones", "Pupils talk to each other more at break", "Parents call the school more often"], "answer": 2, "explanation": "« Les élèves se parlent davantage pendant la récréation »." },
+        { "id": "u14-li01-q4", "question": "What compromise does Yanis suggest?", "options": ["Lockers in every classroom", "A ban only for younger pupils", "Phones allowed only for research", "No phones in class, but phones allowed during breaks"], "answer": 3, "explanation": "« Interdire le portable en classe, mais l'autoriser pendant les pauses »." }
+      ]
+    },
+    {
+      "id": "u14-li02",
+      "title": "Parking ou jardin ? Les habitants ont voté",
+      "level": "B1",
+      "kind": "announcement",
+      "context": "A local radio report on the results of a public consultation.",
+      "lines": [
+        { "speaker": "Journaliste", "fr": "À Villeneuve, la consultation sur l'avenir de la place du Marché vient de se terminer." },
+        { "speaker": "Journaliste", "fr": "La mairie voulait savoir si les habitants préféraient garder le parking ou transformer la place en jardin public." },
+        { "speaker": "Journaliste", "fr": "Plus de trois mille personnes ont donné leur avis, un record pour la commune." },
+        { "speaker": "Journaliste", "fr": "Résultat : 54 % des participants sont favorables au jardin, tandis que 46 % souhaitent conserver le parking." },
+        { "speaker": "Journaliste", "fr": "Les commerçants, eux, restent inquiets : selon eux, sans places de stationnement, les clients iront faire leurs courses ailleurs." },
+        { "speaker": "Journaliste", "fr": "Le maire a donc promis de créer un nouveau parking à cinq minutes à pied, avant le début des travaux." },
+        { "speaker": "Journaliste", "fr": "Malgré ce résultat serré, le projet devrait être lancé au printemps prochain." }
+      ],
+      "translation": "In Villeneuve, the consultation on the future of the Market Square has just ended.\nThe town hall wanted to know whether residents preferred to keep the car park or turn the square into a public garden.\nMore than three thousand people gave their opinion, a record for the town.\nResult: 54% of participants are in favour of the garden, while 46% want to keep the car park.\nShopkeepers, for their part, are still worried: according to them, without parking spaces, customers will go shopping elsewhere.\nThe mayor has therefore promised to create a new car park five minutes' walk away, before the work begins.\nDespite this close result, the project should be launched next spring.",
+      "questions": [
+        { "id": "u14-li02-q1", "question": "What was the consultation about?", "options": ["Building a new market", "Closing the town centre to traffic", "Turning a car park into a public garden", "Choosing a new mayor"], "answer": 2, "explanation": "Residents had to choose between keeping « le parking » or creating « un jardin public »." },
+        { "id": "u14-li02-q2", "question": "What was the result?", "options": ["A small majority chose the garden", "A large majority chose the car park", "Exactly half voted for each option", "Very few people took part"], "answer": 0, "explanation": "54% for the garden, 46% for the car park — a close result (« un résultat serré »), with record participation." },
+        { "id": "u14-li02-q3", "question": "Why are the shopkeepers worried?", "options": ["The works will be noisy", "Customers may shop elsewhere without parking", "Their rent will go up", "The market will move"], "answer": 1, "explanation": "« Sans places de stationnement, les clients iront faire leurs courses ailleurs »." },
+        { "id": "u14-li02-q4", "question": "What has the mayor promised?", "options": ["To cancel the project", "To organise a new vote", "To lower shop taxes", "To build a new car park nearby"], "answer": 3, "explanation": "« Créer un nouveau parking à cinq minutes à pied »." }
+      ]
+    }
+  ],
+  "reading": [
+    {
+      "id": "u14-re01",
+      "title": "La semaine de quatre jours fait débat",
+      "level": "B1",
+      "kind": "article",
+      "text": "Travailler quatre jours au lieu de cinq, sans perdre de salaire : l'idée séduit de plus en plus de salariés. Plusieurs entreprises françaises ont déjà tenté l'expérience, et les résultats font débat.\n\nPour ses défenseurs, la semaine de quatre jours présente de nombreux avantages. D'une part, les salariés seraient moins fatigués et plus motivés. D'autre part, ils auraient davantage de temps pour leur famille, le sport ou les loisirs. Dans une agence de communication de Nantes, par exemple, le nombre d'arrêts maladie a baissé de moitié en un an.\n\nPourtant, tout le monde n'est pas convaincu. Certains chefs d'entreprise pensent que ce modèle ne convient pas à tous les métiers. En effet, dans un hôpital ou un restaurant, il est difficile de fermer un jour de plus. De plus, si les heures de travail sont simplement réparties sur quatre jours, les journées deviennent très longues, ce qui peut augmenter le stress.\n\nBref, la semaine de quatre jours n'est pas une solution miracle. Elle fonctionne bien dans certains secteurs, alors que dans d'autres, elle pose de vrais problèmes d'organisation. Le débat ne fait donc que commencer.",
+      "translation": "Working four days instead of five, without losing pay: the idea appeals to more and more employees. Several French companies have already tried the experiment, and the results are being debated.\n\nFor its supporters, the four-day week has many advantages. On the one hand, employees would be less tired and more motivated. On the other, they would have more time for their family, sport or leisure. In a communications agency in Nantes, for example, the number of sick days halved in one year.\n\nYet not everyone is convinced. Some business owners think this model doesn't suit every job. Indeed, in a hospital or a restaurant, it is hard to close for an extra day. What's more, if working hours are simply spread over four days, the days become very long, which can increase stress.\n\nIn short, the four-day week is not a miracle solution. It works well in some sectors, whereas in others it causes real organisational problems. So the debate is only just beginning.",
+      "questions": [
+        { "id": "u14-re01-q1", "question": "According to its supporters, what is one advantage of the four-day week?", "options": ["Higher salaries", "Shorter working days", "More free time for family and leisure", "Fewer meetings"], "answer": 2, "explanation": "« Ils auraient davantage de temps pour leur famille, le sport ou les loisirs »." },
+        { "id": "u14-re01-q2", "question": "What happened in the agency in Nantes?", "options": ["Sick leave was halved", "Employees asked to go back to five days", "The agency closed", "Salaries went down"], "answer": 0, "explanation": "« Le nombre d'arrêts maladie a baissé de moitié en un an »." },
+        { "id": "u14-re01-q3", "question": "Why might the model be a problem for a restaurant?", "options": ["Customers prefer eating out on Fridays", "It is hard to close one more day", "Cooks don't want to work less", "Restaurants already work four days"], "answer": 1, "explanation": "« Dans un hôpital ou un restaurant, il est difficile de fermer un jour de plus »." },
+        { "id": "u14-re01-q4", "question": "What is the author's overall position?", "options": ["Strongly in favour", "Strongly against", "Indifferent to the topic", "Balanced: it depends on the sector"], "answer": 3, "explanation": "The conclusion says it's « pas une solution miracle » and works in some sectors « alors que dans d'autres » it causes problems." }
+      ]
+    },
+    {
+      "id": "u14-re02",
+      "title": "Courrier des lecteurs : le vote obligatoire",
+      "level": "B1",
+      "kind": "letter",
+      "text": "Madame, Monsieur,\n\nJe lis régulièrement votre journal et je souhaite réagir à votre article de la semaine dernière sur le vote obligatoire. Votre journaliste affirme que cette mesure réglerait le problème de l'abstention. Je ne partage pas du tout cet avis.\n\nBien sûr, il est vrai que de moins en moins de jeunes votent, et c'est inquiétant. Cependant, obliger les gens à voter ne les rendrait pas plus intéressés par la politique. Au contraire, beaucoup voteraient au hasard, simplement pour éviter une amende. De plus, ne pas voter est aussi une façon d'exprimer son mécontentement.\n\nÀ mon avis, il vaudrait mieux expliquer le fonctionnement de la politique dès l'école et prendre en compte le vote blanc dans les résultats. Ainsi, les citoyens auraient une vraie raison de se déplacer.\n\nCordialement,\nBernard Lefèvre, Angers",
+      "translation": "Dear Sir or Madam,\n\nI read your newspaper regularly and I would like to respond to last week's article on compulsory voting. Your journalist claims that this measure would solve the problem of abstention. I don't share this view at all.\n\nOf course, it is true that fewer and fewer young people vote, and that is worrying. However, forcing people to vote would not make them more interested in politics. On the contrary, many would vote at random, just to avoid a fine. What's more, not voting is also a way of expressing your dissatisfaction.\n\nIn my opinion, it would be better to explain how politics works from school onwards and to count blank votes in the results. That way, citizens would have a real reason to turn out.\n\nYours faithfully,\nBernard Lefèvre, Angers",
+      "questions": [
+        { "id": "u14-re02-q1", "question": "Why is Bernard writing to the newspaper?", "options": ["To ask for a job as a journalist", "To disagree with an article on compulsory voting", "To complain about a delivery problem", "To thank a journalist for his help"], "answer": 1, "explanation": "He wants « réagir à votre article… sur le vote obligatoire » and says « Je ne partage pas du tout cet avis »." },
+        { "id": "u14-re02-q2", "question": "What risk does he see in compulsory voting?", "options": ["Elections would cost too much", "Young people would stop studying politics", "People might vote at random to avoid a fine", "Polling stations would be too crowded"], "answer": 2, "explanation": "« Beaucoup voteraient au hasard, simplement pour éviter une amende »." },
+        { "id": "u14-re02-q3", "question": "What does Bernard admit?", "options": ["That fewer young people vote, which is worrying", "That the journalist is completely right", "That he never votes himself", "That fines are a good idea"], "answer": 0, "explanation": "« Il est vrai que de moins en moins de jeunes votent, et c'est inquiétant » — il est vrai que introduces a concession." },
+        { "id": "u14-re02-q4", "question": "What can we infer about Bernard's view of blank votes?", "options": ["He thinks they should be forbidden", "He thinks they are already counted fairly", "He thinks they encourage abstention", "He thinks counting them would motivate people to vote"], "answer": 3, "explanation": "He suggests counting blank votes so that citizens « auraient une vraie raison de se déplacer »." }
+      ]
+    }
+  ],
+  "writing": [
+    {
+      "id": "u14-wr01",
+      "title": "Faut-il supprimer les devoirs à la maison ?",
+      "level": "B1",
+      "taskType": "opinion",
+      "instructions": "Write an argued opinion (120–180 words): introduction with your position, two arguments with examples, a counter-argument, and a conclusion. Use at least five different connectors.",
+      "promptFr": "Certains pays ont supprimé les devoirs à la maison pour les enfants de l'école primaire. Pensez-vous que la France devrait faire la même chose ? Vous donnerez votre opinion en la justifiant par des arguments et des exemples. (120 à 180 mots)",
+      "minWords": 120,
+      "maxWords": 180,
+      "modelAnswer": "Dans certains pays, les enfants de l'école primaire n'ont plus de devoirs à la maison. Faut-il faire la même chose en France ? Selon moi, ce serait une bonne décision.\n\nTout d'abord, les devoirs créent des inégalités. En effet, certains enfants sont aidés par leurs parents, alors que d'autres restent seuls devant leurs exercices. Par conséquent, l'école, qui devrait réduire les différences, les augmente. De plus, après six heures de cours, les enfants sont fatigués : ils ont besoin de jouer, de faire du sport ou de lire pour le plaisir.\n\nIl est vrai que les devoirs ont un avantage : ils permettent aux parents de savoir ce que leur enfant apprend. Cependant, les enseignants pourraient très bien informer les familles autrement, par exemple grâce à un cahier de liaison.\n\nEn conclusion, je suis favorable à la suppression des devoirs à l'école primaire, à condition que les élèves aient plus de temps pour s'exercer en classe.",
+      "checklist": [
+        "My opinion is clear from the introduction.",
+        "I gave at least two arguments with examples or explanations (en effet, par exemple).",
+        "I acknowledged a counter-argument (il est vrai que… cependant…).",
+        "I used at least five different connectors (tout d'abord, de plus, par conséquent, alors que, en conclusion…).",
+        "My conclusion repeats my position in different words.",
+        "My text is between 120 and 180 words."
+      ]
+    },
+    {
+      "id": "u14-wr02",
+      "title": "Invitation à un débat",
+      "level": "B1",
+      "taskType": "message",
+      "instructions": "Reply to your friend (60–120 words): accept the invitation, give your opinion on the topic in two or three sentences with connectors, and suggest preparing together.",
+      "promptFr": "Votre amie Sofia vous invite à un débat organisé par la médiathèque sur le thème « Les jeux vidéo sont-ils bons pour les enfants ? ». Vous lui répondez : vous acceptez, vous donnez rapidement votre avis sur le sujet et vous proposez de préparer le débat ensemble. (60 à 120 mots)",
+      "minWords": 60,
+      "maxWords": 120,
+      "modelAnswer": "Salut Sofia,\n\nMerci pour l'invitation, j'accepte avec plaisir ! Le sujet m'intéresse beaucoup. À mon avis, les jeux vidéo ne sont pas mauvais en soi. En effet, certains développent la logique et la créativité. Cependant, je pense qu'il faut limiter le temps de jeu, car beaucoup d'enfants dorment moins bien à cause des écrans. Bref, tout dépend du jeu et du temps passé devant l'écran. Si tu veux, on pourrait préparer nos arguments ensemble jeudi soir. Je pourrais chercher quelques exemples avant. Qu'est-ce que tu en penses ?\n\nBises,\nAntoine",
+      "checklist": [
+        "I accepted the invitation clearly.",
+        "I gave my opinion with at least two connectors (en effet, cependant, car…).",
+        "I proposed a time to prepare together.",
+        "I used an informal greeting and closing (Salut, Bises).",
+        "My message is between 60 and 120 words."
+      ]
+    }
+  ],
+  "speaking": [
+    {
+      "id": "u14-sp01",
+      "title": "Convaincre son colocataire",
+      "level": "B1",
+      "taskType": "interaction",
+      "instructions": "Role-play. You share a flat and would like to adopt a dog. Your flatmate (the examiner) is against the idea. Present your arguments, answer his objections and try to reach a compromise.",
+      "promptFr": "Vous partagez un appartement avec un ami. Vous aimeriez adopter un chien, mais il n'est pas d'accord. Vous essayez de le convaincre et de trouver une solution qui vous convient à tous les deux.",
+      "prepSeconds": 120,
+      "speakSeconds": 210,
+      "modelAnswer": "Écoute, j'aimerais te parler d'un projet : je voudrais adopter un chien. Je sais que tu n'es pas très enthousiaste, mais laisse-moi t'expliquer. Tout d'abord, je travaille à la maison trois jours par semaine, donc il ne serait presque jamais seul. De plus, je m'occuperais de tout : les promenades, la nourriture, le vétérinaire. Tu dis que l'appartement est trop petit ? C'est vrai qu'il n'est pas immense. Pourtant, beaucoup de petits chiens vivent très bien en appartement, surtout s'ils sortent souvent. Et pour les poils, je passerais l'aspirateur deux fois par semaine, c'est promis. Je comprends aussi que tu aies peur du bruit. Alors, je te propose un compromis : on pourrait d'abord garder le chien de ma sœur pendant un week-end. Comme ça, tu verrais si ça te dérange vraiment. Qu'est-ce que tu en penses ? Ça te semble raisonnable ?",
+      "tips": [
+        "Start by presenting your project calmly, then give two or three structured arguments (tout d'abord, de plus…).",
+        "Acknowledge the other person's objections before answering them: C'est vrai que…, pourtant… / Je comprends, mais…",
+        "Propose a compromise with the conditionnel: On pourrait…, Je te propose de…",
+        "End with a question to keep the interaction going: Qu'est-ce que tu en penses ?"
+      ]
+    },
+    {
+      "id": "u14-sp02",
+      "title": "Ville ou campagne ?",
+      "level": "B1",
+      "taskType": "opinion",
+      "instructions": "Give and justify your opinion for about four minutes. Present arguments on both sides, then state your conclusion. Use a variety of connectors.",
+      "promptFr": "« Aujourd'hui, il vaut mieux vivre à la campagne qu'en ville. » Êtes-vous d'accord avec cette affirmation ? Pourquoi ?",
+      "prepSeconds": 0,
+      "speakSeconds": 270,
+      "modelAnswer": "C'est une question intéressante, et je dirais que je suis seulement en partie d'accord. D'un côté, la campagne a beaucoup d'avantages. On respire un air plus pur, il y a moins de bruit et les logements sont souvent moins chers, si bien qu'on peut avoir une maison avec un jardin. De plus, depuis le développement du télétravail, beaucoup de gens peuvent travailler loin des grandes villes. D'un autre côté, la vie à la campagne n'est pas toujours simple. En effet, il faut souvent prendre la voiture pour faire les courses, aller chez le médecin ou emmener les enfants à l'école. Par ailleurs, il y a moins d'activités culturelles et on peut se sentir isolé. Personnellement, j'ai grandi dans un petit village, alors que maintenant j'habite à Lyon, et j'apprécie les deux. Bref, à mon avis, cela dépend surtout de l'âge et du métier de chacun.",
+      "tips": [
+        "Show nuance from the start: je suis en partie d'accord, ça dépend…",
+        "Use d'un côté… d'un autre côté… to organise the two sides of the argument.",
+        "Support each argument with a concrete example, ideally from your own experience.",
+        "Finish with a clear conclusion introduced by bref, en conclusion or finalement."
+      ]
+    }
+  ],
+  "checkpoint": [
+    { "id": "u14-cp01", "type": "mcq", "level": "B1", "skill": "structures", "grammarTag": "connecteurs", "prompt": "Choose the right connector.", "promptFr": "Je trouve cette idée intéressante. ___, elle coûterait trop cher.", "options": ["Donc", "Cependant", "Grâce à", "Car"], "answer": 1, "explanation": "The second sentence contrasts with the first, so we need cependant (however). Donc gives a consequence, grâce à needs a noun, and car cannot start a sentence." },
+    { "id": "u14-cp02", "type": "fill_blank", "level": "B1", "skill": "structures", "grammarTag": "connecteurs", "prompt": "Complete with the expression meaning \"because of\".", "sentence": "Le match a été annulé ___ la tempête.", "answers": ["à cause de"], "hint": "because of (negative cause)", "translation": "The match was cancelled because of the storm.", "explanation": "A negative cause before a noun is introduced by à cause de." },
+    { "id": "u14-cp03", "type": "mcq", "level": "B1", "skill": "structures", "grammarTag": "connecteurs", "prompt": "Choose the right connector.", "promptFr": "Paul aime la ville ___ Julie préfère la campagne.", "options": ["tandis que", "donc", "malgré", "puisque"], "answer": 0, "explanation": "Tandis que (whereas) compares two contrasting facts. Donc and puisque create an illogical cause/consequence link, and malgré needs a noun." },
+    { "id": "u14-cp04", "type": "fill_blank", "level": "B1", "skill": "structures", "grammarTag": "connecteurs", "prompt": "Complete with a connector of consequence.", "sentence": "Il n'a pas révisé ; ___, il a raté son examen.", "answers": ["par conséquent", "donc", "c'est pourquoi", "ainsi", "alors"], "hint": "therefore", "translation": "He didn't revise; therefore, he failed his exam.", "explanation": "Failing is the logical consequence: par conséquent, donc or c'est pourquoi." },
+    { "id": "u14-cp05", "type": "mcq", "level": "B1", "skill": "structures", "grammarTag": "connecteurs", "prompt": "Which sentence is correct?", "options": ["Malgré il est fatigué, il travaille.", "Malgré la fatigue, il travaille.", "Malgré que la fatigue, il travaille.", "Malgré de la fatigue, il travaille."], "answer": 1, "explanation": "Malgré is a preposition followed directly by a noun with its article: malgré la fatigue." },
+    { "id": "u14-cp06", "type": "fill_blank", "level": "A2+", "skill": "structures", "grammarTag": "vocabulary", "prompt": "Complete the expression.", "sentence": "Je ne suis pas ___ avec toi : je pense que tu as tort.", "answers": ["d'accord"], "hint": "to agree = être … avec", "translation": "I don't agree with you: I think you're wrong.", "explanation": "Être d'accord avec quelqu'un means to agree with someone." },
+    { "id": "u14-cp07", "type": "mcq", "level": "B1", "skill": "structures", "grammarTag": "vocabulary", "prompt": "Which word means \"a disadvantage, a drawback\"?", "options": ["un préjugé", "un avantage", "un argument", "un inconvénient"], "answer": 3, "explanation": "Un inconvénient is a drawback, the opposite of un avantage. Un préjugé is a prejudice and un argument a reason given." },
+    { "id": "u14-cp08", "type": "fill_blank", "level": "B1", "skill": "structures", "grammarTag": "connecteurs", "prompt": "Complete with a connector of cause that can start a sentence.", "sentence": "___ tu es là, aide-moi à préparer le débat.", "answers": ["Puisque", "Comme"], "hint": "since", "translation": "Since you're here, help me prepare the debate.", "explanation": "Puisque and comme can start a sentence to give a cause; car and parce que cannot." },
+    { "id": "u14-cp09", "type": "mcq", "level": "B1", "skill": "structures", "grammarTag": "connecteurs", "prompt": "In which sentence is pourtant used correctly?", "options": ["Il a beaucoup travaillé, pourtant il a réussi.", "Il a beaucoup travaillé, pourtant il a échoué.", "Il est malade, pourtant il reste au lit.", "Il fait chaud, pourtant on va à la plage."], "answer": 1, "explanation": "Pourtant introduces a surprising result. Failing after working hard is unexpected; the other results are logical and would need donc." },
+    { "id": "u14-cp10", "type": "fill_blank", "level": "B1", "skill": "structures", "grammarTag": "connecteurs", "prompt": "Complete with the preposition meaning \"despite\".", "sentence": "___ ses doutes, il accepte de participer au débat.", "answers": ["Malgré"], "hint": "despite + noun", "translation": "Despite his doubts, he agrees to take part in the debate.", "explanation": "Malgré + noun expresses a concession: despite." }
+  ]
+}

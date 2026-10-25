@@ -1,0 +1,2156 @@
+{
+  "id": "u17",
+  "order": 17,
+  "level": "B1",
+  "theme": "Culture and society",
+  "titleFr": "Culture et société",
+  "description": "Talk about heritage, traditions and social issues, link ideas with the relative pronoun dont, and say 'what' with ce qui, ce que and ce dont.",
+  "vocab": [
+    {
+      "id": "u17-w001",
+      "fr": "patrimoine",
+      "en": "heritage",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "patrimoines",
+      "level": "B1",
+      "core": true,
+      "example": {
+        "fr": "Ce vieux pont fait partie du patrimoine de la région.",
+        "en": "This old bridge is part of the region's heritage."
+      }
+    },
+    {
+      "id": "u17-w002",
+      "fr": "tradition",
+      "en": "tradition",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "traditions",
+      "level": "A2+",
+      "core": true,
+      "example": {
+        "fr": "Chez nous, la tradition veut qu'on mange une galette en janvier.",
+        "en": "In our house, tradition has it that we eat a galette in January."
+      }
+    },
+    {
+      "id": "u17-w003",
+      "fr": "coutume",
+      "en": "custom",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "coutumes",
+      "level": "B1",
+      "core": true,
+      "example": {
+        "fr": "Dans ce village, c'est la coutume d'offrir du pain aux nouveaux voisins.",
+        "en": "In this village, it's the custom to give bread to new neighbours."
+      }
+    },
+    {
+      "id": "u17-w004",
+      "fr": "valeur",
+      "en": "value",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "valeurs",
+      "level": "B1",
+      "core": true,
+      "example": {
+        "fr": "Le respect et l'entraide sont des valeurs importantes pour moi.",
+        "en": "Respect and mutual help are important values for me."
+      }
+    },
+    {
+      "id": "u17-w005",
+      "fr": "identité",
+      "en": "identity",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "identités",
+      "level": "B1",
+      "core": true,
+      "example": {
+        "fr": "La langue bretonne fait partie de son identité.",
+        "en": "The Breton language is part of his identity."
+      }
+    },
+    {
+      "id": "u17-w006",
+      "fr": "diversité",
+      "en": "diversity",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "diversités",
+      "level": "B1",
+      "core": true,
+      "example": {
+        "fr": "Marseille est connue pour la diversité de sa population.",
+        "en": "Marseille is known for the diversity of its population."
+      }
+    },
+    {
+      "id": "u17-w007",
+      "fr": "œuvre",
+      "en": "work (of art, literature, music)",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "œuvres",
+      "level": "B1",
+      "core": true,
+      "example": {
+        "fr": "Le musée présente une centaine d'œuvres de Berthe Morisot.",
+        "en": "The museum is showing around a hundred works by Berthe Morisot."
+      }
+    },
+    {
+      "id": "u17-w008",
+      "fr": "chef-d'œuvre",
+      "en": "masterpiece",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "chefs-d'œuvre",
+      "level": "B1",
+      "core": true,
+      "example": {
+        "fr": "Pour beaucoup de critiques, ce film est un chef-d'œuvre.",
+        "en": "For many critics, this film is a masterpiece."
+      }
+    },
+    {
+      "id": "u17-w009",
+      "fr": "époque",
+      "en": "era, period, time",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "époques",
+      "level": "A2+",
+      "core": true,
+      "example": {
+        "fr": "À l'époque, les femmes n'avaient pas le droit de vote.",
+        "en": "At that time, women didn't have the right to vote."
+      }
+    },
+    {
+      "id": "u17-w010",
+      "fr": "génération",
+      "en": "generation",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "générations",
+      "level": "A2+",
+      "core": true,
+      "example": {
+        "fr": "La recette se transmet dans ma famille depuis trois générations.",
+        "en": "The recipe has been handed down in my family for three generations."
+      }
+    },
+    {
+      "id": "u17-w011",
+      "fr": "solidarité",
+      "en": "solidarity",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "solidarités",
+      "level": "B1",
+      "core": true,
+      "example": {
+        "fr": "Après l'inondation, la solidarité entre les habitants a été remarquable.",
+        "en": "After the flood, the solidarity between residents was remarkable."
+      }
+    },
+    {
+      "id": "u17-w012",
+      "fr": "inégalité",
+      "en": "inequality",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "inégalités",
+      "level": "B1",
+      "core": true,
+      "example": {
+        "fr": "Les inégalités entre les quartiers riches et pauvres augmentent.",
+        "en": "Inequalities between rich and poor neighbourhoods are increasing."
+      }
+    },
+    {
+      "id": "u17-w013",
+      "fr": "mode de vie",
+      "en": "way of life, lifestyle",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "modes de vie",
+      "level": "B1",
+      "core": true,
+      "example": {
+        "fr": "Le mode de vie des Parisiens est très différent de celui des campagnes.",
+        "en": "Parisians' way of life is very different from that of people in the countryside."
+      }
+    },
+    {
+      "id": "u17-w014",
+      "fr": "citoyenneté",
+      "en": "citizenship",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "citoyennetés",
+      "level": "B1",
+      "core": true,
+      "example": {
+        "fr": "À l'école, les élèves suivent des cours d'éducation à la citoyenneté.",
+        "en": "At school, pupils take citizenship education classes."
+      }
+    },
+    {
+      "id": "u17-w015",
+      "fr": "transmettre",
+      "en": "to pass on, to hand down",
+      "pos": "verb",
+      "level": "B1",
+      "core": true,
+      "example": {
+        "fr": "Ma grand-mère m'a transmis sa passion pour les contes.",
+        "en": "My grandmother passed her passion for folk tales on to me."
+      }
+    },
+    {
+      "id": "u17-w016",
+      "fr": "appartenir à",
+      "en": "to belong to",
+      "pos": "verb",
+      "level": "B1",
+      "core": true,
+      "example": {
+        "fr": "Ce tableau appartient à une collection privée.",
+        "en": "This painting belongs to a private collection."
+      }
+    },
+    {
+      "id": "u17-w017",
+      "fr": "célébrer",
+      "en": "to celebrate",
+      "pos": "verb",
+      "level": "A2+",
+      "core": true,
+      "example": {
+        "fr": "La ville célèbre chaque année l'arrivée du printemps avec un grand défilé.",
+        "en": "Every year the town celebrates the arrival of spring with a big parade."
+      }
+    },
+    {
+      "id": "u17-w018",
+      "fr": "se souvenir de",
+      "en": "to remember",
+      "pos": "verb",
+      "level": "A2+",
+      "core": true,
+      "example": {
+        "fr": "C'est un spectacle dont je me souviendrai toute ma vie.",
+        "en": "It's a show I'll remember all my life."
+      }
+    },
+    {
+      "id": "u17-w019",
+      "fr": "être fier de",
+      "en": "to be proud of",
+      "pos": "expression",
+      "level": "A2+",
+      "core": true,
+      "example": {
+        "fr": "Les habitants sont fiers de leur cathédrale.",
+        "en": "The residents are proud of their cathedral."
+      }
+    },
+    {
+      "id": "u17-w020",
+      "fr": "s'inspirer de",
+      "en": "to draw inspiration from",
+      "pos": "verb",
+      "level": "B1",
+      "core": true,
+      "example": {
+        "fr": "Le romancier s'est inspiré de la vie de son père.",
+        "en": "The novelist drew inspiration from his father's life."
+      }
+    },
+    {
+      "id": "u17-w021",
+      "fr": "civilisation",
+      "en": "civilisation",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "civilisations",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Cette exposition présente les grandes civilisations de la Méditerranée.",
+        "en": "This exhibition presents the great civilisations of the Mediterranean."
+      }
+    },
+    {
+      "id": "u17-w022",
+      "fr": "héritage",
+      "en": "legacy, inheritance",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "héritages",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "La cuisine créole est un héritage de plusieurs cultures.",
+        "en": "Creole cooking is a legacy of several cultures."
+      }
+    },
+    {
+      "id": "u17-w023",
+      "fr": "monument",
+      "en": "monument",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "monuments",
+      "level": "A2+",
+      "core": false,
+      "example": {
+        "fr": "C'est le monument le plus visité de la ville.",
+        "en": "It's the most visited monument in the city."
+      }
+    },
+    {
+      "id": "u17-w024",
+      "fr": "sculpture",
+      "en": "sculpture",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "sculptures",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Une immense sculpture en métal a été installée devant la gare.",
+        "en": "A huge metal sculpture has been installed in front of the station."
+      }
+    },
+    {
+      "id": "u17-w025",
+      "fr": "peintre",
+      "en": "painter",
+      "pos": "noun",
+      "gender": "mf",
+      "plural": "peintres",
+      "level": "A2+",
+      "core": false,
+      "example": {
+        "fr": "Ce peintre a passé toute sa vie en Provence.",
+        "en": "This painter spent his whole life in Provence."
+      }
+    },
+    {
+      "id": "u17-w026",
+      "fr": "tableau",
+      "en": "painting",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "tableaux",
+      "level": "A2+",
+      "core": false,
+      "example": {
+        "fr": "Il a vendu son premier tableau à dix-neuf ans.",
+        "en": "He sold his first painting at nineteen."
+      }
+    },
+    {
+      "id": "u17-w027",
+      "fr": "littérature",
+      "en": "literature",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "littératures",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Elle enseigne la littérature francophone à l'université.",
+        "en": "She teaches French-language literature at the university."
+      }
+    },
+    {
+      "id": "u17-w028",
+      "fr": "poésie",
+      "en": "poetry",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "poésies",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Chaque mois, le café organise une soirée de poésie.",
+        "en": "Every month, the café holds a poetry evening."
+      }
+    },
+    {
+      "id": "u17-w029",
+      "fr": "cinéaste",
+      "en": "filmmaker",
+      "pos": "noun",
+      "gender": "mf",
+      "plural": "cinéastes",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "La jeune cinéaste a reçu un prix au festival de Cannes.",
+        "en": "The young filmmaker received an award at the Cannes festival."
+      }
+    },
+    {
+      "id": "u17-w030",
+      "fr": "mise en scène",
+      "en": "staging, direction (theatre, film)",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "mises en scène",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "La mise en scène de cette pièce est très moderne.",
+        "en": "The staging of this play is very modern."
+      }
+    },
+    {
+      "id": "u17-w031",
+      "fr": "festival",
+      "en": "festival",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "festivals",
+      "level": "A2",
+      "core": false,
+      "example": {
+        "fr": "Le festival de jazz attire des milliers de visiteurs chaque été.",
+        "en": "The jazz festival attracts thousands of visitors every summer."
+      }
+    },
+    {
+      "id": "u17-w032",
+      "fr": "manifestation",
+      "en": "demonstration, protest; event",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "manifestations",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Des milliers de personnes ont participé à la manifestation pour le climat.",
+        "en": "Thousands of people took part in the climate demonstration."
+      }
+    },
+    {
+      "id": "u17-w033",
+      "fr": "grève",
+      "en": "strike",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "grèves",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Les enseignants sont en grève depuis lundi.",
+        "en": "The teachers have been on strike since Monday."
+      }
+    },
+    {
+      "id": "u17-w034",
+      "fr": "syndicat",
+      "en": "trade union",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "syndicats",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Les syndicats demandent une hausse des salaires.",
+        "en": "The unions are calling for a pay rise."
+      }
+    },
+    {
+      "id": "u17-w035",
+      "fr": "association",
+      "en": "association, non-profit organisation",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "associations",
+      "level": "A2+",
+      "core": false,
+      "example": {
+        "fr": "Elle fait partie d'une association qui aide les personnes âgées isolées.",
+        "en": "She belongs to an association that helps isolated elderly people."
+      }
+    },
+    {
+      "id": "u17-w036",
+      "fr": "bénévole",
+      "en": "volunteer",
+      "pos": "noun",
+      "gender": "mf",
+      "plural": "bénévoles",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Sans les bénévoles, le festival ne pourrait pas exister.",
+        "en": "Without the volunteers, the festival couldn't exist."
+      }
+    },
+    {
+      "id": "u17-w037",
+      "fr": "mixité",
+      "en": "(social, gender) mix",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "mixités",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "La mairie veut favoriser la mixité sociale dans les nouveaux quartiers.",
+        "en": "The town council wants to encourage a social mix in the new neighbourhoods."
+      }
+    },
+    {
+      "id": "u17-w038",
+      "fr": "égalité",
+      "en": "equality",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "égalités",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "L'égalité entre les femmes et les hommes progresse lentement.",
+        "en": "Equality between women and men is progressing slowly."
+      }
+    },
+    {
+      "id": "u17-w039",
+      "fr": "discrimination",
+      "en": "discrimination",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "discriminations",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "La loi interdit toute discrimination à l'embauche.",
+        "en": "The law forbids any discrimination in hiring."
+      }
+    },
+    {
+      "id": "u17-w040",
+      "fr": "préjugé",
+      "en": "prejudice, preconception",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "préjugés",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Voyager aide à se débarrasser de ses préjugés.",
+        "en": "Travelling helps you get rid of your preconceptions."
+      }
+    },
+    {
+      "id": "u17-w041",
+      "fr": "stéréotype",
+      "en": "stereotype",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "stéréotypes",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Ce film joue avec les stéréotypes sur les Français.",
+        "en": "This film plays with stereotypes about the French."
+      }
+    },
+    {
+      "id": "u17-w042",
+      "fr": "laïcité",
+      "en": "secularism (separation of religion and state)",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "La laïcité est un principe important de la République française.",
+        "en": "Secularism is an important principle of the French Republic."
+      }
+    },
+    {
+      "id": "u17-w043",
+      "fr": "religion",
+      "en": "religion",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "religions",
+      "level": "A2+",
+      "core": false,
+      "example": {
+        "fr": "Dans cette ville, plusieurs religions cohabitent depuis des siècles.",
+        "en": "In this city, several religions have lived side by side for centuries."
+      }
+    },
+    {
+      "id": "u17-w044",
+      "fr": "croyance",
+      "en": "belief",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "croyances",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Il faut respecter les croyances de chacun.",
+        "en": "Everyone's beliefs must be respected."
+      }
+    },
+    {
+      "id": "u17-w045",
+      "fr": "intégration",
+      "en": "integration",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "intégrations",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Le sport peut faciliter l'intégration des nouveaux arrivants.",
+        "en": "Sport can make it easier for newcomers to integrate."
+      }
+    },
+    {
+      "id": "u17-w046",
+      "fr": "communauté",
+      "en": "community",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "communautés",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "La communauté portugaise de la ville organise une fête en juin.",
+        "en": "The town's Portuguese community holds a festival in June."
+      }
+    },
+    {
+      "id": "u17-w047",
+      "fr": "banlieue",
+      "en": "suburbs",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "banlieues",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Il a grandi en banlieue, à vingt minutes de Paris.",
+        "en": "He grew up in the suburbs, twenty minutes from Paris."
+      }
+    },
+    {
+      "id": "u17-w048",
+      "fr": "jeunesse",
+      "en": "youth, young people",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "jeunesses",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "La ville a ouvert un nouvel espace pour la jeunesse.",
+        "en": "The town has opened a new space for young people."
+      }
+    },
+    {
+      "id": "u17-w049",
+      "fr": "vieillissement",
+      "en": "ageing",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Le vieillissement de la population pose de nouveaux défis.",
+        "en": "The ageing of the population raises new challenges."
+      }
+    },
+    {
+      "id": "u17-w050",
+      "fr": "fête nationale",
+      "en": "national holiday, national day",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "fêtes nationales",
+      "level": "A2+",
+      "core": false,
+      "example": {
+        "fr": "En France, la fête nationale a lieu le 14 juillet.",
+        "en": "In France, the national day is on 14 July."
+      }
+    },
+    {
+      "id": "u17-w051",
+      "fr": "rituel",
+      "en": "ritual",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "rituels",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Le café du dimanche chez mes parents est devenu un rituel.",
+        "en": "Sunday coffee at my parents' house has become a ritual."
+      }
+    },
+    {
+      "id": "u17-w052",
+      "fr": "folklore",
+      "en": "folklore",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "folklores",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Les costumes et les danses font partie du folklore basque.",
+        "en": "The costumes and dances are part of Basque folklore."
+      }
+    },
+    {
+      "id": "u17-w053",
+      "fr": "gastronomie",
+      "en": "gastronomy, fine food culture",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "gastronomies",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "La gastronomie lyonnaise est réputée dans le monde entier.",
+        "en": "Lyon's food culture is famous all over the world."
+      }
+    },
+    {
+      "id": "u17-w054",
+      "fr": "savoir-faire",
+      "en": "know-how, expertise",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "savoir-faire",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Les dentellières d'Alençon ont un savoir-faire unique.",
+        "en": "The lacemakers of Alençon have unique expertise."
+      }
+    },
+    {
+      "id": "u17-w055",
+      "fr": "artisanat",
+      "en": "crafts, craftsmanship",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Au marché de Noël, on trouve surtout de l'artisanat local.",
+        "en": "At the Christmas market, you mostly find local crafts."
+      }
+    },
+    {
+      "id": "u17-w056",
+      "fr": "jour férié",
+      "en": "public holiday",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "jours fériés",
+      "level": "A2+",
+      "core": false,
+      "example": {
+        "fr": "Le 1er mai est un jour férié en France.",
+        "en": "1 May is a public holiday in France."
+      }
+    },
+    {
+      "id": "u17-w057",
+      "fr": "commémorer",
+      "en": "to commemorate",
+      "pos": "verb",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Le 11 novembre, on commémore la fin de la Première Guerre mondiale.",
+        "en": "On 11 November, the end of the First World War is commemorated."
+      }
+    },
+    {
+      "id": "u17-w058",
+      "fr": "rendre hommage à",
+      "en": "to pay tribute to",
+      "pos": "expression",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Le concert rend hommage à une chanteuse disparue l'an dernier.",
+        "en": "The concert pays tribute to a singer who died last year."
+      }
+    },
+    {
+      "id": "u17-w059",
+      "fr": "défiler",
+      "en": "to march, to parade",
+      "pos": "verb",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Les chars du carnaval défilent dans le centre-ville.",
+        "en": "The carnival floats parade through the town centre."
+      }
+    },
+    {
+      "id": "u17-w060",
+      "fr": "militer",
+      "en": "to campaign, to be an activist",
+      "pos": "verb",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Elle milite depuis vingt ans pour les droits des femmes.",
+        "en": "She has been campaigning for women's rights for twenty years."
+      }
+    },
+    {
+      "id": "u17-w061",
+      "fr": "revendiquer",
+      "en": "to demand, to claim",
+      "pos": "verb",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Les étudiants revendiquent de meilleures conditions de logement.",
+        "en": "The students are demanding better housing conditions."
+      }
+    },
+    {
+      "id": "u17-w062",
+      "fr": "s'intégrer",
+      "en": "to integrate, to fit in",
+      "pos": "verb",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Grâce au club de foot, mon fils s'est vite intégré.",
+        "en": "Thanks to the football club, my son quickly fitted in."
+      }
+    },
+    {
+      "id": "u17-w063",
+      "fr": "accueillir",
+      "en": "to welcome, to host",
+      "pos": "verb",
+      "level": "A2+",
+      "core": false,
+      "example": {
+        "fr": "Le village accueille des artistes du monde entier chaque été.",
+        "en": "The village hosts artists from all over the world every summer."
+      }
+    },
+    {
+      "id": "u17-w064",
+      "fr": "cohabiter",
+      "en": "to live together, to coexist",
+      "pos": "verb",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Dans ce quartier, des cultures très différentes cohabitent sans problème.",
+        "en": "In this neighbourhood, very different cultures coexist without any problems."
+      }
+    },
+    {
+      "id": "u17-w065",
+      "fr": "tolérer",
+      "en": "to tolerate",
+      "pos": "verb",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Le règlement ne tolère aucune forme de racisme.",
+        "en": "The rules don't tolerate any form of racism."
+      }
+    },
+    {
+      "id": "u17-w066",
+      "fr": "se mobiliser",
+      "en": "to mobilise, to take action together",
+      "pos": "verb",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Les habitants se sont mobilisés pour sauver le cinéma du quartier.",
+        "en": "The residents took action together to save the local cinema."
+      }
+    },
+    {
+      "id": "u17-w067",
+      "fr": "influencer",
+      "en": "to influence",
+      "pos": "verb",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "La musique africaine a beaucoup influencé le jazz.",
+        "en": "African music had a great influence on jazz."
+      }
+    },
+    {
+      "id": "u17-w068",
+      "fr": "dénoncer",
+      "en": "to denounce, to speak out against",
+      "pos": "verb",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Ce documentaire dénonce les conditions de travail dans la mode.",
+        "en": "This documentary speaks out against working conditions in the fashion industry."
+      }
+    },
+    {
+      "id": "u17-w069",
+      "fr": "traditionnel / traditionnelle",
+      "en": "traditional",
+      "pos": "adjective",
+      "level": "A2+",
+      "core": false,
+      "example": {
+        "fr": "Pour le mariage, elle portait une robe traditionnelle.",
+        "en": "For the wedding, she wore a traditional dress."
+      }
+    },
+    {
+      "id": "u17-w070",
+      "fr": "contemporain",
+      "en": "contemporary",
+      "pos": "adjective",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Je préfère l'art contemporain à la peinture classique.",
+        "en": "I prefer contemporary art to classical painting."
+      }
+    },
+    {
+      "id": "u17-w071",
+      "fr": "multiculturel / multiculturelle",
+      "en": "multicultural",
+      "pos": "adjective",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Londres est une ville profondément multiculturelle.",
+        "en": "London is a deeply multicultural city."
+      }
+    },
+    {
+      "id": "u17-w072",
+      "fr": "engagé",
+      "en": "committed, politically engaged",
+      "pos": "adjective",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "C'est un chanteur engagé qui parle souvent d'écologie.",
+        "en": "He's a politically engaged singer who often talks about ecology."
+      }
+    },
+    {
+      "id": "u17-w073",
+      "fr": "conservateur / conservatrice",
+      "en": "conservative",
+      "pos": "adjective",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Mes grands-parents sont assez conservateurs sur ce sujet.",
+        "en": "My grandparents are fairly conservative on this subject."
+      }
+    },
+    {
+      "id": "u17-w074",
+      "fr": "méconnu",
+      "en": "little-known, underrated",
+      "pos": "adjective",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Ce musée méconnu possède pourtant une collection exceptionnelle.",
+        "en": "This little-known museum nevertheless has an exceptional collection."
+      }
+    },
+    {
+      "id": "u17-w075",
+      "fr": "incontournable",
+      "en": "unmissable, essential",
+      "pos": "adjective",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Le marché de Noël de Strasbourg est un rendez-vous incontournable.",
+        "en": "The Strasbourg Christmas market is an unmissable event."
+      }
+    },
+    {
+      "id": "u17-w076",
+      "fr": "répandu",
+      "en": "widespread, common",
+      "pos": "adjective",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Cette habitude est très répandue chez les jeunes.",
+        "en": "This habit is very widespread among young people."
+      }
+    },
+    {
+      "id": "u17-w077",
+      "fr": "dont",
+      "en": "of which, of whom, whose",
+      "pos": "pronoun",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Voici le livre dont je t'ai parlé.",
+        "en": "Here's the book I told you about."
+      }
+    },
+    {
+      "id": "u17-w078",
+      "fr": "ce qui",
+      "en": "what (subject)",
+      "pos": "pronoun",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Ce qui me plaît dans cette ville, c'est son ambiance.",
+        "en": "What I like about this city is its atmosphere."
+      }
+    },
+    {
+      "id": "u17-w079",
+      "fr": "ce que",
+      "en": "what (object)",
+      "pos": "pronoun",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Je ne comprends pas ce que dit ce panneau.",
+        "en": "I don't understand what this sign says."
+      }
+    },
+    {
+      "id": "u17-w080",
+      "fr": "ce dont",
+      "en": "what (with verbs + de)",
+      "pos": "pronoun",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Ce dont je rêve, c'est de voir les aurores boréales.",
+        "en": "What I dream of is seeing the northern lights."
+      }
+    },
+    {
+      "id": "u17-w081",
+      "fr": "au fil des ans",
+      "en": "over the years",
+      "pos": "expression",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Au fil des ans, la fête du quartier est devenue très populaire.",
+        "en": "Over the years, the neighbourhood party has become very popular."
+      }
+    },
+    {
+      "id": "u17-w082",
+      "fr": "de nos jours",
+      "en": "nowadays",
+      "pos": "expression",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "De nos jours, on écoute surtout la musique en ligne.",
+        "en": "Nowadays, people mostly listen to music online."
+      }
+    },
+    {
+      "id": "u17-w083",
+      "fr": "autrefois",
+      "en": "in the past, formerly",
+      "pos": "adverb",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Autrefois, ce bâtiment était une usine de chocolat.",
+        "en": "In the past, this building was a chocolate factory."
+      }
+    },
+    {
+      "id": "u17-w084",
+      "fr": "siècle",
+      "en": "century",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "siècles",
+      "level": "A2+",
+      "core": false,
+      "example": {
+        "fr": "Cette église a été construite au XIIe siècle.",
+        "en": "This church was built in the 12th century."
+      }
+    }
+  ],
+  "grammar": [
+    {
+      "id": "u17-g01",
+      "title": "The relative pronoun dont",
+      "level": "B1",
+      "grammarTag": "dont",
+      "explanation": [
+        "Dont replaces a noun introduced by de. Use it to join two sentences when the verb or expression in the second one is followed by de: J'ai lu un livre. Tout le monde parle de ce livre. → J'ai lu un livre dont tout le monde parle.",
+        "Common verbs and expressions with de: parler de, se souvenir de, avoir besoin de, avoir envie de, avoir peur de, rêver de, s'occuper de, être fier de, être content de, s'inspirer de. If you are not sure whether to use que or dont, check the verb: parler de quelque chose → dont; voir quelque chose → que.",
+        "Dont also means 'whose' or 'of which' when it completes a noun: C'est un artiste dont j'admire le travail (= le travail de cet artiste). Keep the definite article (le, la, les) in front of the noun and never add a possessive: dont j'admire le travail, not dont j'admire son travail. When the noun is the subject, it comes right after dont: un peintre dont les tableaux sont célèbres.",
+        "Dont is not used for places: for where, use où (la ville où j'habite). And after compound prepositions such as à côté de or près de, French uses duquel / de laquelle instead of dont — you will meet these later."
+      ],
+      "table": [
+        [
+          "Verb or noun + de",
+          "Relative clause with dont"
+        ],
+        [
+          "parler de",
+          "le film dont on parle"
+        ],
+        [
+          "avoir besoin de",
+          "les outils dont j'ai besoin"
+        ],
+        [
+          "se souvenir de",
+          "la fête dont je me souviens"
+        ],
+        [
+          "être fier de",
+          "le quartier dont nous sommes fiers"
+        ],
+        [
+          "le nom de l'artiste",
+          "l'artiste dont j'ai oublié le nom"
+        ]
+      ],
+      "examples": [
+        {
+          "fr": "C'est une tradition dont les habitants sont très fiers.",
+          "en": "It's a tradition the residents are very proud of."
+        },
+        {
+          "fr": "Voici le musée dont je t'ai parlé.",
+          "en": "Here's the museum I told you about."
+        },
+        {
+          "fr": "Le calme est la chose dont j'ai le plus besoin.",
+          "en": "Calm is the thing I need most."
+        },
+        {
+          "fr": "C'est un roman dont l'auteur est algérien.",
+          "en": "It's a novel whose author is Algerian."
+        },
+        {
+          "fr": "J'ai rencontré une cinéaste dont j'adore les films.",
+          "en": "I met a filmmaker whose films I love."
+        },
+        {
+          "fr": "Le carnaval dont je me souviens le mieux, c'est celui de 2019.",
+          "en": "The carnival I remember best is the 2019 one."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "Le livre que je t'ai parlé est sorti.",
+          "right": "Le livre dont je t'ai parlé est sorti.",
+          "why": "The verb is parler de, so the relative pronoun must be dont, not que."
+        },
+        {
+          "wrong": "C'est un peintre dont je connais ses tableaux.",
+          "right": "C'est un peintre dont je connais les tableaux.",
+          "why": "Dont already means 'whose', so don't add a possessive: use the definite article."
+        },
+        {
+          "wrong": "C'est la ville dont j'habite.",
+          "right": "C'est la ville où j'habite.",
+          "why": "Habiter is not followed by de. For places, use où."
+        }
+      ]
+    },
+    {
+      "id": "u17-g02",
+      "title": "Ce qui, ce que, ce dont: saying 'what'",
+      "level": "B1",
+      "grammarTag": "relatifs",
+      "explanation": [
+        "Ce qui, ce que and ce dont mean 'what' (= the thing that) when there is no noun before the relative pronoun. They appear in statements and in indirect questions: Je ne sais pas ce que tu veux. Dis-moi ce qui se passe.",
+        "Choose them the same way as qui and que. Ce qui is the subject of the next verb (ce qui m'intéresse = the thing that interests me). Ce que is the direct object (ce que j'aime = the thing I like). Quick test: if a subject (je, tu, les gens…) follows, it is ce que; if a verb or object pronoun follows directly, it is ce qui. Ce que becomes ce qu' before a vowel; ce qui never changes.",
+        "Ce dont is used with verbs and expressions followed by de: Ce dont j'ai besoin, c'est de calme. Ce dont on parle, c'est du nouveau musée.",
+        "A very common structure for emphasis puts ce qui / ce que / ce dont at the start and c'est after the comma: Ce que j'aime à Lyon, c'est la gastronomie. Ce qui me choque, c'est l'indifférence. This is a natural way to give your opinion at B1.",
+        "In indirect questions, qu'est-ce qui becomes ce qui and qu'est-ce que becomes ce que: « Qu'est-ce que tu fais ? » → Il me demande ce que je fais. Never say je ne sais pas qu'est-ce que…"
+      ],
+      "table": [
+        [
+          "Pronoun",
+          "Role",
+          "Example"
+        ],
+        [
+          "ce qui",
+          "subject of the next verb",
+          "Ce qui compte, c'est la solidarité."
+        ],
+        [
+          "ce que / ce qu'",
+          "direct object",
+          "Ce que je préfère, c'est le théâtre."
+        ],
+        [
+          "ce dont",
+          "with verb + de",
+          "Ce dont il rêve, c'est de voyager."
+        ]
+      ],
+      "examples": [
+        {
+          "fr": "Ce qui m'intéresse, c'est l'histoire de ce quartier.",
+          "en": "What interests me is the history of this neighbourhood."
+        },
+        {
+          "fr": "Je ne comprends pas ce que tu veux dire.",
+          "en": "I don't understand what you mean."
+        },
+        {
+          "fr": "Raconte-moi ce qui s'est passé pendant la fête.",
+          "en": "Tell me what happened during the party."
+        },
+        {
+          "fr": "Ce qu'elle préfère, ce sont les vieilles chansons.",
+          "en": "What she prefers is old songs."
+        },
+        {
+          "fr": "Ce dont nous avons besoin, c'est d'un vrai soutien.",
+          "en": "What we need is real support."
+        },
+        {
+          "fr": "Le guide nous a expliqué ce que représente ce tableau.",
+          "en": "The guide explained to us what this painting represents."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "Je ne sais pas qu'est-ce que tu veux.",
+          "right": "Je ne sais pas ce que tu veux.",
+          "why": "In an indirect question, qu'est-ce que becomes ce que."
+        },
+        {
+          "wrong": "Ce que m'intéresse, c'est l'histoire.",
+          "right": "Ce qui m'intéresse, c'est l'histoire.",
+          "why": "The pronoun is the subject of intéresse (nothing else is the subject), so it must be ce qui."
+        },
+        {
+          "wrong": "Ce que j'ai besoin, c'est de repos.",
+          "right": "Ce dont j'ai besoin, c'est de repos.",
+          "why": "Avoir besoin de takes de, so use ce dont."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "u17-ex01",
+      "type": "mcq",
+      "level": "B1",
+      "skill": "structures",
+      "grammarTag": "dont",
+      "prompt": "Choose the correct relative pronoun.",
+      "promptFr": "C'est un roman ___ tout le monde parle en ce moment.",
+      "options": [
+        "que",
+        "dont",
+        "qui",
+        "où"
+      ],
+      "answer": 1,
+      "explanation": "Parler de quelque chose → dont. Que would need a verb with a direct object, qui would need to be the subject, and où is for places or times."
+    },
+    {
+      "id": "u17-ex02",
+      "type": "mcq",
+      "level": "B1",
+      "skill": "structures",
+      "grammarTag": "dont",
+      "prompt": "Choose the correct relative pronoun.",
+      "promptFr": "L'exposition ___ j'ai vue hier était magnifique.",
+      "options": [
+        "dont",
+        "qui",
+        "où",
+        "que"
+      ],
+      "answer": 3,
+      "explanation": "Voir quelque chose has a direct object, so que. Notice the agreement: the direct object (l'exposition, feminine) comes before avoir, so vue takes an -e."
+    },
+    {
+      "id": "u17-ex03",
+      "type": "mcq",
+      "level": "B1",
+      "skill": "structures",
+      "grammarTag": "relatifs",
+      "prompt": "Choose the correct option.",
+      "promptFr": "Dis-moi ___ te ferait plaisir pour ton anniversaire.",
+      "options": [
+        "ce qui",
+        "ce que",
+        "ce dont",
+        "qu'est-ce que"
+      ],
+      "answer": 0,
+      "explanation": "The pronoun is the subject of ferait (te is an object pronoun), so ce qui."
+    },
+    {
+      "id": "u17-ex04",
+      "type": "mcq",
+      "level": "B1",
+      "skill": "structures",
+      "grammarTag": "relatifs",
+      "prompt": "Choose the correct option.",
+      "promptFr": "Je ne comprends pas ___ tu veux dire.",
+      "options": [
+        "ce qui",
+        "ce dont",
+        "ce que",
+        "qu'est-ce qui"
+      ],
+      "answer": 2,
+      "explanation": "Tu is the subject and the pronoun is the object of vouloir dire, so ce que. Qu'est-ce qui/que is not used in indirect questions."
+    },
+    {
+      "id": "u17-ex05",
+      "type": "mcq",
+      "level": "B1",
+      "skill": "structures",
+      "grammarTag": "relatifs",
+      "prompt": "Choose the correct option.",
+      "promptFr": "C'est exactement ___ j'avais besoin.",
+      "options": [
+        "ce que",
+        "ce qui",
+        "ce dont",
+        "dont"
+      ],
+      "answer": 2,
+      "explanation": "Avoir besoin de → dont, and there is no noun before it, so ce dont. Dont alone needs a noun before it (la chose dont j'avais besoin)."
+    },
+    {
+      "id": "u17-ex06",
+      "type": "fill_blank",
+      "level": "B1",
+      "skill": "structures",
+      "grammarTag": "dont",
+      "prompt": "Complete with the correct relative pronoun.",
+      "sentence": "La fête ___ je me souviens le mieux, c'est le carnaval de 2015.",
+      "answers": [
+        "dont"
+      ],
+      "translation": "The celebration I remember best is the 2015 carnival.",
+      "explanation": "Se souvenir de quelque chose → dont."
+    },
+    {
+      "id": "u17-ex07",
+      "type": "fill_blank",
+      "level": "B1",
+      "skill": "structures",
+      "grammarTag": "dont",
+      "prompt": "Complete with the correct relative pronoun.",
+      "sentence": "C'est une coutume ___ les habitants sont très fiers.",
+      "answers": [
+        "dont"
+      ],
+      "translation": "It's a custom the residents are very proud of.",
+      "explanation": "Être fier de quelque chose → dont."
+    },
+    {
+      "id": "u17-ex08",
+      "type": "fill_blank",
+      "level": "B1",
+      "skill": "structures",
+      "grammarTag": "relatifs",
+      "prompt": "Complete with ce qui, ce que or ce dont.",
+      "sentence": "___ m'intéresse, c'est l'histoire de ce quartier.",
+      "answers": [
+        "Ce qui"
+      ],
+      "translation": "What interests me is the history of this neighbourhood.",
+      "explanation": "The pronoun is the subject of intéresse (m' is an object pronoun), so ce qui."
+    },
+    {
+      "id": "u17-ex09",
+      "type": "fill_blank",
+      "level": "B1",
+      "skill": "structures",
+      "grammarTag": "relatifs",
+      "prompt": "Complete with ce qui, ce que or ce dont.",
+      "sentence": "Voilà ___ les jeunes pensent de cette réforme.",
+      "answers": [
+        "ce que"
+      ],
+      "translation": "That's what young people think of this reform.",
+      "explanation": "Les jeunes is the subject of pensent; the pronoun is the object, so ce que."
+    },
+    {
+      "id": "u17-ex10",
+      "type": "fill_blank",
+      "level": "B1",
+      "skill": "structures",
+      "grammarTag": "vocabulary",
+      "prompt": "Complete with a word from the unit.",
+      "sentence": "Le château de Chambord fait partie du ___ français.",
+      "answers": [
+        "patrimoine"
+      ],
+      "hint": "heritage (m)",
+      "translation": "The Château de Chambord is part of French heritage.",
+      "explanation": "Le patrimoine means the heritage (buildings, traditions, art) that a country or region passes down."
+    },
+    {
+      "id": "u17-ex11",
+      "type": "conjugation",
+      "level": "B1",
+      "skill": "structures",
+      "grammarTag": "present",
+      "verb": "se souvenir",
+      "tense": "présent",
+      "person": "nous",
+      "answers": [
+        "nous souvenons"
+      ],
+      "explanation": "Se souvenir is conjugated like venir: je me souviens, nous nous souvenons, ils se souviennent. Keep the reflexive pronoun nous. It is often used with dont: les fêtes dont nous nous souvenons."
+    },
+    {
+      "id": "u17-ex12",
+      "type": "conjugation",
+      "level": "B1",
+      "skill": "structures",
+      "grammarTag": "present",
+      "verb": "appartenir",
+      "tense": "présent",
+      "person": "ils",
+      "answers": [
+        "appartiennent"
+      ],
+      "explanation": "Appartenir is conjugated like tenir: j'appartiens, nous appartenons, ils appartiennent."
+    },
+    {
+      "id": "u17-ex13",
+      "type": "conjugation",
+      "level": "B1",
+      "skill": "structures",
+      "grammarTag": "passe-compose",
+      "verb": "transmettre",
+      "tense": "passé composé",
+      "person": "elle",
+      "answers": [
+        "a transmis"
+      ],
+      "explanation": "Transmettre is conjugated like mettre, with avoir in the passé composé: past participle transmis."
+    },
+    {
+      "id": "u17-ex14",
+      "type": "reorder",
+      "level": "B1",
+      "skill": "structures",
+      "grammarTag": "dont",
+      "prompt": "Put the words in order to make a sentence.",
+      "tokens": [
+        "C'est",
+        "un",
+        "peintre",
+        "dont",
+        "j'admire",
+        "le",
+        "travail"
+      ],
+      "translation": "He's a painter whose work I admire.",
+      "explanation": "Dont (= whose) + subject + verb + article + noun: dont j'admire le travail."
+    },
+    {
+      "id": "u17-ex15",
+      "type": "reorder",
+      "level": "B1",
+      "skill": "structures",
+      "grammarTag": "relatifs",
+      "prompt": "Put the words in order to make a sentence.",
+      "tokens": [
+        "Ce",
+        "qui",
+        "compte",
+        "pour",
+        "moi,",
+        "c'est",
+        "la",
+        "solidarité"
+      ],
+      "translation": "What matters to me is solidarity.",
+      "explanation": "Emphatic structure: Ce qui + verb …, c'est + noun. Ce qui is the subject of compte."
+    },
+    {
+      "id": "u17-ex16",
+      "type": "match",
+      "level": "B1",
+      "skill": "structures",
+      "grammarTag": "dont",
+      "prompt": "Match each beginning with the ending that fits grammatically.",
+      "pairs": [
+        {
+          "left": "Le festival dont…",
+          "right": "…on parle partout."
+        },
+        {
+          "left": "Le festival que…",
+          "right": "…j'ai découvert cet été."
+        },
+        {
+          "left": "Le festival qui…",
+          "right": "…attire des milliers de visiteurs."
+        },
+        {
+          "left": "La ville où…",
+          "right": "…il a lieu chaque année."
+        }
+      ],
+      "explanation": "Dont with verbs + de (parler de), que for a direct object (découvrir quelque chose), qui for a subject (the festival attracts), où for a place."
+    },
+    {
+      "id": "u17-ex17",
+      "type": "match",
+      "level": "B1",
+      "skill": "structures",
+      "grammarTag": "vocabulary",
+      "prompt": "Match the words with their English meaning.",
+      "pairs": [
+        {
+          "left": "le patrimoine",
+          "right": "heritage"
+        },
+        {
+          "left": "une coutume",
+          "right": "a custom"
+        },
+        {
+          "left": "une œuvre",
+          "right": "a work of art"
+        },
+        {
+          "left": "une époque",
+          "right": "an era"
+        },
+        {
+          "left": "la solidarité",
+          "right": "solidarity"
+        }
+      ],
+      "explanation": "Core words for talking about culture and society. Note that œuvre is feminine: une œuvre célèbre."
+    },
+    {
+      "id": "u17-ex18",
+      "type": "translate",
+      "level": "B1",
+      "skill": "structures",
+      "grammarTag": "dont",
+      "direction": "en-fr",
+      "source": "This is the book I need.",
+      "answers": [
+        "C'est le livre dont j'ai besoin.",
+        "Voici le livre dont j'ai besoin.",
+        "Voilà le livre dont j'ai besoin."
+      ],
+      "explanation": "English can drop the relative pronoun, French cannot. Avoir besoin de → dont."
+    },
+    {
+      "id": "u17-ex19",
+      "type": "translate",
+      "level": "B1",
+      "skill": "structures",
+      "grammarTag": "relatifs",
+      "direction": "fr-en",
+      "source": "Ce que j'aime dans cette ville, c'est sa diversité.",
+      "answers": [
+        "What I like about this city is its diversity.",
+        "What I love about this city is its diversity.",
+        "What I like in this city is its diversity.",
+        "What I love in this city is its diversity.",
+        "What I like about this town is its diversity.",
+        "What I love about this town is its diversity."
+      ],
+      "explanation": "Ce que … c'est … is translated as 'What … is …'. Dans cette ville is naturally 'about this city' in English."
+    },
+    {
+      "id": "u17-ex20",
+      "type": "dictation",
+      "level": "B1",
+      "skill": "structures",
+      "grammarTag": "dont",
+      "text": "C'est une coutume dont mes grands-parents se souviennent encore.",
+      "translation": "It's a custom my grandparents still remember.",
+      "explanation": "Se souvenir de → dont. Listen for the -nnent ending: ils se souviennent."
+    }
+  ],
+  "checkpoint": [
+    {
+      "id": "u17-cp01",
+      "type": "mcq",
+      "level": "B1",
+      "skill": "structures",
+      "grammarTag": "dont",
+      "prompt": "Choose the correct relative pronoun.",
+      "promptFr": "Voici l'auteur ___ je t'ai parlé.",
+      "options": [
+        "dont",
+        "que",
+        "qui",
+        "où"
+      ],
+      "answer": 0,
+      "explanation": "Parler de quelqu'un → dont."
+    },
+    {
+      "id": "u17-cp02",
+      "type": "mcq",
+      "level": "B1",
+      "skill": "structures",
+      "grammarTag": "dont",
+      "prompt": "Choose the correct relative pronoun.",
+      "promptFr": "Le musée ___ nous avons visité date du XIXe siècle.",
+      "options": [
+        "dont",
+        "qui",
+        "où",
+        "que"
+      ],
+      "answer": 3,
+      "explanation": "Visiter quelque chose takes a direct object, so que."
+    },
+    {
+      "id": "u17-cp03",
+      "type": "mcq",
+      "level": "B1",
+      "skill": "structures",
+      "grammarTag": "relatifs",
+      "prompt": "Choose the correct option.",
+      "promptFr": "___ me plaît dans ce festival, c'est l'ambiance.",
+      "options": [
+        "Ce que",
+        "Ce qui",
+        "Ce dont",
+        "Qu'est-ce qui"
+      ],
+      "answer": 1,
+      "explanation": "The pronoun is the subject of plaît (me is an object pronoun), so ce qui."
+    },
+    {
+      "id": "u17-cp04",
+      "type": "mcq",
+      "level": "B1",
+      "skill": "structures",
+      "grammarTag": "relatifs",
+      "prompt": "Choose the correct option.",
+      "promptFr": "Je ne sais pas ___ il pense de ce spectacle.",
+      "options": [
+        "ce qu'",
+        "ce qui",
+        "ce dont",
+        "qu'est-ce qu'"
+      ],
+      "answer": 0,
+      "explanation": "Il is the subject; the pronoun is the object of penser, so ce que, elided to ce qu' before il."
+    },
+    {
+      "id": "u17-cp05",
+      "type": "mcq",
+      "level": "B1",
+      "skill": "structures",
+      "grammarTag": "vocabulary",
+      "prompt": "Which word fits best?",
+      "promptFr": "Les voisins s'entraident beaucoup : la ___ est très forte dans ce village.",
+      "options": [
+        "inégalité",
+        "coutume",
+        "solidarité",
+        "époque"
+      ],
+      "answer": 2,
+      "explanation": "S'entraider (to help each other) describes solidarité. Inégalité is the opposite idea, and coutume and époque don't fit."
+    },
+    {
+      "id": "u17-cp06",
+      "type": "fill_blank",
+      "level": "B1",
+      "skill": "structures",
+      "grammarTag": "dont",
+      "prompt": "Complete with the correct relative pronoun.",
+      "sentence": "C'est un quartier ___ je connais bien l'histoire.",
+      "answers": [
+        "dont"
+      ],
+      "translation": "It's a neighbourhood whose history I know well.",
+      "explanation": "L'histoire du quartier → dont (= whose / of which)."
+    },
+    {
+      "id": "u17-cp07",
+      "type": "fill_blank",
+      "level": "B1",
+      "skill": "structures",
+      "grammarTag": "dont",
+      "prompt": "Complete with the correct relative pronoun.",
+      "sentence": "Le peintre ___ nous avons vu les tableaux vivait à Arles.",
+      "answers": [
+        "dont"
+      ],
+      "translation": "The painter whose paintings we saw lived in Arles.",
+      "explanation": "Les tableaux du peintre → dont. Keep the article les; no possessive."
+    },
+    {
+      "id": "u17-cp08",
+      "type": "fill_blank",
+      "level": "B1",
+      "skill": "structures",
+      "grammarTag": "relatifs",
+      "prompt": "Complete with ce qui, ce que or ce dont.",
+      "sentence": "Raconte-moi ___ s'est passé pendant la manifestation.",
+      "answers": [
+        "ce qui"
+      ],
+      "translation": "Tell me what happened during the demonstration.",
+      "explanation": "The pronoun is the subject of s'est passé, so ce qui."
+    },
+    {
+      "id": "u17-cp09",
+      "type": "fill_blank",
+      "level": "B1",
+      "skill": "structures",
+      "grammarTag": "relatifs",
+      "prompt": "Complete with ce qui, ce que or ce dont.",
+      "sentence": "___ j'ai envie, c'est de découvrir d'autres cultures.",
+      "answers": [
+        "Ce dont"
+      ],
+      "translation": "What I want is to discover other cultures.",
+      "explanation": "Avoir envie de → ce dont."
+    },
+    {
+      "id": "u17-cp10",
+      "type": "fill_blank",
+      "level": "B1",
+      "skill": "structures",
+      "grammarTag": "vocabulary",
+      "prompt": "Complete with the past participle of a verb from the unit.",
+      "sentence": "Mes grands-parents m'ont ___ l'amour de la musique traditionnelle.",
+      "answers": [
+        "transmis"
+      ],
+      "hint": "passed on",
+      "translation": "My grandparents passed on their love of traditional music to me.",
+      "explanation": "Transmettre quelque chose à quelqu'un = to pass something on. Past participle: transmis."
+    }
+  ],
+  "listening": [
+    {
+      "id": "u17-li01",
+      "title": "La Fête des cultures",
+      "level": "B1",
+      "kind": "interview",
+      "context": "A local radio journalist interviews the organiser of a neighbourhood festival.",
+      "lines": [
+        {
+          "speaker": "Journaliste",
+          "fr": "Amina, vous organisez la Fête des cultures du quartier Saint-Michel depuis cinq ans. Comment est née cette idée ?"
+        },
+        {
+          "speaker": "Amina",
+          "fr": "Tout a commencé par un repas entre voisins. Dans notre immeuble, il y a des familles qui viennent de quinze pays différents, et chacun avait apporté un plat de chez lui."
+        },
+        {
+          "speaker": "Journaliste",
+          "fr": "Et aujourd'hui, ça représente combien de personnes ?"
+        },
+        {
+          "speaker": "Amina",
+          "fr": "L'an dernier, nous avons accueilli plus de trois mille visiteurs ! Il y a des stands de cuisine, de la musique, des danses et des ateliers pour les enfants."
+        },
+        {
+          "speaker": "Journaliste",
+          "fr": "Qu'est-ce qui vous rend le plus fière ?"
+        },
+        {
+          "speaker": "Amina",
+          "fr": "Ce qui me rend fière, c'est de voir travailler ensemble des gens qui ne se parlaient jamais. Certains habitants qui avaient des préjugés sont devenus des bénévoles très engagés."
+        },
+        {
+          "speaker": "Journaliste",
+          "fr": "Vous avez rencontré des difficultés ?"
+        },
+        {
+          "speaker": "Amina",
+          "fr": "Oui, surtout pour trouver de l'argent. Ce dont nous avons besoin, c'est d'un vrai soutien de la mairie."
+        },
+        {
+          "speaker": "Journaliste",
+          "fr": "Et cette année, quelle est la nouveauté ?"
+        },
+        {
+          "speaker": "Amina",
+          "fr": "Un concours de contes ! Les plus âgés vont raconter des histoires dont ils se souviennent depuis leur enfance, chacun dans sa langue, avec une traduction en français."
+        }
+      ],
+      "translation": "Journalist: Amina, you've been organising the Saint-Michel neighbourhood Festival of Cultures for five years. How did the idea come about?\nAmina: It all started with a meal among neighbours. In our building, there are families from fifteen different countries, and everyone had brought a dish from home.\nJournalist: And today, how many people does that represent?\nAmina: Last year we welcomed more than three thousand visitors! There are food stalls, music, dancing and workshops for children.\nJournalist: What makes you proudest?\nAmina: What makes me proud is seeing people who never used to talk to each other working together. Some residents who had prejudices have become very committed volunteers.\nJournalist: Have you had any difficulties?\nAmina: Yes, mainly finding money. What we need is real support from the town council.\nJournalist: And this year, what's new?\nAmina: A storytelling competition! The older residents are going to tell stories they have remembered since childhood, each in their own language, with a French translation.",
+      "questions": [
+        {
+          "id": "u17-li01-q1",
+          "question": "How did the festival begin?",
+          "options": [
+            "With a project from the town council",
+            "With a meal among neighbours",
+            "With a storytelling competition",
+            "With a school workshop"
+          ],
+          "answer": 1,
+          "explanation": "« Tout a commencé par un repas entre voisins. »"
+        },
+        {
+          "id": "u17-li01-q2",
+          "question": "What makes Amina proudest?",
+          "options": [
+            "The number of visitors",
+            "The food from fifteen countries",
+            "The support of the town council",
+            "Seeing people who never talked now working together"
+          ],
+          "answer": 3,
+          "explanation": "« Ce qui me rend fière, c'est de voir travailler ensemble des gens qui ne se parlaient jamais. »"
+        },
+        {
+          "id": "u17-li01-q3",
+          "question": "What does the festival need most?",
+          "options": [
+            "More volunteers",
+            "Real support from the town council",
+            "More visitors",
+            "A bigger building"
+          ],
+          "answer": 1,
+          "explanation": "« Ce dont nous avons besoin, c'est d'un vrai soutien de la mairie. » The difficulty is money."
+        },
+        {
+          "id": "u17-li01-q4",
+          "question": "What is new this year?",
+          "options": [
+            "There will be workshops for children.",
+            "Each family will bring a dish.",
+            "The festival will move to the town hall.",
+            "Older residents will tell childhood stories in their own languages."
+          ],
+          "answer": 3,
+          "explanation": "« Un concours de contes ! Les plus âgés vont raconter des histoires dont ils se souviennent depuis leur enfance, chacun dans sa langue »."
+        }
+      ]
+    },
+    {
+      "id": "u17-li02",
+      "title": "Les Journées du patrimoine à Valmont",
+      "level": "B1",
+      "kind": "announcement",
+      "context": "A cultural news item on a regional radio station.",
+      "lines": [
+        {
+          "speaker": "Journaliste",
+          "fr": "Ce week-end, à l'occasion des Journées du patrimoine, une cinquantaine de lieux habituellement fermés au public ouvriront leurs portes à Valmont."
+        },
+        {
+          "speaker": "Journaliste",
+          "fr": "Parmi eux, l'ancien théâtre municipal, dont la rénovation vient de s'achever après trois ans de travaux."
+        },
+        {
+          "speaker": "Journaliste",
+          "fr": "Les visiteurs pourront aussi découvrir l'atelier d'un luthier, un savoir-faire dont la ville est très fière."
+        },
+        {
+          "speaker": "Journaliste",
+          "fr": "Toutes les visites sont gratuites, mais il est conseillé de réserver sur le site de l'office de tourisme, car le nombre de places est limité."
+        },
+        {
+          "speaker": "Journaliste",
+          "fr": "Attention : en raison de travaux, la tour de l'Horloge restera fermée cette année."
+        },
+        {
+          "speaker": "Journaliste",
+          "fr": "Enfin, ce qui devrait attirer le plus de monde, c'est le concert de clôture, dimanche à 18 heures, sur la place du Marché."
+        }
+      ],
+      "translation": "This weekend, for Heritage Days, around fifty places that are usually closed to the public will open their doors in Valmont.\nAmong them is the old municipal theatre, whose renovation has just been completed after three years of work.\nVisitors will also be able to discover a violin-maker's workshop, a craft the town is very proud of.\nAll visits are free, but you are advised to book on the tourist office website, as the number of places is limited.\nPlease note: because of building work, the Clock Tower will remain closed this year.\nFinally, what should attract the most people is the closing concert, on Sunday at 6 p.m., in the Market Square.",
+      "questions": [
+        {
+          "id": "u17-li02-q1",
+          "question": "What is special about the places that will open this weekend?",
+          "options": [
+            "They are usually closed to the public.",
+            "They have all just been renovated.",
+            "They are all violin-makers' workshops.",
+            "They are only open to residents."
+          ],
+          "answer": 0,
+          "explanation": "« une cinquantaine de lieux habituellement fermés au public ouvriront leurs portes »."
+        },
+        {
+          "id": "u17-li02-q2",
+          "question": "What do we learn about the old theatre?",
+          "options": [
+            "It will stay closed because of building work.",
+            "It will host the closing concert.",
+            "Its renovation has just been completed.",
+            "It belongs to a violin-maker."
+          ],
+          "answer": 2,
+          "explanation": "« dont la rénovation vient de s'achever après trois ans de travaux ». It is the Clock Tower that stays closed."
+        },
+        {
+          "id": "u17-li02-q3",
+          "question": "What are visitors advised to do?",
+          "options": [
+            "Buy tickets in advance at the theatre",
+            "Arrive early on Sunday",
+            "Book on the tourist office website",
+            "Come only on Saturday"
+          ],
+          "answer": 2,
+          "explanation": "« il est conseillé de réserver sur le site de l'office de tourisme ». The visits are free."
+        },
+        {
+          "id": "u17-li02-q4",
+          "question": "Which event is expected to be the most popular?",
+          "options": [
+            "The closing concert on Sunday",
+            "The visit to the Clock Tower",
+            "The theatre tour",
+            "The violin-maker's workshop"
+          ],
+          "answer": 0,
+          "explanation": "« ce qui devrait attirer le plus de monde, c'est le concert de clôture »."
+        }
+      ]
+    }
+  ],
+  "reading": [
+    {
+      "id": "u17-re01",
+      "title": "Les boîtes à livres",
+      "level": "B1",
+      "kind": "article",
+      "text": "Les boîtes à livres, petites bibliothèques de rue\n\nDans un parc, devant une école ou à un arrêt de bus, elles sont désormais partout : les boîtes à livres. Le principe est simple : chacun peut déposer un livre dont il n'a plus besoin et emprunter gratuitement celui qui lui plaît, sans inscription ni date de retour.\n\nApparues en France au début des années 2010, ces petites bibliothèques de rue se comptent aujourd'hui par milliers. Ce qui explique leur succès, c'est d'abord leur simplicité. Mais pour beaucoup d'habitants, elles sont aussi un moyen de créer du lien. « Je discute souvent avec des voisins que je ne connaissais pas, juste parce qu'on regarde les mêmes livres », raconte Martine, 67 ans, qui s'occupe de la boîte de son quartier.\n\nTout n'est pas parfait pour autant. Certaines boîtes sont abîmées par la pluie ou remplies de vieux magazines dont personne ne veut. Quelques associations ont donc décidé de les entretenir régulièrement.\n\nPour les sociologues, ce phénomène montre ce que beaucoup de citoyens recherchent : une culture accessible à tous, fondée sur le partage plutôt que sur la consommation.",
+      "translation": "Book boxes, little street libraries\n\nIn a park, outside a school or at a bus stop, they are now everywhere: book boxes. The idea is simple: anyone can leave a book they no longer need and borrow one they like for free, with no registration and no return date.\n\nFirst seen in France in the early 2010s, these little street libraries now number in the thousands. What explains their success is above all their simplicity. But for many residents, they are also a way of building connections. 'I often chat with neighbours I didn't know, just because we're looking at the same books,' says Martine, 67, who looks after the box in her neighbourhood.\n\nNot everything is perfect, though. Some boxes are damaged by the rain or filled with old magazines nobody wants. So a few associations have decided to maintain them regularly.\n\nFor sociologists, this phenomenon shows what many citizens are looking for: a culture that is accessible to everyone, based on sharing rather than consumption.",
+      "questions": [
+        {
+          "id": "u17-re01-q1",
+          "question": "How do book boxes work?",
+          "options": [
+            "You register and borrow a book for two weeks.",
+            "You buy second-hand books at a low price.",
+            "You order books that the library delivers.",
+            "You leave a book you don't need and take one for free, with no registration."
+          ],
+          "answer": 3,
+          "explanation": "« déposer un livre dont il n'a plus besoin et emprunter gratuitement celui qui lui plaît, sans inscription ni date de retour »."
+        },
+        {
+          "id": "u17-re01-q2",
+          "question": "According to Martine, what is one benefit of book boxes?",
+          "options": [
+            "They save her money.",
+            "They help her meet neighbours.",
+            "They let her read magazines.",
+            "They give her a job."
+          ],
+          "answer": 1,
+          "explanation": "« Je discute souvent avec des voisins que je ne connaissais pas »."
+        },
+        {
+          "id": "u17-re01-q3",
+          "question": "What problem does the article mention?",
+          "options": [
+            "Some boxes are damaged or full of unwanted magazines.",
+            "People steal all the books.",
+            "There are not enough boxes.",
+            "The boxes are too expensive to build."
+          ],
+          "answer": 0,
+          "explanation": "« Certaines boîtes sont abîmées par la pluie ou remplies de vieux magazines dont personne ne veut. »"
+        },
+        {
+          "id": "u17-re01-q4",
+          "question": "What can we infer from the sociologists' view?",
+          "options": [
+            "People are reading less than before.",
+            "Libraries will soon disappear.",
+            "Many people want culture to be shared rather than bought.",
+            "Book boxes are mainly used by elderly people."
+          ],
+          "answer": 2,
+          "explanation": "They describe « une culture accessible à tous, fondée sur le partage plutôt que sur la consommation ». The other ideas are not in the text."
+        }
+      ]
+    },
+    {
+      "id": "u17-re02",
+      "title": "Bénévoles recherchés",
+      "level": "B1",
+      "kind": "advert",
+      "text": "BÉNÉVOLES RECHERCHÉS\nFestival « Regards du monde » – 12e édition, du 4 au 9 juin\n\nVous aimez le cinéma et la rencontre des cultures ? L'association Regards du monde recherche 60 bénévoles pour son festival de films étrangers.\n\nCe que nous vous proposons :\n– accueillir le public et les réalisateurs invités ;\n– aider à la billetterie et à la préparation des salles ;\n– participer à la traduction des débats après les projections (anglais, espagnol ou arabe : un vrai atout !).\n\nCe qui compte pour nous : la bonne humeur, le sens du contact et au moins trois soirées de disponibilité pendant le festival. Aucune expérience n'est exigée.\n\nEn échange : accès gratuit à toutes les projections, repas offerts les soirs où vous êtes présent et une grande soirée de remerciement après le festival.\n\nRéunion d'information le 15 mai à 19 h à la Maison des associations, 3 rue Victor-Hugo.",
+      "translation": "VOLUNTEERS WANTED\n'Regards du monde' Festival – 12th edition, 4 to 9 June\n\nDo you love cinema and meeting other cultures? The Regards du monde association is looking for 60 volunteers for its foreign film festival.\n\nWhat we offer you:\n– welcoming the audience and the guest directors;\n– helping at the box office and getting the screening rooms ready;\n– helping to translate the discussions after the screenings (English, Spanish or Arabic: a real plus!).\n\nWhat matters to us: a cheerful attitude, people skills and being available for at least three evenings during the festival. No experience required.\n\nIn return: free access to all the screenings, free meals on the evenings you are there and a big thank-you party after the festival.\n\nInformation meeting on 15 May at 7 p.m. at the Maison des associations, 3 rue Victor-Hugo.",
+      "questions": [
+        {
+          "id": "u17-re02-q1",
+          "question": "Which task is NOT mentioned in the advert?",
+          "options": [
+            "Welcoming guest directors",
+            "Choosing the films",
+            "Helping at the box office",
+            "Translating discussions"
+          ],
+          "answer": 1,
+          "explanation": "The advert lists welcoming, box office, room preparation and translation, but not choosing the films."
+        },
+        {
+          "id": "u17-re02-q2",
+          "question": "What do volunteers need?",
+          "options": [
+            "Experience in cinema",
+            "A good level in three languages",
+            "To be available every day of the festival",
+            "At least three free evenings during the festival"
+          ],
+          "answer": 3,
+          "explanation": "« au moins trois soirées de disponibilité pendant le festival. Aucune expérience n'est exigée. »"
+        },
+        {
+          "id": "u17-re02-q3",
+          "question": "What do volunteers get in return?",
+          "options": [
+            "A small salary",
+            "Free screenings, meals and a thank-you party",
+            "A certificate of experience",
+            "Free travel to the festival"
+          ],
+          "answer": 1,
+          "explanation": "« accès gratuit à toutes les projections, repas offerts … et une grande soirée de remerciement »."
+        },
+        {
+          "id": "u17-re02-q4",
+          "question": "Which person would be especially welcome?",
+          "options": [
+            "Someone who has worked in a cinema",
+            "Someone free only in the mornings",
+            "Someone who makes films",
+            "Someone who speaks Arabic"
+          ],
+          "answer": 3,
+          "explanation": "Arabic is listed as « un vrai atout » for translating the discussions. Experience is not required, and the festival needs evening availability."
+        }
+      ]
+    }
+  ],
+  "writing": [
+    {
+      "id": "u17-wr01",
+      "title": "Des musées gratuits pour tous ?",
+      "level": "B1",
+      "taskType": "opinion",
+      "instructions": "TCF task 3: write an argued opinion. Give arguments, an example and a conclusion.",
+      "promptFr": "Dans certains pays, les grands musées sont gratuits. Selon vous, l'accès aux musées devrait-il être gratuit pour tout le monde ? Donnez votre opinion en l'illustrant d'exemples. (120 à 180 mots)",
+      "minWords": 120,
+      "maxWords": 180,
+      "modelAnswer": "Selon moi, l'accès aux musées devrait être gratuit, au moins pour une grande partie de la population.\n\nTout d'abord, la culture est un droit, pas un luxe. Le patrimoine d'un pays appartient à tous ses citoyens, et c'est ce qui nous permet de comprendre notre histoire. Or, pour une famille de quatre personnes, une visite peut coûter plus de cinquante euros, ce qui exclut beaucoup de gens.\n\nDe plus, quand l'entrée est gratuite, on y va plus souvent et plus spontanément. Au Royaume-Uni, par exemple, les grands musées nationaux sont gratuits, et ils accueillent un public très varié.\n\nCependant, je comprends que les musées aient besoin d'argent pour entretenir les œuvres et payer leur personnel. C'est pourquoi on pourrait demander aux touristes de payer, ou proposer aux visiteurs de faire un don.\n\nEn conclusion, la gratuité est un investissement pour une société plus ouverte et moins inégalitaire.",
+      "checklist": [
+        "I give my opinion clearly in the introduction.",
+        "I develop at least two arguments with connectors (tout d'abord, de plus, cependant, en conclusion).",
+        "I include a concrete example.",
+        "I acknowledge the opposite view.",
+        "I use at least one of dont, ce qui or ce que correctly.",
+        "My text is between 120 and 180 words."
+      ]
+    },
+    {
+      "id": "u17-wr02",
+      "title": "Une fête de chez moi",
+      "level": "B1",
+      "taskType": "description",
+      "instructions": "Describe a celebration or tradition from your country or region, say what it means to you and tell a personal memory.",
+      "promptFr": "Décrivez une fête ou une tradition importante dans votre pays ou votre région. Expliquez ce qu'on fait ce jour-là et ce que cette fête représente pour vous, puis racontez un souvenir personnel. (120 à 150 mots)",
+      "minWords": 120,
+      "maxWords": 150,
+      "modelAnswer": "Au Royaume-Uni, une fête dont je me souviens avec plaisir est Bonfire Night, le 5 novembre. Ce jour-là, on commémore l'échec d'un complot contre le roi en 1605. Le soir, les familles se retrouvent dans les parcs autour d'un grand feu, et on regarde des feux d'artifice. Les enfants écrivent leur prénom dans la nuit avec des cierges magiques.\n\nCe que j'aime le plus dans cette tradition, c'est l'ambiance : il fait froid, mais tout le monde est dehors, avec un chocolat chaud ou une pomme caramélisée. Pour moi, c'est un moment qui rassemble toutes les générations.\n\nQuand j'avais dix ans, mon grand-père m'a emmené à un énorme feu de joie dans notre village. Il m'a raconté l'histoire de Guy Fawkes, dont je n'avais jamais entendu parler. Depuis, chaque 5 novembre, je pense à lui.",
+      "checklist": [
+        "I name the celebration and explain when and why it takes place.",
+        "I describe what people do, in the present tense.",
+        "I say what the tradition means to me (ce que j'aime, ce qui me plaît…).",
+        "I tell a memory using the passé composé and the imparfait.",
+        "I use dont at least once.",
+        "My text is between 120 and 150 words."
+      ]
+    }
+  ],
+  "speaking": [
+    {
+      "id": "u17-sp01",
+      "title": "Choisir une sortie culturelle",
+      "level": "B1",
+      "taskType": "interaction",
+      "instructions": "TCF task 2: role-play. You have two minutes to prepare. The examiner plays your French friend. Suggest outings, discuss them and agree on one.",
+      "promptFr": "Vous êtes en France. Ce week-end, vous voulez faire une sortie culturelle avec un ami français (l'examinateur). Vous lui proposez plusieurs activités, vous lui posez des questions sur ses goûts et vous choisissez ensemble.",
+      "prepSeconds": 120,
+      "speakSeconds": 210,
+      "modelAnswer": "Salut Paul ! Ce week-end, il y a plein de choses en ville. Tu as envie de sortir ?\n(Oui, pourquoi pas. Qu'est-ce que tu proposes ?)\nAlors, il y a l'exposition de photos dont tout le monde parle, au musée des Beaux-Arts. Sinon, le théâtre municipal joue une pièce de Molière samedi soir. Qu'est-ce que tu préfères ?\n(Molière, je l'ai déjà vu plusieurs fois…)\nD'accord ! Et l'exposition, ça te tente ? Ce qui m'intéresse, c'est qu'elle montre la vie des quartiers populaires dans les années 1950.\n(Oui, ça a l'air bien. C'est combien ?)\nC'est gratuit le dimanche matin, mais il y a souvent du monde. On pourrait y aller vers dix heures, et ensuite déjeuner dans le petit restaurant libanais dont je t'ai parlé.\n(Parfait, je suis d'accord.)\nSuper ! Alors rendez-vous dimanche à dix heures devant le musée.",
+      "tips": [
+        "Make at least two suggestions and ask your partner what they prefer.",
+        "React to their answers: d'accord, ça me tente, je comprends, sinon…",
+        "Use dont and ce qui / ce que to describe the outings (l'exposition dont tout le monde parle).",
+        "End by confirming the practical details: day, time, meeting place."
+      ]
+    },
+    {
+      "id": "u17-sp02",
+      "title": "La langue et l'intégration",
+      "level": "B1",
+      "taskType": "opinion",
+      "instructions": "TCF task 3: give and justify your opinion on the statement.",
+      "promptFr": "« Pour s'intégrer dans un pays, il faut avant tout en parler la langue. » Qu'en pensez-vous ?",
+      "prepSeconds": 0,
+      "speakSeconds": 240,
+      "modelAnswer": "Je suis plutôt d'accord avec cette affirmation, mais je pense que la langue ne suffit pas.\n\nD'abord, parler la langue est essentiel pour la vie quotidienne : on en a besoin pour trouver un travail, parler avec les voisins ou comprendre les démarches administratives. C'est aussi ce qui permet de comprendre l'humour et la culture du pays. Moi, par exemple, je me sens beaucoup plus à l'aise en France depuis que je comprends les conversations au travail.\n\nCependant, ce dont on a aussi besoin, c'est d'être accueilli. Certaines personnes parlent parfaitement français, mais elles sont victimes de préjugés ou de discrimination. Dans ce cas, l'intégration est difficile, même avec un très bon niveau.\n\nEn conclusion, apprendre la langue est la première étape, mais l'intégration dépend aussi de la société d'accueil et de sa capacité à faire une place aux nouveaux arrivants.",
+      "tips": [
+        "State your position clearly, then nuance it (plutôt d'accord, mais…).",
+        "Give a personal example to make your argument concrete.",
+        "Use emphatic structures: ce qui est important, c'est…; ce dont on a besoin, c'est…",
+        "Finish with a clear conclusion (en conclusion, finalement)."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+# Fresh install in airplane mode: onboarding, home, every tab renders with no network.
+appId: com.emeka.chequejour
+---
+- setAirplaneMode: enabled
+- clearState
+- launchApp
+- assertVisible:
+    id: onboarding
+- tapOn:
+    id: onboarding-start
+- tapOn:
+    id: skip-placement
+- assertVisible:
+    id: home-screen
+- assertVisible:
+    id: session-card
+- assertVisible:
+    id: word-of-day
+- assertVisible:
+    id: sentence-of-day
+- tapOn:
+    id: tab-learn
+- assertVisible:
+    id: learn-screen
+- tapOn:
+    id: tab-practice
+- assertVisible:
+    id: practice-screen
+- tapOn:
+    id: tab-progress
+- assertVisible:
+    id: progress-screen
+- setAirplaneMode: disabled

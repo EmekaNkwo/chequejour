@@ -1,0 +1,437 @@
+{
+  "version": 1,
+  "questions": [
+    {
+      "id": "pl01",
+      "type": "mcq",
+      "band": "A2",
+      "level": "A2",
+      "skill": "structures",
+      "grammarTag": "present",
+      "prompt": "Choose the correct form of être.",
+      "promptFr": "Nous ___ en retard, désolés !",
+      "options": [
+        "avons",
+        "sommes",
+        "êtes",
+        "sont"
+      ],
+      "answer": 1,
+      "explanation": "Être with nous is « nous sommes ». « Êtes » goes with vous, « sont » with ils/elles, and « avons » is avoir."
+    },
+    {
+      "id": "pl02",
+      "type": "mcq",
+      "band": "A2",
+      "level": "A2",
+      "skill": "structures",
+      "grammarTag": "partitifs",
+      "prompt": "Choose the correct article.",
+      "promptFr": "Le matin, je bois ___ café avec un croissant.",
+      "options": [
+        "des",
+        "de l'",
+        "du",
+        "de la"
+      ],
+      "answer": 2,
+      "explanation": "An unspecified amount of a masculine noun takes the partitive « du » (café is masculine). « De la » is for feminine nouns, « de l' » for nouns starting with a vowel, « des » for plurals."
+    },
+    {
+      "id": "pl03",
+      "type": "mcq",
+      "band": "A2",
+      "level": "A2",
+      "skill": "structures",
+      "grammarTag": "passe-compose",
+      "prompt": "Choose the correct passé composé.",
+      "promptFr": "Hier soir, Marie ___ au cinéma avec ses amies.",
+      "options": [
+        "a allé",
+        "est allé",
+        "a allée",
+        "est allée"
+      ],
+      "answer": 3,
+      "explanation": "Aller takes être in the passé composé, and the past participle agrees with the subject: Marie is feminine, so « est allée »."
+    },
+    {
+      "id": "pl04",
+      "type": "mcq",
+      "band": "A2",
+      "level": "A2",
+      "skill": "structures",
+      "grammarTag": "negation",
+      "prompt": "Choose the word that completes the sentence.",
+      "promptFr": "Il n'y a plus ___ lait dans le frigo.",
+      "options": [
+        "de",
+        "des",
+        "le",
+        "du"
+      ],
+      "answer": 0,
+      "explanation": "After a negation (ne… pas, ne… plus), du / de la / des become « de »: « il n'y a plus de lait »."
+    },
+    {
+      "id": "pl05",
+      "type": "mcq",
+      "band": "A2",
+      "level": "A2",
+      "skill": "structures",
+      "grammarTag": "vocabulary",
+      "prompt": "Choose the word that fits.",
+      "promptFr": "À la caisse, je paie avec ma ___ bancaire.",
+      "options": [
+        "caisse",
+        "carte",
+        "banque",
+        "monnaie"
+      ],
+      "answer": 1,
+      "explanation": "« Une carte bancaire » is a bank card. « Monnaie » means change/coins, « banque » is the bank itself, and « caisse » is the checkout."
+    },
+    {
+      "id": "pl06",
+      "type": "mcq",
+      "band": "A2",
+      "level": "A2",
+      "skill": "reading",
+      "grammarTag": "vocabulary",
+      "prompt": "Read the message. Why is Tom writing to Léa?",
+      "promptFr": "Salut Léa ! Je suis malade, je ne peux pas venir à la piscine demain. On se voit samedi ? Tom",
+      "options": [
+        "To cancel tomorrow's plan",
+        "To invite Léa to the swimming pool",
+        "To say that he is at the pool",
+        "To ask Léa to buy him some medicine"
+      ],
+      "answer": 0,
+      "explanation": "Tom is ill and « ne peut pas venir à la piscine demain »: he is cancelling. He suggests seeing her on Saturday instead."
+    },
+    {
+      "id": "pl07",
+      "type": "mcq",
+      "band": "A2",
+      "level": "A2",
+      "skill": "structures",
+      "grammarTag": "cod",
+      "prompt": "Choose the correct pronoun.",
+      "promptFr": "Tu connais Paul ? — Oui, je ___ connais bien.",
+      "options": [
+        "lui",
+        "la",
+        "le",
+        "les"
+      ],
+      "answer": 2,
+      "explanation": "Connaître takes a direct object (connaître quelqu'un). Paul is masculine singular, so the direct object pronoun is « le ». « Lui » is an indirect object pronoun."
+    },
+    {
+      "id": "pl08",
+      "type": "mcq",
+      "band": "A2",
+      "level": "A2",
+      "skill": "reading",
+      "grammarTag": "vocabulary",
+      "prompt": "Read the notice. When is the bakery closed?",
+      "promptFr": "Boulangerie Martin — Fermée le lundi. Ouverte du mardi au dimanche, de 7 h à 19 h 30.",
+      "options": [
+        "Every day at lunchtime",
+        "On Sundays",
+        "On Tuesday mornings",
+        "On Mondays"
+      ],
+      "answer": 3,
+      "explanation": "« Fermée le lundi » means closed on Mondays. It is open from Tuesday to Sunday, from 7 am to 7.30 pm, with no lunch break mentioned."
+    },
+    {
+      "id": "pl09",
+      "type": "mcq",
+      "band": "A2+",
+      "level": "A2+",
+      "skill": "structures",
+      "grammarTag": "imparfait",
+      "prompt": "Choose the correct tense.",
+      "promptFr": "Quand j'étais petit, je ___ au football tous les mercredis.",
+      "options": [
+        "joue",
+        "ai joué",
+        "jouais",
+        "jouerai"
+      ],
+      "answer": 2,
+      "explanation": "A repeated habit in the past (« tous les mercredis » when I was little) takes the imparfait: « je jouais »."
+    },
+    {
+      "id": "pl10",
+      "type": "mcq",
+      "band": "A2+",
+      "level": "A2+",
+      "skill": "structures",
+      "grammarTag": "pc-vs-imparfait",
+      "prompt": "Choose the correct tense.",
+      "promptFr": "Je regardais la télévision quand le téléphone ___.",
+      "options": [
+        "sonne",
+        "a sonné",
+        "sonnait",
+        "avait sonné"
+      ],
+      "answer": 1,
+      "explanation": "The imparfait (« je regardais ») sets the background; a sudden event that interrupts it takes the passé composé: « le téléphone a sonné »."
+    },
+    {
+      "id": "pl11",
+      "type": "mcq",
+      "band": "A2+",
+      "level": "A2+",
+      "skill": "structures",
+      "grammarTag": "coi",
+      "prompt": "Choose the correct pronoun.",
+      "promptFr": "Tu as écrit à tes parents ? — Oui, je ___ ai écrit hier.",
+      "options": [
+        "les",
+        "leurs",
+        "lui",
+        "leur"
+      ],
+      "answer": 3,
+      "explanation": "Écrire à quelqu'un takes an indirect object. For several people (tes parents) the pronoun is « leur », which never takes an -s. « Lui » is singular; « les » is a direct object pronoun."
+    },
+    {
+      "id": "pl12",
+      "type": "mcq",
+      "band": "A2+",
+      "level": "A2+",
+      "skill": "structures",
+      "grammarTag": "y-en",
+      "prompt": "Choose the correct pronoun.",
+      "promptFr": "Tu vas souvent à la bibliothèque ? — Oui, j'___ vais le samedi.",
+      "options": [
+        "y",
+        "la",
+        "lui",
+        "en"
+      ],
+      "answer": 0,
+      "explanation": "« Y » replaces a place introduced by à (à la bibliothèque): « j'y vais ». « En » replaces de + noun or a quantity."
+    },
+    {
+      "id": "pl13",
+      "type": "mcq",
+      "band": "A2+",
+      "level": "A2+",
+      "skill": "structures",
+      "grammarTag": "y-en",
+      "prompt": "Choose the correct pronoun.",
+      "promptFr": "Vous voulez des pommes ? — Oui, j'___ prends un kilo.",
+      "options": [
+        "y",
+        "les",
+        "le",
+        "en"
+      ],
+      "answer": 3,
+      "explanation": "With a quantity (un kilo), the noun is replaced by « en »: « j'en prends un kilo ». « Les » would mean all of the specific apples and cannot be used with a quantity."
+    },
+    {
+      "id": "pl14",
+      "type": "mcq",
+      "band": "A2+",
+      "level": "A2+",
+      "skill": "structures",
+      "grammarTag": "futur-simple",
+      "prompt": "Choose the correct verb form.",
+      "promptFr": "Dans dix ans, nous ___ peut-être une maison à la campagne.",
+      "options": [
+        "aurons",
+        "averons",
+        "avions",
+        "avons"
+      ],
+      "answer": 0,
+      "explanation": "« Dans dix ans » refers to the future, so we need the futur simple of avoir, whose stem is irregular: « nous aurons ». « Averons » does not exist."
+    },
+    {
+      "id": "pl15",
+      "type": "mcq",
+      "band": "A2+",
+      "level": "A2+",
+      "skill": "structures",
+      "grammarTag": "relatifs",
+      "prompt": "Choose the correct relative pronoun.",
+      "promptFr": "Le livre ___ tu m'as prêté est passionnant.",
+      "options": [
+        "qui",
+        "dont",
+        "que",
+        "où"
+      ],
+      "answer": 2,
+      "explanation": "« Le livre » is the direct object of « tu m'as prêté » (the subject is tu), so the relative pronoun is « que ». « Qui » would be the subject of the verb."
+    },
+    {
+      "id": "pl16",
+      "type": "mcq",
+      "band": "A2+",
+      "level": "A2+",
+      "skill": "reading",
+      "grammarTag": "futur-simple",
+      "prompt": "Read the email. What does Karim ask Madame Roux to do?",
+      "promptFr": "Bonjour Madame Roux, je ne pourrai pas assister à la réunion de jeudi, car je serai en déplacement à Lille. Pourriez-vous m'envoyer le compte rendu ? Merci d'avance. Karim Benali",
+      "options": [
+        "Book him a train ticket to Lille",
+        "Send him the minutes of the meeting",
+        "Meet him in Lille on Thursday",
+        "Move the meeting to another day"
+      ],
+      "answer": 1,
+      "explanation": "Karim will be away (« je serai en déplacement ») and asks « Pourriez-vous m'envoyer le compte rendu ? » — the written report (minutes) of the meeting. He does not ask to change the date."
+    },
+    {
+      "id": "pl17",
+      "type": "mcq",
+      "band": "B1",
+      "level": "B1",
+      "skill": "structures",
+      "grammarTag": "subjonctif",
+      "prompt": "Choose the correct verb form.",
+      "promptFr": "Il faut que tu ___ ce dossier avant vendredi.",
+      "options": [
+        "finisses",
+        "finis",
+        "finirais",
+        "finiras"
+      ],
+      "answer": 0,
+      "explanation": "« Il faut que » is always followed by the subjunctive: « que tu finisses ». « Finis » is the present indicative."
+    },
+    {
+      "id": "pl18",
+      "type": "mcq",
+      "band": "B1",
+      "level": "B1",
+      "skill": "structures",
+      "grammarTag": "conditionnel",
+      "prompt": "Choose the correct verb form.",
+      "promptFr": "Si j'avais plus de temps, j'___ le piano.",
+      "options": [
+        "apprenais",
+        "apprends",
+        "apprendrais",
+        "apprendrai"
+      ],
+      "answer": 2,
+      "explanation": "Si + imparfait (« si j'avais ») is followed by the conditionnel présent: « j'apprendrais ». The futur « apprendrai » goes with si + present."
+    },
+    {
+      "id": "pl19",
+      "type": "mcq",
+      "band": "B1",
+      "level": "B1",
+      "skill": "structures",
+      "grammarTag": "dont",
+      "prompt": "Choose the correct relative pronoun.",
+      "promptFr": "C'est le film ___ tout le monde parle en ce moment.",
+      "options": [
+        "où",
+        "dont",
+        "qui",
+        "que"
+      ],
+      "answer": 1,
+      "explanation": "The verb is « parler de quelque chose ». A relative pronoun replacing de + noun is « dont »."
+    },
+    {
+      "id": "pl20",
+      "type": "mcq",
+      "band": "B1",
+      "level": "B1",
+      "skill": "structures",
+      "grammarTag": "connecteurs",
+      "prompt": "Choose the connector that makes sense.",
+      "promptFr": "Il a beaucoup révisé ; ___, il a raté son examen.",
+      "options": [
+        "par conséquent",
+        "donc",
+        "c'est pourquoi",
+        "pourtant"
+      ],
+      "answer": 3,
+      "explanation": "Failing after studying a lot is an unexpected contrast, so we need « pourtant » (yet / and yet). The other three express a logical consequence."
+    },
+    {
+      "id": "pl21",
+      "type": "mcq",
+      "band": "B1",
+      "level": "B1",
+      "skill": "structures",
+      "grammarTag": "discours-indirect",
+      "prompt": "Report the question: « Tu viens ce soir ? »",
+      "promptFr": "Elle m'a demandé ___ je venais ce soir.",
+      "options": [
+        "ce que",
+        "si",
+        "que",
+        "est-ce que"
+      ],
+      "answer": 1,
+      "explanation": "A yes/no question is reported with « si » (whether). « Ce que » reports questions with « qu'est-ce que », and « est-ce que » is never used in reported speech."
+    },
+    {
+      "id": "pl22",
+      "type": "mcq",
+      "band": "B1",
+      "level": "B1",
+      "skill": "structures",
+      "grammarTag": "subjonctif",
+      "prompt": "Choose the correct verb form.",
+      "promptFr": "Je doute qu'il ___ raison sur ce point.",
+      "options": [
+        "ait",
+        "aura",
+        "a",
+        "avait"
+      ],
+      "answer": 0,
+      "explanation": "Expressions of doubt such as « douter que » are followed by the subjunctive. The subjunctive of avoir is « qu'il ait »."
+    },
+    {
+      "id": "pl23",
+      "type": "mcq",
+      "band": "B1",
+      "level": "B1",
+      "skill": "structures",
+      "grammarTag": "vocabulary",
+      "prompt": "Choose the word with the right meaning: the meeting will now take place next week.",
+      "promptFr": "La directrice a ___ la réunion à la semaine prochaine.",
+      "options": [
+        "supporté",
+        "rapporté",
+        "reporté",
+        "emporté"
+      ],
+      "answer": 2,
+      "explanation": "« Reporter » means to postpone. « Rapporter » means to bring back or to report, « emporter » to take away, and « supporter » to put up with."
+    },
+    {
+      "id": "pl24",
+      "type": "mcq",
+      "band": "B1",
+      "level": "B1",
+      "skill": "reading",
+      "grammarTag": "connecteurs",
+      "prompt": "Read the text. What is the main idea?",
+      "promptFr": "Le télétravail séduit de plus en plus de salariés, qui apprécient de ne plus perdre de temps dans les transports. Pourtant, certains regrettent le contact avec leurs collègues et ont du mal à séparer vie professionnelle et vie privée.",
+      "options": [
+        "Working from home improves relations between colleagues",
+        "Most employees prefer to work in the office",
+        "Employees no longer want to work from home",
+        "Remote work is popular but has drawbacks for some employees"
+      ],
+      "answer": 3,
+      "explanation": "The text first gives an advantage (no more time lost commuting), then « pourtant » introduces drawbacks: some miss their colleagues and struggle to separate work and private life."
+    }
+  ]
+}

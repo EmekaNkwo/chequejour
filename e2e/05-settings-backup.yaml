@@ -1,0 +1,22 @@
+# Settings: toggles notifications, opens export (share sheet), cancels reset.
+appId: com.emeka.chequejour
+---
+- launchApp
+- tapOn:
+    id: tab-progress
+- tapOn:
+    id: open-settings
+- assertVisible:
+    id: settings-screen
+- tapOn:
+    id: toggle-word
+- tapOn:
+    id: toggle-word
+- scrollUntilVisible:
+    element:
+      id: reset-progress
+- tapOn:
+    id: reset-progress
+- tapOn: Cancel
+- assertVisible:
+    id: settings-screen

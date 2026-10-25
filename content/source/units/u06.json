@@ -1,0 +1,2165 @@
+{
+  "id": "u06",
+  "order": 6,
+  "level": "A2+",
+  "theme": "Health and the body",
+  "titleFr": "La santé et le corps",
+  "description": "Talk about your body and your health, describe symptoms, make a doctor's appointment and understand advice at the doctor's and the chemist's. Grammar: direct object pronouns le, la, l', les, including in the passé composé and the imperative.",
+  "vocab": [
+    {
+      "id": "u06-w001",
+      "fr": "santé",
+      "en": "health",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "santés",
+      "level": "A2",
+      "core": true,
+      "example": {
+        "fr": "Le sport, c'est bon pour la santé.",
+        "en": "Sport is good for your health."
+      }
+    },
+    {
+      "id": "u06-w002",
+      "fr": "corps",
+      "en": "body",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "corps",
+      "level": "A2",
+      "core": true,
+      "example": {
+        "fr": "Après la randonnée, j'avais mal dans tout le corps.",
+        "en": "After the hike, my whole body ached."
+      }
+    },
+    {
+      "id": "u06-w003",
+      "fr": "tête",
+      "en": "head",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "têtes",
+      "level": "A2",
+      "core": true,
+      "example": {
+        "fr": "J'ai mal à la tête à cause du bruit.",
+        "en": "I have a headache because of the noise."
+      }
+    },
+    {
+      "id": "u06-w004",
+      "fr": "dos",
+      "en": "back",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "dos",
+      "level": "A2",
+      "core": true,
+      "example": {
+        "fr": "Je travaille devant un ordinateur et j'ai souvent mal au dos.",
+        "en": "I work at a computer and my back often hurts."
+      }
+    },
+    {
+      "id": "u06-w005",
+      "fr": "ventre",
+      "en": "stomach, belly",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "ventres",
+      "level": "A2",
+      "core": true,
+      "example": {
+        "fr": "Le petit a mal au ventre, il a mangé trop de bonbons.",
+        "en": "The little one has a stomach ache, he ate too many sweets."
+      }
+    },
+    {
+      "id": "u06-w006",
+      "fr": "gorge",
+      "en": "throat",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "gorges",
+      "level": "A2",
+      "core": true,
+      "example": {
+        "fr": "J'ai mal à la gorge, je ne peux pas chanter ce soir.",
+        "en": "I've got a sore throat, I can't sing tonight."
+      }
+    },
+    {
+      "id": "u06-w007",
+      "fr": "dent",
+      "en": "tooth",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "dents",
+      "level": "A2",
+      "core": true,
+      "example": {
+        "fr": "Brosse-toi les dents avant de te coucher.",
+        "en": "Brush your teeth before going to bed."
+      }
+    },
+    {
+      "id": "u06-w008",
+      "fr": "médecin",
+      "en": "doctor",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "médecins",
+      "level": "A2",
+      "core": true,
+      "example": {
+        "fr": "Si la fièvre continue, appelle le médecin.",
+        "en": "If the fever goes on, call the doctor."
+      }
+    },
+    {
+      "id": "u06-w009",
+      "fr": "rendez-vous",
+      "en": "appointment",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "rendez-vous",
+      "level": "A2",
+      "core": true,
+      "example": {
+        "fr": "J'ai rendez-vous chez le dentiste jeudi à dix heures.",
+        "en": "I've got a dentist's appointment on Thursday at ten."
+      }
+    },
+    {
+      "id": "u06-w010",
+      "fr": "ordonnance",
+      "en": "prescription",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "ordonnances",
+      "level": "A2+",
+      "core": true,
+      "example": {
+        "fr": "Sans ordonnance, le pharmacien ne peut pas vous donner ce médicament.",
+        "en": "Without a prescription, the pharmacist can't give you this medicine."
+      }
+    },
+    {
+      "id": "u06-w011",
+      "fr": "médicament",
+      "en": "medicine, medication",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "médicaments",
+      "level": "A2",
+      "core": true,
+      "example": {
+        "fr": "Gardez les médicaments hors de portée des enfants.",
+        "en": "Keep medicines out of the reach of children."
+      }
+    },
+    {
+      "id": "u06-w012",
+      "fr": "pharmacie",
+      "en": "chemist's, pharmacy",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "pharmacies",
+      "level": "A2",
+      "core": true,
+      "example": {
+        "fr": "Le dimanche, une seule pharmacie est ouverte dans le quartier.",
+        "en": "On Sundays, only one chemist's is open in the neighbourhood."
+      }
+    },
+    {
+      "id": "u06-w013",
+      "fr": "fièvre",
+      "en": "fever, temperature",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "fièvres",
+      "level": "A2",
+      "core": true,
+      "example": {
+        "fr": "Ma fille a de la fièvre depuis hier soir.",
+        "en": "My daughter has had a temperature since last night."
+      }
+    },
+    {
+      "id": "u06-w014",
+      "fr": "rhume",
+      "en": "cold (illness)",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "rhumes",
+      "level": "A2",
+      "core": true,
+      "example": {
+        "fr": "Ce n'est rien de grave, c'est juste un rhume.",
+        "en": "It's nothing serious, it's just a cold."
+      }
+    },
+    {
+      "id": "u06-w015",
+      "fr": "douleur",
+      "en": "pain",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "douleurs",
+      "level": "A2+",
+      "core": true,
+      "example": {
+        "fr": "Montrez-moi où se trouve la douleur.",
+        "en": "Show me where the pain is."
+      }
+    },
+    {
+      "id": "u06-w016",
+      "fr": "malade",
+      "en": "ill, sick",
+      "pos": "adjective",
+      "level": "A2",
+      "core": true,
+      "example": {
+        "fr": "Je suis malade, je ne vais pas au travail aujourd'hui.",
+        "en": "I'm ill, I'm not going to work today."
+      }
+    },
+    {
+      "id": "u06-w017",
+      "fr": "avoir mal à",
+      "en": "to have a pain in, to hurt",
+      "pos": "expression",
+      "level": "A2",
+      "core": true,
+      "example": {
+        "fr": "J'ai mal aux pieds, on a trop marché !",
+        "en": "My feet hurt, we walked too much!"
+      }
+    },
+    {
+      "id": "u06-w018",
+      "fr": "tousser",
+      "en": "to cough",
+      "pos": "verb",
+      "level": "A2",
+      "core": true,
+      "example": {
+        "fr": "Il tousse beaucoup la nuit.",
+        "en": "He coughs a lot at night."
+      }
+    },
+    {
+      "id": "u06-w019",
+      "fr": "se soigner",
+      "en": "to look after oneself, to get treatment",
+      "pos": "verb",
+      "level": "A2+",
+      "core": true,
+      "example": {
+        "fr": "Tu es malade, reste chez toi et soigne-toi bien.",
+        "en": "You're ill, stay at home and look after yourself."
+      }
+    },
+    {
+      "id": "u06-w020",
+      "fr": "se reposer",
+      "en": "to rest",
+      "pos": "verb",
+      "level": "A2",
+      "core": true,
+      "example": {
+        "fr": "Le médecin m'a dit de me reposer pendant trois jours.",
+        "en": "The doctor told me to rest for three days."
+      }
+    },
+    {
+      "id": "u06-w021",
+      "fr": "bras",
+      "en": "arm",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "bras",
+      "level": "A2",
+      "core": false,
+      "example": {
+        "fr": "Il s'est cassé le bras en tombant de vélo.",
+        "en": "He broke his arm falling off his bike."
+      }
+    },
+    {
+      "id": "u06-w022",
+      "fr": "jambe",
+      "en": "leg",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "jambes",
+      "level": "A2",
+      "core": false,
+      "example": {
+        "fr": "Après le match, j'avais les jambes très fatiguées.",
+        "en": "After the match my legs were very tired."
+      }
+    },
+    {
+      "id": "u06-w023",
+      "fr": "genou",
+      "en": "knee",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "genoux",
+      "level": "A2",
+      "core": false,
+      "example": {
+        "fr": "Je me suis fait mal au genou en courant.",
+        "en": "I hurt my knee while running."
+      }
+    },
+    {
+      "id": "u06-w024",
+      "fr": "pied",
+      "en": "foot",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "pieds",
+      "level": "A2",
+      "core": false,
+      "example": {
+        "fr": "Ces chaussures sont trop petites, elles me font mal aux pieds.",
+        "en": "These shoes are too small, they hurt my feet."
+      }
+    },
+    {
+      "id": "u06-w025",
+      "fr": "main",
+      "en": "hand",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "mains",
+      "level": "A2",
+      "core": false,
+      "example": {
+        "fr": "Lave-toi les mains avant de manger.",
+        "en": "Wash your hands before eating."
+      }
+    },
+    {
+      "id": "u06-w026",
+      "fr": "épaule",
+      "en": "shoulder",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "épaules",
+      "level": "A2",
+      "core": false,
+      "example": {
+        "fr": "Je porte mon sac sur l'épaule droite.",
+        "en": "I carry my bag on my right shoulder."
+      }
+    },
+    {
+      "id": "u06-w027",
+      "fr": "cou",
+      "en": "neck",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "cous",
+      "level": "A2",
+      "core": false,
+      "example": {
+        "fr": "Mets une écharpe autour du cou, il fait froid.",
+        "en": "Put a scarf round your neck, it's cold."
+      }
+    },
+    {
+      "id": "u06-w028",
+      "fr": "œil",
+      "en": "eye",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "yeux",
+      "level": "A2",
+      "core": false,
+      "example": {
+        "fr": "J'ai quelque chose dans l'œil, ça me gêne.",
+        "en": "I've got something in my eye, it's bothering me."
+      }
+    },
+    {
+      "id": "u06-w029",
+      "fr": "oreille",
+      "en": "ear",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "oreilles",
+      "level": "A2",
+      "core": false,
+      "example": {
+        "fr": "Les enfants ont souvent mal aux oreilles en hiver.",
+        "en": "Children often get earache in winter."
+      }
+    },
+    {
+      "id": "u06-w030",
+      "fr": "nez",
+      "en": "nose",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "nez",
+      "level": "A2",
+      "core": false,
+      "example": {
+        "fr": "J'ai le nez qui coule depuis ce matin.",
+        "en": "My nose has been running since this morning."
+      }
+    },
+    {
+      "id": "u06-w031",
+      "fr": "cœur",
+      "en": "heart",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "cœurs",
+      "level": "A2",
+      "core": false,
+      "example": {
+        "fr": "Après la course, mon cœur battait très vite.",
+        "en": "After the race my heart was beating very fast."
+      }
+    },
+    {
+      "id": "u06-w032",
+      "fr": "peau",
+      "en": "skin",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "peaux",
+      "level": "A2+",
+      "core": false,
+      "example": {
+        "fr": "Mettez de la crème solaire pour protéger votre peau.",
+        "en": "Put on sun cream to protect your skin."
+      }
+    },
+    {
+      "id": "u06-w033",
+      "fr": "estomac",
+      "en": "stomach",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "estomacs",
+      "level": "A2+",
+      "core": false,
+      "example": {
+        "fr": "Ne prenez pas ce médicament l'estomac vide.",
+        "en": "Don't take this medicine on an empty stomach."
+      }
+    },
+    {
+      "id": "u06-w034",
+      "fr": "doigt",
+      "en": "finger",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "doigts",
+      "level": "A2",
+      "core": false,
+      "example": {
+        "fr": "Je me suis coupé le doigt en préparant le dîner.",
+        "en": "I cut my finger while making dinner."
+      }
+    },
+    {
+      "id": "u06-w035",
+      "fr": "poitrine",
+      "en": "chest",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "poitrines",
+      "level": "A2+",
+      "core": false,
+      "example": {
+        "fr": "Si vous avez une douleur dans la poitrine, appelez le 15.",
+        "en": "If you have a pain in your chest, call 15 (the emergency number)."
+      }
+    },
+    {
+      "id": "u06-w036",
+      "fr": "cabinet médical",
+      "en": "doctor's surgery, medical practice",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "cabinets médicaux",
+      "level": "A2+",
+      "core": false,
+      "example": {
+        "fr": "Le cabinet médical est au premier étage, à côté de la pharmacie.",
+        "en": "The doctor's surgery is on the first floor, next to the chemist's."
+      }
+    },
+    {
+      "id": "u06-w037",
+      "fr": "hôpital",
+      "en": "hospital",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "hôpitaux",
+      "level": "A2",
+      "core": false,
+      "example": {
+        "fr": "Ma grand-mère est restée trois jours à l'hôpital.",
+        "en": "My grandmother stayed in hospital for three days."
+      }
+    },
+    {
+      "id": "u06-w038",
+      "fr": "urgences",
+      "en": "accident and emergency (A&E)",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "urgences",
+      "level": "A2+",
+      "core": false,
+      "example": {
+        "fr": "Il s'est coupé la main, on l'a emmené aux urgences.",
+        "en": "He cut his hand, so we took him to A&E."
+      },
+      "pluralOnly": true
+    },
+    {
+      "id": "u06-w039",
+      "fr": "infirmier",
+      "en": "nurse (infirmière for a woman)",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "infirmiers",
+      "level": "A2",
+      "core": false,
+      "example": {
+        "fr": "Une infirmière passe chez mon père tous les matins.",
+        "en": "A nurse comes to my father's every morning."
+      }
+    },
+    {
+      "id": "u06-w040",
+      "fr": "pharmacien",
+      "en": "pharmacist (pharmacienne for a woman)",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "pharmaciens",
+      "level": "A2+",
+      "core": false,
+      "example": {
+        "fr": "Demandez conseil au pharmacien avant de prendre ce sirop.",
+        "en": "Ask the pharmacist for advice before taking this syrup."
+      }
+    },
+    {
+      "id": "u06-w041",
+      "fr": "dentiste",
+      "en": "dentist",
+      "pos": "noun",
+      "gender": "mf",
+      "plural": "dentistes",
+      "level": "A2",
+      "core": false,
+      "example": {
+        "fr": "Je vais chez le dentiste une fois par an.",
+        "en": "I go to the dentist once a year."
+      }
+    },
+    {
+      "id": "u06-w042",
+      "fr": "généraliste",
+      "en": "GP, general practitioner",
+      "pos": "noun",
+      "gender": "mf",
+      "plural": "généralistes",
+      "level": "A2+",
+      "core": false,
+      "example": {
+        "fr": "Pour voir un spécialiste, passez d'abord chez votre généraliste.",
+        "en": "To see a specialist, go to your GP first."
+      }
+    },
+    {
+      "id": "u06-w043",
+      "fr": "patient",
+      "en": "patient",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "patients",
+      "level": "A2+",
+      "core": false,
+      "example": {
+        "fr": "Le médecin reçoit ses patients sans rendez-vous le mardi.",
+        "en": "The doctor sees patients without an appointment on Tuesdays."
+      }
+    },
+    {
+      "id": "u06-w044",
+      "fr": "grippe",
+      "en": "flu",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "grippes",
+      "level": "A2",
+      "core": false,
+      "example": {
+        "fr": "Toute la famille a eu la grippe en janvier.",
+        "en": "The whole family had flu in January."
+      }
+    },
+    {
+      "id": "u06-w045",
+      "fr": "toux",
+      "en": "cough",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "toux",
+      "level": "A2+",
+      "core": false,
+      "example": {
+        "fr": "Ce sirop est bon contre la toux.",
+        "en": "This syrup is good for a cough."
+      }
+    },
+    {
+      "id": "u06-w046",
+      "fr": "allergie",
+      "en": "allergy",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "allergies",
+      "level": "A2+",
+      "core": false,
+      "example": {
+        "fr": "Au printemps, j'ai des allergies au pollen.",
+        "en": "In spring I have pollen allergies."
+      }
+    },
+    {
+      "id": "u06-w047",
+      "fr": "blessure",
+      "en": "injury, wound",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "blessures",
+      "level": "A2+",
+      "core": false,
+      "example": {
+        "fr": "Heureusement, sa blessure n'est pas grave.",
+        "en": "Luckily, his injury isn't serious."
+      }
+    },
+    {
+      "id": "u06-w048",
+      "fr": "mal de tête",
+      "en": "headache",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "maux de tête",
+      "level": "A2",
+      "core": false,
+      "example": {
+        "fr": "Les écrans me donnent souvent des maux de tête.",
+        "en": "Screens often give me headaches."
+      }
+    },
+    {
+      "id": "u06-w049",
+      "fr": "vaccin",
+      "en": "vaccine",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "vaccins",
+      "level": "A2+",
+      "core": false,
+      "example": {
+        "fr": "Le vaccin contre la grippe est conseillé aux personnes âgées.",
+        "en": "The flu vaccine is recommended for elderly people."
+      }
+    },
+    {
+      "id": "u06-w050",
+      "fr": "consultation",
+      "en": "consultation, doctor's visit",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "consultations",
+      "level": "A2+",
+      "core": false,
+      "example": {
+        "fr": "La consultation coûte trente euros.",
+        "en": "The consultation costs thirty euros."
+      }
+    },
+    {
+      "id": "u06-w051",
+      "fr": "carte Vitale",
+      "en": "French health insurance card",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "cartes Vitale",
+      "level": "A2+",
+      "core": false,
+      "example": {
+        "fr": "N'oubliez pas votre carte Vitale pour être remboursé.",
+        "en": "Don't forget your health insurance card so you get reimbursed."
+      }
+    },
+    {
+      "id": "u06-w052",
+      "fr": "mutuelle",
+      "en": "top-up health insurance",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "mutuelles",
+      "level": "A2+",
+      "core": false,
+      "example": {
+        "fr": "Ma mutuelle rembourse une partie de mes lunettes.",
+        "en": "My top-up insurance pays back part of the cost of my glasses."
+      }
+    },
+    {
+      "id": "u06-w053",
+      "fr": "comprimé",
+      "en": "tablet, pill",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "comprimés",
+      "level": "A2+",
+      "core": false,
+      "example": {
+        "fr": "Prenez un comprimé matin et soir avec un verre d'eau.",
+        "en": "Take one tablet morning and evening with a glass of water."
+      }
+    },
+    {
+      "id": "u06-w054",
+      "fr": "sirop",
+      "en": "syrup (medicine)",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "sirops",
+      "level": "A2+",
+      "core": false,
+      "example": {
+        "fr": "Le pharmacien m'a conseillé un sirop pour la toux.",
+        "en": "The pharmacist recommended a cough syrup."
+      }
+    },
+    {
+      "id": "u06-w055",
+      "fr": "pommade",
+      "en": "ointment, cream",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "pommades",
+      "level": "A2+",
+      "core": false,
+      "example": {
+        "fr": "Mettez cette pommade sur votre genou deux fois par jour.",
+        "en": "Put this ointment on your knee twice a day."
+      }
+    },
+    {
+      "id": "u06-w056",
+      "fr": "pansement",
+      "en": "plaster, dressing",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "pansements",
+      "level": "A2+",
+      "core": false,
+      "example": {
+        "fr": "Tu as un pansement ? Je me suis coupé.",
+        "en": "Have you got a plaster? I've cut myself."
+      }
+    },
+    {
+      "id": "u06-w057",
+      "fr": "thermomètre",
+      "en": "thermometer",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "thermomètres",
+      "level": "A2+",
+      "core": false,
+      "example": {
+        "fr": "Prends ta température avec le thermomètre.",
+        "en": "Take your temperature with the thermometer."
+      }
+    },
+    {
+      "id": "u06-w058",
+      "fr": "se blesser",
+      "en": "to injure oneself, to get hurt",
+      "pos": "verb",
+      "level": "A2+",
+      "core": false,
+      "example": {
+        "fr": "Elle s'est blessée pendant le match de handball.",
+        "en": "She got injured during the handball match."
+      }
+    },
+    {
+      "id": "u06-w059",
+      "fr": "se casser",
+      "en": "to break (a part of one's body)",
+      "pos": "verb",
+      "level": "A2+",
+      "core": false,
+      "example": {
+        "fr": "Mon frère s'est cassé la jambe au ski.",
+        "en": "My brother broke his leg skiing."
+      }
+    },
+    {
+      "id": "u06-w060",
+      "fr": "se sentir",
+      "en": "to feel",
+      "pos": "verb",
+      "level": "A2+",
+      "core": false,
+      "example": {
+        "fr": "Je ne me sens pas bien, je vais rentrer.",
+        "en": "I don't feel well, I'm going home."
+      }
+    },
+    {
+      "id": "u06-w061",
+      "fr": "guérir",
+      "en": "to recover, to get better; to cure",
+      "pos": "verb",
+      "level": "A2+",
+      "core": false,
+      "example": {
+        "fr": "Avec du repos, tu vas vite guérir.",
+        "en": "With some rest, you'll soon get better."
+      }
+    },
+    {
+      "id": "u06-w062",
+      "fr": "examiner",
+      "en": "to examine",
+      "pos": "verb",
+      "level": "A2+",
+      "core": false,
+      "example": {
+        "fr": "Le médecin m'a examiné pendant dix minutes.",
+        "en": "The doctor examined me for ten minutes."
+      }
+    },
+    {
+      "id": "u06-w063",
+      "fr": "prescrire",
+      "en": "to prescribe",
+      "pos": "verb",
+      "level": "A2+",
+      "core": false,
+      "example": {
+        "fr": "Le médecin lui a prescrit des antibiotiques.",
+        "en": "The doctor prescribed him antibiotics."
+      }
+    },
+    {
+      "id": "u06-w064",
+      "fr": "respirer",
+      "en": "to breathe",
+      "pos": "verb",
+      "level": "A2",
+      "core": false,
+      "example": {
+        "fr": "Respirez profondément, puis toussez.",
+        "en": "Breathe deeply, then cough."
+      }
+    },
+    {
+      "id": "u06-w065",
+      "fr": "éternuer",
+      "en": "to sneeze",
+      "pos": "verb",
+      "level": "A2+",
+      "core": false,
+      "example": {
+        "fr": "J'éternue tout le temps quand il y a un chat.",
+        "en": "I sneeze all the time when there's a cat around."
+      }
+    },
+    {
+      "id": "u06-w066",
+      "fr": "avaler",
+      "en": "to swallow",
+      "pos": "verb",
+      "level": "A2+",
+      "core": false,
+      "example": {
+        "fr": "J'ai tellement mal à la gorge que je ne peux pas avaler.",
+        "en": "My throat is so sore that I can't swallow."
+      }
+    },
+    {
+      "id": "u06-w067",
+      "fr": "prendre rendez-vous",
+      "en": "to make an appointment",
+      "pos": "expression",
+      "level": "A2",
+      "core": false,
+      "example": {
+        "fr": "J'ai pris rendez-vous en ligne pour lundi.",
+        "en": "I made an appointment online for Monday."
+      }
+    },
+    {
+      "id": "u06-w068",
+      "fr": "se faire mal",
+      "en": "to hurt oneself",
+      "pos": "expression",
+      "level": "A2+",
+      "core": false,
+      "example": {
+        "fr": "Attention, tu vas te faire mal !",
+        "en": "Careful, you're going to hurt yourself!"
+      }
+    },
+    {
+      "id": "u06-w069",
+      "fr": "épuisé",
+      "en": "exhausted",
+      "pos": "adjective",
+      "level": "A2+",
+      "core": false,
+      "example": {
+        "fr": "Après une semaine de grippe, je suis épuisée.",
+        "en": "After a week of flu, I'm exhausted."
+      }
+    },
+    {
+      "id": "u06-w070",
+      "fr": "enrhumé",
+      "en": "having a cold",
+      "pos": "adjective",
+      "level": "A2+",
+      "core": false,
+      "example": {
+        "fr": "Je suis enrhumé, je ne veux pas te contaminer.",
+        "en": "I've got a cold, I don't want to give it to you."
+      }
+    },
+    {
+      "id": "u06-w071",
+      "fr": "grave",
+      "en": "serious",
+      "pos": "adjective",
+      "level": "A2",
+      "core": false,
+      "example": {
+        "fr": "Ne t'inquiète pas, ce n'est pas grave.",
+        "en": "Don't worry, it's not serious."
+      }
+    },
+    {
+      "id": "u06-w072",
+      "fr": "contagieux / contagieuse",
+      "en": "contagious",
+      "pos": "adjective",
+      "level": "A2+",
+      "core": false,
+      "example": {
+        "fr": "La grippe est très contagieuse, restez chez vous.",
+        "en": "Flu is very contagious, stay at home."
+      }
+    },
+    {
+      "id": "u06-w073",
+      "fr": "allergique",
+      "en": "allergic",
+      "pos": "adjective",
+      "level": "A2+",
+      "core": false,
+      "example": {
+        "fr": "Je suis allergique à la pénicilline.",
+        "en": "I'm allergic to penicillin."
+      }
+    },
+    {
+      "id": "u06-w074",
+      "fr": "en forme",
+      "en": "fit, in good shape, well",
+      "pos": "expression",
+      "level": "A2",
+      "core": false,
+      "example": {
+        "fr": "Tu as l'air en forme aujourd'hui !",
+        "en": "You look well today!"
+      }
+    },
+    {
+      "id": "u06-w075",
+      "fr": "qu'est-ce qui ne va pas ?",
+      "en": "what's wrong?",
+      "pos": "expression",
+      "level": "A2+",
+      "core": false,
+      "example": {
+        "fr": "Vous êtes tout pâle. Qu'est-ce qui ne va pas ?",
+        "en": "You're very pale. What's wrong?"
+      }
+    },
+    {
+      "id": "u06-w076",
+      "fr": "bon rétablissement !",
+      "en": "get well soon!",
+      "pos": "expression",
+      "level": "A2+",
+      "core": false,
+      "example": {
+        "fr": "J'ai appris que tu étais à l'hôpital. Bon rétablissement !",
+        "en": "I heard you were in hospital. Get well soon!"
+      }
+    },
+    {
+      "id": "u06-w077",
+      "fr": "arrêt maladie",
+      "en": "sick leave, sick note",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "arrêts maladie",
+      "level": "A2+",
+      "core": false,
+      "example": {
+        "fr": "Le médecin m'a donné un arrêt maladie de trois jours.",
+        "en": "The doctor signed me off sick for three days."
+      }
+    },
+    {
+      "id": "u06-w078",
+      "fr": "être en bonne santé",
+      "en": "to be in good health",
+      "pos": "expression",
+      "level": "A2",
+      "core": false,
+      "example": {
+        "fr": "Mon grand-père a quatre-vingt-dix ans et il est en bonne santé.",
+        "en": "My grandfather is ninety and in good health."
+      }
+    },
+    {
+      "id": "u06-w079",
+      "fr": "avoir mal au cœur",
+      "en": "to feel sick, to feel nauseous",
+      "pos": "expression",
+      "level": "A2+",
+      "core": false,
+      "example": {
+        "fr": "En voiture, j'ai souvent mal au cœur.",
+        "en": "I often feel sick in the car."
+      }
+    },
+    {
+      "id": "u06-w080",
+      "fr": "trois fois par jour",
+      "en": "three times a day",
+      "pos": "expression",
+      "level": "A2",
+      "core": false,
+      "example": {
+        "fr": "Prenez ce sirop trois fois par jour, après les repas.",
+        "en": "Take this syrup three times a day, after meals."
+      }
+    },
+    {
+      "id": "u06-w081",
+      "fr": "à jeun",
+      "en": "on an empty stomach, without eating",
+      "pos": "expression",
+      "level": "A2+",
+      "core": false,
+      "example": {
+        "fr": "Pour la prise de sang, il faut venir à jeun.",
+        "en": "For the blood test, you must come without having eaten."
+      }
+    },
+    {
+      "id": "u06-w082",
+      "fr": "sommeil",
+      "en": "sleep",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "sommeils",
+      "level": "A2+",
+      "core": false,
+      "example": {
+        "fr": "Le sommeil est essentiel pour être en forme.",
+        "en": "Sleep is essential to stay fit."
+      }
+    },
+    {
+      "id": "u06-w083",
+      "fr": "garder le lit",
+      "en": "to stay in bed (when ill)",
+      "pos": "expression",
+      "level": "A2+",
+      "core": false,
+      "example": {
+        "fr": "Avec cette fièvre, tu dois garder le lit.",
+        "en": "With that temperature, you need to stay in bed."
+      }
+    },
+    {
+      "id": "u06-w084",
+      "fr": "soulager",
+      "en": "to relieve, to ease",
+      "pos": "verb",
+      "level": "A2+",
+      "core": false,
+      "example": {
+        "fr": "Ce médicament soulage la douleur en quelques minutes.",
+        "en": "This medicine relieves the pain in a few minutes."
+      }
+    }
+  ],
+  "grammar": [
+    {
+      "id": "u06-g01",
+      "title": "Direct object pronouns: le, la, l', les",
+      "level": "A2+",
+      "grammarTag": "cod",
+      "explanation": [
+        "A direct object is the person or thing that receives the action of the verb directly, with no preposition: Je prends le sirop. J'appelle le médecin. To avoid repeating it, French replaces it with a direct object pronoun: le (masculine singular), la (feminine singular), l' (le or la before a vowel or silent h) and les (plural). Je le prends. Je l'appelle.",
+        "The pronoun agrees with the noun it replaces, not with the English \"it\" or \"them\": la pommade → la; le comprimé → le; les médicaments → les. So \"I take it\" can be je le prends or je la prends, depending on the gender of the French noun.",
+        "Unlike English, the pronoun goes before the conjugated verb: Je la mets le soir (I put it on in the evening). In the negative, ne… pas goes around the pronoun and the verb: Je ne la mets pas. Je ne les trouve plus.",
+        "With two verbs (vouloir, pouvoir, devoir, aller + infinitive), the pronoun goes before the infinitive, because it is the object of that verb: Je vais l'appeler. Tu dois les prendre après le repas. Vous pouvez la mettre sur le genou.",
+        "The same position rule applies to me, te, nous and vous, which can be direct objects too: Le médecin m'examine. Je vous appelle demain. Remember: le, la, les are only for direct objects. With verbs that take à (téléphoner à, parler à), you will need indirect pronouns (lui, leur), which you will study in the next unit."
+      ],
+      "table": [
+        [
+          "Noun",
+          "Pronoun",
+          "Example"
+        ],
+        [
+          "le médecin (m. sing.)",
+          "le",
+          "Je le connais bien."
+        ],
+        [
+          "la pommade (f. sing.)",
+          "la",
+          "Je la mets le soir."
+        ],
+        [
+          "l'ordonnance (before a vowel)",
+          "l'",
+          "Je l'ai dans mon sac."
+        ],
+        [
+          "les comprimés (plural)",
+          "les",
+          "Je les prends avec de l'eau."
+        ],
+        [
+          "negative",
+          "ne + pronoun + verb + pas",
+          "Je ne les prends pas."
+        ],
+        [
+          "with an infinitive",
+          "verb + pronoun + infinitive",
+          "Je vais les prendre."
+        ]
+      ],
+      "examples": [
+        {
+          "fr": "Mon médecin ? Je le vois deux fois par an.",
+          "en": "My doctor? I see him twice a year."
+        },
+        {
+          "fr": "Cette pommade, je la mets sur mon genou matin et soir.",
+          "en": "This cream — I put it on my knee morning and evening."
+        },
+        {
+          "fr": "Les comprimés ? Je les prends pendant le repas.",
+          "en": "The tablets? I take them with my meal."
+        },
+        {
+          "fr": "Ton ordonnance, tu l'as ?",
+          "en": "Your prescription — have you got it?"
+        },
+        {
+          "fr": "Je ne trouve pas le thermomètre. Tu le vois ?",
+          "en": "I can't find the thermometer. Can you see it?"
+        },
+        {
+          "fr": "Le docteur Lambert est en vacances, je vais l'appeler la semaine prochaine.",
+          "en": "Dr Lambert is on holiday, I'll call him next week."
+        },
+        {
+          "fr": "Ces médicaments sont dangereux pour les enfants : ne les laissez pas sur la table.",
+          "en": "These medicines are dangerous for children: don't leave them on the table."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "Je prends le tous les soirs.",
+          "right": "Je le prends tous les soirs.",
+          "why": "The object pronoun goes before the conjugated verb, not after it as in English."
+        },
+        {
+          "wrong": "Je le vais appeler.",
+          "right": "Je vais l'appeler.",
+          "why": "With two verbs, the pronoun goes before the infinitive it depends on."
+        },
+        {
+          "wrong": "La pommade ? Je le mets le soir.",
+          "right": "La pommade ? Je la mets le soir.",
+          "why": "The pronoun takes the gender of the French noun: pommade is feminine."
+        },
+        {
+          "wrong": "Je ne prends les pas.",
+          "right": "Je ne les prends pas.",
+          "why": "Ne goes before the pronoun, and pas after the verb."
+        }
+      ]
+    },
+    {
+      "id": "u06-g02",
+      "title": "Object pronouns in the passé composé and the imperative",
+      "level": "A2+",
+      "grammarTag": "cod",
+      "explanation": [
+        "In the passé composé, the object pronoun goes before the auxiliary avoir (or être): Le sirop ? Je l'ai acheté hier. Les médecins ? Je les ai vus ce matin. In the negative: Je ne l'ai pas pris. Je ne les ai pas vus.",
+        "Important: when a direct object comes before avoir, the past participle agrees with it in gender and number, like an adjective. Add -e for a feminine singular object, -s for a masculine plural and -es for a feminine plural: L'ordonnance ? Je l'ai oubliée. Les comprimés ? Je les ai pris. Les pommades ? Je les ai achetées. For many verbs, the agreement can't be heard (oubliée sounds like oublié), but you must write it. With verbs like mettre, prendre or faire, you can hear it: je l'ai mise, je l'ai prise, je l'ai faite.",
+        "If the object comes after the verb, there is no agreement: J'ai oublié l'ordonnance. The agreement only happens when the direct object is placed before the verb.",
+        "In an affirmative imperative, the pronoun goes after the verb, joined by a hyphen: Prends-le ! Mettez-la sur la blessure. Appelle-les. In a negative imperative, it goes back before the verb: Ne le prends pas ! Ne la mettez pas sur les yeux.",
+        "With me and te in the affirmative imperative, use the stressed forms moi and toi: Aidez-moi ! Écoute-moi. Repose-toi. (In the negative: Ne me regarde pas. Ne te lève pas.)"
+      ],
+      "table": [
+        [
+          "Situation",
+          "Masculine",
+          "Feminine",
+          "Plural"
+        ],
+        [
+          "Passé composé",
+          "Je l'ai pris.",
+          "Je l'ai prise.",
+          "Je les ai pris / prises."
+        ],
+        [
+          "Negative passé composé",
+          "Je ne l'ai pas oublié.",
+          "Je ne l'ai pas oubliée.",
+          "Je ne les ai pas oubliés / oubliées."
+        ],
+        [
+          "Affirmative imperative",
+          "Prends-le.",
+          "Prends-la.",
+          "Prends-les."
+        ],
+        [
+          "Negative imperative",
+          "Ne le prends pas.",
+          "Ne la prends pas.",
+          "Ne les prends pas."
+        ]
+      ],
+      "examples": [
+        {
+          "fr": "Ta carte Vitale ? Je l'ai trouvée dans la voiture.",
+          "en": "Your health card? I found it in the car."
+        },
+        {
+          "fr": "Les résultats ? Le médecin les a envoyés ce matin.",
+          "en": "The results? The doctor sent them this morning."
+        },
+        {
+          "fr": "Ma grand-mère est tombée, les pompiers l'ont emmenée à l'hôpital.",
+          "en": "My grandmother fell, and the fire brigade took her to hospital."
+        },
+        {
+          "fr": "Je n'ai pas pris mes comprimés : je les ai oubliés sur la table.",
+          "en": "I didn't take my tablets: I left them on the table."
+        },
+        {
+          "fr": "Ce sirop, prends-le avant de dormir.",
+          "en": "This syrup — take it before you go to sleep."
+        },
+        {
+          "fr": "Les lunettes de ton père ? Ne les touche pas !",
+          "en": "Your father's glasses? Don't touch them!"
+        },
+        {
+          "fr": "Tu es fatigué ? Repose-toi un peu.",
+          "en": "You're tired? Rest a little."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "J'ai la oubliée.",
+          "right": "Je l'ai oubliée.",
+          "why": "The pronoun goes before the auxiliary, and la becomes l' before ai."
+        },
+        {
+          "wrong": "La pommade ? Je l'ai mis sur mon bras.",
+          "right": "La pommade ? Je l'ai mise sur mon bras.",
+          "why": "The direct object (la pommade) comes before avoir, so the participle agrees: mise."
+        },
+        {
+          "wrong": "Le prends !",
+          "right": "Prends-le !",
+          "why": "In an affirmative imperative, the pronoun goes after the verb with a hyphen."
+        },
+        {
+          "wrong": "Ne prends-le pas !",
+          "right": "Ne le prends pas !",
+          "why": "In a negative imperative, the pronoun goes back before the verb."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "u06-ex01",
+      "type": "mcq",
+      "level": "A2+",
+      "skill": "structures",
+      "grammarTag": "cod",
+      "prompt": "Choose the correct pronoun.",
+      "promptFr": "Tu prends ton médicament ? — Oui, je ___ prends le soir.",
+      "options": [
+        "le",
+        "la",
+        "les",
+        "lui"
+      ],
+      "answer": 0,
+      "explanation": "Médicament is masculine singular, so le. Lui is an indirect pronoun (to him/her)."
+    },
+    {
+      "id": "u06-ex02",
+      "type": "mcq",
+      "level": "A2+",
+      "skill": "structures",
+      "grammarTag": "cod",
+      "prompt": "Choose the correct pronoun.",
+      "promptFr": "Les comprimés ? Je ne ___ trouve pas.",
+      "options": [
+        "les",
+        "le",
+        "y",
+        "leur"
+      ],
+      "answer": 0,
+      "explanation": "Les comprimés is a plural direct object, so les. Leur is indirect, and y replaces a place."
+    },
+    {
+      "id": "u06-ex03",
+      "type": "mcq",
+      "level": "A2+",
+      "skill": "structures",
+      "grammarTag": "cod",
+      "prompt": "Choose the correct form.",
+      "promptFr": "L'ordonnance ? Je ___ ai oubliée à la maison.",
+      "options": [
+        "l'",
+        "la",
+        "le",
+        "lui"
+      ],
+      "answer": 0,
+      "explanation": "La becomes l' before the vowel of ai. The participle oubliée shows the object is feminine."
+    },
+    {
+      "id": "u06-ex04",
+      "type": "mcq",
+      "level": "A2+",
+      "skill": "structures",
+      "grammarTag": "accord",
+      "prompt": "Choose the correct past participle.",
+      "promptFr": "Ces médicaments, je les ai ___ à la pharmacie.",
+      "options": [
+        "achetés",
+        "acheté",
+        "achetées",
+        "achetée"
+      ],
+      "answer": 0,
+      "explanation": "The direct object les (= ces médicaments, masculine plural) comes before avoir, so the participle takes -s: achetés."
+    },
+    {
+      "id": "u06-ex05",
+      "type": "mcq",
+      "level": "A2+",
+      "skill": "structures",
+      "grammarTag": "cod",
+      "prompt": "Choose the correct imperative.",
+      "promptFr": "Ton sirop, ___ avant de dormir !",
+      "options": [
+        "prends-le",
+        "le prends",
+        "prends-la",
+        "prend-le"
+      ],
+      "answer": 0,
+      "explanation": "Affirmative imperative: the pronoun goes after the verb with a hyphen. Sirop is masculine (le), and prendre keeps its -s in the tu form."
+    },
+    {
+      "id": "u06-ex06",
+      "type": "fill_blank",
+      "level": "A2+",
+      "skill": "structures",
+      "grammarTag": "cod",
+      "prompt": "Complete with the correct pronoun.",
+      "sentence": "Cette pommade, mettez-___ deux fois par jour.",
+      "answers": [
+        "la"
+      ],
+      "translation": "Put this ointment on twice a day.",
+      "explanation": "Pommade is feminine singular; in the affirmative imperative the pronoun follows the verb: mettez-la."
+    },
+    {
+      "id": "u06-ex07",
+      "type": "fill_blank",
+      "level": "A2+",
+      "skill": "structures",
+      "grammarTag": "cod",
+      "prompt": "Complete with the correct pronoun.",
+      "sentence": "Le docteur Martin ? Je ___ connais bien, c'est notre médecin de famille.",
+      "answers": [
+        "le"
+      ],
+      "translation": "Dr Martin? I know him well, he's our family doctor.",
+      "explanation": "Le docteur Martin is a masculine singular direct object: je le connais."
+    },
+    {
+      "id": "u06-ex08",
+      "type": "fill_blank",
+      "level": "A2+",
+      "skill": "structures",
+      "grammarTag": "cod",
+      "prompt": "Complete with the correct pronoun.",
+      "sentence": "Mes lunettes ? Je ne ___ trouve plus !",
+      "answers": [
+        "les"
+      ],
+      "translation": "My glasses? I can't find them any more!",
+      "explanation": "Lunettes is plural, so les, placed between ne and the verb."
+    },
+    {
+      "id": "u06-ex09",
+      "type": "fill_blank",
+      "level": "A2+",
+      "skill": "structures",
+      "grammarTag": "accord",
+      "prompt": "Write the past participle of examiner with the correct agreement.",
+      "sentence": "Ma gorge ? Le médecin l'a ___ ce matin.",
+      "answers": [
+        "examinée"
+      ],
+      "hint": "examiner",
+      "translation": "My throat? The doctor examined it this morning.",
+      "explanation": "L' stands for la gorge (feminine) and comes before avoir, so the participle agrees: examinée."
+    },
+    {
+      "id": "u06-ex10",
+      "type": "fill_blank",
+      "level": "A2+",
+      "skill": "structures",
+      "grammarTag": "vocabulary",
+      "prompt": "Complete the expression.",
+      "sentence": "J'ai ___ à la gorge depuis deux jours.",
+      "answers": [
+        "mal"
+      ],
+      "translation": "I've had a sore throat for two days.",
+      "explanation": "Avoir mal à + part of the body: j'ai mal à la gorge, au dos, aux pieds."
+    },
+    {
+      "id": "u06-ex11",
+      "type": "conjugation",
+      "level": "A2+",
+      "skill": "structures",
+      "grammarTag": "present",
+      "verb": "se reposer",
+      "tense": "présent",
+      "person": "nous",
+      "answers": [
+        "nous reposons",
+        "nous nous reposons"
+      ],
+      "explanation": "Reflexive verbs keep their reflexive pronoun, so type it as well as the verb: (nous) nous reposons."
+    },
+    {
+      "id": "u06-ex12",
+      "type": "conjugation",
+      "level": "A2+",
+      "skill": "structures",
+      "grammarTag": "present",
+      "verb": "se sentir",
+      "tense": "présent",
+      "person": "je",
+      "answers": [
+        "me sens",
+        "je me sens"
+      ],
+      "explanation": "Sentir drops the t in the singular: je me sens, tu te sens, il se sent."
+    },
+    {
+      "id": "u06-ex13",
+      "type": "conjugation",
+      "level": "A2+",
+      "skill": "structures",
+      "grammarTag": "passe-compose",
+      "verb": "prescrire",
+      "tense": "passé composé",
+      "person": "il",
+      "answers": [
+        "a prescrit"
+      ],
+      "explanation": "Prescrire is conjugated like écrire: its past participle is prescrit."
+    },
+    {
+      "id": "u06-ex14",
+      "type": "reorder",
+      "level": "A2+",
+      "skill": "structures",
+      "grammarTag": "cod",
+      "prompt": "Put the words in order to answer: \"Tu prends ta température ?\"",
+      "tokens": [
+        "Oui",
+        "je",
+        "la",
+        "prends",
+        "tous",
+        "les",
+        "matins"
+      ],
+      "translation": "Yes, I take it every morning.",
+      "explanation": "La (= ta température) goes before the conjugated verb prends."
+    },
+    {
+      "id": "u06-ex15",
+      "type": "reorder",
+      "level": "A2+",
+      "skill": "structures",
+      "grammarTag": "cod",
+      "prompt": "Put the words in order to answer: \"Le médecin a vu les enfants ?\"",
+      "tokens": [
+        "Oui",
+        "il",
+        "les",
+        "a",
+        "déjà",
+        "examinés"
+      ],
+      "translation": "Yes, he has already examined them.",
+      "explanation": "In the passé composé the pronoun goes before the auxiliary and déjà goes between the auxiliary and the participle, which agrees with les (les enfants): examinés."
+    },
+    {
+      "id": "u06-ex16",
+      "type": "match",
+      "level": "A2+",
+      "skill": "structures",
+      "grammarTag": "vocabulary",
+      "prompt": "Match the parts of the body.",
+      "pairs": [
+        {
+          "left": "la tête",
+          "right": "head"
+        },
+        {
+          "left": "le genou",
+          "right": "knee"
+        },
+        {
+          "left": "l'épaule",
+          "right": "shoulder"
+        },
+        {
+          "left": "le ventre",
+          "right": "stomach, belly"
+        },
+        {
+          "left": "la gorge",
+          "right": "throat"
+        }
+      ],
+      "explanation": "With avoir mal à: j'ai mal à la tête, au genou, à l'épaule, au ventre, à la gorge."
+    },
+    {
+      "id": "u06-ex17",
+      "type": "match",
+      "level": "A2+",
+      "skill": "structures",
+      "grammarTag": "vocabulary",
+      "prompt": "Match the health words.",
+      "pairs": [
+        {
+          "left": "l'ordonnance",
+          "right": "prescription"
+        },
+        {
+          "left": "le comprimé",
+          "right": "tablet"
+        },
+        {
+          "left": "le rhume",
+          "right": "cold"
+        },
+        {
+          "left": "la fièvre",
+          "right": "fever"
+        },
+        {
+          "left": "le pansement",
+          "right": "plaster, dressing"
+        }
+      ],
+      "explanation": "Watch out: une ordonnance is a prescription, not an order, and un rhume is a cold (the illness). To say you feel cold, use avoir froid."
+    },
+    {
+      "id": "u06-ex18",
+      "type": "translate",
+      "level": "A2+",
+      "skill": "structures",
+      "grammarTag": "cod",
+      "direction": "en-fr",
+      "source": "The tablets? I take them in the evening.",
+      "answers": [
+        "Les comprimés ? Je les prends le soir",
+        "Les comprimés? Je les prends le soir",
+        "Les comprimés, je les prends le soir",
+        "Les comprimés je les prends le soir",
+        "Je les prends le soir",
+        "Les cachets ? Je les prends le soir",
+        "Les cachets, je les prends le soir",
+        "Les comprimés ? Je les prends en soirée"
+      ],
+      "explanation": "Les replaces les comprimés and goes before the verb. \"In the evening\" as a habit is le soir."
+    },
+    {
+      "id": "u06-ex19",
+      "type": "translate",
+      "level": "A2+",
+      "skill": "structures",
+      "grammarTag": "vocabulary",
+      "direction": "fr-en",
+      "source": "J'ai mal au dos depuis une semaine.",
+      "answers": [
+        "I've had backache for a week",
+        "I have had backache for a week",
+        "I've had a backache for a week",
+        "I have had a backache for a week",
+        "I've had back pain for a week",
+        "I have had back pain for a week",
+        "My back has been hurting for a week",
+        "My back has hurt for a week",
+        "I've had a bad back for a week",
+        "I have had a bad back for a week"
+      ],
+      "explanation": "Present tense + depuis describes something that started in the past and is still going on: English uses \"have had… for\"."
+    },
+    {
+      "id": "u06-ex20",
+      "type": "dictation",
+      "level": "A2+",
+      "skill": "listening",
+      "grammarTag": "vocabulary",
+      "text": "Le médecin m'a donné une ordonnance pour des comprimés.",
+      "translation": "The doctor gave me a prescription for some tablets.",
+      "explanation": "M'a = me + a (passé composé of donner). Ordonnance has a double n, and comprimés takes an -s in the plural."
+    }
+  ],
+  "listening": [
+    {
+      "id": "u06-li01",
+      "title": "Chez le médecin",
+      "level": "A2+",
+      "kind": "dialogue",
+      "context": "A patient is seeing his GP.",
+      "lines": [
+        {
+          "speaker": "Médecin",
+          "fr": "Bonjour, monsieur Durand. Asseyez-vous. Qu'est-ce qui ne va pas ?"
+        },
+        {
+          "speaker": "Patient",
+          "fr": "Bonjour, docteur. J'ai mal à la gorge et je tousse beaucoup depuis trois jours."
+        },
+        {
+          "speaker": "Médecin",
+          "fr": "Vous avez de la fièvre ?"
+        },
+        {
+          "speaker": "Patient",
+          "fr": "Oui, un peu. Hier soir, j'avais presque trente-neuf."
+        },
+        {
+          "speaker": "Médecin",
+          "fr": "Je vais regarder votre gorge. Ouvrez la bouche… Elle est rouge, mais ce n'est pas grave : c'est un virus."
+        },
+        {
+          "speaker": "Patient",
+          "fr": "Vous allez me donner des antibiotiques ?"
+        },
+        {
+          "speaker": "Médecin",
+          "fr": "Non, ce n'est pas nécessaire. Je vous prescris du paracétamol et un sirop pour la toux. Le paracétamol, prenez-le trois fois par jour, pendant cinq jours maximum. Le sirop, prenez-le le soir."
+        },
+        {
+          "speaker": "Patient",
+          "fr": "D'accord. Et pour le travail ?"
+        },
+        {
+          "speaker": "Médecin",
+          "fr": "Restez à la maison deux jours et reposez-vous. Voici votre ordonnance et un arrêt maladie."
+        },
+        {
+          "speaker": "Patient",
+          "fr": "Merci beaucoup, docteur."
+        }
+      ],
+      "translation": "Doctor: Hello, Mr Durand. Have a seat. What's wrong?\nPatient: Hello, doctor. I've had a sore throat and I've been coughing a lot for three days.\nDoctor: Do you have a temperature?\nPatient: Yes, a little. Last night it was almost thirty-nine.\nDoctor: I'm going to look at your throat. Open your mouth… It's red, but it's not serious: it's a virus.\nPatient: Are you going to give me antibiotics?\nDoctor: No, it's not necessary. I'm prescribing paracetamol and a cough syrup. Take the paracetamol three times a day, for five days at most. Take the syrup in the evening.\nPatient: All right. And what about work?\nDoctor: Stay at home for two days and rest. Here is your prescription and a sick note.\nPatient: Thank you very much, doctor.",
+      "questions": [
+        {
+          "id": "u06-li01-q1",
+          "question": "How long has the patient been ill?",
+          "options": [
+            "Since last night",
+            "For two days",
+            "For three days",
+            "For five days"
+          ],
+          "answer": 2,
+          "explanation": "« Je tousse beaucoup depuis trois jours »."
+        },
+        {
+          "id": "u06-li01-q2",
+          "question": "Does the doctor prescribe antibiotics?",
+          "options": [
+            "Yes, for five days",
+            "No, because it's a virus",
+            "Yes, if the fever goes on",
+            "No, because he is allergic"
+          ],
+          "answer": 1,
+          "explanation": "« Ce n'est pas nécessaire », because « c'est un virus »."
+        },
+        {
+          "id": "u06-li01-q3",
+          "question": "How should he take the paracetamol?",
+          "options": [
+            "Once a day, in the evening",
+            "Twice a day",
+            "Three times a day, for five days at most",
+            "Only when he coughs"
+          ],
+          "answer": 2,
+          "explanation": "« Le paracétamol, prenez-le trois fois par jour, pendant cinq jours maximum »."
+        }
+      ]
+    },
+    {
+      "id": "u06-li02",
+      "title": "Message du cabinet médical",
+      "level": "A2+",
+      "kind": "message",
+      "context": "A voicemail from a medical practice.",
+      "lines": [
+        {
+          "speaker": "Secrétaire",
+          "fr": "Bonjour, ici le cabinet médical des Lilas. Ce message est pour madame Sophie Leroy."
+        },
+        {
+          "speaker": "Secrétaire",
+          "fr": "Le docteur Benali est malade : votre rendez-vous de demain, jeudi, à dix heures est annulé."
+        },
+        {
+          "speaker": "Secrétaire",
+          "fr": "Nous pouvons vous proposer vendredi à quatorze heures trente avec le docteur Morel, ou lundi matin à neuf heures avec le docteur Benali."
+        },
+        {
+          "speaker": "Secrétaire",
+          "fr": "Rappelez-nous au 04 72 15 36 80 pour confirmer. N'oubliez pas votre carte Vitale. Merci et bonne journée."
+        }
+      ],
+      "translation": "Hello, this is the Les Lilas medical practice. This message is for Ms Sophie Leroy.\nDr Benali is ill, so your appointment tomorrow, Thursday, at ten o'clock is cancelled.\nWe can offer you Friday at 2.30 p.m. with Dr Morel, or Monday morning at 9 a.m. with Dr Benali.\nPlease call us back on 04 72 15 36 80 to confirm. Don't forget your health insurance card. Thank you and have a nice day.",
+      "questions": [
+        {
+          "id": "u06-li02-q1",
+          "question": "Why is the appointment cancelled?",
+          "options": [
+            "The practice is closed for the holidays.",
+            "The doctor is ill.",
+            "Ms Leroy asked to change it.",
+            "There is a strike."
+          ],
+          "answer": 1,
+          "explanation": "« Le docteur Benali est malade : votre rendez-vous… est annulé »."
+        },
+        {
+          "id": "u06-li02-q2",
+          "question": "Which new appointment is offered with Dr Morel?",
+          "options": [
+            "Thursday at 10 a.m.",
+            "Friday at 2.30 p.m.",
+            "Monday at 9 a.m.",
+            "Friday at 10 a.m."
+          ],
+          "answer": 1,
+          "explanation": "« Vendredi à quatorze heures trente avec le docteur Morel »."
+        },
+        {
+          "id": "u06-li02-q3",
+          "question": "What should Ms Leroy bring?",
+          "options": [
+            "Her prescription",
+            "Her health insurance card",
+            "Her test results",
+            "A sick note"
+          ],
+          "answer": 1,
+          "explanation": "« N'oubliez pas votre carte Vitale »."
+        }
+      ]
+    }
+  ],
+  "reading": [
+    {
+      "id": "u06-re01",
+      "title": "Absent cette semaine",
+      "level": "A2+",
+      "kind": "email",
+      "text": "Objet : absence au cours de français\nBonjour Madame Girard,\nJe vous écris parce que je ne peux pas venir au cours de français cette semaine. Depuis dimanche, j'ai la grippe : j'ai de la fièvre, mal à la tête et je suis très fatigué. Je suis allé chez le médecin lundi matin. Il m'a examiné et il m'a dit de garder le lit pendant quatre ou cinq jours. Il m'a aussi prescrit des médicaments ; je les prends trois fois par jour. Est-ce que vous pouvez m'envoyer les exercices de la semaine ? Je vais les faire à la maison.\nMerci beaucoup et à la semaine prochaine,\nKarim Haddad",
+      "translation": "Subject: absence from French class\nDear Ms Girard,\nI'm writing because I can't come to French class this week. Since Sunday I've had flu: I have a temperature, a headache and I'm very tired. I went to the doctor on Monday morning. He examined me and told me to stay in bed for four or five days. He also prescribed some medicine; I take it three times a day. Could you send me this week's exercises? I'll do them at home.\nThank you very much, and see you next week,\nKarim Haddad",
+      "questions": [
+        {
+          "id": "u06-re01-q1",
+          "question": "Why is Karim absent?",
+          "options": [
+            "He has a cold.",
+            "He has flu.",
+            "He hurt his back.",
+            "He has a dentist's appointment."
+          ],
+          "answer": 1,
+          "explanation": "« Depuis dimanche, j'ai la grippe »."
+        },
+        {
+          "id": "u06-re01-q2",
+          "question": "What did the doctor tell him?",
+          "options": [
+            "To go to hospital",
+            "To stay in bed for four or five days",
+            "To come back on Monday",
+            "To go back to class quickly"
+          ],
+          "answer": 1,
+          "explanation": "« Il m'a dit de garder le lit pendant quatre ou cinq jours »."
+        },
+        {
+          "id": "u06-re01-q3",
+          "question": "What does Karim ask his teacher?",
+          "options": [
+            "To change the date of the exam",
+            "To call the doctor",
+            "To send him the week's exercises",
+            "To visit him at home"
+          ],
+          "answer": 2,
+          "explanation": "« Est-ce que vous pouvez m'envoyer les exercices de la semaine ? »"
+        }
+      ]
+    },
+    {
+      "id": "u06-re02",
+      "title": "Cinq conseils pour l'hiver",
+      "level": "A2+",
+      "kind": "article",
+      "text": "GRIPPE ET RHUME : CINQ CONSEILS POUR PASSER L'HIVER EN FORME\n1. Lavez-vous les mains souvent, surtout avant les repas.\n2. Quand vous toussez ou éternuez, faites-le dans votre coude, pas dans votre main.\n3. Aérez votre logement dix minutes par jour, même quand il fait froid.\n4. Dormez suffisamment : le sommeil aide le corps à se défendre.\n5. Vous avez plus de 65 ans ? Le vaccin contre la grippe est gratuit. Demandez-le à votre médecin ou à votre pharmacien.\nAttention : si vous avez une forte fièvre pendant plus de trois jours, ne restez pas seul et appelez votre médecin.",
+      "translation": "FLU AND COLDS: FIVE TIPS TO STAY WELL THIS WINTER\n1. Wash your hands often, especially before meals.\n2. When you cough or sneeze, do it into your elbow, not into your hand.\n3. Air your home for ten minutes a day, even when it's cold.\n4. Get enough sleep: sleep helps the body defend itself.\n5. Are you over 65? The flu vaccine is free. Ask your doctor or your pharmacist for it.\nImportant: if you have a high temperature for more than three days, don't stay alone and call your doctor.",
+      "questions": [
+        {
+          "id": "u06-re02-q1",
+          "question": "What should you do when you cough?",
+          "options": [
+            "Cough into your hand",
+            "Cough into your elbow",
+            "Open the window",
+            "Take a syrup"
+          ],
+          "answer": 1,
+          "explanation": "« Faites-le dans votre coude, pas dans votre main »."
+        },
+        {
+          "id": "u06-re02-q2",
+          "question": "Who can get the flu vaccine for free?",
+          "options": [
+            "Children",
+            "Everyone",
+            "People over 65",
+            "Pharmacists"
+          ],
+          "answer": 2,
+          "explanation": "« Vous avez plus de 65 ans ? Le vaccin contre la grippe est gratuit »."
+        },
+        {
+          "id": "u06-re02-q3",
+          "question": "When should you call your doctor?",
+          "options": [
+            "As soon as you sneeze",
+            "If you have a high temperature for more than three days",
+            "Before getting the vaccine",
+            "If you can't sleep"
+          ],
+          "answer": 1,
+          "explanation": "« Si vous avez une forte fièvre pendant plus de trois jours… appelez votre médecin »."
+        }
+      ]
+    }
+  ],
+  "writing": [
+    {
+      "id": "u06-wr01",
+      "title": "Désolé, je suis malade",
+      "level": "A2+",
+      "taskType": "message",
+      "instructions": "Write a message (60–120 words) to a friend to cancel an outing because you are ill. Explain your symptoms, what the doctor said, and suggest another date.",
+      "promptFr": "Vous êtes malade et vous ne pouvez pas aller au cinéma avec votre ami(e) samedi. Écrivez-lui un message pour vous excuser. Expliquez ce que vous avez et ce que le médecin vous a dit, puis proposez une autre date. (60 à 120 mots)",
+      "minWords": 60,
+      "maxWords": 120,
+      "modelAnswer": "Salut Clara,\nJe suis vraiment désolée, mais je ne peux pas venir au cinéma avec toi samedi. Depuis mercredi, j'ai la grippe : j'ai de la fièvre, je tousse beaucoup et j'ai mal partout. Hier, je suis allée chez le médecin. Il m'a examinée et il m'a prescrit des médicaments ; je les prends trois fois par jour. Il m'a aussi dit de garder le lit, parce que la grippe est très contagieuse. Le film, on peut le voir samedi prochain, si tu es libre ? Je t'appelle dès que je vais mieux.\nBisous,\nAmandine",
+      "checklist": [
+        "I apologised and explained why I can't come.",
+        "I described at least two symptoms (j'ai mal à…, j'ai de la fièvre, je tousse).",
+        "I reported what the doctor did or said, in the passé composé.",
+        "I used at least one direct object pronoun (le, la, les) in the right place.",
+        "I suggested another date and signed off.",
+        "My message is between 60 and 120 words."
+      ]
+    },
+    {
+      "id": "u06-wr02",
+      "title": "Un souvenir de blessure",
+      "level": "A2+",
+      "taskType": "description",
+      "instructions": "Write an account (120–150 words) of a time when you were ill or injured: what happened, what you did and how you got better.",
+      "promptFr": "Racontez une fois où vous avez été malade ou blessé(e). Qu'est-ce qui s'est passé ? Qu'est-ce que vous avez fait pour vous soigner ? (120 à 150 mots)",
+      "minWords": 120,
+      "maxWords": 150,
+      "modelAnswer": "L'hiver dernier, je suis parti faire du ski avec des amis dans les Alpes. Le deuxième jour, je suis tombé sur une piste difficile et je me suis fait très mal au genou. Je ne pouvais plus marcher ! Mes amis ont appelé les secours, et on m'a emmené à l'hôpital de la station. Là, un médecin m'a examiné et il a fait une radio de ma jambe. Heureusement, ce n'était pas grave : je ne me suis rien cassé. Le médecin m'a donné une ordonnance pour des médicaments contre la douleur et une pommade. Je l'ai mise sur mon genou matin et soir. Il m'a aussi conseillé de me reposer pendant deux semaines. Je suis donc resté à la maison, la jambe sur un coussin. Aujourd'hui, je vais bien, mais je fais plus attention sur les pistes !",
+      "checklist": [
+        "I said when and where it happened.",
+        "I told the events in order with the passé composé (and the imparfait for the situation).",
+        "I described the injury or symptoms with health vocabulary.",
+        "I used direct object pronouns correctly, with past participle agreement (je l'ai mise).",
+        "I used linking words (le deuxième jour, là, heureusement, donc, aujourd'hui).",
+        "My text is between 120 and 150 words."
+      ]
+    }
+  ],
+  "speaking": [
+    {
+      "id": "u06-sp01",
+      "title": "Rester en bonne santé",
+      "level": "A2+",
+      "taskType": "entretien",
+      "instructions": "Answer the examiner's question about how you look after your health. Speak for about two minutes without preparation.",
+      "promptFr": "Qu'est-ce que vous faites pour rester en bonne santé ? Et quand vous êtes malade, qu'est-ce que vous faites ?",
+      "prepSeconds": 0,
+      "speakSeconds": 120,
+      "modelAnswer": "Pour rester en bonne santé, j'essaie d'avoir une vie équilibrée. Je mange beaucoup de fruits et de légumes, et je bois au moins un litre et demi d'eau par jour. Trois fois par semaine, je vais à la piscine ou je cours dans le parc. Le sommeil, c'est important aussi, alors je le protège : je me couche vers vingt-trois heures et je ne regarde pas mon téléphone au lit. Quand je suis malade, je ne vais pas tout de suite chez le médecin : d'abord, je me repose. Mais si j'ai de la fièvre pendant plusieurs jours, je l'appelle.",
+      "tips": [
+        "Organise your answer in two parts: what you do to stay healthy, then what you do when you are ill.",
+        "Use frequency expressions: trois fois par semaine, tous les jours, d'habitude.",
+        "Use le, la, les to avoid repetition: le sommeil, je le protège.",
+        "Add a condition with si: si j'ai de la fièvre, j'appelle le médecin."
+      ]
+    },
+    {
+      "id": "u06-sp02",
+      "title": "À la pharmacie",
+      "level": "A2+",
+      "taskType": "interaction",
+      "instructions": "Role-play: you have a cold and go to a chemist's. The examiner plays the pharmacist. Describe your symptoms, ask for advice and ask how to take the medicine.",
+      "promptFr": "Vous avez un gros rhume. Vous allez à la pharmacie. Vous expliquez vos symptômes au pharmacien, vous lui demandez des conseils et vous posez des questions sur les médicaments.",
+      "prepSeconds": 120,
+      "speakSeconds": 180,
+      "modelAnswer": "Bonjour madame. J'ai un gros rhume depuis trois jours : j'ai le nez qui coule, j'éternue tout le temps et j'ai un peu mal à la gorge. Non, je n'ai pas de fièvre. Qu'est-ce que vous me conseillez ? Un sirop et des pastilles, d'accord. Le sirop, je le prends quand ? Avant ou après les repas ? Trois fois par jour, très bien. Est-ce que je peux le prendre si je conduis ? Ah, et je suis allergique à l'aspirine, c'est un problème ? Non ? Tant mieux. Il faut une ordonnance ? Non ? Parfait. Ça fait combien ? Merci beaucoup, au revoir !",
+      "tips": [
+        "Describe your symptoms precisely: j'ai mal à…, j'ai le nez qui coule, je tousse, depuis + duration.",
+        "Ask for advice politely: Qu'est-ce que vous me conseillez ?",
+        "Ask how to take the medicine and use pronouns: Je le prends quand ? Combien de fois par jour ?",
+        "Mention allergies or other important information, then thank the pharmacist."
+      ]
+    }
+  ],
+  "checkpoint": [
+    {
+      "id": "u06-cp01",
+      "type": "mcq",
+      "level": "A2+",
+      "skill": "structures",
+      "grammarTag": "cod",
+      "prompt": "Choose the correct pronoun.",
+      "promptFr": "Ta carte Vitale ? Je ___ ai dans mon sac.",
+      "options": [
+        "l'",
+        "la",
+        "le",
+        "les"
+      ],
+      "answer": 0,
+      "explanation": "La carte becomes la, which elides to l' before ai."
+    },
+    {
+      "id": "u06-cp02",
+      "type": "fill_blank",
+      "level": "A2+",
+      "skill": "structures",
+      "grammarTag": "cod",
+      "prompt": "Complete with the correct pronoun.",
+      "sentence": "Ces comprimés, prends-___ après le repas.",
+      "answers": [
+        "les"
+      ],
+      "translation": "Take these tablets after the meal.",
+      "explanation": "Plural direct object → les, after the verb in an affirmative imperative."
+    },
+    {
+      "id": "u06-cp03",
+      "type": "mcq",
+      "level": "A2+",
+      "skill": "structures",
+      "grammarTag": "accord",
+      "prompt": "Choose the correct past participle.",
+      "promptFr": "La pommade ? Je l'ai ___ hier.",
+      "options": [
+        "achetée",
+        "acheté",
+        "achetés",
+        "achetées"
+      ],
+      "answer": 0,
+      "explanation": "L' = la pommade (feminine singular) comes before avoir, so the participle takes -e."
+    },
+    {
+      "id": "u06-cp04",
+      "type": "fill_blank",
+      "level": "A2+",
+      "skill": "structures",
+      "grammarTag": "cod",
+      "prompt": "Complete the negative imperative.",
+      "sentence": "Le sirop ? Ne ___ prends pas avant de manger.",
+      "answers": [
+        "le"
+      ],
+      "translation": "The syrup? Don't take it before eating.",
+      "explanation": "In a negative imperative, the pronoun stays before the verb: ne le prends pas."
+    },
+    {
+      "id": "u06-cp05",
+      "type": "mcq",
+      "level": "A2+",
+      "skill": "structures",
+      "grammarTag": "cod",
+      "prompt": "Replace le médecin with a pronoun: « Je vais appeler le médecin. »",
+      "options": [
+        "Je vais l'appeler.",
+        "Je l'vais appeler.",
+        "Je le vais appeler.",
+        "Je vais appeler le."
+      ],
+      "answer": 0,
+      "explanation": "With two verbs, the pronoun goes before the infinitive: je vais l'appeler."
+    },
+    {
+      "id": "u06-cp06",
+      "type": "mcq",
+      "level": "A2+",
+      "skill": "structures",
+      "grammarTag": "vocabulary",
+      "prompt": "Choose the right place.",
+      "promptFr": "Pour acheter des médicaments avec mon ordonnance, je vais ___.",
+      "options": [
+        "à la pharmacie",
+        "à la boulangerie",
+        "à la mairie",
+        "à la gare"
+      ],
+      "answer": 0,
+      "explanation": "Medicines are sold at the chemist's: la pharmacie."
+    },
+    {
+      "id": "u06-cp07",
+      "type": "fill_blank",
+      "level": "A2+",
+      "skill": "structures",
+      "grammarTag": "vocabulary",
+      "prompt": "Complete with à + article.",
+      "sentence": "J'ai mal ___ dents, je dois aller chez le dentiste.",
+      "answers": [
+        "aux"
+      ],
+      "translation": "I've got toothache, I need to go to the dentist.",
+      "explanation": "Avoir mal à + les dents: à + les contracts to aux."
+    },
+    {
+      "id": "u06-cp08",
+      "type": "mcq",
+      "level": "A2+",
+      "skill": "structures",
+      "grammarTag": "vocabulary",
+      "prompt": "Choose the correct word.",
+      "promptFr": "Je tousse et j'ai le nez qui coule : j'ai un ___.",
+      "options": [
+        "rhume",
+        "genou",
+        "comprimé",
+        "rendez-vous"
+      ],
+      "answer": 0,
+      "explanation": "A cough and a runny nose are signs of a cold: un rhume."
+    },
+    {
+      "id": "u06-cp09",
+      "type": "fill_blank",
+      "level": "A2+",
+      "skill": "structures",
+      "grammarTag": "accord",
+      "prompt": "Write the past participle of remercier with the correct agreement.",
+      "sentence": "Les infirmières ? Je les ai ___ avant de partir.",
+      "answers": [
+        "remerciées"
+      ],
+      "hint": "remercier",
+      "translation": "The nurses? I thanked them before leaving.",
+      "explanation": "Les = les infirmières (feminine plural) comes before avoir, so the participle takes -es."
+    },
+    {
+      "id": "u06-cp10",
+      "type": "mcq",
+      "level": "A2+",
+      "skill": "structures",
+      "grammarTag": "cod",
+      "prompt": "Choose the correct pronoun.",
+      "promptFr": "Tu connais ce pharmacien ? — Non, je ne ___ connais pas.",
+      "options": [
+        "le",
+        "lui",
+        "l'",
+        "les"
+      ],
+      "answer": 0,
+      "explanation": "Connaître takes a direct object; ce pharmacien is masculine singular, so le. L' is only used before a vowel."
+    }
+  ]
+}

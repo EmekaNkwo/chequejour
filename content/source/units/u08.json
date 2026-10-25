@@ -1,0 +1,2122 @@
+{
+  "id": "u08",
+  "order": 8,
+  "level": "A2+",
+  "theme": "Leisure and free time",
+  "titleFr": "Loisirs et temps libre",
+  "description": "Talk about your hobbies, outings and weekends. Tell stories about past events by combining the passé composé (what happened) and the imparfait (background, descriptions, habits).",
+  "vocab": [
+    {
+      "id": "u08-w001",
+      "fr": "loisir",
+      "en": "hobby, leisure activity",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "loisirs",
+      "level": "A2",
+      "core": true,
+      "example": {
+        "fr": "Mon loisir préféré, c'est la photographie.",
+        "en": "My favourite hobby is photography."
+      }
+    },
+    {
+      "id": "u08-w002",
+      "fr": "temps libre",
+      "en": "free time",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2",
+      "core": true,
+      "example": {
+        "fr": "Quand j'étais étudiant, j'avais beaucoup plus de temps libre.",
+        "en": "When I was a student, I had a lot more free time."
+      }
+    },
+    {
+      "id": "u08-w003",
+      "fr": "sortie",
+      "en": "outing, night out",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "sorties",
+      "level": "A2",
+      "core": true,
+      "example": {
+        "fr": "Notre dernière sortie au zoo a beaucoup plu aux enfants.",
+        "en": "The children really enjoyed our last outing to the zoo."
+      }
+    },
+    {
+      "id": "u08-w004",
+      "fr": "spectacle",
+      "en": "show, performance",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "spectacles",
+      "level": "A2",
+      "core": true,
+      "example": {
+        "fr": "Le spectacle a duré deux heures et personne ne s'est ennuyé.",
+        "en": "The show lasted two hours and nobody was bored."
+      }
+    },
+    {
+      "id": "u08-w005",
+      "fr": "concert",
+      "en": "concert, gig",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "concerts",
+      "level": "A2",
+      "core": true,
+      "example": {
+        "fr": "Samedi dernier, nous sommes allés à un concert de rock.",
+        "en": "Last Saturday, we went to a rock concert."
+      }
+    },
+    {
+      "id": "u08-w006",
+      "fr": "exposition",
+      "en": "exhibition",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "expositions",
+      "level": "A2",
+      "core": true,
+      "example": {
+        "fr": "L'exposition de photos était gratuite, alors nous y sommes allés deux fois.",
+        "en": "The photo exhibition was free, so we went twice."
+      }
+    },
+    {
+      "id": "u08-w007",
+      "fr": "randonnée",
+      "en": "hike, walk",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "randonnées",
+      "level": "A2",
+      "core": true,
+      "example": {
+        "fr": "Dimanche, on a fait une randonnée de quinze kilomètres.",
+        "en": "On Sunday, we did a fifteen-kilometre hike."
+      }
+    },
+    {
+      "id": "u08-w008",
+      "fr": "match",
+      "en": "match, game",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "matchs",
+      "level": "A2",
+      "core": true,
+      "example": {
+        "fr": "Pendant le match, il pleuvait, mais les supporters chantaient quand même.",
+        "en": "During the match it was raining, but the fans were still singing."
+      }
+    },
+    {
+      "id": "u08-w009",
+      "fr": "jeu",
+      "en": "game",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "jeux",
+      "level": "A2",
+      "core": true,
+      "example": {
+        "fr": "Les enfants ont inventé un nouveau jeu dans le jardin.",
+        "en": "The children made up a new game in the garden."
+      }
+    },
+    {
+      "id": "u08-w010",
+      "fr": "club",
+      "en": "club",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "clubs",
+      "level": "A2",
+      "core": true,
+      "example": {
+        "fr": "Mon fils fait partie d'un club de basket depuis trois ans.",
+        "en": "My son has been a member of a basketball club for three years."
+      }
+    },
+    {
+      "id": "u08-w011",
+      "fr": "s'amuser",
+      "en": "to have fun, to enjoy oneself",
+      "pos": "verb",
+      "level": "A2",
+      "core": true,
+      "example": {
+        "fr": "Nous nous sommes bien amusés à la fête de Clara.",
+        "en": "We had a great time at Clara's party."
+      }
+    },
+    {
+      "id": "u08-w012",
+      "fr": "se détendre",
+      "en": "to relax",
+      "pos": "verb",
+      "level": "A2+",
+      "core": true,
+      "example": {
+        "fr": "Le soir, j'écoute de la musique pour me détendre.",
+        "en": "In the evening, I listen to music to relax."
+      }
+    },
+    {
+      "id": "u08-w013",
+      "fr": "se promener",
+      "en": "to go for a walk",
+      "pos": "verb",
+      "level": "A2",
+      "core": true,
+      "example": {
+        "fr": "Elle s'est promenée au bord de la rivière tout l'après-midi.",
+        "en": "She walked along the river all afternoon."
+      }
+    },
+    {
+      "id": "u08-w014",
+      "fr": "jouer",
+      "en": "to play (jouer à + game/sport, jouer de + instrument)",
+      "pos": "verb",
+      "level": "A2",
+      "core": true,
+      "example": {
+        "fr": "Quand j'étais petite, je jouais du piano et au tennis.",
+        "en": "When I was little, I played the piano and tennis."
+      }
+    },
+    {
+      "id": "u08-w015",
+      "fr": "sortir",
+      "en": "to go out",
+      "pos": "verb",
+      "level": "A2",
+      "core": true,
+      "example": {
+        "fr": "Hier soir, nous sommes sortis avec des amis.",
+        "en": "Last night, we went out with some friends."
+      }
+    },
+    {
+      "id": "u08-w016",
+      "fr": "inviter",
+      "en": "to invite",
+      "pos": "verb",
+      "level": "A2",
+      "core": true,
+      "example": {
+        "fr": "Mes voisins m'ont invité à un barbecue dimanche.",
+        "en": "My neighbours invited me to a barbecue on Sunday."
+      }
+    },
+    {
+      "id": "u08-w017",
+      "fr": "s'inscrire",
+      "en": "to sign up, to register",
+      "pos": "verb",
+      "level": "A2+",
+      "core": true,
+      "example": {
+        "fr": "Je me suis inscrit à un cours de cuisine en septembre.",
+        "en": "I signed up for a cooking class in September."
+      }
+    },
+    {
+      "id": "u08-w018",
+      "fr": "passionné",
+      "en": "passionate, very keen",
+      "pos": "adjective",
+      "level": "A2+",
+      "core": true,
+      "example": {
+        "fr": "Ma sœur est passionnée de photo depuis l'adolescence.",
+        "en": "My sister has been passionate about photography since she was a teenager."
+      }
+    },
+    {
+      "id": "u08-w019",
+      "fr": "pendant que",
+      "en": "while",
+      "pos": "conjunction",
+      "level": "A2+",
+      "core": true,
+      "example": {
+        "fr": "Pendant que je lisais, mon chat dormait sur le canapé.",
+        "en": "While I was reading, my cat was sleeping on the sofa."
+      }
+    },
+    {
+      "id": "u08-w020",
+      "fr": "soudain",
+      "en": "suddenly",
+      "pos": "adverb",
+      "level": "A2+",
+      "core": true,
+      "example": {
+        "fr": "Nous pique-niquions tranquillement quand soudain un orage a éclaté.",
+        "en": "We were having a quiet picnic when suddenly a storm broke."
+      }
+    },
+    {
+      "id": "u08-w021",
+      "fr": "piscine",
+      "en": "swimming pool",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "piscines",
+      "level": "A2",
+      "core": false,
+      "example": {
+        "fr": "Le mercredi, j'emmène les enfants à la piscine.",
+        "en": "On Wednesdays, I take the children to the swimming pool."
+      }
+    },
+    {
+      "id": "u08-w022",
+      "fr": "natation",
+      "en": "swimming (sport)",
+      "pos": "noun",
+      "gender": "f",
+      "level": "A2",
+      "core": false,
+      "example": {
+        "fr": "Il fait de la natation trois fois par semaine.",
+        "en": "He goes swimming three times a week."
+      }
+    },
+    {
+      "id": "u08-w023",
+      "fr": "vélo",
+      "en": "bike; cycling",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "vélos",
+      "level": "A2",
+      "core": false,
+      "example": {
+        "fr": "Le dimanche matin, on fait du vélo en forêt.",
+        "en": "On Sunday mornings, we go cycling in the forest."
+      }
+    },
+    {
+      "id": "u08-w024",
+      "fr": "course à pied",
+      "en": "running, jogging",
+      "pos": "noun",
+      "gender": "f",
+      "level": "A2+",
+      "core": false,
+      "example": {
+        "fr": "Elle a commencé la course à pied l'année dernière.",
+        "en": "She took up running last year."
+      }
+    },
+    {
+      "id": "u08-w025",
+      "fr": "musée",
+      "en": "museum",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "musées",
+      "level": "A2",
+      "core": false,
+      "example": {
+        "fr": "Le premier dimanche du mois, l'entrée du musée est gratuite.",
+        "en": "On the first Sunday of the month, entry to the museum is free."
+      }
+    },
+    {
+      "id": "u08-w026",
+      "fr": "séance",
+      "en": "showing, screening; session",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "séances",
+      "level": "A2+",
+      "core": false,
+      "example": {
+        "fr": "Nous avons pris des places pour la séance de 20 heures.",
+        "en": "We got tickets for the 8 pm showing."
+      }
+    },
+    {
+      "id": "u08-w027",
+      "fr": "pièce de théâtre",
+      "en": "play (theatre)",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "pièces de théâtre",
+      "level": "A2+",
+      "core": false,
+      "example": {
+        "fr": "La pièce de théâtre était drôle et les acteurs étaient excellents.",
+        "en": "The play was funny and the actors were excellent."
+      }
+    },
+    {
+      "id": "u08-w028",
+      "fr": "place",
+      "en": "seat, ticket (for a show)",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "places",
+      "level": "A2",
+      "core": false,
+      "example": {
+        "fr": "J'ai acheté deux places pour le match de samedi.",
+        "en": "I bought two tickets for Saturday's match."
+      }
+    },
+    {
+      "id": "u08-w029",
+      "fr": "chanteur",
+      "en": "singer",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "chanteurs",
+      "level": "A2",
+      "core": false,
+      "example": {
+        "fr": "Le chanteur a salué le public à la fin du concert.",
+        "en": "The singer waved to the audience at the end of the concert."
+      }
+    },
+    {
+      "id": "u08-w030",
+      "fr": "groupe",
+      "en": "band; group",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "groupes",
+      "level": "A2",
+      "core": false,
+      "example": {
+        "fr": "Mon frère joue de la batterie dans un groupe de jazz.",
+        "en": "My brother plays the drums in a jazz band."
+      }
+    },
+    {
+      "id": "u08-w031",
+      "fr": "instrument",
+      "en": "(musical) instrument",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "instruments",
+      "level": "A2",
+      "core": false,
+      "example": {
+        "fr": "Tu joues d'un instrument ?",
+        "en": "Do you play an instrument?"
+      }
+    },
+    {
+      "id": "u08-w032",
+      "fr": "guitare",
+      "en": "guitar",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "guitares",
+      "level": "A2",
+      "core": false,
+      "example": {
+        "fr": "J'ai appris la guitare tout seul, avec des vidéos.",
+        "en": "I taught myself the guitar, with videos."
+      }
+    },
+    {
+      "id": "u08-w033",
+      "fr": "peinture",
+      "en": "painting; paint",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "peintures",
+      "level": "A2",
+      "core": false,
+      "example": {
+        "fr": "Ma grand-mère fait de la peinture depuis sa retraite.",
+        "en": "My grandmother has been painting since she retired."
+      }
+    },
+    {
+      "id": "u08-w034",
+      "fr": "dessin",
+      "en": "drawing",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "dessins",
+      "level": "A2",
+      "core": false,
+      "example": {
+        "fr": "Enfant, je passais des heures à faire des dessins.",
+        "en": "As a child, I used to spend hours drawing."
+      }
+    },
+    {
+      "id": "u08-w035",
+      "fr": "lecture",
+      "en": "reading",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "lectures",
+      "level": "A2",
+      "core": false,
+      "example": {
+        "fr": "La lecture, c'est mon activité préférée avant de dormir.",
+        "en": "Reading is my favourite activity before going to sleep."
+      }
+    },
+    {
+      "id": "u08-w036",
+      "fr": "roman",
+      "en": "novel",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "romans",
+      "level": "A2",
+      "core": false,
+      "example": {
+        "fr": "J'ai lu ce roman en deux jours parce que l'histoire était passionnante.",
+        "en": "I read this novel in two days because the story was gripping."
+      }
+    },
+    {
+      "id": "u08-w037",
+      "fr": "bande dessinée",
+      "en": "comic book, graphic novel",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "bandes dessinées",
+      "level": "A2",
+      "core": false,
+      "example": {
+        "fr": "En Belgique et en France, beaucoup d'adultes lisent des bandes dessinées.",
+        "en": "In Belgium and France, lots of adults read comic books."
+      }
+    },
+    {
+      "id": "u08-w038",
+      "fr": "jeu vidéo",
+      "en": "video game",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "jeux vidéo",
+      "level": "A2",
+      "core": false,
+      "example": {
+        "fr": "Mon fils joue aux jeux vidéo une heure par jour, pas plus.",
+        "en": "My son plays video games for an hour a day, no more."
+      }
+    },
+    {
+      "id": "u08-w039",
+      "fr": "jeu de société",
+      "en": "board game",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "jeux de société",
+      "level": "A2+",
+      "core": false,
+      "example": {
+        "fr": "Quand il pleuvait, nous jouions à des jeux de société en famille.",
+        "en": "When it rained, we used to play board games as a family."
+      }
+    },
+    {
+      "id": "u08-w040",
+      "fr": "échecs",
+      "en": "chess",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "échecs",
+      "level": "A2+",
+      "core": false,
+      "example": {
+        "fr": "Mon grand-père m'a appris à jouer aux échecs.",
+        "en": "My grandfather taught me to play chess."
+      },
+      "pluralOnly": true
+    },
+    {
+      "id": "u08-w041",
+      "fr": "jardinage",
+      "en": "gardening",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2+",
+      "core": false,
+      "example": {
+        "fr": "Au printemps, je fais du jardinage tous les week-ends.",
+        "en": "In spring, I do some gardening every weekend."
+      }
+    },
+    {
+      "id": "u08-w042",
+      "fr": "bricolage",
+      "en": "DIY, odd jobs",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2+",
+      "core": false,
+      "example": {
+        "fr": "Il adore le bricolage : il a fabriqué lui-même sa bibliothèque.",
+        "en": "He loves DIY: he built his bookcase himself."
+      }
+    },
+    {
+      "id": "u08-w043",
+      "fr": "pique-nique",
+      "en": "picnic",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "pique-niques",
+      "level": "A2",
+      "core": false,
+      "example": {
+        "fr": "Nous avons fait un pique-nique au bord du lac.",
+        "en": "We had a picnic by the lake."
+      }
+    },
+    {
+      "id": "u08-w044",
+      "fr": "fête",
+      "en": "party; festival, celebration",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "fêtes",
+      "level": "A2",
+      "core": false,
+      "example": {
+        "fr": "Il y avait beaucoup de monde à la fête du village.",
+        "en": "There were a lot of people at the village festival."
+      }
+    },
+    {
+      "id": "u08-w045",
+      "fr": "soirée",
+      "en": "evening; party",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "soirées",
+      "level": "A2",
+      "core": false,
+      "example": {
+        "fr": "Merci pour cette excellente soirée !",
+        "en": "Thank you for a wonderful evening!"
+      }
+    },
+    {
+      "id": "u08-w046",
+      "fr": "festival",
+      "en": "festival",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "festivals",
+      "level": "A2",
+      "core": false,
+      "example": {
+        "fr": "Chaque été, la ville organise un festival de musique en plein air.",
+        "en": "Every summer, the town organises an open-air music festival."
+      }
+    },
+    {
+      "id": "u08-w047",
+      "fr": "entraînement",
+      "en": "training (session), practice",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "entraînements",
+      "level": "A2+",
+      "core": false,
+      "example": {
+        "fr": "L'entraînement de foot a lieu le mardi à 18 heures.",
+        "en": "Football practice is on Tuesdays at 6 pm."
+      }
+    },
+    {
+      "id": "u08-w048",
+      "fr": "compétition",
+      "en": "competition",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "compétitions",
+      "level": "A2+",
+      "core": false,
+      "example": {
+        "fr": "Elle a gagné sa première compétition de natation à dix ans.",
+        "en": "She won her first swimming competition at the age of ten."
+      }
+    },
+    {
+      "id": "u08-w049",
+      "fr": "joueur",
+      "en": "player",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "joueurs",
+      "level": "A2",
+      "core": false,
+      "example": {
+        "fr": "Les joueurs étaient fatigués, mais ils ont gagné le match.",
+        "en": "The players were tired, but they won the match."
+      }
+    },
+    {
+      "id": "u08-w050",
+      "fr": "stade",
+      "en": "stadium",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "stades",
+      "level": "A2",
+      "core": false,
+      "example": {
+        "fr": "Le stade était plein pour la finale.",
+        "en": "The stadium was full for the final."
+      }
+    },
+    {
+      "id": "u08-w051",
+      "fr": "terrain",
+      "en": "pitch, court, ground",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "terrains",
+      "level": "A2+",
+      "core": false,
+      "example": {
+        "fr": "Il y a un terrain de tennis juste derrière l'école.",
+        "en": "There's a tennis court just behind the school."
+      }
+    },
+    {
+      "id": "u08-w052",
+      "fr": "abonnement",
+      "en": "subscription, membership",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "abonnements",
+      "level": "A2+",
+      "core": false,
+      "example": {
+        "fr": "J'ai pris un abonnement à la salle de sport pour un an.",
+        "en": "I took out a one-year gym membership."
+      }
+    },
+    {
+      "id": "u08-w053",
+      "fr": "association",
+      "en": "association, club, non-profit",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "associations",
+      "level": "A2+",
+      "core": false,
+      "example": {
+        "fr": "Cette association propose des cours de danse pour les seniors.",
+        "en": "This association offers dance classes for older people."
+      }
+    },
+    {
+      "id": "u08-w054",
+      "fr": "bénévole",
+      "en": "volunteer",
+      "pos": "noun",
+      "gender": "mf",
+      "plural": "bénévoles",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Les bénévoles ont préparé le repas pour toute l'équipe.",
+        "en": "The volunteers prepared the meal for the whole team."
+      }
+    },
+    {
+      "id": "u08-w055",
+      "fr": "spectateur",
+      "en": "spectator, member of the audience",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "spectateurs",
+      "level": "A2+",
+      "core": false,
+      "example": {
+        "fr": "À la fin, tous les spectateurs se sont levés pour applaudir.",
+        "en": "At the end, all the spectators stood up to applaud."
+      }
+    },
+    {
+      "id": "u08-w056",
+      "fr": "gagner",
+      "en": "to win",
+      "pos": "verb",
+      "level": "A2",
+      "core": false,
+      "example": {
+        "fr": "Notre équipe a gagné trois à un.",
+        "en": "Our team won three-one."
+      }
+    },
+    {
+      "id": "u08-w057",
+      "fr": "perdre",
+      "en": "to lose",
+      "pos": "verb",
+      "level": "A2",
+      "core": false,
+      "example": {
+        "fr": "Nous avons perdu le match, mais nous avons bien joué.",
+        "en": "We lost the match, but we played well."
+      }
+    },
+    {
+      "id": "u08-w058",
+      "fr": "s'entraîner",
+      "en": "to train, to practise",
+      "pos": "verb",
+      "level": "A2+",
+      "core": false,
+      "example": {
+        "fr": "Avant le marathon, elle s'entraînait tous les matins.",
+        "en": "Before the marathon, she trained every morning."
+      }
+    },
+    {
+      "id": "u08-w059",
+      "fr": "se retrouver",
+      "en": "to meet up",
+      "pos": "verb",
+      "level": "A2+",
+      "core": false,
+      "example": {
+        "fr": "On s'est retrouvés devant le cinéma à 19 heures.",
+        "en": "We met up in front of the cinema at 7 pm."
+      }
+    },
+    {
+      "id": "u08-w060",
+      "fr": "se passionner pour",
+      "en": "to be passionate about, to get really into",
+      "pos": "verb",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "À quinze ans, il s'est passionné pour l'astronomie.",
+        "en": "At fifteen, he became passionate about astronomy."
+      }
+    },
+    {
+      "id": "u08-w061",
+      "fr": "bavarder",
+      "en": "to chat",
+      "pos": "verb",
+      "level": "A2+",
+      "core": false,
+      "example": {
+        "fr": "Nous avons bavardé pendant des heures à la terrasse d'un café.",
+        "en": "We chatted for hours on a café terrace."
+      }
+    },
+    {
+      "id": "u08-w062",
+      "fr": "rigoler",
+      "en": "to laugh, to have a laugh (informal)",
+      "pos": "verb",
+      "level": "A2+",
+      "core": false,
+      "example": {
+        "fr": "On a bien rigolé pendant le spectacle.",
+        "en": "We had a good laugh during the show."
+      }
+    },
+    {
+      "id": "u08-w063",
+      "fr": "profiter de",
+      "en": "to make the most of, to enjoy",
+      "pos": "verb",
+      "level": "A2+",
+      "core": false,
+      "example": {
+        "fr": "Il faisait beau, alors nous avons profité du soleil sur la terrasse.",
+        "en": "The weather was nice, so we made the most of the sun on the terrace."
+      }
+    },
+    {
+      "id": "u08-w064",
+      "fr": "pratiquer",
+      "en": "to do, to practise (a sport or activity)",
+      "pos": "verb",
+      "level": "A2+",
+      "core": false,
+      "example": {
+        "fr": "Quel sport est-ce que vous pratiquez ?",
+        "en": "What sport do you do?"
+      }
+    },
+    {
+      "id": "u08-w065",
+      "fr": "courir",
+      "en": "to run",
+      "pos": "verb",
+      "level": "A2",
+      "core": false,
+      "example": {
+        "fr": "Ce matin, j'ai couru dix kilomètres sans m'arrêter.",
+        "en": "This morning, I ran ten kilometres without stopping."
+      }
+    },
+    {
+      "id": "u08-w066",
+      "fr": "nager",
+      "en": "to swim",
+      "pos": "verb",
+      "level": "A2",
+      "core": false,
+      "example": {
+        "fr": "Quand nous étions en vacances, nous nagions tous les jours.",
+        "en": "When we were on holiday, we swam every day."
+      }
+    },
+    {
+      "id": "u08-w067",
+      "fr": "danser",
+      "en": "to dance",
+      "pos": "verb",
+      "level": "A2",
+      "core": false,
+      "example": {
+        "fr": "À la soirée, tout le monde a dansé jusqu'à deux heures du matin.",
+        "en": "At the party, everyone danced until two in the morning."
+      }
+    },
+    {
+      "id": "u08-w068",
+      "fr": "se balader",
+      "en": "to stroll, to wander around (informal)",
+      "pos": "verb",
+      "level": "A2+",
+      "core": false,
+      "example": {
+        "fr": "Samedi, on s'est baladés dans le vieux quartier.",
+        "en": "On Saturday, we wandered around the old town."
+      }
+    },
+    {
+      "id": "u08-w069",
+      "fr": "ennuyeux / ennuyeuse",
+      "en": "boring",
+      "pos": "adjective",
+      "level": "A2",
+      "core": false,
+      "example": {
+        "fr": "Le film était tellement ennuyeux que je me suis endormi.",
+        "en": "The film was so boring that I fell asleep."
+      }
+    },
+    {
+      "id": "u08-w070",
+      "fr": "génial",
+      "en": "brilliant, great",
+      "pos": "adjective",
+      "level": "A2",
+      "core": false,
+      "example": {
+        "fr": "Le concert était génial, je veux y retourner !",
+        "en": "The concert was brilliant, I want to go again!"
+      }
+    },
+    {
+      "id": "u08-w071",
+      "fr": "divertissant",
+      "en": "entertaining",
+      "pos": "adjective",
+      "level": "A2+",
+      "core": false,
+      "example": {
+        "fr": "Le film n'était pas très profond, mais il était divertissant.",
+        "en": "The film wasn't very deep, but it was entertaining."
+      }
+    },
+    {
+      "id": "u08-w072",
+      "fr": "sportif / sportive",
+      "en": "sporty, athletic",
+      "pos": "adjective",
+      "level": "A2",
+      "core": false,
+      "example": {
+        "fr": "Ma mère est très sportive : elle court tous les matins.",
+        "en": "My mother is very sporty: she runs every morning."
+      }
+    },
+    {
+      "id": "u08-w073",
+      "fr": "complet / complète",
+      "en": "full, sold out",
+      "pos": "adjective",
+      "level": "A2+",
+      "core": false,
+      "example": {
+        "fr": "Désolé, la séance de 21 heures est complète.",
+        "en": "Sorry, the 9 pm showing is sold out."
+      }
+    },
+    {
+      "id": "u08-w074",
+      "fr": "en plein air",
+      "en": "outdoors, in the open air",
+      "pos": "expression",
+      "level": "A2+",
+      "core": false,
+      "example": {
+        "fr": "En été, il y a des séances de cinéma en plein air dans le parc.",
+        "en": "In summer, there are open-air film screenings in the park."
+      }
+    },
+    {
+      "id": "u08-w075",
+      "fr": "tout à coup",
+      "en": "all of a sudden",
+      "pos": "expression",
+      "level": "A2+",
+      "core": false,
+      "example": {
+        "fr": "Je regardais la télé quand tout à coup la lumière s'est éteinte.",
+        "en": "I was watching TV when all of a sudden the lights went out."
+      }
+    },
+    {
+      "id": "u08-w076",
+      "fr": "un jour",
+      "en": "one day",
+      "pos": "expression",
+      "level": "A2",
+      "core": false,
+      "example": {
+        "fr": "Un jour, j'ai rencontré mon acteur préféré dans la rue.",
+        "en": "One day, I met my favourite actor in the street."
+      }
+    },
+    {
+      "id": "u08-w077",
+      "fr": "escalade",
+      "en": "climbing",
+      "pos": "noun",
+      "gender": "f",
+      "level": "A2+",
+      "core": false,
+      "example": {
+        "fr": "Quand j'étais adolescent, je faisais de l'escalade avec mon oncle.",
+        "en": "When I was a teenager, I used to go climbing with my uncle."
+      }
+    },
+    {
+      "id": "u08-w078",
+      "fr": "à ce moment-là",
+      "en": "at that moment, at that time",
+      "pos": "expression",
+      "level": "A2+",
+      "core": false,
+      "example": {
+        "fr": "À ce moment-là, le public a commencé à chanter.",
+        "en": "At that moment, the audience started to sing."
+      }
+    },
+    {
+      "id": "u08-w079",
+      "fr": "veille",
+      "en": "the day before, the eve",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "La veille du match, les joueurs se sont couchés tôt.",
+        "en": "The day before the match, the players went to bed early."
+      }
+    },
+    {
+      "id": "u08-w080",
+      "fr": "être fan de",
+      "en": "to be a fan of, to be into",
+      "pos": "expression",
+      "level": "A2",
+      "core": false,
+      "example": {
+        "fr": "Adolescente, j'étais fan de ce groupe et j'avais tous ses albums.",
+        "en": "As a teenager, I was a fan of this band and I had all their albums."
+      }
+    },
+    {
+      "id": "u08-w081",
+      "fr": "faire la grasse matinée",
+      "en": "to have a lie-in, to sleep in",
+      "pos": "expression",
+      "level": "A2+",
+      "core": false,
+      "example": {
+        "fr": "Dimanche, j'ai fait la grasse matinée jusqu'à onze heures.",
+        "en": "On Sunday, I slept in until eleven."
+      }
+    },
+    {
+      "id": "u08-w082",
+      "fr": "passer un bon moment",
+      "en": "to have a good time",
+      "pos": "expression",
+      "level": "A2+",
+      "core": false,
+      "example": {
+        "fr": "Nous avons passé un très bon moment chez vous, merci !",
+        "en": "We had a really good time at your place, thank you!"
+      }
+    },
+    {
+      "id": "u08-w083",
+      "fr": "cinéphile",
+      "en": "film lover, cinema buff",
+      "pos": "noun",
+      "gender": "mf",
+      "plural": "cinéphiles",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Mon père est un grand cinéphile : il allait au cinéma trois fois par semaine.",
+        "en": "My father is a great film lover: he used to go to the cinema three times a week."
+      }
+    },
+    {
+      "id": "u08-w084",
+      "fr": "inscription",
+      "en": "registration, enrolment",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "inscriptions",
+      "level": "A2+",
+      "core": false,
+      "example": {
+        "fr": "Les inscriptions au club de théâtre se terminent vendredi.",
+        "en": "Registration for the drama club closes on Friday."
+      }
+    }
+  ],
+  "grammar": [
+    {
+      "id": "u08-g01",
+      "title": "Passé composé or imparfait? Events and background",
+      "level": "A2+",
+      "grammarTag": "pc-vs-imparfait",
+      "explanation": [
+        "When you tell a story in the past, French uses two tenses together. The passé composé moves the story forward: it gives the completed actions and events, the things that happened. The imparfait sets the scene: it describes the background, the situation, the weather, feelings and what was going on.",
+        "Use the passé composé for an action that is finished and limited in time: a single event (Je suis allé au concert), a sequence of actions (Je suis rentré, j'ai mangé, puis je suis sorti), or an action with a precise duration (J'ai joué au tennis pendant deux heures).",
+        "Use the imparfait for descriptions (La salle était pleine), weather (Il faisait beau), feelings and states (J'étais content), age and time (J'avais dix ans, il était minuit) and actions in progress with no clear beginning or end (Les gens dansaient).",
+        "A good test: if you could say 'was …-ing' or describe the picture, choose the imparfait. If you could answer the question 'And then what happened?', choose the passé composé.",
+        "Remember the passé composé rules: être with verbs of movement (aller, sortir, rentrer, tomber…) and all reflexive verbs, with agreement of the past participle (Elle est sortie. Nous nous sommes amusés.)."
+      ],
+      "table": [
+        [
+          "Passé composé (event)",
+          "Imparfait (background)"
+        ],
+        [
+          "Nous sommes allés au festival.",
+          "Il faisait chaud."
+        ],
+        [
+          "Le groupe a joué deux heures.",
+          "Il y avait beaucoup de monde."
+        ],
+        [
+          "Ma sœur a dansé toute la nuit.",
+          "Elle était très contente."
+        ],
+        [
+          "À minuit, nous sommes rentrés.",
+          "Les rues étaient calmes."
+        ]
+      ],
+      "examples": [
+        {
+          "fr": "Samedi, il faisait beau, alors nous avons fait une randonnée.",
+          "en": "On Saturday the weather was nice, so we went on a hike."
+        },
+        {
+          "fr": "Le musée était fermé, donc nous sommes allés au parc.",
+          "en": "The museum was closed, so we went to the park."
+        },
+        {
+          "fr": "Hier, j'ai nagé pendant une heure à la piscine.",
+          "en": "Yesterday, I swam for an hour at the pool."
+        },
+        {
+          "fr": "Il y avait du bruit et les enfants criaient.",
+          "en": "It was noisy and the children were shouting."
+        },
+        {
+          "fr": "J'étais fatiguée, mais je suis quand même sortie avec mes amis.",
+          "en": "I was tired, but I still went out with my friends."
+        },
+        {
+          "fr": "Le spectacle a commencé à 20 h et il a fini à 22 h 30.",
+          "en": "The show started at 8 pm and finished at 10.30 pm."
+        },
+        {
+          "fr": "Les spectateurs étaient ravis : ils ont applaudi pendant dix minutes.",
+          "en": "The audience was delighted: they applauded for ten minutes."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "Hier, il a fait beau et je me promenais au parc.",
+          "right": "Hier, il faisait beau et je me suis promené au parc.",
+          "why": "The weather is the background (imparfait); the walk is the event of the day, a completed action (passé composé)."
+        },
+        {
+          "wrong": "Le concert était génial ! Les musiciens jouaient pendant trois heures.",
+          "right": "Le concert était génial ! Les musiciens ont joué pendant trois heures.",
+          "why": "Pendant + a precise duration describes a completed, limited action, so use the passé composé."
+        },
+        {
+          "wrong": "Nous avons sorti à 21 heures.",
+          "right": "Nous sommes sortis à 21 heures.",
+          "why": "Sortir (to go out) takes être in the passé composé, and the participle agrees with the subject."
+        }
+      ]
+    },
+    {
+      "id": "u08-g02",
+      "title": "Interrupted actions, habits and single events",
+      "level": "A2+",
+      "grammarTag": "pc-vs-imparfait",
+      "explanation": [
+        "An action in progress (imparfait) is often interrupted by a new event (passé composé). The pattern is: imparfait + quand + passé composé. Je lisais quand le téléphone a sonné. The words soudain, tout à coup and à ce moment-là usually introduce the interrupting event.",
+        "Pendant que (while) introduces an action in progress, so it is usually followed by the imparfait: Pendant que je cuisinais, les enfants regardaient un dessin animé. Two actions in the imparfait happen at the same time.",
+        "For habits and repeated actions in the past ('used to', 'would'), use the imparfait: Quand j'étais petit, je jouais au foot tous les mercredis. Typical signals: d'habitude, souvent, tous les jours, chaque été, le samedi, autrefois, à l'époque.",
+        "For one particular occasion, use the passé composé, even if the action is the same: Un mercredi, j'ai marqué trois buts. Signals: un jour, hier, samedi dernier, ce jour-là, une fois, pour la première fois.",
+        "So the same verb can appear in both tenses in one story. The choice depends on how you see the action: as a scene or habit (imparfait) or as a completed event (passé composé)."
+      ],
+      "table": [
+        [
+          "Signal",
+          "Usual tense",
+          "Example"
+        ],
+        [
+          "d'habitude, souvent, chaque été",
+          "imparfait",
+          "Chaque été, nous allions à la mer."
+        ],
+        [
+          "pendant que",
+          "imparfait",
+          "Pendant que je nageais, il lisait."
+        ],
+        [
+          "soudain, tout à coup",
+          "passé composé",
+          "Soudain, il a commencé à pleuvoir."
+        ],
+        [
+          "un jour, samedi dernier, une fois",
+          "passé composé",
+          "Un jour, j'ai gagné une compétition."
+        ]
+      ],
+      "examples": [
+        {
+          "fr": "Je me promenais dans le parc quand j'ai vu un vieil ami.",
+          "en": "I was walking in the park when I saw an old friend."
+        },
+        {
+          "fr": "Nous regardions le match quand soudain l'écran est devenu noir.",
+          "en": "We were watching the match when suddenly the screen went black."
+        },
+        {
+          "fr": "Pendant que mon père jardinait, ma mère faisait de la peinture.",
+          "en": "While my father was gardening, my mother was painting."
+        },
+        {
+          "fr": "À l'époque, nous allions au cinéma tous les dimanches.",
+          "en": "Back then, we used to go to the cinema every Sunday."
+        },
+        {
+          "fr": "Un dimanche, nous avons vu un film d'horreur et ma sœur a pleuré.",
+          "en": "One Sunday, we saw a horror film and my sister cried."
+        },
+        {
+          "fr": "D'habitude, je m'entraînais le soir, mais ce jour-là, je me suis entraîné le matin.",
+          "en": "I usually trained in the evening, but that day I trained in the morning."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "Je dormais quand le téléphone sonnait.",
+          "right": "Je dormais quand le téléphone a sonné.",
+          "why": "The ringing is a sudden event that interrupts the action in progress, so it takes the passé composé."
+        },
+        {
+          "wrong": "Quand j'étais enfant, j'ai fait du judo tous les samedis.",
+          "right": "Quand j'étais enfant, je faisais du judo tous les samedis.",
+          "why": "A repeated habit in the past ('I used to do') takes the imparfait."
+        },
+        {
+          "wrong": "Un jour, je rencontrais mon chanteur préféré.",
+          "right": "Un jour, j'ai rencontré mon chanteur préféré.",
+          "why": "Un jour introduces one particular event, so use the passé composé."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "u08-ex01",
+      "type": "mcq",
+      "level": "A2+",
+      "skill": "structures",
+      "grammarTag": "pc-vs-imparfait",
+      "prompt": "Choose the correct tense.",
+      "promptFr": "Quand j'étais petit, je ___ au foot tous les samedis.",
+      "options": [
+        "jouais",
+        "ai joué",
+        "joue",
+        "jouerai"
+      ],
+      "answer": 0,
+      "explanation": "A repeated habit in the past (quand j'étais petit… tous les samedis) takes the imparfait: je jouais."
+    },
+    {
+      "id": "u08-ex02",
+      "type": "mcq",
+      "level": "A2+",
+      "skill": "structures",
+      "grammarTag": "pc-vs-imparfait",
+      "prompt": "Choose the correct tense.",
+      "promptFr": "Je me promenais dans le parc quand ___ mon ancien professeur.",
+      "options": [
+        "j'ai rencontré",
+        "je rencontrais",
+        "je rencontre",
+        "je rencontrerai"
+      ],
+      "answer": 0,
+      "explanation": "The walk is in progress (imparfait); meeting the teacher is the event that interrupts it, so passé composé: j'ai rencontré."
+    },
+    {
+      "id": "u08-ex03",
+      "type": "mcq",
+      "level": "A2+",
+      "skill": "structures",
+      "grammarTag": "pc-vs-imparfait",
+      "prompt": "Choose the correct form.",
+      "promptFr": "Samedi dernier, Léa ___ au concert de son groupe préféré.",
+      "options": [
+        "est allée",
+        "allait",
+        "est allé",
+        "a allé"
+      ],
+      "answer": 0,
+      "explanation": "Samedi dernier signals a single completed event → passé composé. Aller takes être and agrees with Léa (feminine): est allée."
+    },
+    {
+      "id": "u08-ex04",
+      "type": "mcq",
+      "level": "A2+",
+      "skill": "structures",
+      "grammarTag": "pc-vs-imparfait",
+      "prompt": "« Il faisait beau, alors nous avons pique-niqué. » Why is faisait in the imparfait?",
+      "options": [
+        "It describes the weather, the background of the story.",
+        "It is a sudden, completed event.",
+        "It talks about the future.",
+        "Because it comes after alors."
+      ],
+      "answer": 0,
+      "explanation": "Weather and descriptions set the scene, so they take the imparfait. The picnic is the event (passé composé)."
+    },
+    {
+      "id": "u08-ex05",
+      "type": "mcq",
+      "level": "A2+",
+      "skill": "structures",
+      "grammarTag": "vocabulary",
+      "prompt": "Choose the right expression.",
+      "promptFr": "Je ne veux pas me lever tôt dimanche : je vais faire ___.",
+      "options": [
+        "la grasse matinée",
+        "la randonnée",
+        "le bricolage",
+        "la natation"
+      ],
+      "answer": 0,
+      "explanation": "Faire la grasse matinée = to sleep in. A hike, DIY or swimming would all mean getting up!"
+    },
+    {
+      "id": "u08-ex06",
+      "type": "fill_blank",
+      "level": "A2+",
+      "skill": "structures",
+      "grammarTag": "pc-vs-imparfait",
+      "prompt": "Put jouer in the correct past tense.",
+      "sentence": "Pendant que je ___ de la guitare, mon frère lisait une bande dessinée.",
+      "answers": [
+        "jouais"
+      ],
+      "hint": "jouer",
+      "translation": "While I was playing the guitar, my brother was reading a comic book.",
+      "explanation": "Pendant que introduces an action in progress, at the same time as another one (lisait): imparfait, je jouais."
+    },
+    {
+      "id": "u08-ex07",
+      "type": "fill_blank",
+      "level": "A2+",
+      "skill": "structures",
+      "grammarTag": "pc-vs-imparfait",
+      "prompt": "Put dîner in the correct past tense.",
+      "sentence": "Hier soir, nous ___ au restaurant, puis nous sommes allés au cinéma.",
+      "answers": [
+        "avons dîné"
+      ],
+      "hint": "dîner",
+      "translation": "Last night, we had dinner at a restaurant, then we went to the cinema.",
+      "explanation": "A sequence of completed actions (… puis …) takes the passé composé: nous avons dîné."
+    },
+    {
+      "id": "u08-ex08",
+      "type": "fill_blank",
+      "level": "A2+",
+      "skill": "structures",
+      "grammarTag": "pc-vs-imparfait",
+      "prompt": "Put applaudir in the correct past tense.",
+      "sentence": "Le spectacle était génial et, à la fin, les spectateurs ___ pendant dix minutes.",
+      "answers": [
+        "ont applaudi"
+      ],
+      "hint": "applaudir",
+      "translation": "The show was brilliant and, at the end, the audience applauded for ten minutes.",
+      "explanation": "À la fin + pendant dix minutes: a completed action with a precise duration → passé composé, ils ont applaudi."
+    },
+    {
+      "id": "u08-ex09",
+      "type": "fill_blank",
+      "level": "A2+",
+      "skill": "structures",
+      "grammarTag": "passe-compose",
+      "prompt": "Complete with the past participle of s'amuser.",
+      "sentence": "Mes cousines se sont bien ___ à la fête d'anniversaire.",
+      "answers": [
+        "amusées"
+      ],
+      "hint": "s'amuser",
+      "translation": "My (female) cousins had a great time at the birthday party.",
+      "explanation": "Reflexive verbs take être; the participle agrees with the subject mes cousines (feminine plural): amusées."
+    },
+    {
+      "id": "u08-ex10",
+      "type": "fill_blank",
+      "level": "A2+",
+      "skill": "structures",
+      "grammarTag": "vocabulary",
+      "prompt": "Complete with an adjective from the unit.",
+      "sentence": "Je fais du sport cinq fois par semaine : je suis très ___.",
+      "answers": [
+        "sportif",
+        "sportive"
+      ],
+      "translation": "I do sport five times a week: I'm very sporty.",
+      "explanation": "Sportif (m) / sportive (f) = sporty, someone who does a lot of sport."
+    },
+    {
+      "id": "u08-ex11",
+      "type": "conjugation",
+      "level": "A2+",
+      "skill": "structures",
+      "grammarTag": "passe-compose",
+      "verb": "sortir",
+      "tense": "passé composé",
+      "person": "elles",
+      "answers": [
+        "sont sorties"
+      ],
+      "explanation": "Sortir takes être; with elles the participle is feminine plural: elles sont sorties."
+    },
+    {
+      "id": "u08-ex12",
+      "type": "conjugation",
+      "level": "A2+",
+      "skill": "structures",
+      "grammarTag": "imparfait",
+      "verb": "faire",
+      "tense": "imparfait",
+      "person": "nous",
+      "answers": [
+        "faisions"
+      ],
+      "explanation": "Imparfait stem = nous form of the present without -ons (nous faisons → fais-) + -ions: nous faisions."
+    },
+    {
+      "id": "u08-ex13",
+      "type": "conjugation",
+      "level": "A2+",
+      "skill": "structures",
+      "grammarTag": "passe-compose",
+      "verb": "s'inscrire",
+      "tense": "passé composé",
+      "person": "je",
+      "answers": [
+        "me suis inscrit",
+        "me suis inscrite"
+      ],
+      "explanation": "Reflexive verb → être. Past participle of inscrire is inscrit; add -e if je is a woman: je me suis inscrit(e)."
+    },
+    {
+      "id": "u08-ex14",
+      "type": "reorder",
+      "level": "A2+",
+      "skill": "structures",
+      "grammarTag": "passe-compose",
+      "prompt": "Put the words in order: 'She signed up for a dance class.'",
+      "tokens": [
+        "Elle",
+        "s'est",
+        "inscrite",
+        "à",
+        "un",
+        "cours",
+        "de",
+        "danse"
+      ],
+      "translation": "She signed up for a dance class.",
+      "explanation": "Reflexive pronoun + être + past participle agreeing with elle: elle s'est inscrite."
+    },
+    {
+      "id": "u08-ex15",
+      "type": "reorder",
+      "level": "A2+",
+      "skill": "structures",
+      "grammarTag": "passe-compose",
+      "prompt": "Put the words in order: 'They met up in front of the stadium.'",
+      "tokens": [
+        "Ils",
+        "se",
+        "sont",
+        "retrouvés",
+        "devant",
+        "le",
+        "stade"
+      ],
+      "translation": "They met up in front of the stadium.",
+      "explanation": "Se retrouver is reflexive: ils se sont retrouvés (masculine plural agreement)."
+    },
+    {
+      "id": "u08-ex16",
+      "type": "match",
+      "level": "A2+",
+      "skill": "structures",
+      "grammarTag": "vocabulary",
+      "prompt": "Match the hobbies with their English meaning.",
+      "pairs": [
+        {
+          "left": "la natation",
+          "right": "swimming"
+        },
+        {
+          "left": "la randonnée",
+          "right": "hiking"
+        },
+        {
+          "left": "le bricolage",
+          "right": "DIY"
+        },
+        {
+          "left": "le jardinage",
+          "right": "gardening"
+        },
+        {
+          "left": "les échecs",
+          "right": "chess"
+        }
+      ],
+      "explanation": "Remember: faire de la natation / de la randonnée / du bricolage / du jardinage, but jouer aux échecs."
+    },
+    {
+      "id": "u08-ex17",
+      "type": "match",
+      "level": "A2+",
+      "skill": "structures",
+      "grammarTag": "pc-vs-imparfait",
+      "prompt": "Match each sentence with the reason for its tense.",
+      "pairs": [
+        {
+          "left": "Il faisait froid.",
+          "right": "description / background"
+        },
+        {
+          "left": "Le téléphone a sonné.",
+          "right": "a single completed event"
+        },
+        {
+          "left": "Je nageais tous les étés.",
+          "right": "a habit in the past"
+        },
+        {
+          "left": "Je dormais quand tu es arrivé.",
+          "right": "an action in progress, interrupted"
+        }
+      ],
+      "explanation": "Imparfait = background, habits, actions in progress. Passé composé = completed events, including interruptions."
+    },
+    {
+      "id": "u08-ex18",
+      "type": "translate",
+      "level": "A2+",
+      "skill": "structures",
+      "grammarTag": "pc-vs-imparfait",
+      "direction": "en-fr",
+      "source": "When I was young, I used to play tennis every Sunday.",
+      "answers": [
+        "Quand j'étais jeune, je jouais au tennis tous les dimanches.",
+        "Quand j'étais jeune, je jouais au tennis le dimanche.",
+        "Je jouais au tennis tous les dimanches quand j'étais jeune.",
+        "Lorsque j'étais jeune, je jouais au tennis tous les dimanches.",
+        "Quand j'étais jeune, je jouais au tennis chaque dimanche.",
+        "Je jouais au tennis le dimanche quand j'étais jeune.",
+        "Lorsque j'étais jeune, je jouais au tennis le dimanche."
+      ],
+      "explanation": "'Used to' = a past habit → imparfait for both verbs: j'étais, je jouais. Jouer au + sport."
+    },
+    {
+      "id": "u08-ex19",
+      "type": "translate",
+      "level": "A2+",
+      "skill": "structures",
+      "grammarTag": "pc-vs-imparfait",
+      "direction": "fr-en",
+      "source": "Nous regardions un film quand quelqu'un a frappé à la porte.",
+      "answers": [
+        "We were watching a film when someone knocked on the door.",
+        "We were watching a movie when someone knocked on the door.",
+        "We were watching a film when somebody knocked on the door.",
+        "We were watching a film when someone knocked at the door.",
+        "We were watching a movie when somebody knocked at the door."
+      ],
+      "explanation": "Imparfait regardions = 'were watching' (action in progress); passé composé a frappé = 'knocked' (the interruption)."
+    },
+    {
+      "id": "u08-ex20",
+      "type": "dictation",
+      "level": "A2+",
+      "skill": "structures",
+      "grammarTag": "pc-vs-imparfait",
+      "text": "Il faisait beau, alors nous avons fait une randonnée.",
+      "translation": "The weather was nice, so we went on a hike.",
+      "explanation": "Faisait (imparfait, weather) sets the scene; avons fait (passé composé) is the event."
+    }
+  ],
+  "listening": [
+    {
+      "id": "u08-li01",
+      "title": "Ton week-end, c'était comment ?",
+      "level": "A2+",
+      "kind": "dialogue",
+      "context": "Two friends, Inès and Hugo, talk about their weekend on Monday morning.",
+      "lines": [
+        {
+          "speaker": "Inès",
+          "fr": "Salut Hugo ! Tu as passé un bon week-end ?"
+        },
+        {
+          "speaker": "Hugo",
+          "fr": "Excellent ! Samedi, je suis allé au festival de jazz avec ma sœur."
+        },
+        {
+          "speaker": "Inès",
+          "fr": "Ah, super ! C'était comment ?"
+        },
+        {
+          "speaker": "Hugo",
+          "fr": "Génial. Il faisait beau, il y avait beaucoup de monde et les groupes étaient excellents."
+        },
+        {
+          "speaker": "Inès",
+          "fr": "Vous êtes restés jusqu'à la fin ?"
+        },
+        {
+          "speaker": "Hugo",
+          "fr": "Non. Vers 22 heures, il a commencé à pleuvoir, alors nous sommes rentrés."
+        },
+        {
+          "speaker": "Inès",
+          "fr": "Dommage ! Moi, j'ai fait la grasse matinée, et l'après-midi, j'ai joué aux échecs avec mon grand-père."
+        },
+        {
+          "speaker": "Hugo",
+          "fr": "Tu joues encore aux échecs ?"
+        },
+        {
+          "speaker": "Inès",
+          "fr": "Oui ! Quand j'étais petite, il m'apprenait à jouer tous les dimanches. Et samedi, je l'ai battu pour la première fois !"
+        },
+        {
+          "speaker": "Hugo",
+          "fr": "Bravo ! Il était content ?"
+        },
+        {
+          "speaker": "Inès",
+          "fr": "Très content, mais il veut sa revanche samedi prochain !"
+        }
+      ],
+      "translation": "Inès: Hi Hugo! Did you have a good weekend?\nHugo: Excellent! On Saturday, I went to the jazz festival with my sister.\nInès: Oh, great! How was it?\nHugo: Brilliant. The weather was nice, there were lots of people and the bands were excellent.\nInès: Did you stay until the end?\nHugo: No. Around 10 pm, it started to rain, so we went home.\nInès: Too bad! I had a lie-in, and in the afternoon I played chess with my grandfather.\nHugo: You still play chess?\nInès: Yes! When I was little, he used to teach me to play every Sunday. And on Saturday, I beat him for the first time!\nHugo: Well done! Was he happy?\nInès: Very happy, but he wants a rematch next Saturday!",
+      "questions": [
+        {
+          "id": "u08-li01-q1",
+          "question": "Why did Hugo leave the festival before the end?",
+          "options": [
+            "It started to rain.",
+            "He was tired.",
+            "There were too many people.",
+            "His sister was ill."
+          ],
+          "answer": 0,
+          "explanation": "« Vers 22 heures, il a commencé à pleuvoir, alors nous sommes rentrés. »"
+        },
+        {
+          "id": "u08-li01-q2",
+          "question": "What did Inès do on Saturday afternoon?",
+          "options": [
+            "She played chess with her grandfather.",
+            "She went to the jazz festival.",
+            "She slept all afternoon.",
+            "She taught her grandfather to play chess."
+          ],
+          "answer": 0,
+          "explanation": "« l'après-midi, j'ai joué aux échecs avec mon grand-père »."
+        },
+        {
+          "id": "u08-li01-q3",
+          "question": "What happened for the first time?",
+          "options": [
+            "Inès beat her grandfather.",
+            "Hugo went to a festival.",
+            "Inès had a lie-in.",
+            "Her grandfather won."
+          ],
+          "answer": 0,
+          "explanation": "« samedi, je l'ai battu pour la première fois ! »"
+        }
+      ]
+    },
+    {
+      "id": "u08-li02",
+      "title": "Message du club de randonnée",
+      "level": "A2+",
+      "kind": "message",
+      "context": "A recorded message for the members of a hiking club.",
+      "lines": [
+        {
+          "speaker": "Responsable du club",
+          "fr": "Bonjour à tous les membres du club de randonnée !"
+        },
+        {
+          "speaker": "Responsable du club",
+          "fr": "Dimanche dernier, nous étions trente-deux pour la sortie dans les Vosges."
+        },
+        {
+          "speaker": "Responsable du club",
+          "fr": "Il faisait un peu froid le matin, mais le soleil est arrivé vers midi et nous avons pique-niqué au bord d'un lac."
+        },
+        {
+          "speaker": "Responsable du club",
+          "fr": "Malheureusement, Martine est tombée dans la descente. Elle va bien, mais elle s'est fait mal à la cheville."
+        },
+        {
+          "speaker": "Responsable du club",
+          "fr": "Nous vous rappelons que les inscriptions pour la sortie de mai sont ouvertes jusqu'au 20 avril. Les places sont limitées à quarante personnes."
+        },
+        {
+          "speaker": "Responsable du club",
+          "fr": "Bonne semaine à tous !"
+        }
+      ],
+      "translation": "Hello to all the members of the hiking club! Last Sunday, there were thirty-two of us on the outing in the Vosges. It was a bit cold in the morning, but the sun came out around noon and we had a picnic by a lake. Unfortunately, Martine fell on the way down. She's fine, but she hurt her ankle. Just a reminder that registration for the May outing is open until 20 April. Places are limited to forty people. Have a good week, everyone!",
+      "questions": [
+        {
+          "id": "u08-li02-q1",
+          "question": "How many people went on the outing last Sunday?",
+          "options": [
+            "32",
+            "40",
+            "20",
+            "12"
+          ],
+          "answer": 0,
+          "explanation": "« nous étions trente-deux »."
+        },
+        {
+          "id": "u08-li02-q2",
+          "question": "Where did the group have lunch?",
+          "options": [
+            "By a lake",
+            "In a restaurant",
+            "At the top of a mountain",
+            "On the bus"
+          ],
+          "answer": 0,
+          "explanation": "« nous avons pique-niqué au bord d'un lac »."
+        },
+        {
+          "id": "u08-li02-q3",
+          "question": "What is the deadline to sign up for the May outing?",
+          "options": [
+            "20 April",
+            "Last Sunday",
+            "1 May",
+            "There is no deadline"
+          ],
+          "answer": 0,
+          "explanation": "« les inscriptions… sont ouvertes jusqu'au 20 avril »."
+        }
+      ]
+    }
+  ],
+  "reading": [
+    {
+      "id": "u08-re01",
+      "title": "Une soirée incroyable",
+      "level": "A2+",
+      "kind": "email",
+      "text": "Salut Camille,\n\nTu ne vas pas me croire ! Hier soir, je suis allée au concert des Lucioles avec mon cousin Léo. La salle était pleine et l'ambiance était incroyable. Le groupe a joué pendant deux heures et tout le monde chantait avec lui.\n\nPendant la dernière chanson, la chanteuse est descendue de la scène et elle a dansé au milieu du public. Moi, j'étais au premier rang, alors elle m'a pris la main ! J'étais tellement surprise que je n'ai rien dit.\n\nAprès le concert, nous avons attendu devant la sortie des artistes et nous avons rencontré le guitariste. Il était très sympa et il a signé mon billet.\n\nLa prochaine fois, tu viens avec nous ?\n\nBises,\nJulie",
+      "translation": "Hi Camille,\n\nYou won't believe it! Last night, I went to the Lucioles concert with my cousin Léo. The venue was full and the atmosphere was incredible. The band played for two hours and everyone was singing along with them.\n\nDuring the last song, the singer came down from the stage and danced in the middle of the crowd. I was in the front row, so she took my hand! I was so surprised that I didn't say anything.\n\nAfter the concert, we waited outside the stage door and we met the guitarist. He was really nice and he signed my ticket.\n\nNext time, will you come with us?\n\nLove,\nJulie",
+      "questions": [
+        {
+          "id": "u08-re01-q1",
+          "question": "Who did Julie go to the concert with?",
+          "options": [
+            "Her cousin Léo",
+            "Camille",
+            "The guitarist",
+            "Her sister"
+          ],
+          "answer": 0,
+          "explanation": "« je suis allée au concert des Lucioles avec mon cousin Léo »."
+        },
+        {
+          "id": "u08-re01-q2",
+          "question": "What did the singer do during the last song?",
+          "options": [
+            "She came down and danced in the crowd.",
+            "She stopped singing.",
+            "She signed tickets.",
+            "She played the guitar."
+          ],
+          "answer": 0,
+          "explanation": "« la chanteuse est descendue de la scène et elle a dansé au milieu du public »."
+        },
+        {
+          "id": "u08-re01-q3",
+          "question": "How did Julie react when the singer took her hand?",
+          "options": [
+            "She was so surprised that she said nothing.",
+            "She sang with her.",
+            "She cried.",
+            "She asked for an autograph."
+          ],
+          "answer": 0,
+          "explanation": "« J'étais tellement surprise que je n'ai rien dit. »"
+        }
+      ]
+    },
+    {
+      "id": "u08-re02",
+      "title": "Fête du sport : un grand succès",
+      "level": "A2+",
+      "kind": "article",
+      "text": "Fête du sport à Saint-Martin : un grand succès\n\nSamedi dernier, plus de six cents personnes ont participé à la première Fête du sport de Saint-Martin. Le temps était parfait : il faisait doux et il y avait un peu de soleil.\n\nDès 10 heures, les familles ont découvert une vingtaine d'activités gratuites : tennis, escalade, judo ou encore danse. Pendant que les enfants essayaient les sports, les parents pouvaient s'informer sur les clubs de la ville. À midi, les bénévoles ont servi un pique-nique géant dans le parc.\n\n« Avant, beaucoup d'habitants ne connaissaient pas nos associations, explique Paul Renard, l'organisateur. Ce jour-là, plus de cent personnes se sont inscrites dans un club ! »\n\nLa mairie a déjà annoncé une deuxième édition l'année prochaine.",
+      "translation": "Sports Day in Saint-Martin: a great success\n\nLast Saturday, more than six hundred people took part in Saint-Martin's first Sports Day. The weather was perfect: it was mild and there was a little sunshine.\n\nFrom 10 o'clock, families discovered around twenty free activities: tennis, climbing, judo and dance. While the children were trying out the sports, the parents could find out about the town's clubs. At noon, the volunteers served a giant picnic in the park.\n\n'Before, a lot of residents didn't know about our associations,' explains Paul Renard, the organiser. 'That day, more than a hundred people signed up for a club!'\n\nThe town hall has already announced a second edition next year.",
+      "questions": [
+        {
+          "id": "u08-re02-q1",
+          "question": "How many people took part in the Sports Day?",
+          "options": [
+            "More than 600",
+            "About 100",
+            "About 20",
+            "Exactly 200"
+          ],
+          "answer": 0,
+          "explanation": "« plus de six cents personnes ont participé »."
+        },
+        {
+          "id": "u08-re02-q2",
+          "question": "What could parents do while their children tried the sports?",
+          "options": [
+            "Find out about the town's clubs",
+            "Take part in a competition",
+            "Prepare the picnic",
+            "Watch a judo show"
+          ],
+          "answer": 0,
+          "explanation": "« les parents pouvaient s'informer sur les clubs de la ville »."
+        },
+        {
+          "id": "u08-re02-q3",
+          "question": "According to the organiser, what was the result of the day?",
+          "options": [
+            "More than a hundred people joined a club.",
+            "The clubs made a lot of money.",
+            "Six hundred people joined a club.",
+            "A new sports centre opened."
+          ],
+          "answer": 0,
+          "explanation": "« plus de cent personnes se sont inscrites dans un club »."
+        }
+      ]
+    }
+  ],
+  "writing": [
+    {
+      "id": "u08-wr01",
+      "title": "Merci pour le week-end",
+      "level": "A2+",
+      "taskType": "message",
+      "instructions": "Write a message to a friend (60–120 words). Thank them for last weekend and describe a moment you particularly enjoyed. Combine the passé composé and the imparfait.",
+      "promptFr": "Le week-end dernier, vous êtes allé(e) chez un(e) ami(e). Vous lui écrivez un message pour le/la remercier et raconter le moment que vous avez préféré. (60 mots minimum / 120 mots maximum)",
+      "minWords": 60,
+      "maxWords": 120,
+      "modelAnswer": "Salut Antoine,\n\nMerci beaucoup pour ce super week-end à la campagne ! Je suis rentrée dimanche soir un peu fatiguée, mais très contente. Mon moment préféré, c'est la randonnée de samedi. Il faisait beau, la forêt était magnifique et nous avons vu deux cerfs près du lac. Pendant que nous pique-niquions, ton chien a volé mon sandwich : j'ai tellement rigolé ! Le soir, nous avons joué à des jeux de société jusqu'à minuit. Je n'avais pas passé un aussi bon moment depuis longtemps. La prochaine fois, c'est moi qui t'invite !\n\nBises,\nSarah",
+      "checklist": [
+        "I greet my friend and thank them.",
+        "I describe the background with the imparfait (weather, place, feelings).",
+        "I tell the events with the passé composé.",
+        "I check the agreement of être verbs (je suis rentré / rentrée).",
+        "I finish with a friendly sentence and sign.",
+        "My message has between 60 and 120 words."
+      ]
+    },
+    {
+      "id": "u08-wr02",
+      "title": "Un souvenir de sortie",
+      "level": "A2+",
+      "taskType": "description",
+      "instructions": "Tell the story of a memorable outing, show or leisure activity (120–150 words). Describe the context (when, where, who, the atmosphere) and say what happened.",
+      "promptFr": "Racontez une sortie, un spectacle ou une activité de loisir qui vous a marqué(e). Décrivez le contexte et dites ce qui s'est passé. (120 mots minimum / 150 mots maximum)",
+      "minWords": 120,
+      "maxWords": 150,
+      "modelAnswer": "L'été dernier, je suis allé à un match de foot au stade de Marseille avec mon père. C'était la première fois que j'allais dans un si grand stade. Il faisait très chaud et il y avait plus de soixante mille personnes. Les supporters chantaient et agitaient des drapeaux bleus et blancs. Au début, notre équipe jouait mal et, à la mi-temps, elle perdait un à zéro. Mon père était déçu et il ne disait rien. Mais, en deuxième mi-temps, tout a changé. À la soixante-dixième minute, un jeune joueur a marqué un but magnifique. Tout le monde s'est levé et mon père m'a pris dans ses bras. Cinq minutes avant la fin, nous avons marqué un deuxième but. Nous sommes rentrés très tard, mais très heureux. Je n'oublierai jamais ce match !",
+      "checklist": [
+        "I say when, where and with whom it happened.",
+        "I use the imparfait for the description and the atmosphere.",
+        "I use the passé composé for the main events.",
+        "I use time markers: au début, soudain, à ce moment-là, ensuite, à la fin.",
+        "I say how I felt.",
+        "My text has between 120 and 150 words."
+      ]
+    }
+  ],
+  "speaking": [
+    {
+      "id": "u08-sp01",
+      "title": "S'inscrire dans un club",
+      "level": "A2+",
+      "taskType": "interaction",
+      "instructions": "Role-play: you want to join a sports club. The examiner works at the reception. Ask about the activities, times, prices and how to register.",
+      "promptFr": "Vous voulez vous inscrire dans un club de sport. Vous posez des questions à la personne de l'accueil (l'examinateur) : activités proposées, horaires, prix, inscription.",
+      "prepSeconds": 120,
+      "speakSeconds": 210,
+      "modelAnswer": "Bonjour, je viens d'arriver dans le quartier et je voudrais m'inscrire dans votre club. Quelles activités est-ce que vous proposez ? Avant, je faisais de la natation, mais j'ai arrêté il y a deux ans. J'aimerais recommencer, et peut-être essayer le yoga. Il y a des cours le soir après 19 heures ? Je travaille toute la journée. Et combien coûte l'abonnement à l'année ? Est-ce qu'il y a un tarif pour les étudiants ou les couples ? Ma compagne est intéressée aussi. Pour l'inscription, qu'est-ce que je dois apporter ? Un certificat médical, une photo ? Enfin, est-ce qu'on peut faire un cours d'essai gratuit avant de s'inscrire ? Merci beaucoup pour ces informations.",
+      "tips": [
+        "Introduce yourself and explain why you are there.",
+        "Ask varied questions: Quelles… ? Combien… ? Est-ce que… ? Qu'est-ce que… ?",
+        "Mention your past habits with the imparfait (Avant, je faisais…).",
+        "React to the answers and thank the person at the end."
+      ]
+    },
+    {
+      "id": "u08-sp02",
+      "title": "L'importance des loisirs",
+      "level": "A2+",
+      "taskType": "opinion",
+      "instructions": "Give your opinion: is it important to have hobbies? Give reasons and a personal example from the past.",
+      "promptFr": "Selon vous, est-ce qu'il est important d'avoir des loisirs ? Pourquoi ?",
+      "prepSeconds": 0,
+      "speakSeconds": 270,
+      "modelAnswer": "Pour moi, les loisirs sont très importants. D'abord, ils nous aident à nous détendre après le travail ou les études. Quand on fait une activité qu'on aime, on oublie le stress. Ensuite, les loisirs permettent de rencontrer des gens. Par exemple, il y a trois ans, je ne connaissais personne dans ma ville. Je me sentais un peu seul, alors je me suis inscrit dans une chorale. Au début, j'étais timide, mais maintenant, ces personnes sont mes amis. Enfin, c'est bon pour la santé, surtout le sport. Bien sûr, beaucoup de gens disent qu'ils n'ont pas le temps. Mais même une heure par semaine, ça change beaucoup de choses. Donc, je pense que tout le monde devrait avoir au moins un loisir.",
+      "tips": [
+        "State your opinion clearly: « Pour moi… », « Selon moi… »",
+        "Give two or three reasons with d'abord, ensuite, enfin.",
+        "Tell a short personal story combining the imparfait and the passé composé.",
+        "Mention an objection and answer it before concluding."
+      ]
+    }
+  ],
+  "checkpoint": [
+    {
+      "id": "u08-cp01",
+      "type": "mcq",
+      "level": "A2+",
+      "skill": "structures",
+      "grammarTag": "pc-vs-imparfait",
+      "prompt": "Choose the correct tense.",
+      "promptFr": "Quand j'étais enfant, ___ souvent chez mes grands-parents le week-end.",
+      "options": [
+        "j'allais",
+        "je suis allé",
+        "je vais",
+        "j'irai"
+      ],
+      "answer": 0,
+      "explanation": "A repeated habit in the past (quand j'étais enfant, souvent, le week-end) → imparfait: j'allais."
+    },
+    {
+      "id": "u08-cp02",
+      "type": "fill_blank",
+      "level": "A2+",
+      "skill": "structures",
+      "grammarTag": "pc-vs-imparfait",
+      "prompt": "Put gagner in the correct past tense.",
+      "sentence": "Hier, Marc ___ son match de tennis en deux sets.",
+      "answers": [
+        "a gagné"
+      ],
+      "hint": "gagner",
+      "translation": "Yesterday, Marc won his tennis match in two sets.",
+      "explanation": "Hier + a completed result → passé composé: il a gagné."
+    },
+    {
+      "id": "u08-cp03",
+      "type": "mcq",
+      "level": "A2+",
+      "skill": "structures",
+      "grammarTag": "pc-vs-imparfait",
+      "prompt": "Choose the correct tense.",
+      "promptFr": "Je ___ un bain quand le téléphone a sonné.",
+      "options": [
+        "prenais",
+        "ai pris",
+        "prends",
+        "prendrai"
+      ],
+      "answer": 0,
+      "explanation": "The bath is the action in progress, interrupted by the phone (passé composé) → imparfait: je prenais."
+    },
+    {
+      "id": "u08-cp04",
+      "type": "mcq",
+      "level": "A2+",
+      "skill": "structures",
+      "grammarTag": "passe-compose",
+      "prompt": "Choose the correct form.",
+      "promptFr": "Ce matin, nous ___ à 6 heures pour partir en randonnée.",
+      "options": [
+        "nous sommes levés",
+        "nous levions",
+        "avons levé",
+        "nous sommes levé"
+      ],
+      "answer": 0,
+      "explanation": "Ce matin + a single event → passé composé. Se lever is reflexive: être + agreement with nous (plural) → nous nous sommes levés."
+    },
+    {
+      "id": "u08-cp05",
+      "type": "fill_blank",
+      "level": "A2+",
+      "skill": "structures",
+      "grammarTag": "vocabulary",
+      "prompt": "Complete with an adjective from the unit.",
+      "sentence": "Le concert est ___ : il n'y a plus de places.",
+      "answers": [
+        "complet"
+      ],
+      "translation": "The concert is sold out: there are no tickets left.",
+      "explanation": "Complet / complète = full, sold out. Concert is masculine → complet."
+    },
+    {
+      "id": "u08-cp06",
+      "type": "mcq",
+      "level": "A2+",
+      "skill": "structures",
+      "grammarTag": "pc-vs-imparfait",
+      "prompt": "Choose the correct tense.",
+      "promptFr": "Pendant que nous ___ le match, mon frère préparait le dîner.",
+      "options": [
+        "regardions",
+        "avons regardé",
+        "regarderons",
+        "regardons"
+      ],
+      "answer": 0,
+      "explanation": "Pendant que introduces an action in progress at the same time as another one (préparait), so both verbs take the imparfait: nous regardions… il préparait. The passé composé would present the match as a finished event, which doesn't fit the ongoing background."
+    },
+    {
+      "id": "u08-cp07",
+      "type": "fill_blank",
+      "level": "A2+",
+      "skill": "structures",
+      "grammarTag": "pc-vs-imparfait",
+      "prompt": "Put tomber in the correct past tense.",
+      "sentence": "Le concert durait depuis une heure quand, tout à coup, le chanteur ___ de la scène.",
+      "answers": [
+        "est tombé"
+      ],
+      "hint": "tomber",
+      "translation": "The concert had been going on for an hour when, all of a sudden, the singer fell off the stage.",
+      "explanation": "Tout à coup introduces a sudden event → passé composé. Tomber takes être: il est tombé."
+    },
+    {
+      "id": "u08-cp08",
+      "type": "mcq",
+      "level": "A2+",
+      "skill": "structures",
+      "grammarTag": "vocabulary",
+      "prompt": "Choose the right word.",
+      "promptFr": "Mon voisin donne des cours de guitare gratuits dans une association : il est ___.",
+      "options": [
+        "bénévole",
+        "spectateur",
+        "joueur",
+        "complet"
+      ],
+      "answer": 0,
+      "explanation": "Un(e) bénévole works for free for an association. A spectateur watches a show, a joueur plays a game, and complet means 'full'."
+    },
+    {
+      "id": "u08-cp09",
+      "type": "fill_blank",
+      "level": "A2+",
+      "skill": "structures",
+      "grammarTag": "pc-vs-imparfait",
+      "prompt": "Put aller in the correct past tense.",
+      "sentence": "À l'époque, mes parents ___ au théâtre tous les mois.",
+      "answers": [
+        "allaient"
+      ],
+      "hint": "aller",
+      "translation": "Back then, my parents used to go to the theatre every month.",
+      "explanation": "À l'époque + tous les mois = a past habit → imparfait: ils allaient."
+    },
+    {
+      "id": "u08-cp10",
+      "type": "mcq",
+      "level": "A2+",
+      "skill": "structures",
+      "grammarTag": "pc-vs-imparfait",
+      "prompt": "Which sentence is correct?",
+      "options": [
+        "Hier, je suis allé à la piscine et j'ai nagé pendant une heure.",
+        "Hier, j'allais à la piscine et je nageais pendant une heure.",
+        "Hier, je suis allé à la piscine et je nageais pendant une heure.",
+        "Hier, j'ai allé à la piscine et j'ai nagé pendant une heure."
+      ],
+      "answer": 0,
+      "explanation": "Hier + two completed actions, one with a precise duration (pendant une heure) → passé composé for both. Aller takes être, not avoir."
+    }
+  ]
+}

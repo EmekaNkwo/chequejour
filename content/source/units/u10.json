@@ -1,0 +1,2182 @@
+{
+  "id": "u10",
+  "order": 10,
+  "level": "A2+",
+  "theme": "Administration and services",
+  "titleFr": "Démarches et services publics",
+  "description": "Forms, appointments and paperwork at the town hall and the prefecture. Grammar: linking ideas with the relative pronouns qui, que and où.",
+  "vocab": [
+    {
+      "id": "u10-w001",
+      "fr": "formulaire",
+      "en": "form",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "formulaires",
+      "level": "A2",
+      "core": true,
+      "example": {
+        "fr": "Vous devez remplir ce formulaire en lettres majuscules.",
+        "en": "You must fill in this form in capital letters."
+      }
+    },
+    {
+      "id": "u10-w002",
+      "fr": "dossier",
+      "en": "file, application (set of documents)",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "dossiers",
+      "level": "A2",
+      "core": true,
+      "example": {
+        "fr": "Mon dossier est complet, je peux enfin le déposer.",
+        "en": "My file is complete; I can finally submit it."
+      }
+    },
+    {
+      "id": "u10-w003",
+      "fr": "demande",
+      "en": "application, request",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "demandes",
+      "level": "A2",
+      "core": true,
+      "example": {
+        "fr": "J'ai fait une demande de carte d'identité le mois dernier.",
+        "en": "I applied for an ID card last month."
+      }
+    },
+    {
+      "id": "u10-w004",
+      "fr": "rendez-vous",
+      "en": "appointment",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "rendez-vous",
+      "level": "A2",
+      "core": true,
+      "example": {
+        "fr": "J'ai rendez-vous à la préfecture jeudi à neuf heures.",
+        "en": "I have an appointment at the prefecture on Thursday at nine."
+      }
+    },
+    {
+      "id": "u10-w005",
+      "fr": "guichet",
+      "en": "counter, service window",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "guichets",
+      "level": "A2+",
+      "core": true,
+      "example": {
+        "fr": "Présentez-vous au guichet numéro trois avec votre ticket.",
+        "en": "Go to counter number three with your ticket."
+      }
+    },
+    {
+      "id": "u10-w006",
+      "fr": "pièce d'identité",
+      "en": "proof of identity, ID document",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "pièces d'identité",
+      "level": "A2",
+      "core": true,
+      "example": {
+        "fr": "Une pièce d'identité en cours de validité est obligatoire.",
+        "en": "A valid ID document is compulsory."
+      }
+    },
+    {
+      "id": "u10-w007",
+      "fr": "justificatif de domicile",
+      "en": "proof of address",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "justificatifs de domicile",
+      "level": "A2+",
+      "core": true,
+      "example": {
+        "fr": "Une facture d'électricité récente peut servir de justificatif de domicile.",
+        "en": "A recent electricity bill can be used as proof of address."
+      }
+    },
+    {
+      "id": "u10-w008",
+      "fr": "attestation",
+      "en": "certificate, written statement",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "attestations",
+      "level": "A2+",
+      "core": true,
+      "example": {
+        "fr": "Mon employeur m'a donné une attestation de travail.",
+        "en": "My employer gave me an employment certificate."
+      }
+    },
+    {
+      "id": "u10-w009",
+      "fr": "titre de séjour",
+      "en": "residence permit",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "titres de séjour",
+      "level": "A2+",
+      "core": true,
+      "example": {
+        "fr": "Elle doit renouveler son titre de séjour avant la fin de l'année.",
+        "en": "She must renew her residence permit before the end of the year."
+      }
+    },
+    {
+      "id": "u10-w010",
+      "fr": "mairie",
+      "en": "town hall",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "mairies",
+      "level": "A2",
+      "core": true,
+      "example": {
+        "fr": "Ils se sont mariés à la mairie de leur village.",
+        "en": "They got married at their village town hall."
+      }
+    },
+    {
+      "id": "u10-w011",
+      "fr": "préfecture",
+      "en": "prefecture (regional state office)",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "préfectures",
+      "level": "A2+",
+      "core": true,
+      "example": {
+        "fr": "La préfecture est fermée le mercredi après-midi.",
+        "en": "The prefecture is closed on Wednesday afternoons."
+      }
+    },
+    {
+      "id": "u10-w012",
+      "fr": "impôt",
+      "en": "tax",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "impôts",
+      "level": "A2+",
+      "core": true,
+      "example": {
+        "fr": "En France, on déclare ses impôts sur le revenu au printemps.",
+        "en": "In France, you declare your income tax in the spring."
+      }
+    },
+    {
+      "id": "u10-w013",
+      "fr": "délai",
+      "en": "time limit, waiting time",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "délais",
+      "level": "A2+",
+      "core": true,
+      "example": {
+        "fr": "Le délai pour obtenir un passeport est d'environ un mois.",
+        "en": "The waiting time to get a passport is about a month."
+      }
+    },
+    {
+      "id": "u10-w014",
+      "fr": "fonctionnaire",
+      "en": "civil servant",
+      "pos": "noun",
+      "gender": "mf",
+      "plural": "fonctionnaires",
+      "level": "A2+",
+      "core": true,
+      "example": {
+        "fr": "Mon frère est fonctionnaire : il travaille au ministère de l'Éducation.",
+        "en": "My brother is a civil servant: he works at the Ministry of Education."
+      }
+    },
+    {
+      "id": "u10-w015",
+      "fr": "remplir",
+      "en": "to fill in, to fill out",
+      "pos": "verb",
+      "level": "A2",
+      "core": true,
+      "example": {
+        "fr": "Remplissez toutes les cases avant de signer.",
+        "en": "Fill in all the boxes before signing."
+      }
+    },
+    {
+      "id": "u10-w016",
+      "fr": "signer",
+      "en": "to sign",
+      "pos": "verb",
+      "level": "A2",
+      "core": true,
+      "example": {
+        "fr": "N'oubliez pas de signer en bas de la deuxième page.",
+        "en": "Don't forget to sign at the bottom of the second page."
+      }
+    },
+    {
+      "id": "u10-w017",
+      "fr": "déposer",
+      "en": "to submit, to hand in (a document)",
+      "pos": "verb",
+      "level": "A2+",
+      "core": true,
+      "example": {
+        "fr": "J'ai déposé mon dossier à la mairie ce matin.",
+        "en": "I submitted my file at the town hall this morning."
+      }
+    },
+    {
+      "id": "u10-w018",
+      "fr": "renouveler",
+      "en": "to renew",
+      "pos": "verb",
+      "level": "A2+",
+      "core": true,
+      "example": {
+        "fr": "Je dois renouveler mon passeport, il expire en mars.",
+        "en": "I need to renew my passport; it expires in March."
+      }
+    },
+    {
+      "id": "u10-w019",
+      "fr": "en ligne",
+      "en": "online",
+      "pos": "expression",
+      "level": "A2",
+      "core": true,
+      "example": {
+        "fr": "Aujourd'hui, la plupart des démarches se font en ligne.",
+        "en": "Today, most procedures are done online."
+      }
+    },
+    {
+      "id": "u10-w020",
+      "fr": "file d'attente",
+      "en": "queue, line",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "files d'attente",
+      "level": "A2+",
+      "core": true,
+      "example": {
+        "fr": "Ce matin, la file d'attente devant la préfecture allait jusqu'au coin de la rue.",
+        "en": "This morning, the queue in front of the prefecture went all the way to the corner of the street."
+      }
+    },
+    {
+      "id": "u10-w021",
+      "fr": "démarche",
+      "en": "procedure, step (administrative)",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "démarches",
+      "level": "A2+",
+      "core": false,
+      "example": {
+        "fr": "Quelles démarches faut-il faire pour changer de nom ?",
+        "en": "What steps do you need to take to change your name?"
+      }
+    },
+    {
+      "id": "u10-w022",
+      "fr": "administration",
+      "en": "administration, civil service",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "administrations",
+      "level": "A2+",
+      "core": false,
+      "example": {
+        "fr": "L'administration française a la réputation d'être lente.",
+        "en": "The French civil service has a reputation for being slow."
+      }
+    },
+    {
+      "id": "u10-w023",
+      "fr": "accueil",
+      "en": "reception (desk)",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "accueils",
+      "level": "A2",
+      "core": false,
+      "example": {
+        "fr": "Demandez à l'accueil, on vous indiquera le bon bureau.",
+        "en": "Ask at reception; they'll show you the right office."
+      }
+    },
+    {
+      "id": "u10-w024",
+      "fr": "photocopie",
+      "en": "photocopy",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "photocopies",
+      "level": "A2",
+      "core": false,
+      "example": {
+        "fr": "Apportez l'original et une photocopie de votre diplôme.",
+        "en": "Bring the original and a photocopy of your diploma."
+      }
+    },
+    {
+      "id": "u10-w025",
+      "fr": "original",
+      "en": "original (document)",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "originaux",
+      "level": "A2+",
+      "core": false,
+      "example": {
+        "fr": "Gardez toujours l'original et envoyez seulement une copie.",
+        "en": "Always keep the original and send only a copy."
+      }
+    },
+    {
+      "id": "u10-w026",
+      "fr": "signature",
+      "en": "signature",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "signatures",
+      "level": "A2",
+      "core": false,
+      "example": {
+        "fr": "Il manque votre signature en bas du formulaire.",
+        "en": "Your signature is missing at the bottom of the form."
+      }
+    },
+    {
+      "id": "u10-w027",
+      "fr": "tampon",
+      "en": "(rubber) stamp",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "tampons",
+      "level": "A2+",
+      "core": false,
+      "example": {
+        "fr": "L'employée a mis un tampon sur mon attestation.",
+        "en": "The employee stamped my certificate."
+      }
+    },
+    {
+      "id": "u10-w028",
+      "fr": "récépissé",
+      "en": "receipt (proof that an application was filed)",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "récépissés",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "En attendant votre carte, ce récépissé vous permet de rester en France.",
+        "en": "While you wait for your card, this receipt allows you to stay in France."
+      }
+    },
+    {
+      "id": "u10-w029",
+      "fr": "acte de naissance",
+      "en": "birth certificate",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "actes de naissance",
+      "level": "A2+",
+      "core": false,
+      "example": {
+        "fr": "Pour se marier, il faut fournir un acte de naissance récent.",
+        "en": "To get married, you have to provide a recent birth certificate."
+      }
+    },
+    {
+      "id": "u10-w030",
+      "fr": "état civil",
+      "en": "civil status; registry office (births, marriages, deaths)",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "états civils",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Le service de l'état civil est au rez-de-chaussée de la mairie.",
+        "en": "The registry office is on the ground floor of the town hall."
+      }
+    },
+    {
+      "id": "u10-w031",
+      "fr": "naturalisation",
+      "en": "naturalisation",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "naturalisations",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Sa demande de naturalisation a été acceptée après deux ans.",
+        "en": "Her application for naturalisation was accepted after two years."
+      }
+    },
+    {
+      "id": "u10-w032",
+      "fr": "allocation",
+      "en": "benefit, allowance",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "allocations",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Les familles avec enfants peuvent recevoir des allocations.",
+        "en": "Families with children can receive benefits."
+      }
+    },
+    {
+      "id": "u10-w033",
+      "fr": "Sécurité sociale",
+      "en": "French national health and social insurance",
+      "pos": "noun",
+      "gender": "f",
+      "level": "A2+",
+      "core": false,
+      "example": {
+        "fr": "La Sécurité sociale rembourse une partie des frais médicaux.",
+        "en": "The Sécurité sociale reimburses part of medical costs."
+      }
+    },
+    {
+      "id": "u10-w034",
+      "fr": "caisse d'allocations familiales",
+      "en": "family benefits office (CAF)",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "caisses d'allocations familiales",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "La caisse d'allocations familiales m'a demandé mon dernier avis d'imposition.",
+        "en": "The family benefits office asked me for my latest tax notice."
+      }
+    },
+    {
+      "id": "u10-w035",
+      "fr": "déclaration",
+      "en": "declaration, (tax) return",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "déclarations",
+      "level": "A2+",
+      "core": false,
+      "example": {
+        "fr": "La déclaration de revenus se remplit maintenant en ligne.",
+        "en": "The income tax return is now filled in online."
+      }
+    },
+    {
+      "id": "u10-w036",
+      "fr": "avis d'imposition",
+      "en": "tax notice, tax assessment",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "avis d'imposition",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Gardez votre avis d'imposition, on vous le demandera souvent.",
+        "en": "Keep your tax notice; you'll often be asked for it."
+      }
+    },
+    {
+      "id": "u10-w037",
+      "fr": "revenu",
+      "en": "income",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "revenus",
+      "level": "A2+",
+      "core": false,
+      "example": {
+        "fr": "Le montant de l'aide dépend de vos revenus.",
+        "en": "The amount of the benefit depends on your income."
+      }
+    },
+    {
+      "id": "u10-w038",
+      "fr": "identifiant",
+      "en": "username, login ID",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "identifiants",
+      "level": "A2+",
+      "core": false,
+      "example": {
+        "fr": "J'ai perdu mon identifiant et je ne peux plus me connecter.",
+        "en": "I've lost my username and I can't log in any more."
+      }
+    },
+    {
+      "id": "u10-w039",
+      "fr": "mot de passe",
+      "en": "password",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "mots de passe",
+      "level": "A2",
+      "core": false,
+      "example": {
+        "fr": "Choisissez un mot de passe d'au moins douze caractères.",
+        "en": "Choose a password of at least twelve characters."
+      }
+    },
+    {
+      "id": "u10-w040",
+      "fr": "espace personnel",
+      "en": "personal account area (on a website)",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "espaces personnels",
+      "level": "A2+",
+      "core": false,
+      "example": {
+        "fr": "Vous trouverez le document dans votre espace personnel sur le site.",
+        "en": "You'll find the document in your personal account on the website."
+      }
+    },
+    {
+      "id": "u10-w041",
+      "fr": "se connecter",
+      "en": "to log in, to log on",
+      "pos": "verb",
+      "level": "A2",
+      "core": false,
+      "example": {
+        "fr": "Je me suis connectée au site des impôts hier soir.",
+        "en": "I logged on to the tax website last night."
+      }
+    },
+    {
+      "id": "u10-w042",
+      "fr": "télécharger",
+      "en": "to download",
+      "pos": "verb",
+      "level": "A2",
+      "core": false,
+      "example": {
+        "fr": "Vous pouvez télécharger l'attestation au format PDF.",
+        "en": "You can download the certificate as a PDF."
+      }
+    },
+    {
+      "id": "u10-w043",
+      "fr": "imprimer",
+      "en": "to print",
+      "pos": "verb",
+      "level": "A2",
+      "core": false,
+      "example": {
+        "fr": "Imprimez le formulaire et signez-le à la main.",
+        "en": "Print the form and sign it by hand."
+      }
+    },
+    {
+      "id": "u10-w044",
+      "fr": "joindre",
+      "en": "to attach, to enclose",
+      "pos": "verb",
+      "level": "A2+",
+      "core": false,
+      "example": {
+        "fr": "Merci de joindre une photo d'identité à votre demande.",
+        "en": "Please attach an ID photo to your application."
+      }
+    },
+    {
+      "id": "u10-w045",
+      "fr": "photo d'identité",
+      "en": "passport photo, ID photo",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "photos d'identité",
+      "level": "A2",
+      "core": false,
+      "example": {
+        "fr": "Les photos d'identité doivent dater de moins de six mois.",
+        "en": "ID photos must be less than six months old."
+      }
+    },
+    {
+      "id": "u10-w046",
+      "fr": "courrier",
+      "en": "mail, letter",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "courriers",
+      "level": "A2",
+      "core": false,
+      "example": {
+        "fr": "J'ai reçu un courrier de la caisse d'allocations familiales.",
+        "en": "I received a letter from the family benefits office."
+      }
+    },
+    {
+      "id": "u10-w047",
+      "fr": "lettre recommandée",
+      "en": "registered letter",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "lettres recommandées",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Pour résilier ce contrat, il faut envoyer une lettre recommandée.",
+        "en": "To cancel this contract, you have to send a registered letter."
+      }
+    },
+    {
+      "id": "u10-w048",
+      "fr": "accusé de réception",
+      "en": "acknowledgement of receipt",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "accusés de réception",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Gardez bien l'accusé de réception de votre courrier.",
+        "en": "Make sure you keep the acknowledgement of receipt for your letter."
+      }
+    },
+    {
+      "id": "u10-w049",
+      "fr": "réclamation",
+      "en": "complaint, claim",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "réclamations",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "J'ai fait une réclamation parce qu'on avait perdu mon dossier.",
+        "en": "I made a complaint because they had lost my file."
+      }
+    },
+    {
+      "id": "u10-w050",
+      "fr": "contester",
+      "en": "to challenge, to dispute",
+      "pos": "verb",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Vous avez deux mois pour contester cette décision.",
+        "en": "You have two months to challenge this decision."
+      }
+    },
+    {
+      "id": "u10-w051",
+      "fr": "reporter",
+      "en": "to postpone",
+      "pos": "verb",
+      "level": "A2+",
+      "core": false,
+      "example": {
+        "fr": "J'ai dû reporter mon rendez-vous à la semaine prochaine.",
+        "en": "I had to postpone my appointment until next week."
+      }
+    },
+    {
+      "id": "u10-w052",
+      "fr": "timbre fiscal",
+      "en": "tax stamp (fee paid for some documents)",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "timbres fiscaux",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "En cas de perte de la carte d'identité, il faut acheter un timbre fiscal.",
+        "en": "If you lose your ID card, you have to buy a tax stamp."
+      }
+    },
+    {
+      "id": "u10-w053",
+      "fr": "obtenir",
+      "en": "to obtain, to get",
+      "pos": "verb",
+      "level": "A2+",
+      "core": false,
+      "example": {
+        "fr": "Il a obtenu sa carte de résident après dix ans en France.",
+        "en": "He got his resident card after ten years in France."
+      }
+    },
+    {
+      "id": "u10-w054",
+      "fr": "fournir",
+      "en": "to provide, to supply",
+      "pos": "verb",
+      "level": "A2+",
+      "core": false,
+      "example": {
+        "fr": "Vous devez fournir trois photos d'identité.",
+        "en": "You must provide three ID photos."
+      }
+    },
+    {
+      "id": "u10-w055",
+      "fr": "valable",
+      "en": "valid",
+      "pos": "adjective",
+      "level": "A2+",
+      "core": false,
+      "example": {
+        "fr": "Ce document est valable trois mois à partir de sa date d'émission.",
+        "en": "This document is valid for three months from its date of issue."
+      }
+    },
+    {
+      "id": "u10-w056",
+      "fr": "périmé",
+      "en": "expired, out of date",
+      "pos": "adjective",
+      "level": "A2+",
+      "core": false,
+      "example": {
+        "fr": "Ta carte d'identité est périmée depuis un an !",
+        "en": "Your ID card expired a year ago!"
+      }
+    },
+    {
+      "id": "u10-w057",
+      "fr": "obligatoire",
+      "en": "compulsory, mandatory",
+      "pos": "adjective",
+      "level": "A2+",
+      "core": false,
+      "example": {
+        "fr": "Les champs marqués d'une étoile sont obligatoires.",
+        "en": "The fields marked with an asterisk are compulsory."
+      }
+    },
+    {
+      "id": "u10-w058",
+      "fr": "facultatif / facultative",
+      "en": "optional",
+      "pos": "adjective",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Le numéro de téléphone est facultatif.",
+        "en": "The phone number is optional."
+      }
+    },
+    {
+      "id": "u10-w059",
+      "fr": "incomplet / incomplète",
+      "en": "incomplete",
+      "pos": "adjective",
+      "level": "A2+",
+      "core": false,
+      "example": {
+        "fr": "Votre demande est incomplète : il manque une photo.",
+        "en": "Your application is incomplete: a photo is missing."
+      }
+    },
+    {
+      "id": "u10-w060",
+      "fr": "en cours",
+      "en": "in progress, under way",
+      "pos": "expression",
+      "level": "A2+",
+      "core": false,
+      "example": {
+        "fr": "Votre demande est en cours de traitement.",
+        "en": "Your application is being processed."
+      }
+    },
+    {
+      "id": "u10-w061",
+      "fr": "rejeter",
+      "en": "to reject, to turn down",
+      "pos": "verb",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Sa demande a été rejetée parce qu'il manquait une signature.",
+        "en": "His application was rejected because a signature was missing."
+      }
+    },
+    {
+      "id": "u10-w062",
+      "fr": "accorder",
+      "en": "to grant, to give",
+      "pos": "verb",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "La mairie nous a accordé une autorisation exceptionnelle.",
+        "en": "The town hall granted us special permission."
+      }
+    },
+    {
+      "id": "u10-w063",
+      "fr": "horaires d'ouverture",
+      "en": "opening hours",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "horaires d'ouverture",
+      "level": "A2",
+      "core": false,
+      "example": {
+        "fr": "Vérifiez les horaires d'ouverture avant de vous déplacer.",
+        "en": "Check the opening hours before you go."
+      },
+      "pluralOnly": true
+    },
+    {
+      "id": "u10-w064",
+      "fr": "patienter",
+      "en": "to wait (patiently), to hold (on the phone)",
+      "pos": "verb",
+      "level": "A2+",
+      "core": false,
+      "example": {
+        "fr": "Veuillez patienter, un conseiller va vous répondre.",
+        "en": "Please hold; an adviser will answer you."
+      }
+    },
+    {
+      "id": "u10-w065",
+      "fr": "convocation",
+      "en": "notice to attend, summons",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "convocations",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "J'ai reçu une convocation pour un entretien à la préfecture.",
+        "en": "I received a notice to attend an interview at the prefecture."
+      }
+    },
+    {
+      "id": "u10-w066",
+      "fr": "titulaire",
+      "en": "holder (of a card, permit or account)",
+      "pos": "noun",
+      "gender": "mf",
+      "plural": "titulaires",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Le titulaire de la carte doit signer au dos.",
+        "en": "The cardholder must sign on the back."
+      }
+    },
+    {
+      "id": "u10-w067",
+      "fr": "usager",
+      "en": "user (of a public service)",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "usagers",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Les usagers se plaignent de l'attente au téléphone.",
+        "en": "Users complain about the waiting time on the phone."
+      }
+    },
+    {
+      "id": "u10-w068",
+      "fr": "domicile",
+      "en": "home, place of residence",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "domiciles",
+      "level": "A2+",
+      "core": false,
+      "example": {
+        "fr": "Le document sera envoyé à votre domicile.",
+        "en": "The document will be sent to your home address."
+      }
+    },
+    {
+      "id": "u10-w069",
+      "fr": "mettre à jour",
+      "en": "to update",
+      "pos": "verb",
+      "level": "A2+",
+      "core": false,
+      "example": {
+        "fr": "Pensez à mettre à jour votre adresse après un déménagement.",
+        "en": "Remember to update your address after a move."
+      }
+    },
+    {
+      "id": "u10-w070",
+      "fr": "vérifier",
+      "en": "to check",
+      "pos": "verb",
+      "level": "A2",
+      "core": false,
+      "example": {
+        "fr": "L'agent a vérifié tous mes documents un par un.",
+        "en": "The officer checked all my documents one by one."
+      }
+    },
+    {
+      "id": "u10-w071",
+      "fr": "cocher",
+      "en": "to tick, to check (a box)",
+      "pos": "verb",
+      "level": "A2+",
+      "core": false,
+      "example": {
+        "fr": "Cochez la case qui correspond à votre situation.",
+        "en": "Tick the box that matches your situation."
+      }
+    },
+    {
+      "id": "u10-w072",
+      "fr": "case",
+      "en": "box (on a form)",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "cases",
+      "level": "A2",
+      "core": false,
+      "example": {
+        "fr": "Il reste une case vide sur la dernière page.",
+        "en": "There's still an empty box on the last page."
+      }
+    },
+    {
+      "id": "u10-w073",
+      "fr": "rubrique",
+      "en": "section, heading",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "rubriques",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Lisez la rubrique « Questions fréquentes » avant d'appeler.",
+        "en": "Read the 'Frequently asked questions' section before calling."
+      }
+    },
+    {
+      "id": "u10-w074",
+      "fr": "au plus tard",
+      "en": "at the latest",
+      "pos": "expression",
+      "level": "A2+",
+      "core": false,
+      "example": {
+        "fr": "Le dossier doit être envoyé le 15 juin au plus tard.",
+        "en": "The file must be sent by 15 June at the latest."
+      }
+    },
+    {
+      "id": "u10-w075",
+      "fr": "à l'avance",
+      "en": "in advance",
+      "pos": "expression",
+      "level": "A2",
+      "core": false,
+      "example": {
+        "fr": "Pour la préfecture, il vaut mieux réserver longtemps à l'avance.",
+        "en": "For the prefecture, it's better to book well in advance."
+      }
+    },
+    {
+      "id": "u10-w076",
+      "fr": "en attente",
+      "en": "pending, on hold",
+      "pos": "expression",
+      "level": "A2+",
+      "core": false,
+      "example": {
+        "fr": "Mon dossier est en attente depuis trois semaines.",
+        "en": "My file has been pending for three weeks."
+      }
+    },
+    {
+      "id": "u10-w077",
+      "fr": "paperasse",
+      "en": "paperwork (informal)",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "paperasses",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Je déteste la paperasse, mais il faut bien la faire.",
+        "en": "I hate paperwork, but it has to be done."
+      }
+    },
+    {
+      "id": "u10-w078",
+      "fr": "procédure",
+      "en": "procedure",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "procédures",
+      "level": "A2+",
+      "core": false,
+      "example": {
+        "fr": "La procédure est simple, mais elle prend du temps.",
+        "en": "The procedure is simple, but it takes time."
+      }
+    },
+    {
+      "id": "u10-w079",
+      "fr": "autorisation",
+      "en": "permission, authorisation",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "autorisations",
+      "level": "A2+",
+      "core": false,
+      "example": {
+        "fr": "Il faut une autorisation de la mairie pour fermer la rue.",
+        "en": "You need permission from the town hall to close the street."
+      }
+    },
+    {
+      "id": "u10-w080",
+      "fr": "consulat",
+      "en": "consulate",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "consulats",
+      "level": "A2+",
+      "core": false,
+      "example": {
+        "fr": "Il a fait refaire son passeport au consulat de son pays.",
+        "en": "He had his passport reissued at his country's consulate."
+      }
+    },
+    {
+      "id": "u10-w081",
+      "fr": "frais de dossier",
+      "en": "application fee, processing fee",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "frais de dossier",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Les frais de dossier s'élèvent à cinquante euros.",
+        "en": "The application fee comes to fifty euros."
+      },
+      "pluralOnly": true
+    },
+    {
+      "id": "u10-w082",
+      "fr": "délivrer",
+      "en": "to issue (a document)",
+      "pos": "verb",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Le passeport est délivré en trois semaines environ.",
+        "en": "The passport is issued in about three weeks."
+      }
+    },
+    {
+      "id": "u10-w083",
+      "fr": "se renseigner",
+      "en": "to find out, to make enquiries",
+      "pos": "verb",
+      "level": "A2+",
+      "core": false,
+      "example": {
+        "fr": "Renseignez-vous à la mairie avant de commencer les travaux.",
+        "en": "Make enquiries at the town hall before you start the building work."
+      }
+    },
+    {
+      "id": "u10-w084",
+      "fr": "sur place",
+      "en": "on site, on the spot",
+      "pos": "expression",
+      "level": "A2+",
+      "core": false,
+      "example": {
+        "fr": "On peut payer sur place, par carte ou en espèces.",
+        "en": "You can pay on site, by card or in cash."
+      }
+    }
+  ],
+  "grammar": [
+    {
+      "id": "u10-g01",
+      "title": "Qui and que: linking two ideas",
+      "level": "A2+",
+      "grammarTag": "relatifs",
+      "explanation": [
+        "A relative pronoun links two ideas about the same noun so you don't repeat it. Instead of « J'ai un formulaire. Le formulaire est compliqué. », you say « J'ai un formulaire qui est compliqué. » The noun that the pronoun refers to is called the antecedent. Both qui and que work for people and for things.",
+        "Qui replaces the subject of the second clause, so it is followed directly by a verb (sometimes with ne or an object pronoun in between: « l'agent qui m'a répondu »). Qui never shortens: « l'employée qui arrive », never « qu'arrive ».",
+        "Que replaces the direct object of the second clause, so it is followed by a subject (je, tu, on, l'agent…) and then the verb: « le formulaire que je remplis ». Que becomes qu' before a vowel or a mute h: « le dossier qu'il a déposé », « la lettre qu'on attend ».",
+        "Quick test: look at the word right after the gap. If it is a verb, use qui. If it is a subject (a pronoun or a noun), use que.",
+        "In the passé composé with avoir, a direct object placed before the verb makes the past participle agree. With que, the object is the antecedent, so the participle agrees with it: « les photos que j'ai envoyées », « la lettre que tu as reçue »."
+      ],
+      "table": [
+        [
+          "Pronoun",
+          "Role in its clause",
+          "Followed by",
+          "Example"
+        ],
+        [
+          "qui",
+          "subject",
+          "a verb",
+          "le guichet qui est ouvert"
+        ],
+        [
+          "que",
+          "direct object",
+          "a subject + verb",
+          "le formulaire que je remplis"
+        ],
+        [
+          "qu'",
+          "direct object (before a vowel)",
+          "il, elle, on, un nom…",
+          "la lettre qu'elle a reçue"
+        ]
+      ],
+      "examples": [
+        {
+          "fr": "L'employé qui m'a reçu était très aimable.",
+          "en": "The employee who saw me was very kind."
+        },
+        {
+          "fr": "C'est un formulaire qui change chaque année.",
+          "en": "It's a form that changes every year."
+        },
+        {
+          "fr": "Le dossier que vous avez déposé est incomplet.",
+          "en": "The file you submitted is incomplete."
+        },
+        {
+          "fr": "La personne qu'on doit appeler n'est pas là le lundi.",
+          "en": "The person we need to call isn't there on Mondays."
+        },
+        {
+          "fr": "Voici les documents que la préfecture demande.",
+          "en": "Here are the documents the prefecture asks for."
+        },
+        {
+          "fr": "Les attestations que j'ai imprimées sont sur la table.",
+          "en": "The certificates I printed are on the table."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "Le formulaire qui je remplis est long.",
+          "right": "Le formulaire que je remplis est long.",
+          "why": "Je is already the subject of remplis, so the pronoun is the direct object: que."
+        },
+        {
+          "wrong": "La dame qu'attend devant le guichet est ma voisine.",
+          "right": "La dame qui attend devant le guichet est ma voisine.",
+          "why": "Attend has no other subject, so the pronoun is the subject: qui. Qui never becomes qu'."
+        },
+        {
+          "wrong": "Le document que il a signé est ici.",
+          "right": "Le document qu'il a signé est ici.",
+          "why": "Que elides to qu' before a vowel."
+        },
+        {
+          "wrong": "Les lettres que j'ai reçu sont dans le tiroir.",
+          "right": "Les lettres que j'ai reçues sont dans le tiroir.",
+          "why": "The direct object (que = les lettres, feminine plural) comes before avoir, so the participle agrees: reçues."
+        }
+      ]
+    },
+    {
+      "id": "u10-g02",
+      "title": "Où for places and times; choosing qui, que or où",
+      "level": "A2+",
+      "grammarTag": "relatifs",
+      "explanation": [
+        "Où links a clause to a noun of place: « la mairie où je me suis marié », « le bureau où elle travaille ». It replaces là, dans ce bureau, à cette adresse and so on.",
+        "Où is also used after nouns of time: le jour où, le moment où, l'année où, la semaine où. English uses 'when' or nothing at all: « le jour où j'ai reçu ma carte » = 'the day (when) I got my card'. Never use quand in this structure.",
+        "To choose the pronoun, ask what role the noun plays in the second clause. Subject → qui. Direct object → que. Place or time → où. Compare « la ville qui me plaît » (subject), « la ville que je préfère » (object) and « la ville où j'habite » (place).",
+        "A place noun does not automatically take où. If the place is the subject or the direct object of the verb, use qui or que: « la préfecture qui ferme à midi », « la préfecture que j'ai appelée ».",
+        "A relative clause comes right after the noun it describes, even in the middle of a sentence: « Le guichet où on dépose les dossiers est au fond du couloir. »"
+      ],
+      "table": [
+        [
+          "Role in the second clause",
+          "Pronoun",
+          "Example"
+        ],
+        [
+          "Subject",
+          "qui",
+          "la mairie qui est fermée"
+        ],
+        [
+          "Direct object",
+          "que / qu'",
+          "la mairie que j'ai contactée"
+        ],
+        [
+          "Place",
+          "où",
+          "la mairie où je me suis marié"
+        ],
+        [
+          "Time",
+          "où",
+          "le jour où je me suis marié"
+        ]
+      ],
+      "examples": [
+        {
+          "fr": "C'est le bureau où on dépose les demandes de passeport.",
+          "en": "That's the office where you hand in passport applications."
+        },
+        {
+          "fr": "Je me souviens du jour où j'ai reçu ma carte de résident.",
+          "en": "I remember the day I received my resident card."
+        },
+        {
+          "fr": "Le guichet où je dois aller est au premier étage.",
+          "en": "The counter I have to go to is on the first floor."
+        },
+        {
+          "fr": "À l'époque où j'habitais à Lyon, tout se faisait sur papier.",
+          "en": "Back when I lived in Lyon, everything was done on paper."
+        },
+        {
+          "fr": "La préfecture que j'ai appelée ne répond jamais.",
+          "en": "The prefecture I called never answers."
+        },
+        {
+          "fr": "Le lundi, c'est le seul jour où le service est ouvert l'après-midi.",
+          "en": "Monday is the only day when the office is open in the afternoon."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "Le jour quand j'ai déposé mon dossier, il pleuvait.",
+          "right": "Le jour où j'ai déposé mon dossier, il pleuvait.",
+          "why": "After a noun of time (le jour, le moment, l'année), French uses où, not quand."
+        },
+        {
+          "wrong": "La ville où je préfère, c'est Nantes.",
+          "right": "La ville que je préfère, c'est Nantes.",
+          "why": "Préférer takes a direct object (je préfère cette ville), so the pronoun is que, even though ville is a place."
+        },
+        {
+          "wrong": "Le bureau que je travaille est petit.",
+          "right": "Le bureau où je travaille est petit.",
+          "why": "You work in the office (j'y travaille): it is a place, not a direct object, so use où."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "u10-ex01",
+      "type": "mcq",
+      "level": "A2+",
+      "skill": "structures",
+      "grammarTag": "relatifs",
+      "prompt": "Choose the correct relative pronoun.",
+      "promptFr": "L'employée ___ m'a reçu était très patiente.",
+      "options": [
+        "qui",
+        "que",
+        "qu'",
+        "où"
+      ],
+      "answer": 0,
+      "explanation": "The gap is followed by m'a reçu, a verb with no other subject, so the pronoun is the subject: qui."
+    },
+    {
+      "id": "u10-ex02",
+      "type": "mcq",
+      "level": "A2+",
+      "skill": "structures",
+      "grammarTag": "relatifs",
+      "prompt": "Choose the correct relative pronoun.",
+      "promptFr": "Le formulaire ___ tu as rempli n'est pas le bon.",
+      "options": [
+        "qui",
+        "que",
+        "où",
+        "qu'"
+      ],
+      "answer": 1,
+      "explanation": "Tu is the subject and le formulaire is the direct object of as rempli, so use que. Qu' is only used before a vowel."
+    },
+    {
+      "id": "u10-ex03",
+      "type": "mcq",
+      "level": "A2+",
+      "skill": "structures",
+      "grammarTag": "relatifs",
+      "prompt": "Choose the correct relative pronoun.",
+      "promptFr": "Voici le bureau ___ il faut déposer les demandes.",
+      "options": [
+        "qui",
+        "que",
+        "où",
+        "quand"
+      ],
+      "answer": 2,
+      "explanation": "Le bureau is the place where you hand in the applications (on y dépose les demandes), so use où."
+    },
+    {
+      "id": "u10-ex04",
+      "type": "mcq",
+      "level": "A2+",
+      "skill": "structures",
+      "grammarTag": "relatifs",
+      "prompt": "Choose the correct word.",
+      "promptFr": "Je n'oublierai jamais le jour ___ j'ai obtenu la nationalité française.",
+      "options": [
+        "quand",
+        "où",
+        "que",
+        "qui"
+      ],
+      "answer": 1,
+      "explanation": "After a noun of time such as le jour, French uses où. Quand is not possible after a noun."
+    },
+    {
+      "id": "u10-ex05",
+      "type": "mcq",
+      "level": "A2+",
+      "skill": "structures",
+      "grammarTag": "vocabulary",
+      "prompt": "Which document proves where you live?",
+      "options": [
+        "un acte de naissance",
+        "un titre de séjour",
+        "un justificatif de domicile",
+        "une pièce jointe"
+      ],
+      "answer": 2,
+      "explanation": "Un justificatif de domicile (for example a recent bill) proves your address. A birth certificate proves your birth, a residence permit your right to stay, and a pièce jointe is an email attachment."
+    },
+    {
+      "id": "u10-ex06",
+      "type": "fill_blank",
+      "level": "A2+",
+      "skill": "structures",
+      "grammarTag": "relatifs",
+      "prompt": "Complete with qui, que, qu' or où.",
+      "sentence": "Les personnes ___ attendent depuis ce matin sont fatiguées.",
+      "answers": [
+        "qui"
+      ],
+      "translation": "The people who have been waiting since this morning are tired.",
+      "explanation": "Attendent is a verb with no subject of its own, so the pronoun is the subject: qui."
+    },
+    {
+      "id": "u10-ex07",
+      "type": "fill_blank",
+      "level": "A2+",
+      "skill": "structures",
+      "grammarTag": "relatifs",
+      "prompt": "Complete with qui, que, qu' or où.",
+      "sentence": "C'est une démarche ___ on peut faire en ligne.",
+      "answers": [
+        "qu'"
+      ],
+      "translation": "It's a procedure you can do online.",
+      "explanation": "On is the subject and une démarche is the object of faire, so use que, which becomes qu' before the vowel of on."
+    },
+    {
+      "id": "u10-ex08",
+      "type": "fill_blank",
+      "level": "A2+",
+      "skill": "structures",
+      "grammarTag": "relatifs",
+      "prompt": "Complete with qui, que, qu' or où.",
+      "sentence": "La ville ___ mes parents habitent est loin d'ici.",
+      "answers": [
+        "où"
+      ],
+      "translation": "The town where my parents live is far from here.",
+      "explanation": "Mes parents habitent dans cette ville: the town is a place, not the subject or object, so use où."
+    },
+    {
+      "id": "u10-ex09",
+      "type": "fill_blank",
+      "level": "A2+",
+      "skill": "structures",
+      "grammarTag": "vocabulary",
+      "prompt": "Complete with the right verb in the infinitive.",
+      "sentence": "Avant de signer, vous devez ___ toutes les rubriques du formulaire.",
+      "answers": [
+        "remplir",
+        "compléter"
+      ],
+      "hint": "to fill in",
+      "translation": "Before signing, you must fill in every section of the form.",
+      "explanation": "Remplir (or compléter) un formulaire means to fill in a form."
+    },
+    {
+      "id": "u10-ex10",
+      "type": "fill_blank",
+      "level": "A2+",
+      "skill": "structures",
+      "grammarTag": "vocabulary",
+      "prompt": "Complete with the right verb in the infinitive.",
+      "sentence": "Ma carte d'identité est périmée : je dois la ___.",
+      "answers": [
+        "renouveler",
+        "refaire",
+        "faire renouveler",
+        "faire refaire"
+      ],
+      "hint": "to renew",
+      "translation": "My ID card has expired: I have to renew it.",
+      "explanation": "An expired document must be renewed: renouveler (or refaire)."
+    },
+    {
+      "id": "u10-ex11",
+      "type": "fill_blank",
+      "level": "A2+",
+      "skill": "structures",
+      "grammarTag": "relatifs",
+      "prompt": "Join the two sentences with a relative pronoun: « J'ai un rendez-vous. Ce rendez-vous est à neuf heures. »",
+      "sentence": "J'ai un rendez-vous ___ est à neuf heures.",
+      "answers": [
+        "qui"
+      ],
+      "translation": "I have an appointment that is at nine o'clock.",
+      "explanation": "In the second sentence, ce rendez-vous is the subject of est, so it becomes qui."
+    },
+    {
+      "id": "u10-ex12",
+      "type": "fill_blank",
+      "level": "A2+",
+      "skill": "structures",
+      "grammarTag": "relatifs",
+      "prompt": "Join the two sentences with a relative pronoun: « Voici l'attestation. Mon employeur m'a donné cette attestation. »",
+      "sentence": "Voici l'attestation ___ mon employeur m'a donnée.",
+      "answers": [
+        "que"
+      ],
+      "translation": "Here is the certificate my employer gave me.",
+      "explanation": "Cette attestation is the direct object of a donné (mon employeur is the subject), so it becomes que. Note the agreement: donnée."
+    },
+    {
+      "id": "u10-ex13",
+      "type": "fill_blank",
+      "level": "A2+",
+      "skill": "structures",
+      "grammarTag": "relatifs",
+      "prompt": "Write the past participle of the verb with the correct agreement.",
+      "sentence": "Les photos que j'ai ___ ne sont pas encore arrivées.",
+      "answers": [
+        "envoyées"
+      ],
+      "hint": "envoyer",
+      "translation": "The photos I sent haven't arrived yet.",
+      "explanation": "Que stands for les photos (feminine plural), a direct object placed before avoir, so the participle agrees: envoyées."
+    },
+    {
+      "id": "u10-ex14",
+      "type": "reorder",
+      "level": "A2+",
+      "skill": "structures",
+      "grammarTag": "relatifs",
+      "prompt": "Put the words in order.",
+      "tokens": [
+        "Le",
+        "dossier",
+        "que",
+        "j'ai",
+        "déposé",
+        "est",
+        "complet."
+      ],
+      "translation": "The file I submitted is complete.",
+      "explanation": "The relative clause que j'ai déposé comes straight after le dossier, then the main verb est."
+    },
+    {
+      "id": "u10-ex15",
+      "type": "reorder",
+      "level": "A2+",
+      "skill": "structures",
+      "grammarTag": "relatifs",
+      "prompt": "Put the words in order.",
+      "tokens": [
+        "C'est",
+        "la",
+        "mairie",
+        "où",
+        "ils",
+        "se",
+        "sont",
+        "mariés."
+      ],
+      "translation": "That's the town hall where they got married.",
+      "explanation": "Où introduces the place where something happened: la mairie où ils se sont mariés."
+    },
+    {
+      "id": "u10-ex16",
+      "type": "match",
+      "level": "A2+",
+      "skill": "structures",
+      "grammarTag": "vocabulary",
+      "prompt": "Match the French words with their English meaning.",
+      "pairs": [
+        {
+          "left": "le guichet",
+          "right": "the counter"
+        },
+        {
+          "left": "la file d'attente",
+          "right": "the queue"
+        },
+        {
+          "left": "la pièce jointe",
+          "right": "the attachment"
+        },
+        {
+          "left": "le délai",
+          "right": "the time limit"
+        },
+        {
+          "left": "la convocation",
+          "right": "the notice to attend"
+        }
+      ],
+      "explanation": "These are key words for dealing with offices and online procedures."
+    },
+    {
+      "id": "u10-ex17",
+      "type": "match",
+      "level": "A2+",
+      "skill": "structures",
+      "grammarTag": "relatifs",
+      "prompt": "Match each beginning with its ending.",
+      "pairs": [
+        {
+          "left": "L'agent qui…",
+          "right": "…m'a répondu était aimable."
+        },
+        {
+          "left": "Le formulaire que…",
+          "right": "…vous avez imprimé est le bon."
+        },
+        {
+          "left": "Le bureau où…",
+          "right": "…on dépose les dossiers est fermé."
+        },
+        {
+          "left": "La lettre qu'…",
+          "right": "…elle a reçue vient de la mairie."
+        }
+      ],
+      "explanation": "Qui is followed by a verb, que by a subject, qu' by a vowel, and où introduces a place."
+    },
+    {
+      "id": "u10-ex18",
+      "type": "translate",
+      "level": "A2+",
+      "skill": "structures",
+      "grammarTag": "relatifs",
+      "direction": "en-fr",
+      "source": "The documents that you sent are on my desk.",
+      "answers": [
+        "Les documents que vous avez envoyés sont sur mon bureau.",
+        "Les documents que tu as envoyés sont sur mon bureau.",
+        "Les documents que vous m'avez envoyés sont sur mon bureau.",
+        "Les documents que tu m'as envoyés sont sur mon bureau."
+      ],
+      "explanation": "Les documents is the object of envoyer, so use que, and the participle agrees with it: envoyés."
+    },
+    {
+      "id": "u10-ex19",
+      "type": "translate",
+      "level": "A2+",
+      "skill": "structures",
+      "grammarTag": "relatifs",
+      "direction": "fr-en",
+      "source": "C'est le guichet où on dépose les demandes de titre de séjour.",
+      "answers": [
+        "It's the counter where you hand in residence permit applications.",
+        "This is the counter where you hand in residence permit applications.",
+        "That's the counter where you hand in residence permit applications.",
+        "It's the counter where you submit residence permit applications.",
+        "This is the counter where you submit residence permit applications.",
+        "That's the counter where you submit residence permit applications.",
+        "It's the counter where people submit applications for residence permits.",
+        "This is the counter where you submit applications for residence permits.",
+        "It's the desk where you hand in residence permit applications."
+      ],
+      "explanation": "Où refers to a place and translates as 'where'. On here means 'you' or 'people' in general."
+    },
+    {
+      "id": "u10-ex20",
+      "type": "dictation",
+      "level": "A2+",
+      "skill": "listening",
+      "grammarTag": "relatifs",
+      "text": "Le formulaire que vous cherchez est à l'accueil.",
+      "translation": "The form you're looking for is at reception.",
+      "explanation": "Listen for que before vous: le formulaire is the object of cherchez."
+    }
+  ],
+  "listening": [
+    {
+      "id": "u10-li01",
+      "title": "Au guichet de la préfecture",
+      "level": "A2+",
+      "kind": "dialogue",
+      "context": "A man comes to the prefecture counter to renew his residence permit.",
+      "lines": [
+        {
+          "speaker": "Agente",
+          "fr": "Bonjour monsieur. Vous avez un rendez-vous ?"
+        },
+        {
+          "speaker": "M. Diallo",
+          "fr": "Oui, à dix heures. Je viens pour renouveler mon titre de séjour."
+        },
+        {
+          "speaker": "Agente",
+          "fr": "Très bien. Vous avez la convocation qu'on vous a envoyée par mail ?"
+        },
+        {
+          "speaker": "M. Diallo",
+          "fr": "Oui, la voilà. Et voici le dossier que j'ai préparé."
+        },
+        {
+          "speaker": "Agente",
+          "fr": "Merci. Alors… passeport, photos, attestation de travail… Il me manque le justificatif de domicile."
+        },
+        {
+          "speaker": "M. Diallo",
+          "fr": "Ah bon ? J'ai mis une facture d'électricité, non ?"
+        },
+        {
+          "speaker": "Agente",
+          "fr": "Oui, mais elle date de janvier. Il faut un document qui date de moins de trois mois."
+        },
+        {
+          "speaker": "M. Diallo",
+          "fr": "Mince ! Est-ce que je peux vous l'envoyer par mail ?"
+        },
+        {
+          "speaker": "Agente",
+          "fr": "Non, vous devez l'apporter ici. Mais vous n'avez pas besoin de rendez-vous : allez au guichet six, où on prend les documents manquants, du lundi au jeudi."
+        },
+        {
+          "speaker": "M. Diallo",
+          "fr": "D'accord. Et mon titre actuel expire dans deux semaines. C'est un problème ?"
+        },
+        {
+          "speaker": "Agente",
+          "fr": "Non, je vous donne un récépissé qui est valable trois mois. Avec ce papier, vous pouvez continuer à travailler."
+        },
+        {
+          "speaker": "M. Diallo",
+          "fr": "Parfait, merci beaucoup !"
+        }
+      ],
+      "translation": "Officer: Good morning, sir. Do you have an appointment?\nMr Diallo: Yes, at ten. I've come to renew my residence permit.\nOfficer: Very good. Do you have the notice we sent you by email?\nMr Diallo: Yes, here it is. And here's the file I prepared.\nOfficer: Thank you. So… passport, photos, employment certificate… I'm missing the proof of address.\nMr Diallo: Really? I put in an electricity bill, didn't I?\nOfficer: Yes, but it's from January. We need a document that is less than three months old.\nMr Diallo: Oh no! Can I send it to you by email?\nOfficer: No, you have to bring it here. But you don't need an appointment: go to counter six, where we take missing documents, Monday to Thursday.\nMr Diallo: OK. And my current permit expires in two weeks. Is that a problem?\nOfficer: No, I'll give you a receipt that is valid for three months. With this paper, you can keep working.\nMr Diallo: Perfect, thank you very much!",
+      "questions": [
+        {
+          "id": "u10-li01-q1",
+          "question": "Why has Mr Diallo come to the prefecture?",
+          "options": [
+            "To apply for French nationality",
+            "To renew his residence permit",
+            "To change his address",
+            "To get a new passport"
+          ],
+          "answer": 1,
+          "explanation": "He says: « Je viens pour renouveler mon titre de séjour. »"
+        },
+        {
+          "id": "u10-li01-q2",
+          "question": "What is the problem with his proof of address?",
+          "options": [
+            "It isn't signed.",
+            "It is a photocopy.",
+            "It is too old.",
+            "It is in someone else's name."
+          ],
+          "answer": 2,
+          "explanation": "The bill is from January, but the document must be less than three months old."
+        },
+        {
+          "id": "u10-li01-q3",
+          "question": "What must he do with the missing document?",
+          "options": [
+            "Take it to counter six, Monday to Thursday, without an appointment",
+            "Send it by email",
+            "Post it by registered letter",
+            "Book a new appointment online"
+          ],
+          "answer": 0,
+          "explanation": "The officer says he must bring it to counter six, where missing documents are accepted without an appointment."
+        },
+        {
+          "id": "u10-li01-q4",
+          "question": "What does the récépissé allow him to do?",
+          "options": [
+            "Travel abroad",
+            "Get his card immediately",
+            "Skip the queue next time",
+            "Keep working for three months"
+          ],
+          "answer": 3,
+          "explanation": "The receipt is valid for three months and lets him continue to work."
+        }
+      ]
+    },
+    {
+      "id": "u10-li02",
+      "title": "Message de la mairie",
+      "level": "A2+",
+      "kind": "announcement",
+      "context": "The recorded message you hear when you phone a town hall.",
+      "lines": [
+        {
+          "speaker": "Message",
+          "fr": "Bonjour, vous êtes bien sur le service d'information de la mairie de Saint-Aubin."
+        },
+        {
+          "speaker": "Message",
+          "fr": "Nos services sont ouverts du lundi au vendredi, de huit heures trente à dix-sept heures, et le samedi matin, de neuf heures à midi."
+        },
+        {
+          "speaker": "Message",
+          "fr": "Attention : pendant les travaux, l'accueil se trouve au rez-de-chaussée de la médiathèque, qui est juste en face de la mairie."
+        },
+        {
+          "speaker": "Message",
+          "fr": "Pour une demande de carte d'identité ou de passeport, vous devez d'abord prendre rendez-vous sur le site internet de la ville."
+        },
+        {
+          "speaker": "Message",
+          "fr": "Le jour du rendez-vous, apportez le formulaire que vous avez rempli en ligne, une photo récente et un justificatif de domicile."
+        },
+        {
+          "speaker": "Message",
+          "fr": "Pour obtenir un acte de naissance ou de mariage, la démarche est gratuite et se fait en ligne, sans vous déplacer."
+        },
+        {
+          "speaker": "Message",
+          "fr": "Pour parler à un agent, tapez 1. Merci de votre patience."
+        }
+      ],
+      "translation": "Hello, you have reached the information service of Saint-Aubin town hall.\nOur offices are open Monday to Friday from 8.30 a.m. to 5 p.m., and on Saturday mornings from 9 a.m. to noon.\nPlease note: during the building work, reception is on the ground floor of the media library, which is just opposite the town hall.\nFor an ID card or passport application, you must first make an appointment on the town's website.\nOn the day of the appointment, bring the form you filled in online, a recent photo and proof of address.\nTo get a birth or marriage certificate, the procedure is free and done online, without travelling.\nTo speak to an officer, press 1. Thank you for your patience.",
+      "questions": [
+        {
+          "id": "u10-li02-q1",
+          "question": "Where is the reception desk at the moment?",
+          "options": [
+            "On the first floor of the town hall",
+            "In the media library opposite the town hall",
+            "At the prefecture",
+            "In the town hall car park"
+          ],
+          "answer": 1,
+          "explanation": "During the work, reception is « au rez-de-chaussée de la médiathèque, qui est juste en face de la mairie »."
+        },
+        {
+          "id": "u10-li02-q2",
+          "question": "What is the first step to get a passport?",
+          "options": [
+            "Book an appointment on the town's website",
+            "Go to reception on a Saturday",
+            "Send a photo by post",
+            "Press 1 to speak to an officer"
+          ],
+          "answer": 0,
+          "explanation": "« Vous devez d'abord prendre rendez-vous sur le site internet de la ville. »"
+        },
+        {
+          "id": "u10-li02-q3",
+          "question": "What does the message say about birth certificates?",
+          "options": [
+            "You must come in person.",
+            "They are only issued on Saturdays.",
+            "They are free and requested online.",
+            "They cost the same as a passport."
+          ],
+          "answer": 2,
+          "explanation": "The procedure « est gratuite et se fait en ligne, sans vous déplacer »."
+        }
+      ]
+    }
+  ],
+  "reading": [
+    {
+      "id": "u10-re01",
+      "title": "Démarches en ligne : un progrès pour tout le monde ?",
+      "level": "A2+",
+      "kind": "article",
+      "text": "Démarches en ligne : un progrès pour tout le monde ?\n\nAujourd'hui, en France, la plupart des démarches administratives se font sur internet. On peut déclarer ses revenus, demander un acte de naissance ou prendre rendez-vous à la préfecture sans quitter son canapé. Pour beaucoup d'usagers, c'est un vrai gain de temps : plus de files d'attente interminables, plus de guichets fermés à midi.\n\nPourtant, ce changement ne convient pas à tout le monde. Selon une association qui aide les personnes en difficulté, environ une personne sur six n'est pas à l'aise avec l'informatique. Ce sont souvent des personnes âgées, mais aussi des jeunes qui ont un smartphone mais pas d'ordinateur ni d'imprimante.\n\nPour les aider, de nombreuses villes ont ouvert des espaces France Services, où des conseillers accompagnent les habitants dans leurs démarches. « Les gens que nous recevons ne sont pas paresseux, explique Nadia, conseillère à Amiens. Ils ont simplement besoin d'une personne qui les écoute et qui leur explique les choses. Souvent, une seule visite suffit. »",
+      "translation": "Online procedures: progress for everyone?\n\nToday in France, most administrative procedures are done on the internet. You can declare your income, request a birth certificate or book an appointment at the prefecture without leaving your sofa. For many users, it's a real time-saver: no more endless queues, no more counters closed at lunchtime.\n\nHowever, this change doesn't suit everyone. According to an association that helps people in difficulty, about one person in six isn't comfortable with computers. They are often elderly people, but also young people who have a smartphone but no computer or printer.\n\nTo help them, many towns have opened France Services centres, where advisers support residents with their procedures. 'The people we see aren't lazy,' explains Nadia, an adviser in Amiens. 'They simply need someone who listens to them and explains things to them. Often, a single visit is enough.'",
+      "questions": [
+        {
+          "id": "u10-re01-q1",
+          "question": "According to the article, what is the main advantage of online procedures?",
+          "options": [
+            "They are cheaper.",
+            "They save time.",
+            "They are more secure.",
+            "They create jobs."
+          ],
+          "answer": 1,
+          "explanation": "« C'est un vrai gain de temps » — no more queues or closed counters."
+        },
+        {
+          "id": "u10-re01-q2",
+          "question": "Who has trouble with online procedures?",
+          "options": [
+            "Only elderly people",
+            "Civil servants",
+            "Elderly people and some young people without a computer",
+            "People who live in big cities"
+          ],
+          "answer": 2,
+          "explanation": "The article mentions elderly people « mais aussi des jeunes qui ont un smartphone mais pas d'ordinateur ni d'imprimante »."
+        },
+        {
+          "id": "u10-re01-q3",
+          "question": "What are the espaces France Services?",
+          "options": [
+            "Places where advisers help people with their procedures",
+            "Websites for tax returns",
+            "Computer shops in town centres",
+            "Offices inside the prefecture"
+          ],
+          "answer": 0,
+          "explanation": "They are places « où des conseillers accompagnent les habitants dans leurs démarches »."
+        },
+        {
+          "id": "u10-re01-q4",
+          "question": "What does Nadia suggest about the people she helps?",
+          "options": [
+            "They should learn to use computers on their own.",
+            "They don't really want to do their paperwork.",
+            "They need several months of training.",
+            "They need patient human help, not criticism."
+          ],
+          "answer": 3,
+          "explanation": "She says they aren't lazy; they just need someone who listens and explains, and one visit is often enough."
+        }
+      ]
+    },
+    {
+      "id": "u10-re02",
+      "title": "Votre dossier de mariage",
+      "level": "A2+",
+      "kind": "email",
+      "text": "Objet : Votre dossier de mariage – pièces manquantes\n\nMadame Moreau,\n\nNous avons bien reçu le dossier de mariage que vous avez déposé le 3 mars. Malheureusement, il est incomplet : il manque l'acte de naissance de votre futur époux, qui doit dater de moins de trois mois, ainsi qu'une photocopie de sa pièce d'identité.\n\nVous pouvez nous envoyer ces documents par courrier ou les déposer au guichet de l'état civil, qui est ouvert du lundi au vendredi, de 9 h à 16 h 30. Attention : nous devons recevoir votre dossier complet le 15 avril au plus tard. Après cette date, nous ne pourrons pas garantir la date que vous avez choisie pour la cérémonie.\n\nPour toute question, vous pouvez répondre directement à ce message.\n\nCordialement,\n\nLe service de l'état civil\nMairie de Villeneuve",
+      "translation": "Subject: Your marriage file – missing documents\n\nDear Ms Moreau,\n\nWe have received the marriage file you submitted on 3 March. Unfortunately, it is incomplete: your future husband's birth certificate, which must be less than three months old, is missing, as is a photocopy of his ID.\n\nYou can send us these documents by post or hand them in at the registry office counter, which is open Monday to Friday, from 9 a.m. to 4.30 p.m. Please note: we must receive your complete file by 15 April at the latest. After that date, we will not be able to guarantee the date you chose for the ceremony.\n\nIf you have any questions, you can reply directly to this message.\n\nKind regards,\n\nThe Registry Office\nVilleneuve Town Hall",
+      "questions": [
+        {
+          "id": "u10-re02-q1",
+          "question": "Why is the town hall writing to Ms Moreau?",
+          "options": [
+            "Her wedding date has been changed.",
+            "Two documents are missing from her file.",
+            "She forgot to pay a fee.",
+            "Her appointment has been cancelled."
+          ],
+          "answer": 1,
+          "explanation": "The file is incomplete: the birth certificate and a photocopy of the ID are missing."
+        },
+        {
+          "id": "u10-re02-q2",
+          "question": "What condition must the birth certificate meet?",
+          "options": [
+            "It must be less than three months old.",
+            "It must be translated.",
+            "It must be signed by the mayor.",
+            "It must be sent by registered letter."
+          ],
+          "answer": 0,
+          "explanation": "« L'acte de naissance… qui doit dater de moins de trois mois »."
+        },
+        {
+          "id": "u10-re02-q3",
+          "question": "What could happen if the documents arrive on 20 April?",
+          "options": [
+            "She will have to pay a fine.",
+            "The file will be sent back to her.",
+            "The wedding might not take place on the date she chose.",
+            "Nothing: there is no deadline."
+          ],
+          "answer": 2,
+          "explanation": "After 15 April, the town hall cannot guarantee the date chosen for the ceremony."
+        },
+        {
+          "id": "u10-re02-q4",
+          "question": "How can she send the missing documents?",
+          "options": [
+            "Only online",
+            "By post or at the counter",
+            "Only on Saturday mornings",
+            "By fax"
+          ],
+          "answer": 1,
+          "explanation": "« Vous pouvez nous envoyer ces documents par courrier ou les déposer au guichet »."
+        }
+      ]
+    }
+  ],
+  "writing": [
+    {
+      "id": "u10-wr01",
+      "title": "Reporter un rendez-vous",
+      "level": "A2+",
+      "taskType": "message",
+      "instructions": "Write an email to the town hall to move an appointment. Explain why you can't come, suggest other times and ask a question about the documents. Use at least two relative pronouns.",
+      "promptFr": "Vous aviez rendez-vous à la mairie vendredi pour déposer votre demande de carte d'identité, mais vous ne pouvez pas y aller. Écrivez un courriel au service concerné : expliquez la situation, demandez un nouveau rendez-vous et posez une question sur les documents à apporter. (60 à 120 mots)",
+      "minWords": 60,
+      "maxWords": 120,
+      "modelAnswer": "Objet : Report de mon rendez-vous de vendredi\n\nMadame, Monsieur,\n\nJ'avais rendez-vous vendredi à 10 heures pour déposer ma demande de carte d'identité. Malheureusement, je ne pourrai pas venir, car je dois partir en déplacement pour mon travail.\n\nSerait-il possible de reporter ce rendez-vous à la semaine suivante ? Je suis disponible le lundi et le mardi, de préférence le matin.\n\nJ'ai aussi une question : le justificatif de domicile que j'ai, c'est une facture d'internet qui date de février. Est-ce qu'elle est encore valable ?\n\nJe vous remercie par avance de votre réponse.\n\nCordialement,\n\nSamuel Okafor",
+      "checklist": [
+        "I used a subject line, a formal greeting and a formal closing.",
+        "I explained why I can't come and suggested new times.",
+        "I asked a clear question about the documents.",
+        "I used at least two relative pronouns (qui, que, où) correctly.",
+        "I used vous throughout and stayed between 60 and 120 words."
+      ]
+    },
+    {
+      "id": "u10-wr02",
+      "title": "Une démarche administrative",
+      "level": "A2+",
+      "taskType": "description",
+      "instructions": "Tell the story of an administrative procedure you went through. Describe the place, the people and how it went. Use the passé composé and the imparfait, and several relative clauses.",
+      "promptFr": "Racontez une démarche administrative que vous avez faite (en France ou dans votre pays). Décrivez le lieu où vous êtes allé(e), les personnes que vous avez rencontrées, et dites comment cela s'est passé. (120 à 150 mots)",
+      "minWords": 120,
+      "maxWords": 150,
+      "modelAnswer": "L'année dernière, j'ai dû renouveler mon passeport au consulat de mon pays, à Paris. C'est une démarche que je redoutais, parce que j'avais entendu beaucoup d'histoires négatives.\n\nJ'avais pris rendez-vous en ligne trois semaines à l'avance. Le jour où je suis allée au consulat, il pleuvait et il y avait déjà une longue file d'attente sur le trottoir. La salle où on attendait était petite et un peu sombre, mais les agents étaient bien organisés.\n\nL'employé qui m'a reçue a vérifié tous les documents que j'avais apportés : mon ancien passeport, deux photos et un justificatif de domicile. Heureusement, rien ne manquait ! J'ai payé les frais de dossier sur place et il m'a donné un récépissé.\n\nFinalement, j'ai reçu mon nouveau passeport un mois plus tard. Tout s'est passé beaucoup mieux que prévu.",
+      "checklist": [
+        "I set the scene with the imparfait and told the events with the passé composé.",
+        "I described the place and the people.",
+        "I used qui, que and où at least once each.",
+        "I made the past participle agree after que when needed (les documents que j'ai apportés).",
+        "I gave a conclusion and stayed between 120 and 150 words."
+      ]
+    }
+  ],
+  "speaking": [
+    {
+      "id": "u10-sp01",
+      "title": "À l'accueil de la mairie",
+      "level": "A2+",
+      "taskType": "interaction",
+      "instructions": "Role-play: you have lost your ID card and ask the town hall officer (the examiner) what to do. Ask about the procedure, the documents, the cost and the waiting time.",
+      "promptFr": "Vous avez perdu votre carte d'identité. Vous allez à l'accueil de la mairie pour vous renseigner. Vous posez des questions à l'agent sur la démarche, les documents à fournir, le prix et le délai. L'examinateur joue le rôle de l'agent.",
+      "prepSeconds": 120,
+      "speakSeconds": 210,
+      "modelAnswer": "Bonjour madame. Voilà, j'ai perdu ma carte d'identité la semaine dernière et je voudrais en refaire une. Qu'est-ce que je dois faire exactement ? … D'accord. Est-ce qu'il faut prendre rendez-vous, ou est-ce que je peux venir sans rendez-vous ? … Et quels sont les documents que je dois apporter ? J'ai mon passeport, qui est encore valable, et une facture d'électricité. Ça suffit comme justificatif de domicile ? … Ah, il faut aussi une déclaration de perte. C'est un formulaire que je peux remplir ici ou en ligne ? … Très bien. Et combien est-ce que ça coûte ? On m'a dit qu'il fallait un timbre fiscal en cas de perte. … Vingt-cinq euros, d'accord. Dernière question : quel est le délai pour obtenir la nouvelle carte ? Je pars en voyage dans deux mois. … Parfait, merci beaucoup pour ces renseignements. Bonne journée !",
+      "tips": [
+        "Start by explaining your situation in one or two sentences before asking questions.",
+        "Vary your questions: est-ce que…, quels sont les documents que…, combien…, quel est le délai…",
+        "React to the answers (d'accord, ah bon ?, très bien) to keep the conversation natural.",
+        "Use relative clauses to give details: un passeport qui est encore valable, un formulaire que je peux remplir."
+      ]
+    },
+    {
+      "id": "u10-sp02",
+      "title": "Tout en ligne ?",
+      "level": "A2+",
+      "taskType": "opinion",
+      "instructions": "Give your opinion on whether all administrative procedures should be done online. Give advantages, disadvantages and a personal example.",
+      "promptFr": "Aujourd'hui, beaucoup de démarches administratives se font uniquement sur internet. Pensez-vous que c'est une bonne chose ? Donnez votre opinion et justifiez-la.",
+      "prepSeconds": 0,
+      "speakSeconds": 270,
+      "modelAnswer": "À mon avis, les démarches en ligne sont un grand progrès, mais il ne faut pas supprimer complètement les guichets. D'abord, internet fait gagner beaucoup de temps. Avant, il fallait prendre une demi-journée de congé pour aller à la préfecture ; maintenant, on peut déposer un dossier le soir, depuis chez soi. C'est aussi plus pratique pour les gens qui habitent loin des grandes villes. Cependant, tout le monde n'a pas d'ordinateur ou d'imprimante, et beaucoup de personnes âgées ne sont pas à l'aise avec les sites administratifs, qui sont parfois compliqués. Moi-même, quand je suis arrivé en France, j'avais besoin de quelqu'un qui m'explique les formulaires. Donc, je pense que la meilleure solution, c'est de garder les deux : des services en ligne pour ceux qui le veulent, et des agents disponibles pour les personnes qui ont besoin d'aide.",
+      "tips": [
+        "Announce your position in the first sentence (À mon avis…, Je pense que…).",
+        "Give at least one advantage and one disadvantage, linked with d'abord, aussi, cependant, donc.",
+        "Add a short personal example to make your answer convincing.",
+        "Finish with a clear conclusion that answers the question."
+      ]
+    }
+  ],
+  "checkpoint": [
+    {
+      "id": "u10-cp01",
+      "type": "mcq",
+      "level": "A2+",
+      "skill": "structures",
+      "grammarTag": "relatifs",
+      "prompt": "Choose the correct relative pronoun.",
+      "promptFr": "Les documents ___ vous devez fournir sont sur la liste.",
+      "options": [
+        "qui",
+        "que",
+        "où",
+        "qu'"
+      ],
+      "answer": 1,
+      "explanation": "Vous is the subject and les documents is the object of fournir, so use que (not qu', as vous starts with a consonant)."
+    },
+    {
+      "id": "u10-cp02",
+      "type": "mcq",
+      "level": "A2+",
+      "skill": "structures",
+      "grammarTag": "relatifs",
+      "prompt": "Choose the correct relative pronoun.",
+      "promptFr": "C'est la mairie ___ ferme le samedi.",
+      "options": [
+        "que",
+        "où",
+        "qui",
+        "qu'"
+      ],
+      "answer": 2,
+      "explanation": "Ferme has no other subject: la mairie is the subject, so use qui."
+    },
+    {
+      "id": "u10-cp03",
+      "type": "mcq",
+      "level": "A2+",
+      "skill": "structures",
+      "grammarTag": "relatifs",
+      "prompt": "Choose the correct word.",
+      "promptFr": "Je cherche le bureau ___ on peut prendre rendez-vous.",
+      "options": [
+        "où",
+        "que",
+        "qui",
+        "quand"
+      ],
+      "answer": 0,
+      "explanation": "Le bureau is the place where you make the appointment, so use où."
+    },
+    {
+      "id": "u10-cp04",
+      "type": "mcq",
+      "level": "A2+",
+      "skill": "structures",
+      "grammarTag": "vocabulary",
+      "prompt": "Your ID card is no longer valid. It is…",
+      "options": [
+        "obligatoire",
+        "facultative",
+        "complète",
+        "périmée"
+      ],
+      "answer": 3,
+      "explanation": "Périmée means expired. Obligatoire = compulsory, facultative = optional, complète = complete."
+    },
+    {
+      "id": "u10-cp05",
+      "type": "mcq",
+      "level": "A2+",
+      "skill": "structures",
+      "grammarTag": "vocabulary",
+      "prompt": "In France, where do you usually go to apply for a residence permit?",
+      "options": [
+        "à la gare",
+        "à la préfecture",
+        "à la pharmacie",
+        "à la banque"
+      ],
+      "answer": 1,
+      "explanation": "Residence permits (titres de séjour) are handled by the prefecture."
+    },
+    {
+      "id": "u10-cp06",
+      "type": "fill_blank",
+      "level": "A2+",
+      "skill": "structures",
+      "grammarTag": "relatifs",
+      "prompt": "Complete with qui, que, qu' or où.",
+      "sentence": "Le jour ___ j'ai reçu ma carte, j'étais très content.",
+      "answers": [
+        "où"
+      ],
+      "translation": "The day I received my card, I was very happy.",
+      "explanation": "After a noun of time (le jour), use où."
+    },
+    {
+      "id": "u10-cp07",
+      "type": "fill_blank",
+      "level": "A2+",
+      "skill": "structures",
+      "grammarTag": "relatifs",
+      "prompt": "Complete with qui, que, qu' or où.",
+      "sentence": "La lettre ___ elle attendait est enfin arrivée.",
+      "answers": [
+        "qu'"
+      ],
+      "translation": "The letter she was waiting for has finally arrived.",
+      "explanation": "Elle is the subject and la lettre the object of attendait, so use que, shortened to qu' before elle."
+    },
+    {
+      "id": "u10-cp08",
+      "type": "fill_blank",
+      "level": "A2+",
+      "skill": "structures",
+      "grammarTag": "relatifs",
+      "prompt": "Write the past participle of the verb with the correct agreement.",
+      "sentence": "Les attestations que j'ai ___ sont dans le dossier.",
+      "answers": [
+        "imprimées"
+      ],
+      "hint": "imprimer",
+      "translation": "The certificates I printed are in the file.",
+      "explanation": "Que = les attestations (feminine plural), placed before avoir, so the participle agrees: imprimées."
+    },
+    {
+      "id": "u10-cp09",
+      "type": "fill_blank",
+      "level": "A2+",
+      "skill": "structures",
+      "grammarTag": "vocabulary",
+      "prompt": "Complete with the right verb.",
+      "sentence": "Il faut ___ rendez-vous sur le site de la préfecture.",
+      "answers": [
+        "prendre"
+      ],
+      "hint": "to take",
+      "translation": "You have to make an appointment on the prefecture's website.",
+      "explanation": "The fixed expression is prendre rendez-vous (to make an appointment)."
+    },
+    {
+      "id": "u10-cp10",
+      "type": "fill_blank",
+      "level": "A2+",
+      "skill": "structures",
+      "grammarTag": "vocabulary",
+      "prompt": "Complete with the right verb in the infinitive.",
+      "sentence": "N'oubliez pas de ___ le formulaire en bas de la dernière page.",
+      "answers": [
+        "signer"
+      ],
+      "hint": "to sign",
+      "translation": "Don't forget to sign the form at the bottom of the last page.",
+      "explanation": "Signer = to sign. You sign a form at the bottom of the page."
+    }
+  ]
+}
