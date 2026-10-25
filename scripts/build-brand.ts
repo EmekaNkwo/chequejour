@@ -68,7 +68,7 @@ const tile = (radius: number) => `<rect width="${C}" height="${C}" rx="${radius}
 function lockup(textColour: string): string {
   const height = 360;
   const icon = `<g transform="translate(20 20) scale(${(height - 40) / C})">${tile(TILE_RADIUS)}</g>`;
-  const text = `<text x="${height + 24}" y="${height / 2 + 6}" font-family="Nunito" font-weight="900" font-size="112" fill="${textColour}" dominant-baseline="middle">Chèque du jour</text>`;
+  const text = `<text x="${height + 24}" y="${height / 2 + 6}" font-family="Nunito" font-weight="900" font-size="112" fill="${textColour}" dominant-baseline="middle">Chaque Jour</text>`;
   return svg(`${icon}${text}`, 1400, height);
 }
 

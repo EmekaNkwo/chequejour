@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "Chèque du jour",
+    "name": "Chaque Jour",
     "slug": "chequejour",
     "scheme": "chequejour",
     "version": "1.0.0",
@@ -38,7 +38,7 @@
       [
         "expo-audio",
         {
-          "microphonePermission": "Chèque du jour records your speaking practice. Recordings stay on this device.",
+          "microphonePermission": "Chaque Jour records your speaking practice. Recordings stay on this device.",
           "enableBackgroundPlayback": false,
           "enableBackgroundRecording": false
         }

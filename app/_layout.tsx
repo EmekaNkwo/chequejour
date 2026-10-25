@@ -75,7 +75,7 @@ function Bootstrap() {
       })
       .finally(() => SplashScreen.hideAsync().catch(() => undefined));
   }, [db]);
-  if (failed) return <ErrorState message="Chèque du jour couldn't open its data on this device." canLeave={false} />;
+  if (failed) return <ErrorState message="Chaque Jour couldn't open its data on this device." canLeave={false} />;
   if (!settings) return <AppLoading />;
   return (
     <AppProvider db={db} initialSettings={settings}>

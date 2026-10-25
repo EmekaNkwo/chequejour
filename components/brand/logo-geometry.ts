@@ -1,6 +1,6 @@
 /**
- * The Chèque du jour mark: a speech bubble (conversation) holding a check mark
- * (the "chèque" pun) with a small sun (something new every day). Drawn on a
+ * The Chaque Jour mark: a speech bubble (conversation) holding a check mark
+ * (practice checked off) with a small sun (chaque jour: every day). Drawn on a
  * 1024 × 1024 canvas. Shared by the in-app <Logo /> and scripts/build-brand.ts,
  * so the app icon and the screens always match.
  */

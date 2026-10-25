@@ -13,14 +13,14 @@ export type ExportResult = { ok: true; uri: string; shared: boolean } | { ok: fa
 
 export async function exportToFile(db: SqlDb, now: Date): Promise<ExportResult> {
   const backup = await exportProgress(db, now);
-  const file = new File(Paths.cache, `chequejour-backup-${toDayKey(now)}.json`);
+  const file = new File(Paths.cache, `chaque-jour-backup-${toDayKey(now)}.json`);
   if (file.exists) file.delete();
   file.create();
   await file.write(JSON.stringify(backup));
   if (!(await Sharing.isAvailableAsync())) {
     return { ok: true, uri: file.uri, shared: false };
   }
-  await Sharing.shareAsync(file.uri, { mimeType: 'application/json', dialogTitle: 'Save your Chèque du jour backup', UTI: 'public.json' });
+  await Sharing.shareAsync(file.uri, { mimeType: 'application/json', dialogTitle: 'Save your Chaque Jour backup', UTI: 'public.json' });
   return { ok: true, uri: file.uri, shared: true };
 }
 

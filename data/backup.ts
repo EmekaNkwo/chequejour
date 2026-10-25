@@ -8,6 +8,7 @@ import { z } from 'zod';
 import { SCHEMA_VERSION } from './migrations';
 import type { SqlDb, SqlParam } from './sql';
 
+/** Kept from the app's first name so every backup ever made still restores. */
 export const BACKUP_APP_ID = 'chequejour';
 
 /** Progress tables in restore order. Content tables are rebuilt from the bundle instead. */
@@ -65,7 +66,7 @@ export function parseBackup(json: string): { ok: true; backup: Backup } | { ok: 
     return { ok: false, error: 'This file is not a valid backup (it is not JSON).' };
   }
   const parsed = backupSchema.safeParse(raw);
-  if (!parsed.success) return { ok: false, error: 'This file is not a Chèque du jour backup, or it is damaged.' };
+  if (!parsed.success) return { ok: false, error: 'This file is not a Chaque Jour backup, or it is damaged.' };
   if (parsed.data.schemaVersion > SCHEMA_VERSION) {
     return { ok: false, error: 'This backup was made by a newer version of the app. Update the app first.' };
   }

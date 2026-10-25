@@ -13,6 +13,7 @@ import { toDayKey } from '../../domain/dates';
 // eslint-disable-next-line @typescript-eslint/no-require-imports
 const bundle = require('../../content/build/content.json') as ContentBundle;
 
+/** Kept from the app's first name so installs update in place with their data. */
 export const DATABASE_NAME = 'chequejour.db';
 
 export async function initDatabase(db: SqlDb): Promise<void> {

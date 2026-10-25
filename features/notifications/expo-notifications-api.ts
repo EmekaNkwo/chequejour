@@ -14,7 +14,7 @@ let channelReady = false;
 export async function ensureChannel(): Promise<void> {
   if (Platform.OS !== 'android' || channelReady) return;
   await Notifications.setNotificationChannelAsync(DAILY_CHANNEL_ID, {
-    name: 'Word and sentence of the day',
+    name: 'Chaque Jour: word and sentence of the day',
     description: 'Your daily French word and sentence',
     importance: Notifications.AndroidImportance.DEFAULT,
   });

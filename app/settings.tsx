@@ -244,7 +244,7 @@ export default function SettingsScreen() {
       <Card style={styles.card}>
         <SettingsGroup title="About">
           <AppText variant="body" tone="secondary">
-            Chèque du jour works fully offline. There is no account, no server, no ads and no analytics: nothing you do leaves this phone unless you export it yourself.
+            Chaque Jour works fully offline. There is no account, no server, no ads and no analytics: nothing you do leaves this phone unless you export it yourself.
           </AppText>
           <AppText variant="body" tone="secondary">
             Levels shown in the app are practice estimates. They are not official TCF results and don&apos;t predict your exam score.

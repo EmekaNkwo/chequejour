@@ -1,9 +1,15 @@
-# Chèque du jour — offline daily French trainer (A2 → B1, TCF)
+# Chaque Jour — offline daily French trainer (A2 → B1, TCF)
 
 A calm daily French habit for English speakers going from CEFR A2 to B1 and preparing for
 the TCF. Everything — lessons, 1,500+ words, 380 sentences of the day, exercises, audio —
 ships inside the app. No account, no server, no analytics, no ads. It works in airplane
 mode from the first launch.
+
+
+> **Name.** The app was first called *Chèque du jour*. Technical identifiers keep the old
+> spelling on purpose (Android package and iOS bundle `com.emeka.chequejour`, URL scheme
+> `chequejour://`, database `chequejour.db`, backup id `chequejour`) so existing installs
+> update in place and every old backup still restores.
 
 ## Run it locally
 

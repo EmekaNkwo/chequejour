@@ -79,11 +79,11 @@ export function AppLoading() {
   const colors = useColorScheme() === 'dark' ? darkColors : lightColors;
   const reduceMotion = useReducedMotion();
   return (
-    <View style={[styles.root, styles.center, { backgroundColor: colors.background }]} accessible accessibilityRole="progressbar" accessibilityLabel="Chèque du jour is loading">
+    <View style={[styles.root, styles.center, { backgroundColor: colors.background }]} accessible accessibilityRole="progressbar" accessibilityLabel="Chaque Jour is loading">
       <PulsingLogo size={SPLASH_LOGO_SIZE} />
       <Animated.View entering={reduceMotion ? undefined : FadeIn.delay(200).duration(400)} style={styles.name}>
         <AppText variant="title" color={colors.text}>
-          Chèque du jour
+          Chaque Jour
         </AppText>
         <AppText variant="meta" color={colors.textMuted}>
           Getting today&apos;s French ready…

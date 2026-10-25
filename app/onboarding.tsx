@@ -112,7 +112,7 @@ function Welcome({ onNext }: { onNext: () => void }) {
     >
       <View style={styles.hero}>
         <Logo size={80} />
-        <AppText variant="screenTitle">Chèque du jour</AppText>
+        <AppText variant="screenTitle">Chaque Jour</AppText>
         <AppText variant="body" tone="secondary">
           A calm daily French habit, from A2 to B1, built around the TCF.
         </AppText>
