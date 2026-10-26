@@ -60,6 +60,14 @@ describe('unit path', () => {
     ]);
     expect(unitSegments(unit)[0].itemIds).toHaveLength(10);
   });
+  it('spreads extra exercises over the existing practice sets instead of adding a tiny one', () => {
+    const sizes = (n: number) => unitSegments(makeUnit('u09', 9, 20, n)).filter((x) => x.kind === 'exercises').map((x) => x.itemIds.length);
+    expect(sizes(20)).toEqual([10, 10]);
+    expect(sizes(21)).toEqual([11, 10]);
+    expect(sizes(24)).toEqual([12, 12]);
+    expect(sizes(26)).toEqual([9, 9, 8]);
+    expect(sizes(4)).toEqual([4]);
+  });
   it('returns the next incomplete segment', () => {
     expect(nextSegment(unit, new Set(['u01:words:1']))?.id).toBe('u01:grammar:1');
     expect(nextSegment(unit, new Set(unitSegments(unit).map((s) => s.id)))).toBeNull();

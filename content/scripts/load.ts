@@ -6,6 +6,7 @@ import { join, resolve } from 'node:path';
 import type { ZodType } from 'zod';
 import { collectAudioClips } from '../../domain/audio-keys';
 import type { ContentBundle, MockTest, PlacementTest, Sentence, Unit } from '../../domain/content-types';
+import { exerciseProblems } from '../../domain/exercises/content-checks';
 import { mockFormatProblems } from '../../domain/tcf/mock-format-checks';
 import { mockTestSchema, placementSchema, sentenceSchema, unitSchema } from './schema';
 
@@ -14,8 +15,8 @@ export const SOURCE_DIR = join(ROOT, 'content', 'source');
 export const AUDIO_DIR = join(ROOT, 'assets', 'audio');
 export const AUDIO_EXT = '.m4a';
 
-/** Bump whenever content changes shape or text, so installed apps reseed. 2: TCF Canada mocks. 3: mocks 3 and 4. */
-export const CONTENT_VERSION = 3;
+/** Bump whenever content changes shape or text, so installed apps reseed. 2: TCF Canada mocks. 3: mocks 3 and 4. 4: sentence-halves matching. */
+export const CONTENT_VERSION = 4;
 export const MIN_SENTENCES = 365;
 
 export interface Report {
@@ -82,6 +83,7 @@ export function checkUnit(unit: Unit, report: Report): void {
     if (e.type === 'reorder' && new Set(e.tokens).size !== e.tokens.length) {
       report.warnings.push(`${e.id}: repeated reorder tokens make several orders valid`);
     }
+    report.errors.push(...exerciseProblems(e));
   }
 }
 

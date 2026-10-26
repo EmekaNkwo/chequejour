@@ -1619,6 +1619,33 @@
       "text": "Il faisait beau, alors nous avons fait une randonnée.",
       "translation": "The weather was nice, so we went on a hike.",
       "explanation": "Faisait (imparfait, weather) sets the scene; avons fait (passé composé) is the event."
+    },
+    {
+      "id": "u08-ex21",
+      "type": "match",
+      "level": "A2+",
+      "skill": "structures",
+      "grammarTag": "pc-vs-imparfait",
+      "prompt": "Match the beginnings and endings of the sentences.",
+      "pairs": [
+        {
+          "left": "Je regardais la télévision",
+          "right": "quand le téléphone a sonné."
+        },
+        {
+          "left": "Il pleuvait si fort",
+          "right": "que nous sommes restés à la maison."
+        },
+        {
+          "left": "Quand j'étais petit,",
+          "right": "je jouais au football tous les samedis."
+        },
+        {
+          "left": "Pendant que tu dormais,",
+          "right": "nous avons fini le puzzle."
+        }
+      ],
+      "explanation": "The imparfait sets the scene or a habit (regardais, pleuvait, jouais); the passé composé tells the event that happens in it (a sonné, sommes restés, avons fini)."
     }
   ],
   "listening": [

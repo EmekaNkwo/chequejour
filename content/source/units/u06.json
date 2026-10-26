@@ -1635,12 +1635,8 @@
       "source": "The tablets? I take them in the evening.",
       "answers": [
         "Les comprimés ? Je les prends le soir",
-        "Les comprimés? Je les prends le soir",
-        "Les comprimés, je les prends le soir",
-        "Les comprimés je les prends le soir",
         "Je les prends le soir",
         "Les cachets ? Je les prends le soir",
-        "Les cachets, je les prends le soir",
         "Les comprimés ? Je les prends en soirée"
       ],
       "explanation": "Les replaces les comprimés and goes before the verb. \"In the evening\" as a habit is le soir."

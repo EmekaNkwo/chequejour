@@ -24,13 +24,25 @@ function chunk<T>(items: readonly T[], size: number): T[][] {
   return Array.from({ length: Math.ceil(items.length / size) }, (_, i) => items.slice(i * size, i * size + size));
 }
 
+/**
+ * Splits into about `size`-long batches of even length: 21 items make 11 + 10, not
+ * 10 + 10 + 1, so adding an exercise to a unit doesn't add a new practice set.
+ */
+function balancedChunk<T>(items: readonly T[], size: number): T[][] {
+  const count = Math.max(1, Math.round(items.length / size));
+  const base = Math.floor(items.length / count);
+  const extra = items.length % count;
+  const starts = Array.from({ length: count + 1 }, (_, i) => i * base + Math.min(i, extra));
+  return Array.from({ length: count }, (_, i) => items.slice(starts[i], starts[i + 1])).filter((c) => c.length > 0);
+}
+
 /** Grammar lessons and core-word batches interleaved with practice sets. */
 export function unitSegments(unit: Unit): Segment[] {
   const wordBatches = chunk(
     unit.vocab.filter((v) => v.core).map((v) => v.id),
     WORDS_PER_SEGMENT,
   );
-  const exerciseBatches = chunk(
+  const exerciseBatches = balancedChunk(
     unit.exercises.map((e) => e.id),
     EXERCISES_PER_SEGMENT,
   );

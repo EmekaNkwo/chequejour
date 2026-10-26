@@ -1641,6 +1641,29 @@
       "text": "Le formulaire que vous cherchez est à l'accueil.",
       "translation": "The form you're looking for is at reception.",
       "explanation": "Listen for que before vous: le formulaire is the object of cherchez."
+    },
+    {
+      "id": "u10-ex21",
+      "type": "match",
+      "level": "A2+",
+      "skill": "structures",
+      "grammarTag": "relatifs",
+      "prompt": "Match the beginnings and endings of the sentences.",
+      "pairs": [
+        {
+          "left": "C'est le bureau",
+          "right": "où on renouvelle son passeport."
+        },
+        {
+          "left": "Voici le formulaire",
+          "right": "que vous devez remplir."
+        },
+        {
+          "left": "Je cherche l'employée",
+          "right": "qui s'occupe de mon dossier."
+        }
+      ],
+      "explanation": "Où refers to a place, que to the object of the next verb (vous devez remplir le formulaire), and qui to the subject (l'employée s'occupe de mon dossier)."
     }
   ],
   "listening": [

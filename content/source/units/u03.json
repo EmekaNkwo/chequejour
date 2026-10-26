@@ -1693,6 +1693,33 @@
       "text": "Avant, j'habitais dans un studio en centre-ville.",
       "translation": "Before, I lived in a studio flat in the town centre.",
       "explanation": "In j'habitais, the ending -ais sounds like 'è' and the s is silent. Centre-ville has a hyphen."
+    },
+    {
+      "id": "u03-ex21",
+      "type": "match",
+      "level": "A2",
+      "skill": "structures",
+      "grammarTag": "imparfait",
+      "prompt": "Match the beginnings and endings of the sentences.",
+      "pairs": [
+        {
+          "left": "Quand j'habitais à Lyon,",
+          "right": "j'avais un petit studio sous les toits."
+        },
+        {
+          "left": "Notre ancienne maison",
+          "right": "avait un grand jardin."
+        },
+        {
+          "left": "Les voisins du dessus",
+          "right": "faisaient beaucoup de bruit le soir."
+        },
+        {
+          "left": "Avant, nous",
+          "right": "louions un appartement en centre-ville."
+        }
+      ],
+      "explanation": "The imparfait describes how things used to be. The verb ending tells you the subject: j'avais (je), avait (one thing), faisaient (several people), louions (nous)."
     }
   ],
   "listening": [

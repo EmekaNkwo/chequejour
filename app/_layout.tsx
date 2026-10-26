@@ -35,6 +35,7 @@ const APP_SCREENS = [
   'checkpoint/[unitId]',
   'drill/[unitId]',
   'mistakes',
+  'conjugation',
   'listening/[id]',
   'reading/[id]',
   'writing/[id]',

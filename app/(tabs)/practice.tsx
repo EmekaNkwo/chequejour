@@ -113,6 +113,7 @@ export default function PracticeScreen() {
             </AppText>
           ) : null}
           <ListRow skill="structures" category="Mistakes notebook" title="Review your mistakes" icon="repeat" onPress={() => router.push('/mistakes')} />
+          <ListRow skill="structures" category="Reference" title="Conjugation tables" icon="grid" onPress={() => router.push('/conjugation')} testID="practice-conjugation" />
         </>
       ) : null}
 

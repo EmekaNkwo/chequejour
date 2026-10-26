@@ -3,7 +3,7 @@
  */
 import { migrate } from '../../data/migrations';
 import { ProgressRepository } from '../../data/progress-repo';
-import type { McqExercise } from '../../domain/content-types';
+import type { Exercise, McqExercise } from '../../domain/content-types';
 import { createNodeDb } from '../../test-utils/node-db';
 import { recordExerciseResult } from '../exercises/record-result';
 
@@ -27,7 +27,25 @@ async function setup() {
   return { db, progress: new ProgressRepository(db) };
 }
 
+const base = { level: 'A2', skill: 'structures', grammarTag: 'passe-compose', explanation: 'e' } as const;
+const NEW_TYPES: Exercise[] = [
+  { ...base, id: 'u02-ex50', type: 'dictation', text: 'Je suis allé au marché.', translation: 'I went to the market.' },
+  { ...base, id: 'u02-ex51', type: 'conjugation', verb: 'aller', tense: 'passé composé', person: 'je', answers: ['suis allé'] },
+  { ...base, id: 'u02-ex52', type: 'translate', direction: 'en-fr', source: 'I went', answers: ['Je suis allé'] },
+  { ...base, id: 'u02-ex53', type: 'match', prompt: 'Match', pairs: [{ left: 'aller', right: 'to go' }, { left: 'venir', right: 'to come' }, { left: 'voir', right: 'to see' }] },
+];
+
 describe('recordExerciseResult', () => {
+  it.each(NEW_TYPES.map((e) => [e.type, e] as const))('puts a wrong %s answer in the notebook, due for spaced review', async (_type, ex) => {
+    const { progress } = await setup();
+    await recordExerciseResult(progress, { exercise: ex, result: 'wrong', userAnswer: 'x', context: 'lesson', unitId: 'u02', now: NOW });
+    const [m] = await progress.mistakes();
+    expect(m).toMatchObject({ itemId: ex.id, grammarTag: 'passe-compose', userAnswer: 'x' });
+    expect(m.correctAnswer.length).toBeGreaterThan(0);
+    expect(await progress.dueMistakes(NOW)).toHaveLength(0);
+    expect(await progress.dueMistakes(NOW + 2 * 86_400_000)).toHaveLength(1);
+  });
+
   it('saves a wrong lesson answer to the mistakes notebook', async () => {
     const { progress } = await setup();
     await recordExerciseResult(progress, { exercise, result: 'wrong', userAnswer: 'b', context: 'lesson', unitId: 'u01', now: NOW });

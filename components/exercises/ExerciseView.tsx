@@ -1,7 +1,8 @@
 /**
  * Renders one exercise of any type and reports the learner's answer.
  */
-import { useMemo, useState } from 'react';
+import { router } from 'expo-router';
+import { useMemo, useState, type ReactNode } from 'react';
 import { StyleSheet, View } from 'react-native';
 import { audioKey } from '../../domain/audio-keys';
 import { checkChoice, checkMatch, checkReorder, checkTyped, joinTokens, type CheckOutcome } from '../../domain/answers';
@@ -15,12 +16,17 @@ import type {
   ReorderExercise,
   TranslateExercise,
 } from '../../domain/content-types';
+import { checkConjugation } from '../../domain/exercises/conjugation-check';
+import { findVerb } from '../../domain/exercises/conjugation-tables';
+import { checkTranslation } from '../../domain/exercises/translation-check';
 import { seededShuffle, shuffledOrder } from '../../domain/shuffle';
 import { AudioControls } from '../audio/AudioControls';
 import { useTheme } from '../theme/ThemeProvider';
 import { radii, spacing } from '../theme/tokens';
 import { AppText } from '../ui/AppText';
+import { LinkText } from '../ui/Bits';
 import { Button } from '../ui/Button';
+import { DictationDiff } from './DictationDiff';
 import { AnswerInput, Chip, OptionPill } from './inputs';
 
 export interface ExerciseViewProps {
@@ -120,16 +126,28 @@ export function McqView({ exercise, answered, onAnswer }: ViewProps<McqExercise>
   );
 }
 
-function TypedAnswer({ accepted, answered, onAnswer, label }: { accepted: readonly string[]; answered: CheckOutcome | null; onAnswer: ViewProps<Exercise>['onAnswer']; label: string }) {
+interface TypedAnswerProps {
+  accepted: readonly string[];
+  answered: CheckOutcome | null;
+  onAnswer: ViewProps<Exercise>['onAnswer'];
+  label: string;
+  /** Defaults to comparing with the accepted answers. */
+  check?: (value: string) => CheckOutcome;
+  /** Shown under the input once answered, given what was typed. */
+  after?: (typed: string) => ReactNode;
+}
+
+function TypedAnswer({ accepted, answered, onAnswer, label, check, after }: TypedAnswerProps) {
   const [value, setValue] = useState('');
   const submit = () => {
     if (value.trim().length === 0 || answered) return;
-    onAnswer(checkTyped(value, accepted), value.trim());
+    onAnswer(check ? check(value) : checkTyped(value, accepted), value.trim());
   };
   return (
     <View style={styles.gap}>
       <AnswerInput value={value} onChange={setValue} onSubmit={submit} accessibilityLabel={label} editable={!answered} testID="answer-input" />
       {!answered ? <Button label="Check" onPress={submit} disabled={value.trim().length === 0} testID="check-answer" /> : null}
+      {answered && after ? after(value) : null}
     </View>
   );
 }
@@ -163,7 +181,16 @@ function ConjugationView({ exercise, answered, onAnswer }: ViewProps<Conjugation
         </AppText>
       </View>
       <AppText variant="french" french>{`${exercise.person} …`}</AppText>
-      <TypedAnswer accepted={exercise.answers} answered={answered} onAnswer={onAnswer} label={`Verb form for ${exercise.person}`} />
+      <TypedAnswer
+        accepted={exercise.answers}
+        answered={answered}
+        onAnswer={onAnswer}
+        label={`Verb form for ${exercise.person}`}
+        check={(value) => checkConjugation(value, exercise)}
+      />
+      {answered && findVerb(exercise.verb) ? (
+        <LinkText label={`See all forms of ${exercise.verb}`} icon="grid" onPress={() => router.push({ pathname: '/conjugation', params: { verb: exercise.verb } })} />
+      ) : null}
     </View>
   );
 }
@@ -176,7 +203,13 @@ function TranslateView({ exercise, answered, onAnswer }: ViewProps<TranslateExer
       <AppText variant={toFrench ? 'title' : 'frenchLarge'} french={!toFrench}>
         {exercise.source}
       </AppText>
-      <TypedAnswer accepted={exercise.answers} answered={answered} onAnswer={onAnswer} label={toFrench ? 'Your French translation' : 'Your English translation'} />
+      <TypedAnswer
+        accepted={exercise.answers}
+        answered={answered}
+        onAnswer={onAnswer}
+        label={toFrench ? 'Your French translation' : 'Your English translation'}
+        check={(value) => checkTranslation(value, exercise.answers, exercise.direction)}
+      />
     </View>
   );
 }
@@ -191,7 +224,13 @@ function DictationView({ exercise, answered, onAnswer }: ViewProps<DictationExer
           {exercise.translation}
         </AppText>
       ) : null}
-      <TypedAnswer accepted={[exercise.text]} answered={answered} onAnswer={onAnswer} label="What you heard" />
+      <TypedAnswer
+        accepted={[exercise.text]}
+        answered={answered}
+        onAnswer={onAnswer}
+        label="What you heard"
+        after={(typed) => (answered?.result === 'correct' ? null : <DictationDiff expected={exercise.text} typed={typed} />)}
+      />
     </View>
   );
 }

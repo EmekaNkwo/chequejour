@@ -1649,12 +1649,9 @@
       "source": "I would like some cheese, please.",
       "answers": [
         "Je voudrais du fromage, s'il vous plaît",
-        "Je voudrais du fromage s'il vous plaît",
         "Je voudrais du fromage, s'il te plaît",
-        "Je voudrais du fromage s'il te plaît",
         "Je voudrais du fromage",
         "Je voudrais un peu de fromage, s'il vous plaît",
-        "Je voudrais un peu de fromage s'il vous plaît",
         "Je voudrais un peu de fromage, s'il te plaît",
         "Je voudrais un peu de fromage"
       ],

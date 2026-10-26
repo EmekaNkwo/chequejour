@@ -1700,6 +1700,33 @@
       "text": "L'année prochaine, nous ferons le tour de l'Italie en train.",
       "translation": "Next year, we'll travel around Italy by train.",
       "explanation": "Ferons: futur simple of faire with the irregular stem fer-."
+    },
+    {
+      "id": "u09-ex21",
+      "type": "match",
+      "level": "A2+",
+      "skill": "structures",
+      "grammarTag": "futur-simple",
+      "prompt": "Match the beginnings and endings of the sentences.",
+      "pairs": [
+        {
+          "left": "Si tu réserves maintenant,",
+          "right": "tu paieras moins cher."
+        },
+        {
+          "left": "Quand nous arriverons à l'hôtel,",
+          "right": "nous déposerons nos valises."
+        },
+        {
+          "left": "Si mes parents ont des vacances en juillet,",
+          "right": "ils iront à la plage."
+        },
+        {
+          "left": "Quand vous serez à Québec,",
+          "right": "vous verrez le Château Frontenac."
+        }
+      ],
+      "explanation": "After si, use the présent and then the futur simple. After quand about the future, French uses the futur in both parts: quand nous arriverons…, nous déposerons."
     }
   ],
   "listening": [

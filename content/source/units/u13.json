@@ -1659,6 +1659,33 @@
       "text": "Si nous économisions l'eau, nous protégerions mieux la planète.",
       "translation": "If we saved water, we would protect the planet better.",
       "explanation": "Listen for the endings: économisions (imparfait after si) and protégerions (conditionnel, with the -er- of the stem)."
+    },
+    {
+      "id": "u13-ex21",
+      "type": "match",
+      "level": "B1",
+      "skill": "structures",
+      "grammarTag": "conditionnel",
+      "prompt": "Match the beginnings and endings of the sentences.",
+      "pairs": [
+        {
+          "left": "Si tu prenais le vélo,",
+          "right": "tu ferais du sport tous les jours."
+        },
+        {
+          "left": "Si j'avais un jardin,",
+          "right": "je ferais pousser mes légumes."
+        },
+        {
+          "left": "Si nous recyclions davantage,",
+          "right": "nous produirions moins de déchets."
+        },
+        {
+          "left": "Si les villes plantaient plus d'arbres,",
+          "right": "elles seraient plus fraîches en été."
+        }
+      ],
+      "explanation": "For an imagined situation, use si + imparfait, then the conditionnel. The subject stays the same in both halves here: tu… tu, je… je, nous… nous, les villes… elles."
     }
   ],
   "listening": [
