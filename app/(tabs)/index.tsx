@@ -16,12 +16,13 @@ import { fromDayKey } from '../../domain/dates';
 import { useApp } from '../../features/app/AppContext';
 import { useLoad } from '../../features/app/useLoad';
 import { loadHome, type HomeData } from '../../features/home/home-data';
+import { ExamCountdown } from '../../components/tcf/ExamCountdown';
 
 const WEEKDAY = ['S', 'M', 'T', 'W', 'T', 'F', 'S'];
 
 export default function HomeScreen() {
   const app = useApp();
-  const { data, error, reload } = useLoad('home', () => loadHome(app), [app.settings.dailyGoal, app.settings.placementLevel, app.today]);
+  const { data, error, reload } = useLoad('home', () => loadHome(app), [app.settings.dailyGoal, app.settings.placementLevel, app.settings.examDate, app.settings.targetNclc, app.today]);
   if (error) return <ErrorState message={error} onRetry={reload} />;
   if (!data) return <Loading />;
   return <Home data={data} />;
@@ -53,6 +54,8 @@ function Home({ data }: { data: HomeData }) {
         }
       />
       <ContextRow level={level.estimate.label} unitText={`Unit ${unitIndex}/${path.units.length}`} onPress={() => router.push('/level')} />
+
+      {data.examDays !== null ? <ExamCountdown days={data.examDays} weakest={data.weakest} /> : null}
 
       <Card accessibilityLabel={`Today's session, ${pct} percent complete. ${plan.remaining}`} testID="session-card">
         <Row gap={spacing.lg}>

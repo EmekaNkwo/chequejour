@@ -23,10 +23,8 @@ export async function findListening(content: ContentRepository, id: string): Pro
   const direct = await content.item('listening', id);
   if (direct) return direct;
   for (const mock of await mocks(content)) {
-    for (const section of mock.sections) {
-      const found = section.listening?.find((l) => l.id === id);
-      if (found) return found;
-    }
+    const found = mock.listening.find((l) => l.id === id);
+    if (found) return found;
   }
   return null;
 }
@@ -35,10 +33,8 @@ export async function findReading(content: ContentRepository, id: string): Promi
   const direct = await content.item('reading', id);
   if (direct) return direct;
   for (const mock of await mocks(content)) {
-    for (const section of mock.sections) {
-      const found = section.reading?.find((r) => r.id === id);
-      if (found) return found;
-    }
+    const found = mock.reading.find((r) => r.id === id);
+    if (found) return found;
   }
   return null;
 }
@@ -63,11 +59,7 @@ export async function findSpeaking(content: ContentRepository, id: string, mockI
   return null;
 }
 
-/** Words in a text, counting "l'école" and "c'est-à-dire" as one word each. */
-export function countWords(text: string): number {
-  const trimmed = text.trim();
-  return trimmed.length === 0 ? 0 : trimmed.split(/\s+/).length;
-}
+export { countWords } from '../../domain/writing/word-count';
 
 /** "1:05" from seconds. */
 export function formatClock(totalSeconds: number): string {

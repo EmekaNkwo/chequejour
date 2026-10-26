@@ -80,14 +80,42 @@ prompt (timer, recording, model answer) and an end-of-unit checkpoint (pass mark
 | 18 | B1 | Job applications and interviews | Advanced negation; pronoun order |
 
 A 24-question placement test at first launch can start you at unit 1, 6 or 11 (earlier
-units stay open). A timed TCF-style mock test (listening, reading, language structures,
-plus writing and speaking tasks) unlocks near B1.
+units stay open).
+
+### TCF Canada mock tests and NCLC estimate
+
+Two original mock tests follow the TCF Canada format, set in `domain/tcf/exam-format.ts`
+(counts, timings and word ranges live there, not in the screens):
+
+| Test | Format | Time |
+| --- | --- | --- |
+| Compréhension orale | 39 questions, rising difficulty (A1 → B2), each recording plays **once** | 35 min |
+| Compréhension écrite | 39 questions, rising difficulty | 60 min |
+| Expression écrite | Task 1 message 60–120 words · Task 2 account 120–150 · Task 3 compare two documents + opinion 120–180 | 60 min for all three |
+| Expression orale | Task 1 interview 2 min · Task 2 role-play 2 min prep + 3 min 30 · Task 3 opinion 4 min 30 | ≈ 12 min |
+
+Take the full mock or any one test. Each test has its own countdown and ends by itself;
+answers and explanations come at the end. Writing and speaking are self-assessed against
+model answers. Results are kept as mock history. Mocks unlock near B1, once every A2/A2+
+unit is done, or as soon as you set an exam date.
+
+**Per-skill estimate** (Progress → Your level): each of the four skills gets a CEFR band
+(A2 / A2+ / B1) and an approximate NCLC, from your latest mock (harder questions earn more
+points) blended with recent practice. The weakest skill is highlighted, with the gap to
+your target NCLC (default 7, Settings). These are **practice estimates**; the NCLC screen
+says so and points to IRCC for official requirements. Details: `domain/tcf/nclc.ts`.
+
+**Exam date** (optional, onboarding or Settings): Home shows a countdown ("63 days to your
+TCF"). From 60 days out, sessions add extra practice in the weakest skill; in the last
+14 days they drop the structures exercise and add a daily timed, mock-style set. Exam
+date and target are included in backups. Details: `domain/tcf/exam-plan.ts`.
 
 ### The daily session
 
 Built automatically each day: due reviews (spaced repetition, FSRS via `ts-fsrs`) →
 up to 3 mistakes to retry → the next lesson segment of your current unit → one skill
-exercise, rotating listening, reading, structures, writing, speaking. Review count scales
+exercise, rotating listening, reading, structures, writing, speaking (weighted towards
+your weakest skill when an exam date is near). Review count scales
 with the daily goal (10/15/20 min). Words and sentences of the day join the review queue
 when you open them.
 
@@ -160,7 +188,10 @@ Adding content: see [docs/CONTENT_AUTHORING.md](docs/CONTENT_AUTHORING.md).
   beyond personal use. Missing clips fall back to the phone's French text-to-speech.
 - **Writing and speaking are self-assessed** against a model answer and checklist. The app
   can't grade free text or pronunciation offline.
-- **One mock test** ships in v1; more can be added as JSON.
+- **Two mock tests** ship; more can be added as JSON (`content/source/mock-tests/`). The
+  final-stretch practice sets reuse their questions, so they repeat after a few weeks.
+- **NCLC is approximate.** The app's score-to-NCLC scale is its own, not the official
+  TCF Canada conversion, and writing/speaking rely on self-assessment.
 - **Content review**: all French was written originally for this app (no TCF or textbook
   material). The validation script checks structure, answers and duplicates, but the
   language itself has not yet been reviewed by a native-speaker teacher. Fix errors by

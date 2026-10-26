@@ -6,6 +6,7 @@ import { join, resolve } from 'node:path';
 import type { ZodType } from 'zod';
 import { collectAudioClips } from '../../domain/audio-keys';
 import type { ContentBundle, MockTest, PlacementTest, Sentence, Unit } from '../../domain/content-types';
+import { mockFormatProblems } from '../../domain/tcf/mock-format-checks';
 import { mockTestSchema, placementSchema, sentenceSchema, unitSchema } from './schema';
 
 export const ROOT = resolve(__dirname, '..', '..');
@@ -13,7 +14,8 @@ export const SOURCE_DIR = join(ROOT, 'content', 'source');
 export const AUDIO_DIR = join(ROOT, 'assets', 'audio');
 export const AUDIO_EXT = '.m4a';
 
-export const CONTENT_VERSION = 1;
+/** Bump whenever content changes shape or text, so installed apps reseed. 2: TCF Canada mocks. */
+export const CONTENT_VERSION = 2;
 export const MIN_SENTENCES = 365;
 
 export interface Report {
@@ -145,18 +147,19 @@ function checkBundle(bundle: ContentBundle, report: Report): void {
     ...bundle.mockTests.flatMap((m) => [
       ...m.writing,
       ...m.speaking,
-      ...m.sections.flatMap((s) => [
-        ...(s.questions ?? []),
-        ...(s.listening ?? []),
-        ...(s.reading ?? []),
-        ...(s.listening ?? []).flatMap((l) => l.questions),
-        ...(s.reading ?? []).flatMap((r) => r.questions),
-      ]),
+      ...m.listening,
+      ...m.reading,
+      ...m.listening.flatMap((l) => l.questions),
+      ...m.reading.flatMap((r) => r.questions),
     ]),
   ];
   const counts = new Map<string, number>();
   for (const item of all) counts.set(item.id, (counts.get(item.id) ?? 0) + 1);
   for (const [id, n] of counts) if (n > 1) report.errors.push(`duplicate id "${id}" (${n}×)`);
+
+  for (const m of bundle.mockTests) {
+    for (const problem of mockFormatProblems(m)) report.errors.push(`${m.id}: ${problem}`);
+  }
 
   const orders = bundle.units.map((u) => u.order);
   if (new Set(orders).size !== orders.length) report.errors.push('two units share the same order');

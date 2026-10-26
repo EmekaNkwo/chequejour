@@ -8,7 +8,8 @@ import type { ProgressRepository } from '../../data/progress-repo';
 import { fromDayKey, type DayKey } from '../../domain/dates';
 import { describeSession, type DailyGoal, type SessionStep } from '../../domain/session';
 import type { PathState } from '../path/path-service';
-import { todaySession } from './session-service';
+import { isPracticeRun, practiceDoneSince } from '../mock/mock-service';
+import { todaySession, type ExamContext } from './session-service';
 
 const stepSchema: z.ZodType<SessionStep> = z.union([
   z.object({ kind: z.literal('review'), itemIds: z.array(z.string()) }),
@@ -26,6 +27,10 @@ const stepSchema: z.ZodType<SessionStep> = z.union([
   z.object({
     kind: z.literal('skill'),
     task: z.object({ skill: z.enum(['listening', 'reading', 'structures', 'writing', 'speaking']), itemId: z.string(), title: z.string() }),
+  }),
+  z.object({
+    kind: z.literal('exam'),
+    practice: z.object({ skill: z.enum(['listening', 'reading', 'writing', 'speaking']), itemId: z.string(), title: z.string() }),
   }),
 ]);
 
@@ -52,6 +57,7 @@ async function loadOrCreate(
   goal: DailyGoal,
   day: DayKey,
   now: number,
+  exam: ExamContext,
 ): Promise<SessionStep[]> {
   const stored = await progress.meta(planKey(day));
   if (stored) {
@@ -62,7 +68,7 @@ async function loadOrCreate(
       // fall through and rebuild
     }
   }
-  const steps = await todaySession(content, progress, path, goal, day, now);
+  const steps = await todaySession(content, progress, path, goal, day, now, exam);
   await progress.setMeta(planKey(day), JSON.stringify(steps));
   return steps;
 }
@@ -84,6 +90,11 @@ async function isDone(progress: ProgressRepository, step: SessionStep, path: Pat
       const done = (await progress.skillProgress()).get(step.task.itemId);
       return (done?.lastDoneAt ?? 0) >= dayStart;
     }
+    case 'exam': {
+      if (isPracticeRun(step.practice.itemId)) return practiceDoneSince(progress, step.practice.skill, dayStart);
+      const done = (await progress.skillProgress()).get(step.practice.itemId);
+      return (done?.lastDoneAt ?? 0) >= dayStart;
+    }
   }
 }
 
@@ -94,8 +105,9 @@ export async function todayPlan(
   goal: DailyGoal,
   day: DayKey,
   now: number,
+  exam: ExamContext = { examDate: null, weakest: null },
 ): Promise<TodayPlan> {
-  const steps = await loadOrCreate(content, progress, path, goal, day, now);
+  const steps = await loadOrCreate(content, progress, path, goal, day, now, exam);
   const dayStart = fromDayKey(day).getTime();
   const planned = await Promise.all(steps.map(async (step) => ({ step, done: await isDone(progress, step, path, dayStart, now) })));
   const doneCount = planned.filter((p) => p.done).length;

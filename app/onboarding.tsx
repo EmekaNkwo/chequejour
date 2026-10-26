@@ -2,6 +2,7 @@ import { router } from 'expo-router';
 import { useState } from 'react';
 import { StyleSheet, View } from 'react-native';
 import { Logo } from '../components/brand/Logo';
+import { ExamDateRow, TargetNclcRow } from '../components/settings/ExamSettings';
 import { QuizRunner, type QuizScore } from '../components/exercises/QuizRunner';
 import { useTheme } from '../components/theme/ThemeProvider';
 import { spacing } from '../components/theme/tokens';
@@ -165,6 +166,13 @@ function Setup({ onPlacement, onSkip }: { onPlacement: () => void; onSkip: () =>
         <SegmentedTabs options={GOALS} value={`${app.settings.dailyGoal}`} onChange={(v) => void app.updateSetting('dailyGoal', Number(v) as DailyGoal)} />
       </Card>
       <Card>
+        <AppText variant="cardTitle">Your TCF Canada</AppText>
+        <View style={styles.examGap}>
+          <ExamDateRow value={app.settings.examDate} today={app.today} onChange={(v) => void app.updateSetting('examDate', v)} />
+          <TargetNclcRow value={app.settings.targetNclc} onChange={(v) => void app.updateSetting('targetNclc', v)} />
+        </View>
+      </Card>
+      <Card>
         <AppText variant="cardTitle">Daily reminders</AppText>
         <AppText variant="body" tone="secondary">
           {`Word of the Day at ${fmt(n.word.time)} and Sentence of the Day at ${fmt(n.sentence.time)}. You can change the times or turn them off in Settings.`}
@@ -209,6 +217,7 @@ function PlacementResult({ level, onContinue }: { level: Level; onContinue: () =
 }
 
 const styles = StyleSheet.create({
+  examGap: { gap: spacing.lg, marginTop: spacing.sm },
   hero: { gap: spacing.md, paddingVertical: spacing.xxl },
   footer: { gap: spacing.xs },
   mt: { marginTop: spacing.md },

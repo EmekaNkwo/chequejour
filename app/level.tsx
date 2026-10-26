@@ -13,6 +13,8 @@ import { useApp } from '../features/app/AppContext';
 import { useLoad } from '../features/app/useLoad';
 import { loadPath } from '../features/path/path-service';
 import { levelOverview } from '../features/progress/stats-service';
+import { loadNclcOverview } from '../features/tcf/nclc-service';
+import { SkillEstimates } from '../components/tcf/SkillEstimates';
 import { masteredIds } from '../features/session/session-service';
 
 const pct = (v: number): string => `${Math.round(v * 100)}%`;
@@ -25,13 +27,18 @@ export default function LevelScreen() {
     async () => {
       const mastered = await masteredIds(progress);
       const path = await loadPath(content, progress, settings.placementLevel, mastered);
-      return levelOverview(progress, path, settings.placementLevel, mastered.size);
+      const [overview, nclc] = await Promise.all([
+        levelOverview(progress, path, settings.placementLevel, mastered.size),
+        loadNclcOverview(content, progress, settings.targetNclc, Date.now()),
+      ]);
+      return { ...overview, nclc };
     },
-    [settings.placementLevel],
+    [settings.placementLevel, settings.targetNclc],
   );
   if (error) return <ErrorState message={error} onRetry={reload} />;
   if (!data) return <Loading />;
   const { estimate } = data;
+  const mockOpen = data.mockUnlocked || settings.examDate !== null;
 
   const parts = [
     {
@@ -65,6 +72,10 @@ export default function LevelScreen() {
         </AppText>
       </View>
 
+      <SectionTitle title="TCF Canada skills" />
+      <SkillEstimates overview={data.nclc} />
+
+      <SectionTitle title="Overall course level" />
       <Card accessibilityLabel={`Estimated level ${estimate.label}, ${pct(estimate.value)} of the way from A2 to B1. Practice estimate.`}>
         <Row style={styles.between}>
           <AppText variant="cardTitle">Estimated level</AppText>
@@ -109,13 +120,13 @@ export default function LevelScreen() {
         </AppText>
       </Card>
 
-      <Card accessibilityLabel={data.mockUnlocked ? 'Mock tests are unlocked.' : 'Mock tests are locked.'}>
+      <Card accessibilityLabel={mockOpen ? 'Mock tests are unlocked.' : 'Mock tests are locked.'}>
         <Row>
-          <Feather name={data.mockUnlocked ? 'unlock' : 'lock'} size={20} color={colors.text} />
-          <AppText variant="cardTitle">{data.mockUnlocked ? 'Mock tests unlocked' : 'Mock tests locked'}</AppText>
+          <Feather name={mockOpen ? 'unlock' : 'lock'} size={20} color={colors.text} />
+          <AppText variant="cardTitle">{mockOpen ? 'Mock tests unlocked' : 'Mock tests locked'}</AppText>
         </Row>
         <AppText variant="meta" tone="muted" style={styles.mt}>
-          {`Timed TCF-style mock tests open when the estimate reaches ${pct(MOCK_TEST_THRESHOLD)}, or once every A2 and A2+ unit is complete.`}
+          {`TCF Canada mock tests open when the estimate reaches ${pct(MOCK_TEST_THRESHOLD)}, once every A2 and A2+ unit is complete, or as soon as you set an exam date.`}
         </AppText>
       </Card>
     </Screen>

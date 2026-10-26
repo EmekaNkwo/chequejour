@@ -7,6 +7,7 @@ import { ListRow, SectionTitle, SegmentedTabs, SKILL_LABEL } from '../../compone
 import { ErrorState, Loading, Screen } from '../../components/ui/Screen';
 import { ScreenHeader } from '../../components/ui/ScreenHeader';
 import type { SkillItemSummary } from '../../data/content-repo';
+import { TCF_SKILLS, testMinutes } from '../../domain/tcf/exam-format';
 import { useApp } from '../../features/app/AppContext';
 import { useLoad } from '../../features/app/useLoad';
 import { loadPath } from '../../features/path/path-service';
@@ -26,6 +27,8 @@ const FILTERS: readonly { value: Filter; label: string }[] = [
 function minutes(words: number): string {
   return `${Math.max(1, Math.round(words / 150))} min`;
 }
+
+const MOCK_MINUTES = TCF_SKILLS.reduce((n, s) => n + testMinutes(s), 0);
 
 export default function PracticeScreen() {
   const { content, progress, settings } = useApp();
@@ -51,6 +54,7 @@ export default function PracticeScreen() {
   );
   if (error) return <ErrorState message={error} onRetry={reload} />;
   if (!data) return <Loading />;
+  const mockOpen = data.level.mockUnlocked || settings.examDate !== null;
 
   const visible = data.items.filter((i) => {
     if (filter === 'saved') return data.done.get(i.id)?.saved;
@@ -93,18 +97,19 @@ export default function PracticeScreen() {
             <ListRow
               key={m.id}
               skill="tests"
-              category="TCF-style · timed"
+              category="TCF Canada format · 4 timed tests"
               title={m.title}
-              right={`${m.sections.reduce((n, s) => n + s.minutes, 0)} min`}
-              icon={data.level.mockUnlocked ? 'award' : undefined}
-              locked={!data.level.mockUnlocked}
-              accessibilityLabel={data.level.mockUnlocked ? `Mock test ${m.title}` : `Mock test ${m.title}. Locked: unlocks near B1 or when all A2 units are complete.`}
+              right={`${MOCK_MINUTES} min`}
+              icon={mockOpen ? 'award' : undefined}
+              locked={!mockOpen}
+              accessibilityLabel={mockOpen ? `Mock test ${m.title}` : `Mock test ${m.title}. Locked: unlocks near B1, when all A2 units are complete, or once you set an exam date.`}
               onPress={() => router.push(`/mock/${m.id}`)}
+              testID={`practice-mock-${m.id}`}
             />
           ))}
-          {!data.level.mockUnlocked ? (
+          {!mockOpen ? (
             <AppText variant="meta" tone="muted">
-              Mock tests unlock as your estimate approaches B1, or once every A2 and A2+ unit is complete.
+              Mock tests unlock as your estimate approaches B1, once every A2 and A2+ unit is complete, or as soon as you set your exam date in Settings.
             </AppText>
           ) : null}
           <ListRow skill="structures" category="Mistakes notebook" title="Review your mistakes" icon="repeat" onPress={() => router.push('/mistakes')} />

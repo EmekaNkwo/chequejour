@@ -16,6 +16,8 @@ import { useLoad } from '../features/app/useLoad';
 import { loadPath } from '../features/path/path-service';
 import { masteredIds, structuresUnitId } from '../features/session/session-service';
 import { todayPlan } from '../features/session/today-plan';
+import { isPracticeRun } from '../features/mock/mock-service';
+import { loadExamContext } from '../features/tcf/nclc-service';
 
 export function stepRoute(step: SessionStep): string {
   switch (step.kind) {
@@ -29,6 +31,8 @@ export function stepRoute(step: SessionStep): string {
       const unitId = structuresUnitId(step.task.itemId);
       return unitId ? `/drill/${unitId}` : `/${step.task.skill}/${step.task.itemId}`;
     }
+    case 'exam':
+      return isPracticeRun(step.practice.itemId) ? `/exam-practice/${step.practice.skill}` : `/exam-practice/${step.practice.skill}?task=${step.practice.itemId}`;
   }
 }
 
@@ -42,6 +46,8 @@ function describe(step: SessionStep): { title: string; meta: string; skill: Pale
       return { title: step.segment.title, meta: `New lesson · ${step.segment.kind === 'words' ? 'vocabulary' : step.segment.kind}`, skill: step.segment.kind === 'words' ? 'vocabulary' : 'structures' };
     case 'skill':
       return { title: step.task.title, meta: SKILL_LABEL[step.task.skill], skill: step.task.skill };
+    case 'exam':
+      return { title: step.practice.title, meta: 'Exam practice · final stretch', skill: 'tests' };
   }
 }
 
@@ -52,9 +58,10 @@ export default function SessionScreen() {
     'session',
     async () => {
       const path = await loadPath(content, progress, settings.placementLevel, await masteredIds(progress));
-      return todayPlan(content, progress, path, settings.dailyGoal, today, Date.now());
+      const exam = await loadExamContext(content, progress, settings, Date.now());
+      return todayPlan(content, progress, path, settings.dailyGoal, today, Date.now(), exam);
     },
-    [settings.dailyGoal, today],
+    [settings.dailyGoal, settings.examDate, settings.targetNclc, today],
   );
   if (error) return <ErrorState message={error} onRetry={reload} />;
   if (!data) return <Loading />;

@@ -5,7 +5,10 @@ import type { ContentRepository } from '../../data/content-repo';
 import type { Mistake, ProgressRepository } from '../../data/progress-repo';
 import type { Exercise, McqExercise, Skill } from '../../domain/content-types';
 import { dayNumber, type DayKey } from '../../domain/dates';
-import { buildSession, pickSkillTask, skillForDay, type DailyGoal, type SessionStep, type SkillCandidate } from '../../domain/session';
+import { buildSession, pickSkillTask, type DailyGoal, type ExamPractice, type SessionStep, type SkillCandidate } from '../../domain/session';
+import type { TcfSkill } from '../../domain/tcf/exam-format';
+import { daysToExam, examPhase, examPracticeSkill, sessionSkill } from '../../domain/tcf/exam-plan';
+import { loadMocks, practiceRunId, PRACTICE_QUESTIONS } from '../mock/mock-service';
 import { isMastered, newCard, reviewCard, type ReviewGrade, type SrsCard } from '../../domain/srs';
 import { toDayKey } from '../../domain/dates';
 import type { PathState } from '../path/path-service';
@@ -39,6 +42,25 @@ export function structuresUnitId(taskItemId: string): string | null {
   return taskItemId.startsWith(STRUCTURES_TASK_PREFIX) ? taskItemId.slice(STRUCTURES_TASK_PREFIX.length) : null;
 }
 
+export interface ExamContext {
+  examDate: DayKey | null;
+  /** Weakest TCF skill from the NCLC estimate, if known. */
+  weakest: TcfSkill | null;
+}
+
+const NO_EXAM: ExamContext = { examDate: null, weakest: null };
+
+/** Picks the final-stretch practice: a mock-style set, or a mock writing/speaking task. */
+export async function examPracticeFor(content: ContentRepository, skill: TcfSkill, day: number): Promise<ExamPractice | null> {
+  if (skill === 'listening' || skill === 'reading') {
+    return { skill, itemId: practiceRunId(skill), title: `Mock-style ${skill} · about ${PRACTICE_QUESTIONS} questions` };
+  }
+  const tasks = (await loadMocks(content)).flatMap((m): { id: string; title: string }[] => (skill === 'writing' ? m.writing : m.speaking));
+  if (tasks.length === 0) return null;
+  const task = tasks[((day % tasks.length) + tasks.length) % tasks.length];
+  return task ? { skill, itemId: task.id, title: `Timed ${skill} · ${task.title}` } : null;
+}
+
 export async function todaySession(
   content: ContentRepository,
   progress: ProgressRepository,
@@ -46,19 +68,24 @@ export async function todaySession(
   goal: DailyGoal,
   today: DayKey,
   now: number,
+  exam: ExamContext = NO_EXAM,
 ): Promise<SessionStep[]> {
   const [due, mistakes, candidates] = await Promise.all([
     progress.dueCards(now),
     progress.dueMistakes(now),
     skillCandidates(content, progress, path),
   ]);
-  const skill = skillForDay(dayNumber(today));
+  const day = dayNumber(today);
+  const phase = examPhase(daysToExam(exam.examDate, today));
+  const skill = sessionSkill(day, phase, exam.weakest);
+  const practiceSkill = examPracticeSkill(phase, exam.weakest, day);
   return buildSession({
     goal,
     dueReviewIds: due.map((c) => c.itemId),
     dueMistakeIds: mistakes.map((m) => m.id),
     nextSegment: path.nextSegment,
     skillTask: pickSkillTask(skill, candidates),
+    examPractice: practiceSkill ? await examPracticeFor(content, practiceSkill, day) : null,
   });
 }
 

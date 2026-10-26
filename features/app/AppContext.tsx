@@ -9,6 +9,7 @@ import { ProgressRepository } from '../../data/progress-repo';
 import { loadSettings, saveSetting, type Settings } from '../../data/settings-repo';
 import type { SqlDb } from '../../data/sql';
 import { toDayKey, type DayKey } from '../../domain/dates';
+import { resetTodayPlan } from '../session/today-plan';
 import { logError } from './log';
 
 export interface AppServices {
@@ -51,9 +52,11 @@ export function AppProvider({ db, initialSettings, children }: AppProviderProps)
   const updateSetting = useCallback(
     async <K extends keyof Settings>(key: K, value: Settings[K]) => {
       await saveSetting(db, key, value);
+      // Today's plan was built for the old date; build it again with the new weighting.
+      if (key === 'examDate') await resetTodayPlan(progress, today);
       setSettings((prev) => ({ ...prev, [key]: value }));
     },
-    [db],
+    [db, progress, today],
   );
 
   const reloadSettings = useCallback(async () => {

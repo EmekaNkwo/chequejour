@@ -4,8 +4,10 @@
  */
 import { z } from 'zod';
 import {
+  CEFR_BANDS,
   GRAMMAR_TAGS,
   LEVELS,
+  type CefrBand,
   type ContentBundle,
   type Exercise,
   type MockTest,
@@ -143,6 +145,7 @@ const writing = z
     promptFr: text,
     minWords: z.number().int().positive(),
     maxWords: z.number().int().positive(),
+    documents: z.array(z.object({ title: text, text })).length(2).optional(),
     modelAnswer: text,
     checklist: z.array(text).min(3),
   })
@@ -228,23 +231,15 @@ export const placementSchema = z.object({
   questions: z.array(z.intersection(mcq, z.object({ band: level }))).min(10),
 }) satisfies z.ZodType<PlacementTest>;
 
+const mockQuestion = question.and(z.object({ band: z.enum(CEFR_BANDS as [CefrBand, ...CefrBand[]]) }));
+
 export const mockTestSchema = z.object({
-  id: text,
+  id: z.string().regex(/^mk\d+$/),
   title: text,
-  sections: z
-    .array(
-      z.object({
-        skill: z.enum(['listening', 'reading', 'structures']),
-        title: text,
-        minutes: z.number().int().positive(),
-        listening: z.array(listening).optional(),
-        reading: z.array(reading).optional(),
-        questions: z.array(mcq).optional(),
-      }),
-    )
-    .min(3),
-  writing: z.array(writing).min(1),
-  speaking: z.array(speaking).min(1),
+  listening: z.array(listening.extend({ questions: z.array(mockQuestion).min(1) })).min(1),
+  reading: z.array(reading.extend({ questions: z.array(mockQuestion).min(1) })).min(1),
+  writing: z.array(writing).length(3),
+  speaking: z.array(speaking).length(3),
 }) satisfies z.ZodType<MockTest>;
 
 export type ValidatedBundle = ContentBundle;

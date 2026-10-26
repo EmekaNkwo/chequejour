@@ -208,6 +208,15 @@ describe('settings', () => {
     expect((await loadSettings(db)).playbackRate).toBe(1.25);
     await expect(saveSetting(db, 'playbackRate', 3 as never)).rejects.toThrow();
   });
+  it('stores the exam date and target NCLC, validating both', async () => {
+    const { db } = await setup();
+    expect([DEFAULT_SETTINGS.examDate, DEFAULT_SETTINGS.targetNclc]).toEqual([null, 7]);
+    await saveSetting(db, 'examDate', '2026-12-28');
+    await saveSetting(db, 'targetNclc', 5);
+    expect(await loadSettings(db)).toMatchObject({ examDate: '2026-12-28', targetNclc: 5 });
+    await expect(saveSetting(db, 'examDate', '28/12/2026' as never)).rejects.toThrow();
+    await expect(saveSetting(db, 'targetNclc', 12 as never)).rejects.toThrow();
+  });
   it('carries over the old slow audio setting as a slower speed', async () => {
     const { db } = await setup();
     await db.runAsync("INSERT INTO settings (key, value) VALUES ('audioSpeed', '\"slow\"')", []);
@@ -227,6 +236,27 @@ describe('backup', () => {
     expect(await importProgress(db, json)).toEqual({ ok: true, rows: 3 });
     expect(await progress.card('u01-w001')).not.toBeNull();
     expect((await loadSettings(db)).dailyGoal).toBe(10);
+  });
+  it('carries the exam date, target and mock history in backups', async () => {
+    const { db, progress } = await setup();
+    await saveSetting(db, 'examDate', '2027-01-15');
+    await saveSetting(db, 'targetNclc', 8);
+    await progress.saveMockResult('mk1', { listening: 0.8 }, 0.8, 5);
+    const json = JSON.stringify(await exportProgress(db, new Date(0)));
+    await resetProgress(db);
+    expect((await loadSettings(db)).examDate).toBeNull();
+    expect((await importProgress(db, json)).ok).toBe(true);
+    expect(await loadSettings(db)).toMatchObject({ examDate: '2027-01-15', targetNclc: 8 });
+    expect(await progress.mockResults()).toHaveLength(1);
+  });
+  it('restores an older backup without the exam settings, using defaults', async () => {
+    const { db } = await setup();
+    await saveSetting(db, 'dailyGoal', 20);
+    const old = await exportProgress(db, new Date(0));
+    const json = JSON.stringify({ ...old, tables: { ...old.tables, settings: old.tables.settings.filter((r) => !['examDate', 'targetNclc'].includes(String(r.key))) } });
+    await resetProgress(db);
+    expect((await importProgress(db, json)).ok).toBe(true);
+    expect(await loadSettings(db)).toMatchObject({ dailyGoal: 20, examDate: null, targetNclc: 7 });
   });
   it('rejects invalid, foreign and newer backups without touching data', async () => {
     const { db, progress } = await setup();

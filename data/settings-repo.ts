@@ -7,6 +7,7 @@ import { LEVELS, type Level } from '../domain/content-types';
 import { DEFAULT_NOTIFICATION_SETTINGS, type NotificationSettings } from '../domain/notification-plan';
 import { DEFAULT_RATE, legacyRate, PLAYBACK_RATES, type PlaybackRate } from '../domain/playback';
 import type { DailyGoal } from '../domain/session';
+import { DEFAULT_TARGET_NCLC, NCLC_TARGETS, type Nclc } from '../domain/tcf/nclc';
 import type { SqlDb } from './sql';
 
 export type ThemePreference = 'system' | 'light' | 'dark';
@@ -20,6 +21,10 @@ export interface Settings {
   onboarded: boolean;
   placementLevel: Level | null;
   installDay: string | null;
+  /** The learner's TCF Canada date, if they entered one (YYYY-MM-DD). */
+  examDate: string | null;
+  /** NCLC level the learner is aiming for in every skill. */
+  targetNclc: Nclc;
 }
 
 export const DEFAULT_SETTINGS: Settings = {
@@ -31,8 +36,11 @@ export const DEFAULT_SETTINGS: Settings = {
   onboarded: false,
   placementLevel: null,
   installDay: null,
+  examDate: null,
+  targetNclc: DEFAULT_TARGET_NCLC,
 };
 
+const dayKey = z.string().regex(/^\d{4}-\d{2}-\d{2}$/);
 const time = z.object({ hour: z.number().int().min(0).max(23), minute: z.number().int().min(0).max(59) });
 const toggle = z.object({ enabled: z.boolean(), time });
 
@@ -44,7 +52,9 @@ export const settingsSchemas: { [K in keyof Settings]: z.ZodType<Settings[K]> } 
   theme: z.enum(['system', 'light', 'dark']),
   onboarded: z.boolean(),
   placementLevel: z.enum(LEVELS as [Level, ...Level[]]).nullable(),
-  installDay: z.string().regex(/^\d{4}-\d{2}-\d{2}$/).nullable(),
+  installDay: dayKey.nullable(),
+  examDate: dayKey.nullable(),
+  targetNclc: z.union(NCLC_TARGETS.map((n) => z.literal(n)) as [z.ZodLiteral<Nclc>, z.ZodLiteral<Nclc>, ...z.ZodLiteral<Nclc>[]]),
 };
 
 export async function loadSettings(db: SqlDb): Promise<Settings> {

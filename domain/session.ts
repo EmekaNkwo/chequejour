@@ -3,6 +3,8 @@
  * then one skill exercise. The skill rotates through the five TCF skill areas by day.
  */
 import type { Skill } from './content-types';
+import type { TcfSkill } from './tcf/exam-format';
+import { sessionSkill } from './tcf/exam-plan';
 import type { Segment } from './unit-path';
 
 export type DailyGoal = 10 | 15 | 20;
@@ -20,11 +22,20 @@ export interface SkillTask {
   title: string;
 }
 
+/** Mock-style practice added in the last two weeks before the exam. */
+export interface ExamPractice {
+  skill: TcfSkill;
+  /** A mock writing/speaking task id, or "practice:<skill>" for a listening/reading set. */
+  itemId: string;
+  title: string;
+}
+
 export type SessionStep =
   | { kind: 'review'; itemIds: string[] }
   | { kind: 'mistakes'; mistakeIds: number[] }
   | { kind: 'lesson'; segment: Segment }
-  | { kind: 'skill'; task: SkillTask };
+  | { kind: 'skill'; task: SkillTask }
+  | { kind: 'exam'; practice: ExamPractice };
 
 export interface SessionInput {
   goal: DailyGoal;
@@ -32,6 +43,7 @@ export interface SessionInput {
   dueMistakeIds: readonly number[];
   nextSegment: Segment | null;
   skillTask: SkillTask | null;
+  examPractice?: ExamPractice | null;
 }
 
 export function buildSession(input: SessionInput): SessionStep[] {
@@ -42,14 +54,13 @@ export function buildSession(input: SessionInput): SessionStep[] {
   if (mistakes.length > 0) steps.push({ kind: 'mistakes', mistakeIds: mistakes });
   if (input.nextSegment) steps.push({ kind: 'lesson', segment: input.nextSegment });
   if (input.skillTask) steps.push({ kind: 'skill', task: input.skillTask });
+  if (input.examPractice) steps.push({ kind: 'exam', practice: input.examPractice });
   return steps;
 }
 
-/** Rotates listening → reading → structures → writing → speaking, one per day. */
-const ROTATION: readonly Skill[] = ['listening', 'reading', 'structures', 'writing', 'speaking'];
-
+/** Rotates listening → reading → structures → writing → speaking, one per day (no exam date). */
 export function skillForDay(dayNumber: number): Skill {
-  return ROTATION[((dayNumber % ROTATION.length) + ROTATION.length) % ROTATION.length];
+  return sessionSkill(dayNumber, 'none', null);
 }
 
 export interface SkillCandidate {
@@ -87,6 +98,8 @@ export function describeSession(steps: readonly SessionStep[]): string {
         return '1 lesson';
       case 'skill':
         return `1 ${s.task.skill}`;
+      case 'exam':
+        return '1 exam practice';
     }
   });
   return parts.length > 0 ? parts.join(' · ') : 'All done for today';

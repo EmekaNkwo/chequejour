@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { Platform, StyleSheet, View } from 'react-native';
 import { SpeedSelector } from '../components/audio/AudioControls';
+import { ExamDateRow, TargetNclcRow } from '../components/settings/ExamSettings';
 import { SettingsGroup, SwitchRow, TimePickerRow } from '../components/settings/SettingRows';
 import { spacing } from '../components/theme/tokens';
 import { AppText } from '../components/ui/AppText';
@@ -170,6 +171,13 @@ export default function SettingsScreen() {
   return (
     <Screen testID="settings-screen">
       <ScreenHeader title="Settings" back />
+
+      <Card style={styles.card}>
+        <SettingsGroup title="TCF Canada">
+          <ExamDateRow value={settings.examDate} today={app.today} onChange={(v) => save('examDate', v)} />
+          <TargetNclcRow value={settings.targetNclc} onChange={(v) => save('targetNclc', v)} />
+        </SettingsGroup>
+      </Card>
 
       <Card style={styles.card}>
         <SettingsGroup title="Notifications">

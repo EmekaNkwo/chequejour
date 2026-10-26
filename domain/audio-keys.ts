@@ -106,10 +106,8 @@ export function collectAudioClips(bundle: ContentBundle): AudioClip[] {
     clips.push({ key: audioKey.sentence(s.id), text: s.fr });
   }
   for (const m of bundle.mockTests) {
-    for (const section of m.sections) {
-      for (const l of section.listening ?? []) {
-        clips.push({ key: audioKey.listening(l.id), text: listeningScript(l.lines) });
-      }
+    for (const l of m.listening) {
+      clips.push({ key: audioKey.listening(l.id), text: listeningScript(l.lines) });
     }
   }
   return clips;

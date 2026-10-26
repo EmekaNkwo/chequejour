@@ -278,6 +278,8 @@ export interface WritingTask {
   promptFr: string;
   minWords: number;
   maxWords: number;
+  /** Task 3 (opinion): two short documents giving opposing views, compared before giving an opinion. */
+  documents?: { title: string; text: string }[];
   modelAnswer: string;
   checklist: string[];
 }
@@ -321,21 +323,35 @@ export interface PlacementTest {
   questions: (McqExercise & { band: Level })[];
 }
 
-export interface MockTestSection {
-  skill: 'listening' | 'reading' | 'structures';
-  title: string;
-  minutes: number;
-  /** Listening sections carry their own audio texts. */
-  listening?: ListeningItem[];
-  reading?: ReadingItem[];
-  questions?: McqExercise[];
+/**
+ * Difficulty band of a mock question. TCF questions rise in difficulty through each
+ * test; this course's mocks go from A1 to B2. Harder questions earn more points.
+ */
+export type CefrBand = 'A1' | 'A2' | 'B1' | 'B2';
+
+export const CEFR_BANDS: readonly CefrBand[] = ['A1', 'A2', 'B1', 'B2'];
+
+export interface MockQuestion extends ComprehensionQuestion {
+  band: CefrBand;
 }
 
+export interface MockListeningItem extends Omit<ListeningItem, 'questions'> {
+  questions: MockQuestion[];
+}
+
+export interface MockReadingItem extends Omit<ReadingItem, 'questions'> {
+  questions: MockQuestion[];
+}
+
+/** A TCF Canada-style mock: four tests, items in rising order of difficulty. */
 export interface MockTest {
   id: string;
   title: string;
-  sections: MockTestSection[];
+  listening: MockListeningItem[];
+  reading: MockReadingItem[];
+  /** Tasks 1, 2, 3 in order (message, description, opinion). */
   writing: WritingTask[];
+  /** Tasks 1, 2, 3 in order (entretien, interaction, opinion). */
   speaking: SpeakingTask[];
 }
 

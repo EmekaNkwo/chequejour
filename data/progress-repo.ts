@@ -210,6 +210,24 @@ export class ProgressRepository {
     return this.attemptsBetween(0, Number.MAX_SAFE_INTEGER);
   }
 
+  /** Practice answers in one skill, newest first; mock answers are left out (the mock score covers them). */
+  async recentSkillAttempts(skill: Skill, limit: number): Promise<{ correct: boolean; level: Level }[]> {
+    const rows = await this.db.getAllAsync<{ correct: number; level: Level }>(
+      "SELECT correct, level FROM attempts WHERE skill = ? AND context NOT IN ('mock', 'placement') ORDER BY answered_at DESC LIMIT ?",
+      [skill, limit],
+    );
+    return rows.map((r) => ({ correct: r.correct === 1, level: r.level }));
+  }
+
+  /** Self-assessed writing or speaking tasks, newest first. */
+  async scoredSkillItems(skill: Skill, limit: number): Promise<{ itemId: string; score: number; doneAt: number }[]> {
+    const rows = await this.db.getAllAsync<{ item_id: string; score: number; last_done_at: number }>(
+      'SELECT item_id, score, last_done_at FROM skill_progress WHERE skill = ? AND score IS NOT NULL AND last_done_at IS NOT NULL ORDER BY last_done_at DESC LIMIT ?',
+      [skill, limit],
+    );
+    return rows.map((r) => ({ itemId: r.item_id, score: r.score, doneAt: r.last_done_at }));
+  }
+
   async recentAttempts(limit: number): Promise<{ correct: boolean; level: Level }[]> {
     const rows = await this.db.getAllAsync<{ correct: number; level: Level }>(
       "SELECT correct, level FROM attempts WHERE context != 'placement' ORDER BY answered_at DESC LIMIT ?",

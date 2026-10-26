@@ -15,13 +15,14 @@ function recordingsDirectory(): Directory {
 }
 
 /** Moves a finished recording out of the cache into permanent storage and saves it. */
-export async function saveRecording(progress: ProgressRepository, taskId: string, tempUri: string, durationMs: number, now: number): Promise<void> {
+export async function saveRecording(progress: ProgressRepository, taskId: string, tempUri: string, durationMs: number, now: number): Promise<string> {
   const source = new File(tempUri);
   const extension = tempUri.includes('.') ? tempUri.slice(tempUri.lastIndexOf('.')) : '.m4a';
   const target = new File(recordingsDirectory(), `${taskId}-${now}${extension}`);
   await source.move(target);
   // Only the file name is stored: the app container path can change after an update or restore.
   await progress.addRecording(taskId, target.name, durationMs, now);
+  return target.name;
 }
 
 /** Resolves a stored recording (a file name, or an absolute URI from older rows) to a file URI. */
