@@ -83,6 +83,15 @@ function getPlayer(): AudioPlayer {
   return player;
 }
 
+/**
+ * Sets the audio mode and creates the player ahead of the first play, so that work can
+ * overlap with other start-up work (the widget's background task reads settings meanwhile).
+ */
+export async function warmUp(): Promise<void> {
+  getPlayer();
+  await ensureMode();
+}
+
 export async function stop(): Promise<void> {
   generation += 1;
   finishCallback = undefined;

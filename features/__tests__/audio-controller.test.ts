@@ -68,6 +68,14 @@ describe('audio controller', () => {
     expect(controller.hasClip('missing')).toBe(false);
   });
 
+  it('can set up the player and audio mode ahead of the first play, only once', async () => {
+    await controller.warmUp();
+    await controller.play('clip1', 'Bonjour');
+    expect(audio.createAudioPlayer).toHaveBeenCalledTimes(1);
+    expect(audio.setAudioModeAsync).toHaveBeenCalledTimes(1);
+    expect(player.play).toHaveBeenCalledTimes(1);
+  });
+
   it('plays a bundled clip through one shared player at the chosen speed', async () => {
     await controller.play('clip1', 'Bonjour', { rate: 0.75 });
     await controller.play('clip2', 'Salut');
