@@ -70,7 +70,14 @@
         }
       ],
       "expo-asset",
-      "expo-build-properties",
+      [
+        "expo-build-properties",
+        {
+          "android": {
+            "extraProguardRules": "# The home-screen widget runs through WorkManager, which creates its database, workers\n# and input mergers by reflection; R8 would strip them from release builds.\n-keep class * extends androidx.room.RoomDatabase { <init>(); }\n-keep class androidx.work.** { *; }\n-keep class com.reactnativeandroidwidget.** { *; }"
+          }
+        }
+      ],
       "@react-native-community/datetimepicker",
       [
         "react-native-android-widget",
