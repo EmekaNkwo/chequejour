@@ -77,23 +77,22 @@ describe('AI pack downloader', () => {
 
   it('reports a failed download without throwing', async () => {
     fs.remote.clear();
-    expect(await startDownload(model).done).toMatchObject({ status: 'failed', resumable: false });
+    expect(await startDownload(model).done).toMatchObject({ status: 'failed' });
     expect((await readRecord()).pending).toBeNull();
   });
 
-  it('keeps what arrived when the connection drops, so the download can resume', async () => {
+  it('reports a dropped connection and removes the partial file, since there is nothing to resume from', async () => {
     fs.holdDownloads = true;
     const task = startDownload(model);
     await Promise.resolve();
-    fs.remote.clear(); // the server goes away; the next request fails
-    task.pause();
-    await task.done;
+    await new Promise((r) => setImmediate(r));
+    fs.remote.clear(); // the server goes away mid-download
     fs.holdDownloads = false;
-    const pending = (await readRecord()).pending!;
-    expect(await startDownload(model, { resumeFrom: pending.state }).done).toMatchObject({ status: 'failed', resumable: true });
-    expect(fs.files.has(PART)).toBe(true);
-    expect((await readRecord()).pending).toMatchObject({ modelId: model.id });
+    fs.finishDownloads();
+    expect(await task.done).toMatchObject({ status: 'failed' });
+    expect(fs.files.has(PART)).toBe(false);
+    expect((await readRecord()).pending).toBeNull();
     fs.remote.set(model.url, BODY);
-    expect(await startDownload(model, { resumeFrom: pending.state }).done).toEqual({ status: 'installed' });
+    expect(await startDownload(model).done).toEqual({ status: 'installed' });
   });
 });

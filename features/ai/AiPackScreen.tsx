@@ -39,7 +39,7 @@ function outcomeToast(outcome: DownloadOutcome): { tone: 'success' | 'info' | 'e
       return {
         tone: 'error',
         title: 'Download stopped',
-        message: outcome.resumable ? `${outcome.modelName} stopped part-way. Tap Resume when you're connected.` : `${outcome.modelName} couldn't be downloaded. Please try again later.`,
+        message: `${outcome.modelName} couldn't finish downloading. Check your connection, then tap Download to try again.`,
       };
     case 'paused':
     case 'cancelled':

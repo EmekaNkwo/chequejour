@@ -87,6 +87,30 @@ describe('AI pack controller', () => {
     expect([...fs.files.keys()].some((k) => k.endsWith('.part'))).toBe(false);
   });
 
+  it('cancels a running download and clears the progress so a new one can start', async () => {
+    fs.holdDownloads = true;
+    const run = pack.download(false);
+    await new Promise((r) => setTimeout(r, 0));
+    expect(pack.getState().active).not.toBeNull();
+    await pack.cancel();
+    expect(await run).toEqual({ kind: 'cancelled' });
+    expect(pack.getState()).toMatchObject({ active: null, pendingId: null });
+    expect([...fs.files.keys()].some((k) => k.endsWith('.part'))).toBe(false);
+    fs.holdDownloads = false;
+    expect(await pack.download(false)).toEqual({ kind: 'installed' });
+  });
+
+  it('reports a dropped connection by name and clears the progress', async () => {
+    fs.holdDownloads = true;
+    const run = pack.download(false);
+    await new Promise((r) => setTimeout(r, 0));
+    fs.remote.clear();
+    fs.holdDownloads = false;
+    fs.finishDownloads();
+    expect(await run).toEqual({ kind: 'failed', modelName: mockManifest.models[0]!.name });
+    expect(pack.getState()).toMatchObject({ active: null, pendingId: null });
+  });
+
   it('reports a damaged file by name', async () => {
     fs.remote.set(mockManifest.models[0]!.url, 'corrupted');
     expect(await pack.download(false)).toEqual({ kind: 'checksum-failed', modelName: 'Speech' });

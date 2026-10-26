@@ -155,7 +155,13 @@ export function fakeFileSystem() {
           this.stopped = () => resolve(true);
           waiters.push({ release: () => resolve(false) });
         });
+        // Like the real task: a cancel rejects, a pause resolves with null.
+        if ((this.state as string) === 'cancelled') throw new Error('Download cancelled');
         if (stopped) return null;
+        if (!fs.remote.has(this.saved.url)) {
+          this.state = 'error';
+          throw new Error('Connection lost');
+        }
       }
       fs.files.set(this.saved.fileUri, body);
       this.options?.onProgress?.({ bytesWritten: body.length, totalBytes: body.length });
@@ -171,6 +177,7 @@ export function fakeFileSystem() {
       this.stopped?.();
     }
     savable(): { url: string; fileUri: string; isDirectory: boolean; resumeData: string } {
+      if (this.state !== 'paused') throw new Error(`Cannot call savable() in state "${this.state}"`);
       return { ...this.saved, resumeData: 'opaque' };
     }
   }

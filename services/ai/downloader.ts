@@ -2,7 +2,8 @@
  * The AI pack download: the only network access in the app, and only when the learner
  * starts it. Each model is fetched from the fixed manifest URL into a partial file,
  * checked against its SHA-256, and only then renamed into place. A paused download is
- * recorded so it can resume after the app restarts.
+ * recorded so it can resume after the app restarts. A cancelled or failed one is
+ * discarded: the platform only gives resume data for a paused task.
  */
 import { DownloadTask, File } from 'expo-file-system';
 import type { ModelEntry } from '../../domain/ai/manifest';
@@ -14,7 +15,7 @@ export type DownloadResult =
   | { status: 'paused' }
   | { status: 'cancelled' }
   | { status: 'checksum-failed' }
-  | { status: 'failed'; message: string; resumable: boolean };
+  | { status: 'failed'; message: string };
 
 export interface DownloadHandle {
   done: Promise<DownloadResult>;
@@ -65,19 +66,20 @@ export function startDownload(model: ModelEntry, options: DownloadOptions = {}):
         await writeRecord({ ...(await readRecord()), pending: { modelId: model.id, state: task.savable() } });
         return { status: 'paused' };
       }
-      if (stop === 'cancel' || !file) {
-        removeIfThere(part);
-        await writeRecord({ ...(await readRecord()), pending: null });
-        return { status: 'cancelled' };
-      }
+      if (stop === 'cancel' || !file) return await discard({ status: 'cancelled' });
       return await install(model, file);
     } catch (e: unknown) {
+      // Cancelling rejects the pending download; that is not a failure.
+      if (stop === 'cancel') return await discard({ status: 'cancelled' });
       logError('AI pack download', e);
-      // A dropped connection keeps what arrived, so the learner can resume.
-      const resumable = part.exists;
-      await writeRecord({ ...(await readRecord()), pending: resumable ? { modelId: model.id, state: task.savable() } : null });
-      return { status: 'failed', message: e instanceof Error ? e.message : 'The download failed.', resumable };
+      return await discard({ status: 'failed', message: e instanceof Error ? e.message : 'The download failed.' });
     }
+  };
+
+  const discard = async (result: DownloadResult): Promise<DownloadResult> => {
+    removeIfThere(part);
+    await writeRecord({ ...(await readRecord()), pending: null });
+    return result;
   };
 
   return {

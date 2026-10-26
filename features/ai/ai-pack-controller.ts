@@ -11,7 +11,7 @@ import { deletePack, partFile, readRecord, usableModelIds, writeRecord } from '.
 import { downloadBlock, type DownloadBlock, type NetworkKind } from '../../domain/ai/download-check';
 import { parseManifest, type Manifest } from '../../domain/ai/manifest';
 import { planPack, storageCheck, type PackPlan } from '../../domain/ai/tiers';
-import { startDownload, type DownloadHandle } from '../../services/ai/downloader';
+import { startDownload, type DownloadHandle, type DownloadResult } from '../../services/ai/downloader';
 import { logError } from '../app/log';
 
 export interface AiPackState {
@@ -31,7 +31,7 @@ export type DownloadOutcome =
   | { kind: 'paused' }
   | { kind: 'cancelled' }
   | { kind: 'checksum-failed'; modelName: string }
-  | { kind: 'failed'; modelName: string; resumable: boolean };
+  | { kind: 'failed'; modelName: string };
 
 type Listener = (state: AiPackState) => void;
 
@@ -91,14 +91,19 @@ export async function download(allowMobileData: boolean): Promise<DownloadOutcom
     const resumeFrom = record.pending?.modelId === model.id ? record.pending.state : undefined;
     emit({ active: { modelId: model.id, fraction: 0 } });
     handle = startDownload(model, { resumeFrom, onProgress: (fraction) => emit({ active: { modelId: model.id, fraction } }) });
-    const result = await handle.done;
-    handle = null;
-    await refresh();
-    emit({ active: null });
+    let result: DownloadResult;
+    try {
+      result = await handle.done;
+    } finally {
+      // Whatever happened, the screen must stop showing a download in progress.
+      handle = null;
+      emit({ active: null });
+      await refresh();
+    }
     if (result.status === 'paused') return { kind: 'paused' };
     if (result.status === 'cancelled') return { kind: 'cancelled' };
     if (result.status === 'checksum-failed') return { kind: 'checksum-failed', modelName: model.name };
-    if (result.status === 'failed') return { kind: 'failed', modelName: model.name, resumable: result.resumable };
+    if (result.status === 'failed') return { kind: 'failed', modelName: model.name };
   }
   return { kind: 'installed' };
 }
