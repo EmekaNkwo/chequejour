@@ -1,6 +1,7 @@
 import { router, useLocalSearchParams } from 'expo-router';
 import { useEffect, useRef, useState } from 'react';
 import { StyleSheet } from 'react-native';
+import { WordExamples } from '../../components/ai/WordExamples';
 import { useTheme } from '../../components/theme/ThemeProvider';
 import { AppText } from '../../components/ui/AppText';
 import { LinkText, Pill } from '../../components/ui/Bits';
@@ -68,6 +69,9 @@ export default function WordOfTheDayScreen() {
           Added to your reviews, so it will come back at the right time.
         </AppText>
       </Card>
+
+      {/* The examples come with translations, so they wait until a test is answered. */}
+      {testing && !answered ? null : <WordExamples key={word.id} word={word} wordId={word.id} />}
 
       {testing && data.quiz ? (
         <Card style={styles.card}>
