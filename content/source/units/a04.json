@@ -1203,7 +1203,7 @@
       "level": "A1+",
       "skill": "structures",
       "grammarTag": "il-y-a",
-      "prompt": "Complete with the expression for 'there are'.",
+      "prompt": "Complete with the expression for 'there is / there are'.",
       "sentence": "Dans le salon, ___ un canapé et deux fauteuils.",
       "answers": [
         "il y a"
@@ -1646,7 +1646,7 @@
             "A man who smokes"
           ],
           "answer": 0,
-          "explanation": "« Nous cherchons une colocataire non-fumeuse » — colocataire with une and non-fumeuse are feminine, so they want a woman who doesn't smoke. Pets are not allowed."
+          "explanation": "« Nous cherchons une colocataire non-fumeuse » — une colocataire and non-fumeuse are feminine, so they want a woman who doesn't smoke. Pets are not allowed."
         }
       ]
     },

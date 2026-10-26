@@ -542,7 +542,7 @@
       "level": "A1",
       "core": false,
       "example": {
-        "fr": "Vendredi, c'est le dernier jour de la semaine de travail.",
+        "fr": "Le vendredi, c'est le dernier jour de la semaine de travail.",
         "en": "Friday is the last day of the working week."
       }
     },
@@ -1161,11 +1161,11 @@
       "options": [
         "un",
         "une",
-        "des",
+        "de la",
         "du"
       ],
       "answer": 0,
-      "explanation": "Rendez-vous is masculine and here there is only one, so it is un. Une is feminine, des is plural and du means 'some' for things you can't count."
+      "explanation": "Rendez-vous is masculine and you can count it, so it is un. Une is feminine, and du and de la mean 'some' for things you can't count."
     },
     {
       "id": "a02-ex06",

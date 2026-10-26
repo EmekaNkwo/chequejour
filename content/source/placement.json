@@ -607,11 +607,11 @@
       "options": [
         "une",
         "de",
-        "la",
+        "du",
         "des"
       ],
       "answer": 1,
-      "explanation": "After a negative like « ne… pas », « un, une, des » become « de »: « je n'ai pas de voiture »."
+      "explanation": "After a negative like « ne… pas », « un, une, des » become « de »: « je n'ai pas de voiture ». « Du » is a partitive for masculine nouns, and voiture is feminine anyway."
     },
     {
       "id": "pl35",

@@ -96,6 +96,7 @@
       "en": "bus",
       "pos": "noun",
       "gender": "m",
+      "plural": "bus",
       "level": "A1+",
       "core": true,
       "example": {
@@ -197,7 +198,7 @@
       "level": "A1+",
       "core": false,
       "example": {
-        "fr": "Le tarif étudiant est de un euro cinquante.",
+        "fr": "Le tarif étudiant est d'un euro cinquante.",
         "en": "The student fare is one euro fifty."
       }
     },
@@ -1178,7 +1179,8 @@
       "tense": "présent",
       "person": "vous",
       "answers": [
-        "voulez"
+        "voulez",
+        "vous voulez"
       ],
       "explanation": "Vouloir: je veux, tu veux, il veut, nous voulons, vous voulez, ils veulent."
     },
@@ -1192,7 +1194,8 @@
       "tense": "présent",
       "person": "ils",
       "answers": [
-        "peuvent"
+        "peuvent",
+        "ils peuvent"
       ],
       "explanation": "Pouvoir: je peux, tu peux, il peut, nous pouvons, vous pouvez, ils peuvent."
     },
@@ -1206,7 +1209,8 @@
       "tense": "présent",
       "person": "nous",
       "answers": [
-        "faisons"
+        "faisons",
+        "nous faisons"
       ],
       "explanation": "Faire: je fais, tu fais, il fait, nous faisons, vous faites, ils font."
     },
@@ -1220,7 +1224,8 @@
       "tense": "futur proche",
       "person": "je",
       "answers": [
-        "vais partir"
+        "vais partir",
+        "je vais partir"
       ],
       "explanation": "Futur proche = aller in the present + infinitive: je vais partir."
     },
@@ -1468,7 +1473,8 @@
       "tense": "présent",
       "person": "elles",
       "answers": [
-        "viennent"
+        "viennent",
+        "elles viennent"
       ],
       "explanation": "Venir: je viens, tu viens, il vient, nous venons, vous venez, elles viennent."
     },
@@ -1482,7 +1488,8 @@
       "tense": "présent",
       "person": "tu",
       "answers": [
-        "vas"
+        "vas",
+        "tu vas"
       ],
       "explanation": "Aller: je vais, tu vas, il va, nous allons, vous allez, ils vont."
     },

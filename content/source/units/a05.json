@@ -1726,7 +1726,7 @@
       "tips": [
         "Follow the order of your day: morning, lunchtime, evening.",
         "Use reflexive verbs with the right pronoun: je me lève, je me douche, je m'habille.",
-        "Give times with à: à sept heures, à midi, vers vingt heures."
+        "Give times with à (or vers for 'around'): à sept heures, à midi, vers vingt heures."
       ]
     },
     {
@@ -1886,7 +1886,8 @@
       "answers": [
         "Je ne me douche pas le soir.",
         "Je ne prends pas de douche le soir.",
-        "Le soir, je ne me douche pas."
+        "Le soir, je ne me douche pas.",
+        "Le soir, je ne prends pas de douche."
       ],
       "explanation": "Se doucher is reflexive: je me douche. In the negative: je ne me douche pas."
     },
