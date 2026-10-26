@@ -3,7 +3,7 @@ import { WIDGET_BASE_SIZE, widgetLayout } from '../widget/widget-layout';
 describe('word widget layout', () => {
   it('uses the base sizes at the default 3×2 size and below', () => {
     const base = widgetLayout(WIDGET_BASE_SIZE);
-    expect(base).toMatchObject({ label: 11, word: 24, detail: 13, english: 15, padding: 16, englishLines: 2 });
+    expect(base).toMatchObject({ label: 11, word: 24, detail: 13, english: 15, padding: 16, englishLines: 2, button: 36, buttonInset: 8 });
     expect(widgetLayout({ width: 120, height: 80 })).toEqual(base);
     expect(widgetLayout({ width: 0, height: 0 })).toEqual(base);
   });
@@ -26,7 +26,7 @@ describe('word widget layout', () => {
   });
 
   it('stops growing at a readable maximum and gives the English more lines when tall', () => {
-    expect(widgetLayout({ width: 1000, height: 1000 }, 'chat').word).toBe(60);
+    expect(widgetLayout({ width: 1000, height: 1000 }, 'chat')).toMatchObject({ word: 60, button: 64 });
     expect(widgetLayout({ width: 360, height: 700 }).englishLines).toBe(4);
   });
 });

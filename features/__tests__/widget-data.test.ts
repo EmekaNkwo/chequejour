@@ -37,6 +37,6 @@ describe('word of the day widget data', () => {
     expect(genderLabel({ pos: 'noun', gender: 'mf' })).toBe('masculine or feminine');
     expect(genderLabel({ pos: 'verb' })).toBe('verb');
     const view = widgetWordView({ id: 'x', fr: 'réveil', en: 'alarm clock', pos: 'noun', gender: 'm', level: 'A2', core: true, example: { fr: 'a', en: 'b' } }, '2026-10-26');
-    expect(view).toEqual({ fr: 'le réveil', detail: 'masculine', en: 'alarm clock', url: 'chequejour://daily/word?day=2026-10-26' });
+    expect(view).toEqual({ fr: 'le réveil', detail: 'masculine', en: 'alarm clock', url: 'chequejour://daily/word?day=2026-10-26', audioKey: 'x' });
   });
 });

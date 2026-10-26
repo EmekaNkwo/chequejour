@@ -17,6 +17,9 @@ export interface WidgetLayout {
   englishLines: number;
   padding: number;
   gap: number;
+  /** Diameter of the pronunciation button in the top-right corner, and its inset. */
+  button: number;
+  buttonInset: number;
 }
 
 /** The size the base layout is designed for: the widget's minimum in app.json. */
@@ -43,5 +46,7 @@ export function widgetLayout({ width, height }: WidgetSize, word = ''): WidgetLa
     englishLines: tallness >= 1.8 ? 4 : tallness >= 1.45 ? 3 : 2,
     padding,
     gap: px(4),
+    button: Math.min(64, px(36)),
+    buttonInset: Math.min(16, px(8)),
   };
 }

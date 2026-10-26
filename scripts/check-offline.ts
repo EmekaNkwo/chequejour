@@ -24,7 +24,8 @@ const NETWORK_PATTERNS: readonly { pattern: RegExp; reason: string }[] = [
   { pattern: /from\s+['"]axios['"]/, reason: 'axios import' },
   { pattern: /getExpoPushTokenAsync|getDevicePushTokenAsync/, reason: 'push token request' },
   { pattern: /\bdownloadAsync\b|File\.downloadFileAsync/, reason: 'file download' },
-  { pattern: /['"`]https?:\/\/(?!localhost)/, reason: 'remote URL literal' },
+  // The SVG namespace is an identifier inside markup, never fetched.
+  { pattern: /['"`]https?:\/\/(?!localhost|www\.w3\.org\/2000\/svg['"`])/, reason: 'remote URL literal' },
 ];
 
 /** Packages that contact a server on their own. */

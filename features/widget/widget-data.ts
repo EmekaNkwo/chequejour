@@ -7,7 +7,7 @@ import { ContentRepository } from '../../data/content-repo';
 import { ProgressRepository } from '../../data/progress-repo';
 import { loadSettings } from '../../data/settings-repo';
 import type { SqlDb } from '../../data/sql';
-import { headword } from '../../domain/audio-keys';
+import { audioKey, headword } from '../../domain/audio-keys';
 import type { VocabItem } from '../../domain/content-types';
 import type { DayKey } from '../../domain/dates';
 import { dailyContent, ensureDailyItems } from '../daily/daily-service';
@@ -21,6 +21,8 @@ export interface WidgetWordView {
   en: string;
   /** Deep link that opens this word in the app. */
   url: string;
+  /** Bundled clip of the headword, for the pronunciation button. */
+  audioKey: string;
 }
 
 const GENDER_LABEL = { m: 'masculine', f: 'feminine', mf: 'masculine or feminine' } as const;
@@ -30,7 +32,7 @@ export function genderLabel(word: Pick<VocabItem, 'pos' | 'gender'>): string {
 }
 
 export function widgetWordView(word: VocabItem, day: DayKey): WidgetWordView {
-  return { fr: headword(word), detail: genderLabel(word), en: word.en, url: `chequejour://daily/word?day=${day}` };
+  return { fr: headword(word), detail: genderLabel(word), en: word.en, url: `chequejour://daily/word?day=${day}`, audioKey: audioKey.word(word.id) };
 }
 
 /** Today's word, assigning it first if the app hasn't run today. Null if there is none yet. */
