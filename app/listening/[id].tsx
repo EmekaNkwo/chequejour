@@ -107,7 +107,7 @@ function Listening({ item, initiallySaved }: { item: ListeningItem; initiallySav
         <AppText variant="meta" tone="muted" center>
           Listen as many times as you like, then answer the questions.
         </AppText>
-        {item.id.startsWith('u') ? (
+        {/^[ua]\d/.test(item.id) ? (
           <View style={styles.shadow}>
             <LinkText label="Shadow this text line by line" icon="mic" onPress={() => router.push({ pathname: '/shadow', params: { kind: 'listening', id: item.id } })} />
           </View>

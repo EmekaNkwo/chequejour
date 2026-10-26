@@ -8,7 +8,7 @@ import type { ListeningItem, MockTest, ReadingItem, SpeakingTask, WritingTask } 
 /** "u03-li01" → "u03"; mock-test items ("mk1-li01") have no unit. */
 export function unitIdOf(itemId: string): string | null {
   const prefix = itemId.split('-')[0] ?? '';
-  return /^u\d+$/.test(prefix) ? prefix : null;
+  return /^[ua]\d+$/.test(prefix) ? prefix : null;
 }
 
 async function mocks(content: ContentRepository, mockId?: string): Promise<MockTest[]> {

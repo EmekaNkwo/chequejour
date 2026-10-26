@@ -5,7 +5,7 @@ import type { ContentRepository, UnitSummary } from '../../data/content-repo';
 import type { ProgressRepository } from '../../data/progress-repo';
 import type { DailyLearner } from '../daily/daily-service';
 import type { Level } from '../../domain/content-types';
-import { currentUnitId, nextSegment, PLACEMENT_START_UNIT, unitSegments, unitStatuses, type Segment, type UnitStatus } from '../../domain/unit-path';
+import { currentUnitId, nextSegment, placementStartFor, unitSegments, unitStatuses, type Segment, type UnitStatus } from '../../domain/unit-path';
 
 export interface UnitOnPath extends UnitSummary {
   status: UnitStatus;
@@ -36,7 +36,7 @@ export async function loadPath(
     progress.unitProgress(),
     progress.completedSegments(),
   ]);
-  const placementStart = PLACEMENT_START_UNIT[placement ?? 'A2'];
+  const placementStart = placementStartFor(placement);
   const statuses = unitStatuses(units, unitProgress, placementStart);
   const currentId = currentUnitId(units, statuses, placementStart);
 

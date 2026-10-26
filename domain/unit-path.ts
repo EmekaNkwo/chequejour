@@ -76,8 +76,18 @@ export interface UnitProgressInput {
 
 export type UnitStatus = 'locked' | 'available' | 'completed';
 
-/** Placement can open the path further along; earlier units stay available. */
-export const PLACEMENT_START_UNIT: Readonly<Record<Level, number>> = { A2: 1, 'A2+': 6, B1: 11 };
+/**
+ * Placement can open the path further along; earlier units stay available. Values are
+ * unit orders: the A1 units are 1–6 and the original A2–B1 units 7–24.
+ */
+export const PLACEMENT_START_UNIT: Readonly<Record<Level, number>> = { A1: 1, 'A1+': 4, A2: 7, 'A2+': 12, B1: 17 };
+
+/** No placement stored means the learner predates the A1 units, which started them at A2. */
+export const NO_PLACEMENT: Level = 'A2';
+
+export function placementStartFor(placement: Level | null): number {
+  return PLACEMENT_START_UNIT[placement ?? NO_PLACEMENT];
+}
 
 export function isPassed(score: number | null): boolean {
   return score !== null && score >= CHECKPOINT_PASS;

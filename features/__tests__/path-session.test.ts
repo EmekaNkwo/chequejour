@@ -13,7 +13,7 @@ import { examPracticeFor, gradeReview, learnWords, masteredIds, mistakeExercise,
 
 const TODAY = '2026-10-26';
 const NOW = fromDayKey(TODAY).getTime() + 10 * 3_600_000;
-const u01 = realBundle.units[0];
+const u01 = realBundle.units.find((u) => u.id === 'u01')!;
 
 const mastered = (itemId: string): SrsCard => ({ ...newCard(itemId, 'word', 0), state: 'review', stability: MASTERY_STABILITY_DAYS + 1, due: NOW * 10 });
 
@@ -21,17 +21,34 @@ const mistake = (itemId: string): Mistake =>
   ({ id: 1, itemId, skill: 'listening', grammarTag: null, prompt: 'p', userAnswer: 'x', correctAnswer: 'y', explanation: 'e' }) as unknown as Mistake;
 
 describe('loadPath', () => {
-  it('starts a new learner at unit 1 with the first segment next', async () => {
+  it('starts an A1 learner at unit 1 (a01) with the first segment next', async () => {
     const { content, progress } = await setupRealContent();
-    const path = await loadPath(content, progress, null, new Set());
+    const path = await loadPath(content, progress, 'A1', new Set());
+    const a01 = realBundle.units[0];
+    expect(a01.id).toBe('a01');
     expect(path.placementStart).toBe(1);
     expect(path.units).toHaveLength(realBundle.units.length);
-    expect(path.current?.id).toBe('u01');
+    expect(path.current?.id).toBe('a01');
     expect(path.units[0].status).toBe('available');
     expect(path.units[1].status).toBe('locked');
-    const segments = unitSegments(u01);
+    const segments = unitSegments(a01);
     expect(path.nextSegment).toEqual(segments[0]);
-    expect(path.units[0]).toMatchObject({ segmentsDone: 0, segmentsTotal: segments.length, coreWords: u01.vocab.filter((v) => v.core).length, masteredWords: 0, checkpointScore: null });
+    expect(path.units[0]).toMatchObject({ segmentsDone: 0, segmentsTotal: segments.length, coreWords: a01.vocab.filter((v) => v.core).length, masteredWords: 0, checkpointScore: null });
+  });
+
+  it('keeps learners from before the A1 units at u01, with the A1 units open as optional review', async () => {
+    const { content, progress } = await setupRealContent();
+    const path = await loadPath(content, progress, null, new Set());
+    expect(path.placementStart).toBe(7);
+    expect(path.current?.id).toBe('u01');
+    expect(openUnitIds(path)).toEqual(['a01', 'a02', 'a03', 'a04', 'a05', 'a06', 'u01']);
+  });
+
+  it('routes each placement result to its starting unit', async () => {
+    const { content, progress } = await setupRealContent();
+    const starts: Record<string, string | undefined> = {};
+    for (const level of ['A1', 'A1+', 'A2', 'A2+', 'B1'] as const) starts[level] = (await loadPath(content, progress, level, new Set())).current?.id;
+    expect(starts).toEqual({ A1: 'a01', 'A1+': 'a04', A2: 'u01', 'A2+': 'u06', B1: 'u11' });
   });
 
   it('counts completed segments, mastered core words and checkpoint scores', async () => {
@@ -41,8 +58,11 @@ describe('loadPath', () => {
     await progress.saveCheckpoint('u01', 0.9, true, 2);
     const coreWord = u01.vocab.find((v) => v.core)!;
     const path = await loadPath(content, progress, null, new Set([coreWord.id]));
-    expect(path.units[0]).toMatchObject({ status: 'completed', segmentsDone: 1, masteredWords: 1, checkpointScore: 0.9 });
-    expect(path.units[1].status).toBe('available');
+    const at = (id: string) => path.units.find((u) => u.id === id);
+    expect(at('u01')).toMatchObject({ status: 'completed', segmentsDone: 1, masteredWords: 1, checkpointScore: 0.9 });
+    expect(at('u02')?.status).toBe('available');
+    // The A1 units weren't needed to move on.
+    expect(at('a06')?.status).toBe('available');
     expect(path.current?.id).toBe('u02');
     expect(path.completedSegments.has(firstSegment.id)).toBe(true);
   });
@@ -50,9 +70,9 @@ describe('loadPath', () => {
   it('starts an A2+ placement at unit 6 and keeps earlier units open', async () => {
     const { content, progress } = await setupRealContent();
     const path = await loadPath(content, progress, 'A2+', new Set());
-    expect(path.placementStart).toBe(6);
+    expect(path.placementStart).toBe(12);
     expect(path.current?.id).toBe('u06');
-    expect(openUnitIds(path)).toEqual(['u01', 'u02', 'u03', 'u04', 'u05', 'u06']);
+    expect(openUnitIds(path)).toEqual(['a01', 'a02', 'a03', 'a04', 'a05', 'a06', 'u01', 'u02', 'u03', 'u04', 'u05', 'u06']);
     expect(dailyLearner(path)).toEqual({ openUnitIds: openUnitIds(path), level: 'A2+' });
   });
 });

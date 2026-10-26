@@ -1,0 +1,1945 @@
+{
+  "id": "a03",
+  "order": 3,
+  "level": "A1",
+  "theme": "Family and me",
+  "titleFr": "Ma famille et moi",
+  "description": "Talk about your family, age, nationality, job, appearance and likes using possessive adjectives and adjective agreement.",
+  "vocab": [
+    {
+      "id": "a03-w001",
+      "fr": "famille",
+      "en": "family",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "familles",
+      "level": "A1",
+      "core": true,
+      "example": {
+        "fr": "Ma famille habite à Montréal.",
+        "en": "My family lives in Montreal."
+      }
+    },
+    {
+      "id": "a03-w002",
+      "fr": "père",
+      "en": "father",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "pères",
+      "level": "A1",
+      "core": true,
+      "example": {
+        "fr": "Mon père a quarante-cinq ans.",
+        "en": "My father is forty-five."
+      }
+    },
+    {
+      "id": "a03-w003",
+      "fr": "mère",
+      "en": "mother",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "mères",
+      "level": "A1",
+      "core": true,
+      "example": {
+        "fr": "Ma mère est grande et blonde.",
+        "en": "My mother is tall and blonde."
+      }
+    },
+    {
+      "id": "a03-w004",
+      "fr": "papa",
+      "en": "dad",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "papas",
+      "level": "A1",
+      "core": false,
+      "example": {
+        "fr": "Papa, tu es où ?",
+        "en": "Dad, where are you?"
+      }
+    },
+    {
+      "id": "a03-w005",
+      "fr": "maman",
+      "en": "mum",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "mamans",
+      "level": "A1",
+      "core": false,
+      "example": {
+        "fr": "Ma maman est très jeune.",
+        "en": "My mum is very young."
+      }
+    },
+    {
+      "id": "a03-w006",
+      "fr": "demi-frère",
+      "en": "half-brother, stepbrother",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "demi-frères",
+      "level": "A1",
+      "core": false,
+      "example": {
+        "fr": "Mon demi-frère s'appelle Yanis.",
+        "en": "My half-brother is called Yanis."
+      }
+    },
+    {
+      "id": "a03-w007",
+      "fr": "demi-sœur",
+      "en": "half-sister, stepsister",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "demi-sœurs",
+      "level": "A1",
+      "core": false,
+      "example": {
+        "fr": "J'ai une demi-sœur et deux frères.",
+        "en": "I have a half-sister and two brothers."
+      }
+    },
+    {
+      "id": "a03-w008",
+      "fr": "grands-parents",
+      "en": "grandparents",
+      "pos": "noun",
+      "gender": "m",
+      "pluralOnly": true,
+      "level": "A1",
+      "core": false,
+      "example": {
+        "fr": "Mes grands-parents sont très gentils.",
+        "en": "My grandparents are very kind."
+      }
+    },
+    {
+      "id": "a03-w009",
+      "fr": "petits-enfants",
+      "en": "grandchildren",
+      "pos": "noun",
+      "gender": "m",
+      "pluralOnly": true,
+      "level": "A1",
+      "core": false,
+      "example": {
+        "fr": "Ma grand-mère adore ses petits-enfants.",
+        "en": "My grandmother loves her grandchildren."
+      }
+    },
+    {
+      "id": "a03-w010",
+      "fr": "ami",
+      "en": "friend (f: amie)",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "amis",
+      "level": "A1",
+      "core": true,
+      "example": {
+        "fr": "Mon ami Omar est sénégalais.",
+        "en": "My friend Omar is Senegalese."
+      }
+    },
+    {
+      "id": "a03-w011",
+      "fr": "homme",
+      "en": "man",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "hommes",
+      "level": "A1",
+      "core": true,
+      "example": {
+        "fr": "C'est un homme très intelligent.",
+        "en": "He is a very intelligent man."
+      }
+    },
+    {
+      "id": "a03-w012",
+      "fr": "garçon",
+      "en": "boy",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "garçons",
+      "level": "A1",
+      "core": false,
+      "example": {
+        "fr": "Le petit garçon a six ans.",
+        "en": "The little boy is six."
+      }
+    },
+    {
+      "id": "a03-w013",
+      "fr": "gens",
+      "en": "people",
+      "pos": "noun",
+      "gender": "m",
+      "pluralOnly": true,
+      "level": "A1",
+      "core": false,
+      "example": {
+        "fr": "Les gens ici sont très gentils.",
+        "en": "The people here are very kind."
+      }
+    },
+    {
+      "id": "a03-w014",
+      "fr": "chien",
+      "en": "dog",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "chiens",
+      "level": "A1",
+      "core": false,
+      "example": {
+        "fr": "Nous avons un gros chien noir.",
+        "en": "We have a big black dog."
+      }
+    },
+    {
+      "id": "a03-w015",
+      "fr": "chat",
+      "en": "cat",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "chats",
+      "level": "A1",
+      "core": false,
+      "example": {
+        "fr": "Mon chat s'appelle Caramel.",
+        "en": "My cat is called Caramel."
+      }
+    },
+    {
+      "id": "a03-w016",
+      "fr": "avoir … ans",
+      "en": "to be … years old",
+      "pos": "expression",
+      "level": "A1",
+      "core": true,
+      "example": {
+        "fr": "J'ai trente ans.",
+        "en": "I am thirty years old."
+      }
+    },
+    {
+      "id": "a03-w017",
+      "fr": "Tu as quel âge ?",
+      "en": "How old are you?",
+      "pos": "expression",
+      "level": "A1",
+      "core": false,
+      "example": {
+        "fr": "Tu as quel âge ? — J'ai dix-neuf ans.",
+        "en": "How old are you? — I'm nineteen."
+      }
+    },
+    {
+      "id": "a03-w018",
+      "fr": "jeune",
+      "en": "young",
+      "pos": "adjective",
+      "level": "A1",
+      "core": true,
+      "example": {
+        "fr": "Mon professeur est jeune et sympa.",
+        "en": "My teacher is young and nice."
+      }
+    },
+    {
+      "id": "a03-w019",
+      "fr": "vieux / vieille",
+      "en": "old",
+      "pos": "adjective",
+      "level": "A1",
+      "core": true,
+      "example": {
+        "fr": "Mon grand-père est vieux, mais il est très actif.",
+        "en": "My grandfather is old, but he is very active."
+      }
+    },
+    {
+      "id": "a03-w020",
+      "fr": "mexicain",
+      "en": "Mexican (f: mexicaine)",
+      "pos": "adjective",
+      "level": "A1",
+      "core": false,
+      "example": {
+        "fr": "Ma belle-sœur est mexicaine.",
+        "en": "My sister-in-law is Mexican."
+      }
+    },
+    {
+      "id": "a03-w021",
+      "fr": "ivoirien / ivoirienne",
+      "en": "Ivorian, from Côte d'Ivoire",
+      "pos": "adjective",
+      "level": "A1",
+      "core": false,
+      "example": {
+        "fr": "Mon collègue Koffi est ivoirien.",
+        "en": "My colleague Koffi is Ivorian."
+      }
+    },
+    {
+      "id": "a03-w022",
+      "fr": "haïtien / haïtienne",
+      "en": "Haitian",
+      "pos": "adjective",
+      "level": "A1",
+      "core": false,
+      "example": {
+        "fr": "Mes grands-parents sont haïtiens.",
+        "en": "My grandparents are Haitian."
+      }
+    },
+    {
+      "id": "a03-w023",
+      "fr": "américain",
+      "en": "American (f: américaine)",
+      "pos": "adjective",
+      "level": "A1",
+      "core": false,
+      "example": {
+        "fr": "Sa copine est américaine.",
+        "en": "His girlfriend is American."
+      }
+    },
+    {
+      "id": "a03-w024",
+      "fr": "espagnol",
+      "en": "Spanish (f: espagnole)",
+      "pos": "adjective",
+      "level": "A1",
+      "core": false,
+      "example": {
+        "fr": "Ma professeure est espagnole.",
+        "en": "My teacher is Spanish."
+      }
+    },
+    {
+      "id": "a03-w025",
+      "fr": "italien / italienne",
+      "en": "Italian",
+      "pos": "adjective",
+      "level": "A1",
+      "core": false,
+      "example": {
+        "fr": "Mes cousines sont italiennes.",
+        "en": "My cousins are Italian."
+      }
+    },
+    {
+      "id": "a03-w026",
+      "fr": "allemand",
+      "en": "German (f: allemande)",
+      "pos": "adjective",
+      "level": "A1",
+      "core": false,
+      "example": {
+        "fr": "Nicolas est allemand, il habite à Berlin.",
+        "en": "Nicolas is German, he lives in Berlin."
+      }
+    },
+    {
+      "id": "a03-w027",
+      "fr": "chinois",
+      "en": "Chinese (f: chinoise)",
+      "pos": "adjective",
+      "level": "A1",
+      "core": false,
+      "example": {
+        "fr": "Mon amie Lin est chinoise.",
+        "en": "My friend Lin is Chinese."
+      }
+    },
+    {
+      "id": "a03-w028",
+      "fr": "marocain",
+      "en": "Moroccan (f: marocaine)",
+      "pos": "adjective",
+      "level": "A1",
+      "core": false,
+      "example": {
+        "fr": "Mon père est marocain et ma mère est française.",
+        "en": "My father is Moroccan and my mother is French."
+      }
+    },
+    {
+      "id": "a03-w029",
+      "fr": "sénégalais",
+      "en": "Senegalese (f: sénégalaise)",
+      "pos": "adjective",
+      "level": "A1",
+      "core": false,
+      "example": {
+        "fr": "Awa est sénégalaise.",
+        "en": "Awa is Senegalese."
+      }
+    },
+    {
+      "id": "a03-w030",
+      "fr": "québécois",
+      "en": "from Quebec, Quebecer (f: québécoise)",
+      "pos": "adjective",
+      "level": "A1",
+      "core": false,
+      "example": {
+        "fr": "Mon mari est québécois.",
+        "en": "My husband is from Quebec."
+      }
+    },
+    {
+      "id": "a03-w031",
+      "fr": "professeur",
+      "en": "teacher (f: professeure)",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "professeurs",
+      "level": "A1",
+      "core": true,
+      "example": {
+        "fr": "Mon oncle est professeur de maths.",
+        "en": "My uncle is a maths teacher."
+      }
+    },
+    {
+      "id": "a03-w032",
+      "fr": "vendeur",
+      "en": "shop assistant, salesperson (f: vendeuse)",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "vendeurs",
+      "level": "A1",
+      "core": true,
+      "example": {
+        "fr": "Ma sœur est vendeuse dans un magasin.",
+        "en": "My sister is a shop assistant in a store."
+      }
+    },
+    {
+      "id": "a03-w033",
+      "fr": "serveur",
+      "en": "waiter (f: serveuse)",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "serveurs",
+      "level": "A1",
+      "core": false,
+      "example": {
+        "fr": "Le serveur est très gentil.",
+        "en": "The waiter is very kind."
+      }
+    },
+    {
+      "id": "a03-w034",
+      "fr": "avocat",
+      "en": "lawyer (f: avocate)",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "avocats",
+      "level": "A1",
+      "core": false,
+      "example": {
+        "fr": "Ma mère est avocate.",
+        "en": "My mother is a lawyer."
+      }
+    },
+    {
+      "id": "a03-w035",
+      "fr": "cuisinier",
+      "en": "cook (f: cuisinière)",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "cuisiniers",
+      "level": "A1",
+      "core": false,
+      "example": {
+        "fr": "Mon frère est cuisinier dans un restaurant.",
+        "en": "My brother is a cook in a restaurant."
+      }
+    },
+    {
+      "id": "a03-w036",
+      "fr": "coiffeur",
+      "en": "hairdresser (f: coiffeuse)",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "coiffeurs",
+      "level": "A1",
+      "core": false,
+      "example": {
+        "fr": "Ma tante est coiffeuse.",
+        "en": "My aunt is a hairdresser."
+      }
+    },
+    {
+      "id": "a03-w037",
+      "fr": "acteur",
+      "en": "actor (f: actrice)",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "acteurs",
+      "level": "A1",
+      "core": false,
+      "example": {
+        "fr": "C'est un acteur canadien.",
+        "en": "He is a Canadian actor."
+      }
+    },
+    {
+      "id": "a03-w038",
+      "fr": "policier",
+      "en": "police officer (f: policière)",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "policiers",
+      "level": "A1",
+      "core": false,
+      "example": {
+        "fr": "Son père est policier.",
+        "en": "Her father is a police officer."
+      }
+    },
+    {
+      "id": "a03-w039",
+      "fr": "secrétaire",
+      "en": "secretary",
+      "pos": "noun",
+      "gender": "mf",
+      "plural": "secrétaires",
+      "level": "A1",
+      "core": false,
+      "example": {
+        "fr": "Ma voisine est secrétaire.",
+        "en": "My neighbour is a secretary."
+      }
+    },
+    {
+      "id": "a03-w040",
+      "fr": "chauffeur",
+      "en": "driver",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "chauffeurs",
+      "level": "A1",
+      "core": false,
+      "example": {
+        "fr": "Mon oncle est chauffeur de taxi.",
+        "en": "My uncle is a taxi driver."
+      }
+    },
+    {
+      "id": "a03-w041",
+      "fr": "musicien",
+      "en": "musician (f: musicienne)",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "musiciens",
+      "level": "A1",
+      "core": false,
+      "example": {
+        "fr": "Mon ami Kenji est musicien.",
+        "en": "My friend Kenji is a musician."
+      }
+    },
+    {
+      "id": "a03-w042",
+      "fr": "élève",
+      "en": "pupil, school student",
+      "pos": "noun",
+      "gender": "mf",
+      "plural": "élèves",
+      "level": "A1",
+      "core": false,
+      "example": {
+        "fr": "Ma fille est élève à l'école Victor-Hugo.",
+        "en": "My daughter is a pupil at Victor-Hugo school."
+      }
+    },
+    {
+      "id": "a03-w043",
+      "fr": "retraité",
+      "en": "retired (f: retraitée)",
+      "pos": "adjective",
+      "level": "A1",
+      "core": false,
+      "example": {
+        "fr": "Mes grands-parents sont retraités.",
+        "en": "My grandparents are retired."
+      }
+    },
+    {
+      "id": "a03-w044",
+      "fr": "Qu'est-ce que tu fais dans la vie ?",
+      "en": "What do you do (for a living)?",
+      "pos": "expression",
+      "level": "A1",
+      "core": false,
+      "example": {
+        "fr": "Qu'est-ce que tu fais dans la vie ? — Je suis serveur.",
+        "en": "What do you do for a living? — I'm a waiter."
+      }
+    },
+    {
+      "id": "a03-w045",
+      "fr": "grand",
+      "en": "tall, big",
+      "pos": "adjective",
+      "level": "A1",
+      "core": true,
+      "example": {
+        "fr": "Mon frère est très grand.",
+        "en": "My brother is very tall."
+      }
+    },
+    {
+      "id": "a03-w046",
+      "fr": "petit",
+      "en": "small, short, little",
+      "pos": "adjective",
+      "level": "A1",
+      "core": true,
+      "example": {
+        "fr": "Ma grand-mère est petite.",
+        "en": "My grandmother is short."
+      }
+    },
+    {
+      "id": "a03-w047",
+      "fr": "beau / belle",
+      "en": "beautiful, handsome",
+      "pos": "adjective",
+      "level": "A1",
+      "core": true,
+      "example": {
+        "fr": "Ta sœur est très belle.",
+        "en": "Your sister is very beautiful."
+      }
+    },
+    {
+      "id": "a03-w048",
+      "fr": "joli",
+      "en": "pretty",
+      "pos": "adjective",
+      "level": "A1",
+      "core": false,
+      "example": {
+        "fr": "Elle a une jolie robe.",
+        "en": "She has a pretty dress."
+      }
+    },
+    {
+      "id": "a03-w049",
+      "fr": "blond",
+      "en": "blond, fair-haired",
+      "pos": "adjective",
+      "level": "A1",
+      "core": true,
+      "example": {
+        "fr": "Mes enfants sont blonds.",
+        "en": "My children are blond."
+      }
+    },
+    {
+      "id": "a03-w050",
+      "fr": "brun",
+      "en": "dark-haired, brown-haired",
+      "pos": "adjective",
+      "level": "A1",
+      "core": false,
+      "example": {
+        "fr": "Mon mari est brun.",
+        "en": "My husband has dark hair."
+      }
+    },
+    {
+      "id": "a03-w051",
+      "fr": "roux / rousse",
+      "en": "red-haired",
+      "pos": "adjective",
+      "level": "A1",
+      "core": false,
+      "example": {
+        "fr": "Ma cousine est rousse.",
+        "en": "My cousin has red hair."
+      }
+    },
+    {
+      "id": "a03-w052",
+      "fr": "mince",
+      "en": "slim, thin",
+      "pos": "adjective",
+      "level": "A1",
+      "core": false,
+      "example": {
+        "fr": "Ma mère est grande et mince.",
+        "en": "My mother is tall and slim."
+      }
+    },
+    {
+      "id": "a03-w053",
+      "fr": "gros / grosse",
+      "en": "big, fat",
+      "pos": "adjective",
+      "level": "A1",
+      "core": false,
+      "example": {
+        "fr": "Ils ont un gros chat.",
+        "en": "They have a big cat."
+      }
+    },
+    {
+      "id": "a03-w054",
+      "fr": "intelligent",
+      "en": "intelligent, clever",
+      "pos": "adjective",
+      "level": "A1",
+      "core": false,
+      "example": {
+        "fr": "Ma fille est très intelligente.",
+        "en": "My daughter is very clever."
+      }
+    },
+    {
+      "id": "a03-w055",
+      "fr": "méchant",
+      "en": "nasty, mean",
+      "pos": "adjective",
+      "level": "A1",
+      "core": false,
+      "example": {
+        "fr": "Le chien du voisin est méchant.",
+        "en": "The neighbour's dog is nasty."
+      }
+    },
+    {
+      "id": "a03-w056",
+      "fr": "bavard",
+      "en": "chatty, talkative",
+      "pos": "adjective",
+      "level": "A1",
+      "core": false,
+      "example": {
+        "fr": "Mon petit frère est bavard.",
+        "en": "My little brother is chatty."
+      }
+    },
+    {
+      "id": "a03-w057",
+      "fr": "paresseux / paresseuse",
+      "en": "lazy",
+      "pos": "adjective",
+      "level": "A1",
+      "core": false,
+      "example": {
+        "fr": "Mon chat est un peu paresseux.",
+        "en": "My cat is a bit lazy."
+      }
+    },
+    {
+      "id": "a03-w058",
+      "fr": "travailleur / travailleuse",
+      "en": "hard-working",
+      "pos": "adjective",
+      "level": "A1",
+      "core": false,
+      "example": {
+        "fr": "Ma sœur est très travailleuse.",
+        "en": "My sister is very hard-working."
+      }
+    },
+    {
+      "id": "a03-w059",
+      "fr": "cheveux",
+      "en": "hair (on the head)",
+      "pos": "noun",
+      "gender": "m",
+      "pluralOnly": true,
+      "level": "A1",
+      "core": false,
+      "example": {
+        "fr": "Elle a les cheveux longs.",
+        "en": "She has long hair."
+      }
+    },
+    {
+      "id": "a03-w060",
+      "fr": "lunettes",
+      "en": "glasses",
+      "pos": "noun",
+      "gender": "f",
+      "pluralOnly": true,
+      "level": "A1",
+      "core": false,
+      "example": {
+        "fr": "Mon père porte des lunettes.",
+        "en": "My father wears glasses."
+      }
+    },
+    {
+      "id": "a03-w061",
+      "fr": "aimer",
+      "en": "to like, to love",
+      "pos": "verb",
+      "level": "A1",
+      "core": true,
+      "example": {
+        "fr": "J'aime la musique.",
+        "en": "I like music."
+      }
+    },
+    {
+      "id": "a03-w062",
+      "fr": "aimer bien",
+      "en": "to like (quite a lot)",
+      "pos": "expression",
+      "level": "A1",
+      "core": false,
+      "example": {
+        "fr": "J'aime bien mon professeur.",
+        "en": "I quite like my teacher."
+      }
+    },
+    {
+      "id": "a03-w063",
+      "fr": "adorer",
+      "en": "to love, to adore",
+      "pos": "verb",
+      "level": "A1",
+      "core": true,
+      "example": {
+        "fr": "Mes enfants adorent les chats.",
+        "en": "My children love cats."
+      }
+    },
+    {
+      "id": "a03-w064",
+      "fr": "détester",
+      "en": "to hate",
+      "pos": "verb",
+      "level": "A1",
+      "core": true,
+      "example": {
+        "fr": "Je déteste le football.",
+        "en": "I hate football."
+      }
+    },
+    {
+      "id": "a03-w065",
+      "fr": "pas du tout",
+      "en": "not at all",
+      "pos": "expression",
+      "level": "A1",
+      "core": false,
+      "example": {
+        "fr": "Je n'aime pas du tout le froid.",
+        "en": "I don't like the cold at all."
+      }
+    },
+    {
+      "id": "a03-w066",
+      "fr": "musique",
+      "en": "music",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "musiques",
+      "level": "A1",
+      "core": false,
+      "example": {
+        "fr": "Mon père aime la musique africaine.",
+        "en": "My father likes African music."
+      }
+    },
+    {
+      "id": "a03-w067",
+      "fr": "sport",
+      "en": "sport",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "sports",
+      "level": "A1",
+      "core": false,
+      "example": {
+        "fr": "Ma mère adore le sport.",
+        "en": "My mother loves sport."
+      }
+    }
+  ],
+  "grammar": [
+    {
+      "id": "a03-g01",
+      "title": "Possessive adjectives: mon, ma, mes…",
+      "level": "A1",
+      "grammarTag": "possessifs",
+      "explanation": [
+        "Possessive adjectives mean 'my', 'your', 'his', 'her', 'our' and 'their'. They go before the noun: mon père (my father), ma mère (my mother).",
+        "In French, the possessive agrees with the thing you have, not with the person who has it. Père is masculine, so it is mon père. Mère is feminine, so it is ma mère. For plural nouns, use mes: mes parents, mes sœurs.",
+        "Son, sa and ses mean 'his' AND 'her'. The noun decides the form: sa mère can be 'his mother' or 'her mother'. Son père can be 'his father' or 'her father'.",
+        "Before a feminine noun that starts with a vowel or a silent h, use mon, ton, son (not ma, ta, sa). It is easier to say: mon amie (my female friend), ton école, son histoire.",
+        "For 'our', 'your' (vous) and 'their', there is one singular form for masculine and feminine: notre, votre, leur. The plural forms are nos, vos, leurs: notre fils, nos enfants, leur maison, leurs amis.",
+        "Tu or vous? Use ton, ta, tes with a friend or a child (tu). Use votre, vos with a person you don't know well, or with several people (vous)."
+      ],
+      "table": [
+        [
+          "Owner",
+          "Masculine noun",
+          "Feminine noun",
+          "Feminine noun + vowel",
+          "Plural noun"
+        ],
+        [
+          "je (my)",
+          "mon père",
+          "ma mère",
+          "mon amie",
+          "mes parents"
+        ],
+        [
+          "tu (your)",
+          "ton frère",
+          "ta sœur",
+          "ton amie",
+          "tes enfants"
+        ],
+        [
+          "il / elle (his, her)",
+          "son fils",
+          "sa fille",
+          "son amie",
+          "ses cousins"
+        ],
+        [
+          "nous (our)",
+          "notre chien",
+          "notre famille",
+          "notre amie",
+          "nos amis"
+        ],
+        [
+          "vous (your)",
+          "votre mari",
+          "votre femme",
+          "votre amie",
+          "vos enfants"
+        ],
+        [
+          "ils / elles (their)",
+          "leur oncle",
+          "leur tante",
+          "leur amie",
+          "leurs grands-parents"
+        ]
+      ],
+      "examples": [
+        {
+          "fr": "Mon père est cuisinier et ma mère est avocate.",
+          "en": "My father is a cook and my mother is a lawyer."
+        },
+        {
+          "fr": "Mes grands-parents habitent à Québec.",
+          "en": "My grandparents live in Quebec City."
+        },
+        {
+          "fr": "Mon amie Sarah est canadienne.",
+          "en": "My friend Sarah is Canadian."
+        },
+        {
+          "fr": "Paul aime beaucoup sa sœur.",
+          "en": "Paul loves his sister very much."
+        },
+        {
+          "fr": "Léa parle avec son père.",
+          "en": "Léa is talking with her father."
+        },
+        {
+          "fr": "Tu as une photo de ta famille ?",
+          "en": "Do you have a photo of your family?"
+        },
+        {
+          "fr": "Nous adorons notre chat.",
+          "en": "We love our cat."
+        },
+        {
+          "fr": "Monsieur et Madame Dubois, vos enfants sont très gentils.",
+          "en": "Mr and Mrs Dubois, your children are very kind."
+        },
+        {
+          "fr": "Ils aiment leur fille et leurs petits-enfants.",
+          "en": "They love their daughter and their grandchildren."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "Ma amie s'appelle Nora.",
+          "right": "Mon amie s'appelle Nora.",
+          "why": "Amie starts with a vowel, so ma becomes mon, even though amie is feminine."
+        },
+        {
+          "wrong": "Julie aime sa père.",
+          "right": "Julie aime son père.",
+          "why": "The form depends on the noun, not on Julie. Père is masculine, so it is son, even when it means 'her father'."
+        },
+        {
+          "wrong": "Ils adorent leur enfants.",
+          "right": "Ils adorent leurs enfants.",
+          "why": "Enfants is plural, so leur takes an -s: leurs."
+        },
+        {
+          "wrong": "Mon parents sont retraités.",
+          "right": "Mes parents sont retraités.",
+          "why": "Parents is plural, so use mes."
+        }
+      ]
+    },
+    {
+      "id": "a03-g02",
+      "title": "Adjectives: agreement and position",
+      "level": "A1",
+      "grammarTag": "accord",
+      "explanation": [
+        "In French, an adjective changes to match the noun: masculine or feminine, singular or plural. Un garçon blond, une fille blonde, des garçons blonds, des filles blondes.",
+        "To make the feminine, you usually add -e: grand → grande, français → française. If the adjective already ends in -e, nothing changes: jeune, mince, belge. Some adjectives change more: -ien → -ienne (canadien → canadienne), -eux → -euse (paresseux → paresseuse), -eur → -euse (travailleur → travailleuse).",
+        "A few common adjectives are irregular. Learn them by heart: beau → belle, vieux → vieille, gros → grosse, roux → rousse.",
+        "To make the plural, you usually add -s: grands, grandes. If the masculine already ends in -s or -x, nothing changes: français, vieux, gros. Beau becomes beaux.",
+        "Most adjectives go AFTER the noun: un homme intelligent, une femme canadienne, des cheveux blonds. Nationalities and colours always go after the noun.",
+        "A small group of short, very common adjectives go BEFORE the noun: beau, joli, petit, grand, jeune, vieux, bon. Une petite fille, un grand garçon, une jolie photo, un bon ami."
+      ],
+      "table": [
+        [
+          "Masculine",
+          "Feminine",
+          "Masc. plural",
+          "Fem. plural",
+          "Rule"
+        ],
+        [
+          "grand",
+          "grande",
+          "grands",
+          "grandes",
+          "add -e, add -s"
+        ],
+        [
+          "jeune",
+          "jeune",
+          "jeunes",
+          "jeunes",
+          "ends in -e: same feminine"
+        ],
+        [
+          "français",
+          "française",
+          "français",
+          "françaises",
+          "ends in -s: same masc. plural"
+        ],
+        [
+          "canadien",
+          "canadienne",
+          "canadiens",
+          "canadiennes",
+          "-ien → -ienne"
+        ],
+        [
+          "paresseux",
+          "paresseuse",
+          "paresseux",
+          "paresseuses",
+          "-eux → -euse"
+        ],
+        [
+          "travailleur",
+          "travailleuse",
+          "travailleurs",
+          "travailleuses",
+          "-eur → -euse"
+        ],
+        [
+          "beau",
+          "belle",
+          "beaux",
+          "belles",
+          "irregular"
+        ],
+        [
+          "vieux",
+          "vieille",
+          "vieux",
+          "vieilles",
+          "irregular"
+        ],
+        [
+          "gros",
+          "grosse",
+          "gros",
+          "grosses",
+          "irregular"
+        ]
+      ],
+      "examples": [
+        {
+          "fr": "Mon frère est grand et ma sœur est grande aussi.",
+          "en": "My brother is tall and my sister is tall too."
+        },
+        {
+          "fr": "Ma femme est canadienne.",
+          "en": "My wife is Canadian."
+        },
+        {
+          "fr": "Mes amis sont très travailleurs.",
+          "en": "My friends are very hard-working."
+        },
+        {
+          "fr": "C'est un homme intelligent.",
+          "en": "He is an intelligent man."
+        },
+        {
+          "fr": "J'ai une petite sœur.",
+          "en": "I have a little sister."
+        },
+        {
+          "fr": "Elle a les cheveux blonds.",
+          "en": "She has blond hair."
+        },
+        {
+          "fr": "Ma grand-mère est vieille, mais elle est belle.",
+          "en": "My grandmother is old, but she is beautiful."
+        },
+        {
+          "fr": "C'est une jeune actrice italienne.",
+          "en": "She is a young Italian actress."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "Ma mère est français.",
+          "right": "Ma mère est française.",
+          "why": "Mère is feminine, so the adjective takes -e."
+        },
+        {
+          "wrong": "C'est un intelligent homme.",
+          "right": "C'est un homme intelligent.",
+          "why": "Most adjectives go after the noun. Intelligent is not in the short group (beau, petit, grand…)."
+        },
+        {
+          "wrong": "J'ai une sœur petite.",
+          "right": "J'ai une petite sœur.",
+          "why": "Petit is one of the short adjectives that go before the noun."
+        },
+        {
+          "wrong": "Mes enfants sont canadien.",
+          "right": "Mes enfants sont canadiens.",
+          "why": "Enfants is plural, so the adjective takes -s."
+        },
+        {
+          "wrong": "Ma tante est vieux.",
+          "right": "Ma tante est vieille.",
+          "why": "Vieux is irregular: the feminine is vieille."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "a03-ex01",
+      "type": "mcq",
+      "level": "A1",
+      "skill": "structures",
+      "grammarTag": "possessifs",
+      "prompt": "Choose the word for 'my'.",
+      "promptFr": "C'est ___ mère.",
+      "options": [
+        "mon",
+        "ma",
+        "mes"
+      ],
+      "answer": 1,
+      "explanation": "Mère is feminine and starts with a consonant, so 'my' is ma. Mon is for masculine nouns, mes for plural nouns."
+    },
+    {
+      "id": "a03-ex02",
+      "type": "mcq",
+      "level": "A1",
+      "skill": "structures",
+      "grammarTag": "possessifs",
+      "prompt": "Choose the word for 'her'.",
+      "promptFr": "Clara parle avec ___ amie Inès.",
+      "options": [
+        "son",
+        "sa",
+        "ses",
+        "leur"
+      ],
+      "answer": 0,
+      "explanation": "Amie is feminine but starts with a vowel, so sa becomes son. Ses is for plural nouns, and leur means 'their'."
+    },
+    {
+      "id": "a03-ex03",
+      "type": "mcq",
+      "level": "A1",
+      "skill": "structures",
+      "grammarTag": "possessifs",
+      "prompt": "Choose the word for 'their'.",
+      "promptFr": "Mes voisins adorent ___ enfants.",
+      "options": [
+        "leur",
+        "leurs",
+        "ses",
+        "son"
+      ],
+      "answer": 1,
+      "explanation": "Enfants is plural and there are several owners, so 'their' is leurs. Leur is for one thing; ses and son mean 'his' or 'her'."
+    },
+    {
+      "id": "a03-ex04",
+      "type": "mcq",
+      "level": "A1",
+      "skill": "structures",
+      "grammarTag": "accord",
+      "prompt": "Choose the correct adjective.",
+      "promptFr": "Ma sœur est ___.",
+      "options": [
+        "grand",
+        "grande",
+        "grands",
+        "grandes"
+      ],
+      "answer": 1,
+      "explanation": "Sœur is feminine and singular, so add -e: grande. Grand is masculine; grands and grandes are plural."
+    },
+    {
+      "id": "a03-ex05",
+      "type": "mcq",
+      "level": "A1",
+      "skill": "structures",
+      "grammarTag": "accord",
+      "prompt": "Choose the correct sentence.",
+      "options": [
+        "C'est une femme canadienne.",
+        "C'est une canadienne femme.",
+        "C'est une femme canadien.",
+        "C'est une femme canadiene."
+      ],
+      "answer": 0,
+      "explanation": "Nationalities go after the noun and agree with it: une femme canadienne. Canadien is masculine, and the feminine of -ien doubles the n: -ienne."
+    },
+    {
+      "id": "a03-ex06",
+      "type": "mcq",
+      "level": "A1",
+      "skill": "structures",
+      "grammarTag": "vocabulary",
+      "prompt": "Marc works in a restaurant and brings the food to the tables. What is his job?",
+      "promptFr": "Marc est ___.",
+      "options": [
+        "serveur",
+        "avocat",
+        "coiffeur",
+        "policier"
+      ],
+      "answer": 0,
+      "explanation": "A serveur brings food and drinks in a restaurant. An avocat works in law, a coiffeur cuts hair and a policier works for the police."
+    },
+    {
+      "id": "a03-ex07",
+      "type": "fill_blank",
+      "level": "A1",
+      "skill": "structures",
+      "grammarTag": "possessifs",
+      "prompt": "Complete with 'our'.",
+      "sentence": "Nous aimons beaucoup ___ grands-parents.",
+      "answers": [
+        "nos"
+      ],
+      "hint": "our",
+      "translation": "We love our grandparents very much.",
+      "explanation": "Grands-parents is plural, so 'our' is nos. Notre is only for one thing."
+    },
+    {
+      "id": "a03-ex08",
+      "type": "fill_blank",
+      "level": "A1",
+      "skill": "structures",
+      "grammarTag": "possessifs",
+      "prompt": "Complete with 'your' (vous).",
+      "sentence": "Vous habitez avec ___ famille ?",
+      "answers": [
+        "votre"
+      ],
+      "hint": "your (vous)",
+      "translation": "Do you live with your family?",
+      "explanation": "With vous, 'your' is votre for one thing, masculine or feminine. Vos is for plural nouns."
+    },
+    {
+      "id": "a03-ex09",
+      "type": "fill_blank",
+      "level": "A1",
+      "skill": "structures",
+      "grammarTag": "accord",
+      "prompt": "Complete with italien in the correct form.",
+      "sentence": "Mes cousines sont ___.",
+      "answers": [
+        "italiennes"
+      ],
+      "hint": "italien",
+      "translation": "My cousins are Italian.",
+      "explanation": "Cousines is feminine plural: italien → italienne (double n + e) → italiennes (+ s)."
+    },
+    {
+      "id": "a03-ex10",
+      "type": "fill_blank",
+      "level": "A1",
+      "skill": "structures",
+      "grammarTag": "etre-avoir",
+      "prompt": "Complete with avoir.",
+      "sentence": "Ma fille ___ six ans.",
+      "answers": [
+        "a"
+      ],
+      "hint": "avoir",
+      "translation": "My daughter is six years old.",
+      "explanation": "In French you HAVE an age: elle a six ans. Don't use être for age."
+    },
+    {
+      "id": "a03-ex11",
+      "type": "fill_blank",
+      "level": "A1",
+      "skill": "structures",
+      "grammarTag": "accord",
+      "prompt": "Complete with beau in the correct form.",
+      "sentence": "Julie est une ___ fille.",
+      "answers": [
+        "belle"
+      ],
+      "hint": "beau",
+      "translation": "Julie is a beautiful girl.",
+      "explanation": "Beau is irregular: the feminine is belle. It goes before the noun, like petit and grand."
+    },
+    {
+      "id": "a03-ex12",
+      "type": "conjugation",
+      "level": "A1",
+      "skill": "structures",
+      "grammarTag": "present",
+      "verb": "aimer",
+      "tense": "présent",
+      "person": "nous",
+      "answers": [
+        "aimons"
+      ],
+      "explanation": "Aimer is a regular -er verb: j'aime, tu aimes, il aime, nous aimons, vous aimez, ils aiment."
+    },
+    {
+      "id": "a03-ex13",
+      "type": "conjugation",
+      "level": "A1",
+      "skill": "structures",
+      "grammarTag": "present",
+      "verb": "préférer",
+      "tense": "présent",
+      "person": "je",
+      "answers": [
+        "préfère"
+      ],
+      "explanation": "Préférer changes é to è in the je, tu, il and ils forms: je préfère, tu préfères, il préfère, nous préférons, vous préférez, ils préfèrent."
+    },
+    {
+      "id": "a03-ex14",
+      "type": "reorder",
+      "level": "A1",
+      "skill": "structures",
+      "grammarTag": "accord",
+      "prompt": "Put the words in order to make a sentence.",
+      "tokens": [
+        "J'ai",
+        "une",
+        "petite",
+        "sœur",
+        "blonde."
+      ],
+      "translation": "I have a blonde little sister.",
+      "explanation": "Petit goes before the noun, but blond goes after it. Both are feminine: petite, blonde."
+    },
+    {
+      "id": "a03-ex15",
+      "type": "reorder",
+      "level": "A1",
+      "skill": "structures",
+      "grammarTag": "negation",
+      "prompt": "Put the words in order to make a sentence.",
+      "tokens": [
+        "Ma",
+        "mère",
+        "n'aime",
+        "pas",
+        "le",
+        "sport."
+      ],
+      "translation": "My mother doesn't like sport.",
+      "explanation": "Ne… pas goes around the verb: n'aime pas. Ne becomes n' before a vowel. After aimer, use le, la or les: le sport."
+    },
+    {
+      "id": "a03-ex16",
+      "type": "match",
+      "level": "A1",
+      "skill": "structures",
+      "grammarTag": "accord",
+      "prompt": "Match each masculine job with its feminine form.",
+      "pairs": [
+        {
+          "left": "serveur",
+          "right": "serveuse"
+        },
+        {
+          "left": "acteur",
+          "right": "actrice"
+        },
+        {
+          "left": "avocat",
+          "right": "avocate"
+        },
+        {
+          "left": "cuisinier",
+          "right": "cuisinière"
+        },
+        {
+          "left": "musicien",
+          "right": "musicienne"
+        }
+      ],
+      "explanation": "Many jobs have a feminine form: -eur → -euse (serveuse), -teur → -trice (actrice), add -e (avocate), -ier → -ière (cuisinière), -ien → -ienne (musicienne)."
+    },
+    {
+      "id": "a03-ex17",
+      "type": "match",
+      "level": "A1",
+      "skill": "structures",
+      "grammarTag": "vocabulary",
+      "prompt": "Match the French words with their meanings.",
+      "pairs": [
+        {
+          "left": "grands-parents",
+          "right": "grandparents"
+        },
+        {
+          "left": "petits-enfants",
+          "right": "grandchildren"
+        },
+        {
+          "left": "demi-sœur",
+          "right": "half-sister"
+        },
+        {
+          "left": "papa",
+          "right": "dad"
+        },
+        {
+          "left": "gens",
+          "right": "people"
+        }
+      ],
+      "explanation": "These words are useful for talking about your family and the people around you."
+    },
+    {
+      "id": "a03-ex18",
+      "type": "translate",
+      "level": "A1",
+      "skill": "structures",
+      "grammarTag": "accord",
+      "direction": "en-fr",
+      "source": "My brother is tall and blond.",
+      "answers": [
+        "Mon frère est grand et blond."
+      ],
+      "explanation": "Frère is masculine, so use mon and the masculine adjectives grand and blond (no -e)."
+    },
+    {
+      "id": "a03-ex19",
+      "type": "translate",
+      "level": "A1",
+      "skill": "structures",
+      "grammarTag": "possessifs",
+      "direction": "fr-en",
+      "source": "Sa femme est canadienne.",
+      "answers": [
+        "His wife is Canadian.",
+        "Her wife is Canadian."
+      ],
+      "explanation": "Sa matches femme (feminine), not the owner, so it can mean 'his' or 'her'. Canadienne is the feminine of canadien."
+    },
+    {
+      "id": "a03-ex20",
+      "type": "dictation",
+      "level": "A1",
+      "skill": "listening",
+      "grammarTag": "accord",
+      "text": "Mon père est vendeur et ma mère est avocate.",
+      "translation": "My father is a shop assistant and my mother is a lawyer.",
+      "explanation": "Listen for the -e of avocate: you hear the t. With a job, French uses no article: il est vendeur."
+    }
+  ],
+  "listening": [
+    {
+      "id": "a03-li01",
+      "title": "La photo de famille",
+      "level": "A1",
+      "kind": "dialogue",
+      "context": "Nadia shows her friend Hugo a family photo on her phone.",
+      "lines": [
+        {
+          "speaker": "Nadia",
+          "fr": "Regarde, c'est une photo de ma famille."
+        },
+        {
+          "speaker": "Hugo",
+          "fr": "Ah, c'est ton père, le grand homme blond ?"
+        },
+        {
+          "speaker": "Nadia",
+          "fr": "Oui. Il a cinquante ans et il est cuisinier."
+        },
+        {
+          "speaker": "Hugo",
+          "fr": "Et la petite femme brune, c'est ta mère ?"
+        },
+        {
+          "speaker": "Nadia",
+          "fr": "Non, c'est ma tante. Ma mère, c'est la femme avec les lunettes."
+        },
+        {
+          "speaker": "Hugo",
+          "fr": "Elle est jeune ! Elle travaille ?"
+        },
+        {
+          "speaker": "Nadia",
+          "fr": "Oui, elle est professeure d'anglais."
+        }
+      ],
+      "translation": "Nadia: Look, this is a photo of my family.\nHugo: Ah, is that your father, the tall blond man?\nNadia: Yes. He is fifty and he is a cook.\nHugo: And the short dark-haired woman, is that your mother?\nNadia: No, that's my aunt. My mother is the woman with the glasses.\nHugo: She's young! Does she work?\nNadia: Yes, she is an English teacher.",
+      "questions": [
+        {
+          "id": "a03-li01-q1",
+          "question": "What is Nadia's father's job?",
+          "options": [
+            "Teacher",
+            "Cook",
+            "Waiter",
+            "Police officer"
+          ],
+          "answer": 1,
+          "explanation": "Nadia says: « il est cuisinier » (he is a cook). Her mother is the teacher."
+        },
+        {
+          "id": "a03-li01-q2",
+          "question": "Who is the short dark-haired woman?",
+          "options": [
+            "Nadia's mother",
+            "Nadia's sister",
+            "Nadia's aunt",
+            "Hugo's mother"
+          ],
+          "answer": 2,
+          "explanation": "Nadia says: « Non, c'est ma tante » (No, that's my aunt)."
+        },
+        {
+          "id": "a03-li01-q3",
+          "question": "How can you recognise Nadia's mother in the photo?",
+          "options": [
+            "She is blond.",
+            "She is tall.",
+            "She wears glasses.",
+            "She is with a dog."
+          ],
+          "answer": 2,
+          "explanation": "Nadia says: « Ma mère, c'est la femme avec les lunettes » (the woman with the glasses)."
+        }
+      ]
+    },
+    {
+      "id": "a03-li02",
+      "title": "Un message de Paul",
+      "level": "A1",
+      "kind": "message",
+      "context": "Paul leaves a voicemail for his friend Marie.",
+      "lines": [
+        {
+          "speaker": "Paul",
+          "fr": "Salut Marie, c'est Paul !"
+        },
+        {
+          "speaker": "Paul",
+          "fr": "Samedi, je présente mon ami Kenji à ma famille."
+        },
+        {
+          "speaker": "Paul",
+          "fr": "Il est japonais, il a vingt-huit ans et il est musicien."
+        },
+        {
+          "speaker": "Paul",
+          "fr": "Il est très drôle et un peu bavard."
+        },
+        {
+          "speaker": "Paul",
+          "fr": "Il adore la musique et le cinéma, mais il déteste le football !"
+        },
+        {
+          "speaker": "Paul",
+          "fr": "Tu viens dîner avec nous ? Rappelle-moi. Bisous !"
+        }
+      ],
+      "translation": "Paul: Hi Marie, it's Paul!\nPaul: On Saturday, I'm introducing my friend Kenji to my family.\nPaul: He's Japanese, he's twenty-eight and he's a musician.\nPaul: He's very funny and a bit chatty.\nPaul: He loves music and the cinema, but he hates football!\nPaul: Are you coming to dinner with us? Call me back. Love!",
+      "questions": [
+        {
+          "id": "a03-li02-q1",
+          "question": "What nationality is Kenji?",
+          "options": [
+            "Chinese",
+            "Japanese",
+            "Canadian"
+          ],
+          "answer": 1,
+          "explanation": "Paul says: « Il est japonais » (He is Japanese)."
+        },
+        {
+          "id": "a03-li02-q2",
+          "question": "What is Kenji's job?",
+          "options": [
+            "Musician",
+            "Actor",
+            "Cook",
+            "Teacher"
+          ],
+          "answer": 0,
+          "explanation": "Paul says: « il est musicien » (he is a musician)."
+        },
+        {
+          "id": "a03-li02-q3",
+          "question": "What does Kenji NOT like?",
+          "options": [
+            "Music",
+            "The cinema",
+            "Football",
+            "Paul's family"
+          ],
+          "answer": 2,
+          "explanation": "Paul says: « il déteste le football » (he hates football). He loves music and the cinema."
+        }
+      ]
+    }
+  ],
+  "reading": [
+    {
+      "id": "a03-re01",
+      "title": "Échange de langues",
+      "level": "A1",
+      "kind": "advert",
+      "text": "Échange de langues\n\nBonjour ! Je m'appelle Clara, j'ai vingt-cinq ans et je suis québécoise. J'habite à Montréal avec mon chat, Pixel. Je suis serveuse dans un café. Je suis grande, brune et un peu timide. J'aime la musique, le cinéma et les langues. Je n'aime pas le sport ! Je cherche une amie anglaise ou américaine pour parler anglais et français. Écrivez-moi !",
+      "translation": "Language exchange\n\nHello! My name is Clara, I'm twenty-five and I'm from Quebec. I live in Montreal with my cat, Pixel. I'm a waitress in a café. I'm tall, dark-haired and a bit shy. I like music, the cinema and languages. I don't like sport! I'm looking for an English or American (female) friend to speak English and French. Write to me!",
+      "questions": [
+        {
+          "id": "a03-re01-q1",
+          "question": "Who does Clara live with?",
+          "options": [
+            "Her parents",
+            "Her cat",
+            "A friend",
+            "Her sister"
+          ],
+          "answer": 1,
+          "explanation": "She writes: « J'habite à Montréal avec mon chat, Pixel. »"
+        },
+        {
+          "id": "a03-re01-q2",
+          "question": "What is Clara's job?",
+          "options": [
+            "She is a waitress.",
+            "She is a teacher.",
+            "She is a student.",
+            "She is a musician."
+          ],
+          "answer": 0,
+          "explanation": "She writes: « Je suis serveuse dans un café. » Serveuse is the feminine of serveur."
+        },
+        {
+          "id": "a03-re01-q3",
+          "question": "What is Clara looking for?",
+          "options": [
+            "A job in a café",
+            "A sports partner",
+            "A friend to practise English and French",
+            "A flat in Montreal"
+          ],
+          "answer": 2,
+          "explanation": "She writes: « Je cherche une amie anglaise ou américaine pour parler anglais et français. »"
+        }
+      ]
+    },
+    {
+      "id": "a03-re02",
+      "title": "La famille d'accueil",
+      "level": "A1",
+      "kind": "message",
+      "text": "Coucou maman !\nMa famille d'accueil à Lyon est super. Monsieur Martin est policier. Il est grand et très gentil. Sa femme, Sophie, est coiffeuse. Elle est petite et rousse. Ils ont deux enfants : Lucas, huit ans, et Emma, cinq ans. Lucas est bavard et Emma est un peu timide. Ils ont aussi un gros chien, Max. Je l'adore !\nBisous,\nAya",
+      "translation": "Hi Mum!\nMy host family in Lyon is great. Mr Martin is a police officer. He is tall and very kind. His wife, Sophie, is a hairdresser. She is short and red-haired. They have two children: Lucas, eight, and Emma, five. Lucas is chatty and Emma is a bit shy. They also have a big dog, Max. I love him!\nLove,\nAya",
+      "questions": [
+        {
+          "id": "a03-re02-q1",
+          "question": "What is Sophie's job?",
+          "options": [
+            "Police officer",
+            "Hairdresser",
+            "Teacher",
+            "Shop assistant"
+          ],
+          "answer": 1,
+          "explanation": "Aya writes: « Sa femme, Sophie, est coiffeuse. » Mr Martin is the police officer."
+        },
+        {
+          "id": "a03-re02-q2",
+          "question": "How many children do the Martins have?",
+          "options": [
+            "One",
+            "Two",
+            "Three",
+            "Five"
+          ],
+          "answer": 1,
+          "explanation": "Aya writes: « Ils ont deux enfants : Lucas… et Emma. » Five is Emma's age."
+        },
+        {
+          "id": "a03-re02-q3",
+          "question": "What is Lucas like?",
+          "options": [
+            "Shy",
+            "Lazy",
+            "Chatty",
+            "Red-haired"
+          ],
+          "answer": 2,
+          "explanation": "Aya writes: « Lucas est bavard » (chatty). Emma is the shy one, and Sophie is red-haired."
+        }
+      ]
+    }
+  ],
+  "writing": [
+    {
+      "id": "a03-wr01",
+      "title": "Introduce yourself and a family member",
+      "level": "A1",
+      "taskType": "message",
+      "instructions": "Write a short message (20–40 words) to Julie, a new French-speaking friend. Give your name, age, nationality and job. Then describe one person in your family and say what they like or don't like.",
+      "promptFr": "Vous écrivez un petit message à votre nouvelle amie Julie. Présentez-vous (nom, âge, nationalité, profession) et présentez une personne de votre famille. (20 à 40 mots)",
+      "minWords": 20,
+      "maxWords": 40,
+      "modelAnswer": "Bonjour Julie ! Je m'appelle Amara, j'ai trente-deux ans et je suis nigériane. Je suis secrétaire. Ma sœur Zainab est grande et très drôle. Elle aime la musique, mais elle n'aime pas le sport. À bientôt ! Amara",
+      "checklist": [
+        "I give my name, my age (j'ai … ans), my nationality and my job.",
+        "I describe one family member with two adjectives.",
+        "I use mon, ma or mes correctly.",
+        "My adjectives agree with the person (grande, canadienne…).",
+        "I say what the person likes or doesn't like (aime / n'aime pas)."
+      ]
+    }
+  ],
+  "speaking": [
+    {
+      "id": "a03-sp01",
+      "title": "Introduce yourself",
+      "level": "A1",
+      "taskType": "entretien",
+      "instructions": "The examiner asks you to introduce yourself. Speak for about two minutes: your name, age, nationality, job, what you look like and what you like or don't like.",
+      "promptFr": "Bonjour. Présentez-vous, s'il vous plaît : votre nom, votre âge, votre nationalité, votre profession et ce que vous aimez.",
+      "prepSeconds": 0,
+      "speakSeconds": 120,
+      "modelAnswer": "Bonjour. Je m'appelle Daniel. J'ai trente-quatre ans et je suis ghanéen. J'habite à Toronto avec ma femme. Je suis chauffeur de bus. Je suis grand et brun, et je porte des lunettes. Je suis assez bavard et travailleur. J'aime la musique et le football. J'adore le cinéma aussi. Je n'aime pas le froid ! Je préfère l'été.",
+      "tips": [
+        "Remember: j'ai trente ans, not je suis trente ans.",
+        "With a job, don't use un or une: je suis chauffeur, je suis infirmière.",
+        "Use aimer, adorer, détester and préférer + le, la or les: j'aime la musique."
+      ]
+    },
+    {
+      "id": "a03-sp02",
+      "title": "Talk about your family",
+      "level": "A1",
+      "taskType": "entretien",
+      "instructions": "The examiner asks you about your family. Speak for about two minutes: who is in your family, their age, their job, what they look like and what they like.",
+      "promptFr": "Parlez-moi de votre famille. Vous avez des frères et sœurs ? Comment sont-ils ? Qu'est-ce qu'ils aiment ?",
+      "prepSeconds": 0,
+      "speakSeconds": 120,
+      "modelAnswer": "Dans ma famille, nous sommes cinq. Mon père s'appelle Ibrahim. Il a soixante ans et il est retraité. Ma mère est professeure. Elle est petite et très gentille. J'ai un frère et une sœur. Mon frère a vingt ans, il est étudiant. Il est grand et un peu paresseux ! Ma sœur est mariée et elle a deux enfants. Elle est avocate. Mes parents adorent leurs petits-enfants. Nous aimons beaucoup les repas en famille.",
+      "tips": [
+        "Use mon for masculine nouns, ma for feminine nouns and mes for plural nouns: mon père, ma mère, mes parents.",
+        "Make adjectives agree: mon frère est grand, ma sœur est grande.",
+        "Give each person an age, a job and one or two adjectives."
+      ]
+    }
+  ],
+  "checkpoint": [
+    {
+      "id": "a03-cp01",
+      "type": "mcq",
+      "level": "A1",
+      "skill": "structures",
+      "grammarTag": "possessifs",
+      "prompt": "Choose the word for 'my'.",
+      "promptFr": "___ amie s'appelle Inès.",
+      "options": [
+        "Ma",
+        "Mon",
+        "Mes"
+      ],
+      "answer": 1,
+      "explanation": "Amie starts with a vowel, so use mon, not ma. Mes is for plural nouns."
+    },
+    {
+      "id": "a03-cp02",
+      "type": "mcq",
+      "level": "A1",
+      "skill": "structures",
+      "grammarTag": "possessifs",
+      "prompt": "Choose the word for 'his'.",
+      "promptFr": "Ahmed aime beaucoup ___ grand-mère.",
+      "options": [
+        "son",
+        "sa",
+        "ses",
+        "leur"
+      ],
+      "answer": 1,
+      "explanation": "Grand-mère is feminine and starts with a consonant, so it is sa, even for a man. Son is for masculine nouns, ses for plural nouns, leur means 'their'."
+    },
+    {
+      "id": "a03-cp03",
+      "type": "mcq",
+      "level": "A1",
+      "skill": "structures",
+      "grammarTag": "vocabulary",
+      "prompt": "Choose the correct verb.",
+      "promptFr": "Je n'aime pas du tout le football. Je ___ le football.",
+      "options": [
+        "déteste",
+        "adore",
+        "préfère",
+        "aime bien"
+      ],
+      "answer": 0,
+      "explanation": "Ne… pas du tout means 'not at all', so the right verb is détester (to hate). Adorer, préférer and aimer bien are positive."
+    },
+    {
+      "id": "a03-cp04",
+      "type": "mcq",
+      "level": "A1",
+      "skill": "structures",
+      "grammarTag": "accord",
+      "prompt": "Choose the correct adjective.",
+      "promptFr": "Mes amies sont ___.",
+      "options": [
+        "canadiennes",
+        "canadiens",
+        "canadienne",
+        "canadien"
+      ],
+      "answer": 0,
+      "explanation": "Amies is feminine and plural: canadien → canadienne → canadiennes."
+    },
+    {
+      "id": "a03-cp05",
+      "type": "fill_blank",
+      "level": "A1",
+      "skill": "structures",
+      "grammarTag": "vocabulary",
+      "prompt": "Complete the question.",
+      "sentence": "Tu as quel ___ ?",
+      "answers": [
+        "âge"
+      ],
+      "hint": "age",
+      "translation": "How old are you?",
+      "explanation": "To ask someone's age, say: Tu as quel âge ? The answer uses avoir: J'ai vingt ans."
+    },
+    {
+      "id": "a03-cp06",
+      "type": "fill_blank",
+      "level": "A1",
+      "skill": "structures",
+      "grammarTag": "accord",
+      "prompt": "Complete with blond in the correct form.",
+      "sentence": "Elle a les cheveux ___.",
+      "answers": [
+        "blonds"
+      ],
+      "hint": "blond",
+      "translation": "She has blond hair.",
+      "explanation": "Cheveux is masculine plural, so the adjective takes -s: blonds (not blonde)."
+    },
+    {
+      "id": "a03-cp07",
+      "type": "conjugation",
+      "level": "A1",
+      "skill": "structures",
+      "grammarTag": "present",
+      "verb": "adorer",
+      "tense": "présent",
+      "person": "tu",
+      "answers": [
+        "adores"
+      ],
+      "explanation": "Adorer is a regular -er verb: j'adore, tu adores, il adore, nous adorons, vous adorez, ils adorent."
+    },
+    {
+      "id": "a03-cp08",
+      "type": "reorder",
+      "level": "A1",
+      "skill": "structures",
+      "grammarTag": "accord",
+      "prompt": "Put the words in order to make a sentence.",
+      "tokens": [
+        "C'est",
+        "un",
+        "jeune",
+        "professeur",
+        "sénégalais."
+      ],
+      "translation": "He is a young Senegalese teacher.",
+      "explanation": "Jeune is a short adjective and goes before the noun. Nationalities like sénégalais go after the noun."
+    },
+    {
+      "id": "a03-cp09",
+      "type": "translate",
+      "level": "A1",
+      "skill": "structures",
+      "grammarTag": "possessifs",
+      "direction": "en-fr",
+      "source": "Her father is a waiter.",
+      "answers": [
+        "Son père est serveur."
+      ],
+      "explanation": "Père is masculine, so 'her father' is son père. With a job after être, French uses no article: il est serveur."
+    },
+    {
+      "id": "a03-cp10",
+      "type": "translate",
+      "level": "A1",
+      "skill": "structures",
+      "grammarTag": "accord",
+      "direction": "fr-en",
+      "source": "Leur fille est grande et brune.",
+      "answers": [
+        "Their daughter is tall and dark-haired.",
+        "Their daughter is tall with dark hair.",
+        "Their daughter is tall and brunette.",
+        "Their daughter is tall and has dark hair."
+      ],
+      "explanation": "Leur means 'their' for one thing. Grande and brune are feminine because fille is feminine."
+    }
+  ]
+}

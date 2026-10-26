@@ -5,6 +5,7 @@ import { addDays, fromDayKey } from '../../domain/dates';
 import { newCard } from '../../domain/srs';
 import { realBundle, setupRealContent } from '../../test-utils/real-content';
 import { dailyContent, ensureDailyItems, openDailyItem } from '../daily/daily-service';
+import { learnerFor } from '../daily/daily-learner';
 import { dayParam, loadDaily, previousDays } from '../daily/load-daily';
 import { loadHome } from '../home/home-data';
 import { loadPath } from '../path/path-service';
@@ -30,7 +31,8 @@ describe('stats service', () => {
 
   it('unlocks the mock once every A2 unit is completed', async () => {
     const { content, progress } = await setup();
-    for (const u of realBundle.units.filter((x) => x.level !== 'B1')) await progress.saveCheckpoint(u.id, 1, true, 1);
+    // The A1 units are optional for this: only A2 and A2+ count.
+    for (const u of realBundle.units.filter((x) => x.level === 'A2' || x.level === 'A2+')) await progress.saveCheckpoint(u.id, 1, true, 1);
     const path = await loadPath(content, progress, null, new Set());
     const overview = await levelOverview(progress, path, 'A2', 5);
     expect(overview.completedUnits).toBe(10);
@@ -131,6 +133,19 @@ describe('daily items', () => {
     await ensureDailyItems(app.content, app.progress, TODAY, { openUnitIds: ['u01'], level: 'A2' });
     expect(await previousDays(app, TODAY)).toEqual([addDays(TODAY, -1), addDays(TODAY, -2), addDays(TODAY, -3)]);
     expect(await previousDays(app, TODAY, 1)).toEqual([addDays(TODAY, -1)]);
+  });
+
+  it('gives an A1 learner A1 words and sentences of the day', async () => {
+    const app = await setup();
+    const learner = await learnerFor(app.content, app.progress, 'A1');
+    expect(learner.level).toBe('A1');
+    const days = await ensureDailyItems(app.content, app.progress, TODAY, learner);
+    const levels = await app.content.itemLevels();
+    expect(days.length).toBeGreaterThan(0);
+    for (const d of days.slice(0, 14)) {
+      expect(levels.get(d.wordId)).toBe('A1');
+      expect(levels.get(d.sentenceId)).toBe('A1');
+    }
   });
 
   it('assigns nothing when the content has no words', async () => {

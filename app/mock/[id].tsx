@@ -21,6 +21,7 @@ import { logError } from '../../features/app/log';
 import { useLoad } from '../../features/app/useLoad';
 import { loadMocks, mockHistory, saveMockRun } from '../../features/mock/mock-service';
 import { loadPath } from '../../features/path/path-service';
+import { isBeginner } from '../../domain/level';
 import { levelOverview } from '../../features/progress/stats-service';
 import { masteredIds } from '../../features/session/session-service';
 
@@ -35,7 +36,7 @@ export default function MockScreen() {
       const [mocks, level, history] = await Promise.all([loadMocks(content), levelOverview(progress, path, settings.placementLevel, mastered.size), mockHistory(progress)]);
       const titles = new Map(mocks.map((m) => [m.id, m.title]));
       // With an exam date the learner needs the mocks whatever their level.
-      return { mock: mocks.find((m) => m.id === id) ?? null, unlocked: level.mockUnlocked || settings.examDate !== null, history, titles };
+      return { mock: mocks.find((m) => m.id === id) ?? null, unlocked: level.mockUnlocked || settings.examDate !== null, beginner: isBeginner(level.estimate.label), history, titles };
     },
     [id, settings.placementLevel, settings.examDate],
   );
@@ -47,7 +48,7 @@ export default function MockScreen() {
   if (!data) return <Loading />;
   if (!data.mock) return <ErrorState message="This mock test couldn't be found." />;
   if (!data.unlocked && !wasUnlocked) return <Locked title={data.mock.title} />;
-  return <MockRun mock={data.mock} history={data.history} titles={data.titles} />;
+  return <MockRun mock={data.mock} history={data.history} titles={data.titles} beginner={data.beginner} />;
 }
 
 function Locked({ title }: { title: string }) {
@@ -75,9 +76,10 @@ interface MockRunProps {
   mock: MockTest;
   history: readonly MockRunRecord[];
   titles: ReadonlyMap<string, string>;
+  beginner: boolean;
 }
 
-function MockRun({ mock, history, titles }: MockRunProps) {
+function MockRun({ mock, history, titles, beginner }: MockRunProps) {
   const { progress, invalidate } = useApp();
   const toast = useToast();
   const [stage, setStage] = useState<Stage>({ kind: 'intro' });
@@ -120,6 +122,7 @@ function MockRun({ mock, history, titles }: MockRunProps) {
         mock={mock}
         history={history}
         titles={titles}
+        beginner={beginner}
         onStart={(skills) => {
           setQueue(skills);
           setScores({});

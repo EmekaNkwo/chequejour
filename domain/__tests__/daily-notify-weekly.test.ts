@@ -52,6 +52,8 @@ describe('daily items', () => {
     it('orders ids by closeness to a level, keeping the original order within a level', () => {
       expect(levelOrder(['wB', 'wA', 'wP', 'wA2'], levels, 'B1')).toEqual(['wB', 'wP', 'wA', 'wA2']);
       expect(levelOrder(['wB', 'wA', 'wP'], levels, 'A2')).toEqual(['wA', 'wP', 'wB']);
+      // A1 is the easiest level, so an A1 learner gets A1 first, then everything else upwards.
+      expect(levelOrder(['wB', 'w1', 'wA', 'w1p'], new Map([...levels, ['w1', 'A1'], ['w1p', 'A1+']]), 'A1')).toEqual(['w1', 'w1p', 'wA', 'wB']);
     });
 
     it('finds future unopened days whose items are off-level, never today or opened days', () => {

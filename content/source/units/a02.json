@@ -1,0 +1,1894 @@
+{
+  "id": "a02",
+  "order": 2,
+  "level": "A1",
+  "theme": "Numbers, dates and time",
+  "titleFr": "Les nombres et le temps",
+  "description": "Count to one hundred, say the day, the date and the time, and talk about birthdays and appointments using articles and regular -er verbs in the present.",
+  "vocab": [
+    {
+      "id": "a02-w001",
+      "fr": "heure",
+      "en": "hour; o'clock (time)",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "heures",
+      "level": "A1",
+      "core": true,
+      "example": {
+        "fr": "Le cours dure une heure.",
+        "en": "The class lasts an hour."
+      }
+    },
+    {
+      "id": "a02-w002",
+      "fr": "jour",
+      "en": "day",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "jours",
+      "level": "A1",
+      "core": true,
+      "example": {
+        "fr": "Je travaille trois jours par semaine.",
+        "en": "I work three days a week."
+      }
+    },
+    {
+      "id": "a02-w003",
+      "fr": "semaine",
+      "en": "week",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "semaines",
+      "level": "A1",
+      "core": true,
+      "example": {
+        "fr": "Il y a sept jours dans une semaine.",
+        "en": "There are seven days in a week."
+      }
+    },
+    {
+      "id": "a02-w004",
+      "fr": "mois",
+      "en": "month",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "mois",
+      "level": "A1",
+      "core": true,
+      "example": {
+        "fr": "J'habite au Canada depuis deux mois.",
+        "en": "I've been living in Canada for two months."
+      }
+    },
+    {
+      "id": "a02-w005",
+      "fr": "an",
+      "en": "year (with numbers and age)",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "ans",
+      "level": "A1",
+      "core": true,
+      "example": {
+        "fr": "J'ai trente-deux ans.",
+        "en": "I'm thirty-two (years old)."
+      }
+    },
+    {
+      "id": "a02-w006",
+      "fr": "année",
+      "en": "year (the whole year)",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "années",
+      "level": "A1",
+      "core": true,
+      "example": {
+        "fr": "Bonne année à tous !",
+        "en": "Happy New Year, everyone!"
+      }
+    },
+    {
+      "id": "a02-w007",
+      "fr": "date",
+      "en": "date",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "dates",
+      "level": "A1",
+      "core": true,
+      "example": {
+        "fr": "Quelle est la date de ton anniversaire ?",
+        "en": "What is the date of your birthday?"
+      }
+    },
+    {
+      "id": "a02-w008",
+      "fr": "aujourd'hui",
+      "en": "today",
+      "pos": "adverb",
+      "level": "A1",
+      "core": true,
+      "example": {
+        "fr": "Aujourd'hui, nous sommes mardi.",
+        "en": "Today is Tuesday."
+      }
+    },
+    {
+      "id": "a02-w009",
+      "fr": "demain",
+      "en": "tomorrow",
+      "pos": "adverb",
+      "level": "A1",
+      "core": true,
+      "example": {
+        "fr": "Demain, c'est le 4 juin.",
+        "en": "Tomorrow is the 4th of June."
+      }
+    },
+    {
+      "id": "a02-w010",
+      "fr": "premier / première",
+      "en": "first",
+      "pos": "adjective",
+      "level": "A1",
+      "core": true,
+      "example": {
+        "fr": "Le premier jour du mois, je paie mon loyer.",
+        "en": "On the first day of the month, I pay my rent."
+      }
+    },
+    {
+      "id": "a02-w011",
+      "fr": "et demie",
+      "en": "half past (time)",
+      "pos": "expression",
+      "level": "A1",
+      "core": true,
+      "example": {
+        "fr": "Le train part à sept heures et demie.",
+        "en": "The train leaves at half past seven."
+      }
+    },
+    {
+      "id": "a02-w012",
+      "fr": "moins le quart",
+      "en": "a quarter to (time)",
+      "pos": "expression",
+      "level": "A1",
+      "core": true,
+      "example": {
+        "fr": "Il est neuf heures moins le quart.",
+        "en": "It's a quarter to nine."
+      }
+    },
+    {
+      "id": "a02-w013",
+      "fr": "quelle heure est-il ?",
+      "en": "what time is it?",
+      "pos": "expression",
+      "level": "A1",
+      "core": true,
+      "example": {
+        "fr": "Excusez-moi, quelle heure est-il ? — Il est trois heures.",
+        "en": "Excuse me, what time is it? — It's three o'clock."
+      }
+    },
+    {
+      "id": "a02-w014",
+      "fr": "quel jour sommes-nous ?",
+      "en": "what day is it?",
+      "pos": "expression",
+      "level": "A1",
+      "core": true,
+      "example": {
+        "fr": "Quel jour sommes-nous ? — Nous sommes jeudi.",
+        "en": "What day is it? — It's Thursday."
+      }
+    },
+    {
+      "id": "a02-w015",
+      "fr": "soixante-dix",
+      "en": "seventy",
+      "pos": "other",
+      "level": "A1",
+      "core": true,
+      "example": {
+        "fr": "Ma grand-mère a soixante-dix ans.",
+        "en": "My grandmother is seventy."
+      }
+    },
+    {
+      "id": "a02-w016",
+      "fr": "quatre-vingts",
+      "en": "eighty",
+      "pos": "other",
+      "level": "A1",
+      "core": true,
+      "example": {
+        "fr": "Mon grand-père a quatre-vingts ans.",
+        "en": "My grandfather is eighty."
+      }
+    },
+    {
+      "id": "a02-w017",
+      "fr": "quatre-vingt-dix",
+      "en": "ninety",
+      "pos": "other",
+      "level": "A1",
+      "core": true,
+      "example": {
+        "fr": "Le billet coûte quatre-vingt-dix dollars.",
+        "en": "The ticket costs ninety dollars."
+      }
+    },
+    {
+      "id": "a02-w018",
+      "fr": "commencer",
+      "en": "to start, to begin",
+      "pos": "verb",
+      "level": "A1",
+      "core": true,
+      "example": {
+        "fr": "Le film commence à vingt heures.",
+        "en": "The film starts at 8 p.m."
+      }
+    },
+    {
+      "id": "a02-w019",
+      "fr": "lundi",
+      "en": "Monday",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "lundis",
+      "level": "A1",
+      "core": true,
+      "example": {
+        "fr": "Le lundi, je commence à huit heures.",
+        "en": "On Mondays, I start at eight."
+      }
+    },
+    {
+      "id": "a02-w020",
+      "fr": "zéro",
+      "en": "zero",
+      "pos": "other",
+      "level": "A1",
+      "core": false,
+      "example": {
+        "fr": "Mon numéro de téléphone commence par zéro six.",
+        "en": "My phone number starts with zero six."
+      }
+    },
+    {
+      "id": "a02-w021",
+      "fr": "un / une",
+      "en": "one",
+      "pos": "other",
+      "level": "A1",
+      "core": false,
+      "example": {
+        "fr": "Un plus un, ça fait deux.",
+        "en": "One plus one makes two."
+      }
+    },
+    {
+      "id": "a02-w022",
+      "fr": "deux",
+      "en": "two",
+      "pos": "other",
+      "level": "A1",
+      "core": false,
+      "example": {
+        "fr": "Le cours dure deux heures.",
+        "en": "The class lasts two hours."
+      }
+    },
+    {
+      "id": "a02-w023",
+      "fr": "trois",
+      "en": "three",
+      "pos": "other",
+      "level": "A1",
+      "core": false,
+      "example": {
+        "fr": "Le bébé a trois mois.",
+        "en": "The baby is three months old."
+      }
+    },
+    {
+      "id": "a02-w024",
+      "fr": "quatre",
+      "en": "four",
+      "pos": "other",
+      "level": "A1",
+      "core": false,
+      "example": {
+        "fr": "Il y a quatre saisons dans une année.",
+        "en": "There are four seasons in a year."
+      }
+    },
+    {
+      "id": "a02-w025",
+      "fr": "cinq",
+      "en": "five",
+      "pos": "other",
+      "level": "A1",
+      "core": false,
+      "example": {
+        "fr": "Ma fille a cinq ans.",
+        "en": "My daughter is five."
+      }
+    },
+    {
+      "id": "a02-w026",
+      "fr": "six",
+      "en": "six",
+      "pos": "other",
+      "level": "A1",
+      "core": false,
+      "example": {
+        "fr": "Le train part à six heures du matin.",
+        "en": "The train leaves at six in the morning."
+      }
+    },
+    {
+      "id": "a02-w027",
+      "fr": "sept",
+      "en": "seven",
+      "pos": "other",
+      "level": "A1",
+      "core": false,
+      "example": {
+        "fr": "Je me lève à sept heures.",
+        "en": "I get up at seven."
+      }
+    },
+    {
+      "id": "a02-w028",
+      "fr": "huit",
+      "en": "eight",
+      "pos": "other",
+      "level": "A1",
+      "core": false,
+      "example": {
+        "fr": "J'ai un cours de français à huit heures.",
+        "en": "I have a French class at eight o'clock."
+      }
+    },
+    {
+      "id": "a02-w029",
+      "fr": "neuf",
+      "en": "nine",
+      "pos": "other",
+      "level": "A1",
+      "core": false,
+      "example": {
+        "fr": "Le film commence à neuf heures.",
+        "en": "The film starts at nine o'clock."
+      }
+    },
+    {
+      "id": "a02-w030",
+      "fr": "dix",
+      "en": "ten",
+      "pos": "other",
+      "level": "A1",
+      "core": false,
+      "example": {
+        "fr": "Le magasin ouvre à dix heures.",
+        "en": "The shop opens at ten o'clock."
+      }
+    },
+    {
+      "id": "a02-w031",
+      "fr": "onze",
+      "en": "eleven",
+      "pos": "other",
+      "level": "A1",
+      "core": false,
+      "example": {
+        "fr": "Le cours finit à onze heures et quart.",
+        "en": "The class ends at a quarter past eleven."
+      }
+    },
+    {
+      "id": "a02-w032",
+      "fr": "douze",
+      "en": "twelve",
+      "pos": "other",
+      "level": "A1",
+      "core": false,
+      "example": {
+        "fr": "Midi, c'est douze heures.",
+        "en": "Noon is twelve o'clock."
+      }
+    },
+    {
+      "id": "a02-w033",
+      "fr": "seize",
+      "en": "sixteen",
+      "pos": "other",
+      "level": "A1",
+      "core": false,
+      "example": {
+        "fr": "Mon fils a seize ans.",
+        "en": "My son is sixteen."
+      }
+    },
+    {
+      "id": "a02-w034",
+      "fr": "dix-sept",
+      "en": "seventeen",
+      "pos": "other",
+      "level": "A1",
+      "core": false,
+      "example": {
+        "fr": "Le bureau ferme à dix-sept heures.",
+        "en": "The office closes at 5 p.m."
+      }
+    },
+    {
+      "id": "a02-w035",
+      "fr": "vingt",
+      "en": "twenty",
+      "pos": "other",
+      "level": "A1",
+      "core": false,
+      "example": {
+        "fr": "Le bus passe toutes les vingt minutes.",
+        "en": "The bus comes every twenty minutes."
+      }
+    },
+    {
+      "id": "a02-w036",
+      "fr": "vingt et un",
+      "en": "twenty-one",
+      "pos": "other",
+      "level": "A1",
+      "core": false,
+      "example": {
+        "fr": "Le concert est le vingt et un juin.",
+        "en": "The concert is on the twenty-first of June."
+      }
+    },
+    {
+      "id": "a02-w037",
+      "fr": "trente",
+      "en": "thirty",
+      "pos": "other",
+      "level": "A1",
+      "core": false,
+      "example": {
+        "fr": "Il y a trente jours en avril.",
+        "en": "There are thirty days in April."
+      }
+    },
+    {
+      "id": "a02-w038",
+      "fr": "soixante",
+      "en": "sixty",
+      "pos": "other",
+      "level": "A1",
+      "core": false,
+      "example": {
+        "fr": "Une heure, c'est soixante minutes.",
+        "en": "An hour is sixty minutes."
+      }
+    },
+    {
+      "id": "a02-w039",
+      "fr": "cent",
+      "en": "a hundred, one hundred",
+      "pos": "other",
+      "level": "A1",
+      "core": false,
+      "example": {
+        "fr": "Il y a cent places dans la salle.",
+        "en": "There are a hundred seats in the room."
+      }
+    },
+    {
+      "id": "a02-w040",
+      "fr": "mardi",
+      "en": "Tuesday",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "mardis",
+      "level": "A1",
+      "core": false,
+      "example": {
+        "fr": "Mardi, j'ai un rendez-vous chez le dentiste.",
+        "en": "On Tuesday, I have a dentist's appointment."
+      }
+    },
+    {
+      "id": "a02-w041",
+      "fr": "mercredi",
+      "en": "Wednesday",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "mercredis",
+      "level": "A1",
+      "core": false,
+      "example": {
+        "fr": "Le mercredi après-midi, je suis libre.",
+        "en": "On Wednesday afternoons, I'm free."
+      }
+    },
+    {
+      "id": "a02-w042",
+      "fr": "jeudi",
+      "en": "Thursday",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "jeudis",
+      "level": "A1",
+      "core": false,
+      "example": {
+        "fr": "Le cours de français, c'est le jeudi soir.",
+        "en": "The French class is on Thursday evenings."
+      }
+    },
+    {
+      "id": "a02-w043",
+      "fr": "vendredi",
+      "en": "Friday",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "vendredis",
+      "level": "A1",
+      "core": false,
+      "example": {
+        "fr": "Vendredi, c'est le dernier jour de la semaine de travail.",
+        "en": "Friday is the last day of the working week."
+      }
+    },
+    {
+      "id": "a02-w044",
+      "fr": "samedi",
+      "en": "Saturday",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "samedis",
+      "level": "A1",
+      "core": false,
+      "example": {
+        "fr": "Samedi, nous fêtons l'anniversaire de Paul.",
+        "en": "On Saturday, we're celebrating Paul's birthday."
+      }
+    },
+    {
+      "id": "a02-w045",
+      "fr": "dimanche",
+      "en": "Sunday",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "dimanches",
+      "level": "A1",
+      "core": false,
+      "example": {
+        "fr": "Le dimanche, je reste à la maison.",
+        "en": "On Sundays, I stay at home."
+      }
+    },
+    {
+      "id": "a02-w046",
+      "fr": "janvier",
+      "en": "January",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A1",
+      "core": false,
+      "example": {
+        "fr": "Le premier janvier, c'est le jour de l'An.",
+        "en": "The first of January is New Year's Day."
+      }
+    },
+    {
+      "id": "a02-w047",
+      "fr": "février",
+      "en": "February",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A1",
+      "core": false,
+      "example": {
+        "fr": "En février, il y a vingt-huit ou vingt-neuf jours.",
+        "en": "In February, there are twenty-eight or twenty-nine days."
+      }
+    },
+    {
+      "id": "a02-w048",
+      "fr": "mars",
+      "en": "March",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A1",
+      "core": false,
+      "example": {
+        "fr": "Le printemps commence en mars.",
+        "en": "Spring begins in March."
+      }
+    },
+    {
+      "id": "a02-w049",
+      "fr": "avril",
+      "en": "April",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A1",
+      "core": false,
+      "example": {
+        "fr": "Mon anniversaire est le 12 avril.",
+        "en": "My birthday is on 12 April."
+      }
+    },
+    {
+      "id": "a02-w050",
+      "fr": "mai",
+      "en": "May",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A1",
+      "core": false,
+      "example": {
+        "fr": "Le premier mai, beaucoup de magasins sont fermés.",
+        "en": "On the first of May, a lot of shops are closed."
+      }
+    },
+    {
+      "id": "a02-w051",
+      "fr": "juin",
+      "en": "June",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A1",
+      "core": false,
+      "example": {
+        "fr": "Les cours finissent en juin.",
+        "en": "Classes end in June."
+      }
+    },
+    {
+      "id": "a02-w052",
+      "fr": "juillet",
+      "en": "July",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A1",
+      "core": false,
+      "example": {
+        "fr": "Le premier juillet, c'est la fête du Canada.",
+        "en": "The first of July is Canada Day."
+      }
+    },
+    {
+      "id": "a02-w053",
+      "fr": "août",
+      "en": "August",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A1",
+      "core": false,
+      "example": {
+        "fr": "En août, beaucoup de gens sont en vacances.",
+        "en": "In August, a lot of people are on holiday."
+      }
+    },
+    {
+      "id": "a02-w054",
+      "fr": "septembre",
+      "en": "September",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A1",
+      "core": false,
+      "example": {
+        "fr": "L'école recommence en septembre.",
+        "en": "School starts again in September."
+      }
+    },
+    {
+      "id": "a02-w055",
+      "fr": "octobre",
+      "en": "October",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A1",
+      "core": false,
+      "example": {
+        "fr": "Halloween, c'est le 31 octobre.",
+        "en": "Halloween is on 31 October."
+      }
+    },
+    {
+      "id": "a02-w056",
+      "fr": "novembre",
+      "en": "November",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A1",
+      "core": false,
+      "example": {
+        "fr": "Mon cousin arrive le 5 novembre.",
+        "en": "My cousin arrives on 5 November."
+      }
+    },
+    {
+      "id": "a02-w057",
+      "fr": "décembre",
+      "en": "December",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A1",
+      "core": false,
+      "example": {
+        "fr": "Noël, c'est le 25 décembre.",
+        "en": "Christmas is on 25 December."
+      }
+    },
+    {
+      "id": "a02-w058",
+      "fr": "printemps",
+      "en": "spring",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "printemps",
+      "level": "A1",
+      "core": false,
+      "example": {
+        "fr": "Au printemps, j'aime marcher dans le parc.",
+        "en": "In spring, I like walking in the park."
+      }
+    },
+    {
+      "id": "a02-w059",
+      "fr": "été",
+      "en": "summer",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "étés",
+      "level": "A1",
+      "core": false,
+      "example": {
+        "fr": "En été, nous allons à la plage.",
+        "en": "In summer, we go to the beach."
+      }
+    },
+    {
+      "id": "a02-w060",
+      "fr": "automne",
+      "en": "autumn, fall",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "automnes",
+      "level": "A1",
+      "core": false,
+      "example": {
+        "fr": "Ma saison préférée, c'est l'automne.",
+        "en": "My favourite season is autumn."
+      }
+    },
+    {
+      "id": "a02-w061",
+      "fr": "hiver",
+      "en": "winter",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "hivers",
+      "level": "A1",
+      "core": false,
+      "example": {
+        "fr": "En hiver, il neige beaucoup à Québec.",
+        "en": "In winter, it snows a lot in Quebec City."
+      }
+    },
+    {
+      "id": "a02-w062",
+      "fr": "minute",
+      "en": "minute",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "minutes",
+      "level": "A1",
+      "core": false,
+      "example": {
+        "fr": "Le bus arrive dans cinq minutes.",
+        "en": "The bus arrives in five minutes."
+      }
+    },
+    {
+      "id": "a02-w063",
+      "fr": "après-midi",
+      "en": "afternoon",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "après-midi",
+      "level": "A1",
+      "core": false,
+      "example": {
+        "fr": "Cet après-midi, j'ai un rendez-vous à quinze heures.",
+        "en": "This afternoon, I have an appointment at 3 p.m."
+      }
+    },
+    {
+      "id": "a02-w064",
+      "fr": "calendrier",
+      "en": "calendar",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "calendriers",
+      "level": "A1",
+      "core": false,
+      "example": {
+        "fr": "J'écris mes rendez-vous sur le calendrier de la cuisine.",
+        "en": "I write my appointments on the kitchen calendar."
+      }
+    },
+    {
+      "id": "a02-w065",
+      "fr": "maintenant",
+      "en": "now",
+      "pos": "adverb",
+      "level": "A1",
+      "core": false,
+      "example": {
+        "fr": "Il est midi maintenant ? — Oui, il est midi.",
+        "en": "Is it noon now? — Yes, it's noon."
+      }
+    },
+    {
+      "id": "a02-w067",
+      "fr": "compter",
+      "en": "to count",
+      "pos": "verb",
+      "level": "A1",
+      "core": false,
+      "example": {
+        "fr": "Mon fils compte de un à cent.",
+        "en": "My son counts from one to a hundred."
+      }
+    },
+    {
+      "id": "a02-w068",
+      "fr": "terminer",
+      "en": "to finish, to end",
+      "pos": "verb",
+      "level": "A1",
+      "core": false,
+      "example": {
+        "fr": "Je termine mon travail à dix-sept heures.",
+        "en": "I finish work at 5 p.m."
+      }
+    }
+  ],
+  "grammar": [
+    {
+      "id": "a02-g01",
+      "title": "Articles: le, la, les, un, une, des, du, de la",
+      "level": "A1",
+      "grammarTag": "partitifs",
+      "explanation": [
+        "Every French noun is masculine or feminine. The small word before the noun (the article) often shows this: le jour (masculine), la semaine (feminine). Always learn a new noun with its article.",
+        "Le, la and les mean 'the'. Use le for a masculine noun, la for a feminine noun and les for the plural. Le and la become l' before a vowel or a silent h: l'été, l'hiver, l'heure, l'année.",
+        "Un, une and des mean 'a', 'an' or 'some'. Use un for a masculine noun, une for a feminine noun and des for the plural: un mois, une date, des minutes. Be careful: un an (masculine) but une année (feminine).",
+        "Du, de la and de l' mean 'some' for things you cannot count, like time or patience: Tu as du temps ? Il faut de la patience. Du is de + le. Never say de le.",
+        "Days and dates use le. Le lundi means 'every Monday'. Lundi (no article) means 'this Monday'. For a date, say le + number + month: le 3 mai, le 20 juin. For the first day, say le premier: le premier janvier.",
+        "For the plural, most nouns add -s, but you don't hear it: un jour → des jours. Nouns that end in -s do not change: un mois → des mois. Listen to the article (les, des) to hear the plural."
+      ],
+      "table": [
+        [
+          "",
+          "masculine",
+          "feminine",
+          "before a vowel / silent h",
+          "plural"
+        ],
+        [
+          "the (definite)",
+          "le jour",
+          "la semaine",
+          "l'été, l'heure",
+          "les mois"
+        ],
+        [
+          "a / an (indefinite)",
+          "un mois",
+          "une date",
+          "un an, une année",
+          "des minutes"
+        ],
+        [
+          "some (partitive)",
+          "du temps",
+          "de la patience",
+          "de l'argent",
+          "des (things you can count)"
+        ]
+      ],
+      "examples": [
+        {
+          "fr": "Le lundi, je travaille de neuf heures à dix-sept heures.",
+          "en": "On Mondays, I work from nine to five."
+        },
+        {
+          "fr": "Lundi, j'ai un rendez-vous chez le médecin.",
+          "en": "On Monday (this Monday), I have a doctor's appointment."
+        },
+        {
+          "fr": "L'été, c'est ma saison préférée.",
+          "en": "Summer is my favourite season."
+        },
+        {
+          "fr": "Il y a douze mois dans une année.",
+          "en": "There are twelve months in a year."
+        },
+        {
+          "fr": "J'ai des cours le mardi et le jeudi.",
+          "en": "I have classes on Tuesdays and Thursdays."
+        },
+        {
+          "fr": "Tu as du temps demain ?",
+          "en": "Do you have time tomorrow?"
+        },
+        {
+          "fr": "Mon anniversaire, c'est le premier août.",
+          "en": "My birthday is on the first of August."
+        },
+        {
+          "fr": "Les mois d'hiver sont décembre, janvier et février.",
+          "en": "The winter months are December, January and February."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "la été",
+          "right": "l'été",
+          "why": "Before a vowel, le and la become l'. Also, été is masculine."
+        },
+        {
+          "wrong": "Mon anniversaire est le un mars.",
+          "right": "Mon anniversaire est le premier mars.",
+          "why": "For the first day of the month, French says le premier. For the other days, use the normal number: le deux mars, le trois mars."
+        },
+        {
+          "wrong": "Tu as de le temps ?",
+          "right": "Tu as du temps ?",
+          "why": "De + le always becomes du."
+        },
+        {
+          "wrong": "un année",
+          "right": "une année",
+          "why": "Année is feminine, so it takes une. An is masculine: un an."
+        }
+      ]
+    },
+    {
+      "id": "a02-g02",
+      "title": "Regular -er verbs in the present",
+      "level": "A1",
+      "grammarTag": "present",
+      "explanation": [
+        "Most French verbs end in -er: parler (to speak), aimer (to like), habiter (to live), travailler (to work), commencer (to start). They are regular: they all follow the same pattern.",
+        "To make the present tense, take off -er to find the stem: parler → parl-. Then add the ending for each person: -e, -es, -e, -ons, -ez, -ent.",
+        "The endings -e, -es, -e and -ent are silent. So je parle, tu parles, il parle and ils parlent all sound the same. Only nous (-ons) and vous (-ez) sound different.",
+        "Je becomes j' before a vowel or a silent h: j'aime, j'habite, j'écoute.",
+        "Two small spelling changes: commencer gives nous commençons (the ç keeps the soft 's' sound), and manger gives nous mangeons (the e keeps the soft 'g' sound).",
+        "The French present means 'I work' and also 'I am working'. Je travaille aujourd'hui = I'm working today."
+      ],
+      "table": [
+        [
+          "",
+          "parler (to speak)",
+          "aimer (to like)",
+          "habiter (to live)",
+          "commencer (to start)"
+        ],
+        [
+          "je / j'",
+          "parle",
+          "aime (j'aime)",
+          "habite (j'habite)",
+          "commence"
+        ],
+        [
+          "tu",
+          "parles",
+          "aimes",
+          "habites",
+          "commences"
+        ],
+        [
+          "il / elle / on",
+          "parle",
+          "aime",
+          "habite",
+          "commence"
+        ],
+        [
+          "nous",
+          "parlons",
+          "aimons",
+          "habitons",
+          "commençons"
+        ],
+        [
+          "vous",
+          "parlez",
+          "aimez",
+          "habitez",
+          "commencez"
+        ],
+        [
+          "ils / elles",
+          "parlent",
+          "aiment",
+          "habitent",
+          "commencent"
+        ]
+      ],
+      "examples": [
+        {
+          "fr": "Je travaille le lundi et le mardi.",
+          "en": "I work on Mondays and Tuesdays."
+        },
+        {
+          "fr": "Le cours commence à neuf heures.",
+          "en": "The class starts at nine o'clock."
+        },
+        {
+          "fr": "Nous commençons à huit heures et demie.",
+          "en": "We start at half past eight."
+        },
+        {
+          "fr": "Tu aimes l'hiver ?",
+          "en": "Do you like winter?"
+        },
+        {
+          "fr": "Ils habitent à Montréal depuis un an.",
+          "en": "They have been living in Montreal for a year."
+        },
+        {
+          "fr": "Vous parlez français ?",
+          "en": "Do you speak French?"
+        },
+        {
+          "fr": "Elles travaillent le samedi matin.",
+          "en": "They work on Saturday mornings."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "Je aime l'été.",
+          "right": "J'aime l'été.",
+          "why": "Je becomes j' before a vowel."
+        },
+        {
+          "wrong": "Nous commencons à huit heures.",
+          "right": "Nous commençons à huit heures.",
+          "why": "With nous, commencer needs ç so the c still sounds like 's'."
+        },
+        {
+          "wrong": "Ils parlont français.",
+          "right": "Ils parlent français.",
+          "why": "The ils/elles ending is -ent (silent). -ons is only for nous."
+        },
+        {
+          "wrong": "Vous parlé anglais ?",
+          "right": "Vous parlez anglais ?",
+          "why": "The vous ending is -ez. They sound the same, but parlé is a different form (a past participle)."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "a02-ex01",
+      "type": "mcq",
+      "level": "A1",
+      "skill": "structures",
+      "grammarTag": "vocabulary",
+      "prompt": "How do you say 70 in French (in France and Canada)?",
+      "options": [
+        "soixante-dix",
+        "sept-dix",
+        "soixante-sept",
+        "dix-sept"
+      ],
+      "answer": 0,
+      "explanation": "70 is 60 + 10: soixante-dix. Soixante-sept is 67 and dix-sept is 17. Sept-dix does not exist."
+    },
+    {
+      "id": "a02-ex02",
+      "type": "mcq",
+      "level": "A1",
+      "skill": "structures",
+      "grammarTag": "vocabulary",
+      "prompt": "What number is « quatre-vingt-dix » ?",
+      "options": [
+        "90",
+        "80",
+        "94",
+        "70"
+      ],
+      "answer": 0,
+      "explanation": "Quatre-vingt-dix is 4 × 20 + 10 = 90. Quatre-vingts alone is 80 and soixante-dix is 70."
+    },
+    {
+      "id": "a02-ex03",
+      "type": "mcq",
+      "level": "A1",
+      "skill": "structures",
+      "grammarTag": "vocabulary",
+      "prompt": "The clock shows 8:30. What time is it?",
+      "options": [
+        "Il est huit heures et demie.",
+        "Il est huit heures et quart.",
+        "Il est huit heures moins le quart.",
+        "Il est neuf heures moins le quart."
+      ],
+      "answer": 0,
+      "explanation": "30 minutes past is et demie. Et quart is 8:15, huit heures moins le quart is 7:45 and neuf heures moins le quart is 8:45."
+    },
+    {
+      "id": "a02-ex04",
+      "type": "mcq",
+      "level": "A1",
+      "skill": "structures",
+      "grammarTag": "partitifs",
+      "prompt": "Choose the correct article.",
+      "promptFr": "___ printemps est ma saison préférée.",
+      "options": [
+        "Le",
+        "La",
+        "L'",
+        "Les"
+      ],
+      "answer": 0,
+      "explanation": "Printemps is masculine and singular, and it starts with a consonant, so the article is le. L' is only before a vowel (l'été, l'hiver)."
+    },
+    {
+      "id": "a02-ex05",
+      "type": "mcq",
+      "level": "A1",
+      "skill": "structures",
+      "grammarTag": "partitifs",
+      "prompt": "Choose the correct article.",
+      "promptFr": "J'ai ___ rendez-vous lundi à dix heures.",
+      "options": [
+        "un",
+        "une",
+        "des",
+        "du"
+      ],
+      "answer": 0,
+      "explanation": "Rendez-vous is masculine and here there is only one, so it is un. Une is feminine, des is plural and du means 'some' for things you can't count."
+    },
+    {
+      "id": "a02-ex06",
+      "type": "mcq",
+      "level": "A1",
+      "skill": "structures",
+      "grammarTag": "present",
+      "prompt": "Choose the correct form of commencer.",
+      "promptFr": "Nous ___ le travail à huit heures.",
+      "options": [
+        "commençons",
+        "commencons",
+        "commencez",
+        "commence"
+      ],
+      "answer": 0,
+      "explanation": "Nous takes -ons, and commencer needs ç before o: nous commençons. Commencez goes with vous and commence with je or il/elle."
+    },
+    {
+      "id": "a02-ex07",
+      "type": "fill_blank",
+      "level": "A1",
+      "skill": "structures",
+      "grammarTag": "partitifs",
+      "prompt": "Complete with the correct article.",
+      "sentence": "Mon anniversaire, c'est ___ 12 avril.",
+      "answers": [
+        "le"
+      ],
+      "translation": "My birthday is on the 12th of April.",
+      "explanation": "Dates use le + number + month: le 12 avril."
+    },
+    {
+      "id": "a02-ex08",
+      "type": "fill_blank",
+      "level": "A1",
+      "skill": "structures",
+      "grammarTag": "partitifs",
+      "prompt": "Complete with du, de la or de l'.",
+      "sentence": "Tu as ___ temps ce soir ?",
+      "answers": [
+        "du"
+      ],
+      "translation": "Do you have time this evening?",
+      "explanation": "Temps (time) is masculine and you can't count it, so you use the partitive du (de + le)."
+    },
+    {
+      "id": "a02-ex09",
+      "type": "fill_blank",
+      "level": "A1",
+      "skill": "structures",
+      "grammarTag": "present",
+      "prompt": "Complete with commencer in the present tense.",
+      "sentence": "Le film ___ à vingt heures.",
+      "answers": [
+        "commence"
+      ],
+      "hint": "commencer",
+      "translation": "The film starts at 8 p.m.",
+      "explanation": "Le film is il, so the ending is -e: il commence."
+    },
+    {
+      "id": "a02-ex10",
+      "type": "fill_blank",
+      "level": "A1",
+      "skill": "structures",
+      "grammarTag": "present",
+      "prompt": "Complete with travailler in the present tense.",
+      "sentence": "Vous ___ le samedi ?",
+      "answers": [
+        "travaillez"
+      ],
+      "hint": "travailler",
+      "translation": "Do you work on Saturdays?",
+      "explanation": "With vous, -er verbs end in -ez: vous travaillez."
+    },
+    {
+      "id": "a02-ex11",
+      "type": "conjugation",
+      "level": "A1",
+      "skill": "structures",
+      "grammarTag": "present",
+      "verb": "parler",
+      "tense": "présent",
+      "person": "nous",
+      "answers": [
+        "parlons"
+      ],
+      "explanation": "Parler: je parle, tu parles, il parle, nous parlons, vous parlez, ils parlent."
+    },
+    {
+      "id": "a02-ex12",
+      "type": "conjugation",
+      "level": "A1",
+      "skill": "structures",
+      "grammarTag": "present",
+      "verb": "aimer",
+      "tense": "présent",
+      "person": "ils",
+      "answers": [
+        "aiment"
+      ],
+      "explanation": "Aimer: j'aime, tu aimes, il aime, nous aimons, vous aimez, ils aiment. The -ent ending is silent."
+    },
+    {
+      "id": "a02-ex13",
+      "type": "conjugation",
+      "level": "A1",
+      "skill": "structures",
+      "grammarTag": "present",
+      "verb": "habiter",
+      "tense": "présent",
+      "person": "je",
+      "answers": [
+        "habite",
+        "j'habite"
+      ],
+      "explanation": "Habiter: j'habite (je becomes j' before the silent h), tu habites, il habite, nous habitons, vous habitez, ils habitent."
+    },
+    {
+      "id": "a02-ex14",
+      "type": "reorder",
+      "level": "A1",
+      "skill": "structures",
+      "grammarTag": "present",
+      "prompt": "Put the words in order to make a sentence.",
+      "tokens": [
+        "Le",
+        "cours",
+        "commence",
+        "à",
+        "neuf",
+        "heures",
+        "et",
+        "quart."
+      ],
+      "translation": "The class starts at a quarter past nine.",
+      "explanation": "Subject (le cours) + verb (commence) + à + the time. Et quart comes after heures."
+    },
+    {
+      "id": "a02-ex15",
+      "type": "reorder",
+      "level": "A1",
+      "skill": "structures",
+      "grammarTag": "vocabulary",
+      "prompt": "Put the words in order to make a sentence.",
+      "tokens": [
+        "Aujourd'hui,",
+        "nous",
+        "sommes",
+        "le",
+        "premier",
+        "mars."
+      ],
+      "translation": "Today is the first of March.",
+      "explanation": "To give the date, say nous sommes + le + day + month. The first day of the month is le premier."
+    },
+    {
+      "id": "a02-ex16",
+      "type": "match",
+      "level": "A1",
+      "skill": "structures",
+      "grammarTag": "vocabulary",
+      "prompt": "Match the days with their meanings.",
+      "pairs": [
+        {
+          "left": "lundi",
+          "right": "Monday"
+        },
+        {
+          "left": "mercredi",
+          "right": "Wednesday"
+        },
+        {
+          "left": "jeudi",
+          "right": "Thursday"
+        },
+        {
+          "left": "samedi",
+          "right": "Saturday"
+        },
+        {
+          "left": "dimanche",
+          "right": "Sunday"
+        }
+      ],
+      "explanation": "In French, days of the week are masculine and start with a small letter: le lundi, le dimanche."
+    },
+    {
+      "id": "a02-ex17",
+      "type": "match",
+      "level": "A1",
+      "skill": "structures",
+      "grammarTag": "vocabulary",
+      "prompt": "Match the numbers.",
+      "pairs": [
+        {
+          "left": "seize",
+          "right": "16"
+        },
+        {
+          "left": "soixante",
+          "right": "60"
+        },
+        {
+          "left": "soixante-dix",
+          "right": "70"
+        },
+        {
+          "left": "quatre-vingts",
+          "right": "80"
+        },
+        {
+          "left": "quatre-vingt-dix",
+          "right": "90"
+        }
+      ],
+      "explanation": "After 60, French counts in twenties: 70 = 60 + 10, 80 = 4 × 20, 90 = 4 × 20 + 10."
+    },
+    {
+      "id": "a02-ex18",
+      "type": "translate",
+      "level": "A1",
+      "skill": "structures",
+      "grammarTag": "vocabulary",
+      "direction": "en-fr",
+      "source": "Today is Monday.",
+      "answers": [
+        "Aujourd'hui, c'est lundi.",
+        "Nous sommes lundi.",
+        "On est lundi.",
+        "Aujourd'hui, nous sommes lundi.",
+        "Aujourd'hui, on est lundi.",
+        "C'est lundi aujourd'hui."
+      ],
+      "explanation": "To say the day, use c'est lundi, nous sommes lundi or on est lundi. Don't use an article here, and write lundi with a small letter."
+    },
+    {
+      "id": "a02-ex19",
+      "type": "translate",
+      "level": "A1",
+      "skill": "structures",
+      "grammarTag": "present",
+      "direction": "fr-en",
+      "source": "Mon cours de français commence à dix-huit heures.",
+      "answers": [
+        "My French class starts at 6 p.m.",
+        "My French class starts at six p.m.",
+        "My French class starts at 6 pm.",
+        "My French class starts at 18:00.",
+        "My French class starts at six o'clock in the evening.",
+        "My French class begins at 6 p.m.",
+        "My French class begins at six p.m.",
+        "My French lesson starts at 6 p.m.",
+        "My French lesson starts at six p.m.",
+        "My French course starts at 6 p.m."
+      ],
+      "explanation": "Commence is the il form of commencer (to start). Dix-huit heures is the 24-hour clock: 18:00 = 6 p.m."
+    },
+    {
+      "id": "a02-ex20",
+      "type": "dictation",
+      "level": "A1",
+      "skill": "listening",
+      "grammarTag": "vocabulary",
+      "text": "Mon anniversaire, c'est le vingt mai.",
+      "translation": "My birthday is on the twentieth of May.",
+      "explanation": "Listen for le before the number. The t of vingt is silent here, and mai is written with a small letter."
+    }
+  ],
+  "listening": [
+    {
+      "id": "a02-li01",
+      "title": "Un rendez-vous chez le médecin",
+      "level": "A1",
+      "kind": "dialogue",
+      "context": "Ana phones a doctor's office to make an appointment.",
+      "lines": [
+        {
+          "speaker": "Secrétaire",
+          "fr": "Cabinet du docteur Martin, bonjour !"
+        },
+        {
+          "speaker": "Ana",
+          "fr": "Bonjour, madame. Je voudrais un rendez-vous, s'il vous plaît."
+        },
+        {
+          "speaker": "Secrétaire",
+          "fr": "Oui. Mardi 14 mars, à dix heures, ça va ?"
+        },
+        {
+          "speaker": "Ana",
+          "fr": "Non, désolée, le mardi, je travaille. Vous avez un rendez-vous jeudi ?"
+        },
+        {
+          "speaker": "Secrétaire",
+          "fr": "Jeudi 16 mars, à deux heures et demie de l'après-midi."
+        },
+        {
+          "speaker": "Ana",
+          "fr": "Parfait, merci !"
+        },
+        {
+          "speaker": "Secrétaire",
+          "fr": "Votre nom, s'il vous plaît ?"
+        },
+        {
+          "speaker": "Ana",
+          "fr": "Ana Lopez. L-O-P-E-Z."
+        }
+      ],
+      "translation": "Secretary: Doctor Martin's office, hello!\nAna: Hello, madam. I'd like an appointment, please.\nSecretary: Yes. Tuesday 14 March, at ten o'clock, is that OK?\nAna: No, sorry, I work on Tuesdays. Do you have an appointment on Thursday?\nSecretary: Thursday 16 March, at half past two in the afternoon.\nAna: Perfect, thank you!\nSecretary: Your name, please?\nAna: Ana Lopez. L-O-P-E-Z.",
+      "questions": [
+        {
+          "id": "a02-li01-q1",
+          "question": "Why can't Ana come on Tuesday?",
+          "options": [
+            "She works on Tuesdays.",
+            "She is on holiday.",
+            "The doctor is not there.",
+            "She has a class."
+          ],
+          "answer": 0,
+          "explanation": "Ana says: « le mardi, je travaille » (I work on Tuesdays)."
+        },
+        {
+          "id": "a02-li01-q2",
+          "question": "When is Ana's appointment?",
+          "options": [
+            "Tuesday 14 March at 10:00",
+            "Thursday 16 March at 2:30 p.m.",
+            "Thursday 14 March at 2:30 p.m.",
+            "Tuesday 16 March at 10:30"
+          ],
+          "answer": 1,
+          "explanation": "The secretary says: « Jeudi 16 mars, à deux heures et demie de l'après-midi. » Tuesday 14 March at ten was the first offer."
+        },
+        {
+          "id": "a02-li01-q3",
+          "question": "What does the secretary ask at the end?",
+          "options": [
+            "Ana's age",
+            "Ana's phone number",
+            "Ana's name",
+            "Ana's address"
+          ],
+          "answer": 2,
+          "explanation": "« Votre nom, s'il vous plaît ? » means 'Your name, please?'"
+        }
+      ]
+    },
+    {
+      "id": "a02-li02",
+      "title": "Les horaires de la bibliothèque",
+      "level": "A1",
+      "kind": "announcement",
+      "context": "A recorded message gives the opening hours of a public library.",
+      "lines": [
+        {
+          "speaker": "Annonce",
+          "fr": "Bonjour et bienvenue à la bibliothèque municipale."
+        },
+        {
+          "speaker": "Annonce",
+          "fr": "La bibliothèque est ouverte du mardi au samedi, de neuf heures à dix-huit heures."
+        },
+        {
+          "speaker": "Annonce",
+          "fr": "Le mercredi, elle ferme à vingt heures."
+        },
+        {
+          "speaker": "Annonce",
+          "fr": "Le dimanche et le lundi, la bibliothèque est fermée."
+        },
+        {
+          "speaker": "Annonce",
+          "fr": "Attention : le premier mai, la bibliothèque est fermée. Merci et bonne journée !"
+        }
+      ],
+      "translation": "Announcement: Hello and welcome to the town library.\nAnnouncement: The library is open from Tuesday to Saturday, from 9 a.m. to 6 p.m.\nAnnouncement: On Wednesdays, it closes at 8 p.m.\nAnnouncement: On Sundays and Mondays, the library is closed.\nAnnouncement: Please note: on the first of May, the library is closed. Thank you and have a nice day!",
+      "questions": [
+        {
+          "id": "a02-li02-q1",
+          "question": "Which days is the library closed every week?",
+          "options": [
+            "Saturday and Sunday",
+            "Sunday and Monday",
+            "Monday and Tuesday",
+            "Wednesday and Sunday"
+          ],
+          "answer": 1,
+          "explanation": "« Le dimanche et le lundi, la bibliothèque est fermée. » It is open from Tuesday to Saturday."
+        },
+        {
+          "id": "a02-li02-q2",
+          "question": "What time does the library close on Wednesdays?",
+          "options": [
+            "6 p.m.",
+            "7 p.m.",
+            "8 p.m.",
+            "9 p.m."
+          ],
+          "answer": 2,
+          "explanation": "« Le mercredi, elle ferme à vingt heures. » Vingt heures is 8 p.m. The other days, it closes at 6 p.m. (dix-huit heures)."
+        },
+        {
+          "id": "a02-li02-q3",
+          "question": "What special date is mentioned?",
+          "options": [
+            "1 May",
+            "1 March",
+            "21 May",
+            "1 January"
+          ],
+          "answer": 0,
+          "explanation": "« le premier mai, la bibliothèque est fermée » — the library is closed on 1 May."
+        }
+      ]
+    }
+  ],
+  "reading": [
+    {
+      "id": "a02-re01",
+      "title": "Une invitation de Camille",
+      "level": "A1",
+      "kind": "message",
+      "text": "Salut Léo !\n\nSamedi, c'est mon anniversaire : j'ai trente ans ! J'organise une petite fête chez moi, le 18 octobre, à partir de dix-neuf heures trente. Il y a des boissons et un gâteau. Mes amis du cours de français arrivent vers vingt heures. Tu es libre ? Réponds-moi avant jeudi, s'il te plaît.\n\nBisous,\nCamille",
+      "translation": "Hi Léo!\n\nOn Saturday, it's my birthday: I'm thirty! I'm having a little party at my place on 18 October, from 7.30 p.m. There are drinks and a cake. My friends from French class are arriving at around 8 p.m. Are you free? Please reply before Thursday.\n\nLove,\nCamille",
+      "questions": [
+        {
+          "id": "a02-re01-q1",
+          "question": "How old is Camille on her birthday?",
+          "options": [
+            "13",
+            "20",
+            "30",
+            "40"
+          ],
+          "answer": 2,
+          "explanation": "She writes: « j'ai trente ans ! » Trente is 30."
+        },
+        {
+          "id": "a02-re01-q2",
+          "question": "When does the party start?",
+          "options": [
+            "Saturday 18 October at 7.30 p.m.",
+            "Saturday 18 October at 8 p.m.",
+            "Thursday 18 October at 7.30 p.m.",
+            "Saturday 8 October at 9.30 p.m."
+          ],
+          "answer": 0,
+          "explanation": "« le 18 octobre, à partir de dix-neuf heures trente » and her birthday is samedi. Her friends arrive at 8 p.m. (vingt heures)."
+        },
+        {
+          "id": "a02-re01-q3",
+          "question": "What does Camille ask Léo to do?",
+          "options": [
+            "Bring a cake",
+            "Reply before Thursday",
+            "Arrive at 8 p.m.",
+            "Call her on Saturday"
+          ],
+          "answer": 1,
+          "explanation": "« Réponds-moi avant jeudi » means 'reply to me before Thursday'."
+        }
+      ]
+    },
+    {
+      "id": "a02-re02",
+      "title": "Cours de français : session d'automne",
+      "level": "A1",
+      "kind": "notice",
+      "text": "ÉCOLE DE LANGUES DU PARC\nCours de français pour débutants – session d'automne\n\nDébut des cours : lundi 15 septembre\nFin des cours : jeudi 11 décembre\nHoraires : le lundi et le jeudi, de 18 h à 19 h 30\nPrix : quatre-vingt-dix dollars\n\nAttention : pas de cours le lundi 13 octobre, c'est un jour férié.\nInscription au secrétariat, du lundi au vendredi, de 9 h à 17 h.",
+      "translation": "PARK LANGUAGE SCHOOL\nFrench classes for beginners – autumn session\n\nClasses start: Monday 15 September\nClasses end: Thursday 11 December\nTimes: Mondays and Thursdays, from 6 p.m. to 7.30 p.m.\nPrice: ninety dollars\n\nPlease note: no class on Monday 13 October, it's a public holiday.\nRegistration at the office, Monday to Friday, from 9 a.m. to 5 p.m.",
+      "questions": [
+        {
+          "id": "a02-re02-q1",
+          "question": "When do the classes start?",
+          "options": [
+            "Monday 15 September",
+            "Thursday 11 December",
+            "Monday 13 October",
+            "Friday 15 September"
+          ],
+          "answer": 0,
+          "explanation": "« Début des cours : lundi 15 septembre ». 11 December is the end and 13 October is a holiday."
+        },
+        {
+          "id": "a02-re02-q2",
+          "question": "How much does the session cost?",
+          "options": [
+            "$19",
+            "$70",
+            "$80",
+            "$90"
+          ],
+          "answer": 3,
+          "explanation": "« Prix : quatre-vingt-dix dollars ». Quatre-vingt-dix is 90."
+        },
+        {
+          "id": "a02-re02-q3",
+          "question": "Why is there no class on 13 October?",
+          "options": [
+            "The teacher is ill.",
+            "It is a public holiday.",
+            "The school is closed on Mondays.",
+            "It is the end of the session."
+          ],
+          "answer": 1,
+          "explanation": "« c'est un jour férié » means 'it's a public holiday'."
+        }
+      ]
+    }
+  ],
+  "writing": [
+    {
+      "id": "a02-wr01",
+      "title": "Reply to a friend about your birthday",
+      "level": "A1",
+      "taskType": "message",
+      "instructions": "Write a short message (20–40 words) to your friend Chloé. Give the date of your birthday and your age, then suggest a day and a time to meet.",
+      "promptFr": "Votre amie Chloé vous écrit : « C'est quand, ton anniversaire ? On se voit quand ? » Répondez-lui : donnez la date de votre anniversaire et votre âge, et proposez un jour et une heure pour un rendez-vous. (20 à 40 mots)",
+      "minWords": 20,
+      "maxWords": 40,
+      "modelAnswer": "Salut Chloé !\n\nMon anniversaire, c'est le 14 février. J'ai vingt-huit ans. On se voit samedi après-midi ? Je propose quinze heures et demie, au café près de la gare. Ça va ?\n\nÀ samedi !\nSam",
+      "checklist": [
+        "I greet Chloé and sign my message.",
+        "I give the date of my birthday with le + number + month (le 14 février).",
+        "I give my age with avoir: j'ai … ans.",
+        "I suggest a day and a time (samedi, à quinze heures et demie).",
+        "I write days and months with a small letter."
+      ]
+    }
+  ],
+  "speaking": [
+    {
+      "id": "a02-sp01",
+      "title": "Your age, your birthday and your favourite season",
+      "level": "A1",
+      "taskType": "entretien",
+      "instructions": "The examiner asks you simple questions about yourself. Say your age, the date of your birthday, and your favourite month and season. Speak for up to two minutes.",
+      "promptFr": "Bonjour. Vous avez quel âge ? C'est quand, votre anniversaire ? Quelle est votre saison préférée ? Pourquoi ?",
+      "prepSeconds": 0,
+      "speakSeconds": 120,
+      "modelAnswer": "Bonjour. Je m'appelle Kofi. J'ai trente-quatre ans. Mon anniversaire, c'est le premier juillet, comme la fête du Canada ! Mon mois préféré, c'est juillet. Ma saison préférée, c'est l'été. En été, j'aime marcher dans le parc avec mes amis. Je n'aime pas beaucoup l'hiver : en janvier et en février, il fait très froid. Le printemps, c'est bien aussi. Au printemps, je commence à faire du vélo.",
+      "tips": [
+        "Give your age with avoir: j'ai trente ans (not je suis trente ans).",
+        "For the date, say le + number + month: le 3 mai, le premier juillet.",
+        "Say au printemps, but en été, en automne, en hiver."
+      ]
+    },
+    {
+      "id": "a02-sp02",
+      "title": "Your week",
+      "level": "A1",
+      "taskType": "entretien",
+      "instructions": "The examiner asks about your week. Say which days you work or study, what time you start and finish, and what you do at the weekend. Speak for up to two minutes.",
+      "promptFr": "Parlez de votre semaine. Quels jours est-ce que vous travaillez ou étudiez ? Vous commencez à quelle heure ? Et le week-end ?",
+      "prepSeconds": 0,
+      "speakSeconds": 120,
+      "modelAnswer": "Je travaille du lundi au vendredi. Je commence à huit heures et demie et je termine à dix-sept heures. Le mardi et le jeudi soir, j'ai un cours de français. Le cours commence à dix-huit heures et finit à dix-neuf heures trente. Le samedi matin, je fais les courses. Le dimanche, je reste à la maison : je regarde un film ou je parle avec ma famille au téléphone.",
+      "tips": [
+        "Use le + day for habits: le lundi = every Monday.",
+        "Use du … au … for a period: du lundi au vendredi.",
+        "Practise the time expressions: et quart, et demie, moins le quart."
+      ]
+    }
+  ],
+  "checkpoint": [
+    {
+      "id": "a02-cp01",
+      "type": "mcq",
+      "level": "A1",
+      "skill": "structures",
+      "grammarTag": "vocabulary",
+      "prompt": "How do you say 80 in French?",
+      "options": [
+        "quatre-vingts",
+        "huit-dix",
+        "soixante-vingt",
+        "dix-huit"
+      ],
+      "answer": 0,
+      "explanation": "80 is 4 × 20: quatre-vingts. Dix-huit is 18. Huit-dix and soixante-vingt do not exist."
+    },
+    {
+      "id": "a02-cp02",
+      "type": "mcq",
+      "level": "A1",
+      "skill": "structures",
+      "grammarTag": "partitifs",
+      "prompt": "Choose the correct article.",
+      "promptFr": "___ hiver est très froid au Canada.",
+      "options": [
+        "L'",
+        "Le",
+        "La",
+        "Les"
+      ],
+      "answer": 0,
+      "explanation": "Hiver starts with a silent h, so le becomes l': l'hiver."
+    },
+    {
+      "id": "a02-cp03",
+      "type": "mcq",
+      "level": "A1",
+      "skill": "structures",
+      "grammarTag": "present",
+      "prompt": "Choose the correct form of parler.",
+      "promptFr": "Ils ___ français et anglais.",
+      "options": [
+        "parlent",
+        "parlons",
+        "parles",
+        "parlez"
+      ],
+      "answer": 0,
+      "explanation": "With ils, -er verbs end in -ent: ils parlent. Parlons is nous, parles is tu and parlez is vous."
+    },
+    {
+      "id": "a02-cp04",
+      "type": "mcq",
+      "level": "A1",
+      "skill": "structures",
+      "grammarTag": "vocabulary",
+      "prompt": "Which month comes after juin?",
+      "options": [
+        "juillet",
+        "août",
+        "mai",
+        "mars"
+      ],
+      "answer": 0,
+      "explanation": "The order is mai, juin, juillet, août. Juillet (July) comes after juin (June)."
+    },
+    {
+      "id": "a02-cp05",
+      "type": "mcq",
+      "level": "A1",
+      "skill": "structures",
+      "grammarTag": "vocabulary",
+      "prompt": "The clock shows 10:45. What time is it?",
+      "options": [
+        "Il est onze heures moins le quart.",
+        "Il est dix heures moins le quart.",
+        "Il est dix heures et demie.",
+        "Il est onze heures et quart."
+      ],
+      "answer": 0,
+      "explanation": "10:45 is fifteen minutes before eleven: onze heures moins le quart. Dix heures moins le quart is 9:45."
+    },
+    {
+      "id": "a02-cp06",
+      "type": "fill_blank",
+      "level": "A1",
+      "skill": "structures",
+      "grammarTag": "partitifs",
+      "prompt": "Complete with un or une.",
+      "sentence": "Il y a douze mois dans ___ année.",
+      "answers": [
+        "une"
+      ],
+      "translation": "There are twelve months in a year.",
+      "explanation": "Année is feminine, so it takes une. (But an is masculine: un an.)"
+    },
+    {
+      "id": "a02-cp07",
+      "type": "fill_blank",
+      "level": "A1",
+      "skill": "structures",
+      "grammarTag": "present",
+      "prompt": "Complete with aimer in the present tense.",
+      "sentence": "Tu ___ l'été ?",
+      "answers": [
+        "aimes"
+      ],
+      "hint": "aimer",
+      "translation": "Do you like summer?",
+      "explanation": "With tu, -er verbs end in -es: tu aimes. The s is silent."
+    },
+    {
+      "id": "a02-cp08",
+      "type": "fill_blank",
+      "level": "A1",
+      "skill": "structures",
+      "grammarTag": "vocabulary",
+      "prompt": "Complete with the next day.",
+      "sentence": "Après lundi, c'est ___.",
+      "answers": [
+        "mardi"
+      ],
+      "translation": "After Monday comes Tuesday.",
+      "explanation": "The week goes lundi, mardi, mercredi, jeudi, vendredi, samedi, dimanche."
+    },
+    {
+      "id": "a02-cp09",
+      "type": "conjugation",
+      "level": "A1",
+      "skill": "structures",
+      "grammarTag": "present",
+      "verb": "commencer",
+      "tense": "présent",
+      "person": "nous",
+      "answers": [
+        "commençons"
+      ],
+      "explanation": "Commencer with nous: nous commençons. The ç keeps the soft 's' sound before o."
+    },
+    {
+      "id": "a02-cp10",
+      "type": "translate",
+      "level": "A1",
+      "skill": "structures",
+      "grammarTag": "partitifs",
+      "direction": "en-fr",
+      "source": "My birthday is on the first of May.",
+      "answers": [
+        "Mon anniversaire est le premier mai.",
+        "Mon anniversaire, c'est le premier mai.",
+        "Mon anniversaire est le 1er mai.",
+        "Mon anniversaire, c'est le 1er mai."
+      ],
+      "explanation": "Dates use le + number + month, and the first day is le premier (1er). Don't say « le un mai » and don't use a word for 'on'."
+    }
+  ]
+}

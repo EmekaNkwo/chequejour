@@ -51,7 +51,8 @@ export function Pill({ label, color, textColor, icon }: { label: string; color?:
 
 export function LevelPill({ level }: { level: Level }) {
   const { colors } = useTheme();
-  const palette = level === 'B1' ? colors.skills.tests : level === 'A2+' ? colors.skills.unit : colors.skills.vocabulary;
+  const palette =
+    level === 'B1' ? colors.skills.tests : level === 'A2+' ? colors.skills.unit : level === 'A2' ? colors.skills.vocabulary : colors.skills.structures;
   return <Pill label={level} color={palette.tint} textColor={palette.onTint} />;
 }
 

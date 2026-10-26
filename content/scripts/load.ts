@@ -16,8 +16,8 @@ export const SOURCE_DIR = join(ROOT, 'content', 'source');
 export const AUDIO_DIR = join(ROOT, 'assets', 'audio');
 export const AUDIO_EXT = '.m4a';
 
-/** Bump whenever content changes shape or text, so installed apps reseed. 2: TCF Canada mocks. 3: mocks 3 and 4. 4: sentence-halves matching. 5: question drills. 6: speaking timings match the exam. */
-export const CONTENT_VERSION = 6;
+/** Bump whenever content changes shape or text, so installed apps reseed. 2: TCF Canada mocks. 3: mocks 3 and 4. 4: sentence-halves matching. 5: question drills. 6: speaking timings match the exam. 7: A1 units a01–a06, A1 placement and sentences. */
+export const CONTENT_VERSION = 7;
 export const MIN_SENTENCES = 365;
 
 export interface Report {

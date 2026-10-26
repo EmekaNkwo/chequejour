@@ -12,8 +12,9 @@ import { Button } from '../components/ui/Button';
 import { Card } from '../components/ui/Card';
 import { ErrorState, Loading, Screen } from '../components/ui/Screen';
 import { useToast } from '../components/ui/Toast';
-import type { Level } from '../domain/content-types';
-import { placementLevel } from '../domain/level';
+import type { Level, PlacementTest } from '../domain/content-types';
+import { placementDecided, placementLevel, PLACEMENT_BANDS, type BandScores } from '../domain/level';
+import { PLACEMENT_START_UNIT } from '../domain/unit-path';
 import type { DailyGoal } from '../domain/session';
 import { useApp } from '../features/app/AppContext';
 import { logError } from '../features/app/log';
@@ -48,31 +49,55 @@ export default function Onboarding() {
   if (step === 'placement') {
     if (questions.error) return <ErrorState message={questions.error} onRetry={questions.reload} />;
     if (!questions.data) return <Loading />;
-    const onFinish = (score: QuizScore) => {
-      const byId = new Map(score.results.map((r) => [r.exerciseId, r.correct]));
-      const band = (b: Level) => {
-        const qs = (questions.data ?? []).filter((q) => q.band === b);
-        return { correct: qs.filter((q) => byId.get(q.id)).length, total: qs.length };
-      };
-      setLevel(placementLevel({ A2: band('A2'), 'A2+': band('A2+'), B1: band('B1') }));
-      setStep('result');
-    };
     return (
-      <QuizRunner
-        title="Placement test"
-        exercises={questions.data}
-        context="placement"
-        unitId={null}
-        showFeedback={false}
-        onFinish={onFinish}
+      <Placement
+        questions={questions.data}
+        onDone={(result) => {
+          setLevel(result);
+          setStep('result');
+        }}
         onClose={() => setStep('setup')}
       />
     );
   }
 
   if (step === 'result') return <PlacementResult level={level} onContinue={() => finish(level)} />;
-  if (step === 'setup') return <Setup onPlacement={() => setStep('placement')} onSkip={() => finish(null)} />;
+  if (step === 'setup') return <Setup onPlacement={() => setStep('placement')} onSkip={() => finish('A1')} />;
   return <Welcome onNext={() => setStep('setup')} />;
+}
+
+/**
+ * The placement test, one band at a time from A1 upwards. It stops as soon as the
+ * remaining bands can't change the result, so a beginner answers only the A1 block.
+ */
+function Placement({ questions, onDone, onClose }: { questions: PlacementTest['questions']; onDone: (level: Level) => void; onClose: () => void }) {
+  const blocks = PLACEMENT_BANDS.map((band) => questions.filter((q) => q.band === band)).filter((b) => b.length > 0);
+  const [block, setBlock] = useState(0);
+  const [scores, setScores] = useState<BandScores>({});
+  const current = blocks[block];
+  if (!current) return null;
+  const onFinish = (score: QuizScore) => {
+    const correct = new Set(score.results.filter((r) => r.correct).map((r) => r.exerciseId));
+    const next: BandScores = { ...scores, [current[0].band]: { correct: current.filter((q) => correct.has(q.id)).length, total: current.length } };
+    if (block + 1 >= blocks.length || placementDecided(next)) {
+      onDone(placementLevel(next));
+      return;
+    }
+    setScores(next);
+    setBlock(block + 1);
+  };
+  return (
+    <QuizRunner
+      key={block}
+      title={`Placement test · part ${block + 1}`}
+      exercises={current}
+      context="placement"
+      unitId={null}
+      showFeedback={false}
+      onFinish={onFinish}
+      onClose={onClose}
+    />
+  );
 }
 
 function Welcome({ onNext }: { onNext: () => void }) {
@@ -115,7 +140,7 @@ function Welcome({ onNext }: { onNext: () => void }) {
         <Logo size={80} />
         <AppText variant="screenTitle">Chaque Jour</AppText>
         <AppText variant="body" tone="secondary">
-          A calm daily French habit, from A2 to B1, built around the TCF Canada.
+          A calm daily French habit, from A1 to B1, built around the TCF Canada.
         </AppText>
       </View>
       {[
@@ -154,7 +179,7 @@ function Setup({ onPlacement, onSkip }: { onPlacement: () => void; onSkip: () =>
       footer={
         <View style={styles.footer}>
           <Button label="Take the placement test (5 min)" onPress={onPlacement} testID="start-placement" />
-          <Button label="Skip — start at A2" variant="ghost" onPress={onSkip} testID="skip-placement" />
+          <Button label="Skip — start from the beginning (A1)" variant="ghost" onPress={onSkip} testID="skip-placement" />
         </View>
       }
     >
@@ -195,7 +220,7 @@ function Setup({ onPlacement, onSkip }: { onPlacement: () => void; onSkip: () =>
       <Card>
         <AppText variant="cardTitle">Find your level</AppText>
         <AppText variant="body" tone="secondary">
-          24 short questions place you on the path. Your result is a practice estimate, not an official TCF score.
+          Short questions from beginner level upwards place you on the path. It stops early once it knows where to start you. Your result is a practice estimate, not an official TCF score.
         </AppText>
       </Card>
     </Screen>
@@ -203,14 +228,14 @@ function Setup({ onPlacement, onSkip }: { onPlacement: () => void; onSkip: () =>
 }
 
 function PlacementResult({ level, onContinue }: { level: Level; onContinue: () => void }) {
-  const where = level === 'B1' ? 'unit 11' : level === 'A2+' ? 'unit 6' : 'unit 1';
+  const where = `unit ${PLACEMENT_START_UNIT[level]}`;
   return (
     <Screen footer={<Button label="Start learning" onPress={onContinue} testID="placement-continue" />}>
       <AppText variant="screenTitle">{`Your level: ${level}`}</AppText>
       <Card>
         <AppText variant="body">{`We'll start you at ${where}. Earlier units stay open if you want to revise.`}</AppText>
         <AppText variant="meta" tone="muted" style={styles.mt}>
-          This is a practice estimate based on 24 questions. It is not an official TCF score and it will update as you study.
+          This is a practice estimate based on a short placement test. It is not an official TCF score and it will update as you study.
         </AppText>
       </Card>
     </Screen>

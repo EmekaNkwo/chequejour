@@ -3,6 +3,7 @@
  */
 import { StyleSheet, View } from 'react-native';
 import type { MockTest } from '../../domain/content-types';
+import { MOCK_RECOMMENDED_FROM } from '../../domain/level';
 import { TCF_CANADA, TCF_SKILLS, testMinutes, type TcfSkill } from '../../domain/tcf/exam-format';
 import type { MockRunRecord } from '../../domain/tcf/mock-scoring';
 import { NCLC_DISCLAIMER } from '../../domain/tcf/nclc';
@@ -33,15 +34,25 @@ export interface MockIntroProps {
   mock: MockTest;
   history: readonly MockRunRecord[];
   titles: ReadonlyMap<string, string>;
+  /** A1/A1+ learner: show a gentle, non-blocking note. */
+  beginner?: boolean;
   onStart: (skills: TcfSkill[]) => void;
 }
 
-export function MockIntro({ mock, history, titles, onStart }: MockIntroProps) {
+export function MockIntro({ mock, history, titles, beginner = false, onStart }: MockIntroProps) {
   const { colors } = useTheme();
   const total = TCF_SKILLS.reduce((n, s) => n + testMinutes(s), 0);
   return (
     <Screen testID="mock-intro" footer={<Button label="Start the full mock" icon="play" onPress={() => onStart([...TCF_SKILLS])} testID="mock-start" />}>
       <ScreenHeader title={mock.title} back subtitle={`TCF Canada format · 4 tests · about ${total} minutes`} />
+      {beginner ? (
+        <Card testID="mock-beginner-note">
+          <AppText variant="cardTitle">{`Best from ${MOCK_RECOMMENDED_FROM} onwards`}</AppText>
+          <AppText variant="body" tone="secondary" style={styles.mt}>
+            This is a full TCF Canada simulation, and most of it is above your current level. You can take it now to see the format; a low score at this stage is normal.
+          </AppText>
+        </Card>
+      ) : null}
       <Card>
         <AppText variant="cardTitle">How it works</AppText>
         <AppText variant="body" tone="secondary" style={styles.mt}>

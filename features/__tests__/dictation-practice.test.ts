@@ -14,6 +14,6 @@ describe('dictation practice', () => {
     const b1 = await dictationSet(app.content, app.progress, 'B1', 'day', 50);
     expect(b1.length).toBeGreaterThan(a2.length);
     const a2All = await dictationSet(app.content, app.progress, 'A2', 'day', 50);
-    expect(a2All.every((e) => Number(e.id.slice(1, 3)) <= 1)).toBe(true);
+    expect(a2All.every((e) => e.id.startsWith('a0') || e.id.startsWith('u01-'))).toBe(true);
   });
 });

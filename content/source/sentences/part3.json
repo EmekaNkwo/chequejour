@@ -1,0 +1,482 @@
+[
+  {
+    "id": "s381",
+    "fr": "Je suis étudiante et j'ai vingt-deux ans.",
+    "en": "I am a student and I am twenty-two.",
+    "grammarNote": "Être says who you are (je suis); avoir gives your age (j'ai vingt-deux ans).",
+    "grammarTag": "etre-avoir",
+    "level": "A1"
+  },
+  {
+    "id": "s382",
+    "fr": "Mon père est grand et ma mère est petite.",
+    "en": "My father is tall and my mother is short.",
+    "grammarNote": "Mon goes with a masculine noun (père), ma with a feminine noun (mère).",
+    "grammarTag": "possessifs",
+    "level": "A1"
+  },
+  {
+    "id": "s383",
+    "fr": "Nous habitons dans un petit appartement en ville.",
+    "en": "We live in a small apartment in town.",
+    "grammarNote": "Habiter is a regular -er verb: with nous it ends in -ons (nous habitons).",
+    "grammarTag": "present",
+    "level": "A1"
+  },
+  {
+    "id": "s384",
+    "fr": "Tu as un frère ou une sœur ?",
+    "en": "Do you have a brother or a sister?",
+    "grammarNote": "Avoir with tu is 'tu as'. A rising voice turns the sentence into a question.",
+    "grammarTag": "etre-avoir",
+    "level": "A1"
+  },
+  {
+    "id": "s385",
+    "fr": "Elle parle anglais, français et un peu d'espagnol.",
+    "en": "She speaks English, French and a little Spanish.",
+    "grammarNote": "With il/elle, -er verbs end in a silent -e (elle parle). No article after parler + language.",
+    "grammarTag": "present",
+    "level": "A1"
+  },
+  {
+    "id": "s386",
+    "fr": "Le café est chaud, mais la soupe est froide.",
+    "en": "The coffee is hot, but the soup is cold.",
+    "grammarNote": "Adjectives agree with the noun: café is masculine (chaud), soupe is feminine (froide).",
+    "grammarTag": "accord",
+    "level": "A1"
+  },
+  {
+    "id": "s387",
+    "fr": "J'aime les pommes, mais je n'aime pas les bananes.",
+    "en": "I like apples, but I don't like bananas.",
+    "grammarNote": "Ne… pas goes around the verb: je n'aime pas. Ne becomes n' before a vowel.",
+    "grammarTag": "negation",
+    "level": "A1"
+  },
+  {
+    "id": "s388",
+    "fr": "Vous êtes canadien ? — Oui, je suis de Toronto.",
+    "en": "Are you Canadian? — Yes, I'm from Toronto.",
+    "grammarNote": "Vous is the polite 'you' for one person, or 'you' for a group. Être with vous is 'vous êtes'.",
+    "grammarTag": "pronoms-sujets",
+    "level": "A1"
+  },
+  {
+    "id": "s389",
+    "fr": "Ils ont deux enfants et un chien.",
+    "en": "They have two children and a dog.",
+    "grammarNote": "Avoir with ils/elles is 'ils ont'. Don't confuse it with 'ils sont' (they are).",
+    "grammarTag": "etre-avoir",
+    "level": "A1"
+  },
+  {
+    "id": "s390",
+    "fr": "Notre maison a trois chambres et un jardin.",
+    "en": "Our house has three bedrooms and a garden.",
+    "grammarNote": "Notre means 'our' for one thing; for several things use nos (nos chambres).",
+    "grammarTag": "possessifs",
+    "level": "A1"
+  },
+  {
+    "id": "s391",
+    "fr": "Le lundi, je travaille de neuf heures à dix-sept heures.",
+    "en": "On Mondays, I work from nine to five.",
+    "grammarNote": "'Le lundi' means every Monday. French often gives times on a 24-hour clock (dix-sept heures = 5 p.m.).",
+    "grammarTag": "present",
+    "level": "A1"
+  },
+  {
+    "id": "s392",
+    "fr": "C'est mon amie Clara, elle est infirmière.",
+    "en": "This is my friend Clara, she is a nurse.",
+    "grammarNote": "Elle replaces Clara. No article before a job after être: elle est infirmière.",
+    "grammarTag": "pronoms-sujets",
+    "level": "A1"
+  },
+  {
+    "id": "s393",
+    "fr": "Les enfants regardent la télévision dans le salon.",
+    "en": "The children are watching TV in the living room.",
+    "grammarNote": "With ils/elles, -er verbs end in -ent, which is silent: ils regardent.",
+    "grammarTag": "present",
+    "level": "A1"
+  },
+  {
+    "id": "s394",
+    "fr": "J'ai une voiture bleue et un vélo noir.",
+    "en": "I have a blue car and a black bike.",
+    "grammarNote": "Most colours come after the noun and agree: voiture is feminine, so bleue takes an -e.",
+    "grammarTag": "accord",
+    "level": "A1"
+  },
+  {
+    "id": "s395",
+    "fr": "Où est la gare, s'il vous plaît ?",
+    "en": "Where is the train station, please?",
+    "grammarNote": "Où means 'where'. Put it first, then the verb: où est… ?",
+    "grammarTag": "questions",
+    "level": "A1"
+  },
+  {
+    "id": "s396",
+    "fr": "Ma fille a les yeux verts.",
+    "en": "My daughter has green eyes.",
+    "grammarNote": "French uses avoir + les for eye and hair colour: elle a les yeux verts.",
+    "grammarTag": "etre-avoir",
+    "level": "A1"
+  },
+  {
+    "id": "s397",
+    "fr": "On mange souvent des pâtes le soir.",
+    "en": "We often eat pasta in the evening.",
+    "grammarNote": "In everyday French, 'on' often means 'we'. It uses the same verb form as il/elle: on mange.",
+    "grammarTag": "pronoms-sujets",
+    "level": "A1"
+  },
+  {
+    "id": "s398",
+    "fr": "Je bois du lait et de l'eau.",
+    "en": "I drink milk and water.",
+    "grammarNote": "Use du (masculine) or de l' (before a vowel) for an amount you don't count.",
+    "grammarTag": "partitifs",
+    "level": "A1"
+  },
+  {
+    "id": "s399",
+    "fr": "Leurs voisins sont très gentils.",
+    "en": "Their neighbours are very nice.",
+    "grammarNote": "Leur means 'their' for one thing; leurs is for several things (leurs voisins).",
+    "grammarTag": "possessifs",
+    "level": "A1"
+  },
+  {
+    "id": "s400",
+    "fr": "Tu habites à Montréal ou à Québec ?",
+    "en": "Do you live in Montreal or in Quebec City?",
+    "grammarNote": "Use à before the name of a city: à Montréal, à Québec.",
+    "grammarTag": "prepositions",
+    "level": "A1"
+  },
+  {
+    "id": "s401",
+    "fr": "Mon numéro de téléphone commence par cinq, un, quatre.",
+    "en": "My phone number starts with five, one, four.",
+    "grammarNote": "Numbers on their own don't change: un, deux, trois, quatre, cinq…",
+    "grammarTag": "vocabulary",
+    "level": "A1"
+  },
+  {
+    "id": "s402",
+    "fr": "Je ne parle pas chinois.",
+    "en": "I don't speak Chinese.",
+    "grammarNote": "To make a verb negative, put ne before it and pas after it: je ne parle pas.",
+    "grammarTag": "negation",
+    "level": "A1"
+  },
+  {
+    "id": "s403",
+    "fr": "Elles sont fatiguées après le travail.",
+    "en": "They are tired after work.",
+    "grammarNote": "The adjective agrees with elles (feminine plural), so fatigué takes -es.",
+    "grammarTag": "accord",
+    "level": "A1"
+  },
+  {
+    "id": "s404",
+    "fr": "Qu'est-ce que tu aimes faire le week-end ?",
+    "en": "What do you like to do at the weekend?",
+    "grammarNote": "Qu'est-ce que means 'what' at the start of a question. After aimer, the next verb stays in the infinitive (faire).",
+    "grammarTag": "questions",
+    "level": "A1"
+  },
+  {
+    "id": "s405",
+    "fr": "Votre fils est très sympathique, madame.",
+    "en": "Your son is very nice, madam.",
+    "grammarNote": "Votre is the polite 'your' (with vous) for one thing; vos is for several things.",
+    "grammarTag": "possessifs",
+    "level": "A1"
+  },
+  {
+    "id": "s406",
+    "fr": "Aujourd'hui, il fait beau et chaud.",
+    "en": "Today the weather is nice and warm.",
+    "grammarNote": "For the weather, French uses 'il fait': il fait beau, il fait chaud, il fait froid.",
+    "grammarTag": "vocabulary",
+    "level": "A1"
+  },
+  {
+    "id": "s407",
+    "fr": "Le magasin ouvre à dix heures.",
+    "en": "The shop opens at ten o'clock.",
+    "grammarNote": "Ouvrir looks irregular but takes -er endings in the present: il ouvre. Use à for a time: à dix heures.",
+    "grammarTag": "present",
+    "level": "A1"
+  },
+  {
+    "id": "s408",
+    "fr": "Paul est français et sa femme est italienne.",
+    "en": "Paul is French and his wife is Italian.",
+    "grammarNote": "Sa matches femme (feminine), not Paul. So sa femme can mean 'his wife' or 'her wife'.",
+    "grammarTag": "possessifs",
+    "level": "A1"
+  },
+  {
+    "id": "s409",
+    "fr": "J'ai faim et j'ai très soif.",
+    "en": "I'm hungry and I'm very thirsty.",
+    "grammarNote": "French says 'I have hunger' and 'I have thirst': avoir faim, avoir soif.",
+    "grammarTag": "etre-avoir",
+    "level": "A1"
+  },
+  {
+    "id": "s410",
+    "fr": "Le livre est sur la table.",
+    "en": "The book is on the table.",
+    "grammarNote": "Sur means 'on'. Its opposite is sous (under).",
+    "grammarTag": "prepositions",
+    "level": "A1"
+  },
+  {
+    "id": "s411",
+    "fr": "Il y a une pharmacie à côté de la banque.",
+    "en": "There is a pharmacy next to the bank.",
+    "grammarNote": "Il y a means 'there is' or 'there are'. À côté de means 'next to'.",
+    "grammarTag": "il-y-a",
+    "level": "A1+"
+  },
+  {
+    "id": "s412",
+    "fr": "Il n'y a pas de lait dans le frigo.",
+    "en": "There is no milk in the fridge.",
+    "grammarNote": "The negative of il y a is il n'y a pas. After it, du/de la/des become de.",
+    "grammarTag": "il-y-a",
+    "level": "A1+"
+  },
+  {
+    "id": "s413",
+    "fr": "Je n'ai pas de voiture, alors je marche.",
+    "en": "I don't have a car, so I walk.",
+    "grammarNote": "After ne… pas, un/une/des become de: je n'ai pas de voiture.",
+    "grammarTag": "negation",
+    "level": "A1+"
+  },
+  {
+    "id": "s414",
+    "fr": "Le samedi, je me lève tard.",
+    "en": "On Saturdays, I get up late.",
+    "grammarNote": "Se lever is a reflexive verb: the pronoun matches the subject (je me lève).",
+    "grammarTag": "pronominaux",
+    "level": "A1+"
+  },
+  {
+    "id": "s415",
+    "fr": "Nous nous couchons vers onze heures.",
+    "en": "We go to bed around eleven.",
+    "grammarNote": "With nous, the reflexive pronoun is also nous: nous nous couchons.",
+    "grammarTag": "pronominaux",
+    "level": "A1+"
+  },
+  {
+    "id": "s416",
+    "fr": "Tu te douches le matin ou le soir ?",
+    "en": "Do you shower in the morning or in the evening?",
+    "grammarNote": "With tu, the reflexive pronoun is te: tu te douches.",
+    "grammarTag": "pronominaux",
+    "level": "A1+"
+  },
+  {
+    "id": "s417",
+    "fr": "Est-ce que vous pouvez parler plus lentement ?",
+    "en": "Can you speak more slowly?",
+    "grammarNote": "Put est-ce que at the start to turn a sentence into a yes/no question. Pouvoir is followed by an infinitive.",
+    "grammarTag": "questions",
+    "level": "A1+"
+  },
+  {
+    "id": "s418",
+    "fr": "À quelle heure commence le film ?",
+    "en": "What time does the film start?",
+    "grammarNote": "À quelle heure means 'at what time'. Quelle agrees with heure (feminine).",
+    "grammarTag": "questions",
+    "level": "A1+"
+  },
+  {
+    "id": "s419",
+    "fr": "Combien coûte ce pain, s'il vous plaît ?",
+    "en": "How much is this bread, please?",
+    "grammarNote": "Combien coûte… ? asks the price of one thing; use coûtent for several things.",
+    "grammarTag": "questions",
+    "level": "A1+"
+  },
+  {
+    "id": "s420",
+    "fr": "Demain, je vais visiter le musée avec ma sœur.",
+    "en": "Tomorrow, I'm going to visit the museum with my sister.",
+    "grammarNote": "Futur proche: aller in the present + an infinitive (je vais visiter).",
+    "grammarTag": "futur-proche",
+    "level": "A1+"
+  },
+  {
+    "id": "s421",
+    "fr": "Ils vont déménager au mois de juillet.",
+    "en": "They're going to move house in July.",
+    "grammarNote": "Futur proche with ils: ils vont + infinitive (déménager).",
+    "grammarTag": "futur-proche",
+    "level": "A1+"
+  },
+  {
+    "id": "s422",
+    "fr": "On va prendre un taxi pour aller à l'aéroport.",
+    "en": "We're going to take a taxi to go to the airport.",
+    "grammarNote": "On va + infinitive is a very common way to say 'we're going to'.",
+    "grammarTag": "futur-proche",
+    "level": "A1+"
+  },
+  {
+    "id": "s423",
+    "fr": "Je ne vais pas sortir ce soir.",
+    "en": "I'm not going to go out tonight.",
+    "grammarNote": "In the futur proche, ne… pas goes around aller: je ne vais pas sortir.",
+    "grammarTag": "futur-proche",
+    "level": "A1+"
+  },
+  {
+    "id": "s424",
+    "fr": "Le week-end, nous faisons du vélo au parc.",
+    "en": "At the weekend, we go cycling in the park.",
+    "grammarNote": "Faire du / de la + activity is used for sports: faire du vélo, faire de la natation.",
+    "grammarTag": "present",
+    "level": "A1+"
+  },
+  {
+    "id": "s425",
+    "fr": "Elle prend le train de huit heures.",
+    "en": "She takes the eight o'clock train.",
+    "grammarNote": "Prendre is irregular: je prends, tu prends, elle prend, nous prenons.",
+    "grammarTag": "present",
+    "level": "A1+"
+  },
+  {
+    "id": "s426",
+    "fr": "Tu veux venir au cinéma avec moi ?",
+    "en": "Do you want to come to the cinema with me?",
+    "grammarNote": "Vouloir is irregular (tu veux) and is followed by an infinitive (venir).",
+    "grammarTag": "present",
+    "level": "A1+"
+  },
+  {
+    "id": "s427",
+    "fr": "Je ne peux pas venir, je travaille.",
+    "en": "I can't come, I'm working.",
+    "grammarNote": "Pouvoir is irregular (je peux). Ne… pas goes around peux, and the infinitive comes after.",
+    "grammarTag": "present",
+    "level": "A1+"
+  },
+  {
+    "id": "s428",
+    "fr": "Mes parents vont en Espagne en août.",
+    "en": "My parents are going to Spain in August.",
+    "grammarNote": "Use en before a feminine country (en Espagne) and before a month (en août).",
+    "grammarTag": "prepositions",
+    "level": "A1+"
+  },
+  {
+    "id": "s429",
+    "fr": "Le chat dort sous le lit.",
+    "en": "The cat is sleeping under the bed.",
+    "grammarNote": "Sous means 'under'; its opposite is sur (on).",
+    "grammarTag": "prepositions",
+    "level": "A1+"
+  },
+  {
+    "id": "s430",
+    "fr": "La boulangerie est entre la poste et le café.",
+    "en": "The bakery is between the post office and the café.",
+    "grammarNote": "Entre… et… means 'between… and…'.",
+    "grammarTag": "prepositions",
+    "level": "A1+"
+  },
+  {
+    "id": "s431",
+    "fr": "Je vais au supermarché, puis à la pharmacie.",
+    "en": "I'm going to the supermarket, then to the pharmacy.",
+    "grammarNote": "À + le becomes au (au supermarché); à + la does not change (à la pharmacie).",
+    "grammarTag": "prepositions",
+    "level": "A1+"
+  },
+  {
+    "id": "s432",
+    "fr": "Ferme la fenêtre, s'il te plaît.",
+    "en": "Close the window, please.",
+    "grammarNote": "The imperative gives an order. For tu with -er verbs, drop the -s: tu fermes → ferme !",
+    "grammarTag": "imperatif",
+    "level": "A1+"
+  },
+  {
+    "id": "s433",
+    "fr": "Il ne mange pas de viande.",
+    "en": "He doesn't eat meat.",
+    "grammarNote": "After ne… pas, de la/du/des become de: il ne mange pas de viande.",
+    "grammarTag": "negation",
+    "level": "A1+"
+  },
+  {
+    "id": "s434",
+    "fr": "Il y a combien d'étudiants dans ta classe ?",
+    "en": "How many students are there in your class?",
+    "grammarNote": "In spoken French, you can ask il y a combien de… ? for 'how many… are there?'.",
+    "grammarTag": "il-y-a",
+    "level": "A1+"
+  },
+  {
+    "id": "s435",
+    "fr": "Qu'est-ce qu'il y a dans ton sac ?",
+    "en": "What is there in your bag?",
+    "grammarNote": "Qu'est-ce qu'il y a… ? asks 'what is there…?'. Que becomes qu' before il.",
+    "grammarTag": "il-y-a",
+    "level": "A1+"
+  },
+  {
+    "id": "s436",
+    "fr": "Je fais mes devoirs avant le dîner.",
+    "en": "I do my homework before dinner.",
+    "grammarNote": "Faire is irregular: je fais, tu fais, il fait, nous faisons.",
+    "grammarTag": "present",
+    "level": "A1+"
+  },
+  {
+    "id": "s437",
+    "fr": "Nous prenons le petit-déjeuner ensemble le dimanche.",
+    "en": "We have breakfast together on Sundays.",
+    "grammarNote": "French 'takes' a meal: prendre le petit-déjeuner. With nous: nous prenons.",
+    "grammarTag": "present",
+    "level": "A1+"
+  },
+  {
+    "id": "s438",
+    "fr": "Qu'est-ce que tu vas faire pendant les vacances ?",
+    "en": "What are you going to do during the holidays?",
+    "grammarNote": "Futur proche in a question: qu'est-ce que + tu vas + infinitive.",
+    "grammarTag": "futur-proche",
+    "level": "A1+"
+  },
+  {
+    "id": "s439",
+    "fr": "Mes enfants s'habillent seuls maintenant.",
+    "en": "My children get dressed by themselves now.",
+    "grammarNote": "S'habiller is reflexive: with ils/elles, se becomes s' before a vowel or h (ils s'habillent).",
+    "grammarTag": "pronominaux",
+    "level": "A1+"
+  },
+  {
+    "id": "s440",
+    "fr": "J'achète du pain, du fromage et des œufs.",
+    "en": "I'm buying bread, cheese and eggs.",
+    "grammarNote": "Use du for a masculine noun and des for a plural. Acheter takes a grave accent: j'achète.",
+    "grammarTag": "partitifs",
+    "level": "A1+"
+  }
+]

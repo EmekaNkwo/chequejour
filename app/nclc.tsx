@@ -7,7 +7,7 @@ import { Row, SectionTitle } from '../components/ui/Bits';
 import { Card } from '../components/ui/Card';
 import { Screen } from '../components/ui/Screen';
 import { ScreenHeader } from '../components/ui/ScreenHeader';
-import { cefrForNclc, IRCC_TCF_TABLE, NCLC_DISCLAIMER, NCLC_THRESHOLDS, type ScoreRange } from '../domain/tcf/nclc';
+import { cefrForNclc, IRCC_TCF_TABLE, LOWEST_TABLE_NCLC, NCLC_DISCLAIMER, NCLC_THRESHOLDS, type ScoreRange } from '../domain/tcf/nclc';
 
 const range = (r: ScoreRange): string => (r.min === r.max ? String(r.min) : `${r.min}–${r.max}`);
 
@@ -78,13 +78,13 @@ export default function NclcInfoScreen() {
         </AppText>
         {NCLC_THRESHOLDS.map((t) => (
           <Row key={t.nclc} style={[styles.tableRow, { borderColor: colors.border }]}>
-            <AppText variant="bodyStrong" style={styles.col}>{`${t.nclc === 3 ? '3 or below' : `NCLC ${t.nclc}`}`}</AppText>
+            <AppText variant="bodyStrong" style={styles.col}>{t.nclc < LOWEST_TABLE_NCLC ? `NCLC ${t.nclc} (below the table)` : `NCLC ${t.nclc}`}</AppText>
             <AppText variant="meta" tone="muted" style={styles.col}>{`from ${Math.round(t.minScore * 100)}%`}</AppText>
             <AppText variant="meta" tone="muted" style={styles.col}>{t.nclc >= 7 ? '≈ B2' : `≈ ${cefrForNclc(t.nclc)}`}</AppText>
           </Row>
         ))}
         <AppText variant="meta" tone="muted" style={styles.mt}>
-          This course goes from A2 to B1, so practice alone can show about NCLC 6. NCLC 7 and 8 are usually placed around B2; the mock tests include a few harder questions, which is how an estimate of NCLC 7 or 8 can appear.
+          This course goes from A1 to B1, so practice alone can show about NCLC 6. IRCC&apos;s table starts at NCLC 4, so lower estimates show as &ldquo;below NCLC 4&rdquo;. NCLC 7 and 8 are usually placed around B2; the mock tests include a few harder questions, which is how an estimate of NCLC 7 or 8 can appear.
         </AppText>
       </Card>
     </Screen>

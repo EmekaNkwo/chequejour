@@ -170,7 +170,7 @@ function Home({ data }: { data: HomeData }) {
         </Card>
       ) : null}
 
-      <Card onPress={() => router.push('/level')} accessibilityLabel={`Estimated level ${level.estimate.label}, practice estimate, ${Math.round(level.estimate.value * 100)} percent of the way from A2 to B1.`}>
+      <Card onPress={() => router.push('/level')} accessibilityLabel={`Estimated level ${level.estimate.label}, practice estimate, ${Math.round(level.estimate.value * 100)} percent of the way from A1 to B1.`}>
         <AppText variant="cardTitle">Your level</AppText>
         <Row style={[styles.between, styles.mt]}>
           <AppText variant="bodyStrong">A2</AppText>

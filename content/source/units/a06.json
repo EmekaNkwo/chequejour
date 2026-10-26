@@ -1,0 +1,1825 @@
+{
+  "id": "a06",
+  "order": 6,
+  "level": "A1+",
+  "theme": "In town",
+  "titleFr": "En ville",
+  "description": "Find your way around town, use transport, talk about the weather and the seasons, and say what you are going to do at the weekend.",
+  "vocab": [
+    {
+      "id": "a06-w001",
+      "fr": "ville",
+      "en": "town, city",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "villes",
+      "level": "A1+",
+      "core": true,
+      "example": {
+        "fr": "J'habite dans une petite ville.",
+        "en": "I live in a small town."
+      }
+    },
+    {
+      "id": "a06-w002",
+      "fr": "banque",
+      "en": "bank",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "banques",
+      "level": "A1+",
+      "core": true,
+      "example": {
+        "fr": "La banque est à côté de la gare.",
+        "en": "The bank is next to the station."
+      }
+    },
+    {
+      "id": "a06-w003",
+      "fr": "cinéma",
+      "en": "cinema, movie theatre",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "cinémas",
+      "level": "A1+",
+      "core": false,
+      "example": {
+        "fr": "Ce soir, nous allons au cinéma.",
+        "en": "Tonight, we are going to the cinema."
+      }
+    },
+    {
+      "id": "a06-w004",
+      "fr": "restaurant",
+      "en": "restaurant",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "restaurants",
+      "level": "A1+",
+      "core": false,
+      "example": {
+        "fr": "Il y a un bon restaurant dans ma rue.",
+        "en": "There is a good restaurant in my street."
+      }
+    },
+    {
+      "id": "a06-w005",
+      "fr": "théâtre",
+      "en": "theatre",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "théâtres",
+      "level": "A1+",
+      "core": false,
+      "example": {
+        "fr": "Le théâtre est en face du parc.",
+        "en": "The theatre is opposite the park."
+      }
+    },
+    {
+      "id": "a06-w006",
+      "fr": "gare routière",
+      "en": "bus station, coach station",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "gares routières",
+      "level": "A1+",
+      "core": false,
+      "example": {
+        "fr": "Le car pour Québec part de la gare routière.",
+        "en": "The coach to Quebec City leaves from the bus station."
+      }
+    },
+    {
+      "id": "a06-w007",
+      "fr": "bus",
+      "en": "bus",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A1+",
+      "core": true,
+      "example": {
+        "fr": "Je prends le bus tous les matins.",
+        "en": "I take the bus every morning."
+      }
+    },
+    {
+      "id": "a06-w008",
+      "fr": "train",
+      "en": "train",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "trains",
+      "level": "A1+",
+      "core": true,
+      "example": {
+        "fr": "Le train pour Ottawa part à neuf heures.",
+        "en": "The train to Ottawa leaves at nine o'clock."
+      }
+    },
+    {
+      "id": "a06-w009",
+      "fr": "voiture",
+      "en": "car",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "voitures",
+      "level": "A1+",
+      "core": true,
+      "example": {
+        "fr": "Ma voiture est devant la maison.",
+        "en": "My car is in front of the house."
+      }
+    },
+    {
+      "id": "a06-w010",
+      "fr": "taxi",
+      "en": "taxi",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "taxis",
+      "level": "A1+",
+      "core": false,
+      "example": {
+        "fr": "Il est tard, on prend un taxi ?",
+        "en": "It's late, shall we take a taxi?"
+      }
+    },
+    {
+      "id": "a06-w011",
+      "fr": "avion",
+      "en": "plane",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "avions",
+      "level": "A1+",
+      "core": false,
+      "example": {
+        "fr": "Elle va à Paris en avion.",
+        "en": "She is going to Paris by plane."
+      }
+    },
+    {
+      "id": "a06-w012",
+      "fr": "moto",
+      "en": "motorbike",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "motos",
+      "level": "A1+",
+      "core": false,
+      "example": {
+        "fr": "Mon frère va au travail à moto.",
+        "en": "My brother goes to work by motorbike."
+      }
+    },
+    {
+      "id": "a06-w013",
+      "fr": "carnet",
+      "en": "book of tickets",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "carnets",
+      "level": "A1+",
+      "core": false,
+      "example": {
+        "fr": "Je voudrais un carnet de dix tickets, s'il vous plaît.",
+        "en": "I'd like a book of ten tickets, please."
+      }
+    },
+    {
+      "id": "a06-w014",
+      "fr": "tarif",
+      "en": "price, fare",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "tarifs",
+      "level": "A1+",
+      "core": false,
+      "example": {
+        "fr": "Le tarif étudiant est de un euro cinquante.",
+        "en": "The student fare is one euro fifty."
+      }
+    },
+    {
+      "id": "a06-w015",
+      "fr": "chemin",
+      "en": "way, path",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "chemins",
+      "level": "A1+",
+      "core": false,
+      "example": {
+        "fr": "C'est le bon chemin pour la gare ?",
+        "en": "Is this the right way to the station?"
+      }
+    },
+    {
+      "id": "a06-w016",
+      "fr": "aller",
+      "en": "to go",
+      "pos": "verb",
+      "level": "A1+",
+      "core": true,
+      "example": {
+        "fr": "Nous allons au parc le dimanche.",
+        "en": "We go to the park on Sundays."
+      }
+    },
+    {
+      "id": "a06-w017",
+      "fr": "faire",
+      "en": "to do, to make",
+      "pos": "verb",
+      "level": "A1+",
+      "core": true,
+      "example": {
+        "fr": "Qu'est-ce que tu fais samedi ?",
+        "en": "What are you doing on Saturday?"
+      }
+    },
+    {
+      "id": "a06-w020",
+      "fr": "marcher",
+      "en": "to walk",
+      "pos": "verb",
+      "level": "A1+",
+      "core": false,
+      "example": {
+        "fr": "Quand il fait beau, je marche jusqu'au travail.",
+        "en": "When the weather is nice, I walk to work."
+      }
+    },
+    {
+      "id": "a06-w021",
+      "fr": "attendre",
+      "en": "to wait (for)",
+      "pos": "verb",
+      "level": "A1+",
+      "core": false,
+      "example": {
+        "fr": "Nous attendons le bus depuis dix minutes.",
+        "en": "We have been waiting for the bus for ten minutes."
+      }
+    },
+    {
+      "id": "a06-w022",
+      "fr": "arriver",
+      "en": "to arrive",
+      "pos": "verb",
+      "level": "A1+",
+      "core": false,
+      "example": {
+        "fr": "Le train arrive à midi.",
+        "en": "The train arrives at noon."
+      }
+    },
+    {
+      "id": "a06-w023",
+      "fr": "rester",
+      "en": "to stay",
+      "pos": "verb",
+      "level": "A1+",
+      "core": false,
+      "example": {
+        "fr": "Il pleut, alors je reste à la maison.",
+        "en": "It's raining, so I'm staying at home."
+      }
+    },
+    {
+      "id": "a06-w024",
+      "fr": "prendre le bus",
+      "en": "to take the bus",
+      "pos": "expression",
+      "level": "A1+",
+      "core": true,
+      "example": {
+        "fr": "Pour aller au centre, vous pouvez prendre le bus.",
+        "en": "To get to the centre, you can take the bus."
+      }
+    },
+    {
+      "id": "a06-w025",
+      "fr": "en voiture",
+      "en": "by car",
+      "pos": "expression",
+      "level": "A1+",
+      "core": false,
+      "example": {
+        "fr": "Ils vont à Montréal en voiture.",
+        "en": "They are going to Montreal by car."
+      }
+    },
+    {
+      "id": "a06-w026",
+      "fr": "à vélo",
+      "en": "by bike",
+      "pos": "expression",
+      "level": "A1+",
+      "core": false,
+      "example": {
+        "fr": "En été, je vais à l'école à vélo.",
+        "en": "In summer, I go to school by bike."
+      }
+    },
+    {
+      "id": "a06-w027",
+      "fr": "faire du vélo",
+      "en": "to go cycling",
+      "pos": "expression",
+      "level": "A1+",
+      "core": false,
+      "example": {
+        "fr": "Le dimanche, nous faisons du vélo au parc.",
+        "en": "On Sundays, we go cycling in the park."
+      }
+    },
+    {
+      "id": "a06-w028",
+      "fr": "Où est… ?",
+      "en": "Where is…?",
+      "pos": "expression",
+      "level": "A1+",
+      "core": true,
+      "example": {
+        "fr": "Pardon, où est la gare ?",
+        "en": "Excuse me, where is the station?"
+      }
+    },
+    {
+      "id": "a06-w029",
+      "fr": "Pour aller à… ?",
+      "en": "How do I get to…?",
+      "pos": "expression",
+      "level": "A1+",
+      "core": true,
+      "example": {
+        "fr": "Pour aller à la banque, s'il vous plaît ?",
+        "en": "How do I get to the bank, please?"
+      }
+    },
+    {
+      "id": "a06-w030",
+      "fr": "la première rue à droite",
+      "en": "the first street on the right",
+      "pos": "expression",
+      "level": "A1+",
+      "core": false,
+      "example": {
+        "fr": "Prenez la première rue à droite.",
+        "en": "Take the first street on the right."
+      }
+    },
+    {
+      "id": "a06-w031",
+      "fr": "C'est par où ?",
+      "en": "Which way is it?",
+      "pos": "expression",
+      "level": "A1+",
+      "core": false,
+      "example": {
+        "fr": "Le musée ? C'est par où ?",
+        "en": "The museum? Which way is it?"
+      }
+    },
+    {
+      "id": "a06-w032",
+      "fr": "près d'ici",
+      "en": "near here",
+      "pos": "expression",
+      "level": "A1+",
+      "core": false,
+      "example": {
+        "fr": "Il y a une pharmacie près d'ici ?",
+        "en": "Is there a pharmacy near here?"
+      }
+    },
+    {
+      "id": "a06-w033",
+      "fr": "tout près",
+      "en": "very close",
+      "pos": "expression",
+      "level": "A1+",
+      "core": false,
+      "example": {
+        "fr": "La gare ? C'est tout près, à deux minutes.",
+        "en": "The station? It's very close, two minutes away."
+      }
+    },
+    {
+      "id": "a06-w034",
+      "fr": "loin",
+      "en": "far",
+      "pos": "adverb",
+      "level": "A1+",
+      "core": false,
+      "example": {
+        "fr": "Le stade n'est pas loin.",
+        "en": "The stadium isn't far."
+      }
+    },
+    {
+      "id": "a06-w035",
+      "fr": "ici",
+      "en": "here",
+      "pos": "adverb",
+      "level": "A1+",
+      "core": false,
+      "example": {
+        "fr": "Le bus s'arrête ici.",
+        "en": "The bus stops here."
+      }
+    },
+    {
+      "id": "a06-w036",
+      "fr": "là-bas",
+      "en": "over there",
+      "pos": "adverb",
+      "level": "A1+",
+      "core": false,
+      "example": {
+        "fr": "Le cinéma est là-bas, à gauche.",
+        "en": "The cinema is over there, on the left."
+      }
+    },
+    {
+      "id": "a06-w037",
+      "fr": "Quel temps fait-il ?",
+      "en": "What's the weather like?",
+      "pos": "expression",
+      "level": "A1+",
+      "core": true,
+      "example": {
+        "fr": "Quel temps fait-il à Toronto aujourd'hui ?",
+        "en": "What's the weather like in Toronto today?"
+      }
+    },
+    {
+      "id": "a06-w038",
+      "fr": "temps",
+      "en": "weather",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A1+",
+      "core": true,
+      "example": {
+        "fr": "Aujourd'hui, le temps est gris.",
+        "en": "Today, the weather is grey."
+      }
+    },
+    {
+      "id": "a06-w039",
+      "fr": "météo",
+      "en": "weather forecast",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "météos",
+      "level": "A1+",
+      "core": false,
+      "example": {
+        "fr": "Je regarde la météo avant de partir.",
+        "en": "I check the weather forecast before leaving."
+      }
+    },
+    {
+      "id": "a06-w040",
+      "fr": "il fait beau",
+      "en": "the weather is nice",
+      "pos": "expression",
+      "level": "A1+",
+      "core": true,
+      "example": {
+        "fr": "Il fait beau, on va au parc ?",
+        "en": "The weather is nice, shall we go to the park?"
+      }
+    },
+    {
+      "id": "a06-w041",
+      "fr": "il fait mauvais",
+      "en": "the weather is bad",
+      "pos": "expression",
+      "level": "A1+",
+      "core": false,
+      "example": {
+        "fr": "Il fait mauvais, alors nous restons à la maison.",
+        "en": "The weather is bad, so we're staying at home."
+      }
+    },
+    {
+      "id": "a06-w042",
+      "fr": "il fait chaud",
+      "en": "it's hot",
+      "pos": "expression",
+      "level": "A1+",
+      "core": true,
+      "example": {
+        "fr": "En juillet, il fait chaud à Montréal.",
+        "en": "In July, it's hot in Montreal."
+      }
+    },
+    {
+      "id": "a06-w043",
+      "fr": "il fait froid",
+      "en": "it's cold",
+      "pos": "expression",
+      "level": "A1+",
+      "core": true,
+      "example": {
+        "fr": "Il fait froid, prends ton manteau !",
+        "en": "It's cold, take your coat!"
+      }
+    },
+    {
+      "id": "a06-w044",
+      "fr": "il fait doux",
+      "en": "it's mild",
+      "pos": "expression",
+      "level": "A1+",
+      "core": false,
+      "example": {
+        "fr": "Au printemps, il fait doux.",
+        "en": "In spring, it's mild."
+      }
+    },
+    {
+      "id": "a06-w045",
+      "fr": "il fait frais",
+      "en": "it's cool, it's chilly",
+      "pos": "expression",
+      "level": "A1+",
+      "core": false,
+      "example": {
+        "fr": "Le soir, il fait frais en septembre.",
+        "en": "In the evening, it's chilly in September."
+      }
+    },
+    {
+      "id": "a06-w046",
+      "fr": "il pleut",
+      "en": "it's raining",
+      "pos": "expression",
+      "level": "A1+",
+      "core": true,
+      "example": {
+        "fr": "Il pleut beaucoup à Vancouver.",
+        "en": "It rains a lot in Vancouver."
+      }
+    },
+    {
+      "id": "a06-w047",
+      "fr": "il neige",
+      "en": "it's snowing",
+      "pos": "expression",
+      "level": "A1+",
+      "core": true,
+      "example": {
+        "fr": "En janvier, il neige souvent au Québec.",
+        "en": "In January, it often snows in Quebec."
+      }
+    },
+    {
+      "id": "a06-w048",
+      "fr": "il y a du vent",
+      "en": "it's windy",
+      "pos": "expression",
+      "level": "A1+",
+      "core": false,
+      "example": {
+        "fr": "Il y a du vent sur la plage.",
+        "en": "It's windy on the beach."
+      }
+    },
+    {
+      "id": "a06-w049",
+      "fr": "il y a du soleil",
+      "en": "it's sunny",
+      "pos": "expression",
+      "level": "A1+",
+      "core": false,
+      "example": {
+        "fr": "Il y a du soleil mais il fait froid.",
+        "en": "It's sunny but it's cold."
+      }
+    },
+    {
+      "id": "a06-w050",
+      "fr": "soleil",
+      "en": "sun",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "soleils",
+      "level": "A1+",
+      "core": false,
+      "example": {
+        "fr": "Le soleil est chaud aujourd'hui.",
+        "en": "The sun is hot today."
+      }
+    },
+    {
+      "id": "a06-w051",
+      "fr": "pluie",
+      "en": "rain",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "pluies",
+      "level": "A1+",
+      "core": false,
+      "example": {
+        "fr": "Je n'aime pas la pluie.",
+        "en": "I don't like the rain."
+      }
+    },
+    {
+      "id": "a06-w052",
+      "fr": "neige",
+      "en": "snow",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "neiges",
+      "level": "A1+",
+      "core": false,
+      "example": {
+        "fr": "Les enfants jouent dans la neige.",
+        "en": "The children are playing in the snow."
+      }
+    },
+    {
+      "id": "a06-w053",
+      "fr": "vent",
+      "en": "wind",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "vents",
+      "level": "A1+",
+      "core": false,
+      "example": {
+        "fr": "Le vent est très fort ce matin.",
+        "en": "The wind is very strong this morning."
+      }
+    },
+    {
+      "id": "a06-w054",
+      "fr": "nuage",
+      "en": "cloud",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "nuages",
+      "level": "A1+",
+      "core": false,
+      "example": {
+        "fr": "Il y a beaucoup de nuages dans le ciel.",
+        "en": "There are a lot of clouds in the sky."
+      }
+    },
+    {
+      "id": "a06-w055",
+      "fr": "orage",
+      "en": "storm, thunderstorm",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "orages",
+      "level": "A1+",
+      "core": false,
+      "example": {
+        "fr": "Ce soir, il va y avoir un orage.",
+        "en": "Tonight, there is going to be a storm."
+      }
+    },
+    {
+      "id": "a06-w056",
+      "fr": "ciel",
+      "en": "sky",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "cieux",
+      "level": "A1+",
+      "core": false,
+      "example": {
+        "fr": "Le ciel est bleu aujourd'hui.",
+        "en": "The sky is blue today."
+      }
+    },
+    {
+      "id": "a06-w057",
+      "fr": "chaleur",
+      "en": "heat",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "chaleurs",
+      "level": "A1+",
+      "core": false,
+      "example": {
+        "fr": "Je n'aime pas la chaleur en été.",
+        "en": "I don't like the heat in summer."
+      }
+    },
+    {
+      "id": "a06-w058",
+      "fr": "saison",
+      "en": "season",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "saisons",
+      "level": "A1+",
+      "core": true,
+      "example": {
+        "fr": "Il y a quatre saisons au Canada.",
+        "en": "There are four seasons in Canada."
+      }
+    },
+    {
+      "id": "a06-w063",
+      "fr": "degré",
+      "en": "degree",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "degrés",
+      "level": "A1+",
+      "core": false,
+      "example": {
+        "fr": "Aujourd'hui, il fait vingt degrés.",
+        "en": "Today, it's twenty degrees."
+      }
+    },
+    {
+      "id": "a06-w064",
+      "fr": "parapluie",
+      "en": "umbrella",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "parapluies",
+      "level": "A1+",
+      "core": false,
+      "example": {
+        "fr": "Il va pleuvoir, prends ton parapluie.",
+        "en": "It's going to rain, take your umbrella."
+      }
+    },
+    {
+      "id": "a06-w065",
+      "fr": "nuageux",
+      "en": "cloudy",
+      "pos": "adjective",
+      "level": "A1+",
+      "core": false,
+      "example": {
+        "fr": "Demain, le ciel va être nuageux.",
+        "en": "Tomorrow, the sky is going to be cloudy."
+      }
+    },
+    {
+      "id": "a06-w066",
+      "fr": "ce week-end",
+      "en": "this weekend",
+      "pos": "expression",
+      "level": "A1+",
+      "core": true,
+      "example": {
+        "fr": "Ce week-end, je vais voir mes amis.",
+        "en": "This weekend, I'm going to see my friends."
+      }
+    },
+    {
+      "id": "a06-w067",
+      "fr": "ce soir",
+      "en": "tonight, this evening",
+      "pos": "expression",
+      "level": "A1+",
+      "core": false,
+      "example": {
+        "fr": "Ce soir, on va au restaurant.",
+        "en": "Tonight, we're going to the restaurant."
+      }
+    }
+  ],
+  "grammar": [
+    {
+      "id": "a06-g01",
+      "title": "Common irregular verbs: aller, faire, venir, prendre, vouloir, pouvoir",
+      "level": "A1+",
+      "grammarTag": "present",
+      "explanation": [
+        "Six very useful verbs are irregular. They do not follow the -er pattern, so you learn them by heart. The table shows their present tense.",
+        "Aller means 'to go'. Faire means 'to do' or 'to make'. Venir means 'to come'. Prendre means 'to take'. You use prendre for transport: je prends le bus, nous prenons le train.",
+        "Vouloir means 'to want' and pouvoir means 'can'. After them, the next verb stays in the infinitive: je veux partir, tu peux venir. Only the first verb changes.",
+        "Look at the patterns. The je and tu forms sound the same: je fais, tu fais. The nous and vous forms often change: je viens but nous venons. Watch the ils forms: ils vont, ils font, ils viennent, ils prennent, ils veulent, ils peuvent.",
+        "After aller, you often use à (to). After venir, you often use de (from). À and de join with le and les: à + le = au, à + les = aux, de + le = du, de + les = des. With la and l' nothing changes: à la gare, à l'hôtel, de la banque.",
+        "Faire is the weather verb: il fait beau, il fait froid, il fait chaud. Quel temps fait-il ? means 'What's the weather like?'"
+      ],
+      "table": [
+        [
+          "Subject",
+          "aller",
+          "faire",
+          "venir",
+          "prendre",
+          "vouloir",
+          "pouvoir"
+        ],
+        [
+          "je",
+          "vais",
+          "fais",
+          "viens",
+          "prends",
+          "veux",
+          "peux"
+        ],
+        [
+          "tu",
+          "vas",
+          "fais",
+          "viens",
+          "prends",
+          "veux",
+          "peux"
+        ],
+        [
+          "il / elle / on",
+          "va",
+          "fait",
+          "vient",
+          "prend",
+          "veut",
+          "peut"
+        ],
+        [
+          "nous",
+          "allons",
+          "faisons",
+          "venons",
+          "prenons",
+          "voulons",
+          "pouvons"
+        ],
+        [
+          "vous",
+          "allez",
+          "faites",
+          "venez",
+          "prenez",
+          "voulez",
+          "pouvez"
+        ],
+        [
+          "ils / elles",
+          "vont",
+          "font",
+          "viennent",
+          "prennent",
+          "veulent",
+          "peuvent"
+        ]
+      ],
+      "examples": [
+        {
+          "fr": "Je vais au cinéma avec Paul.",
+          "en": "I'm going to the cinema with Paul."
+        },
+        {
+          "fr": "Nous allons à la banque.",
+          "en": "We are going to the bank."
+        },
+        {
+          "fr": "Elle vient du restaurant.",
+          "en": "She is coming from the restaurant."
+        },
+        {
+          "fr": "Vous prenez le bus ou le train ?",
+          "en": "Are you taking the bus or the train?"
+        },
+        {
+          "fr": "Ils veulent aller au parc.",
+          "en": "They want to go to the park."
+        },
+        {
+          "fr": "Tu peux prendre un taxi.",
+          "en": "You can take a taxi."
+        },
+        {
+          "fr": "Il fait froid aujourd'hui.",
+          "en": "It's cold today."
+        },
+        {
+          "fr": "Qu'est-ce que vous faites ce soir ?",
+          "en": "What are you doing tonight?"
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "Je vais à le cinéma.",
+          "right": "Je vais au cinéma.",
+          "why": "À + le always becomes au."
+        },
+        {
+          "wrong": "Elle vient de le parc.",
+          "right": "Elle vient du parc.",
+          "why": "De + le always becomes du."
+        },
+        {
+          "wrong": "Vous faisez du vélo ?",
+          "right": "Vous faites du vélo ?",
+          "why": "Faire is irregular: vous faites, not vous faisez."
+        },
+        {
+          "wrong": "Je veux je pars.",
+          "right": "Je veux partir.",
+          "why": "After vouloir and pouvoir, the second verb is an infinitive."
+        }
+      ]
+    },
+    {
+      "id": "a06-g02",
+      "title": "Aller + infinitive (futur proche)",
+      "level": "A1+",
+      "grammarTag": "futur-proche",
+      "explanation": [
+        "To talk about the near future, use aller in the present + an infinitive. It is like 'going to' in English: je vais partir = I'm going to leave.",
+        "Only aller changes. The second verb stays in the infinitive: je vais manger, nous allons manger, ils vont manger.",
+        "The futur proche is very common for plans: ce soir, demain, ce week-end, samedi. Example: Ce week-end, je vais faire du vélo.",
+        "You also use it for the weather forecast: il va pleuvoir (it's going to rain), il va faire beau (the weather is going to be nice).",
+        "For the negative, put ne … pas around aller: je ne vais pas sortir. The infinitive comes after pas."
+      ],
+      "table": [
+        [
+          "Subject",
+          "aller",
+          "+ infinitive",
+          "English"
+        ],
+        [
+          "je",
+          "vais",
+          "partir",
+          "I'm going to leave"
+        ],
+        [
+          "tu",
+          "vas",
+          "venir",
+          "you're going to come"
+        ],
+        [
+          "il / elle / on",
+          "va",
+          "pleuvoir",
+          "it's going to rain"
+        ],
+        [
+          "nous",
+          "allons",
+          "prendre le train",
+          "we're going to take the train"
+        ],
+        [
+          "vous",
+          "allez",
+          "attendre",
+          "you're going to wait"
+        ],
+        [
+          "ils / elles",
+          "vont",
+          "rester",
+          "they're going to stay"
+        ],
+        [
+          "negative",
+          "je ne vais pas",
+          "sortir",
+          "I'm not going to go out"
+        ]
+      ],
+      "examples": [
+        {
+          "fr": "Je vais prendre le bus.",
+          "en": "I'm going to take the bus."
+        },
+        {
+          "fr": "Demain, il va neiger.",
+          "en": "Tomorrow, it's going to snow."
+        },
+        {
+          "fr": "Ce week-end, nous allons faire du vélo.",
+          "en": "This weekend, we're going to go cycling."
+        },
+        {
+          "fr": "Tu vas venir avec nous ?",
+          "en": "Are you going to come with us?"
+        },
+        {
+          "fr": "Ils vont arriver à midi.",
+          "en": "They're going to arrive at noon."
+        },
+        {
+          "fr": "Il va faire chaud samedi.",
+          "en": "It's going to be hot on Saturday."
+        },
+        {
+          "fr": "Je ne vais pas rester à la maison.",
+          "en": "I'm not going to stay at home."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "Je vais prends le bus.",
+          "right": "Je vais prendre le bus.",
+          "why": "After aller, use the infinitive (prendre), not a conjugated form."
+        },
+        {
+          "wrong": "Nous va partir demain.",
+          "right": "Nous allons partir demain.",
+          "why": "Aller must agree with the subject: nous allons."
+        },
+        {
+          "wrong": "Je vais ne pas sortir.",
+          "right": "Je ne vais pas sortir.",
+          "why": "Ne … pas goes around aller, not around the infinitive."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "a06-ex01",
+      "type": "mcq",
+      "level": "A1+",
+      "skill": "structures",
+      "grammarTag": "present",
+      "prompt": "Choose the correct form of aller.",
+      "promptFr": "Nous ___ au cinéma ce soir.",
+      "options": [
+        "allons",
+        "allez",
+        "vont",
+        "va"
+      ],
+      "answer": 0,
+      "explanation": "With nous, aller becomes allons. Allez goes with vous, vont with ils/elles, va with il/elle."
+    },
+    {
+      "id": "a06-ex02",
+      "type": "mcq",
+      "level": "A1+",
+      "skill": "structures",
+      "grammarTag": "prepositions",
+      "prompt": "Choose the correct word.",
+      "promptFr": "Je vais ___ banque.",
+      "options": [
+        "à la",
+        "au",
+        "aux",
+        "à l'"
+      ],
+      "answer": 0,
+      "explanation": "Banque is feminine (la banque), so à la stays as it is. Au is for masculine words (à + le), aux for plurals and à l' before a vowel."
+    },
+    {
+      "id": "a06-ex03",
+      "type": "mcq",
+      "level": "A1+",
+      "skill": "structures",
+      "grammarTag": "futur-proche",
+      "prompt": "Choose the correct form to make the futur proche.",
+      "promptFr": "Ce soir, je ___ regarder un film.",
+      "options": [
+        "vais",
+        "vas",
+        "va",
+        "allons"
+      ],
+      "answer": 0,
+      "explanation": "With je, aller is vais: je vais regarder. Vas goes with tu, va with il/elle and allons with nous."
+    },
+    {
+      "id": "a06-ex04",
+      "type": "mcq",
+      "level": "A1+",
+      "skill": "structures",
+      "grammarTag": "vocabulary",
+      "prompt": "It's January in Montreal. Choose the best sentence.",
+      "options": [
+        "Il neige et il fait froid.",
+        "Il fait chaud et il y a du soleil.",
+        "Il fait doux et c'est le printemps.",
+        "Il fait très chaud, c'est l'été."
+      ],
+      "answer": 0,
+      "explanation": "January is winter in Canada: it snows (il neige) and it's cold (il fait froid). The other sentences describe spring or summer."
+    },
+    {
+      "id": "a06-ex05",
+      "type": "fill_blank",
+      "level": "A1+",
+      "skill": "structures",
+      "grammarTag": "present",
+      "prompt": "Complete with faire in the present tense.",
+      "sentence": "Quel temps ___-il aujourd'hui ?",
+      "answers": [
+        "fait"
+      ],
+      "hint": "faire",
+      "translation": "What's the weather like today?",
+      "explanation": "For the weather, use faire with il: il fait. In the question, it becomes fait-il."
+    },
+    {
+      "id": "a06-ex06",
+      "type": "fill_blank",
+      "level": "A1+",
+      "skill": "structures",
+      "grammarTag": "present",
+      "prompt": "Complete with venir in the present tense.",
+      "sentence": "Tu ___ avec nous au parc ?",
+      "answers": [
+        "viens"
+      ],
+      "hint": "venir",
+      "translation": "Are you coming with us to the park?",
+      "explanation": "Venir with tu: tu viens. It sounds the same as je viens."
+    },
+    {
+      "id": "a06-ex07",
+      "type": "fill_blank",
+      "level": "A1+",
+      "skill": "structures",
+      "grammarTag": "present",
+      "prompt": "Complete with prendre in the present tense.",
+      "sentence": "Ils ___ le train à huit heures.",
+      "answers": [
+        "prennent"
+      ],
+      "hint": "prendre",
+      "translation": "They take the train at eight o'clock.",
+      "explanation": "Prendre with ils: ils prennent, with a double n."
+    },
+    {
+      "id": "a06-ex08",
+      "type": "fill_blank",
+      "level": "A1+",
+      "skill": "structures",
+      "grammarTag": "futur-proche",
+      "prompt": "Complete with aller to make the futur proche.",
+      "sentence": "Samedi, elles ___ visiter le musée.",
+      "answers": [
+        "vont"
+      ],
+      "hint": "aller",
+      "translation": "On Saturday, they are going to visit the museum.",
+      "explanation": "Futur proche = aller + infinitive. With elles, aller is vont."
+    },
+    {
+      "id": "a06-ex09",
+      "type": "conjugation",
+      "level": "A1+",
+      "skill": "structures",
+      "grammarTag": "present",
+      "verb": "vouloir",
+      "tense": "présent",
+      "person": "vous",
+      "answers": [
+        "voulez"
+      ],
+      "explanation": "Vouloir: je veux, tu veux, il veut, nous voulons, vous voulez, ils veulent."
+    },
+    {
+      "id": "a06-ex10",
+      "type": "conjugation",
+      "level": "A1+",
+      "skill": "structures",
+      "grammarTag": "present",
+      "verb": "pouvoir",
+      "tense": "présent",
+      "person": "ils",
+      "answers": [
+        "peuvent"
+      ],
+      "explanation": "Pouvoir: je peux, tu peux, il peut, nous pouvons, vous pouvez, ils peuvent."
+    },
+    {
+      "id": "a06-ex11",
+      "type": "conjugation",
+      "level": "A1+",
+      "skill": "structures",
+      "grammarTag": "present",
+      "verb": "faire",
+      "tense": "présent",
+      "person": "nous",
+      "answers": [
+        "faisons"
+      ],
+      "explanation": "Faire: je fais, tu fais, il fait, nous faisons, vous faites, ils font."
+    },
+    {
+      "id": "a06-ex12",
+      "type": "conjugation",
+      "level": "A1+",
+      "skill": "structures",
+      "grammarTag": "futur-proche",
+      "verb": "partir",
+      "tense": "futur proche",
+      "person": "je",
+      "answers": [
+        "vais partir"
+      ],
+      "explanation": "Futur proche = aller in the present + infinitive: je vais partir."
+    },
+    {
+      "id": "a06-ex13",
+      "type": "reorder",
+      "level": "A1+",
+      "skill": "structures",
+      "grammarTag": "futur-proche",
+      "prompt": "Put the words in order to make a sentence.",
+      "tokens": [
+        "Nous",
+        "allons",
+        "prendre",
+        "le",
+        "train",
+        "ce",
+        "soir."
+      ],
+      "translation": "We are going to take the train tonight.",
+      "explanation": "Subject + aller + infinitive + the rest: nous allons prendre le train."
+    },
+    {
+      "id": "a06-ex14",
+      "type": "reorder",
+      "level": "A1+",
+      "skill": "structures",
+      "grammarTag": "present",
+      "prompt": "Put the words in order to give directions.",
+      "tokens": [
+        "Tournez",
+        "à",
+        "gauche",
+        "après",
+        "la",
+        "banque."
+      ],
+      "translation": "Turn left after the bank.",
+      "explanation": "Tournez comes first (an instruction), then à gauche, then where: après la banque."
+    },
+    {
+      "id": "a06-ex15",
+      "type": "match",
+      "level": "A1+",
+      "skill": "structures",
+      "grammarTag": "vocabulary",
+      "prompt": "Match the French words with their meanings.",
+      "pairs": [
+        {
+          "left": "été",
+          "right": "summer"
+        },
+        {
+          "left": "hiver",
+          "right": "winter"
+        },
+        {
+          "left": "printemps",
+          "right": "spring"
+        },
+        {
+          "left": "automne",
+          "right": "autumn"
+        },
+        {
+          "left": "saison",
+          "right": "season"
+        }
+      ],
+      "explanation": "The four seasons: au printemps, en été, en automne, en hiver. All four are masculine."
+    },
+    {
+      "id": "a06-ex16",
+      "type": "mcq",
+      "level": "A1+",
+      "skill": "structures",
+      "grammarTag": "prepositions",
+      "prompt": "Choose the correct word.",
+      "promptFr": "Elle vient ___ restaurant.",
+      "options": [
+        "du",
+        "de le",
+        "de la",
+        "des"
+      ],
+      "answer": 0,
+      "explanation": "Restaurant is masculine (le restaurant), and de + le always becomes du. De le is never correct. De la is for feminine words and des for plurals."
+    },
+    {
+      "id": "a06-ex17",
+      "type": "translate",
+      "level": "A1+",
+      "skill": "structures",
+      "grammarTag": "futur-proche",
+      "direction": "en-fr",
+      "source": "I'm going to take the bus.",
+      "answers": [
+        "Je vais prendre le bus.",
+        "Je vais prendre l'autobus."
+      ],
+      "explanation": "'Going to' + verb = aller + infinitive: je vais prendre."
+    },
+    {
+      "id": "a06-ex18",
+      "type": "translate",
+      "level": "A1+",
+      "skill": "structures",
+      "grammarTag": "vocabulary",
+      "direction": "fr-en",
+      "source": "Il fait froid et il pleut.",
+      "answers": [
+        "It's cold and it's raining.",
+        "It is cold and it is raining.",
+        "It's cold and raining.",
+        "It is cold and raining."
+      ],
+      "explanation": "Il fait froid = it's cold. Il pleut = it's raining (or it rains)."
+    },
+    {
+      "id": "a06-ex19",
+      "type": "dictation",
+      "level": "A1+",
+      "skill": "listening",
+      "grammarTag": "futur-proche",
+      "text": "Ce week-end, nous allons faire du vélo.",
+      "translation": "This weekend, we are going to go cycling.",
+      "explanation": "Listen for allons (with nous) followed by the infinitive faire. There is no liaison between allons and faire, so the s is silent."
+    },
+    {
+      "id": "a06-ex20",
+      "type": "dictation",
+      "level": "A1+",
+      "skill": "listening",
+      "grammarTag": "present",
+      "text": "Il fait beau, je vais au parc.",
+      "translation": "The weather is nice, I'm going to the park.",
+      "explanation": "Au sounds like 'o'. It is à + le joined together: au parc."
+    }
+  ],
+  "checkpoint": [
+    {
+      "id": "a06-cp01",
+      "type": "mcq",
+      "level": "A1+",
+      "skill": "structures",
+      "grammarTag": "present",
+      "prompt": "Choose the correct form of pouvoir.",
+      "promptFr": "Vous ___ venir samedi ?",
+      "options": [
+        "pouvez",
+        "peux",
+        "peuvent",
+        "pouvons"
+      ],
+      "answer": 0,
+      "explanation": "With vous, pouvoir is pouvez. Peux goes with je/tu, peuvent with ils and pouvons with nous."
+    },
+    {
+      "id": "a06-cp02",
+      "type": "mcq",
+      "level": "A1+",
+      "skill": "structures",
+      "grammarTag": "futur-proche",
+      "prompt": "Choose the correct form.",
+      "promptFr": "Qu'est-ce que tu ___ faire ce week-end ?",
+      "options": [
+        "vas",
+        "va",
+        "vais",
+        "allez"
+      ],
+      "answer": 0,
+      "explanation": "With tu, aller is vas: tu vas faire. Va is for il/elle, vais for je and allez for vous."
+    },
+    {
+      "id": "a06-cp03",
+      "type": "mcq",
+      "level": "A1+",
+      "skill": "structures",
+      "grammarTag": "prepositions",
+      "prompt": "Choose the correct word.",
+      "promptFr": "On va ___ cinéma ?",
+      "options": [
+        "au",
+        "à le",
+        "à la",
+        "aux"
+      ],
+      "answer": 0,
+      "explanation": "Cinéma is masculine (le cinéma), and à + le becomes au. À le is never correct."
+    },
+    {
+      "id": "a06-cp04",
+      "type": "mcq",
+      "level": "A1+",
+      "skill": "structures",
+      "grammarTag": "vocabulary",
+      "prompt": "Which sentence means 'It's hot in summer'?",
+      "options": [
+        "En été, il fait chaud.",
+        "En hiver, il fait chaud.",
+        "En été, il fait froid.",
+        "En été, il neige."
+      ],
+      "answer": 0,
+      "explanation": "Été = summer and il fait chaud = it's hot. Hiver is winter, froid is cold and il neige means it's snowing."
+    },
+    {
+      "id": "a06-cp05",
+      "type": "fill_blank",
+      "level": "A1+",
+      "skill": "structures",
+      "grammarTag": "present",
+      "prompt": "Complete with prendre in the present tense.",
+      "sentence": "Nous ___ le métro pour aller au travail.",
+      "answers": [
+        "prenons"
+      ],
+      "hint": "prendre",
+      "translation": "We take the metro to go to work.",
+      "explanation": "Prendre with nous: nous prenons, with only one n."
+    },
+    {
+      "id": "a06-cp06",
+      "type": "fill_blank",
+      "level": "A1+",
+      "skill": "structures",
+      "grammarTag": "futur-proche",
+      "prompt": "Complete with aller to make the futur proche.",
+      "sentence": "Prends ton parapluie, il ___ pleuvoir.",
+      "answers": [
+        "va"
+      ],
+      "hint": "aller",
+      "translation": "Take your umbrella, it's going to rain.",
+      "explanation": "Il va pleuvoir = it's going to rain. With il, aller is va."
+    },
+    {
+      "id": "a06-cp07",
+      "type": "conjugation",
+      "level": "A1+",
+      "skill": "structures",
+      "grammarTag": "present",
+      "verb": "venir",
+      "tense": "présent",
+      "person": "elles",
+      "answers": [
+        "viennent"
+      ],
+      "explanation": "Venir: je viens, tu viens, il vient, nous venons, vous venez, elles viennent."
+    },
+    {
+      "id": "a06-cp08",
+      "type": "conjugation",
+      "level": "A1+",
+      "skill": "structures",
+      "grammarTag": "present",
+      "verb": "aller",
+      "tense": "présent",
+      "person": "tu",
+      "answers": [
+        "vas"
+      ],
+      "explanation": "Aller: je vais, tu vas, il va, nous allons, vous allez, ils vont."
+    },
+    {
+      "id": "a06-cp09",
+      "type": "translate",
+      "level": "A1+",
+      "skill": "structures",
+      "grammarTag": "vocabulary",
+      "direction": "en-fr",
+      "source": "Where is the bank?",
+      "answers": [
+        "Où est la banque ?",
+        "Où se trouve la banque ?",
+        "La banque est où ?"
+      ],
+      "explanation": "Où est + the place: où est la banque ? Banque is feminine, so it is la banque."
+    },
+    {
+      "id": "a06-cp10",
+      "type": "reorder",
+      "level": "A1+",
+      "skill": "structures",
+      "grammarTag": "futur-proche",
+      "prompt": "Put the words in order to make a sentence.",
+      "tokens": [
+        "Elles",
+        "vont",
+        "attendre",
+        "le",
+        "bus",
+        "ici."
+      ],
+      "translation": "They are going to wait for the bus here.",
+      "explanation": "Subject + aller + infinitive: elles vont attendre. Attendre takes no word for 'for': attendre le bus."
+    }
+  ],
+  "listening": [
+    {
+      "id": "a06-li01",
+      "title": "Pour aller à la gare ?",
+      "level": "A1+",
+      "kind": "dialogue",
+      "context": "A man asks a woman in the street for directions.",
+      "lines": [
+        {
+          "speaker": "Homme",
+          "fr": "Excusez-moi, madame. Pour aller à la gare, s'il vous plaît ?"
+        },
+        {
+          "speaker": "Femme",
+          "fr": "La gare ? C'est près d'ici."
+        },
+        {
+          "speaker": "Femme",
+          "fr": "Allez tout droit, puis tournez à gauche après la banque."
+        },
+        {
+          "speaker": "Homme",
+          "fr": "C'est loin à pied ?"
+        },
+        {
+          "speaker": "Femme",
+          "fr": "Non, dix minutes. Vous pouvez aussi prendre le bus 12."
+        },
+        {
+          "speaker": "Homme",
+          "fr": "Où est l'arrêt de bus ?"
+        },
+        {
+          "speaker": "Femme",
+          "fr": "Là-bas, en face du cinéma."
+        },
+        {
+          "speaker": "Homme",
+          "fr": "Merci beaucoup, madame !"
+        }
+      ],
+      "translation": "Man: Excuse me, madam. How do I get to the station, please?\nWoman: The station? It's near here.\nWoman: Go straight on, then turn left after the bank.\nMan: Is it far on foot?\nWoman: No, ten minutes. You can also take the number 12 bus.\nMan: Where is the bus stop?\nWoman: Over there, opposite the cinema.\nMan: Thank you very much, madam!",
+      "questions": [
+        {
+          "id": "a06-li01-q1",
+          "question": "Where does the man want to go?",
+          "options": [
+            "To the bank",
+            "To the station",
+            "To the cinema",
+            "To the bus station"
+          ],
+          "answer": 1,
+          "explanation": "He asks: « Pour aller à la gare ? » La gare is the train station. The bank and the cinema are landmarks."
+        },
+        {
+          "id": "a06-li01-q2",
+          "question": "What does he do after the bank?",
+          "options": [
+            "He turns right.",
+            "He goes straight on.",
+            "He turns left.",
+            "He takes the bus."
+          ],
+          "answer": 2,
+          "explanation": "The woman says: « tournez à gauche après la banque » (turn left after the bank)."
+        },
+        {
+          "id": "a06-li01-q3",
+          "question": "Where is the bus stop?",
+          "options": [
+            "Next to the bank",
+            "Opposite the cinema",
+            "Behind the station",
+            "Ten minutes away"
+          ],
+          "answer": 1,
+          "explanation": "« Là-bas, en face du cinéma » means over there, opposite the cinema."
+        }
+      ]
+    },
+    {
+      "id": "a06-li02",
+      "title": "Un message pour le week-end",
+      "level": "A1+",
+      "kind": "message",
+      "context": "Karim leaves a voicemail for his friend Julie about the weekend.",
+      "lines": [
+        {
+          "speaker": "Karim",
+          "fr": "Salut Julie, c'est Karim."
+        },
+        {
+          "speaker": "Karim",
+          "fr": "Samedi, il va faire beau et chaud."
+        },
+        {
+          "speaker": "Karim",
+          "fr": "Avec Paul, on va faire du vélo au bord du lac. Tu veux venir avec nous ?"
+        },
+        {
+          "speaker": "Karim",
+          "fr": "On part à dix heures, devant la gare."
+        },
+        {
+          "speaker": "Karim",
+          "fr": "Dimanche, il va pleuvoir, alors je vais rester à la maison."
+        },
+        {
+          "speaker": "Karim",
+          "fr": "Rappelle-moi ce soir. Bisous !"
+        }
+      ],
+      "translation": "Karim: Hi Julie, it's Karim.\nKarim: On Saturday, the weather is going to be nice and hot.\nKarim: With Paul, we're going to go cycling by the lake. Do you want to come with us?\nKarim: We're leaving at ten o'clock, in front of the station.\nKarim: On Sunday, it's going to rain, so I'm going to stay at home.\nKarim: Call me back tonight. Love!",
+      "questions": [
+        {
+          "id": "a06-li02-q1",
+          "question": "What will the weather be like on Saturday?",
+          "options": [
+            "Rainy",
+            "Nice and hot",
+            "Cold and windy",
+            "Snowy"
+          ],
+          "answer": 1,
+          "explanation": "« Samedi, il va faire beau et chaud. » The rain is for Sunday."
+        },
+        {
+          "id": "a06-li02-q2",
+          "question": "Where are they meeting?",
+          "options": [
+            "At the lake",
+            "At Paul's house",
+            "In front of the station",
+            "At Karim's house"
+          ],
+          "answer": 2,
+          "explanation": "« On part à dix heures, devant la gare. » Devant means in front of. The lake is where they are going to cycle."
+        },
+        {
+          "id": "a06-li02-q3",
+          "question": "What is Karim going to do on Sunday?",
+          "options": [
+            "Go cycling",
+            "Stay at home",
+            "Take the train",
+            "Call Paul"
+          ],
+          "answer": 1,
+          "explanation": "« Dimanche, il va pleuvoir, alors je vais rester à la maison. »"
+        }
+      ]
+    }
+  ],
+  "reading": [
+    {
+      "id": "a06-re01",
+      "title": "Bus et tramway : les tarifs",
+      "level": "A1+",
+      "kind": "notice",
+      "text": "BUS ET TRAMWAY DE LA VILLE\n\nTicket : 2 €\nCarnet de 10 tickets : 16 €\n\nVous pouvez acheter vos tickets au guichet de la gare, au bureau de tabac ou sur l'application.\n\nDu lundi au samedi, il y a un bus toutes les 10 minutes. Le dimanche, il y a un bus toutes les 30 minutes.\n\nAttention : en hiver, quand il neige, les horaires peuvent changer. Regardez la météo avant de partir !",
+      "translation": "CITY BUSES AND TRAMS\n\nTicket: €2\nBook of 10 tickets: €16\n\nYou can buy your tickets at the station ticket office, at the tobacconist's or on the app.\n\nFrom Monday to Saturday, there is a bus every 10 minutes. On Sundays, there is a bus every 30 minutes.\n\nCareful: in winter, when it snows, the timetables can change. Check the weather forecast before you leave!",
+      "questions": [
+        {
+          "id": "a06-re01-q1",
+          "question": "How much is a book of 10 tickets?",
+          "options": [
+            "€2",
+            "€10",
+            "€16",
+            "€20"
+          ],
+          "answer": 2,
+          "explanation": "« Carnet de 10 tickets : 16 € ». One ticket alone costs €2."
+        },
+        {
+          "id": "a06-re01-q2",
+          "question": "How often is there a bus on Sundays?",
+          "options": [
+            "Every 10 minutes",
+            "Every 30 minutes",
+            "Every hour",
+            "There is no bus."
+          ],
+          "answer": 1,
+          "explanation": "« Le dimanche, il y a un bus toutes les 30 minutes. » Every 10 minutes is from Monday to Saturday."
+        },
+        {
+          "id": "a06-re01-q3",
+          "question": "What can happen in winter?",
+          "options": [
+            "Tickets are free.",
+            "The timetables can change when it snows.",
+            "The trams don't run.",
+            "Tickets are more expensive."
+          ],
+          "answer": 1,
+          "explanation": "« En hiver, quand il neige, les horaires peuvent changer. »"
+        }
+      ]
+    },
+    {
+      "id": "a06-re02",
+      "title": "Un message de Québec",
+      "level": "A1+",
+      "kind": "message",
+      "text": "Salut Inès !\n\nJe suis à Québec avec ma sœur. La ville est très belle ! Il fait froid : moins dix degrés, et il neige tous les jours. Ce matin, nous prenons le bus pour aller au Vieux-Port. Demain, nous allons faire du patin à glace et visiter un musée. Le soir, on va au restaurant : ici, la soupe est délicieuse !\n\nGros bisous,\nMaya",
+      "translation": "Hi Inès!\n\nI'm in Quebec City with my sister. The city is very beautiful! It's cold: minus ten degrees, and it snows every day. This morning, we're taking the bus to go to the Old Port. Tomorrow, we're going to go ice skating and visit a museum. In the evening, we go to a restaurant: the soup here is delicious!\n\nBig hugs,\nMaya",
+      "questions": [
+        {
+          "id": "a06-re02-q1",
+          "question": "Who is Maya with?",
+          "options": [
+            "Her friend Inès",
+            "Her sister",
+            "Her mother",
+            "She is alone."
+          ],
+          "answer": 1,
+          "explanation": "« Je suis à Québec avec ma sœur. » Inès is the friend she is writing to."
+        },
+        {
+          "id": "a06-re02-q2",
+          "question": "What is the weather like?",
+          "options": [
+            "Mild and sunny",
+            "Hot",
+            "Cold and snowy",
+            "Rainy and windy"
+          ],
+          "answer": 2,
+          "explanation": "« Il fait froid : moins dix degrés, et il neige tous les jours. »"
+        },
+        {
+          "id": "a06-re02-q3",
+          "question": "What are they going to do tomorrow?",
+          "options": [
+            "Take the bus to the Old Port",
+            "Go ice skating and visit a museum",
+            "Go home",
+            "Go to the beach"
+          ],
+          "answer": 1,
+          "explanation": "« Demain, nous allons faire du patin à glace et visiter un musée. » The bus to the Old Port is this morning."
+        }
+      ]
+    }
+  ],
+  "writing": [
+    {
+      "id": "a06-wr01",
+      "title": "Invite a friend for the weekend",
+      "level": "A1+",
+      "taskType": "message",
+      "instructions": "Write a short message (20–40 words) to a friend. Invite them for the weekend: say what the weather is going to be like, where you are going and how you are going to get there. Use the futur proche (je vais + infinitive).",
+      "promptFr": "Vous écrivez un message à un ami. Vous l'invitez pour le week-end : dites quel temps il va faire, où vous allez et comment vous allez y aller. (20 à 40 mots)",
+      "minWords": 20,
+      "maxWords": 40,
+      "modelAnswer": "Salut Tom ! Samedi, il va faire beau. Je vais aller au parc avec Léa. On va prendre le bus à dix heures, devant la banque. Tu veux venir avec nous ? À samedi !",
+      "checklist": [
+        "I greet my friend and end the message.",
+        "I say what the weather is going to be like (il va faire beau, il va pleuvoir…).",
+        "I say where I'm going, with au, à la or à l' correctly.",
+        "I use aller + infinitive at least twice (je vais aller, on va prendre…).",
+        "I ask my friend a question (Tu veux venir ?)."
+      ]
+    }
+  ],
+  "speaking": [
+    {
+      "id": "a06-sp01",
+      "title": "Talk about your town",
+      "level": "A1+",
+      "taskType": "entretien",
+      "instructions": "The examiner asks you about the town where you live. Speak for about two minutes: the places in your town, how you get around and the weather in the different seasons.",
+      "promptFr": "Parlez-moi de votre ville. Qu'est-ce qu'il y a dans votre ville ? Comment est-ce que vous allez au travail ? Quel temps fait-il chez vous ?",
+      "prepSeconds": 0,
+      "speakSeconds": 120,
+      "modelAnswer": "J'habite à Calgary. C'est une grande ville. Dans mon quartier, il y a une banque, un cinéma, un parc et beaucoup de restaurants. Je vais au travail en bus. Je prends le bus à huit heures. Le week-end, je fais du vélo dans le parc. En hiver, il fait très froid et il neige beaucoup. En été, il fait chaud et il y a du soleil. Au printemps, il fait doux. J'aime beaucoup l'automne.",
+      "tips": [
+        "Use il y a to list places: il y a une banque, un parc…",
+        "Say how you travel with en or à: en bus, en voiture, à vélo, à pied.",
+        "Talk about the seasons with en été, en automne, en hiver but au printemps."
+      ]
+    },
+    {
+      "id": "a06-sp02",
+      "title": "Your weekend plans",
+      "level": "A1+",
+      "taskType": "entretien",
+      "instructions": "The examiner asks about your plans for next weekend. Speak for about two minutes: what you are going to do, with whom, where, and what the weather is going to be like.",
+      "promptFr": "Qu'est-ce que vous allez faire ce week-end ? Avec qui ? Où ?",
+      "prepSeconds": 0,
+      "speakSeconds": 120,
+      "modelAnswer": "Ce week-end, je vais être très occupé. Samedi matin, je vais aller au marché avec ma femme. L'après-midi, il va faire beau, alors nous allons faire du vélo au bord de la rivière. Le soir, nous allons au restaurant avec des amis. Dimanche, il va pleuvoir. Je vais rester à la maison et je vais regarder un film. Le soir, je vais préparer ma semaine.",
+      "tips": [
+        "Use aller + infinitive for each plan: je vais faire, nous allons voir.",
+        "Organise your plans by time: samedi matin, l'après-midi, le soir, dimanche.",
+        "Add the weather: il va faire beau, il va pleuvoir."
+      ]
+    }
+  ]
+}

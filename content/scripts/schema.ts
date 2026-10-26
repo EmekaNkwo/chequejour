@@ -201,7 +201,8 @@ const grammarLesson = z.object({
 });
 
 export const unitSchema = z.object({
-  id: z.string().regex(/^u\d{2}$/),
+  // u01–u18 are the original A2–B1 units; a01–a06 the A1 units added before them.
+  id: z.string().regex(/^[ua]\d{2}$/),
   order: z.number().int().positive(),
   level,
   theme: text,

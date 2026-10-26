@@ -1,5 +1,5 @@
 /**
- * Practice level estimate on a 0–1 scale from A2 (0) to B1 (1). This is a practice
+ * Practice level estimate on a 0–1 scale from A1 (0) to B1 (1). This is a practice
  * estimate only: it is not, and does not predict, an official TCF result.
  *
  *   estimate = max(placement baseline,
@@ -8,7 +8,11 @@
  * - path progress: completed units / all units
  * - vocabulary mastery: mastered cards / MASTERY_TARGET
  * - demonstrated level: recent answers, where a correct answer earns its item's level
- *   weight (A2 0.2, A2+ 0.6, B1 1.0) and a wrong one earns 0
+ *   weight (A1 0, A1+ 0.1, A2 0.2, A2+ 0.6, B1 1.0) and a wrong one earns 0
+ *
+ * Five labels: A1, A1+, A2, A2+, B1. A placement result sets a floor; "not taken"
+ * (null) is treated as A2, which is where the course started before the A1 units, so
+ * learners from earlier versions keep their label.
  */
 import type { Level } from './content-types';
 
@@ -17,9 +21,18 @@ export const RECENT_ATTEMPTS = 120;
 /** At least this many answers before demonstrated level counts fully. */
 export const MIN_ATTEMPTS = 30;
 
-export const LEVEL_WEIGHT: Readonly<Record<Level, number>> = { A2: 0.2, 'A2+': 0.6, B1: 1 };
+export const LEVEL_WEIGHT: Readonly<Record<Level, number>> = { A1: 0, 'A1+': 0.1, A2: 0.2, 'A2+': 0.6, B1: 1 };
 
-const PLACEMENT_BASELINE: Readonly<Record<Level, number>> = { A2: 0, 'A2+': 0.35, B1: 0.7 };
+/** Lowest estimate for each label, highest first. */
+export const LEVEL_THRESHOLDS: readonly { level: Level; min: number }[] = [
+  { level: 'B1', min: 0.75 },
+  { level: 'A2+', min: 0.35 },
+  { level: 'A2', min: 0.15 },
+  { level: 'A1+', min: 0.07 },
+  { level: 'A1', min: 0 },
+];
+
+const PLACEMENT_BASELINE: Readonly<Record<Level, number>> = { A1: 0, 'A1+': 0.07, A2: 0.15, 'A2+': 0.35, B1: 0.7 };
 
 /** Mock tests open from this estimate, or once all A2/A2+ units are complete. */
 export const MOCK_TEST_THRESHOLD = 0.6;
@@ -42,9 +55,7 @@ export interface LevelEstimate {
 const clamp01 = (n: number): number => Math.min(1, Math.max(0, n));
 
 export function labelFor(value: number): Level {
-  if (value >= 0.75) return 'B1';
-  if (value >= 0.35) return 'A2+';
-  return 'A2';
+  return (LEVEL_THRESHOLDS.find((t) => value >= t.min) ?? LEVEL_THRESHOLDS[LEVEL_THRESHOLDS.length - 1]).level;
 }
 
 export function estimateLevel(input: LevelInput): LevelEstimate {
@@ -55,19 +66,47 @@ export function estimateLevel(input: LevelInput): LevelEstimate {
   const confidence = Math.min(1, recent.length / MIN_ATTEMPTS);
   const demonstrated = recent.length > 0 ? clamp01((earned / recent.length) * confidence) : 0;
   const composite = 0.45 * progress + 0.25 * mastery + 0.3 * demonstrated;
-  const baseline = input.placement ? PLACEMENT_BASELINE[input.placement] : 0;
+  const baseline = PLACEMENT_BASELINE[input.placement ?? 'A2'];
   const value = Math.max(baseline, composite);
   return { value, label: labelFor(value), parts: { progress, mastery, demonstrated } };
 }
 
-export function placementLevel(correctByBand: Readonly<Record<Level, { correct: number; total: number }>>): Level {
-  const rate = (l: Level): number => {
-    const b = correctByBand[l];
-    return b.total > 0 ? b.correct / b.total : 0;
-  };
+export type BandScores = Readonly<Partial<Record<Level, { correct: number; total: number }>>>;
+
+/** Placement asks the bands in this order, easiest first. */
+export const PLACEMENT_BANDS: readonly Level[] = ['A1', 'A1+', 'A2', 'A2+', 'B1'];
+
+const rateOf = (scores: BandScores, l: Level, missing: number): number => {
+  const b = scores[l];
+  return b && b.total > 0 ? b.correct / b.total : missing;
+};
+
+function levelFromRates(rate: (l: Level) => number): Level {
+  if (rate('A1') < 0.6) return 'A1';
+  if (rate('A1+') < 0.6) return 'A1+';
   if (rate('A2') >= 0.75 && rate('A2+') >= 0.7 && rate('B1') >= 0.6) return 'B1';
   if (rate('A2') >= 0.75 && rate('A2+') >= 0.5) return 'A2+';
   return 'A2';
+}
+
+/** Placement result from the bands answered so far; a band not asked counts as 0. */
+export function placementLevel(scores: BandScores): Level {
+  return levelFromRates((l) => rateOf(scores, l, 0));
+}
+
+/**
+ * True once the bands still to come can't change the result, so the test stops early:
+ * a learner who gets most A1 questions wrong is done after the first block.
+ */
+export function placementDecided(scores: BandScores): boolean {
+  return placementLevel(scores) === levelFromRates((l) => rateOf(scores, l, 1));
+}
+
+/** Mock tests are full TCF simulations; below A2 they're allowed but not yet recommended. */
+export const MOCK_RECOMMENDED_FROM: Level = 'A2+';
+
+export function isBeginner(level: Level): boolean {
+  return level === 'A1' || level === 'A1+';
 }
 
 export function mockTestUnlocked(estimate: number, allA2UnitsDone: boolean): boolean {

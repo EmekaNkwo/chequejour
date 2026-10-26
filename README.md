@@ -1,7 +1,7 @@
-# Chaque Jour — offline daily French trainer (A2 → B1, TCF)
+# Chaque Jour — offline daily French trainer (A1 → B1, TCF)
 
-A calm daily French habit for English speakers going from CEFR A2 to B1 and preparing for
-the TCF. Everything — lessons, 1,500+ words, 380 sentences of the day, exercises, audio —
+A calm daily French habit for English speakers going from CEFR A1 to B1 and preparing for
+the TCF. Everything — lessons, 1,900+ words, 440 sentences of the day, exercises, audio —
 ships inside the app. No account, no server, no analytics, no ads. It works in airplane
 mode from the first launch.
 
@@ -58,34 +58,48 @@ diff) and the widget's deep link. Each starts from `e2e/common/fresh-start.yaml`
 
 ## Curriculum
 
-18 themed units, unlocked in order. Each unit has 15–25 core words plus a word bank
-(1,512 items in total), two grammar lessons, practice sets, a listening and a reading
+24 themed units, unlocked in order: six A1/A1+ units, then the original eighteen. Each
+unit has 15–25 core words plus a word bank (1,908 items in total, about 400 of them A1),
+two grammar lessons, practice sets, a listening and a reading
 text with questions, a TCF-style writing task (model answer + checklist), a speaking
 prompt (timer, recording, model answer) and an end-of-unit checkpoint (pass mark 70%).
 
 | # | Level | Theme | Grammar |
 |---|---|---|---|
-| 1 | A2 | Daily life and introductions | Irregular present; ne… pas / jamais / plus / rien |
-| 2 | A2 | Family and relationships | Passé composé with avoir, with être + agreement |
-| 3 | A2 | Housing | Imparfait: form; descriptions and habits |
-| 4 | A2 | Food and shopping | Articles and partitives; quantities and *en* |
-| 5 | A2 | Getting around town | Prepositions of place and *y*; imperative |
-| 6 | A2+ | Health and the body | COD pronouns; pronouns in PC and imperative |
-| 7 | A2+ | Work | COI *lui/leur*; futur proche |
-| 8 | A2+ | Leisure and free time | Passé composé vs imparfait |
-| 9 | A2+ | Travel and holidays | Futur simple; *quand/si* + future |
-| 10 | A2+ | Administration and services | *qui, que, où* |
-| 11 | B1 | Studies and training | Comparatives and superlatives |
-| 12 | B1 | Media and information | Reported speech |
-| 13 | B1 | The environment | Conditionnel; *si* + imparfait |
-| 14 | B1 | Opinions and debate | Connectors: *cependant, pourtant, alors que, donc* |
-| 15 | B1 | Money and consumption | Subjonctif: form; *il faut que, vouloir que* |
-| 16 | B1 | Plans and ambitions | Subjonctif after emotion/doubt; purpose |
-| 17 | B1 | Culture and society | *dont*; *ce qui / ce que / ce dont* |
-| 18 | B1 | Job applications and interviews | Advanced negation; pronoun order |
+| 1 | A1 | Bonjour ! Greetings and introductions | Subject pronouns, *tu* and *vous*; *être* and *avoir* |
+| 2 | A1 | Numbers, dates and time | Articles (definite, indefinite, partitive), gender and plural; *-er* verbs |
+| 3 | A1 | Family and me | Possessive adjectives; adjective agreement and position |
+| 4 | A1+ | At home | *Il y a* and prepositions of place; *ne… pas* |
+| 5 | A1+ | Daily life, food and shopping | Reflexive verbs; simple questions |
+| 6 | A1+ | In town | *aller, faire, venir, prendre, vouloir, pouvoir*; futur proche |
+| 7 | A2 | Daily life and introductions | Irregular present; ne… pas / jamais / plus / rien |
+| 8 | A2 | Family and relationships | Passé composé with avoir, with être + agreement |
+| 9 | A2 | Housing | Imparfait: form; descriptions and habits |
+| 10 | A2 | Food and shopping | Articles and partitives; quantities and *en* |
+| 11 | A2 | Getting around town | Prepositions of place and *y*; imperative |
+| 12 | A2+ | Health and the body | COD pronouns; pronouns in PC and imperative |
+| 13 | A2+ | Work | COI *lui/leur*; futur proche |
+| 14 | A2+ | Leisure and free time | Passé composé vs imparfait |
+| 15 | A2+ | Travel and holidays | Futur simple; *quand/si* + future |
+| 16 | A2+ | Administration and services | *qui, que, où* |
+| 17 | B1 | Studies and training | Comparatives and superlatives |
+| 18 | B1 | Media and information | Reported speech |
+| 19 | B1 | The environment | Conditionnel; *si* + imparfait |
+| 20 | B1 | Opinions and debate | Connectors: *cependant, pourtant, alors que, donc* |
+| 21 | B1 | Money and consumption | Subjonctif: form; *il faut que, vouloir que* |
+| 22 | B1 | Plans and ambitions | Subjonctif after emotion/doubt; purpose |
+| 23 | B1 | Culture and society | *dont*; *ce qui / ce que / ce dont* |
+| 24 | B1 | Job applications and interviews | Advanced negation; pronoun order |
 
-A 24-question placement test at first launch can start you at unit 1, 6 or 11 (earlier
-units stay open).
+The A1 units have new ids (`a01`–`a06`); the original units keep `u01`–`u18`, so progress,
+mistakes and backups from earlier versions still match. Only the display order changed.
+
+A placement test at first launch asks A1 questions first, then A1+, A2, A2+ and B1, and
+**stops early** once the remaining bands can't change the result (most A1 answers wrong →
+done after the first block). It starts you at unit 1 (A1), 4 (A1+), 7 (A2), 12 (A2+) or
+17 (B1); earlier units stay open. Skipping it starts at unit 1. Learners from before the A1
+units (no placement stored) keep their place from unit 7, with the A1 units open as
+optional review that isn't needed to continue or to unlock the mocks.
 
 ### TCF Canada mock tests and NCLC estimate
 
@@ -102,13 +116,16 @@ Two original mock tests follow the TCF Canada format, set in `domain/tcf/exam-fo
 Take the full mock or any one test. Each test has its own countdown and ends by itself;
 answers and explanations come at the end. Writing and speaking are self-assessed against
 model answers. Results are kept as mock history. Mocks unlock near B1, once every A2/A2+
-unit is done, or as soon as you set an exam date.
+unit is done, or as soon as you set an exam date. An A1/A1+ learner who opens one sees
+a note that it's best taken from A2+ onwards, but it isn't blocked.
 
 **Per-skill estimate** (Progress → Your level): each of the four skills gets a CEFR band
-(A2 / A2+ / B1) and an approximate NCLC, from your latest mock (harder questions earn more
+(A1 to B1) and an approximate NCLC, from your latest mock (harder questions earn more
 points) blended with recent practice. The weakest skill is highlighted, with the gap to
 your target NCLC (default 7, Settings). These are **practice estimates**; the NCLC screen
-says so and points to IRCC for official requirements. Details: `domain/tcf/nclc.ts`.
+says so and points to IRCC for official requirements. The mapping goes down to NCLC 1
+(NCLC 1–2 ≈ A1, 3 ≈ A1+, 4 ≈ A2); IRCC's TCF table starts at NCLC 4, so lower estimates
+show as **"below NCLC 4"**. Details: `domain/tcf/nclc.ts`.
 
 **Exam date** (optional, onboarding or Settings): Home shows a countdown ("63 days to your
 TCF"). From 60 days out, sessions add extra practice in the weakest skill; in the last
@@ -134,7 +151,7 @@ the unit you're on): words and sentences at that level come first, then easier o
 it's used up, then harder ones. Within a level, words from units you've unlocked come
 first. When you move up a level, the upcoming days you haven't opened are re-picked at
 the new level; today's items stay as announced. Headwords never repeat until all are
-used, and the 380 sentences don't repeat within a year.
+used, and the 440 sentences don't repeat within a year.
 
 **Missed-day reminders** (on by default, 19:30, Settings → Notifications): if you haven't
 studied, a reminder comes after 1, 2, 4, 7 and 12 missed days, then weekly. It is counted
@@ -190,19 +207,20 @@ screen only change after a rebuild.
 
 ## How the level estimate works
 
-The A2 → B1 bar is a **practice estimate**, not an official TCF score and not a
-prediction of one. On a 0–1 scale (A2 = 0, B1 = 1):
+The A1 → B1 bar is a **practice estimate**, not an official TCF score and not a
+prediction of one. On a 0–1 scale (A1 = 0, B1 = 1):
 
 ```
 estimate = max(placement baseline,
-               0.45 × units completed / 18
+               0.45 × units completed / 24
              + 0.25 × mastered cards / 600
              + 0.30 × demonstrated level)
 ```
 
 *Demonstrated level* uses your last 120 answers: a correct answer earns its item's level
-weight (A2 0.2, A2+ 0.6, B1 1.0), scaled down until you have 30 answers. Labels: A2 below
-0.35, A2+ from 0.35, B1 from 0.75. A card counts as mastered when FSRS stability reaches
+weight (A1 0, A1+ 0.1, A2 0.2, A2+ 0.6, B1 1.0), scaled down until you have 30 answers.
+Labels: A1 below 0.07, A1+ from 0.07, A2 from 0.15, A2+ from 0.35, B1 from 0.75. With no
+placement stored (installs from before the A1 units) the floor is A2. A card counts as mastered when FSRS stability reaches
 21 days. Details: `domain/level.ts`.
 
 ## Project layout

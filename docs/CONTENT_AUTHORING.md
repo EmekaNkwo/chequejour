@@ -33,7 +33,7 @@ new ids instead.
 
 | Item | Pattern | Example |
 | --- | --- | --- |
-| Unit | `uNN` | `u07` |
+| Unit | `uNN` (A2–B1) or `aNN` (A1/A1+) | `u07`, `a03` |
 | Word | `uNN-wNNN` | `u07-w014` |
 | Grammar lesson | `uNN-gNN` | `u07-g01` |
 | Exercise | `uNN-exNN` | `u07-ex12` |
@@ -48,7 +48,7 @@ new ids instead.
 
 ## Levels
 
-Every item carries `level`: `"A2"`, `"A2+"` or `"B1"`. Tag the item, not just the unit:
+Every item carries `level`: `"A1"`, `"A1+"`, `"A2"`, `"A2+"` or `"B1"`. Tag the item, not just the unit:
 a B1 unit can contain an A2+ warm-up exercise.
 
 ## Words (`vocab`)
@@ -139,8 +139,17 @@ of view). Give `prepSeconds`, `speakSeconds`, a `modelAnswer` and `tips`.
 
 ## Curriculum map
 
+Units are shown by `order`: a01–a06 are 1–6 and u01–u18 are 7–24. A new unit gets a new
+id and an `order`; never renumber ids to make room.
+
 | Unit | Level | Theme | Grammar focus |
 | --- | --- | --- | --- |
+| a01 | A1 | Greetings and introductions | Subject pronouns, tu and vous; être and avoir |
+| a02 | A1 | Numbers, dates and time | Articles (definite, indefinite, partitive); regular -er verbs |
+| a03 | A1 | Family and me | Possessive adjectives; adjective agreement and position |
+| a04 | A1+ | At home | Il y a and prepositions of place; ne… pas |
+| a05 | A1+ | Daily life, food and shopping | Reflexive verbs; simple questions |
+| a06 | A1+ | In town | aller, faire, venir, prendre, vouloir, pouvoir; futur proche |
 | u01 | A2 | Daily life and introductions | Present tense of common irregular verbs; basic negation |
 | u02 | A2 | Family and relationships | Passé composé with avoir and être |
 | u03 | A2 | Housing | Imparfait for descriptions and habits |

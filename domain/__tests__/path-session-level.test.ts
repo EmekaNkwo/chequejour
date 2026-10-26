@@ -1,7 +1,7 @@
 import type { Unit } from '../content-types';
-import { estimateLevel, labelFor, mockTestUnlocked, placementLevel } from '../level';
+import { estimateLevel, labelFor, mockTestUnlocked, placementDecided, placementLevel, PLACEMENT_BANDS } from '../level';
 import { buildSession, describeSession, pickSkillTask, skillForDay } from '../session';
-import { currentUnitId, nextSegment, unitSegments, unitStatuses } from '../unit-path';
+import { currentUnitId, nextSegment, PLACEMENT_START_UNIT, placementStartFor, unitSegments, unitStatuses } from '../unit-path';
 
 function makeUnit(id: string, order: number, coreWords = 20, exercises = 20): Unit {
   return {
@@ -138,10 +138,23 @@ describe('session builder', () => {
 });
 
 describe('level estimate', () => {
-  it('starts at A2 with no data', () => {
-    const e = estimateLevel({ completedUnits: 0, totalUnits: 18, masteredCards: 0, recentAttempts: [], placement: null });
-    expect(e.value).toBe(0);
+  it('keeps learners without a placement (from before A1 existed) at A2', () => {
+    const e = estimateLevel({ completedUnits: 0, totalUnits: 24, masteredCards: 0, recentAttempts: [], placement: null });
+    expect(e.value).toBe(0.15);
     expect(e.label).toBe('A2');
+  });
+  it('returns A1 and A1+ at low scores', () => {
+    const a1 = estimateLevel({ completedUnits: 0, totalUnits: 24, masteredCards: 0, recentAttempts: [], placement: 'A1' });
+    expect([a1.value, a1.label]).toEqual([0, 'A1']);
+    const a1plus = estimateLevel({
+      completedUnits: 3,
+      totalUnits: 24,
+      masteredCards: 40,
+      recentAttempts: Array.from({ length: 30 }, () => ({ correct: true, level: 'A1+' as const })),
+      placement: 'A1',
+    });
+    expect(a1plus.label).toBe('A1+');
+    expect(estimateLevel({ completedUnits: 0, totalUnits: 24, masteredCards: 0, recentAttempts: [], placement: 'A1+' }).label).toBe('A1+');
   });
   it('uses the placement result as a floor', () => {
     const e = estimateLevel({ completedUnits: 0, totalUnits: 18, masteredCards: 0, recentAttempts: [], placement: 'A2+' });
@@ -163,13 +176,30 @@ describe('level estimate', () => {
     expect(few.parts.demonstrated).toBeLessThan(0.1);
   });
   it('labels thresholds', () => {
-    expect([labelFor(0.2), labelFor(0.5), labelFor(0.8)]).toEqual(['A2', 'A2+', 'B1']);
+    expect([labelFor(0), labelFor(0.1), labelFor(0.2), labelFor(0.5), labelFor(0.8)]).toEqual(['A1', 'A1+', 'A2', 'A2+', 'B1']);
   });
   it('places from band accuracy', () => {
     const band = (c: number) => ({ correct: c, total: 8 });
-    expect(placementLevel({ A2: band(3), 'A2+': band(1), B1: band(0) })).toBe('A2');
-    expect(placementLevel({ A2: band(7), 'A2+': band(5), B1: band(2) })).toBe('A2+');
-    expect(placementLevel({ A2: band(8), 'A2+': band(7), B1: band(6) })).toBe('B1');
+    const basics = { A1: band(7), 'A1+': band(6) };
+    expect(placementLevel({ A1: band(3) })).toBe('A1');
+    expect(placementLevel({ A1: band(6), 'A1+': band(3) })).toBe('A1+');
+    expect(placementLevel({ ...basics, A2: band(3), 'A2+': band(1), B1: band(0) })).toBe('A2');
+    expect(placementLevel({ ...basics, A2: band(7), 'A2+': band(5), B1: band(2) })).toBe('A2+');
+    expect(placementLevel({ ...basics, A2: band(8), 'A2+': band(7), B1: band(6) })).toBe('B1');
+  });
+  it('starts each placement result at its unit: A1 1, A1+ 4, A2 7, A2+ 12, B1 17', () => {
+    expect(PLACEMENT_BANDS.map((l) => PLACEMENT_START_UNIT[l])).toEqual([1, 4, 7, 12, 17]);
+    expect(placementStartFor(null)).toBe(7);
+  });
+  it('stops placement early once later bands cannot change the result', () => {
+    const band = (c: number) => ({ correct: c, total: 8 });
+    // Most A1 questions wrong: done after the first block.
+    expect(placementDecided({ A1: band(3) })).toBe(true);
+    expect(placementDecided({ A1: band(7) })).toBe(false);
+    expect(placementDecided({ A1: band(7), 'A1+': band(2) })).toBe(true);
+    expect(placementDecided({ A1: band(7), 'A1+': band(7), A2: band(4) })).toBe(true);
+    expect(placementDecided({ A1: band(7), 'A1+': band(7), A2: band(7) })).toBe(false);
+    expect(placementDecided({ A1: band(7), 'A1+': band(7), A2: band(7), 'A2+': band(3) })).toBe(true);
   });
   it('unlocks mock tests near B1', () => {
     expect(mockTestUnlocked(0.3, false)).toBe(false);

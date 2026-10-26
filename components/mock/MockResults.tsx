@@ -2,7 +2,7 @@ import { router } from 'expo-router';
 import { StyleSheet, View } from 'react-native';
 import { TCF_CANADA, TCF_SKILLS } from '../../domain/tcf/exam-format';
 import type { MockSkillScores, ReviewItem } from '../../domain/tcf/mock-scoring';
-import { cefrForNclc, NCLC_DISCLAIMER, nclcForScore } from '../../domain/tcf/nclc';
+import { cefrForNclc, NCLC_DISCLAIMER, nclcForScore, nclcLabel } from '../../domain/tcf/nclc';
 import { useTheme } from '../theme/ThemeProvider';
 import { spacing } from '../theme/tokens';
 import { AppText } from '../ui/AppText';
@@ -36,12 +36,12 @@ export function MockResults({ title, scores, review }: MockResultsProps) {
               key={skill}
               style={styles.skill}
               accessible
-              accessibilityLabel={`${TCF_CANADA[skill].title}: ${Math.round(score * 100)} percent. Practice estimate about NCLC ${nclc}, ${cefrForNclc(nclc)}${self ? ', self-assessed' : ''}.`}
+              accessibilityLabel={`${TCF_CANADA[skill].title}: ${Math.round(score * 100)} percent. Practice estimate ${nclcLabel(nclc)}, ${cefrForNclc(nclc)}${self ? ', self-assessed' : ''}.`}
               testID={`mock-result-${skill}`}
             >
               <Row style={styles.between}>
                 <AppText variant="bodyStrong">{TCF_CANADA[skill].titleFr}</AppText>
-                <AppText variant="bodyStrong">{`≈ NCLC ${nclc} · ${cefrForNclc(nclc)}`}</AppText>
+                <AppText variant="bodyStrong">{`≈ ${nclcLabel(nclc)} · ${cefrForNclc(nclc)}`}</AppText>
               </Row>
               <ProgressBar value={score} color={colors.skills[skill].base} track={colors.skills[skill].tint} height={10} />
               <AppText variant="meta" tone="muted">

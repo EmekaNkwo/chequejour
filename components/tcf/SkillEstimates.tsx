@@ -6,7 +6,7 @@ import { Feather } from '@expo/vector-icons';
 import { router } from 'expo-router';
 import { StyleSheet, View } from 'react-native';
 import { TCF_CANADA } from '../../domain/tcf/exam-format';
-import { gapToTarget, isEstimate, type NclcOverview, type SkillEstimate } from '../../domain/tcf/nclc';
+import { gapToTarget, isEstimate, LOWEST_TABLE_NCLC, nclcLabel, type NclcOverview, type SkillEstimate } from '../../domain/tcf/nclc';
 import { useTheme } from '../theme/ThemeProvider';
 import { radii, spacing } from '../theme/tokens';
 import { AppText } from '../ui/AppText';
@@ -47,7 +47,7 @@ export function SkillEstimates({ overview }: { overview: NclcOverview }) {
           <Card
             key={result.skill}
             style={weakest ? [styles.weakest, { borderColor: colors.danger }] : undefined}
-            accessibilityLabel={`${f.title}: about NCLC ${result.nclc}, ${result.nclc >= 7 ? 'around B2' : result.cefr}. ${gap > 0 ? `${gap} below your target of NCLC ${overview.target}` : 'Target reached'}.${weakest ? ' Your weakest skill.' : ''}${result.selfAssessed ? ' Self-assessed.' : ''} Practice estimate.`}
+            accessibilityLabel={`${f.title}: about ${nclcLabel(result.nclc)}, ${result.nclc >= 7 ? 'around B2' : result.cefr}. ${gap > 0 ? `${gap} below your target of NCLC ${overview.target}` : 'Target reached'}.${weakest ? ' Your weakest skill.' : ''}${result.selfAssessed ? ' Self-assessed.' : ''} Practice estimate.`}
             testID={`estimate-${result.skill}`}
           >
             <Row>
@@ -63,7 +63,7 @@ export function SkillEstimates({ overview }: { overview: NclcOverview }) {
                   NCLC ≈
                 </AppText>
                 <AppText variant="screenTitle" color={palette.onTint}>
-                  {String(result.nclc)}
+                  {result.nclc < LOWEST_TABLE_NCLC ? `< ${LOWEST_TABLE_NCLC}` : String(result.nclc)}
                 </AppText>
               </View>
               <View style={styles.flex}>

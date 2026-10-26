@@ -4,7 +4,7 @@ import { TCF_CANADA, testMinutes, writingTaskFormat } from '../tcf/exam-format';
 import { countdownLabel, daysToExam, examPhase, examPracticeSkill, sessionSkill, skillWeights, weightedRotation } from '../tcf/exam-plan';
 import { mockFormatProblems } from '../tcf/mock-format-checks';
 import { checklistScore, scoreComprehension, scoreTasks, tcfScores } from '../tcf/mock-scoring';
-import { cefrForNclc, estimateSkill, IRCC_TCF_TABLE, gapToTarget, isEstimate, nclcForScore, nclcOverview, practiceScore, type SkillEvidence } from '../tcf/nclc';
+import { cefrForNclc, estimateSkill, IRCC_TCF_TABLE, gapToTarget, isEstimate, nclcForScore, nclcLabel, nclcOverview, practiceScore, type SkillEvidence } from '../tcf/nclc';
 import { countWords, handInWarning, wordRangeStatus } from '../writing/word-count';
 
 const q = (id: string, band: MockQuestion['band'], answer = 0): MockQuestion => ({ id, band, question: id, options: ['a', 'b', 'c', 'd'], answer, explanation: '' });
@@ -48,13 +48,25 @@ describe('NCLC estimate', () => {
   const evidence = (over: Partial<SkillEvidence>): SkillEvidence => ({ skill: 'listening', mocks: [], practice: [], ...over });
 
   it('maps skill scores to NCLC and CEFR', () => {
-    expect(nclcForScore(0.1)).toBe(3);
+    expect([nclcForScore(0), nclcForScore(0.1), nclcForScore(0.2)]).toEqual([1, 2, 3]);
     expect(nclcForScore(0.3)).toBe(4);
     expect(nclcForScore(0.5)).toBe(5);
     expect(nclcForScore(0.72)).toBe(6);
     expect(nclcForScore(0.8)).toBe(7);
     expect(nclcForScore(0.95)).toBe(8);
-    expect([cefrForNclc(4), cefrForNclc(5), cefrForNclc(7)]).toEqual(['A2', 'A2+', 'B1']);
+    expect([cefrForNclc(1), cefrForNclc(2), cefrForNclc(3), cefrForNclc(4), cefrForNclc(5), cefrForNclc(7)]).toEqual(['A1', 'A1', 'A1+', 'A2', 'A2+', 'B1']);
+  });
+
+  it('labels scores under the IRCC table as below NCLC 4', () => {
+    expect([nclcLabel(1), nclcLabel(3), nclcLabel(4), nclcLabel(7)]).toEqual(['below NCLC 4', 'below NCLC 4', 'NCLC 4', 'NCLC 7']);
+    expect(Math.min(...IRCC_TCF_TABLE.map((r) => r.nclc))).toBe(4);
+  });
+
+  it('lets A1 and A1+ practice fall below NCLC 4, without changing A2–B1 estimates', () => {
+    const at = (level: 'A1' | 'A1+') => nclcForScore(practiceScore(Array.from({ length: 30 }, () => ({ score: 1, level }))));
+    expect([at('A1'), at('A1+')]).toEqual([1, 3]);
+    const weak = estimateSkill(evidence({ practice: Array.from({ length: 20 }, () => ({ score: 0.5, level: 'A1' as const })) }), NOW);
+    expect(weak).toMatchObject({ nclc: 1, cefr: 'A1', source: 'practice' });
   });
 
   it('puts flawless practice at each level at the matching NCLC, topping out at 6', () => {

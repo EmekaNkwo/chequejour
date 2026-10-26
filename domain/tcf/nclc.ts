@@ -1,5 +1,5 @@
 /**
- * Per-skill practice estimate: a CEFR label (A2, A2+, B1) and an approximate NCLC
+ * Per-skill practice estimate: a CEFR label (A1 to B1) and an approximate NCLC
  * level for each of the four TCF Canada tests. Canadian immigration scores each skill
  * separately, so the weakest one matters most.
  *
@@ -12,7 +12,9 @@
  * Practice evidence is graded answers (listening, reading) or self-assessed tasks
  * (writing, speaking), each weighted by its level (A2 0.2, A2+ 0.6, B1 1). That
  * "demonstrated" value is mapped onto the mock scale; this course's practice goes up
- * to B1, so practice alone tops out around NCLC 6.
+ * to B1, so practice alone tops out around NCLC 6. Practice on A1 and A1+ items lowers
+ * the floor of that mapping, so a beginner's estimate can fall to NCLC 1–3, shown as
+ * "below NCLC 4" (IRCC's TCF table starts at NCLC 4).
  *
  * These are PRACTICE ESTIMATES. They are not official TCF results and do not predict
  * one. Learners must check IRCC for current score requirements.
@@ -21,7 +23,7 @@ import type { Level } from '../content-types';
 import { LEVEL_WEIGHT } from '../level';
 import { TCF_SKILLS, type TcfSkill } from './exam-format';
 
-export type Nclc = 3 | 4 | 5 | 6 | 7 | 8;
+export type Nclc = 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8;
 
 /** Lowest skill score for each NCLC level, highest first. Configuration, not law. */
 export const NCLC_THRESHOLDS: readonly { nclc: Nclc; minScore: number }[] = [
@@ -30,8 +32,17 @@ export const NCLC_THRESHOLDS: readonly { nclc: Nclc; minScore: number }[] = [
   { nclc: 6, minScore: 0.6 },
   { nclc: 5, minScore: 0.45 },
   { nclc: 4, minScore: 0.3 },
-  { nclc: 3, minScore: 0 },
+  { nclc: 3, minScore: 0.2 },
+  { nclc: 2, minScore: 0.1 },
+  { nclc: 1, minScore: 0 },
 ];
+
+/** The lowest NCLC in IRCC's TCF conversion table; anything under it shows as "below". */
+export const LOWEST_TABLE_NCLC = 4;
+
+export function nclcLabel(nclc: Nclc): string {
+  return nclc < LOWEST_TABLE_NCLC ? `below NCLC ${LOWEST_TABLE_NCLC}` : `NCLC ${nclc}`;
+}
 
 export interface ScoreRange {
   min: number;
@@ -77,6 +88,8 @@ export const RECENT_PRACTICE = 60;
 
 const PRACTICE_FLOOR = 0.3;
 const PRACTICE_SPAN = 0.42;
+/** How far A1 and A1+ practice pulls the floor down (an all-A1 history floors at 0.05). */
+const BEGINNER_FLOOR_DROP: Partial<Record<Level, number>> = { A1: 0.25, 'A1+': 0.12 };
 
 export interface PracticeItem {
   /** 1 for a correct answer, 0 for a wrong one, or a 0–1 self-assessment. */
@@ -112,18 +125,21 @@ export function nclcForScore(score: number): Nclc {
   return (NCLC_THRESHOLDS.find((t) => score >= t.minScore) ?? NCLC_THRESHOLDS[NCLC_THRESHOLDS.length - 1]).nclc;
 }
 
-/** NCLC 4 and below ≈ A2, 5 ≈ A2+, 6 and above ≈ B1 (the top of this course). */
+/** NCLC 1–2 ≈ A1, 3 ≈ A1+, 4 ≈ A2, 5 ≈ A2+, 6 and above ≈ B1 (the top of this course). */
 export function cefrForNclc(nclc: Nclc): Level {
   if (nclc >= 6) return 'B1';
   if (nclc === 5) return 'A2+';
-  return 'A2';
+  if (nclc === 4) return 'A2';
+  if (nclc === 3) return 'A1+';
+  return 'A1';
 }
 
 /** Practice's demonstrated level (0–1) mapped onto the mock score scale. */
 export function practiceScore(items: readonly PracticeItem[]): number {
   if (items.length === 0) return 0;
   const demonstrated = items.reduce((n, i) => n + clamp01(i.score) * LEVEL_WEIGHT[i.level], 0) / items.length;
-  return PRACTICE_FLOOR + PRACTICE_SPAN * demonstrated;
+  const drop = items.reduce((n, i) => n + (BEGINNER_FLOOR_DROP[i.level] ?? 0), 0) / items.length;
+  return PRACTICE_FLOOR - drop + PRACTICE_SPAN * demonstrated;
 }
 
 export function estimateSkill(evidence: SkillEvidence, now: number): SkillEstimateResult {

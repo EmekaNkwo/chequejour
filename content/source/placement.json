@@ -1,5 +1,5 @@
 {
-  "version": 1,
+  "version": 2,
   "questions": [
     {
       "id": "pl01",
@@ -432,6 +432,294 @@
       ],
       "answer": 3,
       "explanation": "The text first gives an advantage (no more time lost commuting), then « pourtant » introduces drawbacks: some miss their colleagues and struggle to separate work and private life."
+    },
+    {
+      "id": "pl25",
+      "type": "mcq",
+      "band": "A1",
+      "level": "A1",
+      "skill": "structures",
+      "grammarTag": "etre-avoir",
+      "prompt": "Choose the correct verb.",
+      "promptFr": "Mon frère ___ vingt-cinq ans.",
+      "options": [
+        "est",
+        "a",
+        "as",
+        "ont"
+      ],
+      "answer": 1,
+      "explanation": "In French you « have » your age, so we use avoir. Mon frère is « il », so « il a vingt-cinq ans ». « As » goes with tu, « ont » with ils/elles, and « est » is être."
+    },
+    {
+      "id": "pl26",
+      "type": "mcq",
+      "band": "A1",
+      "level": "A1",
+      "skill": "structures",
+      "grammarTag": "partitifs",
+      "prompt": "Choose the correct article.",
+      "promptFr": "J'ai ___ voiture rouge.",
+      "options": [
+        "un",
+        "des",
+        "le",
+        "une"
+      ],
+      "answer": 3,
+      "explanation": "Voiture is feminine and there is one car, so we say « une voiture ». « Un » is for masculine nouns, « des » for plurals, and « le » is masculine and means « the »."
+    },
+    {
+      "id": "pl27",
+      "type": "mcq",
+      "band": "A1",
+      "level": "A1",
+      "skill": "structures",
+      "grammarTag": "present",
+      "prompt": "Choose the correct form of parler.",
+      "promptFr": "Nous ___ français le soir.",
+      "options": [
+        "parlons",
+        "parlez",
+        "parlent",
+        "parle"
+      ],
+      "answer": 0,
+      "explanation": "With nous, -er verbs end in -ons: « nous parlons ». « Parlez » goes with vous, « parlent » with ils/elles, « parle » with je, il or elle."
+    },
+    {
+      "id": "pl28",
+      "type": "mcq",
+      "band": "A1",
+      "level": "A1",
+      "skill": "structures",
+      "grammarTag": "pronoms-sujets",
+      "prompt": "Choose the correct subject pronoun.",
+      "promptFr": "Où sont Marie et Sophie ? ___ sont au travail.",
+      "options": [
+        "Ils",
+        "Nous",
+        "Elles",
+        "Vous"
+      ],
+      "answer": 2,
+      "explanation": "Marie and Sophie are two women, so we use « elles ». « Ils » is for a group of men or a mixed group; « nous » and « vous » do not match « sont »."
+    },
+    {
+      "id": "pl29",
+      "type": "mcq",
+      "band": "A1",
+      "level": "A1",
+      "skill": "reading",
+      "grammarTag": "vocabulary",
+      "prompt": "Read the sign. Which bus is arriving?",
+      "promptFr": "Le bus numéro dix-sept arrive dans deux minutes.",
+      "options": [
+        "Bus 7",
+        "Bus 70",
+        "Bus 16",
+        "Bus 17"
+      ],
+      "answer": 3,
+      "explanation": "« Dix-sept » is 10 + 7 = 17. « Sept » is 7, « soixante-dix » is 70 and « seize » is 16."
+    },
+    {
+      "id": "pl30",
+      "type": "mcq",
+      "band": "A1",
+      "level": "A1",
+      "skill": "structures",
+      "grammarTag": "possessifs",
+      "prompt": "Choose the word for « my ».",
+      "promptFr": "Je vous présente ___ sœur, Julie.",
+      "options": [
+        "mon",
+        "mes",
+        "ma",
+        "me"
+      ],
+      "answer": 2,
+      "explanation": "Sœur is feminine and singular, so « my » is « ma ». « Mon » is for masculine nouns, « mes » for plurals, and « me » is not a possessive."
+    },
+    {
+      "id": "pl31",
+      "type": "mcq",
+      "band": "A1",
+      "level": "A1",
+      "skill": "structures",
+      "grammarTag": "accord",
+      "prompt": "Choose the correct adjective.",
+      "promptFr": "Mes amies sont très ___.",
+      "options": [
+        "gentil",
+        "gentils",
+        "gentille",
+        "gentilles"
+      ],
+      "answer": 3,
+      "explanation": "« Amies » is feminine and plural, so gentil doubles the l and adds -e for feminine, then -s for plural: « gentilles »."
+    },
+    {
+      "id": "pl32",
+      "type": "mcq",
+      "band": "A1",
+      "level": "A1",
+      "skill": "reading",
+      "grammarTag": "vocabulary",
+      "prompt": "Read the text. What is Karim's job?",
+      "promptFr": "Bonjour ! Je m'appelle Karim. J'ai trente ans et je suis infirmier à Montréal. J'aime le cinéma et le football.",
+      "options": [
+        "He is a nurse",
+        "He is a doctor",
+        "He is a teacher",
+        "He is a football player"
+      ],
+      "answer": 0,
+      "explanation": "« Infirmier » means nurse. A doctor is « médecin », a teacher « professeur ». He likes football (« j'aime le football ») but it is not his job."
+    },
+    {
+      "id": "pl33",
+      "type": "mcq",
+      "band": "A1+",
+      "level": "A1+",
+      "skill": "structures",
+      "grammarTag": "il-y-a",
+      "prompt": "Choose the correct expression.",
+      "promptFr": "Dans ma rue, ___ une boulangerie et deux cafés.",
+      "options": [
+        "il y a",
+        "il est",
+        "c'est",
+        "il a"
+      ],
+      "answer": 0,
+      "explanation": "To say « there is / there are », French uses « il y a », for one thing or many. « Il est » and « c'est » mean « he/it is », and « il a » means « he has »."
+    },
+    {
+      "id": "pl34",
+      "type": "mcq",
+      "band": "A1+",
+      "level": "A1+",
+      "skill": "structures",
+      "grammarTag": "negation",
+      "prompt": "Choose the correct word.",
+      "promptFr": "Je n'ai pas ___ voiture, je prends le bus.",
+      "options": [
+        "une",
+        "de",
+        "la",
+        "des"
+      ],
+      "answer": 1,
+      "explanation": "After a negative like « ne… pas », « un, une, des » become « de »: « je n'ai pas de voiture »."
+    },
+    {
+      "id": "pl35",
+      "type": "mcq",
+      "band": "A1+",
+      "level": "A1+",
+      "skill": "structures",
+      "grammarTag": "pronominaux",
+      "prompt": "Choose the correct reflexive verb.",
+      "promptFr": "Le matin, je ___ à sept heures.",
+      "options": [
+        "se lève",
+        "lève",
+        "me lèves",
+        "me lève"
+      ],
+      "answer": 3,
+      "explanation": "Se lever is reflexive. With je, the pronoun is « me » and the verb ends in -e: « je me lève ». « Se » is for il/elle, and « lèves » goes with tu."
+    },
+    {
+      "id": "pl36",
+      "type": "mcq",
+      "band": "A1+",
+      "level": "A1+",
+      "skill": "structures",
+      "grammarTag": "questions",
+      "prompt": "Choose the correct question word.",
+      "promptFr": "___ est-ce que tu habites ? — À Québec.",
+      "options": [
+        "Quand",
+        "Qui",
+        "Où",
+        "Pourquoi"
+      ],
+      "answer": 2,
+      "explanation": "The answer is a place (« à Québec »), so the question asks « where »: « où ». « Quand » is when, « qui » is who, « pourquoi » is why."
+    },
+    {
+      "id": "pl37",
+      "type": "mcq",
+      "band": "A1+",
+      "level": "A1+",
+      "skill": "structures",
+      "grammarTag": "futur-proche",
+      "prompt": "Choose the correct verb for the near future.",
+      "promptFr": "Ce soir, nous ___ regarder un film.",
+      "options": [
+        "allons",
+        "sommes",
+        "avons",
+        "allez"
+      ],
+      "answer": 0,
+      "explanation": "The near future is aller + infinitive. With nous, aller is « allons »: « nous allons regarder ». « Allez » goes with vous; être and avoir are not used here."
+    },
+    {
+      "id": "pl38",
+      "type": "mcq",
+      "band": "A1+",
+      "level": "A1+",
+      "skill": "structures",
+      "grammarTag": "present",
+      "prompt": "Choose the correct form of vouloir.",
+      "promptFr": "Les enfants ___ jouer dans le jardin.",
+      "options": [
+        "veut",
+        "voulons",
+        "veulent",
+        "voulez"
+      ],
+      "answer": 2,
+      "explanation": "« Les enfants » is « ils », and vouloir with ils is « veulent ». « Veut » is il/elle, « voulons » nous, « voulez » vous."
+    },
+    {
+      "id": "pl39",
+      "type": "mcq",
+      "band": "A1+",
+      "level": "A1+",
+      "skill": "structures",
+      "grammarTag": "prepositions",
+      "prompt": "Choose the correct preposition.",
+      "promptFr": "Cet été, je vais ___ Canada.",
+      "options": [
+        "à",
+        "au",
+        "en",
+        "aux"
+      ],
+      "answer": 1,
+      "explanation": "Canada is a masculine country, so we use « au » (à + le). « En » is for feminine countries (en France), « aux » for plural ones (aux États-Unis), « à » for cities."
+    },
+    {
+      "id": "pl40",
+      "type": "mcq",
+      "band": "A1+",
+      "level": "A1+",
+      "skill": "reading",
+      "grammarTag": "futur-proche",
+      "prompt": "Read the message. What will the writer do tomorrow afternoon?",
+      "promptFr": "Salut Léa ! Demain, je ne travaille pas. Le matin, je vais faire les courses et l'après-midi, je vais aller à la piscine avec mon frère. Tu viens avec nous ?",
+      "options": [
+        "Go to the pool with their brother",
+        "Go to work",
+        "Go shopping",
+        "Visit Léa"
+      ],
+      "answer": 0,
+      "explanation": "« L'après-midi, je vais aller à la piscine avec mon frère » means in the afternoon they will go to the pool. The shopping is in the morning, and they do not work tomorrow."
     }
   ]
 }

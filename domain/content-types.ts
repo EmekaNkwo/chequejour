@@ -4,9 +4,9 @@
  * See docs/CONTENT_AUTHORING.md for the authoring rules.
  */
 
-export type Level = 'A2' | 'A2+' | 'B1';
+export type Level = 'A1' | 'A1+' | 'A2' | 'A2+' | 'B1';
 
-export const LEVELS: readonly Level[] = ['A2', 'A2+', 'B1'];
+export const LEVELS: readonly Level[] = ['A1', 'A1+', 'A2', 'A2+', 'B1'];
 
 export type Skill = 'listening' | 'reading' | 'structures' | 'writing' | 'speaking';
 
@@ -49,6 +49,11 @@ export type GrammarTag =
   | 'discours-indirect'
   | 'prepositions'
   | 'accord'
+  | 'pronoms-sujets'
+  | 'etre-avoir'
+  | 'possessifs'
+  | 'il-y-a'
+  | 'pronominaux'
   | 'vocabulary';
 
 export const GRAMMAR_TAGS: readonly GrammarTag[] = [
@@ -74,6 +79,11 @@ export const GRAMMAR_TAGS: readonly GrammarTag[] = [
   'discours-indirect',
   'prepositions',
   'accord',
+  'pronoms-sujets',
+  'etre-avoir',
+  'possessifs',
+  'il-y-a',
+  'pronominaux',
   'vocabulary',
 ];
 
@@ -100,6 +110,11 @@ export const GRAMMAR_TAG_LABELS: Readonly<Record<GrammarTag, string>> = {
   'discours-indirect': 'Reported speech',
   prepositions: 'Prepositions',
   accord: 'Agreement',
+  'pronoms-sujets': 'Subject pronouns, tu and vous',
+  'etre-avoir': 'Être and avoir',
+  possessifs: 'Possessive adjectives',
+  'il-y-a': 'Il y a',
+  pronominaux: 'Reflexive verbs',
   vocabulary: 'Vocabulary',
 };
 

@@ -22,7 +22,8 @@ export async function levelOverview(progress: ProgressRepository, path: PathStat
   const recent = await progress.recentAttempts(RECENT_ATTEMPTS);
   const completedUnits = path.units.filter((u) => u.status === 'completed').length;
   const estimate = estimateLevel({ completedUnits, totalUnits: path.units.length, masteredCards: mastered, recentAttempts: recent, placement });
-  const a2Units = path.units.filter((u) => u.level !== 'B1');
+  // A1 units are optional for learners placed higher, so they don't hold the mock tests back.
+  const a2Units = path.units.filter((u) => u.level === 'A2' || u.level === 'A2+');
   const allA2Done = a2Units.length > 0 && a2Units.every((u) => u.status === 'completed');
   return { estimate, mockUnlocked: mockTestUnlocked(estimate.value, allA2Done), completedUnits, totalUnits: path.units.length, mastered };
 }

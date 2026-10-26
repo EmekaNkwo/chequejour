@@ -1,7 +1,7 @@
 import { StyleSheet, View } from 'react-native';
 import { TCF_SKILLS, TCF_CANADA } from '../../domain/tcf/exam-format';
 import type { MockRunRecord } from '../../domain/tcf/mock-scoring';
-import { nclcForScore } from '../../domain/tcf/nclc';
+import { nclcForScore, nclcLabel } from '../../domain/tcf/nclc';
 import { useTheme } from '../theme/ThemeProvider';
 import { spacing } from '../theme/tokens';
 import { AppText } from '../ui/AppText';
@@ -34,10 +34,10 @@ export function MockHistory({ runs, titles }: { runs: readonly MockRunRecord[]; 
           {TCF_SKILLS.filter((s) => run.scores[s] !== undefined).map((skill) => {
             const score = run.scores[skill] ?? 0;
             return (
-              <View key={skill} style={styles.skill} accessible accessibilityLabel={`${TCF_CANADA[skill].title}: ${Math.round(score * 100)} percent, about NCLC ${nclcForScore(score)}`}>
+              <View key={skill} style={styles.skill} accessible accessibilityLabel={`${TCF_CANADA[skill].title}: ${Math.round(score * 100)} percent, about ${nclcLabel(nclcForScore(score))}`}>
                 <Row style={styles.between}>
                   <AppText variant="meta">{TCF_CANADA[skill].title}</AppText>
-                  <AppText variant="meta" tone="muted">{`${Math.round(score * 100)}% · ≈ NCLC ${nclcForScore(score)}`}</AppText>
+                  <AppText variant="meta" tone="muted">{`${Math.round(score * 100)}% · ≈ ${nclcLabel(nclcForScore(score))}`}</AppText>
                 </Row>
                 <ProgressBar value={score} color={colors.skills[skill].base} track={colors.skills[skill].tint} />
               </View>
