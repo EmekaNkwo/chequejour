@@ -6,3 +6,4 @@ jest.mock('@fugood/react-native-audio-pcm-stream', () => ({
   __esModule: true,
   default: { init: jest.fn(async () => undefined), start: jest.fn(), stop: jest.fn(async () => undefined), on: jest.fn(() => ({ remove: jest.fn() })) },
 }));
+jest.mock('llama.rn', () => ({ initLlama: jest.fn() }));

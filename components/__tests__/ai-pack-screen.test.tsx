@@ -30,6 +30,9 @@ jest.mock('../../features/ai/ai-pack-controller', () => ({
   isInstalled: (s: AiPackState) => s.plan.models.every((m) => s.installedIds.includes(m.id)),
 }));
 
+const mockAsk = jest.fn();
+jest.mock('../../features/ai/ask', () => ({ askText: (...a: unknown[]) => mockAsk(...a) }));
+
 const base: AiPackState = { plan: { tier: 'mid', stt, llm, models: [stt, llm] }, totalMemory: 6e9, installedIds: [], pendingId: null, active: null };
 const show = () => render(<ThemeProvider preference="light"><AiPackScreen /></ThemeProvider>);
 
@@ -82,5 +85,29 @@ describe('AI pack screen', () => {
     await show();
     expect(screen.getByText(/stay hidden/)).toBeTruthy();
     expect(screen.getByText('Download (190 MB)')).toBeTruthy();
+  });
+
+  it('lists feature switches once installed, hiding language-model ones on low-memory phones', async () => {
+    mockState = { ...base, installedIds: ['stt', 'llm'] };
+    const { unmount } = await show();
+    expect(screen.getByText('Writing feedback')).toBeTruthy();
+    await fireEvent(screen.getByTestId('ai-feature-generatedPractice'), 'valueChange', true);
+    await waitFor(() => expect(mockUpdateSetting).toHaveBeenCalledWith('aiFeatures', expect.objectContaining({ generatedPractice: true, writing: true })));
+    await unmount();
+    mockState = { ...base, plan: { tier: 'low', stt, llm: null, models: [stt] }, installedIds: ['stt'] };
+    await show();
+    expect(screen.getByText('Speaking transcripts')).toBeTruthy();
+    expect(screen.queryByText('Writing feedback')).toBeNull();
+    expect(screen.queryByTestId('ai-llm-check')).toBeNull();
+  });
+
+  it('tests the language model and shows its reply', async () => {
+    mockState = { ...base, installedIds: ['stt', 'llm'] };
+    mockAsk.mockResolvedValue('Bonjour et bon courage pour le TCF !');
+    await show();
+    await fireEvent.press(screen.getByTestId('ai-llm-check'));
+    await waitFor(() => expect(screen.getByTestId('ai-llm-check-result')).toBeTruthy());
+    expect(screen.getByText(/Bonjour et bon courage/)).toBeTruthy();
+    expect(mockAsk).toHaveBeenCalledWith(expect.objectContaining({ model: llm }), { language: 'fr', maxChars: 300 });
   });
 });

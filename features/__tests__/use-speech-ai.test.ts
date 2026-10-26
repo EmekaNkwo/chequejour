@@ -6,7 +6,7 @@ import { useSpeechAi } from '../ai/useSpeechAi';
 const mockStt = { id: 'whisper-small' };
 const mockState = { speaking: true, installed: ['whisper-small'] };
 jest.mock('../app/AppContext', () => ({ useApp: () => ({ settings: { aiFeatures: { speaking: mockState.speaking } } }) }));
-jest.mock('../ai/useAiPack', () => ({ useAiPack: () => ({ plan: { stt: mockStt }, installedIds: mockState.installed }) }));
+jest.mock('../ai/useAiPack', () => ({ useAiPack: () => ({ plan: { stt: mockStt, llm: null }, installedIds: mockState.installed }) }));
 jest.mock('../../services/ai/stt', () => ({ transcribe: jest.fn() }));
 jest.mock('../skills/recordings', () => ({ recordingUri: (name: string) => `file:///rec/${name}` }));
 

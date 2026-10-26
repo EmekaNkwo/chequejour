@@ -5,6 +5,7 @@
  */
 import { useCallback, useEffect, useRef, useState } from 'react';
 import { aiFailureOf, type AiFailure } from '../../domain/ai/errors';
+import { featureReady } from '../../domain/ai/features';
 import { transcribe } from '../../services/ai/stt';
 import { useApp } from '../app/AppContext';
 import { logError } from '../app/log';
@@ -25,7 +26,7 @@ export interface SpeechAi {
 export function useSpeechAi(): SpeechAi {
   const { settings } = useApp();
   const pack = useAiPack();
-  const ready = settings.aiFeatures.speaking && pack.installedIds.includes(pack.plan.stt.id);
+  const ready = featureReady('speaking', settings.aiFeatures, { sttId: pack.plan.stt.id, llmId: pack.plan.llm?.id ?? null, installedIds: pack.installedIds });
   const [transcripts, setTranscripts] = useState<Record<string, Transcript>>({});
   const controller = useRef(new AbortController());
 

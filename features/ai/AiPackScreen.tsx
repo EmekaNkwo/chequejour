@@ -12,11 +12,15 @@ import { Screen } from '../../components/ui/Screen';
 import { ScreenHeader } from '../../components/ui/ScreenHeader';
 import { useToast } from '../../components/ui/Toast';
 import { blockMessage, formatBytes } from '../../domain/ai/download-check';
+import { aiFailureMessage } from '../../domain/ai/errors';
+import { LLM_FEATURES, type AiFeature } from '../../domain/ai/features';
 import type { ModelEntry } from '../../domain/ai/manifest';
 import type { Tier } from '../../domain/ai/tiers';
 import { useApp } from '../app/AppContext';
 import { logError } from '../app/log';
 import { cancel, download, isInstalled, pause, remove, type DownloadOutcome } from './ai-pack-controller';
+import { askText } from './ask';
+import { useAiJob } from './useAiJob';
 import { useAiPack } from './useAiPack';
 
 const PRIVACY_NOTE = 'Runs on your phone. Your writing and recordings never leave the device. AI suggestions can be wrong.';
@@ -45,6 +49,62 @@ function outcomeToast(outcome: DownloadOutcome): { tone: 'success' | 'info' | 'e
     case 'cancelled':
       return null;
   }
+}
+
+const FEATURE_TEXT: Record<AiFeature, { label: string; description: string }> = {
+  speaking: { label: 'Speaking transcripts', description: 'Shows what the AI heard in your shadowing and speaking recordings.' },
+  writing: { label: 'Writing feedback', description: 'Suggestions on your texts after you check them.' },
+  explain: { label: 'Explain my mistake', description: 'A short explanation of a wrong answer in your mistakes.' },
+  conversation: { label: 'Conversation partner', description: 'Practise speaking tasks 2 and 3 with an AI partner.' },
+  generatedPractice: { label: 'AI-made practice (experimental)', description: 'Extra example sentences written by the AI. Off by default: they can contain errors.' },
+};
+const FEATURE_ORDER: readonly AiFeature[] = ['speaking', 'writing', 'explain', 'conversation', 'generatedPractice'];
+
+/** A one-sentence request to check the language model runs on this phone, and how fast. */
+function LlmCheck({ model }: { model: ModelEntry }) {
+  const job = useAiJob<{ text: string; seconds: number }>('AI pack check');
+  const check = () =>
+    job.run(async (signal, onText) => {
+      const started = Date.now();
+      const text = await askText(
+        {
+          model,
+          messages: [
+            { role: 'system', content: 'Tu es un professeur de français. Réponds en une seule phrase courte, en français.' },
+            { role: 'user', content: 'Dis bonjour à un apprenant qui prépare le TCF Canada.' },
+          ],
+          maxTokens: 48,
+          temperature: 0.3,
+          signal,
+          onText,
+        },
+        { language: 'fr', maxChars: 300 },
+      );
+      return { text, seconds: Math.max(1, Math.round((Date.now() - started) / 1000)) };
+    });
+  const { state } = job;
+  return (
+    <View style={styles.model}>
+      <Button
+        label={state.status === 'working' ? 'Stop' : 'Test the language model'}
+        icon={state.status === 'working' ? 'square' : 'cpu'}
+        variant="secondary"
+        onPress={state.status === 'working' ? job.cancel : check}
+        testID="ai-llm-check"
+      />
+      {state.status === 'working' ? (
+        <AppText variant="meta" tone="muted">
+          {state.partial || 'Loading the model… the first answer takes longest.'}
+        </AppText>
+      ) : state.status === 'done' ? (
+        <AppText variant="body" tone="secondary" testID="ai-llm-check-result">{`“${state.value.text}” (${state.value.seconds} s)`}</AppText>
+      ) : state.status === 'failed' ? (
+        <AppText variant="meta" tone="danger">
+          {aiFailureMessage(state.failure)}
+        </AppText>
+      ) : null}
+    </View>
+  );
 }
 
 function ModelRow({ model, status }: { model: ModelEntry; status: string }) {
@@ -160,6 +220,24 @@ export default function AiPackScreen() {
           ) : null}
         </SettingsGroup>
       </Card>
+
+      {installed ? (
+        <Card>
+          <SettingsGroup title="Features">
+            {FEATURE_ORDER.filter((f) => pack.plan.llm !== null || !LLM_FEATURES.includes(f)).map((f) => (
+              <SwitchRow
+                key={f}
+                label={FEATURE_TEXT[f].label}
+                description={FEATURE_TEXT[f].description}
+                value={settings.aiFeatures[f]}
+                onChange={(v) => void updateSetting('aiFeatures', { ...settings.aiFeatures, [f]: v })}
+                testID={`ai-feature-${f}`}
+              />
+            ))}
+            {pack.plan.llm ? <LlmCheck model={pack.plan.llm} /> : null}
+          </SettingsGroup>
+        </Card>
+      ) : null}
 
       <Card>
         <SettingsGroup title="Models and licences">
