@@ -6,7 +6,7 @@
 import { stripAccents } from '../answers';
 import type { WritingTask } from '../content-types';
 
-export type HintKind = 'accent' | 'agreement' | 'connectors' | 'tenses' | 'repetition' | 'greeting' | 'signoff';
+export type HintKind = 'accent' | 'elision' | 'agreement' | 'connectors' | 'tenses' | 'repetition' | 'greeting' | 'signoff';
 
 export interface WritingHint {
   kind: HintKind;
@@ -64,6 +64,39 @@ export function missingAccents(text: string): { word: string; fix: string }[] {
     if (!fix || fix === key || seen.has(key)) continue;
     seen.add(key);
     out.push({ word: w, fix: matchCase(w, fix) });
+  }
+  return out;
+}
+
+// ── Elision ───────────────────────────────────────────────────────────────
+
+/** Short words that lose their vowel before a vowel or a silent h: je ai → j'ai. */
+const ELIDING: Readonly<Record<string, string>> = { je: "j'", me: "m'", te: "t'", se: "s'", le: "l'", la: "l'", de: "d'", ne: "n'", que: "qu'" };
+/** Words starting with an aspirated h (no elision: le héros) and numbers (le onze). */
+const NO_ELISION = new Set([
+  'haine', 'hall', 'hamburger', 'hanche', 'handicap', 'hareng', 'haricot', 'haricots', 'harpe', 'hasard', 'hâte', 'haut', 'haute',
+  'hauteur', 'héros', 'hibou', 'hockey', 'hollande', 'homard', 'honte', 'hors', 'housse', 'huit', 'huitième', 'hurler', 'onze', 'onzième',
+]);
+const VOWEL_START = /^[aeiouhàâäéèêëîïôöùûü]/;
+const WORD_AT = /[\p{L}'’-]+/gu;
+
+/** Pairs like "je ai" that need elision ("j'ai"), in text order. Words split by punctuation are not paired. */
+export function elisionSlips(text: string): { phrase: string; fix: string }[] {
+  const tokens = [...text.matchAll(WORD_AT)].map((m) => ({ word: m[0], start: m.index ?? 0 }));
+  const out: { phrase: string; fix: string }[] = [];
+  for (let i = 0; i + 1 < tokens.length; i += 1) {
+    const { word, start } = tokens[i];
+    const next = tokens[i + 1];
+    if (!/^\s+$/.test(text.slice(start + word.length, next.start))) continue;
+    const short = word.toLowerCase();
+    const following = next.word.toLowerCase();
+    const elided =
+      short === 'si' && (following === 'il' || following === 'ils')
+        ? "s'"
+        : ELIDING[short] && (following === 'y' ? ['je', 'ne', 'me', 'te', 'se'].includes(short) : VOWEL_START.test(following) && !NO_ELISION.has(following))
+          ? ELIDING[short]
+          : null;
+    if (elided) out.push({ phrase: `${word} ${next.word}`, fix: `${matchCase(word, elided)}${next.word}` });
   }
   return out;
 }
@@ -221,6 +254,11 @@ export function writingHints(text: string, ctx: HintContext): WritingHint[] {
   const accents = missingAccents(text);
   if (accents.length > 0) {
     hints.push({ kind: 'accent', tone: 'tip', message: `Possible missing accents: ${list(accents.map((a) => `${a.word} → ${a.fix}`))}.` });
+  }
+
+  const elisions = elisionSlips(text);
+  if (elisions.length > 0) {
+    hints.push({ kind: 'elision', tone: 'tip', message: `Possible missing elision: ${list(elisions.map((e) => `${e.phrase} → ${e.fix}`))}.` });
   }
 
   const slips = agreementSlips(text, ctx.nounGenders);

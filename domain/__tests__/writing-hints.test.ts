@@ -1,6 +1,7 @@
 import {
   agreementSlips,
   connectorsUsed,
+  elisionSlips,
   hasGreeting,
   hasSignOff,
   missingAccents,
@@ -31,6 +32,27 @@ describe('missing accents', () => {
   });
   it('lists each word once', () => {
     expect(missingAccents('tres tres tres')).toEqual([{ word: 'tres', fix: 'très' }]);
+  });
+});
+
+describe('elision slips', () => {
+  it('flags je ai, Je habite, de un, que il and si il, keeping capitals', () => {
+    expect(elisionSlips('Je suis Paul et je ai 30 ans. Je habite à Ottawa.')).toEqual([
+      { phrase: 'je ai', fix: "j'ai" },
+      { phrase: 'Je habite', fix: "J'habite" },
+    ]);
+    expect(elisionSlips('Il pense que il a besoin de un vélo, si il pleut.')).toEqual([
+      { phrase: 'que il', fix: "qu'il" },
+      { phrase: 'de un', fix: "d'un" },
+      { phrase: 'si il', fix: "s'il" },
+    ]);
+    expect(elisionSlips('Je ne y vais pas.')).toEqual([{ phrase: 'ne y', fix: "n'y" }]);
+  });
+
+  it('leaves correct text, aspirated h, numbers and words split by punctuation alone', () => {
+    expect(elisionSlips("J'ai faim, je n'habite pas ici et l'hôtel est loin.")).toEqual([]);
+    expect(elisionSlips('Le héros a honte : la haine, le hockey, le haricot, le onze.')).toEqual([]);
+    expect(elisionSlips('Je veux que. Il part. Si elle vient, le yaourt est là.')).toEqual([]);
   });
 });
 
