@@ -28,6 +28,7 @@ import { LinkText } from '../ui/Bits';
 import { Button } from '../ui/Button';
 import { DictationDiff } from './DictationDiff';
 import { AnswerInput, Chip, OptionPill } from './inputs';
+import { gapDisplayText, gapSpokenText } from './gap-text';
 
 export interface ExerciseViewProps {
   exercise: Exercise;
@@ -84,10 +85,9 @@ const PASSAGE_CHARS = 120;
 
 /** French sentence with the gap drawn as a line; long passages use reading size. */
 function GapSentence({ sentence }: { sentence: string }) {
-  const spoken = sentence.replace(/_{3,}/g, 'blank');
   return (
-    <AppText variant={sentence.length > PASSAGE_CHARS ? 'french' : 'frenchLarge'} french accessibilityLabel={spoken}>
-      {sentence.replace(/_{3,}/g, '＿＿＿')}
+    <AppText variant={sentence.length > PASSAGE_CHARS ? 'french' : 'frenchLarge'} french accessibilityLabel={gapSpokenText(sentence)}>
+      {gapDisplayText(sentence)}
     </AppText>
   );
 }

@@ -260,8 +260,6 @@ Adding content: see [docs/CONTENT_AUTHORING.md](docs/CONTENT_AUTHORING.md).
 - **Widget sound on Xiaomi/POCO**: if the app has been force-stopped several times in a
   row, MIUI briefly refuses to start it from the widget, so the play button does nothing
   until the app is opened once.
-- **Known layout gap**: a blank attached with a hyphen (e.g. "mettez-___") can wrap
-  awkwardly in fill-in-the-blank sentences.
 - **Four mock tests** ship; more can be added as JSON (`content/source/mock-tests/`). The
   final-stretch practice sets reuse their questions (156 listening and 156 reading), so a
   learner who practises every day will eventually see repeats.
