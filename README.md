@@ -254,8 +254,12 @@ Adding content: see [docs/CONTENT_AUTHORING.md](docs/CONTENT_AUTHORING.md).
   hints are offline rules and say "Possible"; they miss errors and can flag correct text.
   The optional speech check needs the phone's French on-device speech pack and has only
   been tested without it (the setup help path); the recognition path is unit-tested.
-- **Widget pinning**: the *Add the widget* button relies on the launcher's pin request;
-  some launchers accept it silently without adding anything.
+- **Widget pinning**: the *Add the widget* button relies on the launcher's pin request.
+  Xiaomi/POCO launchers drop it until "Home screen shortcuts" is allowed for the app (the
+  app explains this and links to the setting); other launchers may fail silently too.
+- **Widget sound on Xiaomi/POCO**: if the app has been force-stopped several times in a
+  row, MIUI briefly refuses to start it from the widget, so the play button does nothing
+  until the app is opened once.
 - **Known layout gap**: a blank attached with a hyphen (e.g. "mettez-___") can wrap
   awkwardly in fill-in-the-blank sentences.
 - **Four mock tests** ship; more can be added as JSON (`content/source/mock-tests/`). The
@@ -266,11 +270,13 @@ Adding content: see [docs/CONTENT_AUTHORING.md](docs/CONTENT_AUTHORING.md).
   TCF-to-NCLC table for reference, and writing/speaking rely on self-assessment.
 - **Content review**: all French was written originally for this app (no TCF or textbook
   material). The validation script checks structure, answers and duplicates, but the
-  language itself has not yet been reviewed by a native-speaker teacher. Fix errors by
-  editing the JSON.
+  language itself has not yet been reviewed by a native-speaker teacher (the A1 units had
+  an independent AI review, which is not a substitute). Fix errors by editing the JSON.
 - **Exact timing**: on Android 12+ notifications may arrive a few minutes late unless you
   allow "Alarms & reminders" (Settings → Notifications in the app links to it). Aggressive
   battery savers on some phones can delay them further.
+- **AI pack downloads** can pause and resume (even after closing the app), but a download
+  that fails because the connection dropped starts that model again from the beginning.
 - **iOS** builds should work but v1 is only tested on Android.
 - Recordings and backups stay on the device; uninstalling the app deletes them, so
   export a backup first.
