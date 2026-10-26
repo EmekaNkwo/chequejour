@@ -11,6 +11,11 @@ export const WORD_WIDGET_NAME = 'WordOfDay';
 
 /** Must be #RRGGBB: the widget renderer doesn't accept other colour formats. */
 const hex = (c: string): `#${string}` => c as `#${string}`;
+/**
+ * The app's bold font, embedded for the widget (app.json, expo-font). Asking the system
+ * font for bold isn't enough: MIUI's default font ignores the weight.
+ */
+const BOLD_FONT = 'Nunito_700Bold';
 
 /** Feather's volume-2 speaker, drawn in the button's text colour. */
 const speakerSvg = (color: string): string =>
@@ -44,9 +49,9 @@ function WordCard({ word, colors, layout: l }: { word: WidgetWordView | null; co
       accessibilityLabel={word ? `Word of the day: ${word.fr}, ${word.detail}, ${word.en}. Opens Chaque Jour.` : 'Open Chaque Jour'}
       style={{ height: 'match_parent', width: 'match_parent', backgroundColor: hex(colors.surface), borderRadius: 22, padding: l.padding, justifyContent: 'center', alignItems: 'center' }}
     >
-      <TextWidget text="MOT DU JOUR" style={{ textAlign: 'center', fontSize: l.label, fontWeight: 'bold', color: hex(colors.primary), letterSpacing: 0.08 }} />
+      <TextWidget text="MOT DU JOUR" style={{ textAlign: 'center', fontSize: l.label, fontFamily: BOLD_FONT, color: hex(colors.primary), letterSpacing: 0.08 }} />
       {/* No fragments here: the widget renderer only accepts widget elements. */}
-      {word ? <TextWidget text={word.fr} maxLines={1} truncate="END" style={{ textAlign: 'center', fontSize: l.word, fontWeight: 'bold', color: hex(colors.text), marginTop: l.gap }} /> : null}
+      {word ? <TextWidget text={word.fr} maxLines={1} truncate="END" style={{ textAlign: 'center', fontSize: l.word, fontFamily: BOLD_FONT, color: hex(colors.text), marginTop: l.gap }} /> : null}
       {word ? <TextWidget text={word.detail} maxLines={1} style={{ textAlign: 'center', fontSize: l.detail, color: hex(colors.textMuted), marginTop: Math.round(l.gap / 2) }} /> : null}
       <TextWidget
         text={word ? word.en : 'Open Chaque Jour to get your word of the day.'}

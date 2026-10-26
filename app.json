@@ -51,7 +51,12 @@
         }
       ],
       "expo-sharing",
-      "expo-font",
+      [
+        "expo-font",
+        {
+          "fonts": ["./node_modules/@expo-google-fonts/nunito/700Bold/Nunito_700Bold.ttf"]
+        }
+      ],
       [
         "expo-splash-screen",
         {

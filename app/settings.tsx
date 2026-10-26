@@ -25,8 +25,7 @@ import { hasFrenchVoice } from '../features/audio/audio-controller';
 import { exactAlarmsAllowed, notificationPermission, requestExactAlarms, requestNotificationPermission } from '../features/notifications/expo-notifications-api';
 import { importFromFile } from '../features/settings/backup-files';
 import { useBackupExport } from '../features/settings/useBackupExport';
-import { requestPinWidget } from 'react-native-android-widget';
-import { WORD_WIDGET_NAME } from '../widget/WordOfDayWidget';
+import { useAddWidget } from '../features/widget/useAddWidget';
 import { WidgetPreviewCard } from '../components/settings/WidgetPreviewCard';
 
 const GOALS: readonly { value: `${DailyGoal}`; label: string }[] = [
@@ -63,6 +62,7 @@ export default function SettingsScreen() {
   const [busy, setBusy] = useState<'import' | 'reset' | 'recordings' | null>(null);
   const { exporting, running, exportNow, shareNow } = useBackupExport();
   const toast = useToast();
+  const addWidget = useAddWidget();
   const { data, error, reload } = useLoad(
     'settings',
     async () => {
@@ -135,16 +135,6 @@ export default function SettingsScreen() {
       toast.show({ tone: 'error', title: 'Backup not restored', message: "That file couldn't be read." });
     } finally {
       setBusy(null);
-    }
-  };
-
-  const addWidget = async () => {
-    try {
-      const asked = await requestPinWidget({ widgetName: WORD_WIDGET_NAME });
-      if (!asked) toast.show({ tone: 'info', title: 'Add it from your home screen', message: 'Long-press an empty spot, choose Widgets, then Chaque Jour › Mot du jour.' });
-    } catch (e: unknown) {
-      logError('pin widget', e);
-      toast.show({ tone: 'info', title: 'Add it from your home screen', message: 'Long-press an empty spot, choose Widgets, then Chaque Jour › Mot du jour.' });
     }
   };
 
