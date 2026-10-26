@@ -36,6 +36,14 @@ const NEW_TYPES: Exercise[] = [
 ];
 
 describe('recordExerciseResult', () => {
+  it('records a wrong drill answer on an exercise that is not yet in the notebook', async () => {
+    const { progress } = await setup();
+    await recordExerciseResult(progress, { exercise, result: 'wrong', userAnswer: 'b', context: 'mistakes', unitId: null, now: NOW });
+    expect(await progress.mistakes()).toHaveLength(1);
+    await recordExerciseResult(progress, { exercise, result: 'wrong', userAnswer: 'b', context: 'mistakes', unitId: null, now: NOW });
+    expect((await progress.mistakes())[0].timesWrong).toBe(2);
+  });
+
   it.each(NEW_TYPES.map((e) => [e.type, e] as const))('puts a wrong %s answer in the notebook, due for spaced review', async (_type, ex) => {
     const { progress } = await setup();
     await recordExerciseResult(progress, { exercise: ex, result: 'wrong', userAnswer: 'x', context: 'lesson', unitId: 'u02', now: NOW });

@@ -2,12 +2,13 @@ import { router } from 'expo-router';
 import { StyleSheet, View } from 'react-native';
 import { spacing } from '../components/theme/tokens';
 import { AppText } from '../components/ui/AppText';
-import { ListRow, Row, SectionTitle } from '../components/ui/Bits';
+import { LinkText, ListRow, Row, SectionTitle } from '../components/ui/Bits';
 import { Card } from '../components/ui/Card';
 import { BarChart, ProgressBar } from '../components/ui/Progress';
 import { ErrorState, Loading, Screen } from '../components/ui/Screen';
 import { ScreenHeader } from '../components/ui/ScreenHeader';
 import { fromDayKey, type DayKey } from '../domain/dates';
+import { weakestPoint } from '../domain/mistakes';
 import { useApp } from '../features/app/AppContext';
 import { useLoad } from '../features/app/useLoad';
 import { lastSevenDays, thisWeek } from '../features/progress/stats-service';
@@ -22,7 +23,7 @@ export default function WeeklyScreen() {
     'weekly',
     async () => {
       const [week, days, mistakes] = await Promise.all([thisWeek(progress, today), lastSevenDays(progress, today), progress.mistakes()]);
-      return { week, days, openMistakes: mistakes.length };
+      return { week, days, openMistakes: mistakes.length, weakestMistake: weakestPoint(mistakes) };
     },
     [today],
   );
@@ -59,6 +60,27 @@ export default function WeeklyScreen() {
         </View>
       </Card>
 
+      {data.weakestMistake ? (
+        <Card
+          onPress={() => router.push({ pathname: '/mistakes', params: { drill: data.weakestMistake?.tag } })}
+          accessibilityLabel={`Weakest point in your notebook: ${data.weakestMistake.label}, ${data.weakestMistake.count} open mistakes. Starts a short drill.`}
+          testID="weekly-drill"
+        >
+          <AppText variant="meta" tone="muted">
+            Weakest point in your notebook
+          </AppText>
+          <Row style={styles.between}>
+            <AppText variant="cardTitle" style={styles.flex}>
+              {data.weakestMistake.label}
+            </AppText>
+            <AppText variant="bodyStrong" tone="primary">
+              Drill it
+            </AppText>
+          </Row>
+          <AppText variant="meta" tone="muted">{`${data.weakestMistake.count} open mistake${data.weakestMistake.count === 1 ? '' : 's'}`}</AppText>
+        </Card>
+      ) : null}
+
       <SectionTitle title="Weakest grammar points" />
       {week.weakest.length === 0 ? (
         <AppText variant="body" tone="muted">
@@ -81,6 +103,9 @@ export default function WeeklyScreen() {
             </Row>
             <View style={styles.mt}>
               <ProgressBar value={w.accuracy} />
+            </View>
+            <View style={styles.mt}>
+              <LinkText label="Drill this point" icon="target" onPress={() => router.push({ pathname: '/mistakes', params: { drill: w.tag } })} />
             </View>
           </Card>
         ))

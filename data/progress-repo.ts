@@ -284,15 +284,17 @@ export class ProgressRepository {
     return rows.map(toMistake);
   }
 
-  async retryMistake(itemId: string, correct: boolean, now: number): Promise<void> {
-    const row = await this.db.getFirstAsync<{ correct_streak: number }>('SELECT correct_streak FROM mistakes WHERE item_id = ?', [itemId]);
-    if (!row) return;
+  /** Reschedules an open notebook mistake; false when the item isn't one. */
+  async retryMistake(itemId: string, correct: boolean, now: number): Promise<boolean> {
+    const row = await this.db.getFirstAsync<{ correct_streak: number }>('SELECT correct_streak FROM mistakes WHERE item_id = ? AND resolved = 0', [itemId]);
+    if (!row) return false;
     const next = rescheduleMistake({ correctStreak: row.correct_streak }, correct, now);
     await this.db.runAsync(
       `UPDATE mistakes SET correct_streak = ?, next_review_at = ?, resolved = ?,
        times_wrong = times_wrong + ? WHERE item_id = ?`,
       [next.correctStreak, next.nextReviewAt, next.resolved ? 1 : 0, correct ? 0 : 1, itemId],
     );
+    return true;
   }
 
   /** Clears a mistake without a retry, e.g. when its exercise no longer exists. */

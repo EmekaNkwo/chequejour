@@ -33,11 +33,9 @@ export async function recordExerciseResult(progress: ProgressRepository, input: 
   });
   await progress.addStudy(toDayKey(new Date(now)), { exercises: 1 });
   if (input.context === 'placement') return;
-  if (input.context === 'mistakes') {
-    // retryMistake already reschedules a wrong retry; recording it again would double-count.
-    await progress.retryMistake(exercise.id, correct, now);
-    return;
-  }
+  // retryMistake already reschedules a wrong retry; recording it again would double-count.
+  // In a drill, related exercises aren't notebook items yet and are recorded as usual.
+  if (input.context === 'mistakes' && (await progress.retryMistake(exercise.id, correct, now))) return;
   // Daily checks and mock questions are built on the fly and aren't stored as content,
   // so the mistakes review couldn't rebuild them.
   if (!correct && !UNREVIEWABLE_CONTEXTS.has(input.context)) {

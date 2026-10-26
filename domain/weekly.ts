@@ -91,9 +91,9 @@ export function skillStats(
   });
 }
 
-/** Mistakes come back after 1, 3, then 7 days; two correct retries clear them. */
+/** Mistakes come back after 1, 3, then 7 days; three correct retries in a row clear them. */
 export const MISTAKE_INTERVALS_DAYS: readonly number[] = [1, 3, 7];
-export const MISTAKE_CLEAR_STREAK = 2;
+export const MISTAKE_CLEAR_STREAK = 3;
 
 export interface MistakeSchedule {
   nextReviewAt: number;

@@ -145,10 +145,14 @@ describe('progress repository', () => {
     expect(saved).toMatchObject({ userAnswer: 'z', timesWrong: 2, resolved: false });
     expect(await progress.dueMistakes(0)).toHaveLength(0);
     expect(await progress.dueMistakes(86_400_000)).toHaveLength(1);
+    expect(await progress.retryMistake('u01-ex01', true, 0)).toBe(true);
     await progress.retryMistake('u01-ex01', true, 0);
+    expect(await progress.mistakes()).toHaveLength(1);
     await progress.retryMistake('u01-ex01', true, 0);
     expect(await progress.mistakes()).toHaveLength(0);
     expect(await progress.mistakes(true)).toHaveLength(1);
+    expect(await progress.retryMistake('u01-ex01', true, 0)).toBe(false);
+    expect(await progress.retryMistake('not-a-mistake', false, 0)).toBe(false);
   });
   it('tracks segments, checkpoints and best scores', async () => {
     const { progress } = await setup();

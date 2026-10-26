@@ -136,10 +136,12 @@ describe('weekly summary', () => {
     expect(stats.find((s) => s.skill === 'reading')).toMatchObject({ attempts: 1, accuracy: 1, completion: 0.5 });
     expect(stats.find((s) => s.skill === 'writing')?.accuracy).toBeNull();
   });
-  it('reschedules mistakes and clears them after two correct retries', () => {
+  it('reschedules mistakes and clears them after three correct spaced retries', () => {
     const one = rescheduleMistake({ correctStreak: 0 }, true, 0);
     expect(one).toMatchObject({ correctStreak: 1, resolved: false, nextReviewAt: 3 * 86_400_000 });
-    expect(rescheduleMistake(one, true, 0).resolved).toBe(true);
+    const two = rescheduleMistake(one, true, 0);
+    expect(two).toMatchObject({ correctStreak: 2, resolved: false, nextReviewAt: 7 * 86_400_000 });
+    expect(rescheduleMistake(two, true, 0).resolved).toBe(true);
     expect(rescheduleMistake(one, false, 0)).toMatchObject({ correctStreak: 0, nextReviewAt: 86_400_000 });
   });
 });
