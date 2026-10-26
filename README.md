@@ -170,8 +170,11 @@ by long-pressing the home screen → Widgets → Chaque Jour.
 
 **Backup reminders** (Settings → Your data): every 7, 14 (default) or 30 days, or off. A
 card on Home offers *Back up now*; an optional notification fires on the due day.
-"Last backup: N days ago" shows in Settings and on the Progress tab. A successful export
-records the day, and the backup file carries it, so a restored phone shows it too.
+"Last backup: N days ago" shows in Settings and on the Progress tab. *Save backup to a
+folder* writes the file into a folder you pick (Downloads, Google Drive…) and counts once
+the file is written; cancelling the picker records nothing. *Share backup* opens the share
+sheet, which doesn't say whether the file went anywhere, so the app asks and only counts
+it if you say it's saved. The backup file carries the day, so a restored phone shows it too.
 
 ### Speaking practice
 
@@ -251,8 +254,6 @@ Adding content: see [docs/CONTENT_AUTHORING.md](docs/CONTENT_AUTHORING.md).
   hints are offline rules and say "Possible"; they miss errors and can flag correct text.
   The optional speech check needs the phone's French on-device speech pack and has only
   been tested without it (the setup help path); the recognition path is unit-tested.
-- **Backup date on share**: Android's share sheet doesn't report whether a target was
-  picked, so cancelling the sheet still counts as a backup.
 - **Widget pinning**: the *Add the widget* button relies on the launcher's pin request;
   some launchers accept it silently without adding anything.
 - **Known layout gap**: a blank attached with a hyphen (e.g. "mettez-___") can wrap

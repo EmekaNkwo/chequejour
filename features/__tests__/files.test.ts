@@ -9,7 +9,7 @@ import { ProgressRepository } from '../../data/progress-repo';
 import type { FakeFs } from '../../test-utils/fake-file-system';
 import { createNodeDb } from '../../test-utils/node-db';
 import { recentErrors } from '../app/log';
-import { exportToFile, importFromFile } from '../settings/backup-files';
+import { exportToFile, importFromFile, saveToFolder } from '../settings/backup-files';
 import { deleteAllRecordingFiles, deleteAllRecordings, deleteRecording, recordingUri, saveRecording } from '../skills/recordings';
 
 jest.mock('expo-file-system', () => jest.requireActual('../../test-utils/fake-file-system').fakeFileSystem());
@@ -136,6 +136,23 @@ describe('backup files', () => {
     expect(await exportToFile(db, now)).toEqual({ ok: true, uri: file, shared: false });
     expect(Sharing.shareAsync).not.toHaveBeenCalled();
     expect(fs.files.has(file)).toBe(true);
+  });
+
+  it('saves a backup into a folder the learner picks, confirmed by the write', async () => {
+    const { db, progress } = await setup();
+    await progress.addStudy('2026-10-26', { seconds: 60 });
+    fs.pickedDirectory = 'content://tree/Download';
+    const result = await saveToFolder(db, now);
+    const saved = 'content://tree/Download/chaque-jour-backup-2026-10-26.json';
+    expect(result).toEqual({ ok: true, uri: saved });
+    expect(JSON.parse(fs.files.get(saved)!)).toEqual(JSON.parse(JSON.stringify(await exportProgress(db, now))));
+  });
+
+  it('returns null when the folder picker is cancelled, writing nothing', async () => {
+    const { db } = await setup();
+    fs.pickedDirectory = null;
+    expect(await saveToFolder(db, now)).toBeNull();
+    expect(fs.files.size).toBe(0);
   });
 
   it('imports a picked backup file into another install', async () => {

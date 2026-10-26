@@ -61,7 +61,7 @@ export default function SettingsScreen() {
   const app = useApp();
   const { settings, updateSetting } = app;
   const [busy, setBusy] = useState<'import' | 'reset' | 'recordings' | null>(null);
-  const { exporting, exportNow } = useBackupExport();
+  const { exporting, running, exportNow, shareNow } = useBackupExport();
   const toast = useToast();
   const { data, error, reload } = useLoad(
     'settings',
@@ -290,12 +290,13 @@ export default function SettingsScreen() {
       <Card style={styles.card}>
         <SettingsGroup title="Your data">
           <AppText variant="meta" tone="muted">
-            Progress lives only on this phone. Export a backup file to keep it safe or move it to a new phone. Speaking recordings are not included.
+            Progress lives only on this phone. Save a backup file (for example to Downloads or Google Drive) to keep it safe or move it to a new phone. Speaking recordings are not included.
           </AppText>
           <AppText variant="bodyStrong" testID="last-backup">
             {lastBackupLabel(settings.lastBackupDay, app.today)}
           </AppText>
-          <Button label="Export progress" icon="upload" variant="secondary" onPress={() => void exportNow()} loading={exporting} disabled={busy !== null || exporting} testID="export-progress" />
+          <Button label="Save backup to a folder" icon="folder" variant="secondary" onPress={() => void exportNow()} loading={running === 'folder'} disabled={busy !== null || exporting} testID="export-progress" />
+          <Button label="Share backup" icon="share-2" variant="secondary" onPress={() => void shareNow()} loading={running === 'share'} disabled={busy !== null || exporting} testID="share-progress" />
           <Button label="Import progress" icon="download" variant="secondary" onPress={() => void doImport()} loading={busy === 'import'} disabled={busy !== null} testID="import-progress" />
           <AppText variant="label" tone="muted" style={styles.mtSm}>
             Backup reminder

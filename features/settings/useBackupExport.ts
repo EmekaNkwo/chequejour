@@ -3,30 +3,72 @@ import { useToast } from '../../components/ui/Toast';
 import { toDayKey } from '../../domain/dates';
 import { useApp } from '../app/AppContext';
 import { logError } from '../app/log';
-import { exportToFile } from './backup-files';
+import { exportToFile, saveToFolder } from './backup-files';
 
-/** Exports a backup file and, on success, records today as the last backup day. */
-export function useBackupExport(): { exporting: boolean; exportNow: () => Promise<void> } {
+const FAILED = { tone: 'error', title: 'Backup not created', message: "The backup couldn't be created." } as const;
+
+/**
+ * Backs up progress and, only once the backup is known to exist, records today as the
+ * last backup day. Saving to a folder proves itself; after the share sheet the learner
+ * is asked, because Android doesn't say whether the file went anywhere.
+ */
+export interface BackupExport {
+  /** True while either kind of backup is running. */
+  exporting: boolean;
+  /** Which kind is running, so only its button shows a spinner. */
+  running: 'folder' | 'share' | null;
+  exportNow: () => Promise<void>;
+  shareNow: () => Promise<void>;
+}
+
+export function useBackupExport(): BackupExport {
   const { db, updateSetting } = useApp();
   const toast = useToast();
-  const [exporting, setExporting] = useState(false);
-  const exportNow = async () => {
-    setExporting(true);
+  const [running, setRunning] = useState<'folder' | 'share' | null>(null);
+
+  const run = async (kind: 'folder' | 'share', backUp: (now: Date) => Promise<boolean>) => {
+    setRunning(kind);
     try {
       const now = new Date();
-      const result = await exportToFile(db, now);
-      if (!result.ok) {
-        toast.show({ tone: 'error', title: 'Backup not created', message: result.error });
-        return;
-      }
-      await updateSetting('lastBackupDay', toDayKey(now));
-      if (!result.shared) toast.show({ tone: 'success', title: 'Backup saved', message: result.uri });
+      if (await backUp(now)) await updateSetting('lastBackupDay', toDayKey(now));
     } catch (e: unknown) {
-      logError('export progress', e);
-      toast.show({ tone: 'error', title: 'Backup not created', message: "The backup couldn't be created." });
+      logError(`${kind} backup`, e);
+      toast.show(FAILED);
     } finally {
-      setExporting(false);
+      setRunning(null);
     }
   };
-  return { exporting, exportNow };
+
+  const exportNow = () =>
+    run('folder', async (now) => {
+      const result = await saveToFolder(db, now);
+      if (!result) return false;
+      if (!result.ok) {
+        toast.show({ ...FAILED, message: result.error });
+        return false;
+      }
+      toast.show({ tone: 'success', title: 'Backup saved', message: 'The backup file is in the folder you chose.' });
+      return true;
+    });
+
+  const shareNow = () =>
+    run('share', async (now) => {
+      const result = await exportToFile(db, now);
+      if (!result.ok) {
+        toast.show({ ...FAILED, message: result.error });
+        return false;
+      }
+      if (!result.shared) {
+        toast.show({ tone: 'success', title: 'Backup saved', message: result.uri });
+        return true;
+      }
+      return toast.confirm({
+        title: 'Did you save the backup?',
+        message: "Android doesn't tell the app whether the file was saved or sent, so it only counts as a backup if you say so.",
+        confirmLabel: 'Yes, it’s saved',
+        cancelLabel: 'No',
+      });
+    });
+
+  return { exporting: running !== null, running, exportNow, shareNow };
 }

@@ -9,6 +9,8 @@ interface Entry {
 export interface FakeFs {
   files: Map<string, string>;
   dirs: Set<string>;
+  /** What Directory.pickDirectoryAsync returns: a folder uri, or null to act as a cancel. */
+  pickedDirectory: string | null;
   reset: () => void;
 }
 
@@ -18,13 +20,20 @@ export function fakeFileSystem() {
   const fs: FakeFs = {
     files: new Map(),
     dirs: new Set(),
+    pickedDirectory: null,
     reset() {
       fs.files.clear();
       fs.dirs.clear();
+      fs.pickedDirectory = null;
     },
   };
 
   class Directory {
+    static async pickDirectoryAsync(): Promise<Directory> {
+      if (fs.pickedDirectory === null) throw Object.assign(new Error('The file picker was cancelled by the user'), { code: 'ERR_PICKER_CANCELLED' });
+      fs.dirs.add(fs.pickedDirectory);
+      return new Directory(fs.pickedDirectory);
+    }
     readonly uri: string;
     constructor(...parts: (string | Entry)[]) {
       this.uri = join(parts);
@@ -34,6 +43,11 @@ export function fakeFileSystem() {
     }
     create(): void {
       fs.dirs.add(this.uri);
+    }
+    createFile(name: string, _mimeType: string | null): File {
+      const file = new File(this.uri, name);
+      file.create();
+      return file;
     }
     delete(): void {
       fs.dirs.delete(this.uri);
