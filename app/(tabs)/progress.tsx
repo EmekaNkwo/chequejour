@@ -89,10 +89,10 @@ export default function ProgressScreen() {
       <SectionTitle title="This week" action={<LinkText label="Details" onPress={() => router.push('/weekly')} />} />
       <Card onPress={() => router.push('/weekly')} accessibilityLabel={`This week: ${week.wordsLearned} words learned, ${week.minutes} minutes, accuracy ${week.accuracy === null ? 'not available' : `${Math.round(week.accuracy * 100)} percent`}.`}>
         <Row style={styles.between}>
-          <Stat value={String(week.wordsLearned)} label="words" />
+          <Stat value={String(week.wordsLearned)} label={week.wordsLearned === 1 ? 'word' : 'words'} />
           <Stat value={week.accuracy === null ? '—' : `${Math.round(week.accuracy * 100)}%`} label="accuracy" />
-          <Stat value={`${week.minutes}`} label="minutes" />
-          <Stat value={String(week.daysStudied)} label="days" />
+          <Stat value={`${week.minutes}`} label={week.minutes === 1 ? 'minute' : 'minutes'} />
+          <Stat value={String(week.daysStudied)} label={week.daysStudied === 1 ? 'day' : 'days'} />
         </Row>
         {week.weakest.length > 0 ? (
           <AppText variant="meta" tone="muted" style={styles.mt}>
