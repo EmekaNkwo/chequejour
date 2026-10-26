@@ -40,6 +40,7 @@ export type GrammarTag =
   | 'y-en'
   | 'relatifs'
   | 'dont'
+  | 'questions'
   | 'comparatifs'
   | 'partitifs'
   | 'imperatif'
@@ -64,6 +65,7 @@ export const GRAMMAR_TAGS: readonly GrammarTag[] = [
   'y-en',
   'relatifs',
   'dont',
+  'questions',
   'comparatifs',
   'partitifs',
   'imperatif',
@@ -89,6 +91,7 @@ export const GRAMMAR_TAG_LABELS: Readonly<Record<GrammarTag, string>> = {
   'y-en': 'The pronouns y and en',
   relatifs: 'Relative pronouns qui, que, où',
   dont: 'The relative pronoun dont',
+  questions: 'Asking questions',
   comparatifs: 'Comparatives and superlatives',
   partitifs: 'Articles and partitives',
   imperatif: 'Imperative',
@@ -363,4 +366,6 @@ export interface ContentBundle {
   sentences: Sentence[];
   placement: PlacementTest;
   mockTests: MockTest[];
+  /** Question-forming drills for speaking task 2; stored as exercises outside any unit. */
+  questionDrills?: Exercise[];
 }

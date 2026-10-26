@@ -5,18 +5,18 @@ import { existsSync, readdirSync, readFileSync } from 'node:fs';
 import { join, resolve } from 'node:path';
 import type { ZodType } from 'zod';
 import { collectAudioClips } from '../../domain/audio-keys';
-import type { ContentBundle, MockTest, PlacementTest, Sentence, Unit } from '../../domain/content-types';
+import type { ContentBundle, Exercise, MockTest, PlacementTest, Sentence, Unit } from '../../domain/content-types';
 import { exerciseProblems } from '../../domain/exercises/content-checks';
 import { mockFormatProblems } from '../../domain/tcf/mock-format-checks';
-import { mockTestSchema, placementSchema, sentenceSchema, unitSchema } from './schema';
+import { exerciseSchema, mockTestSchema, placementSchema, sentenceSchema, unitSchema } from './schema';
 
 export const ROOT = resolve(__dirname, '..', '..');
 export const SOURCE_DIR = join(ROOT, 'content', 'source');
 export const AUDIO_DIR = join(ROOT, 'assets', 'audio');
 export const AUDIO_EXT = '.m4a';
 
-/** Bump whenever content changes shape or text, so installed apps reseed. 2: TCF Canada mocks. 3: mocks 3 and 4. 4: sentence-halves matching. */
-export const CONTENT_VERSION = 4;
+/** Bump whenever content changes shape or text, so installed apps reseed. 2: TCF Canada mocks. 3: mocks 3 and 4. 4: sentence-halves matching. 5: question drills. */
+export const CONTENT_VERSION = 5;
 export const MIN_SENTENCES = 365;
 
 export interface Report {
@@ -118,6 +118,16 @@ export function loadAll(report: Report): ContentBundle {
     })
     .filter((m): m is MockTest => m !== undefined);
 
+  const drillsPath = join(SOURCE_DIR, 'question-drills.json');
+  const drillsRaw = existsSync(drillsPath) ? readJson(drillsPath, report) : [];
+  const questionDrills: Exercise[] = Array.isArray(drillsRaw)
+    ? drillsRaw.map((e, i) => parseWith(exerciseSchema, e, `question-drills.json[${i}]`, report)).filter((e): e is Exercise => e !== undefined)
+    : [];
+  for (const e of questionDrills) {
+    if (!e.id.startsWith('qd-')) report.errors.push(`question-drills.json: id "${e.id}" must start with "qd-"`);
+    report.errors.push(...exerciseProblems(e));
+  }
+
   const bundle: ContentBundle = {
     version: CONTENT_VERSION,
     builtAt: new Date().toISOString(),
@@ -125,6 +135,7 @@ export function loadAll(report: Report): ContentBundle {
     sentences,
     placement,
     mockTests,
+    questionDrills,
   };
   checkBundle(bundle, report);
   return bundle;
@@ -195,5 +206,6 @@ export function summarize(bundle: ContentBundle): string {
     `exercises: ${bundle.units.reduce((n, u) => n + u.exercises.length + u.checkpoint.length, 0)}`,
     `placement questions: ${bundle.placement.questions.length}`,
     `mock tests: ${bundle.mockTests.length}`,
+    `question drills: ${bundle.questionDrills?.length ?? 0}`,
   ].join('\n');
 }

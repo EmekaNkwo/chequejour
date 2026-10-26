@@ -221,6 +221,11 @@ function Speaking({ task }: { task: SpeakingTask }) {
         <AppText variant="meta" tone="muted" style={styles.mt}>
           {`${formatClock(task.prepSeconds)} to prepare · ${formatClock(task.speakSeconds)} to speak`}
         </AppText>
+        {task.taskType === 'interaction' ? (
+          <View style={styles.mt}>
+            <LinkText label="Warm up: asking questions drill" icon="help-circle" onPress={() => router.push('/questions')} />
+          </View>
+        ) : null}
       </Card>
 
       <Card accessibilityLabel={`${timerLabel}: ${formatClock(timerValue)}`}>

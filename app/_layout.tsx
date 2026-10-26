@@ -37,6 +37,7 @@ const APP_SCREENS = [
   'mistakes',
   'conjugation',
   'shadow',
+  'questions',
   'listening/[id]',
   'reading/[id]',
   'writing/[id]',

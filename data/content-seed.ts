@@ -51,6 +51,7 @@ export function bundleRows(bundle: ContentBundle): ItemRow[] {
     ...bundle.sentences.map((s, ord) => ({ id: s.id, kind: 'sentence' as const, unitId: null, ord, level: s.level, skill: null, grammarTag: s.grammarTag, title: null, json: s })),
     ...bundle.placement.questions.map((q, ord) => ({ id: q.id, kind: 'placement' as const, unitId: null, ord, level: q.band, skill: q.skill, grammarTag: q.grammarTag, title: null, json: q })),
     ...bundle.mockTests.map((m, ord) => ({ id: m.id, kind: 'mock' as const, unitId: null, ord, level: 'B1', skill: null, grammarTag: null, title: m.title, json: m })),
+    ...(bundle.questionDrills ?? []).map((e, ord) => ({ id: e.id, kind: 'exercise' as const, unitId: null, ord, level: e.level, skill: e.skill, grammarTag: e.grammarTag, title: null, json: e })),
   ];
 }
 
