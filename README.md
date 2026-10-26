@@ -196,10 +196,12 @@ Adding content: see [docs/CONTENT_AUTHORING.md](docs/CONTENT_AUTHORING.md).
   beyond personal use. Missing clips fall back to the phone's French text-to-speech.
 - **Writing and speaking are self-assessed** against a model answer and checklist. The app
   can't grade free text or pronunciation offline.
-- **Two mock tests** ship; more can be added as JSON (`content/source/mock-tests/`). The
-  final-stretch practice sets reuse their questions, so they repeat after a few weeks.
-- **NCLC is approximate.** The app's score-to-NCLC scale is its own, not the official
-  TCF Canada conversion, and writing/speaking rely on self-assessment.
+- **Four mock tests** ship; more can be added as JSON (`content/source/mock-tests/`). The
+  final-stretch practice sets reuse their questions (156 listening and 156 reading), so a
+  learner who practises every day will eventually see repeats.
+- **NCLC is approximate.** The app's practice scores come from uncalibrated questions, so
+  they can't be converted to real TCF scores. The About NCLC screen shows IRCC's official
+  TCF-to-NCLC table for reference, and writing/speaking rely on self-assessment.
 - **Content review**: all French was written originally for this app (no TCF or textbook
   material). The validation script checks structure, answers and duplicates, but the
   language itself has not yet been reviewed by a native-speaker teacher. Fix errors by
