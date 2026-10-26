@@ -12,7 +12,7 @@ export function WidgetUpdater() {
   useEffect(() => {
     if (Platform.OS !== 'android') return;
     loadWidgetWord(db, today)
-      .then((word) => requestWidgetUpdate({ widgetName: WORD_WIDGET_NAME, renderWidget: () => wordWidget(word) }))
+      .then((word) => requestWidgetUpdate({ widgetName: WORD_WIDGET_NAME, renderWidget: (info) => wordWidget(word, info) }))
       .catch((e: unknown) => logError('widget update', e));
   }, [db, today, dataVersion]);
   return null;

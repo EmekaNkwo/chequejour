@@ -23,6 +23,6 @@ export async function currentWidgetWord(): Promise<WidgetWordView | null> {
 export async function widgetTaskHandler({ widgetInfo, widgetAction, renderWidget }: WidgetTaskHandlerProps): Promise<void> {
   if (widgetInfo.widgetName !== WORD_WIDGET_NAME) return;
   if (widgetAction === 'WIDGET_ADDED' || widgetAction === 'WIDGET_UPDATE' || widgetAction === 'WIDGET_RESIZED') {
-    renderWidget(wordWidget(await currentWidgetWord()));
+    renderWidget(wordWidget(await currentWidgetWord(), widgetInfo));
   }
 }
