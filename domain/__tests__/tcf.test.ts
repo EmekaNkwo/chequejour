@@ -4,7 +4,7 @@ import { TCF_CANADA, testMinutes, writingTaskFormat } from '../tcf/exam-format';
 import { countdownLabel, daysToExam, examPhase, examPracticeSkill, sessionSkill, skillWeights, weightedRotation } from '../tcf/exam-plan';
 import { mockFormatProblems } from '../tcf/mock-format-checks';
 import { checklistScore, scoreComprehension, scoreTasks, tcfScores } from '../tcf/mock-scoring';
-import { cefrForNclc, estimateSkill, gapToTarget, isEstimate, nclcForScore, nclcOverview, practiceScore, type SkillEvidence } from '../tcf/nclc';
+import { cefrForNclc, estimateSkill, IRCC_TCF_TABLE, gapToTarget, isEstimate, nclcForScore, nclcOverview, practiceScore, type SkillEvidence } from '../tcf/nclc';
 import { countWords, handInWarning, wordRangeStatus } from '../writing/word-count';
 
 const q = (id: string, band: MockQuestion['band'], answer = 0): MockQuestion => ({ id, band, question: id, options: ['a', 'b', 'c', 'd'], answer, explanation: '' });
@@ -200,5 +200,18 @@ describe('mock format checks', () => {
         'speaking task 2 must be 120s preparation + 210s speaking',
       ]),
     );
+  });
+});
+
+describe('official IRCC table', () => {
+  it('lists NCLC 4 to 10+ in order with ranges that meet without gaps', () => {
+    expect(IRCC_TCF_TABLE.map((r) => r.nclc)).toEqual([10, 9, 8, 7, 6, 5, 4]);
+    for (const skill of ['listening', 'reading', 'writing', 'speaking'] as const) {
+      const rows = IRCC_TCF_TABLE.map((r) => r[skill]);
+      expect(rows[0].max).toBe(skill === 'listening' || skill === 'reading' ? 699 : 20);
+      for (let i = 1; i < rows.length; i += 1) expect(rows[i].max).toBe(rows[i - 1].min - 1);
+      for (const r of rows) expect(r.min).toBeLessThanOrEqual(r.max);
+    }
+    expect(IRCC_TCF_TABLE.find((r) => r.nclc === 7)).toMatchObject({ listening: { min: 458, max: 502 }, reading: { min: 453, max: 498 }, writing: { min: 10, max: 11 }, speaking: { min: 10, max: 11 } });
   });
 });

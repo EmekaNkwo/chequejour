@@ -47,7 +47,7 @@ export function SkillEstimates({ overview }: { overview: NclcOverview }) {
           <Card
             key={result.skill}
             style={weakest ? [styles.weakest, { borderColor: colors.danger }] : undefined}
-            accessibilityLabel={`${f.title}: about NCLC ${result.nclc}, ${result.cefr}. ${gap > 0 ? `${gap} below your target of NCLC ${overview.target}` : 'Target reached'}.${weakest ? ' Your weakest skill.' : ''}${result.selfAssessed ? ' Self-assessed.' : ''} Practice estimate.`}
+            accessibilityLabel={`${f.title}: about NCLC ${result.nclc}, ${result.nclc >= 7 ? 'around B2' : result.cefr}. ${gap > 0 ? `${gap} below your target of NCLC ${overview.target}` : 'Target reached'}.${weakest ? ' Your weakest skill.' : ''}${result.selfAssessed ? ' Self-assessed.' : ''} Practice estimate.`}
             testID={`estimate-${result.skill}`}
           >
             <Row>
@@ -68,7 +68,7 @@ export function SkillEstimates({ overview }: { overview: NclcOverview }) {
               </View>
               <View style={styles.flex}>
                 <Row gap={spacing.sm}>
-                  <LevelPill level={result.cefr} />
+                  {result.nclc >= 7 ? <Pill label="≈ B2" color={colors.skills.tests.tint} textColor={colors.skills.tests.onTint} /> : <LevelPill level={result.cefr} />}
                   <AppText variant="bodyStrong" color={gap > 0 ? colors.text : colors.success}>
                     {gap > 0 ? `${gap} below target (${overview.target})` : 'Target reached'}
                   </AppText>

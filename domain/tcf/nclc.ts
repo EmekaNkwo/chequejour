@@ -33,6 +33,36 @@ export const NCLC_THRESHOLDS: readonly { nclc: Nclc; minScore: number }[] = [
   { nclc: 3, minScore: 0 },
 ];
 
+export interface ScoreRange {
+  min: number;
+  max: number;
+}
+
+export interface IrccTcfRow {
+  /** 10 means "10 and above". */
+  nclc: number;
+  listening: ScoreRange;
+  reading: ScoreRange;
+  writing: ScoreRange;
+  speaking: ScoreRange;
+}
+
+/**
+ * IRCC's conversion of real TCF Canada scores (listening and reading out of 699,
+ * writing and speaking out of 20) to NCLC, as published on canada.ca (Express Entry
+ * language test results, checked October 2026). Shown for reference only: the app's
+ * practice scores are not TCF scores and are never converted with this table.
+ */
+export const IRCC_TCF_TABLE: readonly IrccTcfRow[] = [
+  { nclc: 10, listening: { min: 549, max: 699 }, reading: { min: 549, max: 699 }, writing: { min: 16, max: 20 }, speaking: { min: 16, max: 20 } },
+  { nclc: 9, listening: { min: 523, max: 548 }, reading: { min: 524, max: 548 }, writing: { min: 14, max: 15 }, speaking: { min: 14, max: 15 } },
+  { nclc: 8, listening: { min: 503, max: 522 }, reading: { min: 499, max: 523 }, writing: { min: 12, max: 13 }, speaking: { min: 12, max: 13 } },
+  { nclc: 7, listening: { min: 458, max: 502 }, reading: { min: 453, max: 498 }, writing: { min: 10, max: 11 }, speaking: { min: 10, max: 11 } },
+  { nclc: 6, listening: { min: 398, max: 457 }, reading: { min: 406, max: 452 }, writing: { min: 7, max: 9 }, speaking: { min: 7, max: 9 } },
+  { nclc: 5, listening: { min: 369, max: 397 }, reading: { min: 375, max: 405 }, writing: { min: 6, max: 6 }, speaking: { min: 6, max: 6 } },
+  { nclc: 4, listening: { min: 331, max: 368 }, reading: { min: 342, max: 374 }, writing: { min: 4, max: 5 }, speaking: { min: 4, max: 5 } },
+];
+
 export const NCLC_TARGETS: readonly Nclc[] = [4, 5, 6, 7, 8];
 export const DEFAULT_TARGET_NCLC: Nclc = 7;
 

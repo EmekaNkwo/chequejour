@@ -7,7 +7,9 @@ import { Row, SectionTitle } from '../components/ui/Bits';
 import { Card } from '../components/ui/Card';
 import { Screen } from '../components/ui/Screen';
 import { ScreenHeader } from '../components/ui/ScreenHeader';
-import { cefrForNclc, NCLC_DISCLAIMER, NCLC_THRESHOLDS } from '../domain/tcf/nclc';
+import { cefrForNclc, IRCC_TCF_TABLE, NCLC_DISCLAIMER, NCLC_THRESHOLDS, type ScoreRange } from '../domain/tcf/nclc';
+
+const range = (r: ScoreRange): string => (r.min === r.max ? String(r.min) : `${r.min}–${r.max}`);
 
 export default function NclcInfoScreen() {
   const { colors } = useTheme();
@@ -38,6 +40,37 @@ export default function NclcInfoScreen() {
         </AppText>
       </Card>
 
+      <SectionTitle title="Real TCF Canada scores for each NCLC" />
+      <Card testID="ircc-table">
+        <AppText variant="body" tone="secondary">
+          IRCC converts your real TCF Canada results like this. Listening and reading are scored out of 699, writing and speaking out of 20.
+        </AppText>
+        <Row style={[styles.tableRow, { borderColor: colors.border }]}>
+          {['NCLC', 'Listen', 'Read', 'Write', 'Speak'].map((h) => (
+            <AppText key={h} variant="label" tone="muted" style={styles.col}>
+              {h}
+            </AppText>
+          ))}
+        </Row>
+        {IRCC_TCF_TABLE.map((r) => (
+          <View
+            key={r.nclc}
+            style={[styles.line, styles.tableRow, { borderColor: colors.border }]}
+            accessible
+            accessibilityLabel={`NCLC ${r.nclc === 10 ? '10 and above' : r.nclc}: listening ${range(r.listening)}, reading ${range(r.reading)}, writing ${range(r.writing)}, speaking ${range(r.speaking)}`}
+          >
+            <AppText variant="bodyStrong" style={styles.col}>{r.nclc === 10 ? '10+' : String(r.nclc)}</AppText>
+            <AppText variant="meta" style={styles.col}>{range(r.listening)}</AppText>
+            <AppText variant="meta" style={styles.col}>{range(r.reading)}</AppText>
+            <AppText variant="meta" style={styles.col}>{range(r.writing)}</AppText>
+            <AppText variant="meta" style={styles.col}>{range(r.speaking)}</AppText>
+          </View>
+        ))}
+        <AppText variant="meta" tone="muted" style={styles.mt}>
+          From IRCC&apos;s Express Entry language test page on canada.ca, checked October 2026. Tables can change, so check the current one for your program. The app&apos;s practice scores are not TCF scores and can&apos;t be read against this table.
+        </AppText>
+      </Card>
+
       <SectionTitle title="How the app estimates it" />
       <Card>
         <AppText variant="body" tone="secondary">
@@ -47,11 +80,11 @@ export default function NclcInfoScreen() {
           <Row key={t.nclc} style={[styles.tableRow, { borderColor: colors.border }]}>
             <AppText variant="bodyStrong" style={styles.col}>{`${t.nclc === 3 ? '3 or below' : `NCLC ${t.nclc}`}`}</AppText>
             <AppText variant="meta" tone="muted" style={styles.col}>{`from ${Math.round(t.minScore * 100)}%`}</AppText>
-            <AppText variant="meta" tone="muted" style={styles.col}>{`≈ ${cefrForNclc(t.nclc)}`}</AppText>
+            <AppText variant="meta" tone="muted" style={styles.col}>{t.nclc >= 7 ? '≈ B2' : `≈ ${cefrForNclc(t.nclc)}`}</AppText>
           </Row>
         ))}
         <AppText variant="meta" tone="muted" style={styles.mt}>
-          This course goes from A2 to B1, so practice alone can show about NCLC 6. The mock tests include a few harder questions, which is how an estimate of NCLC 7 or 8 can appear.
+          This course goes from A2 to B1, so practice alone can show about NCLC 6. NCLC 7 and 8 are usually placed around B2; the mock tests include a few harder questions, which is how an estimate of NCLC 7 or 8 can appear.
         </AppText>
       </Card>
     </Screen>
@@ -64,4 +97,5 @@ const styles = StyleSheet.create({
   mt: { marginTop: spacing.sm },
   tableRow: { borderTopWidth: StyleSheet.hairlineWidth, paddingVertical: spacing.sm, marginTop: spacing.xs },
   col: { flex: 1 },
+  line: { flexDirection: 'row', alignItems: 'center' },
 });
