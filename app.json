@@ -15,7 +15,7 @@
     "android": {
       "package": "com.emeka.chequejour",
       "adaptiveIcon": {
-        "backgroundColor": "#EEF3F8",
+        "backgroundColor": "#1B2440",
         "foregroundImage": "./assets/android-icon-foreground.png",
         "backgroundImage": "./assets/android-icon-background.png",
         "monochromeImage": "./assets/android-icon-monochrome.png"
@@ -46,7 +46,7 @@
       [
         "expo-notifications",
         {
-          "color": "#F26B5B",
+          "color": "#2F5BD3",
           "icon": "./assets/notification-icon.png"
         }
       ],

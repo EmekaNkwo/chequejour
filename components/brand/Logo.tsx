@@ -1,5 +1,10 @@
-import Svg, { Circle, G, Path, Rect } from 'react-native-svg';
-import { BUBBLE_PATH, CHECK_PATH, CHECK_WIDTH, GLYPH_OFFSET, LOGO_CANVAS, LOGO_COLORS, SUN, SUN_GAP, TILE_RADIUS } from './logo-geometry';
+import { SvgXml } from 'react-native-svg';
+import { glyphMarkup, GLYPH_OFFSET, LOGO_CANVAS, LOGO_COLORS, TILE_RADIUS } from './logo-geometry';
+
+const XML = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${LOGO_CANVAS} ${LOGO_CANVAS}">
+  <rect width="${LOGO_CANVAS}" height="${LOGO_CANVAS}" rx="${TILE_RADIUS}" fill="${LOGO_COLORS.tile}"/>
+  <g transform="translate(${GLYPH_OFFSET.x} ${GLYPH_OFFSET.y})">${glyphMarkup()}</g>
+</svg>`;
 
 export interface LogoProps {
   size: number;
@@ -7,24 +12,16 @@ export interface LogoProps {
   accessibilityLabel?: string;
 }
 
-/** The app mark on its coral tile, identical to the app icon and splash image. */
+/** The app mark on its navy tile, identical to the app icon and splash image. */
 export function Logo({ size, accessibilityLabel }: LogoProps) {
   return (
-    <Svg
+    <SvgXml
+      xml={XML}
       width={size}
       height={size}
-      viewBox={`0 0 ${LOGO_CANVAS} ${LOGO_CANVAS}`}
       accessible={!!accessibilityLabel}
       accessibilityRole={accessibilityLabel ? 'image' : undefined}
       accessibilityLabel={accessibilityLabel}
-    >
-      <Rect width={LOGO_CANVAS} height={LOGO_CANVAS} rx={TILE_RADIUS} fill={LOGO_COLORS.coral} />
-      <G transform={`translate(${GLYPH_OFFSET.x} ${GLYPH_OFFSET.y})`}>
-        <Path d={BUBBLE_PATH} fill={LOGO_COLORS.bubble} />
-        <Path d={CHECK_PATH} fill="none" stroke={LOGO_COLORS.check} strokeWidth={CHECK_WIDTH} strokeLinecap="round" strokeLinejoin="round" />
-        <Circle cx={SUN.cx} cy={SUN.cy} r={SUN.r + SUN_GAP} fill={LOGO_COLORS.coral} />
-        <Circle cx={SUN.cx} cy={SUN.cy} r={SUN.r} fill={LOGO_COLORS.sun} />
-      </G>
-    </Svg>
+    />
   );
 }

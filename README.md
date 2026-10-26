@@ -148,11 +148,13 @@ on length, and clear when you continue; confirmations close if you leave the scr
 
 ### Logo and icons
 
-The mark is a speech bubble with a check mark and a small sun, on the brand coral.
-Its geometry lives in `components/brand/logo-geometry.ts` and feeds both the in-app
-`<Logo />` and `npm run brand:build`, which writes the app icon, Android adaptive and
-themed-icon layers, notification icon, splash image, favicon and the logo lockups in
-`assets/brand/`. Native icons and the splash only change after a rebuild.
+The mark is a tear-off day-calendar page (*chaque jour*: every day) with a French
+blue-white-red header, a bold **J** for *Jour*, and a speech-bubble tail (a language you
+speak), on the app's navy. Its geometry lives in `components/brand/logo-geometry.ts` and
+feeds both the in-app `<Logo />` and `npm run brand:build`, which writes the app icon,
+Android adaptive and themed-icon layers, notification icon, splash image, favicon and the
+logo lockups in `assets/brand/`. Native icons, the splash and the app name on the home
+screen only change after a rebuild.
 
 ## How the level estimate works
 
