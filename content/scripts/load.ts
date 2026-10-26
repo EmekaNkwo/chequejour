@@ -14,8 +14,8 @@ export const SOURCE_DIR = join(ROOT, 'content', 'source');
 export const AUDIO_DIR = join(ROOT, 'assets', 'audio');
 export const AUDIO_EXT = '.m4a';
 
-/** Bump whenever content changes shape or text, so installed apps reseed. 2: TCF Canada mocks. */
-export const CONTENT_VERSION = 2;
+/** Bump whenever content changes shape or text, so installed apps reseed. 2: TCF Canada mocks. 3: mocks 3 and 4. */
+export const CONTENT_VERSION = 3;
 export const MIN_SENTENCES = 365;
 
 export interface Report {
