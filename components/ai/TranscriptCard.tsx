@@ -4,6 +4,7 @@
  * and the speaking pace. Always labelled as a hint, never as a score.
  */
 import { Feather } from '@expo/vector-icons';
+import type { ReactNode } from 'react';
 import { ActivityIndicator, StyleSheet, View } from 'react-native';
 import { aiFailureMessage } from '../../domain/ai/errors';
 import { speechPace } from '../../domain/ai/transcript';
@@ -21,9 +22,11 @@ export interface TranscriptCardProps {
   /** The line the learner was repeating, if any. */
   target?: string;
   durationMs: number;
+  /** Shown under a finished, non-empty transcript (e.g. AI coaching). */
+  children?: ReactNode;
 }
 
-export function TranscriptCard({ transcript, target, durationMs }: TranscriptCardProps) {
+export function TranscriptCard({ transcript, target, durationMs, children }: TranscriptCardProps) {
   const { colors } = useTheme();
   return (
     <Card testID="ai-transcript">
@@ -49,7 +52,10 @@ export function TranscriptCard({ transcript, target, durationMs }: TranscriptCar
           No speech was recognised. Try again a little closer to the microphone.
         </AppText>
       ) : (
-        <Heard text={transcript.text} target={target} durationMs={durationMs} />
+        <>
+          <Heard text={transcript.text} target={target} durationMs={durationMs} />
+          {children}
+        </>
       )}
       <AppText variant="meta" tone="muted">
         AI suggestion, recognised on this phone only. It can mishear; it is not a pronunciation score.

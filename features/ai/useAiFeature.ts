@@ -5,7 +5,10 @@ import { useAiPack } from './useAiPack';
 
 export interface AiFeatureAccess {
   ready: boolean;
-  /** The language model to use; set whenever `ready` is true for a language-model feature. */
+  /**
+   * The installed language model, when the feature is ready: always set for language-model
+   * features; for speaking, set only on phones that also have one (for spoken feedback).
+   */
   llm: ModelEntry | null;
 }
 
@@ -14,5 +17,6 @@ export function useAiFeature(feature: AiFeature): AiFeatureAccess {
   const { settings } = useApp();
   const pack = useAiPack();
   const ready = featureReady(feature, settings.aiFeatures, { sttId: pack.plan.stt.id, llmId: pack.plan.llm?.id ?? null, installedIds: pack.installedIds });
-  return { ready, llm: ready ? pack.plan.llm : null };
+  const llm = pack.plan.llm && pack.installedIds.includes(pack.plan.llm.id) ? pack.plan.llm : null;
+  return { ready, llm: ready ? llm : null };
 }

@@ -3,6 +3,7 @@ import { useAudioPlayer, useAudioPlayerStatus } from 'expo-audio';
 import { router, useLocalSearchParams } from 'expo-router';
 import { useCallback, useEffect, useRef, useState } from 'react';
 import { StyleSheet, View } from 'react-native';
+import { SpeakingAiFeedback } from '../../components/ai/SpeakingAiFeedback';
 import { TranscriptCard } from '../../components/ai/TranscriptCard';
 import { PlayButton } from '../../components/audio/AudioControls';
 import { useTheme } from '../../components/theme/ThemeProvider';
@@ -17,7 +18,7 @@ import { useToast } from '../../components/ui/Toast';
 import type { Recording } from '../../data/progress-repo';
 import { audioKey } from '../../domain/audio-keys';
 import type { SpeakingTask } from '../../domain/content-types';
-import { useSpeechAi } from '../../features/ai/useSpeechAi';
+import { useSpeechAi, type Transcript } from '../../features/ai/useSpeechAi';
 import { useApp } from '../../features/app/AppContext';
 import { logError } from '../../features/app/log';
 import { useLoad } from '../../features/app/useLoad';
@@ -250,7 +251,9 @@ function Speaking({ task }: { task: SpeakingTask }) {
       </Card>
 
       {recordings[0] && speechAi.transcripts[recordings[0].uri] ? (
-        <TranscriptCard transcript={speechAi.transcripts[recordings[0].uri]} durationMs={recordings[0].durationMs} />
+        <TranscriptCard transcript={speechAi.transcripts[recordings[0].uri]} durationMs={recordings[0].durationMs}>
+          <TakeCoaching key={recordings[0].uri} task={task} transcript={speechAi.transcripts[recordings[0].uri]} durationMs={recordings[0].durationMs} />
+        </TranscriptCard>
       ) : null}
 
       <Card>
@@ -297,6 +300,16 @@ function Speaking({ task }: { task: SpeakingTask }) {
         <Button label="Mark as done" icon="check" onPress={markDone} disabled={phase !== 'idle'} testID="speaking-done" />
       )}
     </Screen>
+  );
+}
+
+/** AI coaching for a finished transcript; keyed by take so a new take starts fresh. */
+function TakeCoaching({ task, transcript, durationMs }: { task: SpeakingTask; transcript: Transcript; durationMs: number }) {
+  if (transcript.status !== 'done') return null;
+  return (
+    <SpeakingAiFeedback
+      input={{ taskType: task.taskType, level: task.level, promptFr: task.promptFr, transcript: transcript.text, durationMs }}
+    />
   );
 }
 

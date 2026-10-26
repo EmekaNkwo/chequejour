@@ -56,20 +56,22 @@ export function writingFeedbackMessages(input: WritingFeedbackInput): { role: 's
 }
 
 /** Scores, marks or levels: the AI must not grade. */
-const GRADES = /\b\d{1,3}\s*\/\s*\d{1,3}\b|\b(?:score|mark|grade|note)\s*[:=]|\bNCLC\b|\b(?:CLB|CECRL|CEFR)\b|\blevel [ABC][12]\b|\b[ABC][12] level\b/i;
+export const GRADES = /\b\d{1,3}\s*\/\s*\d{1,3}\b|\b(?:score|mark|grade|note)\s*[:=]|\bNCLC\b|\b(?:CLB|CECRL|CEFR)\b|\blevel [ABC][12]\b|\b[ABC][12] level\b/i;
 
-const norm = (s: string): string => s.replace(/[’']/g, "'").replace(/\s+/g, ' ').trim();
+const tidy = (s: string): string => s.replace(/\s+/g, ' ').trim();
+const norm = (s: string): string => tidy(s.replace(/[’']/g, "'"));
 /** What a change looks like ignoring capitals and the spaces French puts around punctuation. */
 const substance = (s: string): string => norm(s).toLowerCase().replace(/\s*([?!:;,.])/g, '$1');
 
-function soundCorrection(c: Correction, text: string): Correction | null {
+/** The correction, tidied, if it quotes the learner's words and really changes them; null otherwise. */
+export function soundCorrection(c: Correction, text: string): Correction | null {
   if (!quotedIn(text, c.original)) return null;
   if (substance(c.original) === substance(c.corrected)) return null;
   try {
     const corrected = checkText(c.corrected, { language: 'any', maxChars: 120 });
     const why = checkText(c.why, { language: 'en', maxChars: 240 });
     if (GRADES.test(why)) return null;
-    return { original: norm(c.original), corrected: norm(corrected), why };
+    return { original: tidy(c.original), corrected: tidy(corrected), why };
   } catch {
     return null;
   }
