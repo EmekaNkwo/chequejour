@@ -9,6 +9,8 @@ import { AiError } from './errors';
 
 export function stripReasoning(text: string): string {
   return text
+    // A chat-template header in front of the reply ("<|im_start|>assistant"), not inside it.
+    .replace(/^\s*<\|[^|>]*\|>\s*assistant\s*/i, '')
     .replace(/<think>[\s\S]*?<\/think>/g, '')
     .replace(/<think>[\s\S]*$/, '')
     .trim();

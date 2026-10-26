@@ -42,7 +42,7 @@ describe('checking writing feedback', () => {
   };
 
   it('keeps sound corrections, strengths and the next step', () => {
-    expect(checkWritingFeedback(sound, input)).toEqual(sound);
+    expect(checkWritingFeedback(sound, input)).toEqual({ ...sound, heldBack: 0 });
   });
 
   it('drops corrections that quote words the learner never wrote', () => {
@@ -65,12 +65,14 @@ describe('checking writing feedback', () => {
       { original: 'Bisous', corrected: 'Va sur www.exemple.fr', why: 'See the link.' },
     ];
     expect(checkWritingFeedback({ ...sound, corrections: bad }, input).corrections).toEqual([]);
+    // The learner is told corrections were held back, not that the text has no mistakes.
+    expect(checkWritingFeedback({ ...sound, corrections: bad }, input).heldBack).toBe(bad.length);
   });
 
   it('rejects the whole answer when the overall advice gives a score or is not English', () => {
     expect(rejected(() => checkWritingFeedback({ ...sound, nextStep: 'Score: 14/20. Add details about the place.' }, input))).toBe(true);
     expect(rejected(() => checkWritingFeedback({ ...sound, nextStep: 'Ajoute une phrase pour dire où est la fête et à quelle heure.' }, input))).toBe(true);
-    expect(rejected(() => checkWritingFeedback({ ...sound, strengths: ['This would get NCLC 7 at the exam.'] }, input))).toBe(true);
+    expect(checkWritingFeedback({ ...sound, strengths: ['This would get NCLC 7 at the exam.'] }, input).strengths).toEqual([]);
   });
 });
 
@@ -85,5 +87,39 @@ describe('grade detection', () => {
     for (const text of ['Please note: use "à" before cities.', 'Add a second argument.', 'Note the agreement of the past participle.']) {
       expect(GRADES.test(text)).toBe(false);
     }
+  });
+});
+
+describe('corrections must be small edits of what was written', () => {
+  const text = 'Je suis rentre tres tard mais je etais content. Les enfants sont venu.';
+  const feedback = (corrections: { original: string; corrected: string; why: string }[]) =>
+    checkWritingFeedback({ corrections, strengths: [], nextStep: 'Check your past participles.' }, { ...input, text });
+
+  it('keeps accent, agreement and elision fixes', () => {
+    const out = feedback([
+      { original: 'rentre', corrected: 'rentré', why: 'The past participle of rentrer ends in -é.' },
+      { original: 'sont venu', corrected: 'sont venus', why: 'With être the participle agrees: venus.' },
+      { original: 'je etais', corrected: "j'étais", why: 'Je becomes j’ before a vowel.' },
+    ]);
+    expect(out.corrections).toHaveLength(3);
+  });
+
+  it('holds back rewrites into different words', () => {
+    const out = feedback([
+      { original: 'rentre', corrected: 'retourné', why: 'Use the past tense.' },
+      { original: 'je etais', corrected: 'je suis', why: 'Use the present tense.' },
+    ]);
+    expect(out.corrections).toEqual([]);
+    expect(out.heldBack).toBe(2);
+  });
+});
+
+describe('levels in the advice', () => {
+  it('drops a strength that mentions a level instead of throwing the feedback away', () => {
+    const out = checkWritingFeedback(
+      { corrections: [], strengths: ['Good vocabulary for level A2.', 'Clear greeting and sign-off.'], nextStep: 'Say when the party starts.' },
+      input,
+    );
+    expect(out.strengths).toEqual(['Clear greeting and sign-off.']);
   });
 });

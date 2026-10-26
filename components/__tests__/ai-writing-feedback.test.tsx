@@ -51,11 +51,20 @@ describe('AI writing feedback', () => {
     expect(screen.getByText('Next time: Say where the party is and at what time.')).toBeTruthy();
   });
 
-  it('says so when no clear mistake was found', async () => {
+  it('never claims the text has no mistakes when the AI pointed out none', async () => {
     gen.mockResolvedValueOnce(JSON.stringify({ corrections: [], strengths: [], nextStep: 'Add a sign-off with your name.' }));
     await show();
     await fireEvent.press(screen.getByTestId('ai-writing-ask'));
-    await waitFor(() => expect(screen.getByText(/No clear mistakes found/)).toBeTruthy());
+    await waitFor(() => expect(screen.getByText(/didn’t point out any mistakes/)).toBeTruthy());
+    expect(screen.queryByText(/No clear mistakes/)).toBeNull();
+  });
+
+  it('says when its corrections were held back by the checks', async () => {
+    const unquoted = { original: 'nextStep', corrected: 'next step', why: 'Add a space.' };
+    gen.mockResolvedValueOnce(JSON.stringify({ corrections: [unquoted], strengths: [], nextStep: 'Add a sign-off with your name.' }));
+    await show();
+    await fireEvent.press(screen.getByTestId('ai-writing-ask'));
+    await waitFor(() => expect(screen.getByText(/didn’t pass the app’s checks/)).toBeTruthy());
   });
 
   it('refuses feedback that grades the text, and lets the learner retry', async () => {

@@ -39,10 +39,10 @@ const TASK_NAME: Record<WritingTask['taskType'], string> = {
 
 const SYSTEM = [
   'You are a careful French teacher. Your student is an English-speaking adult preparing for the TCF Canada.',
-  `Find at most ${MAX_CORRECTIONS} clear mistakes of grammar, spelling, accents or agreement in the student’s text. For each: "original" is the exact words copied from the text (a few words, not the whole sentence), "corrected" is the same words fixed, "why" explains the rule in one short English sentence.`,
-  'Only report real mistakes. If you are not sure something is wrong, leave it out. Do not change style, word choice that is correct, punctuation spacing or capital letters.',
-  'In "strengths", give one or two short things the text does well, in English. In "nextStep", give one concrete thing to improve next time, in English.',
-  'Give no score, mark, grade or level of any kind. Reply with JSON only.',
+  `Find at most ${MAX_CORRECTIONS} clear mistakes of grammar, spelling, accents or agreement in the student’s text. For each: "original" is the exact words copied from the text (one to four words, not a whole sentence), "corrected" is the same words fixed, "why" explains the rule in one short sentence in English.`,
+  'List only words that are wrong; if you are not sure something is wrong, leave it out. Never list a correct sentence. Fewer mistakes is fine. Do not change style, word choice that is correct, punctuation spacing or capital letters.',
+  'In "strengths", give one or two short things the text really does well, in English. In "nextStep", give one concrete thing to improve next time, in English.',
+  'Give no score, mark, grade or level of any kind, and do not mention the student’s level. Reply with JSON only, on one line.',
 ].join('\n');
 
 export function writingFeedbackMessages(input: WritingFeedbackInput): { role: 'system' | 'user'; content: string }[] {
@@ -63,10 +63,38 @@ const norm = (s: string): string => tidy(s.replace(/[’']/g, "'"));
 /** What a change looks like ignoring capitals and the spaces French puts around punctuation. */
 const substance = (s: string): string => norm(s).toLowerCase().replace(/\s*([?!:;,.])/g, '$1');
 
+/** Lower case, no accents, one kind of apostrophe: the letters a learner typed. */
+const letters = (s: string): string => norm(s).normalize('NFD').replace(/\p{M}/gu, '').toLowerCase();
+
+function editDistance(a: string, b: string): number {
+  let previous = Array.from({ length: b.length + 1 }, (_, j) => j);
+  for (let i = 1; i <= a.length; i += 1) {
+    const row = [i];
+    for (let j = 1; j <= b.length; j += 1) {
+      row.push(Math.min(previous[j] + 1, row[j - 1] + 1, previous[j - 1] + (a[i - 1] === b[j - 1] ? 0 : 1)));
+    }
+    previous = row;
+  }
+  return previous[b.length];
+}
+
+/**
+ * Learners' slips are small edits: an accent, an ending, an elision. A "correction" that
+ * rewrites the words ("je etais" → "je suis") is the model guessing, so it is held back.
+ */
+const MAX_EDIT_SHARE = 0.34;
+const MIN_EDIT_ALLOWANCE = 2;
+function smallEdit(original: string, corrected: string): boolean {
+  const a = letters(original);
+  const b = letters(corrected);
+  return editDistance(a, b) <= Math.max(MIN_EDIT_ALLOWANCE, MAX_EDIT_SHARE * Math.max(a.length, b.length));
+}
+
 /** The correction, tidied, if it quotes the learner's words and really changes them; null otherwise. */
 export function soundCorrection(c: Correction, text: string): Correction | null {
   if (!quotedIn(text, c.original)) return null;
   if (substance(c.original) === substance(c.corrected)) return null;
+  if (!smallEdit(c.original, c.corrected)) return null;
   try {
     const corrected = checkText(c.corrected, { language: 'any', maxChars: 120 });
     const why = checkText(c.why, { language: 'en', maxChars: 240 });
@@ -77,11 +105,16 @@ export function soundCorrection(c: Correction, text: string): Correction | null 
   }
 }
 
-export function checkWritingFeedback(value: WritingFeedback, input: WritingFeedbackInput): WritingFeedback {
-  const advice = [...value.strengths, value.nextStep];
-  if (advice.some((a) => GRADES.test(a))) throw new AiError('rejected', 'The AI feedback tried to give a score.');
-  const strengths = value.strengths.map((s) => checkText(s, { language: 'en', maxChars: 200 }));
+export interface CheckedWritingFeedback extends WritingFeedback {
+  /** Corrections the AI proposed that failed the checks and are not shown. */
+  heldBack: number;
+}
+
+export function checkWritingFeedback(value: WritingFeedback, input: WritingFeedbackInput): CheckedWritingFeedback {
+  if (GRADES.test(value.nextStep)) throw new AiError('rejected', 'The AI feedback tried to give a score.');
+  // A strength that mentions a level is left out; the rest of the feedback can still help.
+  const strengths = value.strengths.filter((s) => !GRADES.test(s)).map((s) => checkText(s, { language: 'en', maxChars: 200 }));
   const nextStep = checkText(value.nextStep, { language: 'en', maxChars: 240 });
   const corrections = value.corrections.map((c) => soundCorrection(c, input.text)).filter((c): c is Correction => c !== null);
-  return { corrections, strengths, nextStep };
+  return { corrections, strengths, nextStep, heldBack: value.corrections.length - corrections.length };
 }

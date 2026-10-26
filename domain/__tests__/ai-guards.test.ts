@@ -15,6 +15,10 @@ describe('stripping reasoning the model may still emit', () => {
   it('removes think blocks, closed or left open', () => {
     expect(stripReasoning('<think>hmm</think>\nBonjour')).toBe('Bonjour');
     expect(stripReasoning('<think>\n\n</think>\n\n{"a":1}')).toBe('{"a":1}');
+    // On the phone the runtime hands back the assistant header in front of the reply.
+    expect(stripReasoning('<|im_start|>assistant\nBonjour !')).toBe('Bonjour !');
+    expect(stripReasoning('<|im_start|>assistant\n<think>\n\n</think>\n\n{"a":1}')).toBe('{"a":1}');
+    expect(stripReasoning('Bonjour <|im_start|>user')).toBe('Bonjour <|im_start|>user');
     expect(stripReasoning('<think>never closed')).toBe('');
   });
 });

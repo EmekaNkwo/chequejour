@@ -20,7 +20,13 @@ const model: ModelEntry = { id: 'qwen3-1.7b', kind: 'llm', name: 'Qwen', file: '
 const uri = 'file:///docs/ai-pack/qwen.gguf';
 const base = { model, messages: [{ role: 'user' as const, content: 'Salut' }], maxTokens: 64, temperature: 0.2, timeoutMs: 5000 };
 
-const context = (completion: jest.Mock) => ({ completion, stopCompletion: jest.fn(async () => undefined), release: jest.fn(async () => undefined) });
+const formatted = { type: 'jinja', prompt: '<|im_start|>user\nSalut<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n', grammar: '', additional_stops: [] as string[] };
+const context = (completion: jest.Mock, getFormattedChat = jest.fn(async () => formatted)) => ({
+  completion,
+  getFormattedChat,
+  stopCompletion: jest.fn(async () => undefined),
+  release: jest.fn(async () => undefined),
+});
 
 beforeEach(() => {
   jest.clearAllMocks();
@@ -31,35 +37,35 @@ afterEach(async () => {
 });
 
 describe('language model service', () => {
-  it('asks for a reply without thinking and returns its content', async () => {
+  it('formats the chat without thinking, then generates from that prompt', async () => {
     mockOnDisk.add(uri);
-    const completion = jest.fn(async () => ({ content: 'Bonjour !', text: '<think></think>Bonjour !', interrupted: false }));
-    (initLlama as jest.Mock).mockResolvedValue(context(completion));
-    await expect(generate(base)).resolves.toBe('Bonjour !');
+    const completion = jest.fn(async () => ({ text: '<|im_start|>assistant\nBonjour !', interrupted: false }));
+    const ctx = context(completion);
+    (initLlama as jest.Mock).mockResolvedValue(ctx);
+    await expect(generate(base)).resolves.toBe('<|im_start|>assistant\nBonjour !');
     expect(initLlama).toHaveBeenCalledWith(expect.objectContaining({ model: uri, n_ctx: 4096 }));
-    expect(completion).toHaveBeenCalledWith(expect.objectContaining({ enable_thinking: false, n_predict: 64, temperature: 0.2, response_format: undefined }), undefined);
+    expect(ctx.getFormattedChat).toHaveBeenCalledWith(base.messages, null, expect.objectContaining({ jinja: true, enable_thinking: false, response_format: undefined }));
+    // A plain prompt, not messages: llama.rn's reply parser is kept out of the way.
+    expect(completion).toHaveBeenCalledWith({ prompt: formatted.prompt, grammar: undefined, stop: [], n_predict: 64, temperature: 0.2, top_p: 0.9 }, undefined);
   });
 
-  it('constrains the reply to a JSON schema when given one, and streams text', async () => {
+  it('applies the JSON grammar directly and streams the text without the header', async () => {
     mockOnDisk.add(uri);
-    const completion = jest.fn(async (_p: unknown, cb?: (d: { content?: string }) => void) => {
-      cb?.({ content: '{"a"' });
-      return { content: '{"a":1}', text: '{"a":1}', interrupted: false };
+    const completion = jest.fn(async (_p: unknown, cb?: (d: { accumulated_text?: string }) => void) => {
+      cb?.({ accumulated_text: '<|im_start|>assistant\n{"a"' });
+      return { text: '{"a":1}', interrupted: false };
     });
-    (initLlama as jest.Mock).mockResolvedValue(context(completion));
+    const getFormattedChat = jest.fn(async () => ({ ...formatted, grammar: 'root ::= object', additional_stops: ['<|im_end|>'] }));
+    (initLlama as jest.Mock).mockResolvedValue(context(completion, getFormattedChat));
     const seen: string[] = [];
     await generate({ ...base, jsonSchema: { type: 'object' }, onText: (t) => seen.push(t) });
-    expect(completion).toHaveBeenCalledWith(
+    expect(getFormattedChat).toHaveBeenCalledWith(
+      base.messages,
+      null,
       expect.objectContaining({ response_format: { type: 'json_schema', json_schema: { strict: true, schema: { type: 'object' } } } }),
-      expect.any(Function),
     );
+    expect(completion).toHaveBeenCalledWith(expect.objectContaining({ grammar: 'root ::= object', stop: ['<|im_end|>'] }), expect.any(Function));
     expect(seen).toEqual(['{"a"']);
-  });
-
-  it('falls back to the raw text when no content was parsed', async () => {
-    mockOnDisk.add(uri);
-    (initLlama as jest.Mock).mockResolvedValue(context(jest.fn(async () => ({ content: '', text: 'Oui', interrupted: false }))));
-    await expect(generate(base)).resolves.toBe('Oui');
   });
 
   it('stops the native completion when cancelled', async () => {
@@ -76,7 +82,7 @@ describe('language model service', () => {
 
   it('reports an interrupted completion as cancelled', async () => {
     mockOnDisk.add(uri);
-    (initLlama as jest.Mock).mockResolvedValue(context(jest.fn(async () => ({ content: 'Bon', text: 'Bon', interrupted: true }))));
+    (initLlama as jest.Mock).mockResolvedValue(context(jest.fn(async () => ({ text: 'Bon', interrupted: true }))));
     await expect(generate(base)).rejects.toMatchObject({ failure: 'cancelled' });
   });
 
