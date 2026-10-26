@@ -1,6 +1,7 @@
 import { router, useLocalSearchParams } from 'expo-router';
 import { useState } from 'react';
 import { StyleSheet, View } from 'react-native';
+import { ExplainMistake } from '../components/ai/ExplainMistake';
 import { QuizRunner, type QuizScore } from '../components/exercises/QuizRunner';
 import { QuizResult } from '../components/lesson/QuizResult';
 import { spacing } from '../components/theme/tokens';
@@ -189,6 +190,9 @@ function MistakeCard({ mistake: m, onDelete }: { mistake: Mistake; onDelete: () 
       <AppText variant="body" tone="secondary" style={styles.mt}>
         {m.explanation}
       </AppText>
+      <View style={styles.mt}>
+        <ExplainMistake mistake={m} />
+      </View>
       <AppText variant="meta" tone="muted" style={styles.mt}>
         {`Wrong ${m.timesWrong} time${m.timesWrong === 1 ? '' : 's'}`}
       </AppText>
