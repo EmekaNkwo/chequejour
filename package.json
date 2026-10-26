@@ -1,7 +1,7 @@
 {
   "name": "chequejour",
   "version": "1.0.0",
-  "main": "expo-router/entry",
+  "main": "index.ts",
   "dependencies": {
     "@expo-google-fonts/nunito": "^0.4.2",
     "@expo/vector-icons": "^15.0.2",
@@ -20,6 +20,7 @@
     "expo-router": "~58.0.26",
     "expo-sharing": "~58.0.20",
     "expo-speech": "~58.0.3",
+    "expo-speech-recognition": "^58.0.0",
     "expo-splash-screen": "~58.0.11",
     "expo-sqlite": "~58.0.14",
     "expo-status-bar": "~58.0.4",
@@ -27,6 +28,7 @@
     "react": "19.3.0",
     "react-dom": "19.3.0",
     "react-native": "0.88.0",
+    "react-native-android-widget": "^0.24.0",
     "react-native-reanimated": "4.7.1",
     "react-native-safe-area-context": "~5.10.1",
     "react-native-screens": "~4.30.0",

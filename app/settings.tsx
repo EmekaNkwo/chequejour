@@ -25,6 +25,9 @@ import { hasFrenchVoice } from '../features/audio/audio-controller';
 import { exactAlarmsAllowed, notificationPermission, requestExactAlarms, requestNotificationPermission } from '../features/notifications/expo-notifications-api';
 import { importFromFile } from '../features/settings/backup-files';
 import { useBackupExport } from '../features/settings/useBackupExport';
+import { requestPinWidget } from 'react-native-android-widget';
+import { WORD_WIDGET_NAME } from '../widget/WordOfDayWidget';
+import { WidgetPreviewCard } from '../components/settings/WidgetPreviewCard';
 
 const GOALS: readonly { value: `${DailyGoal}`; label: string }[] = [
   { value: '10', label: '10 min' },
@@ -132,6 +135,16 @@ export default function SettingsScreen() {
       toast.show({ tone: 'error', title: 'Backup not restored', message: "That file couldn't be read." });
     } finally {
       setBusy(null);
+    }
+  };
+
+  const addWidget = async () => {
+    try {
+      const asked = await requestPinWidget({ widgetName: WORD_WIDGET_NAME });
+      if (!asked) toast.show({ tone: 'info', title: 'Add it from your home screen', message: 'Long-press an empty spot, choose Widgets, then Chaque Jour › Mot du jour.' });
+    } catch (e: unknown) {
+      logError('pin widget', e);
+      toast.show({ tone: 'info', title: 'Add it from your home screen', message: 'Long-press an empty spot, choose Widgets, then Chaque Jour › Mot du jour.' });
     }
   };
 
@@ -255,6 +268,18 @@ export default function SettingsScreen() {
           ) : null}
         </SettingsGroup>
       </Card>
+
+      {Platform.OS === 'android' ? (
+        <Card style={styles.card}>
+          <SettingsGroup title="Home-screen widget">
+            <AppText variant="meta" tone="muted">
+              Shows the word of the day in French and English. Tap it to open the word. It follows your phone&apos;s light or dark mode.
+            </AppText>
+            <WidgetPreviewCard />
+            <Button label="Add the widget" icon="grid" variant="secondary" onPress={() => void addWidget()} testID="add-widget" />
+          </SettingsGroup>
+        </Card>
+      ) : null}
 
       <Card style={styles.card}>
         <SettingsGroup title="Theme">

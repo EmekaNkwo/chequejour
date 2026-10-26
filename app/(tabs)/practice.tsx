@@ -114,6 +114,7 @@ export default function PracticeScreen() {
           ) : null}
           <ListRow skill="structures" category="Mistakes notebook" title="Review your mistakes" icon="repeat" onPress={() => router.push('/mistakes')} />
           <ListRow skill="speaking" category="Speaking task 2" title="Asking questions drill" icon="help-circle" onPress={() => router.push('/questions')} testID="practice-questions" />
+          <ListRow skill="listening" category="Listening" title="Dictation" icon="edit-3" onPress={() => router.push('/dictation')} testID="practice-dictation" />
           <ListRow skill="structures" category="Reference" title="Conjugation tables" icon="grid" onPress={() => router.push('/conjugation')} testID="practice-conjugation" />
         </>
       ) : null}

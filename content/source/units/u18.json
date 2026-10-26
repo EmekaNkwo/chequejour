@@ -2209,7 +2209,7 @@
       "instructions": "TCF task 3: give and justify your opinion on the statement.",
       "promptFr": "« Pour progresser dans sa carrière, il faut changer d'emploi régulièrement. » Qu'en pensez-vous ?",
       "prepSeconds": 0,
-      "speakSeconds": 240,
+      "speakSeconds": 270,
       "modelAnswer": "Je ne suis pas complètement d'accord avec cette idée. Bien sûr, changer d'entreprise permet de découvrir d'autres méthodes de travail, de développer de nouvelles compétences et souvent d'obtenir un meilleur salaire. Une amie informaticienne, par exemple, a changé trois fois de poste en six ans, et chaque fois, elle a beaucoup appris.\n\nPourtant, rester longtemps dans la même entreprise a aussi des avantages. On connaît bien l'équipe, on gagne la confiance de ses responsables et on peut évoluer en interne. D'ailleurs, certains employeurs se méfient des candidats qui ne restent jamais plus d'un an au même endroit.\n\nPour moi, ce qui compte, ce n'est pas le nombre d'emplois, c'est ce qu'on apprend. Si on ne progresse plus et qu'on n'a aucune perspective d'évolution, il vaut mieux partir. Sinon, la stabilité peut être un vrai atout.",
       "tips": [
         "Say clearly how far you agree, then give arguments on both sides.",

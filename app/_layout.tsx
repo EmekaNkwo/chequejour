@@ -20,6 +20,7 @@ import { AppProvider, useApp } from '../features/app/AppContext';
 import { DATABASE_NAME, initDatabase } from '../features/app/bootstrap';
 import { logError } from '../features/app/log';
 import { NotificationManager } from '../features/notifications/NotificationManager';
+import { WidgetUpdater } from '../widget/WidgetUpdater';
 
 const SPLASH_FADE_MS = 300;
 
@@ -38,6 +39,7 @@ const APP_SCREENS = [
   'conjugation',
   'shadow',
   'questions',
+  'dictation',
   'listening/[id]',
   'reading/[id]',
   'writing/[id]',
@@ -96,6 +98,7 @@ function Themed() {
       <ToastProvider>
         <Navigation />
         <NotificationManager />
+        <WidgetUpdater />
       </ToastProvider>
     </ThemeProvider>
   );

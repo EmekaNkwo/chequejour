@@ -2143,7 +2143,7 @@
       "instructions": "TCF task 3: give and justify your opinion on the statement.",
       "promptFr": "« Pour s'intégrer dans un pays, il faut avant tout en parler la langue. » Qu'en pensez-vous ?",
       "prepSeconds": 0,
-      "speakSeconds": 240,
+      "speakSeconds": 270,
       "modelAnswer": "Je suis plutôt d'accord avec cette affirmation, mais je pense que la langue ne suffit pas.\n\nD'abord, parler la langue est essentiel pour la vie quotidienne : on en a besoin pour trouver un travail, parler avec les voisins ou comprendre les démarches administratives. C'est aussi ce qui permet de comprendre l'humour et la culture du pays. Moi, par exemple, je me sens beaucoup plus à l'aise en France depuis que je comprends les conversations au travail.\n\nCependant, ce dont on a aussi besoin, c'est d'être accueilli. Certaines personnes parlent parfaitement français, mais elles sont victimes de préjugés ou de discrimination. Dans ce cas, l'intégration est difficile, même avec un très bon niveau.\n\nEn conclusion, apprendre la langue est la première étape, mais l'intégration dépend aussi de la société d'accueil et de sa capacité à faire une place aux nouveaux arrivants.",
       "tips": [
         "State your position clearly, then nuance it (plutôt d'accord, mais…).",

@@ -1988,7 +1988,7 @@
       "instructions": "Role-play: you have a cold and go to a chemist's. The examiner plays the pharmacist. Describe your symptoms, ask for advice and ask how to take the medicine.",
       "promptFr": "Vous avez un gros rhume. Vous allez à la pharmacie. Vous expliquez vos symptômes au pharmacien, vous lui demandez des conseils et vous posez des questions sur les médicaments.",
       "prepSeconds": 120,
-      "speakSeconds": 180,
+      "speakSeconds": 210,
       "modelAnswer": "Bonjour madame. J'ai un gros rhume depuis trois jours : j'ai le nez qui coule, j'éternue tout le temps et j'ai un peu mal à la gorge. Non, je n'ai pas de fièvre. Qu'est-ce que vous me conseillez ? Un sirop et des pastilles, d'accord. Le sirop, je le prends quand ? Avant ou après les repas ? Trois fois par jour, très bien. Est-ce que je peux le prendre si je conduis ? Ah, et je suis allergique à l'aspirine, c'est un problème ? Non ? Tant mieux. Il faut une ordonnance ? Non ? Parfait. Ça fait combien ? Merci beaucoup, au revoir !",
       "tips": [
         "Describe your symptoms precisely: j'ai mal à…, j'ai le nez qui coule, je tousse, depuis + duration.",

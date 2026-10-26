@@ -2159,7 +2159,7 @@
       "instructions": "TCF task 3: give and justify your opinion on the statement.",
       "promptFr": "« Pour réussir sa vie, il faut avoir des objectifs précis. » Êtes-vous d'accord ? Justifiez votre point de vue.",
       "prepSeconds": 0,
-      "speakSeconds": 240,
+      "speakSeconds": 270,
       "modelAnswer": "Je suis en partie d'accord avec cette idée. Avoir des objectifs précis aide à rester motivé : quand on sait où on veut aller, on peut planifier les étapes et mesurer ses progrès. Par exemple, une amie s'était fixé l'objectif de courir un semi-marathon, et elle s'entraînait chaque semaine pour y arriver.\n\nCependant, je ne crois pas qu'il faille tout planifier. La vie est pleine d'imprévus, et parfois les meilleures opportunités arrivent par hasard. Si on suit un plan trop strict, on risque de les manquer, ou d'être très déçu en cas d'échec.\n\nFinalement, je pense qu'il est utile d'avoir une direction générale, tout en restant flexible. Pour moi, réussir sa vie, ce n'est pas cocher toutes les cases d'une liste, c'est être épanoui et en accord avec ses valeurs.",
       "tips": [
         "Start by saying clearly how far you agree (tout à fait, en partie, pas du tout).",

@@ -66,7 +66,36 @@
       ],
       "expo-asset",
       "expo-build-properties",
-      "@react-native-community/datetimepicker"
+      "@react-native-community/datetimepicker",
+      [
+        "react-native-android-widget",
+        {
+          "widgets": [
+            {
+              "name": "WordOfDay",
+              "label": "Mot du jour",
+              "description": "The word of the day from Chaque Jour, in French and English.",
+              "minWidth": "180dp",
+              "minHeight": "110dp",
+              "targetCellWidth": 3,
+              "targetCellHeight": 2,
+              "resizeMode": "horizontal|vertical",
+              "updatePeriodMillis": 3600000
+            }
+          ]
+        }
+      ],
+      [
+        "expo-speech-recognition",
+        {
+          "microphonePermission": "Chaque Jour records your speaking practice. Recordings stay on this device.",
+          "speechRecognitionPermission": "Chaque Jour can check your pronunciation with on-device speech recognition. Nothing is sent online.",
+          "androidSpeechServicePackages": [
+            "com.google.android.as",
+            "com.google.android.tts"
+          ]
+        }
+      ]
     ]
   }
 }

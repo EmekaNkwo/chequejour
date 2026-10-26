@@ -12,7 +12,7 @@ import { readdirSync, readFileSync, statSync } from 'node:fs';
 import { extname, join, relative } from 'node:path';
 
 const ROOT = join(__dirname, '..');
-const SOURCE_DIRS = ['app', 'components', 'features', 'data', 'domain'];
+const SOURCE_DIRS = ['app', 'components', 'features', 'data', 'domain', 'widget'];
 const SOURCE_EXT = new Set(['.ts', '.tsx', '.js', '.jsx']);
 
 /** Patterns that mean "this code talks to the network". */

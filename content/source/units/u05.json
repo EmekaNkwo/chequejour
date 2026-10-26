@@ -321,7 +321,7 @@
       "instructions": "Role-play: you are a tourist in a French town and want to go to the museum. The examiner plays a passer-by. Ask the way, check the details and thank them.",
       "promptFr": "Vous êtes en vacances dans une ville française. Vous voulez aller au musée. Vous demandez votre chemin à un passant : où se trouve le musée, si c'est loin, comment y aller.",
       "prepSeconds": 120,
-      "speakSeconds": 180,
+      "speakSeconds": 210,
       "modelAnswer": "Excusez-moi, monsieur, je cherche le musée des Beaux-Arts, s'il vous plaît. C'est loin d'ici ? Ah, vingt minutes à pied… Est-ce qu'il y a un bus pour y aller ? Le bus 5, d'accord. Et où est l'arrêt ? Devant la poste, en face de la gare ? Très bien. Je descends à quel arrêt ? « Place Bellecour », puis je tourne à gauche et je continue tout droit. Le musée est à côté de l'église, c'est ça ? Parfait. Et je peux acheter un ticket dans le bus ? Merci beaucoup pour votre aide, bonne journée !",
       "tips": [
         "Start politely: Excusez-moi / Pardon, monsieur / madame.",

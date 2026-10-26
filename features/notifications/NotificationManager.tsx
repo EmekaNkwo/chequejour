@@ -7,9 +7,9 @@ import * as Notifications from 'expo-notifications';
 import { router } from 'expo-router';
 import { useEffect, useRef, useState } from 'react';
 import { AppState } from 'react-native';
-import { currentUnitId, PLACEMENT_START_UNIT, unitStatuses } from '../../domain/unit-path';
 import { useApp } from '../app/AppContext';
 import { logError } from '../app/log';
+import { learnerFor } from '../daily/daily-learner';
 import { expoNotificationsApi, installForegroundHandler } from './expo-notifications-api';
 import { syncNotifications } from './sync';
 
@@ -57,12 +57,7 @@ export function NotificationManager() {
   useEffect(() => {
     if (!onboarded) return;
     const run = async () => {
-      const [units, unitProgress] = await Promise.all([content.units(), progress.unitProgress()]);
-      const placementStart = PLACEMENT_START_UNIT[placement ?? 'A2'];
-      const statuses = unitStatuses(units, unitProgress, placementStart);
-      const openUnitIds = units.filter((u) => statuses.get(u.id) !== 'locked').map((u) => u.id);
-      const currentId = currentUnitId(units, statuses, placementStart);
-      const level = units.find((u) => u.id === currentId)?.level ?? 'A2';
+      const learner = await learnerFor(content, progress, placement);
       await syncNotifications(expoNotificationsApi, {
         content,
         progress,
@@ -70,7 +65,7 @@ export function NotificationManager() {
         reminder: { toggle: reminderToggle, examDate, dailyGoal, installDay },
         backup: { settings: backupReminder, lastBackupDay },
         today,
-        learner: { openUnitIds, level },
+        learner,
         now: new Date(),
       });
     };

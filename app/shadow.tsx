@@ -3,6 +3,7 @@ import { useLocalSearchParams } from 'expo-router';
 import { useCallback, useEffect, useState } from 'react';
 import { StyleSheet, View } from 'react-native';
 import { PlayButton } from '../components/audio/AudioControls';
+import { OfflineCheck } from '../components/speaking/OfflineCheck';
 import { useTheme } from '../components/theme/ThemeProvider';
 import { spacing } from '../components/theme/tokens';
 import { AppText } from '../components/ui/AppText';
@@ -174,6 +175,8 @@ function Shadowing({ title, lines }: { title: string; lines: readonly ShadowLine
           </AppText>
         ) : null}
       </Card>
+
+      <OfflineCheck key={line.key} line={line.fr} disabled={recorder.isRecording || comparing} />
 
       {recordings.length > 0 ? (
         <Card>

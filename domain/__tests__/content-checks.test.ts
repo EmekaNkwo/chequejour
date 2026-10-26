@@ -1,6 +1,7 @@
 import bundleJson from '../../content/build/content.json';
 import type { ContentBundle, Exercise } from '../content-types';
 import { exerciseProblems } from '../exercises/content-checks';
+import { speakingTaskFormat } from '../tcf/exam-format';
 
 const base = { level: 'A2', skill: 'structures', grammarTag: 'present', explanation: 'e' } as const;
 
@@ -32,5 +33,17 @@ describe('exercise content checks', () => {
     const bundle = bundleJson as unknown as ContentBundle;
     const all = bundle.units.flatMap((u) => [...u.exercises, ...u.checkpoint]);
     expect(all.flatMap(exerciseProblems)).toEqual([]);
+  });
+
+  it('times every speaking task like the exam: 2 min interview, 2+3½ min interaction, 4½ min opinion', () => {
+    const bundle = bundleJson as unknown as ContentBundle;
+    const off = bundle.units
+      .flatMap((u) => u.speaking)
+      .filter((t) => {
+        const f = speakingTaskFormat(t.taskType);
+        return t.prepSeconds !== f.prepSeconds || t.speakSeconds !== f.speakSeconds;
+      });
+    expect(off.map((t) => t.id)).toEqual([]);
+    expect([speakingTaskFormat('entretien'), speakingTaskFormat('interaction'), speakingTaskFormat('opinion')].map((f) => f.prepSeconds + f.speakSeconds)).toEqual([120, 330, 270]);
   });
 });

@@ -1981,7 +1981,7 @@
       "instructions": "Role-play: you are at a market stall and want to buy fruit and vegetables for a meal. The examiner plays the stallholder. Ask about prices, quality and quantities, then pay.",
       "promptFr": "Vous êtes au marché. Vous voulez acheter des fruits et des légumes pour un repas. Vous posez des questions au vendeur sur les produits, les prix et les quantités.",
       "prepSeconds": 120,
-      "speakSeconds": 180,
+      "speakSeconds": 210,
       "modelAnswer": "Bonjour monsieur ! Je voudrais des tomates, s'il vous plaît. Elles viennent d'où ? Ah, de la région, très bien. J'en prends un kilo. Et vos fraises, elles sont bien mûres ? Je peux en goûter une ? Elles sont délicieuses ! C'est combien, la barquette ? Trois euros ? D'accord, j'en prends deux. Vous avez des citrons ? Non ? Tant pis. Alors je voudrais aussi une salade et une livre de carottes. Ce sera tout, merci. Ça fait combien ? Je peux payer par carte ? Parfait. Merci, bonne journée !",
       "tips": [
         "Use polite formulas: Je voudrais…, s'il vous plaît, Je peux… ?",
