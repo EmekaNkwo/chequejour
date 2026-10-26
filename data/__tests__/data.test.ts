@@ -120,6 +120,11 @@ describe('content repository', () => {
     expect(await content.search('id')).toEqual([]);
     expect(await content.search('%')).toEqual([]);
     expect((await content.search('lève')).map((v) => v.id)).toEqual(['u01-w002']);
+    // Learners often type without accents (or with the wrong ones), and 'oe' for 'œ'.
+    expect((await content.search('reveil')).map((v) => v.id)).toEqual(['u01-w001']);
+    expect((await content.search('rêveil')).map((v) => v.id)).toEqual(['u01-w001']);
+    expect((await content.search('RÉVEIL')).map((v) => v.id)).toEqual(['u01-w001']);
+    expect((await content.search('soeur')).map((v) => v.id)).toEqual(['u02-w001']);
     expect(await content.levelOf('u01-ex01')).toBe('A2');
     expect(await content.countKind('word')).toBe(3);
   });

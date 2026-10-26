@@ -19,6 +19,22 @@ import type {
 import type { ItemKind } from './content-seed';
 import type { SqlDb } from './sql';
 
+/** French letters folded for search, so 'reveil' finds 'réveil' and 'soeur' finds 'sœur'. */
+const FOLDS: readonly [string, string][] = [
+  ['œ', 'oe'], ['æ', 'ae'], ['à', 'a'], ['â', 'a'], ['ä', 'a'], ['ç', 'c'], ['é', 'e'], ['è', 'e'], ['ê', 'e'],
+  ['ë', 'e'], ['î', 'i'], ['ï', 'i'], ['ô', 'o'], ['ö', 'o'], ['ù', 'u'], ['û', 'u'], ['ü', 'u'], ['ÿ', 'y'],
+];
+
+/** SQL for `expr` lower-cased and folded (SQLite's lower() only handles ASCII). */
+function foldSql(expr: string): string {
+  const upper = FOLDS.map(([from, to]) => [from.toUpperCase(), to] as const);
+  return [...upper, ...FOLDS].reduce((sql, [from, to]) => `replace(${sql}, '${from}', '${to}')`, `lower(${expr})`);
+}
+
+function foldForSearch(text: string): string {
+  return FOLDS.reduce((t, [from, to]) => t.split(from).join(to), text.trim().toLowerCase());
+}
+
 export interface UnitSummary {
   id: string;
   order: number;
@@ -203,19 +219,21 @@ export class ContentRepository {
   }
 
   async search(query: string, limit = 30): Promise<VocabItem[]> {
-    const term = query.trim().toLowerCase().replace(/[\\%_]/g, (c) => `\\${c}`);
+    const exact = foldForSearch(query);
+    const term = exact.replace(/[\\%_]/g, (c) => `\\${c}`);
     if (term.length === 0) return [];
-    // Only the headword, meaning and example are searched (not JSON keys or ids);
-    // exact and prefix matches come first.
+    const title = foldSql('title');
+    const en = foldSql("json_extract(json, '$.en')");
+    const example = foldSql("json_extract(json, '$.example.fr')");
+    // Only the headword, meaning and example are searched (not JSON keys or ids), ignoring
+    // case and accents; exact and prefix matches come first.
     const rows = await this.db.getAllAsync<{ json: string }>(
       `SELECT json FROM content_items
-       WHERE kind = 'word' AND (
-         lower(title) LIKE ? ESCAPE '\\' OR lower(json_extract(json, '$.en')) LIKE ? ESCAPE '\\'
-         OR lower(json_extract(json, '$.example.fr')) LIKE ? ESCAPE '\\')
-       ORDER BY CASE WHEN lower(title) = ? THEN 0 WHEN lower(title) LIKE ? ESCAPE '\\' THEN 1
-                     WHEN lower(json_extract(json, '$.en')) LIKE ? ESCAPE '\\' THEN 2 ELSE 3 END, title
+       WHERE kind = 'word' AND (${title} LIKE ? ESCAPE '\\' OR ${en} LIKE ? ESCAPE '\\' OR ${example} LIKE ? ESCAPE '\\')
+       ORDER BY CASE WHEN ${title} = ? THEN 0 WHEN ${title} LIKE ? ESCAPE '\\' THEN 1
+                     WHEN ${en} LIKE ? ESCAPE '\\' THEN 2 ELSE 3 END, title
        LIMIT ?`,
-      [`%${term}%`, `%${term}%`, `%${term}%`, query.trim().toLowerCase(), `${term}%`, `%${term}%`, limit],
+      [`%${term}%`, `%${term}%`, `%${term}%`, exact, `${term}%`, `%${term}%`, limit],
     );
     return rows.map((r) => JSON.parse(r.json) as VocabItem);
   }
