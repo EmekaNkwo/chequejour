@@ -2,6 +2,7 @@ import { Feather } from '@expo/vector-icons';
 import { useLocalSearchParams } from 'expo-router';
 import { useCallback, useEffect, useState } from 'react';
 import { StyleSheet, View } from 'react-native';
+import { TranscriptCard } from '../components/ai/TranscriptCard';
 import { PlayButton } from '../components/audio/AudioControls';
 import { OfflineCheck } from '../components/speaking/OfflineCheck';
 import { useTheme } from '../components/theme/ThemeProvider';
@@ -15,6 +16,7 @@ import { ScreenHeader } from '../components/ui/ScreenHeader';
 import { useToast } from '../components/ui/Toast';
 import type { Recording } from '../data/progress-repo';
 import { shadowLines, shadowTaskId, type ShadowLine, type ShadowSource } from '../domain/shadowing';
+import { useSpeechAi } from '../features/ai/useSpeechAi';
 import { useApp } from '../features/app/AppContext';
 import { logError } from '../features/app/log';
 import { useLoad } from '../features/app/useLoad';
@@ -61,7 +63,8 @@ function Shadowing({ title, lines }: { title: string; lines: readonly ShadowLine
   const { progress } = useApp();
   const toast = useToast();
   const speaker = useSpeaker();
-  const recorder = useRecorder();
+  const speechAi = useSpeechAi();
+  const recorder = useRecorder({ wav: speechAi.ready });
   const player = useRecordingPlayer();
   const [index, setIndex] = useState(0);
   const [recordings, setRecordings] = useState<Recording[]>([]);
@@ -84,6 +87,7 @@ function Shadowing({ title, lines }: { title: string; lines: readonly ShadowLine
         return null;
       });
       if (!saved) toast.show({ tone: 'error', title: 'Recording not saved', message: 'Please try again.' });
+      else speechAi.request(saved);
       loadRecordings();
       return;
     }
@@ -176,7 +180,12 @@ function Shadowing({ title, lines }: { title: string; lines: readonly ShadowLine
         ) : null}
       </Card>
 
-      <OfflineCheck key={line.key} line={line.fr} disabled={recorder.isRecording || comparing} />
+      {latest && speechAi.transcripts[latest.uri] ? (
+        <TranscriptCard transcript={speechAi.transcripts[latest.uri]} target={line.fr} durationMs={latest.durationMs} />
+      ) : null}
+
+      {/* With the AI pack, recording already shows what was heard; the phone's own check would repeat it. */}
+      {speechAi.ready ? null : <OfflineCheck key={line.key} line={line.fr} disabled={recorder.isRecording || comparing} />}
 
       {recordings.length > 0 ? (
         <Card>

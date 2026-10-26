@@ -3,6 +3,7 @@ import { requestRecordingPermissionsAsync, setAudioModeAsync } from 'expo-audio'
 import type { ProgressRepository } from '../../data/progress-repo';
 import { recentErrors } from '../app/log';
 import { stop as stopSharedAudio } from '../audio/audio-controller';
+import { startPcm, stopPcm } from '../../services/ai/pcm-recorder';
 import { saveRecording } from '../skills/recordings';
 import { useRecorder, useRecordingPlayer } from '../speaking/useRecorder';
 
@@ -26,6 +27,17 @@ jest.mock('expo-audio', () => ({
   useAudioPlayer: () => mockPlayer,
   useAudioPlayerStatus: () => ({ ...mockPlayerStatus }),
 }));
+const mockPcm = { recording: false };
+jest.mock('../../services/ai/pcm-recorder', () => ({
+  isPcmRecording: () => mockPcm.recording,
+  startPcm: jest.fn(async () => {
+    mockPcm.recording = true;
+  }),
+  stopPcm: jest.fn(async () => {
+    mockPcm.recording = false;
+    return { uri: 'file:///cache/speech-1.wav', durationMs: 2500 };
+  }),
+}));
 jest.mock('../audio/audio-controller', () => ({ stop: jest.fn(async () => undefined) }));
 jest.mock('../skills/recordings', () => ({
   saveRecording: jest.fn(async (_p: unknown, taskId: string) => `${taskId}.m4a`),
@@ -40,6 +52,7 @@ beforeEach(() => {
   jest.clearAllMocks();
   jest.spyOn(console, 'warn').mockImplementation(() => undefined);
   Object.assign(mockRecorder, { isRecording: false, uri: null });
+  mockPcm.recording = false;
   Object.assign(mockRecorderState, { isRecording: false, durationMillis: 0 });
   Object.assign(mockPlayerStatus, { playing: false, didJustFinish: false });
   mockRecorder.record.mockImplementation(() => {
@@ -71,7 +84,7 @@ describe('useRecorder', () => {
     await act(async () => {
       saved = await result.current.stopAndSave(progress, 'u01-sp01');
     });
-    expect(saved).toEqual({ fileName: 'u01-sp01.m4a', durationMs: expect.any(Number) });
+    expect(saved).toEqual({ fileName: 'u01-sp01.m4a', durationMs: expect.any(Number), wav: false });
     expect(saveRecording).toHaveBeenCalledWith(progress, 'u01-sp01', 'file:///cache/rec.m4a', expect.any(Number), expect.any(Number));
     expect(audioMode).toHaveBeenLastCalledWith({ allowsRecording: false, playsInSilentMode: true });
     expect(result.current.busy).toBe(false);
@@ -173,6 +186,59 @@ describe('useRecorder', () => {
     expect(mockRecorder.stop).toHaveBeenCalled();
     const where = recentErrors().slice(0, 2).map((e) => e.where).sort();
     expect(where).toEqual(['audio mode on leave', 'stop recording on leave']);
+  });
+});
+
+describe('useRecorder in WAV mode (for the speech model)', () => {
+  it('records 16 kHz WAV and saves it with its length', async () => {
+    askMic.mockResolvedValue({ granted: true });
+    const { result } = await renderHook(() => useRecorder({ wav: true }));
+    await act(async () => {
+      await result.current.start();
+    });
+    expect(startPcm).toHaveBeenCalled();
+    expect(mockRecorder.record).not.toHaveBeenCalled();
+    expect(result.current.isRecording).toBe(true);
+    let saved: Awaited<ReturnType<typeof result.current.stopAndSave>> = null;
+    await act(async () => {
+      saved = await result.current.stopAndSave(progress, 'shadow:w1');
+    });
+    expect(saved).toEqual({ fileName: 'shadow:w1.m4a', durationMs: 2500, wav: true });
+    expect(saveRecording).toHaveBeenCalledWith(progress, 'shadow:w1', 'file:///cache/speech-1.wav', 2500, expect.any(Number));
+    expect(result.current.isRecording).toBe(false);
+    expect(audioMode).toHaveBeenLastCalledWith({ allowsRecording: false, playsInSilentMode: true });
+  });
+
+  it('returns null when the WAV take is empty or was never started', async () => {
+    askMic.mockResolvedValue({ granted: true });
+    const { result } = await renderHook(() => useRecorder({ wav: true }));
+    await act(async () => {
+      await result.current.start();
+    });
+    (stopPcm as jest.Mock).mockImplementationOnce(async () => {
+      mockPcm.recording = false;
+      return null;
+    });
+    let saved: Awaited<ReturnType<typeof result.current.stopAndSave>> = { fileName: '', durationMs: 0, wav: true };
+    await act(async () => {
+      saved = await result.current.stopAndSave(progress, 't');
+    });
+    expect(saved).toBeNull();
+    await act(async () => {
+      saved = await result.current.stopAndSave(progress, 't');
+    });
+    expect(saved).toBeNull();
+  });
+
+  it('stops a WAV take when the screen closes', async () => {
+    askMic.mockResolvedValue({ granted: true });
+    const { result, unmount } = await renderHook(() => useRecorder({ wav: true }));
+    await act(async () => {
+      await result.current.start();
+    });
+    await unmount();
+    await act(async () => undefined);
+    expect(stopPcm).toHaveBeenCalled();
   });
 });
 

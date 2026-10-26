@@ -16,6 +16,7 @@ import { ThemeProvider, useTheme } from '../components/theme/ThemeProvider';
 import { AppLoading, ErrorState } from '../components/ui/Screen';
 import { ToastProvider } from '../components/ui/Toast';
 import { loadSettings, type Settings } from '../data/settings-repo';
+import { useReleaseEnginesInBackground } from '../features/ai/ai-engines';
 import { AppProvider, useApp } from '../features/app/AppContext';
 import { DATABASE_NAME, initDatabase } from '../features/app/bootstrap';
 import { logError } from '../features/app/log';
@@ -94,6 +95,7 @@ function Bootstrap() {
 
 function Themed() {
   const { settings } = useApp();
+  useReleaseEnginesInBackground();
   return (
     <ThemeProvider preference={settings.theme}>
       <ToastProvider>

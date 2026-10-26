@@ -13,6 +13,7 @@ import { parseManifest, type Manifest } from '../../domain/ai/manifest';
 import { planPack, storageCheck, type PackPlan } from '../../domain/ai/tiers';
 import { startDownload, type DownloadHandle, type DownloadResult } from '../../services/ai/downloader';
 import { logError } from '../app/log';
+import { unloadAllEngines } from './ai-engines';
 
 export interface AiPackState {
   plan: PackPlan;
@@ -131,6 +132,8 @@ export async function cancel(): Promise<void> {
 /** Deletes every AI file; the app goes back to its non-AI behaviour. */
 export async function remove(): Promise<void> {
   handle?.cancel();
+  // A loaded model keeps its file open; free it before the files go.
+  await unloadAllEngines();
   try {
     deletePack();
   } catch (e: unknown) {

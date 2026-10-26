@@ -13,6 +13,7 @@ import {
 } from 'expo-audio';
 import { useEffect, useRef, useState } from 'react';
 import type { ProgressRepository } from '../../data/progress-repo';
+import { isPcmRecording, startPcm, stopPcm } from '../../services/ai/pcm-recorder';
 import { logError } from '../app/log';
 import { stop as stopSharedAudio } from '../audio/audio-controller';
 import { recordingUri, saveRecording } from '../skills/recordings';
@@ -26,14 +27,29 @@ export interface Recorder {
   /** Starts recording; false when the microphone isn't available. */
   start: () => Promise<boolean>;
   /** Stops and saves under `taskId`; null when nothing was recording. */
-  stopAndSave: (progress: ProgressRepository, taskId: string) => Promise<{ fileName: string; durationMs: number } | null>;
+  stopAndSave: (progress: ProgressRepository, taskId: string) => Promise<SavedRecording | null>;
+}
+
+export interface SavedRecording {
+  fileName: string;
+  durationMs: number;
+  /** True when saved as 16 kHz WAV, which the speech model can read. */
+  wav: boolean;
+}
+
+export interface RecorderOptions {
+  /** Record 16 kHz WAV for the speech model instead of compressed audio. */
+  wav?: boolean;
 }
 
 const idleMode = () => setAudioModeAsync({ allowsRecording: false, playsInSilentMode: true });
 
-export function useRecorder(): Recorder {
+export function useRecorder({ wav = false }: RecorderOptions = {}): Recorder {
   const recorder = useAudioRecorder(RecordingPresets.HIGH_QUALITY);
   const state = useAudioRecorderState(recorder, 500);
+  // The format is fixed when a recording starts, even if the AI pack changes meanwhile.
+  const wavTake = useRef(false);
+  const [pcmRecording, setPcmRecording] = useState(false);
   const [micAllowed, setMicAllowed] = useState<boolean | null>(null);
   // State lags a render behind; callers often ask and then start in the same handler.
   const allowedRef = useRef<boolean | null>(null);
@@ -44,6 +60,7 @@ export function useRecorder(): Recorder {
   useEffect(
     () => () => {
       if (recorder.isRecording) recorder.stop().catch((e: unknown) => logError('stop recording on leave', e));
+      if (isPcmRecording()) stopPcm().catch((e: unknown) => logError('stop WAV recording on leave', e));
       idleMode().catch((e: unknown) => logError('audio mode on leave', e));
     },
     [recorder],
@@ -70,8 +87,14 @@ export function useRecorder(): Recorder {
       try {
         await stopSharedAudio();
         await setAudioModeAsync({ allowsRecording: true, playsInSilentMode: true });
-        await recorder.prepareToRecordAsync();
-        recorder.record();
+        wavTake.current = wav;
+        if (wav) {
+          await startPcm();
+          setPcmRecording(true);
+        } else {
+          await recorder.prepareToRecordAsync();
+          recorder.record();
+        }
         startedAt.current = Date.now();
         return true;
       } catch (error: unknown) {
@@ -85,6 +108,7 @@ export function useRecorder(): Recorder {
   const stopAndSave = async (progress: ProgressRepository, taskId: string) => {
     // Stop can be tapped while the recorder is still starting; wait so it isn't left running.
     await starting.current;
+    if (wavTake.current) return stopWav(progress, taskId);
     if (!recorder.isRecording && !state.isRecording) return null;
     setBusy(true);
     try {
@@ -93,14 +117,29 @@ export function useRecorder(): Recorder {
       const durationMs = Math.max(state.durationMillis, Date.now() - startedAt.current);
       if (!uri) return null;
       const fileName = await saveRecording(progress, taskId, uri, durationMs, Date.now());
-      return { fileName, durationMs };
+      return { fileName, durationMs, wav: false };
     } finally {
       await idleMode().catch((e: unknown) => logError('audio mode', e));
       setBusy(false);
     }
   };
 
-  return { micAllowed, isRecording: state.isRecording, busy, askPermission, start, stopAndSave };
+  const stopWav = async (progress: ProgressRepository, taskId: string): Promise<SavedRecording | null> => {
+    if (!isPcmRecording()) return null;
+    setBusy(true);
+    try {
+      const take = await stopPcm();
+      if (!take) return null;
+      const fileName = await saveRecording(progress, taskId, take.uri, take.durationMs, Date.now());
+      return { fileName, durationMs: take.durationMs, wav: true };
+    } finally {
+      setPcmRecording(false);
+      await idleMode().catch((e: unknown) => logError('audio mode', e));
+      setBusy(false);
+    }
+  };
+
+  return { micAllowed, isRecording: state.isRecording || pcmRecording, busy, askPermission, start, stopAndSave };
 }
 
 export interface RecordingPlayer {

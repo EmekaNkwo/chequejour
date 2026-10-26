@@ -1,16 +1,9 @@
 import { Feather } from '@expo/vector-icons';
-import {
-  RecordingPresets,
-  requestRecordingPermissionsAsync,
-  setAudioModeAsync,
-  useAudioPlayer,
-  useAudioPlayerStatus,
-  useAudioRecorder,
-  useAudioRecorderState,
-} from 'expo-audio';
+import { useAudioPlayer, useAudioPlayerStatus } from 'expo-audio';
 import { router, useLocalSearchParams } from 'expo-router';
 import { useCallback, useEffect, useRef, useState } from 'react';
 import { StyleSheet, View } from 'react-native';
+import { TranscriptCard } from '../../components/ai/TranscriptCard';
 import { PlayButton } from '../../components/audio/AudioControls';
 import { useTheme } from '../../components/theme/ThemeProvider';
 import { radii, spacing } from '../../components/theme/tokens';
@@ -24,14 +17,16 @@ import { useToast } from '../../components/ui/Toast';
 import type { Recording } from '../../data/progress-repo';
 import { audioKey } from '../../domain/audio-keys';
 import type { SpeakingTask } from '../../domain/content-types';
+import { useSpeechAi } from '../../features/ai/useSpeechAi';
 import { useApp } from '../../features/app/AppContext';
 import { logError } from '../../features/app/log';
 import { useLoad } from '../../features/app/useLoad';
 import { stop as stopSharedAudio } from '../../features/audio/audio-controller';
 import { useStudyTimer } from '../../features/progress/useStudyTimer';
-import { deleteRecording, recordingUri, saveRecording } from '../../features/skills/recordings';
+import { deleteRecording, recordingUri } from '../../features/skills/recordings';
 import { formatClock, findSpeaking, unitIdOf } from '../../features/skills/skill-items';
 import { useCountdown } from '../../features/skills/useCountdown';
+import { useRecorder } from '../../features/speaking/useRecorder';
 
 const TASK_LABEL: Readonly<Record<SpeakingTask['taskType'], string>> = {
   entretien: 'Guided interview',
@@ -56,18 +51,16 @@ function Speaking({ task }: { task: SpeakingTask }) {
   const { colors } = useTheme();
   const { progress, invalidate } = useApp();
   const toast = useToast();
-  const recorder = useAudioRecorder(RecordingPresets.HIGH_QUALITY);
-  const recorderState = useAudioRecorderState(recorder, 500);
+  const speechAi = useSpeechAi();
+  const recorder = useRecorder({ wav: speechAi.ready });
   const player = useAudioPlayer(null);
   const playerStatus = useAudioPlayerStatus(player);
   const [phase, setPhase] = useState<Phase>('idle');
-  const [micAllowed, setMicAllowed] = useState<boolean | null>(null);
+  const micAllowed = recorder.micAllowed;
   const [recordings, setRecordings] = useState<Recording[]>([]);
   const [playingId, setPlayingId] = useState<number | null>(null);
   const [showModel, setShowModel] = useState(false);
   const [done, setDone] = useState(false);
-  const [busy, setBusy] = useState(false);
-  const speakingStarted = useRef(0);
 
   const refresh = useCallback(() => {
     progress
@@ -79,7 +72,7 @@ function Speaking({ task }: { task: SpeakingTask }) {
   useEffect(refresh, [refresh]);
 
   const prepTimer = useCountdown(() => void startSpeaking());
-  const starting = useRef<Promise<void>>(Promise.resolve());
+  const starting = useRef<Promise<boolean>>(Promise.resolve(false));
   const speakingTimer = useCountdown(() => void finishSpeaking());
   /** The recording being played right now, if any. */
   const activeId = playerStatus.playing ? playingId : null;
@@ -89,65 +82,36 @@ function Speaking({ task }: { task: SpeakingTask }) {
     setPhase('idle');
     // Stop can be tapped while the recorder is still starting; wait so it isn't left running.
     await starting.current;
-    if (!recorder.isRecording && !recorderState.isRecording) return;
-    setBusy(true);
     try {
-      await recorder.stop();
-      const uri = recorder.uri;
-      const durationMs = Math.max(recorderState.durationMillis, Date.now() - speakingStarted.current);
-      if (uri) await saveRecording(progress, task.id, uri, durationMs, Date.now());
+      const saved = await recorder.stopAndSave(progress, task.id);
+      if (!saved) return;
       refresh();
+      speechAi.request(saved);
       toast.show({ tone: 'success', title: 'Recording saved', message: 'Listen back below and compare it with the model answer.' });
     } catch (error: unknown) {
       logError('stop recording', error);
       toast.show({ tone: 'error', title: 'Recording not saved', message: 'Something went wrong while saving your recording. Please try again.' });
-    } finally {
-      await setAudioModeAsync({ allowsRecording: false, playsInSilentMode: true }).catch((e: unknown) => logError('audio mode', e));
-      setBusy(false);
     }
   }
 
   async function startSpeaking() {
     prepTimer.stop();
     setPhase('speaking');
-    speakingStarted.current = Date.now();
     speakingTimer.start(task.speakSeconds);
     if (!micAllowed) return;
-    starting.current = (async () => {
-      try {
-        await stopSharedAudio();
-        player.pause();
-        setPlayingId(null);
-        await setAudioModeAsync({ allowsRecording: true, playsInSilentMode: true });
-        await recorder.prepareToRecordAsync();
-        recorder.record();
-      } catch (error: unknown) {
-        logError('start recording', error);
-        toast.show({ tone: 'warning', title: 'Microphone unavailable', message: 'Recording could not start. You can still practise with the timer.' });
-      }
-    })();
-    await starting.current;
+    player.pause();
+    setPlayingId(null);
+    starting.current = recorder.start();
+    if (!(await starting.current)) {
+      toast.show({ tone: 'warning', title: 'Microphone unavailable', message: 'Recording could not start. You can still practise with the timer.' });
+    }
   }
 
   const begin = async () => {
-    try {
-      const permission = await requestRecordingPermissionsAsync();
-      setMicAllowed(permission.granted);
-    } catch (error: unknown) {
-      logError('mic permission', error);
-      setMicAllowed(false);
-    }
+    await recorder.askPermission();
     setPhase('prep');
     prepTimer.start(task.prepSeconds);
   };
-
-  useEffect(
-    () => () => {
-      if (recorder.isRecording) recorder.stop().catch((e: unknown) => logError('stop recording on leave', e));
-      setAudioModeAsync({ allowsRecording: false, playsInSilentMode: true }).catch((e: unknown) => logError('audio mode on leave', e));
-    },
-    [recorder],
-  );
 
   const playRecording = (r: Recording) => {
     if (activeId === r.id) {
@@ -241,7 +205,7 @@ function Speaking({ task }: { task: SpeakingTask }) {
           </AppText>
         </View>
         {phase === 'idle' ? (
-          <Button label="Start" icon="play" onPress={() => void begin()} loading={busy} testID="speaking-start" />
+          <Button label="Start" icon="play" onPress={() => void begin()} loading={recorder.busy} testID="speaking-start" />
         ) : phase === 'prep' ? (
           <Button label="I'm ready — start speaking" icon="mic" onPress={() => void startSpeaking()} testID="speaking-skip-prep" />
         ) : (
@@ -284,6 +248,10 @@ function Speaking({ task }: { task: SpeakingTask }) {
           ))
         )}
       </Card>
+
+      {recordings[0] && speechAi.transcripts[recordings[0].uri] ? (
+        <TranscriptCard transcript={speechAi.transcripts[recordings[0].uri]} durationMs={recordings[0].durationMs} />
+      ) : null}
 
       <Card>
         <Row style={styles.between}>
