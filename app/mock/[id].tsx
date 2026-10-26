@@ -17,6 +17,7 @@ import type { MockTest } from '../../domain/content-types';
 import { TCF_CANADA, type TcfSkill } from '../../domain/tcf/exam-format';
 import { reviewItems, scoreComprehension, scoreTasks, type MockRunRecord, type MockSkillScores, type QuestionAnswer, type ReviewItem } from '../../domain/tcf/mock-scoring';
 import { useApp } from '../../features/app/AppContext';
+import { useConfirmLeave } from '../../features/app/useConfirmLeave';
 import { logError } from '../../features/app/log';
 import { useLoad } from '../../features/app/useLoad';
 import { loadMocks, mockHistory, saveMockRun } from '../../features/mock/mock-service';
@@ -86,6 +87,11 @@ function MockRun({ mock, history, titles, beginner }: MockRunProps) {
   const [queue, setQueue] = useState<TcfSkill[]>([]);
   const [scores, setScores] = useState<MockSkillScores>({});
   const [review, setReview] = useState<Partial<Record<'listening' | 'reading', ReviewItem[]>>>({});
+  // A run in progress is lost on leaving, so every way out (✕, Android back button,
+  // back gesture) asks first.
+  useConfirmLeave(stage.kind !== 'intro' && stage.kind !== 'results', () =>
+    toast.confirm({ title: 'Leave the mock test?', message: 'This run will not be scored.', confirmLabel: 'Leave', cancelLabel: 'Keep going', destructive: true }),
+  );
 
   const record = (index: number, skill: TcfSkill, score: number) => {
     const next = { ...scores, [skill]: score };
@@ -103,15 +109,8 @@ function MockRun({ mock, history, titles, beginner }: MockRunProps) {
     setStage({ kind: 'results' });
   };
 
-  const quit = async () => {
-    const leave = await toast.confirm({
-      title: 'Leave the mock test?',
-      message: 'This run will not be scored.',
-      confirmLabel: 'Leave',
-      cancelLabel: 'Keep going',
-      destructive: true,
-    });
-    if (!leave) return;
+  // Leaving is confirmed by the guard above.
+  const quit = () => {
     if (router.canGoBack()) router.back();
     else router.replace('/');
   };
@@ -148,7 +147,7 @@ function MockRun({ mock, history, titles, beginner }: MockRunProps) {
 
   const skill = queue[stage.index];
   const title = `${TCF_CANADA[skill].titleFr} · test ${stage.index + 1} of ${queue.length}`;
-  const onQuit = () => void quit();
+  const onQuit = quit;
   switch (skill) {
     case 'listening':
     case 'reading': {
