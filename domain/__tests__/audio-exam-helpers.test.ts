@@ -46,6 +46,8 @@ describe('audio keys', () => {
       { key: 'u01-w001', text: "l'ami" },
       { key: 'u01-w001-ex', text: 'Mon ami.' },
       { key: 'u01-li01', text: 'A\nB' },
+      { key: 'u01-li01-l1', text: 'A' },
+      { key: 'u01-li01-l2', text: 'B' },
       { key: 'u01-ex01', text: 'Je mange.' },
       { key: 'u01-cp01', text: 'Il pleut.' },
       { key: 'u01-sp01-model', text: 'Je suis étudiant.' },

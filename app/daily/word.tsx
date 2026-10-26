@@ -80,6 +80,9 @@ export default function WordOfTheDayScreen() {
         <Button label="Test me" icon="check-square" onPress={() => setTesting(true)} testID="daily-test-start" />
       ) : null}
 
+      {word ? (
+        <LinkText label="Shadow it: listen, repeat, compare" icon="mic" onPress={() => router.push({ pathname: '/shadow', params: { kind: 'word', id: word.id } })} />
+      ) : null}
       <LinkText label="Sentence of the day" icon="arrow-right" onPress={() => router.replace(`/daily/sentence?day=${day}`)} />
     </Screen>
   );

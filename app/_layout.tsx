@@ -36,6 +36,7 @@ const APP_SCREENS = [
   'drill/[unitId]',
   'mistakes',
   'conjugation',
+  'shadow',
   'listening/[id]',
   'reading/[id]',
   'writing/[id]',

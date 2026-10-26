@@ -1,4 +1,4 @@
-import { useLocalSearchParams } from 'expo-router';
+import { router, useLocalSearchParams } from 'expo-router';
 import { useEffect, useRef, useState } from 'react';
 import { StyleSheet, View } from 'react-native';
 import { AudioControls } from '../../components/audio/AudioControls';
@@ -107,6 +107,11 @@ function Listening({ item, initiallySaved }: { item: ListeningItem; initiallySav
         <AppText variant="meta" tone="muted" center>
           Listen as many times as you like, then answer the questions.
         </AppText>
+        {item.id.startsWith('u') ? (
+          <View style={styles.shadow}>
+            <LinkText label="Shadow this text line by line" icon="mic" onPress={() => router.push({ pathname: '/shadow', params: { kind: 'listening', id: item.id } })} />
+          </View>
+        ) : null}
       </Card>
 
       <Card>
@@ -155,6 +160,7 @@ function Listening({ item, initiallySaved }: { item: ListeningItem; initiallySav
 }
 
 const styles = StyleSheet.create({
+  shadow: { alignItems: 'center', marginTop: spacing.sm },
   audio: { marginVertical: spacing.xl },
   between: { justifyContent: 'space-between' },
   line: { marginTop: spacing.md, gap: 2 },

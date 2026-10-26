@@ -478,6 +478,10 @@ export class ProgressRepository {
     await this.db.runAsync('DELETE FROM recordings WHERE id = ?', [id]);
   }
 
+  async deleteAllRecordings(): Promise<void> {
+    await this.db.runAsync('DELETE FROM recordings', []);
+  }
+
   async draft(taskId: string): Promise<{ text: string; checklist: boolean[] } | null> {
     const row = await this.db.getFirstAsync<{ text: string; checklist: string }>('SELECT text, checklist FROM writing_drafts WHERE task_id = ?', [taskId]);
     if (!row) return null;

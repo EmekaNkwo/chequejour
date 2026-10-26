@@ -18,7 +18,7 @@ import type { NotificationToggle } from '../domain/notification-plan';
 import type { DailyGoal } from '../domain/session';
 import { useApp } from '../features/app/AppContext';
 import { logError } from '../features/app/log';
-import { deleteAllRecordingFiles } from '../features/skills/recordings';
+import { deleteAllRecordingFiles, deleteAllRecordings } from '../features/skills/recordings';
 import { useLoad } from '../features/app/useLoad';
 import { hasFrenchVoice } from '../features/audio/audio-controller';
 import { exactAlarmsAllowed, notificationPermission, requestExactAlarms, requestNotificationPermission } from '../features/notifications/expo-notifications-api';
@@ -48,7 +48,7 @@ const clipCount = Object.keys(AUDIO_CLIPS).length;
 export default function SettingsScreen() {
   const app = useApp();
   const { settings, updateSetting } = app;
-  const [busy, setBusy] = useState<'export' | 'import' | 'reset' | null>(null);
+  const [busy, setBusy] = useState<'export' | 'import' | 'reset' | 'recordings' | null>(null);
   const toast = useToast();
   const { data, error, reload } = useLoad(
     'settings',
@@ -134,6 +134,26 @@ export default function SettingsScreen() {
     } catch (e: unknown) {
       logError('import progress', e);
       toast.show({ tone: 'error', title: 'Backup not restored', message: "That file couldn't be read." });
+    } finally {
+      setBusy(null);
+    }
+  };
+
+  const confirmDeleteRecordings = async () => {
+    const ok = await toast.confirm({
+      title: 'Delete all recordings?',
+      message: 'This removes every speaking and shadowing recording from this phone. Your progress stays.',
+      confirmLabel: 'Delete all',
+      destructive: true,
+    });
+    if (!ok) return;
+    setBusy('recordings');
+    try {
+      const count = await deleteAllRecordings(app.progress);
+      toast.show({ tone: 'success', title: count === 0 ? 'No recordings to delete' : `${count} recording${count === 1 ? '' : 's'} deleted` });
+    } catch (e: unknown) {
+      logError('delete all recordings', e);
+      toast.show({ tone: 'error', title: "Recordings couldn't be deleted", message: 'Please try again.' });
     } finally {
       setBusy(null);
     }
@@ -253,6 +273,15 @@ export default function SettingsScreen() {
           </AppText>
           <Button label="Export progress" icon="upload" variant="secondary" onPress={() => void doExport()} loading={busy === 'export'} disabled={busy !== null} testID="export-progress" />
           <Button label="Import progress" icon="download" variant="secondary" onPress={() => void doImport()} loading={busy === 'import'} disabled={busy !== null} testID="import-progress" />
+          <Button
+            label="Delete all recordings"
+            icon="mic-off"
+            variant="ghost"
+            onPress={() => void confirmDeleteRecordings()}
+            loading={busy === 'recordings'}
+            disabled={busy !== null}
+            testID="delete-recordings"
+          />
           <Button label="Reset progress" icon="trash-2" variant="ghost" onPress={() => void confirmReset()} loading={busy === 'reset'} disabled={busy !== null} testID="reset-progress" />
         </SettingsGroup>
       </Card>

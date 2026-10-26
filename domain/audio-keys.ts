@@ -75,6 +75,8 @@ export const audioKey = {
   example: (id: string): string => `${id}-ex`,
   sentence: (id: string): string => id,
   listening: (id: string): string => id,
+  /** One line of a unit listening text, numbered from 1, for shadowing. */
+  listeningLine: (id: string, index: number): string => `${id}-l${index + 1}`,
   dictation: (id: string): string => id,
   model: (id: string): string => `${id}-model`,
 };
@@ -94,6 +96,7 @@ export function collectAudioClips(bundle: ContentBundle): AudioClip[] {
     }
     for (const l of unit.listening) {
       clips.push({ key: audioKey.listening(l.id), text: listeningScript(l.lines) });
+      l.lines.forEach((line, i) => clips.push({ key: audioKey.listeningLine(l.id, i), text: line.fr }));
     }
     for (const e of [...unit.exercises, ...unit.checkpoint]) {
       if (e.type === 'dictation') clips.push({ key: audioKey.dictation(e.id), text: e.text });

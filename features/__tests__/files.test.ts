@@ -10,7 +10,7 @@ import type { FakeFs } from '../../test-utils/fake-file-system';
 import { createNodeDb } from '../../test-utils/node-db';
 import { recentErrors } from '../app/log';
 import { exportToFile, importFromFile } from '../settings/backup-files';
-import { deleteAllRecordingFiles, deleteRecording, recordingUri, saveRecording } from '../skills/recordings';
+import { deleteAllRecordingFiles, deleteAllRecordings, deleteRecording, recordingUri, saveRecording } from '../skills/recordings';
 
 jest.mock('expo-file-system', () => jest.requireActual('../../test-utils/fake-file-system').fakeFileSystem());
 jest.mock('expo-sharing', () => ({ isAvailableAsync: jest.fn(), shareAsync: jest.fn(async () => undefined) }));
@@ -43,6 +43,14 @@ describe('recordings', () => {
     expect(fs.files.get(`${DIR}/u01-sp01-1000.m4a`)).toBe('audio');
     expect(fs.files.has('file:///cache/rec-123.m4a')).toBe(false);
     expect(await progress.recordings('u01-sp01')).toEqual([expect.objectContaining({ taskId: 'u01-sp01', uri: name, durationMs: 4200, createdAt: 1000 })]);
+  });
+
+  it('keeps file names safe when the task id has characters like a colon', async () => {
+    const { progress } = await setup();
+    fs.files.set('file:///cache/rec-9.m4a', 'audio');
+    const name = await saveRecording(progress, 'shadow:u01-w002', 'file:///cache/rec-9.m4a', 900, 5);
+    expect(name).toBe('shadow_u01-w002-5.m4a');
+    expect(await progress.recordings('shadow:u01-w002')).toHaveLength(1);
   });
 
   it('defaults to .m4a when the temporary file has no extension', async () => {
@@ -92,6 +100,17 @@ describe('recordings', () => {
     fs.files.set(`${DIR}/a.m4a`, 'a');
     deleteAllRecordingFiles();
     expect(fs.dirs.has(DIR)).toBe(false);
+    expect(fs.files.size).toBe(0);
+  });
+
+  it('deletes all recordings, rows and files, and reports how many there were', async () => {
+    const { progress } = await setup();
+    await progress.addRecording('u01-sp01', 'a.m4a', 1000, 1);
+    await progress.addRecording('shadow:s001', 'b.m4a', 1000, 2);
+    fs.dirs.add(DIR);
+    fs.files.set(`${DIR}/a.m4a`, 'a');
+    expect(await deleteAllRecordings(progress)).toBe(2);
+    expect(await progress.recordings()).toEqual([]);
     expect(fs.files.size).toBe(0);
   });
 });

@@ -18,7 +18,8 @@ function recordingsDirectory(): Directory {
 export async function saveRecording(progress: ProgressRepository, taskId: string, tempUri: string, durationMs: number, now: number): Promise<string> {
   const source = new File(tempUri);
   const extension = tempUri.includes('.') ? tempUri.slice(tempUri.lastIndexOf('.')) : '.m4a';
-  const target = new File(recordingsDirectory(), `${taskId}-${now}${extension}`);
+  // Task ids like "shadow:s001" contain characters some file systems reject.
+  const target = new File(recordingsDirectory(), `${taskId.replace(/[^A-Za-z0-9_-]/g, '_')}-${now}${extension}`);
   await source.move(target);
   // Only the file name is stored: the app container path can change after an update or restore.
   await progress.addRecording(taskId, target.name, durationMs, now);
@@ -45,4 +46,12 @@ export async function deleteRecording(progress: ProgressRepository, id: number, 
     logError('delete recording file', error);
   }
   await progress.deleteRecording(id);
+}
+
+/** Deletes every recording, files and rows; returns how many there were. */
+export async function deleteAllRecordings(progress: ProgressRepository): Promise<number> {
+  const count = (await progress.recordings()).length;
+  await progress.deleteAllRecordings();
+  deleteAllRecordingFiles();
+  return count;
 }
