@@ -6,7 +6,7 @@ import { newCard, reviewCard } from '../../domain/srs';
 import { exportProgress, importProgress, parseBackup, resetProgress } from '../backup';
 import { ContentRepository } from '../content-repo';
 import { seedContentIfNeeded } from '../content-seed';
-import { migrate, SCHEMA_VERSION } from '../migrations';
+import { migrate, MIGRATIONS, SCHEMA_VERSION } from '../migrations';
 import { ProgressRepository } from '../progress-repo';
 import { DEFAULT_SETTINGS, loadSettings, saveSetting } from '../settings-repo';
 import { createNodeDb } from '../../test-utils/node-db';
@@ -54,6 +54,24 @@ describe('migrations and seeding', () => {
     await migrate(db);
     await migrate(db);
     expect((await db.getFirstAsync<{ user_version: number }>('PRAGMA user_version', []))?.user_version).toBe(SCHEMA_VERSION);
+  });
+  it('upgrades a first-release database without losing progress', async () => {
+    const db = createNodeDb();
+    await db.execAsync(MIGRATIONS[0]);
+    await db.execAsync('PRAGMA user_version = 1');
+    const v1 = new ProgressRepository(db);
+    await v1.addCards([newCard('u01-w001', 'word', 0)], 0);
+    await v1.addStudy('2026-10-20', { seconds: 300 });
+    await v1.saveDraft('u01-wr01', 'Bonjour', [true], 1);
+    await saveSetting(db, 'dailyGoal', 20);
+    await migrate(db);
+    expect((await db.getFirstAsync<{ user_version: number }>('PRAGMA user_version', []))?.user_version).toBe(SCHEMA_VERSION);
+    const upgraded = new ProgressRepository(db);
+    expect(await upgraded.card('u01-w001')).not.toBeNull();
+    expect(await upgraded.activeDays()).toEqual(new Set(['2026-10-20']));
+    expect(await upgraded.draft('u01-wr01')).toEqual({ text: 'Bonjour', checklist: [true] });
+    expect((await loadSettings(db)).dailyGoal).toBe(20);
+    expect(await upgraded.submissions('u01-wr01')).toEqual([]);
   });
   it('seeds content once per version and reseeds on a newer bundle', async () => {
     const { db } = await setup();
@@ -257,6 +275,31 @@ describe('backup', () => {
     await resetProgress(db);
     expect((await importProgress(db, json)).ok).toBe(true);
     expect(await loadSettings(db)).toMatchObject({ dailyGoal: 20, examDate: null, targetNclc: 7 });
+  });
+  it('keeps writing submissions in backups, newest first', async () => {
+    const { db, progress } = await setup();
+    await progress.addSubmission('u01-wr01', 'Bonjour à tous', 3, 10);
+    await progress.addSubmission('u01-wr01', 'Bonjour à tous, je suis Léa', 6, 20);
+    await progress.addSubmission('other', 'x', 1, 30);
+    expect((await progress.submissions('u01-wr01')).map((s) => s.words)).toEqual([6, 3]);
+    const json = JSON.stringify(await exportProgress(db, new Date(0)));
+    await resetProgress(db);
+    expect(await progress.submissions('u01-wr01')).toEqual([]);
+    expect((await importProgress(db, json)).ok).toBe(true);
+    expect(await progress.submissions('u01-wr01')).toEqual([
+      { id: expect.any(Number), taskId: 'u01-wr01', text: 'Bonjour à tous, je suis Léa', words: 6, hints: 0, createdAt: 20 },
+      { id: expect.any(Number), taskId: 'u01-wr01', text: 'Bonjour à tous', words: 3, hints: 0, createdAt: 10 },
+    ]);
+  });
+  it('restores a backup made before newer tables existed', async () => {
+    const { db, progress } = await setup();
+    await progress.addCards([newCard('old-card', 'word', 0)], 0);
+    const backup = await exportProgress(db, new Date(0));
+    const { writing_submissions: _dropped, ...oldTables } = backup.tables;
+    await resetProgress(db);
+    expect((await importProgress(db, JSON.stringify({ ...backup, schemaVersion: 1, tables: oldTables }))).ok).toBe(true);
+    expect(await progress.card('old-card')).not.toBeNull();
+    expect(await progress.submissions('u01-wr01')).toEqual([]);
   });
   it('rejects invalid, foreign and newer backups without touching data', async () => {
     const { db, progress } = await setup();

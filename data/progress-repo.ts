@@ -130,6 +130,16 @@ export interface Recording {
   createdAt: number;
 }
 
+export interface WritingSubmission {
+  id: number;
+  taskId: string;
+  text: string;
+  words: number;
+  /** Rule-based tips shown for this text. */
+  hints: number;
+  createdAt: number;
+}
+
 const DAY_MS = 86_400_000;
 
 export class ProgressRepository {
@@ -484,6 +494,19 @@ export class ProgressRepository {
       JSON.stringify(checklist),
       now,
     ]);
+  }
+
+  async addSubmission(taskId: string, text: string, words: number, now: number, hints = 0): Promise<void> {
+    await this.db.runAsync('INSERT INTO writing_submissions (task_id, text, words, hints, created_at) VALUES (?, ?, ?, ?, ?)', [taskId, text, words, hints, now]);
+  }
+
+  /** Handed-in texts for a task, newest first. */
+  async submissions(taskId: string): Promise<WritingSubmission[]> {
+    const rows = await this.db.getAllAsync<{ id: number; task_id: string; text: string; words: number; hints: number; created_at: number }>(
+      'SELECT * FROM writing_submissions WHERE task_id = ? ORDER BY created_at DESC, id DESC',
+      [taskId],
+    );
+    return rows.map((r) => ({ id: r.id, taskId: r.task_id, text: r.text, words: r.words, hints: r.hints, createdAt: r.created_at }));
   }
 
   // ── Mock tests ───────────────────────────────────────────────────────────

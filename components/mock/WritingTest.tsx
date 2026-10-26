@@ -8,6 +8,7 @@ import type { WritingTask } from '../../domain/content-types';
 import { writingTaskFormat } from '../../domain/tcf/exam-format';
 import { handInWarning } from '../../domain/writing/word-count';
 import { useApp } from '../../features/app/AppContext';
+import { loadNounGenders, submitWriting } from '../../features/writing/writing-service';
 import { logError } from '../../features/app/log';
 import { useStudyTimer } from '../../features/progress/useStudyTimer';
 import { useCountdown } from '../../features/skills/useCountdown';
@@ -35,7 +36,7 @@ export interface WritingTestProps {
 
 export function WritingTest({ title, tasks, minutes, onFinish, onQuit }: WritingTestProps) {
   useStudyTimer();
-  const { progress } = useApp();
+  const { content, progress } = useApp();
   const toast = useToast();
   const [texts, setTexts] = useState<string[]>(() => tasks.map(() => ''));
   const [current, setCurrent] = useState('0');
@@ -61,6 +62,9 @@ export function WritingTest({ title, tasks, minutes, onFinish, onQuit }: Writing
       const text = latest.current[i];
       if (text) progress.saveDraft(task.id, text, [], Date.now()).catch((e: unknown) => logError('save mock writing on finish', e));
     });
+    loadNounGenders(content)
+      .then((genders) => Promise.all(tasks.map((task, i) => submitWriting(progress, genders, task, latest.current[i] ?? '', Date.now()))))
+      .catch((e: unknown) => logError('save mock submissions', e));
     onFinish(latest.current);
   }
   const { start } = timer;

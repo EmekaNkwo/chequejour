@@ -146,6 +146,18 @@ export const MIGRATIONS: readonly string[] = [
     taken_at INTEGER NOT NULL
   );
   `,
+  // 2 — every handed-in writing text, so learners can see how they improve
+  `
+  CREATE TABLE IF NOT EXISTS writing_submissions (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    task_id TEXT NOT NULL,
+    text TEXT NOT NULL,
+    words INTEGER NOT NULL,
+    hints INTEGER NOT NULL,
+    created_at INTEGER NOT NULL
+  );
+  CREATE INDEX IF NOT EXISTS idx_submissions_task ON writing_submissions (task_id, created_at);
+  `,
 ];
 
 export const SCHEMA_VERSION = MIGRATIONS.length;

@@ -25,7 +25,11 @@ export const PROGRESS_TABLES = [
   'daily_items',
   'writing_drafts',
   'mock_results',
+  'writing_submissions',
 ] as const;
+
+/** Tables added after the first release: older backups don't have them, so they restore empty. */
+const ADDED_LATER: ReadonlySet<string> = new Set(['writing_submissions']);
 
 type ProgressTable = (typeof PROGRESS_TABLES)[number];
 
@@ -36,7 +40,9 @@ const backupSchema = z.object({
   app: z.literal(BACKUP_APP_ID),
   schemaVersion: z.number().int().positive(),
   exportedAt: z.string(),
-  tables: z.object(Object.fromEntries(PROGRESS_TABLES.map((t) => [t, z.array(row)])) as Record<ProgressTable, z.ZodArray<typeof row>>),
+  tables: z.object(
+    Object.fromEntries(PROGRESS_TABLES.map((t) => [t, ADDED_LATER.has(t) ? z.array(row).default([]) : z.array(row)])) as Record<ProgressTable, z.ZodDefault<z.ZodArray<typeof row>>>,
+  ),
 });
 
 /** Today's stored session plan was built from the old progress, so it is rebuilt. */

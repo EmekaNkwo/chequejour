@@ -10,6 +10,7 @@ import { useRecordingPlayer } from '../../features/speaking/useRecorder';
 import { PlayButton } from '../audio/AudioControls';
 import { AppText } from '../ui/AppText';
 import { LinkText } from '../ui/Bits';
+import { TextHints } from '../writing/WritingFeedback';
 import { SelfAssessment } from './SelfAssessment';
 
 export interface WritingAssessmentProps {
@@ -26,9 +27,12 @@ export function WritingAssessment({ tasks, texts, onDone }: WritingAssessmentPro
         key: task.id,
         title: task.title,
         yours: (
-          <AppText variant="body" french>
-            {texts[i] || 'No text written.'}
-          </AppText>
+          <>
+            <AppText variant="body" french>
+              {texts[i] || 'No text written.'}
+            </AppText>
+            <TextHints text={texts[i] ?? ''} taskType={task.taskType} />
+          </>
         ),
         model: (
           <AppText variant="body" french>
