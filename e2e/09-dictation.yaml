@@ -1,0 +1,19 @@
+# Dictation: type what you hear, then see the word-by-word comparison.
+appId: com.emeka.chequejour
+---
+- runFlow: common/fresh-start.yaml
+- tapOn:
+    id: tab-practice
+- scrollUntilVisible:
+    element:
+      id: practice-dictation
+- tapOn:
+    id: practice-dictation
+- tapOn:
+    id: answer-input
+- inputText: Bonjour je suis
+- tapOn:
+    id: check-answer
+- assertVisible:
+    id: dictation-diff
+- setAirplaneMode: disabled

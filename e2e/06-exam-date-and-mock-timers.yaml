@@ -1,0 +1,30 @@
+# Setting an exam date shows the countdown and unlocks mock tests; a mock runs on a timer.
+appId: com.emeka.chequejour
+---
+- runFlow: common/fresh-start.yaml
+- assertNotVisible:
+    id: exam-countdown
+- tapOn:
+    id: tab-progress
+- tapOn:
+    id: open-settings
+- tapOn:
+    id: exam-date
+- tapOn: OK
+- back
+- tapOn:
+    id: tab-home
+- assertVisible:
+    id: exam-countdown
+- assertVisible: .*days to your TCF.*
+- openLink: chequejour://mock/mk1
+- assertVisible:
+    id: mock-intro
+- tapOn:
+    id: mock-start
+- assertVisible:
+    id: test-clock
+- tapOn:
+    id: mock-quit
+- tapOn: Leave
+- setAirplaneMode: disabled

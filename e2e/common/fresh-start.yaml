@@ -1,0 +1,14 @@
+# Fresh install, offline, microphone allowed, placement skipped.
+appId: com.emeka.chequejour
+---
+- setAirplaneMode: enabled
+- clearState
+- launchApp:
+    permissions:
+      all: allow
+- tapOn:
+    id: onboarding-start
+- tapOn:
+    id: skip-placement
+- assertVisible:
+    id: home-screen

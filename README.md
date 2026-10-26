@@ -51,6 +51,11 @@ data and runs onboarding and every tab — the automated version of "works offli
 fresh install". To check by hand: install the APK, turn on airplane mode, *then* open the
 app for the first time.
 
+Flows 06–10 cover the exam date and countdown with a timed mock test, writing (hints,
+side-by-side model, past submissions), shadowing (record and compare), dictation (word
+diff) and the widget's deep link. Each starts from `e2e/common/fresh-start.yaml`, which
+**clears app data**: run them on an emulator or back up first.
+
 ## Curriculum
 
 18 themed units, unlocked in order. Each unit has 15–25 core words plus a word bank
@@ -137,6 +142,33 @@ from your last real study day, so it never fires on a day you studied, gets firm
 break grows, includes your TCF countdown if you set a date, and opens today's session.
 Reminders use their own Android channel, so they can be silenced separately.
 
+**Home-screen widget** (Android): *Mot du jour* shows today's word with its article,
+gender (or part of speech) and English. It reads only the local database, follows the
+phone's light or dark mode, refreshes hourly and whenever the app opens, and tapping it
+opens that word. Settings → Home-screen widget shows a live preview and an *Add the
+widget* button; launchers that ignore pin requests (some MIUI/POCO builds) need it added
+by long-pressing the home screen → Widgets → Chaque Jour.
+
+**Backup reminders** (Settings → Your data): every 7, 14 (default) or 30 days, or off. A
+card on Home offers *Back up now*; an optional notification fires on the due day.
+"Last backup: N days ago" shows in Settings and on the Progress tab. A successful export
+records the day, and the backup file carries it, so a restored phone shows it too.
+
+### Speaking practice
+
+Shadowing (word and sentence of the day, unit listening texts line by line): listen,
+record yourself, then hear the original and your try back to back. Recordings stay on
+the phone; delete any try, or all of them in Settings. *Asking questions* drills
+(Practice, and linked from speaking task 2) train est-ce que, inversion and question
+words; mistakes go to the notebook. Speaking tasks use the exam timings: interview 2 min
+with no preparation, interaction 2 min preparation + 3½ min, opinion 4½ min.
+
+**Optional speech check** on the shadowing screen compares what the phone heard with the
+line, word by word. It uses **on-device recognition only**: it appears only on Android 13+
+phones that support on-device recognition and have the French speech pack installed,
+and that is re-checked before every start. Otherwise it stays hidden, or explains how to
+install the French pack. It is a practice hint, not a pronunciation score.
+
 ### Audio, feedback and messages
 
 Every clip has Play and Replay plus a speed row (0.5×, 0.75×, 1×, 1.25×, 1.5×). The speed
@@ -184,6 +216,7 @@ data/         SQLite access, migrations, backup/restore
 content/      source JSON, validation and build scripts → content/build
 assets/audio  bundled clips (<audio key>.m4a)
 assets/brand  logo source (mark.svg) and lockups
+widget/       Android home-screen widget (rendering, background task, updater)
 e2e/          Maestro flows
 ```
 
@@ -194,8 +227,16 @@ Adding content: see [docs/CONTENT_AUTHORING.md](docs/CONTENT_AUTHORING.md).
 - **Audio** is synthesised with the macOS "Thomas" voice (`npm run content:audio`), not
   recorded by native speakers. Check that voice's licence before distributing the app
   beyond personal use. Missing clips fall back to the phone's French text-to-speech.
-- **Writing and speaking are self-assessed** against a model answer and checklist. The app
-  can't grade free text or pronunciation offline.
+- **Writing and speaking are self-assessed** against a model answer and checklist. Writing
+  hints are offline rules and say "Possible"; they miss errors and can flag correct text.
+  The optional speech check needs the phone's French on-device speech pack and has only
+  been tested without it (the setup help path); the recognition path is unit-tested.
+- **Backup date on share**: Android's share sheet doesn't report whether a target was
+  picked, so cancelling the sheet still counts as a backup.
+- **Widget pinning**: the *Add the widget* button relies on the launcher's pin request;
+  some launchers accept it silently without adding anything.
+- **Known layout gap**: a blank attached with a hyphen (e.g. "mettez-___") can wrap
+  awkwardly in fill-in-the-blank sentences.
 - **Four mock tests** ship; more can be added as JSON (`content/source/mock-tests/`). The
   final-stretch practice sets reuse their questions (156 listening and 156 reading), so a
   learner who practises every day will eventually see repeats.
