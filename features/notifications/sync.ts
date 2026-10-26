@@ -7,7 +7,8 @@ import type { ContentRepository } from '../../data/content-repo';
 import type { ProgressRepository } from '../../data/progress-repo';
 import { headword } from '../../domain/audio-keys';
 import type { DayKey } from '../../domain/dates';
-import { planNotifications, type NotificationSettings, type NotificationTexts, type PlannedNotification } from '../../domain/notification-plan';
+import { horizonDays, planNotifications, type NotificationSettings, type NotificationTexts, type NotificationToggle, type PlannedNotification } from '../../domain/notification-plan';
+import { planReminders, REMINDER_HORIZON_DAYS } from '../../domain/reminder-plan';
 import { ensureDailyItems, type DailyLearner } from '../daily/daily-service';
 
 export interface NotificationsApi {
@@ -40,21 +41,48 @@ export interface SyncResult {
   permission: boolean;
 }
 
+export interface ReminderDeps {
+  toggle: NotificationToggle;
+  examDate: DayKey | null;
+  dailyGoal: number;
+  /** Used as the anchor before the learner's first study day. */
+  installDay: DayKey | null;
+}
+
 export async function syncNotifications(
   api: NotificationsApi,
-  deps: { content: ContentRepository; progress: ProgressRepository; settings: NotificationSettings; today: DayKey; learner: DailyLearner; now: Date },
+  deps: {
+    content: ContentRepository;
+    progress: ProgressRepository;
+    settings: NotificationSettings;
+    reminder: ReminderDeps;
+    today: DayKey;
+    learner: DailyLearner;
+    now: Date;
+  },
 ): Promise<SyncResult> {
   await api.cancelAll();
   const permission = await api.canNotify();
-  if (!permission || (!deps.settings.word.enabled && !deps.settings.sentence.enabled)) {
-    return { scheduled: 0, permission };
-  }
+  if (!permission) return { scheduled: 0, permission };
+  const daily = await dailyPlan(deps);
+  const anchor = (await deps.progress.lastActiveDay()) ?? deps.reminder.installDay ?? deps.today;
+  const reminders = planReminders(
+    deps.reminder.toggle,
+    horizonDays(deps.today, REMINDER_HORIZON_DAYS),
+    { anchor, examDate: deps.reminder.examDate, dailyGoal: deps.reminder.dailyGoal },
+    deps.now,
+  );
+  const plan = [...daily, ...reminders];
+  for (const n of plan) await api.schedule(n);
+  return { scheduled: plan.length, permission };
+}
+
+async function dailyPlan(deps: { content: ContentRepository; progress: ProgressRepository; settings: NotificationSettings; today: DayKey; learner: DailyLearner; now: Date }): Promise<PlannedNotification[]> {
+  if (!deps.settings.word.enabled && !deps.settings.sentence.enabled) return [];
   const assignments = await ensureDailyItems(deps.content, deps.progress, deps.today, deps.learner, { refreshFuture: true });
   const texts = await notificationTexts(deps.content, {
     words: assignments.map((a) => a.wordId),
     sentences: assignments.map((a) => a.sentenceId),
   });
-  const plan = planNotifications(deps.settings, assignments, texts, deps.now);
-  for (const n of plan) await api.schedule(n);
-  return { scheduled: plan.length, permission };
+  return planNotifications(deps.settings, assignments, texts, deps.now);
 }

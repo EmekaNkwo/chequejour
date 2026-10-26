@@ -33,7 +33,7 @@ export interface NotificationTexts {
 export interface PlannedNotification {
   /** Stable identifier, e.g. "word-2026-10-25". */
   id: string;
-  kind: 'word' | 'sentence';
+  kind: 'word' | 'sentence' | 'reminder';
   day: DayKey;
   fireAt: Date;
   title: string;

@@ -8,14 +8,21 @@ import type { PlannedNotification } from '../../domain/notification-plan';
 import type { NotificationsApi } from './sync';
 
 export const DAILY_CHANNEL_ID = 'daily';
+export const REMINDER_CHANNEL_ID = 'reminders';
 
 let channelReady = false;
 
+/** Two channels so learners can silence reminders in Android settings but keep the daily items. */
 export async function ensureChannel(): Promise<void> {
   if (Platform.OS !== 'android' || channelReady) return;
   await Notifications.setNotificationChannelAsync(DAILY_CHANNEL_ID, {
     name: 'Chaque Jour: word and sentence of the day',
     description: 'Your daily French word and sentence',
+    importance: Notifications.AndroidImportance.DEFAULT,
+  });
+  await Notifications.setNotificationChannelAsync(REMINDER_CHANNEL_ID, {
+    name: 'Chaque Jour: practice reminders',
+    description: 'A nudge when you have missed a day of French',
     importance: Notifications.AndroidImportance.DEFAULT,
   });
   channelReady = true;
@@ -78,7 +85,7 @@ export const expoNotificationsApi: NotificationsApi = {
       trigger: {
         type: Notifications.SchedulableTriggerInputTypes.DATE,
         date: n.fireAt,
-        channelId: DAILY_CHANNEL_ID,
+        channelId: n.kind === 'reminder' ? REMINDER_CHANNEL_ID : DAILY_CHANNEL_ID,
       },
     });
   },

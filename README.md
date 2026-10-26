@@ -131,6 +131,12 @@ first. When you move up a level, the upcoming days you haven't opened are re-pic
 the new level; today's items stay as announced. Headwords never repeat until all are
 used, and the 380 sentences don't repeat within a year.
 
+**Missed-day reminders** (on by default, 19:30, Settings → Notifications): if you haven't
+studied, a reminder comes after 1, 2, 4, 7 and 12 missed days, then weekly. It is counted
+from your last real study day, so it never fires on a day you studied, gets firmer as the
+break grows, includes your TCF countdown if you set a date, and opens today's session.
+Reminders use their own Android channel, so they can be silenced separately.
+
 ### Audio, feedback and messages
 
 Every clip has Play and Replay plus a speed row (0.5×, 0.75×, 1×, 1.25×, 1.5×). The speed

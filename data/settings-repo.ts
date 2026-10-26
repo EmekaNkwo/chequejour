@@ -4,7 +4,8 @@
  */
 import { z } from 'zod';
 import { LEVELS, type Level } from '../domain/content-types';
-import { DEFAULT_NOTIFICATION_SETTINGS, type NotificationSettings } from '../domain/notification-plan';
+import { DEFAULT_NOTIFICATION_SETTINGS, type NotificationSettings, type NotificationToggle } from '../domain/notification-plan';
+import { DEFAULT_REMINDER } from '../domain/reminder-plan';
 import { DEFAULT_RATE, legacyRate, PLAYBACK_RATES, type PlaybackRate } from '../domain/playback';
 import type { DailyGoal } from '../domain/session';
 import { DEFAULT_TARGET_NCLC, NCLC_TARGETS, type Nclc } from '../domain/tcf/nclc';
@@ -14,6 +15,8 @@ export type ThemePreference = 'system' | 'light' | 'dark';
 
 export interface Settings {
   notifications: NotificationSettings;
+  /** "Come back" reminder after missed days (stored apart so old settings still parse). */
+  reminder: NotificationToggle;
   dailyGoal: DailyGoal;
   playbackRate: PlaybackRate;
   autoPlay: boolean;
@@ -29,6 +32,7 @@ export interface Settings {
 
 export const DEFAULT_SETTINGS: Settings = {
   notifications: DEFAULT_NOTIFICATION_SETTINGS,
+  reminder: DEFAULT_REMINDER,
   dailyGoal: 15,
   playbackRate: DEFAULT_RATE,
   autoPlay: true,
@@ -46,6 +50,7 @@ const toggle = z.object({ enabled: z.boolean(), time });
 
 export const settingsSchemas: { [K in keyof Settings]: z.ZodType<Settings[K]> } = {
   notifications: z.object({ word: toggle, sentence: toggle }),
+  reminder: toggle,
   dailyGoal: z.union([z.literal(10), z.literal(15), z.literal(20)]),
   playbackRate: z.union(PLAYBACK_RATES.map((r) => z.literal(r)) as [z.ZodLiteral<PlaybackRate>, z.ZodLiteral<PlaybackRate>, ...z.ZodLiteral<PlaybackRate>[]]),
   autoPlay: z.boolean(),

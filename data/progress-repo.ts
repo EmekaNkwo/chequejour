@@ -396,6 +396,15 @@ export class ProgressRepository {
     return new Set(rows.map((r) => r.day));
   }
 
+  /** The most recent day with real study activity, or null before the first one. */
+  async lastActiveDay(): Promise<DayKey | null> {
+    const row = await this.db.getFirstAsync<{ day: DayKey | null }>(
+      'SELECT MAX(day) AS day FROM study_days WHERE seconds >= 60 OR reviews > 0 OR exercises > 0',
+      [],
+    );
+    return row?.day ?? null;
+  }
+
   // ── Daily items ──────────────────────────────────────────────────────────
 
   async dailyItems(): Promise<Map<DayKey, DailyItemRow>> {

@@ -7,6 +7,7 @@ import { migrate } from '../../data/migrations';
 import { ProgressRepository } from '../../data/progress-repo';
 import type { ContentBundle } from '../../domain/content-types';
 import { DEFAULT_NOTIFICATION_SETTINGS, type PlannedNotification } from '../../domain/notification-plan';
+import { DEFAULT_REMINDER } from '../../domain/reminder-plan';
 import { createNodeDb } from '../../test-utils/node-db';
 import { syncNotifications, type NotificationsApi } from '../notifications/sync';
 
@@ -56,7 +57,9 @@ async function setup() {
   const db = createNodeDb();
   await migrate(db);
   await seedContentIfNeeded(db, bundle);
-  return { content: new ContentRepository(db), progress: new ProgressRepository(db) };
+  // Reminders are covered separately below; off here so counts stay word + sentence.
+  const reminder = { toggle: { ...DEFAULT_REMINDER, enabled: false }, examDate: null, dailyGoal: 15, installDay: null };
+  return { content: new ContentRepository(db), progress: new ProgressRepository(db), reminder };
 }
 
 describe('notification sync', () => {
@@ -140,5 +143,34 @@ describe('notification sync', () => {
     const before = await deps.progress.dailyItems();
     await syncNotifications(api, args);
     expect(await deps.progress.dailyItems()).toEqual(before);
+  });
+
+  it('reminds after missed days, counted from the last study day', async () => {
+    const deps = await setup();
+    const api = new FakeNotifications();
+    const off = { word: { ...DEFAULT_NOTIFICATION_SETTINGS.word, enabled: false }, sentence: { ...DEFAULT_NOTIFICATION_SETTINGS.sentence, enabled: false } };
+    await deps.progress.addStudy('2026-10-23', { seconds: 300 });
+    const reminder = { ...deps.reminder, toggle: DEFAULT_REMINDER, examDate: '2026-11-20' };
+    await syncNotifications(api, { ...deps, reminder, settings: off, today: '2026-10-25', learner: { openUnitIds: [], level: 'A2' }, now: new Date(2026, 9, 25, 9, 0) });
+    const days = [...api.scheduled.values()].map((n) => n.day);
+    // Last studied the 23rd: 1 missed day on the 25th, then 2, 4, 7, 12, 19, 26.
+    expect(days).toEqual(['2026-10-25', '2026-10-26', '2026-10-28', '2026-10-31', '2026-11-05', '2026-11-12', '2026-11-19']);
+    expect(api.scheduled.get('reminder-2026-10-25')?.body).toContain('26 days to your TCF');
+
+    // Studying today moves the anchor: no reminder until a day is missed again.
+    await deps.progress.addStudy('2026-10-25', { seconds: 300 });
+    await syncNotifications(api, { ...deps, reminder, settings: off, today: '2026-10-25', learner: { openUnitIds: [], level: 'A2' }, now: new Date(2026, 9, 25, 9, 0) });
+    expect([...api.scheduled.values()][0]?.day).toBe('2026-10-27');
+  });
+
+  it('uses the install day before any study, and nothing when reminders are off', async () => {
+    const deps = await setup();
+    const api = new FakeNotifications();
+    const reminder = { ...deps.reminder, toggle: DEFAULT_REMINDER, installDay: '2026-10-24' };
+    await syncNotifications(api, { ...deps, reminder, settings: DEFAULT_NOTIFICATION_SETTINGS, today: '2026-10-25', learner: { openUnitIds: ['u01'], level: 'A2' }, now: new Date(2026, 9, 25, 7, 0) });
+    expect(api.scheduled.has('reminder-2026-10-26')).toBe(true);
+    expect(api.scheduled.has('reminder-2026-10-25')).toBe(false);
+    await syncNotifications(api, { ...deps, settings: DEFAULT_NOTIFICATION_SETTINGS, today: '2026-10-25', learner: { openUnitIds: ['u01'], level: 'A2' }, now: new Date(2026, 9, 25, 7, 0) });
+    expect([...api.scheduled.keys()].some((k) => k.startsWith('reminder'))).toBe(false);
   });
 });

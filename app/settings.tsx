@@ -189,6 +189,14 @@ export default function SettingsScreen() {
           <TimePickerRow label="Word time" value={n.word.time} onChange={(t) => setToggle('word', { time: t })} disabled={!n.word.enabled} testID="time-word" />
           <SwitchRow label="Sentence of the Day" value={n.sentence.enabled} onChange={(v) => setToggle('sentence', { enabled: v })} testID="toggle-sentence" />
           <TimePickerRow label="Sentence time" value={n.sentence.time} onChange={(t) => setToggle('sentence', { time: t })} disabled={!n.sentence.enabled} testID="time-sentence" />
+          <SwitchRow
+            label="Remind me when I miss a day"
+            description="After 1, 2, 4, 7 and 12 days without practice, then weekly. Never on days you study."
+            value={settings.reminder.enabled}
+            onChange={(v) => save('reminder', { ...settings.reminder, enabled: v })}
+            testID="toggle-reminder"
+          />
+          <TimePickerRow label="Reminder time" value={settings.reminder.time} onChange={(t) => save('reminder', { ...settings.reminder, time: t })} disabled={!settings.reminder.enabled} testID="time-reminder" />
           {Platform.OS === 'android' ? (
             data.exact ? (
               <AppText variant="meta" tone="muted">
