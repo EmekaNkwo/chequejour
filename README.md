@@ -103,7 +103,7 @@ optional review that isn't needed to continue or to unlock the mocks.
 
 ### TCF Canada mock tests and NCLC estimate
 
-Two original mock tests follow the TCF Canada format, set in `domain/tcf/exam-format.ts`
+Four original mock tests follow the TCF Canada format, set in `domain/tcf/exam-format.ts`
 (counts, timings and word ranges live there, not in the screens):
 
 | Test | Format | Time |
@@ -162,7 +162,9 @@ Reminders use their own Android channel, so they can be silenced separately.
 **Home-screen widget** (Android): *Mot du jour* shows today's word with its article,
 gender (or part of speech) and English. It reads only the local database, follows the
 phone's light or dark mode, refreshes hourly and whenever the app opens, and tapping it
-opens that word. Settings → Home-screen widget shows a live preview and an *Add the
+opens that word. A speaker button in its corner plays the word's pronunciation without
+opening the app (about two seconds while Android starts the background task). Text and
+button scale with the widget's size, and the content is centred. Settings → Home-screen widget shows a live preview and an *Add the
 widget* button; launchers that ignore pin requests (some MIUI/POCO builds) need it added
 by long-pressing the home screen → Widgets → Chaque Jour.
 
