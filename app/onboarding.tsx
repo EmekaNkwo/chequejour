@@ -115,12 +115,13 @@ function Welcome({ onNext }: { onNext: () => void }) {
         <Logo size={80} />
         <AppText variant="screenTitle">Chaque Jour</AppText>
         <AppText variant="body" tone="secondary">
-          A calm daily French habit, from A2 to B1, built around the TCF.
+          A calm daily French habit, from A2 to B1, built around the TCF Canada.
         </AppText>
       </View>
       {[
         { t: 'Ten to twenty minutes a day', d: 'Reviews, one lesson and one skill exercise, planned for you.' },
-        { t: 'A word and a sentence every day', d: 'Gentle reminders at the times you choose.' },
+        { t: 'Ready for the TCF Canada', d: 'Timed mock tests in all four skills and a practice NCLC estimate for each.' },
+        { t: 'A word and a sentence every day', d: 'Gentle reminders at the times you choose, and a nudge if you miss a day.' },
         { t: 'Fully offline and private', d: 'No account, no internet, no tracking. Everything stays on this phone.' },
       ].map((x) => (
         <Card key={x.t} color={colors.surface}>
@@ -175,7 +176,7 @@ function Setup({ onPlacement, onSkip }: { onPlacement: () => void; onSkip: () =>
       <Card>
         <AppText variant="cardTitle">Daily reminders</AppText>
         <AppText variant="body" tone="secondary">
-          {`Word of the Day at ${fmt(n.word.time)} and Sentence of the Day at ${fmt(n.sentence.time)}. You can change the times or turn them off in Settings.`}
+          {`Word of the Day at ${fmt(n.word.time)} and Sentence of the Day at ${fmt(n.sentence.time)}, plus a reminder at ${fmt(app.settings.reminder.time)} if you miss a day. You can change the times or turn them off in Settings.`}
         </AppText>
         <Row style={styles.mt}>
           {permission === 'granted' ? (

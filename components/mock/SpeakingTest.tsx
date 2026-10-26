@@ -57,7 +57,7 @@ export function SpeakingTest({ title, tasks, onFinish, onQuit }: SpeakingTestPro
     talk.start(task.speakSeconds);
     const started = await recorder.start();
     setRecording(started);
-    if (!started) toast.show({ tone: 'warning', title: 'Not recording', message: 'The microphone is unavailable. Speak anyway and keep to the time.' });
+    if (!started) toast.show({ tone: 'warning', title: 'Not recording', message: 'The microphone is off or not allowed (you can allow it in your phone settings). Speak anyway and keep to the time.' });
   }
 
   async function endTask() {

@@ -14,12 +14,14 @@ import { loadPath } from '../../features/path/path-service';
 import { levelOverview } from '../../features/progress/stats-service';
 import { masteredIds } from '../../features/session/session-service';
 
-type Filter = 'all' | 'listening' | 'speaking' | 'saved';
+type Filter = 'all' | SkillItemSummary['kind'] | 'saved';
 
 const FILTERS: readonly { value: Filter; label: string }[] = [
   { value: 'all', label: 'All' },
-  { value: 'listening', label: 'Listening' },
-  { value: 'speaking', label: 'Speaking' },
+  { value: 'listening', label: 'Listen' },
+  { value: 'reading', label: 'Read' },
+  { value: 'writing', label: 'Write' },
+  { value: 'speaking', label: 'Speak' },
   { value: 'saved', label: 'Saved' },
 ];
 
@@ -58,9 +60,7 @@ export default function PracticeScreen() {
 
   const visible = data.items.filter((i) => {
     if (filter === 'saved') return data.done.get(i.id)?.saved;
-    if (filter === 'listening') return i.kind === 'listening';
-    if (filter === 'speaking') return i.kind === 'speaking';
-    return true;
+    return filter === 'all' || i.kind === filter;
   });
 
   const row = (item: SkillItemSummary) => {

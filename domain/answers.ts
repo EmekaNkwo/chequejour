@@ -43,9 +43,9 @@ export function checkTyped(answer: string, accepted: readonly string[]): CheckOu
   const normalized = accepted.map(normalize);
   if (normalized.includes(given)) return { result: 'correct', expected };
   const bare = stripAccents(given);
-  const accentMatch = normalized.find((a) => stripAccents(a) === bare);
-  if (accentMatch !== undefined) {
-    return { result: 'almost', expected: accentMatch, note: 'Almost — check the accents.' };
+  const accentMatch = normalized.findIndex((a) => stripAccents(a) === bare);
+  if (accentMatch >= 0) {
+    return { result: 'almost', expected: accepted[accentMatch] ?? expected, note: 'Almost — check the accents.' };
   }
   return { result: 'wrong', expected };
 }

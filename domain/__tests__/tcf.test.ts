@@ -5,7 +5,7 @@ import { countdownLabel, daysToExam, examPhase, examPracticeSkill, sessionSkill,
 import { mockFormatProblems } from '../tcf/mock-format-checks';
 import { checklistScore, scoreComprehension, scoreTasks, tcfScores } from '../tcf/mock-scoring';
 import { cefrForNclc, estimateSkill, gapToTarget, isEstimate, nclcForScore, nclcOverview, practiceScore, type SkillEvidence } from '../tcf/nclc';
-import { countWords, wordRangeStatus } from '../writing/word-count';
+import { countWords, handInWarning, wordRangeStatus } from '../writing/word-count';
 
 const q = (id: string, band: MockQuestion['band'], answer = 0): MockQuestion => ({ id, band, question: id, options: ['a', 'b', 'c', 'd'], answer, explanation: '' });
 const NOW = Date.UTC(2026, 9, 26);
@@ -92,6 +92,8 @@ describe('NCLC estimate', () => {
       NOW,
     );
     expect(overview.weakest).toBe('reading');
+    // With one skill estimated there is nothing to compare it with.
+    expect(nclcOverview([{ skill: 'writing', mocks: [{ score: 0.1, takenAt: NOW }], practice: [] }], 7, NOW).weakest).toBeNull();
     expect(overview.skills.map((s) => s.skill)).toEqual(['listening', 'reading', 'writing', 'speaking']);
     expect(isEstimate(overview.skills[3])).toBe(false);
     const reading = overview.skills[1];
@@ -143,6 +145,19 @@ describe('word count', () => {
     expect(countWords("Aujourd'hui, c'est la fête : venez !")).toBe(5);
     expect(countWords('   ')).toBe(0);
     expect([wordRangeStatus(0, 60, 120), wordRangeStatus(59, 60, 120), wordRangeStatus(60, 60, 120), wordRangeStatus(121, 60, 120)]).toEqual(['empty', 'under', 'within', 'over']);
+  });
+
+  it('warns before handing in empty, short or long tasks', () => {
+    const words = (n: number) => Array.from({ length: n }, () => 'mot').join(' ');
+    const ranges = [
+      { minWords: 60, maxWords: 120 },
+      { minWords: 120, maxWords: 150 },
+      { minWords: 120, maxWords: 180 },
+    ];
+    expect(handInWarning([words(70), words(130), words(150)], ranges)).toBeNull();
+    expect(handInWarning([words(77), words(20), ''], ranges)).toBe('Task 2 is short (20 of 120–150 words). Task 3 is empty.');
+    expect(handInWarning([words(130), words(130), words(150)], ranges)).toBe('Task 1 is long (130 of 60–120 words).');
+    expect(handInWarning([''], [ranges[0]])).toBe('Your text is empty.');
   });
 });
 

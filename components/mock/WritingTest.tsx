@@ -6,6 +6,7 @@ import { useEffect, useRef, useState } from 'react';
 import { KeyboardAvoidingView, Platform, StyleSheet, View } from 'react-native';
 import type { WritingTask } from '../../domain/content-types';
 import { writingTaskFormat } from '../../domain/tcf/exam-format';
+import { handInWarning } from '../../domain/writing/word-count';
 import { useApp } from '../../features/app/AppContext';
 import { logError } from '../../features/app/log';
 import { useStudyTimer } from '../../features/progress/useStudyTimer';
@@ -68,9 +69,10 @@ export function WritingTest({ title, tasks, minutes, onFinish, onQuit }: Writing
   useEffect(() => start(minutes * 60), []);
 
   const submit = async () => {
+    const warning = handInWarning(latest.current, tasks.map((t) => writingTaskFormat(t.taskType)));
     const ok = await toast.confirm({
       title: 'Hand in the writing test?',
-      message: 'You can’t change your texts afterwards.',
+      message: warning ? `${warning} You can’t change your texts afterwards.` : 'You can’t change your texts afterwards.',
       confirmLabel: 'Hand in',
       cancelLabel: 'Keep writing',
     });

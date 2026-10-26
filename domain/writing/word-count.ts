@@ -20,3 +20,31 @@ export function wordRangeStatus(words: number, minWords: number, maxWords: numbe
   if (words > maxWords) return 'over';
   return 'within';
 }
+
+export interface WordRange {
+  minWords: number;
+  maxWords: number;
+}
+
+/**
+ * What to point out before the learner hands in: empty tasks and texts outside their
+ * word range. Null when every text is within range.
+ */
+export function handInWarning(texts: readonly string[], ranges: readonly WordRange[]): string | null {
+  const notes = ranges.flatMap((range, i) => {
+    const words = countWords(texts[i] ?? '');
+    const name = ranges.length > 1 ? `Task ${i + 1}` : 'Your text';
+    const of = `(${words} of ${range.minWords}–${range.maxWords} words)`;
+    switch (wordRangeStatus(words, range.minWords, range.maxWords)) {
+      case 'empty':
+        return [`${name} is empty.`];
+      case 'under':
+        return [`${name} is short ${of}.`];
+      case 'over':
+        return [`${name} is long ${of}.`];
+      default:
+        return [];
+    }
+  });
+  return notes.length > 0 ? notes.join(' ') : null;
+}

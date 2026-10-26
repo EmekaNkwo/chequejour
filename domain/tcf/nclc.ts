@@ -125,7 +125,7 @@ export function isEstimate(r: SkillEstimateResult): r is SkillEstimate {
 
 export interface NclcOverview {
   skills: SkillEstimateResult[];
-  /** Lowest NCLC (then lowest score) among skills with an estimate. */
+  /** Lowest NCLC (then lowest score) among skills with an estimate; null with fewer than two. */
   weakest: TcfSkill | null;
   target: Nclc;
 }
@@ -134,7 +134,8 @@ export function nclcOverview(evidence: readonly SkillEvidence[], target: Nclc, n
   const bySkill = new Map(evidence.map((e) => [e.skill, e]));
   const skills = TCF_SKILLS.map((skill) => estimateSkill(bySkill.get(skill) ?? { skill, mocks: [], practice: [] }, now));
   const estimated = skills.filter(isEstimate).sort((a, b) => a.nclc - b.nclc || a.score - b.score);
-  return { skills, weakest: estimated[0]?.skill ?? null, target };
+  // "Weakest" only means something once there are at least two skills to compare.
+  return { skills, weakest: estimated.length > 1 ? (estimated[0]?.skill ?? null) : null, target };
 }
 
 /** NCLC levels still to gain to reach the target; 0 when reached. */

@@ -24,6 +24,11 @@ describe('checkTyped', () => {
     expect(checkTyped('avons allé', ['sommes allés']).result).toBe('wrong');
     expect(checkTyped('   ', ['oui']).result).toBe('wrong');
   });
+  it('shows the accepted answer as written, not its normalised form', () => {
+    const out = checkTyped('Le medecin est la.', ['Le médecin est là.', 'Le docteur est là.']);
+    expect(out.result).toBe('almost');
+    expect(out.expected).toBe('Le médecin est là.');
+  });
   it('treats œ as oe for accent tolerance', () => {
     expect(checkTyped('soeur', ['sœur']).result).toBe('almost');
   });

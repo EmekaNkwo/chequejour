@@ -35,6 +35,8 @@ export function useRecorder(): Recorder {
   const recorder = useAudioRecorder(RecordingPresets.HIGH_QUALITY);
   const state = useAudioRecorderState(recorder, 500);
   const [micAllowed, setMicAllowed] = useState<boolean | null>(null);
+  // State lags a render behind; callers often ask and then start in the same handler.
+  const allowedRef = useRef<boolean | null>(null);
   const [busy, setBusy] = useState(false);
   const starting = useRef<Promise<boolean>>(Promise.resolve(false));
   const startedAt = useRef(0);
@@ -50,17 +52,19 @@ export function useRecorder(): Recorder {
   const askPermission = async (): Promise<boolean> => {
     try {
       const permission = await requestRecordingPermissionsAsync();
+      allowedRef.current = permission.granted;
       setMicAllowed(permission.granted);
       return permission.granted;
     } catch (error: unknown) {
       logError('mic permission', error);
+      allowedRef.current = false;
       setMicAllowed(false);
       return false;
     }
   };
 
   const start = async (): Promise<boolean> => {
-    const allowed = micAllowed ?? (await askPermission());
+    const allowed = allowedRef.current ?? (await askPermission());
     if (!allowed) return false;
     starting.current = (async () => {
       try {
