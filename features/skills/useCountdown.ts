@@ -22,10 +22,14 @@ export function useCountdown(onDone: () => void): Countdown {
 
   useEffect(() => {
     if (endsAt === null) return;
+    // Several ticks can run before the re-render that clears endsAt; only the first ends it.
+    let fired = false;
     const tick = () => {
+      if (fired) return;
       const left = Math.max(0, (endsAt - Date.now()) / 1000);
       setRemaining(Math.ceil(left));
       if (left <= 0) {
+        fired = true;
         setEndsAt(null);
         doneRef.current();
       }
