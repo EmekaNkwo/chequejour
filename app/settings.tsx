@@ -1,3 +1,4 @@
+import { router } from 'expo-router';
 import { useState } from 'react';
 import { Platform, StyleSheet, View } from 'react-native';
 import { SpeedSelector } from '../components/audio/AudioControls';
@@ -274,6 +275,15 @@ export default function SettingsScreen() {
       <Card style={styles.card}>
         <SettingsGroup title="Theme">
           <SegmentedTabs options={THEMES} value={settings.theme} onChange={(v) => save('theme', v)} />
+        </SettingsGroup>
+      </Card>
+
+      <Card style={styles.card}>
+        <SettingsGroup title="AI pack (optional)">
+          <AppText variant="meta" tone="muted">
+            On-device AI feedback after a one-time download. Runs on your phone; nothing you write or record leaves it.
+          </AppText>
+          <Button label="Open AI pack" icon="cpu" variant="secondary" onPress={() => router.push('/ai-pack')} testID="open-ai-pack" />
         </SettingsGroup>
       </Card>
 

@@ -1,0 +1,52 @@
+{
+  "version": 1,
+  "allowedHosts": ["huggingface.co"],
+  "stt": { "standard": "whisper-small", "light": "whisper-base" },
+  "llm": { "high": "smollm3-3b", "mid": "qwen3-1.7b" },
+  "models": [
+    {
+      "id": "whisper-small",
+      "kind": "stt",
+      "name": "Whisper small (multilingual, used in French)",
+      "file": "ggml-small-q5_1.bin",
+      "url": "https://huggingface.co/ggerganov/whisper.cpp/resolve/5359861c739e955e79d9a303bcbc70fb988958b1/ggml-small-q5_1.bin",
+      "bytes": 190085487,
+      "sha256": "ae85e4a935d7a567bd102fe55afc16bb595bdb618e11b2fc7591bc08120411bb",
+      "licence": "MIT",
+      "source": "OpenAI Whisper, converted by whisper.cpp (ggerganov/whisper.cpp)"
+    },
+    {
+      "id": "whisper-base",
+      "kind": "stt",
+      "name": "Whisper base (multilingual, for phones with little memory)",
+      "file": "ggml-base-q5_1.bin",
+      "url": "https://huggingface.co/ggerganov/whisper.cpp/resolve/5359861c739e955e79d9a303bcbc70fb988958b1/ggml-base-q5_1.bin",
+      "bytes": 59707625,
+      "sha256": "422f1ae452ade6f30a004d7e5c6a43195e4433bc370bf23fac9cc591f01a8898",
+      "licence": "MIT",
+      "source": "OpenAI Whisper, converted by whisper.cpp (ggerganov/whisper.cpp)"
+    },
+    {
+      "id": "smollm3-3b",
+      "kind": "llm",
+      "name": "SmolLM3 3B (Q4_K_M)",
+      "file": "SmolLM3-Q4_K_M.gguf",
+      "url": "https://huggingface.co/ggml-org/SmolLM3-3B-GGUF/resolve/4965cb60b150737b68a0408c36aeefb65078f894/SmolLM3-Q4_K_M.gguf",
+      "bytes": 1915305312,
+      "sha256": "8334b850b7bd46238c16b0c550df2138f0889bf433809008cc17a8b05761863e",
+      "licence": "Apache-2.0",
+      "source": "HuggingFaceTB/SmolLM3-3B, GGUF by ggml-org"
+    },
+    {
+      "id": "qwen3-1.7b",
+      "kind": "llm",
+      "name": "Qwen3 1.7B (Q4_K_M)",
+      "file": "Qwen3-1.7B-Q4_K_M.gguf",
+      "url": "https://huggingface.co/unsloth/Qwen3-1.7B-GGUF/resolve/d7f544eead698dbd1f15126ef60b45a1e1933222/Qwen3-1.7B-Q4_K_M.gguf",
+      "bytes": 1107409472,
+      "sha256": "b139949c5bd74937ad8ed8c8cf3d9ffb1e99c866c823204dc42c0d91fa181897",
+      "licence": "Apache-2.0",
+      "source": "Qwen/Qwen3-1.7B, GGUF by Unsloth"
+    }
+  ]
+}

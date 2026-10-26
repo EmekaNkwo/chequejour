@@ -50,6 +50,7 @@ const APP_SCREENS = [
   'daily/word',
   'daily/sentence',
   'settings',
+  'ai-pack',
   'weekly',
   'level',
   'search',

@@ -10,6 +10,7 @@ import { DEFAULT_REMINDER } from '../domain/reminder-plan';
 import { DEFAULT_RATE, legacyRate, PLAYBACK_RATES, type PlaybackRate } from '../domain/playback';
 import type { DailyGoal } from '../domain/session';
 import { DEFAULT_TARGET_NCLC, NCLC_TARGETS, type Nclc } from '../domain/tcf/nclc';
+import { DEFAULT_AI_FEATURES, type AiFeatureToggles } from '../domain/ai/features';
 import type { SqlDb } from './sql';
 
 export type ThemePreference = 'system' | 'light' | 'dark';
@@ -32,6 +33,10 @@ export interface Settings {
   backupReminder: BackupReminderSettings;
   /** Day of the last successful backup export. */
   lastBackupDay: string | null;
+  /** Which AI pack features are on (only used once the pack is installed). */
+  aiFeatures: AiFeatureToggles;
+  /** Lets the AI pack download over mobile data; Wi-Fi only by default. */
+  aiMobileData: boolean;
 }
 
 export const DEFAULT_SETTINGS: Settings = {
@@ -48,6 +53,8 @@ export const DEFAULT_SETTINGS: Settings = {
   targetNclc: DEFAULT_TARGET_NCLC,
   backupReminder: DEFAULT_BACKUP_REMINDER,
   lastBackupDay: null,
+  aiFeatures: DEFAULT_AI_FEATURES,
+  aiMobileData: false,
 };
 
 const dayKey = z.string().regex(/^\d{4}-\d{2}-\d{2}$/);
@@ -70,6 +77,8 @@ export const settingsSchemas: { [K in keyof Settings]: z.ZodType<Settings[K]> } 
     notify: z.boolean(),
   }),
   lastBackupDay: dayKey.nullable(),
+  aiFeatures: z.object({ writing: z.boolean(), speaking: z.boolean(), conversation: z.boolean(), explain: z.boolean(), generatedPractice: z.boolean() }),
+  aiMobileData: z.boolean(),
   targetNclc: z.union(NCLC_TARGETS.map((n) => z.literal(n)) as [z.ZodLiteral<Nclc>, z.ZodLiteral<Nclc>, ...z.ZodLiteral<Nclc>[]]),
 };
 
