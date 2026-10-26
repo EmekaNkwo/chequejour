@@ -51,7 +51,7 @@ export default function ProgressScreen() {
       <ScreenHeader title="Progrès" actions={<IconButton icon="settings" label="Settings" onPress={() => router.push('/settings')} testID="open-settings" />} />
 
       <Card onPress={() => router.push('/level')} accessibilityLabel={`Estimated level ${level.estimate.label}. ${level.completedUnits} of ${level.totalUnits} units complete. ${level.mastered} items mastered.`}>
-        <AppText variant="cardTitle">A2 → B1</AppText>
+        <AppText variant="cardTitle">A1 → B1</AppText>
         <View style={styles.mt}>
           <ProgressBar value={level.estimate.value} height={12} />
         </View>

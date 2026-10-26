@@ -41,7 +41,7 @@ export default function LearnScreen() {
 
   return (
     <Screen tabs testID="learn-screen">
-      <ScreenHeader title="Parcours" subtitle="Your A2 → B1 path" />
+      <ScreenHeader title="Parcours" subtitle="Your A1 → B1 path" />
       <View style={styles.grid}>
         <Tile
           style={styles.tall}

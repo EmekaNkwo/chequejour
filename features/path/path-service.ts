@@ -1,5 +1,5 @@
 /**
- * The learner's position on the A2 → B1 path.
+ * The learner's position on the A1 → B1 path.
  */
 import type { ContentRepository, UnitSummary } from '../../data/content-repo';
 import type { ProgressRepository } from '../../data/progress-repo';
