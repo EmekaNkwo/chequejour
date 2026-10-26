@@ -76,6 +76,11 @@ const UNSAFE = new RegExp(
   'iu',
 );
 
+/** True when the text contains a word the app never shows or answers. */
+export function hasUnsafeWords(text: string): boolean {
+  return UNSAFE.test(text);
+}
+
 export interface TextCheck {
   /** 'fr' for French replies, 'en' for explanations (French quotes allowed), 'any' for short snippets. */
   language: 'fr' | 'en' | 'any';

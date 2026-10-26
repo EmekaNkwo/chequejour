@@ -45,6 +45,7 @@ const APP_SCREENS = [
   'reading/[id]',
   'writing/[id]',
   'speaking/[id]',
+  'conversation/[id]',
   'exam-practice/[skill]',
   'nclc',
   'mock/[id]',

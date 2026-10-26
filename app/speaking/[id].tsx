@@ -18,6 +18,7 @@ import { useToast } from '../../components/ui/Toast';
 import type { Recording } from '../../data/progress-repo';
 import { audioKey } from '../../domain/audio-keys';
 import type { SpeakingTask } from '../../domain/content-types';
+import { useAiFeature } from '../../features/ai/useAiFeature';
 import { useSpeechAi, type Transcript } from '../../features/ai/useSpeechAi';
 import { useApp } from '../../features/app/AppContext';
 import { logError } from '../../features/app/log';
@@ -44,15 +45,16 @@ export default function SpeakingScreen() {
   if (error) return <ErrorState message={error} onRetry={reload} />;
   if (!data) return <Loading />;
   if (!data.task) return <ErrorState message="This speaking task couldn't be found." />;
-  return <Speaking task={data.task} />;
+  return <Speaking task={data.task} mock={mock} />;
 }
 
-function Speaking({ task }: { task: SpeakingTask }) {
+function Speaking({ task, mock }: { task: SpeakingTask; mock?: string }) {
   useStudyTimer();
   const { colors } = useTheme();
   const { progress, invalidate } = useApp();
   const toast = useToast();
   const speechAi = useSpeechAi();
+  const conversation = useAiFeature('conversation');
   const recorder = useRecorder({ wav: speechAi.ready });
   const player = useAudioPlayer(null);
   const playerStatus = useAudioPlayerStatus(player);
@@ -189,6 +191,15 @@ function Speaking({ task }: { task: SpeakingTask }) {
         {task.taskType === 'interaction' ? (
           <View style={styles.mt}>
             <LinkText label="Warm up: asking questions drill" icon="help-circle" onPress={() => router.push('/questions')} />
+          </View>
+        ) : null}
+        {conversation.ready && (task.taskType === 'interaction' || task.taskType === 'opinion') ? (
+          <View style={styles.mt}>
+            <LinkText
+              label="Practise with the AI partner"
+              icon="message-circle"
+              onPress={() => router.push({ pathname: '/conversation/[id]', params: mock ? { id: task.id, mock } : { id: task.id } })}
+            />
           </View>
         ) : null}
       </Card>
