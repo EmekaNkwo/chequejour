@@ -6,11 +6,15 @@
 import { AiError } from '../../domain/ai/errors';
 
 export const IDLE_UNLOAD_MS = 2 * 60_000;
+/** After a timeout or cancel, how long to let the native call unwind before the next job. */
+export const SETTLE_MS = 5_000;
 
 export interface EngineSlotOptions<C> {
   load: () => Promise<C>;
   release: (context: C) => Promise<void>;
   idleMs?: number;
+  /** How long a stopped job may keep the queue while its native call unwinds. */
+  settleMs?: number;
 }
 
 export interface JobOptions {
@@ -38,8 +42,14 @@ export class EngineSlot<C> {
   run<T>(job: Job<C, T>, options: JobOptions): Promise<T> {
     this.busy += 1;
     this.clearIdle();
-    const next = this.queue.then(() => this.runNow(job, options));
-    this.queue = next.catch(() => undefined);
+    // A job stopped early still holds the queue until its native call has unwound.
+    let settled: Promise<unknown> = Promise.resolve();
+    const next = this.queue.then(() =>
+      this.runNow(job, options, (p) => {
+        settled = p;
+      }),
+    );
+    this.queue = next.catch(() => undefined).then(() => settled);
     return next.finally(() => {
       this.busy -= 1;
       if (this.busy === 0) this.scheduleIdle();
@@ -49,15 +59,20 @@ export class EngineSlot<C> {
   /** Frees the model's memory now; the next job loads it again. */
   async unload(): Promise<void> {
     this.clearIdle();
-    // Never free the model under a running job; jobs are time-limited, so this ends.
-    await this.queue;
+    // Never free the model under a running job. Jobs queued while waiting are waited for
+    // too; jobs are time-limited, so this ends.
+    let seen: Promise<unknown>;
+    do {
+      seen = this.queue;
+      await seen;
+    } while (seen !== this.queue);
     const context = this.context ?? (this.loading ? await this.loading.catch(() => null) : null);
     this.context = null;
     this.loading = null;
     if (context !== null) await this.options.release(context);
   }
 
-  private async runNow<T>(job: Job<C, T>, { timeoutMs, signal }: JobOptions): Promise<T> {
+  private async runNow<T>(job: Job<C, T>, { timeoutMs, signal }: JobOptions, onSettle: (settled: Promise<unknown>) => void): Promise<T> {
     if (signal?.aborted) throw new AiError('cancelled', 'Cancelled before it started.');
     const context = await this.ensureLoaded();
     const controller = new AbortController();
@@ -74,13 +89,19 @@ export class EngineSlot<C> {
       };
       signal?.addEventListener('abort', onAbort);
     });
+    const work = job(context, controller.signal);
     try {
-      return await Promise.race([job(context, controller.signal), stopped]);
+      return await Promise.race([work, stopped]);
     } catch (e: unknown) {
       throw e instanceof AiError ? e : new AiError('failed', e instanceof Error ? e.message : 'The model failed.');
     } finally {
       clearTimeout(timer);
       if (onAbort) signal?.removeEventListener('abort', onAbort);
+      // Stopped early: the caller hears now, but the next job or a release waits until the
+      // native call has really stopped (or a short limit passes).
+      if (controller.signal.aborted) {
+        onSettle(Promise.race([work.catch(() => undefined), new Promise((resolve) => setTimeout(resolve, this.options.settleMs ?? SETTLE_MS))]));
+      }
     }
   }
 
@@ -105,7 +126,9 @@ export class EngineSlot<C> {
 
   private scheduleIdle(): void {
     this.clearIdle();
-    this.idleTimer = setTimeout(() => void this.unload(), this.options.idleMs ?? IDLE_UNLOAD_MS);
+    this.idleTimer = setTimeout(() => {
+      this.unload().catch(() => undefined);
+    }, this.options.idleMs ?? IDLE_UNLOAD_MS);
   }
 
   private clearIdle(): void {

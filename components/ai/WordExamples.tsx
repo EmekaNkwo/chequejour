@@ -65,7 +65,7 @@ function GapItem({ example }: { example: WordExample }) {
   return (
     <View style={styles.gap}>
       <AppText variant="french" french>
-        {shown ? example.fr : gapSentence(example.fr, example.form)}
+        {shown ? example.fr : gapSentence(example.fr, example.form, example.start)}
       </AppText>
       <AppText variant="meta" tone="secondary">
         {example.en}

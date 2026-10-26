@@ -33,8 +33,16 @@ describe('finding the word in a sentence', () => {
     expect(findWordForm('Je prends le bus.', lever)).toBeNull();
   });
 
-  it('blanks the word out for practice', () => {
+  it('blanks the word out for practice, at its own position', () => {
     expect(gapSentence('Elle se lève tôt.', 'lève')).toBe('Elle se ____ tôt.');
+    expect(gapSentence('Elle le prend.', 'le', 5)).toBe('Elle ____ prend.');
+  });
+
+  it('matches short headwords only as whole words', () => {
+    const a = { fr: 'à', pos: 'preposition' as const };
+    expect(findWordForm('Je vais avec elle à Laval.', a)).toBe('à');
+    expect(findWordForm('Je vais avec elle.', a)).toBeNull();
+    expect(findWordForm('Mon avocat est là.', { fr: 'avoir', pos: 'verb' })).toBeNull();
   });
 });
 
@@ -63,7 +71,7 @@ describe('word example prompt and checks', () => {
       },
       lever,
     );
-    expect(out).toEqual([{ fr: 'Le dimanche, je me lève tard.', en: 'On Sundays I get up late.', form: 'lève' }]);
+    expect(out).toEqual([{ fr: 'Le dimanche, je me lève tard.', en: 'On Sundays I get up late.', form: 'lève', start: 19 }]);
   });
 
   it('rejects the answer when no example survives', () => {

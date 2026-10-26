@@ -3,7 +3,7 @@ import { requestRecordingPermissionsAsync, setAudioModeAsync } from 'expo-audio'
 import type { ProgressRepository } from '../../data/progress-repo';
 import { recentErrors } from '../app/log';
 import { stop as stopSharedAudio } from '../audio/audio-controller';
-import { startPcm, stopPcm } from '../../services/ai/pcm-recorder';
+import { deleteTake, discardPcm, startPcm, stopPcm } from '../../services/ai/pcm-recorder';
 import { saveRecording } from '../skills/recordings';
 import { useRecorder, useRecordingPlayer } from '../speaking/useRecorder';
 
@@ -37,6 +37,10 @@ jest.mock('../../services/ai/pcm-recorder', () => ({
     mockPcm.recording = false;
     return { uri: 'file:///cache/speech-1.wav', durationMs: 2500 };
   }),
+  discardPcm: jest.fn(async () => {
+    mockPcm.recording = false;
+  }),
+  deleteTake: jest.fn(),
 }));
 jest.mock('../audio/audio-controller', () => ({ stop: jest.fn(async () => undefined) }));
 jest.mock('../skills/recordings', () => ({
@@ -230,7 +234,7 @@ describe('useRecorder in WAV mode (for the speech model)', () => {
     expect(saved).toBeNull();
   });
 
-  it('stops a WAV take when the screen closes', async () => {
+  it('discards a WAV take, without writing it, when the screen closes', async () => {
     askMic.mockResolvedValue({ granted: true });
     const { result, unmount } = await renderHook(() => useRecorder({ wav: true }));
     await act(async () => {
@@ -238,7 +242,21 @@ describe('useRecorder in WAV mode (for the speech model)', () => {
     });
     await unmount();
     await act(async () => undefined);
-    expect(stopPcm).toHaveBeenCalled();
+    expect(discardPcm).toHaveBeenCalled();
+    expect(stopPcm).not.toHaveBeenCalled();
+  });
+
+  it('deletes the cached take when it cannot be saved', async () => {
+    askMic.mockResolvedValue({ granted: true });
+    (saveRecording as jest.Mock).mockRejectedValueOnce(new Error('disk full'));
+    const { result } = await renderHook(() => useRecorder({ wav: true }));
+    await act(async () => {
+      await result.current.start();
+    });
+    await act(async () => {
+      await expect(result.current.stopAndSave(progress, 't')).rejects.toThrow('disk full');
+    });
+    expect(deleteTake).toHaveBeenCalledWith('file:///cache/speech-1.wav');
   });
 });
 

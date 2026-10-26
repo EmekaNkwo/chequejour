@@ -3,7 +3,7 @@ import { initWhisper } from 'whisper.rn';
 import { AiError } from '../../domain/ai/errors';
 import type { ModelEntry } from '../../domain/ai/manifest';
 import { WAV_HEADER_BYTES } from '../../domain/ai/wav';
-import { isPcmRecording, startPcm, stopPcm } from '../../services/ai/pcm-recorder';
+import { discardPcm, isPcmRecording, startPcm, stopPcm } from '../../services/ai/pcm-recorder';
 import { transcribe, unloadStt } from '../../services/ai/stt';
 
 const mockWritten: { uri: string; bytes: Uint8Array }[] = [];
@@ -58,6 +58,42 @@ describe('PCM recorder', () => {
     await startPcm();
     expect(await stopPcm()).toBeNull();
     expect(mockWritten).toHaveLength(0);
+  });
+});
+
+describe('PCM recorder lifecycle', () => {
+  it('discards a take without writing a file', async () => {
+    let emit: (b64: string) => void = () => undefined;
+    (AudioRecord.on as jest.Mock).mockImplementation((_e, cb: (b64: string) => void) => {
+      emit = cb;
+      return { remove: jest.fn() };
+    });
+    await startPcm();
+    emit(Buffer.from(new Uint8Array(3200)).toString('base64'));
+    await discardPcm();
+    expect(isPcmRecording()).toBe(false);
+    expect(mockWritten).toHaveLength(0);
+  });
+
+  it('shares one stop between overlapping callers', async () => {
+    (AudioRecord.on as jest.Mock).mockImplementation((_e, cb: (b64: string) => void) => {
+      cb(Buffer.from(new Uint8Array(3200)).toString('base64'));
+      return { remove: jest.fn() };
+    });
+    await startPcm();
+    const [a, b] = await Promise.all([stopPcm(1), discardPcm()]);
+    expect(a).toEqual(expect.objectContaining({ uri: 'file:///cache/speech-1.wav' }));
+    expect(b).toBeUndefined();
+    expect(AudioRecord.stop).toHaveBeenCalledTimes(1);
+  });
+
+  it('is not left recording when the native start fails', async () => {
+    (AudioRecord.on as jest.Mock).mockImplementation(() => ({ remove: jest.fn() }));
+    (AudioRecord.start as jest.Mock).mockImplementationOnce(() => {
+      throw new Error('mic busy');
+    });
+    await expect(startPcm()).rejects.toThrow('mic busy');
+    expect(isPcmRecording()).toBe(false);
   });
 });
 

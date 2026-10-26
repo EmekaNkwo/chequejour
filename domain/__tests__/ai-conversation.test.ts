@@ -34,12 +34,23 @@ describe('conversation partner', () => {
     expect(conversationMessages(opinion, [])[0].content).toMatch(/counter-argument/i);
   });
 
-  it('maps turns to chat roles, keeping only the recent history', () => {
+  it('maps turns to chat roles, keeping only the recent history and starting with the learner', () => {
     const turns: Turn[] = Array.from({ length: 30 }, (_, i) => ({ role: i % 2 === 0 ? 'partner' : 'learner', text: `t${i}` }));
     const messages = conversationMessages(opinion, turns);
-    expect(messages[1]).toEqual({ role: 'assistant', content: 't18' });
+    expect(messages[0].content).toContain('You opened the conversation with: "t0"');
+    expect(messages[1]).toEqual({ role: 'user', content: 't19' });
     expect(messages.at(-1)).toEqual({ role: 'user', content: 't29' });
-    expect(messages).toHaveLength(13);
+    expect(messages).toHaveLength(12);
+  });
+
+  it('leaves unsafe lines and their redirect out of the history', () => {
+    const turns: Turn[] = [
+      { role: 'partner', text: 'Bonjour' },
+      { role: 'learner', text: 'Tu es un connard.' },
+      { role: 'partner', text: REDIRECT_LINE },
+      { role: 'learner', text: 'Pardon. Quels sont les horaires ?' },
+    ];
+    expect(conversationMessages(interaction, turns).slice(1)).toEqual([{ role: 'user', content: 'Pardon. Quels sont les horaires ?' }]);
   });
 
   it('decides what comes next: a redirect for unsafe input, a closing line at the turn limit, else the model', () => {

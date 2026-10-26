@@ -56,7 +56,7 @@ export function writingFeedbackMessages(input: WritingFeedbackInput): { role: 's
 }
 
 /** Scores, marks or levels: the AI must not grade. */
-export const GRADES = /\b\d{1,3}\s*\/\s*\d{1,3}\b|\b(?:score|mark|grade|note)\s*[:=]|\bNCLC\b|\b(?:CLB|CECRL|CEFR)\b|\blevel [ABC][12]\b|\b[ABC][12] level\b/i;
+export const GRADES = /\b\d{1,3}\s*(?:\/|out of|sur)\s*\d{1,3}\b|\bscor(?:e|ed|ing)\b|\b(?:mark|grade|note)\s*(?:[:=]|of)\s*\d|\b\d{1,3}\s*points?\b|\bNCLC\b|\b(?:CLB|CECRL|CEFR)\b|\b[ABC][12]\b|\b(?:beginner|elementary|intermediate|advanced|upper[- ]intermediate)\s+level\b/i;
 
 const tidy = (s: string): string => s.replace(/\s+/g, ' ').trim();
 const norm = (s: string): string => tidy(s.replace(/[’']/g, "'"));

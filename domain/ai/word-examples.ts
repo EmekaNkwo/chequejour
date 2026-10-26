@@ -17,6 +17,8 @@ export interface WordExample {
   en: string;
   /** The form of the word as it appears in the sentence. */
   form: string;
+  /** Where that form sits in `fr`, so the gap lands on it and not on an earlier lookalike. */
+  start: number;
 }
 
 export const WORD_EXAMPLES_SCHEMA = z.object({
@@ -61,24 +63,49 @@ function stemOf(word: string, pos: PartOfSpeech): string {
   return folded;
 }
 
-/** The word as it appears in `sentence` (conjugated, agreed or plural), or null. */
-export function findWordForm(sentence: string, word: Pick<ExampleWord, 'fr' | 'pos'>): string | null {
+export interface WordForm {
+  text: string;
+  start: number;
+}
+
+/** Short headwords ("à", "or", "an") only count as the whole word, or "a" would match "avec". */
+const MIN_PREFIX_MATCH = 4;
+/** What may follow a verb stem (accents folded), so "avo-" of "avoir" doesn't match "avocat". */
+const VERB_ENDINGS = new Set(
+  'e es ent ons ez ais ait aient ions iez ee ees er ir re is it issons issez issent issais issait erai eras era erons erez eront erais erait eraient irai iras ira irons irez iront ant issant i ie ies u ue us ues s t x'.split(' ').concat(''),
+);
+const NOUN_SLACK = 4;
+
+/** The word as it appears in `sentence` (conjugated, agreed or plural), and where; or null. */
+export function locateWordForm(sentence: string, word: Pick<ExampleWord, 'fr' | 'pos'>): WordForm | null {
   const head = tokens(word.fr).map((t) => t.folded);
   const words = tokens(sentence);
   const main = head.length === 2 && REFLEXIVE.has(head[0]) ? [head[1]] : head;
   if (main.length === 1) {
     const stem = stemOf(main[0], word.pos);
-    const found = words.find((t) => t.folded.startsWith(stem) && t.folded.length <= stem.length + 4);
-    return found ? found.text : null;
+    const verb = STEM_POS.has(word.pos) && stem !== main[0];
+    const matches = (t: Token): boolean => {
+      if (t.folded === main[0]) return true;
+      if (!t.folded.startsWith(stem)) return false;
+      if (verb) return VERB_ENDINGS.has(t.folded.slice(stem.length));
+      return main[0].length >= MIN_PREFIX_MATCH && t.folded.length <= stem.length + NOUN_SLACK;
+    };
+    const found = words.find(matches);
+    return found ? { text: found.text, start: found.start } : null;
   }
   for (let i = 0; i + main.length <= words.length; i += 1) {
-    if (main.every((m, j) => words[i + j].folded === m)) return sentence.slice(words[i].start, words[i + main.length - 1].end);
+    if (main.every((m, j) => words[i + j].folded === m)) return { text: sentence.slice(words[i].start, words[i + main.length - 1].end), start: words[i].start };
   }
   return null;
 }
 
-export function gapSentence(sentence: string, form: string): string {
-  return sentence.replace(form, '____');
+export function findWordForm(sentence: string, word: Pick<ExampleWord, 'fr' | 'pos'>): string | null {
+  return locateWordForm(sentence, word)?.text ?? null;
+}
+
+export function gapSentence(sentence: string, form: string, start: number = sentence.indexOf(form)): string {
+  if (start < 0 || sentence.slice(start, start + form.length) !== form) return sentence;
+  return `${sentence.slice(0, start)}____${sentence.slice(start + form.length)}`;
 }
 
 const same = (a: string, b: string): boolean => fold(a).replace(/\W+/g, ' ').trim() === fold(b).replace(/\W+/g, ' ').trim();
@@ -88,8 +115,8 @@ function soundExample(e: { fr: string; en: string }, word: ExampleWord): WordExa
     const fr = checkText(e.fr, { language: 'fr', maxChars: 160 });
     const en = checkText(e.en, { language: 'any', maxChars: 160 });
     if (same(fr, word.example.fr)) return null;
-    const form = findWordForm(fr, word);
-    return form ? { fr, en, form } : null;
+    const found = locateWordForm(fr, word);
+    return found ? { fr, en, form: found.text, start: found.start } : null;
   } catch {
     return null;
   }

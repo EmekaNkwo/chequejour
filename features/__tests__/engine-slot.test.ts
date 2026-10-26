@@ -5,7 +5,7 @@ interface Ctx {
   id: number;
 }
 
-function makeSlot(options: { failLoad?: boolean; idleMs?: number } = {}) {
+function makeSlot(options: { failLoad?: boolean; idleMs?: number; settleMs?: number } = {}) {
   let loads = 0;
   const released: number[] = [];
   const slot = new EngineSlot<Ctx>({
@@ -18,6 +18,7 @@ function makeSlot(options: { failLoad?: boolean; idleMs?: number } = {}) {
       released.push(c.id);
     },
     idleMs: options.idleMs ?? 1000,
+    settleMs: options.settleMs,
   });
   return { slot, loads: () => loads, released };
 }
@@ -61,20 +62,45 @@ describe('engine slot', () => {
 
   it('stops a job that runs past its time limit and tells it to stop', async () => {
     const { slot } = makeSlot();
-    let sawAbort = false;
+    const order: string[] = [];
     const job = slot.run(
       (_c, signal) =>
-        new Promise<void>(() => {
+        new Promise<void>((resolve) => {
           signal.addEventListener('abort', () => {
-            sawAbort = true;
+            order.push('aborted');
+            // The native call takes a moment to unwind after being told to stop.
+            setTimeout(() => {
+              order.push('native stopped');
+              resolve();
+            }, 30);
           });
         }),
       { timeoutMs: 20 },
     );
     expect(await failureOf(job)).toBe('timeout');
-    expect(sawAbort).toBe(true);
-    // The queue moves on.
+    expect(order).toEqual(['aborted']);
+    // The next job waits until the stopped one has really finished.
+    expect(await slot.run(async () => order.push('next'), { timeoutMs: 1000 })).toBe(3);
+    expect(order).toEqual(['aborted', 'native stopped', 'next']);
+  });
+
+  it('moves on after a short limit when a stopped job never finishes', async () => {
+    const { slot } = makeSlot({ settleMs: 30 });
+    expect(await failureOf(slot.run(() => new Promise<void>(() => undefined), { timeoutMs: 10 }))).toBe('timeout');
     expect(await slot.run(async () => 'next', { timeoutMs: 1000 })).toBe('next');
+  });
+
+  it('never frees the model under a job queued while unloading', async () => {
+    const { slot, released } = makeSlot();
+    const events: string[] = [];
+    let finishFirst!: () => void;
+    const first = slot.run(() => new Promise<void>((r) => (finishFirst = r)), { timeoutMs: 1000 });
+    await new Promise((r) => setTimeout(r, 0));
+    const unloading = slot.unload().then(() => events.push(`released ${released.length}`));
+    const second = slot.run(async () => void events.push('second ran'), { timeoutMs: 1000 });
+    finishFirst();
+    await Promise.all([first, second, unloading]);
+    expect(events).toEqual(['second ran', 'released 1']);
   });
 
   it('lets the learner cancel, before or during a job', async () => {

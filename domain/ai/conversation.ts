@@ -40,13 +40,27 @@ const ROLE: Record<ConversationTaskType, string> = {
     'You are a TCF Canada examiner in task 3. The candidate gives an opinion on the topic below. React briefly, ask why or ask for an example, and sometimes offer a polite counter-argument so they have to defend their view.',
 };
 
+/** Turns worth showing the model: an unsafe line and the fixed redirect it got are left out. */
+function usableTurns(turns: readonly Turn[]): Turn[] {
+  return turns.filter((t, i) => !(t.role === 'learner' && hasUnsafeWords(t.text)) && !(t.role === 'partner' && t.text === REDIRECT_LINE && i > 0));
+}
+
 export function conversationMessages(task: ConversationTask, turns: readonly Turn[]): { role: 'system' | 'user' | 'assistant'; content: string }[] {
+  const usable = usableTurns(turns);
+  // Many chat templates need the first turn after the system message to be the user's, so
+  // the partner's fixed opening line goes into the instructions instead.
+  const opening = usable[0]?.role === 'partner' ? usable[0].text : null;
+  const history = (opening ? usable.slice(1) : usable).slice(-HISTORY_TURNS);
+  while (history[0]?.role === 'partner') history.shift();
   const system = [
     ROLE[task.taskType],
     `Situation: ${task.promptFr}`,
+    opening ? `You opened the conversation with: "${opening}"` : null,
     `Speak only in French, at level ${task.level}: simple, clear sentences. Reply in at most two short sentences. Stay in this situation; if the candidate goes off topic, bring them back politely. Never give links, phone numbers or personal data. Write only your own words, with no name or label before them.`,
-  ].join('\n');
-  const recent = turns.slice(-HISTORY_TURNS).map((t) => ({ role: t.role === 'learner' ? ('user' as const) : ('assistant' as const), content: t.text }));
+  ]
+    .filter((line): line is string => line !== null)
+    .join('\n');
+  const recent = history.map((t) => ({ role: t.role === 'learner' ? ('user' as const) : ('assistant' as const), content: t.text }));
   return [{ role: 'system', content: system }, ...recent];
 }
 

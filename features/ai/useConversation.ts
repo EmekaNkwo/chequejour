@@ -4,12 +4,11 @@
  * Partner lines are read aloud with the phone's French voice.
  */
 import { requestRecordingPermissionsAsync, setAudioModeAsync } from 'expo-audio';
-import { File } from 'expo-file-system';
 import { useCallback, useEffect, useRef, useState } from 'react';
 import { nextStep, openingLine, type ConversationTask, type Turn } from '../../domain/ai/conversation';
 import { aiFailureOf, type AiFailure } from '../../domain/ai/errors';
 import type { ModelEntry } from '../../domain/ai/manifest';
-import { isPcmRecording, startPcm, stopPcm } from '../../services/ai/pcm-recorder';
+import { deleteTake, discardPcm, isPcmRecording, startPcm, stopPcm } from '../../services/ai/pcm-recorder';
 import { transcribe } from '../../services/ai/stt';
 import { logError } from '../app/log';
 import { play, stop as stopAudio } from '../audio/audio-controller';
@@ -50,6 +49,7 @@ export function useConversation(task: ConversationTask, models: ConversationMode
   const [micAllowed, setMicAllowed] = useState<boolean | null>(null);
   const [heardNothing, setHeardNothing] = useState(false);
   const turnsRef = useRef(turns);
+  const starting = useRef(false);
   const controller = useRef(new AbortController());
 
   const speak = useCallback((index: number, text: string) => {
@@ -63,7 +63,9 @@ export function useConversation(task: ConversationTask, models: ConversationMode
     return () => {
       current.abort();
       void stopAudio();
-      if (isPcmRecording()) stopPcm().catch((e: unknown) => logError('stop conversation recording', e));
+      // Leaving mid-take: stop without writing anything, so no audio is left behind.
+      if (isPcmRecording()) discardPcm().catch((e: unknown) => logError('stop conversation recording', e));
+      idleAudio().catch((e: unknown) => logError('audio mode on leave', e));
     };
   }, [speak]);
 
@@ -111,19 +113,31 @@ export function useConversation(task: ConversationTask, models: ConversationMode
   );
 
   const startTalking = useCallback(async () => {
+    if (starting.current) return;
+    starting.current = true;
+    const signal = controller.current.signal;
     try {
       const permission = await requestRecordingPermissionsAsync();
       setMicAllowed(permission.granted);
-      if (!permission.granted) return;
+      if (!permission.granted || signal.aborted) return;
       await stopAudio();
       await setAudioModeAsync({ allowsRecording: true, playsInSilentMode: true });
+      if (signal.aborted) return;
       await startPcm();
+      // The screen may have closed while the microphone was starting.
+      if (signal.aborted) {
+        await discardPcm();
+        return;
+      }
       setFailure(null);
       setPhase('recording');
     } catch (e: unknown) {
       logError('start conversation recording', e);
+      if (signal.aborted) return;
       setFailure('failed');
       setPhase('ready');
+    } finally {
+      starting.current = false;
     }
   }, []);
 
@@ -147,14 +161,7 @@ export function useConversation(task: ConversationTask, models: ConversationMode
       setFailure(aiFailureOf(e));
       setPhase('ready');
     } finally {
-      if (uri) {
-        try {
-          const file = new File(uri);
-          if (file.exists) file.delete();
-        } catch (e: unknown) {
-          logError('delete conversation audio', e);
-        }
-      }
+      if (uri) deleteTake(uri);
     }
   }, [models.stt, say]);
 

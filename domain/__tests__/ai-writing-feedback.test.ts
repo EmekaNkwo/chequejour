@@ -1,4 +1,4 @@
-import { WRITING_FEEDBACK_SCHEMA, checkWritingFeedback, writingFeedbackMessages, type WritingFeedbackInput } from '../ai/writing-feedback';
+import { GRADES, WRITING_FEEDBACK_SCHEMA, checkWritingFeedback, writingFeedbackMessages, type WritingFeedbackInput } from '../ai/writing-feedback';
 
 const input: WritingFeedbackInput = {
   taskType: 'message',
@@ -71,5 +71,19 @@ describe('checking writing feedback', () => {
     expect(rejected(() => checkWritingFeedback({ ...sound, nextStep: 'Score: 14/20. Add details about the place.' }, input))).toBe(true);
     expect(rejected(() => checkWritingFeedback({ ...sound, nextStep: 'Ajoute une phrase pour dire où est la fête et à quelle heure.' }, input))).toBe(true);
     expect(rejected(() => checkWritingFeedback({ ...sound, strengths: ['This would get NCLC 7 at the exam.'] }, input))).toBe(true);
+  });
+});
+
+describe('grade detection', () => {
+  it('catches the usual ways of grading', () => {
+    for (const text of ['8 out of 10', 'You scored well', '7 points for content', 'This is B2', 'intermediate level work', 'mark of 12', '15 sur 20']) {
+      expect(GRADES.test(text)).toBe(true);
+    }
+  });
+
+  it('does not mistake ordinary advice for a grade', () => {
+    for (const text of ['Please note: use "à" before cities.', 'Add a second argument.', 'Note the agreement of the past participle.']) {
+      expect(GRADES.test(text)).toBe(false);
+    }
   });
 });

@@ -13,7 +13,7 @@ import {
 } from 'expo-audio';
 import { useEffect, useRef, useState } from 'react';
 import type { ProgressRepository } from '../../data/progress-repo';
-import { isPcmRecording, startPcm, stopPcm } from '../../services/ai/pcm-recorder';
+import { deleteTake, discardPcm, isPcmRecording, startPcm, stopPcm } from '../../services/ai/pcm-recorder';
 import { logError } from '../app/log';
 import { stop as stopSharedAudio } from '../audio/audio-controller';
 import { recordingUri, saveRecording } from '../skills/recordings';
@@ -50,6 +50,7 @@ export function useRecorder({ wav = false }: RecorderOptions = {}): Recorder {
   // The format is fixed when a recording starts, even if the AI pack changes meanwhile.
   const wavTake = useRef(false);
   const [pcmRecording, setPcmRecording] = useState(false);
+  const unmounted = useRef(false);
   const [micAllowed, setMicAllowed] = useState<boolean | null>(null);
   // State lags a render behind; callers often ask and then start in the same handler.
   const allowedRef = useRef<boolean | null>(null);
@@ -57,14 +58,15 @@ export function useRecorder({ wav = false }: RecorderOptions = {}): Recorder {
   const starting = useRef<Promise<boolean>>(Promise.resolve(false));
   const startedAt = useRef(0);
 
-  useEffect(
-    () => () => {
+  useEffect(() => {
+    unmounted.current = false;
+    return () => {
       if (recorder.isRecording) recorder.stop().catch((e: unknown) => logError('stop recording on leave', e));
-      if (isPcmRecording()) stopPcm().catch((e: unknown) => logError('stop WAV recording on leave', e));
+      unmounted.current = true;
+      if (isPcmRecording()) discardPcm().catch((e: unknown) => logError('stop WAV recording on leave', e));
       idleMode().catch((e: unknown) => logError('audio mode on leave', e));
-    },
-    [recorder],
-  );
+    };
+  }, [recorder]);
 
   const askPermission = async (): Promise<boolean> => {
     try {
@@ -90,6 +92,11 @@ export function useRecorder({ wav = false }: RecorderOptions = {}): Recorder {
         wavTake.current = wav;
         if (wav) {
           await startPcm();
+          // The screen may have closed while the microphone was starting.
+          if (unmounted.current) {
+            await discardPcm();
+            return false;
+          }
           setPcmRecording(true);
         } else {
           await recorder.prepareToRecordAsync();
@@ -130,8 +137,14 @@ export function useRecorder({ wav = false }: RecorderOptions = {}): Recorder {
     try {
       const take = await stopPcm();
       if (!take) return null;
-      const fileName = await saveRecording(progress, taskId, take.uri, take.durationMs, Date.now());
-      return { fileName, durationMs: take.durationMs, wav: true };
+      try {
+        const fileName = await saveRecording(progress, taskId, take.uri, take.durationMs, Date.now());
+        return { fileName, durationMs: take.durationMs, wav: true };
+      } catch (e: unknown) {
+        // Not saved: don't leave the voice recording behind in the cache.
+        deleteTake(take.uri);
+        throw e;
+      }
     } finally {
       setPcmRecording(false);
       await idleMode().catch((e: unknown) => logError('audio mode', e));

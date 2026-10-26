@@ -100,3 +100,25 @@ describe('unsafe-word edges', () => {
     expect(checkText('Les shitakés sont des champignons.', { language: 'fr', maxChars: 200 })).toBe('Les shitakés sont des champignons.');
   });
 });
+
+describe('review fixes: fewer false rejections', () => {
+  it('lets hyphenated words through', () => {
+    expect(checkText('On fait un pique-nique au parc dimanche.', { language: 'fr', maxChars: 200 })).toBe('On fait un pique-nique au parc dimanche.');
+  });
+
+  it('reads English with contractions as English', () => {
+    expect(checkText("It isn't wrong to say it's the student's choice, but use \"à\" here.", { language: 'en', maxChars: 200 })).toBeTruthy();
+  });
+
+  it('allows dates and big numbers but not phone numbers', () => {
+    expect(checkText('Le rendez-vous est le 2026-10-26 à 14 h.', { language: 'fr', maxChars: 200 })).toBeTruthy();
+    expect(rejected(() => checkText('Appelez le 514 555 0199 pour réserver.', { language: 'fr', maxChars: 200 }))).toBe(true);
+  });
+
+  it('matches quotes as whole words only', () => {
+    expect(quotedIn('Je vais avec elle.', 'a')).toBe(false);
+    expect(quotedIn('Il a faim.', 'a')).toBe(true);
+    expect(quotedIn('Il est là.', 'est')).toBe(true);
+    expect(quotedIn('Le restaurant.', 'est')).toBe(false);
+  });
+});

@@ -3,7 +3,7 @@ import { requestRecordingPermissionsAsync } from 'expo-audio';
 import { CLOSING_LINE, MAX_LEARNER_TURNS, REDIRECT_LINE, type ConversationTask } from '../../domain/ai/conversation';
 import { AiError } from '../../domain/ai/errors';
 import type { ModelEntry } from '../../domain/ai/manifest';
-import { startPcm, stopPcm } from '../../services/ai/pcm-recorder';
+import { discardPcm, isPcmRecording, startPcm, stopPcm } from '../../services/ai/pcm-recorder';
 import { transcribe } from '../../services/ai/stt';
 import { play } from '../audio/audio-controller';
 import { partnerReply } from '../ai/conversation-partner';
@@ -25,7 +25,13 @@ jest.mock('expo-file-system', () => ({
   },
 }));
 jest.mock('expo-audio', () => ({ requestRecordingPermissionsAsync: jest.fn(), setAudioModeAsync: jest.fn(async () => undefined) }));
-jest.mock('../../services/ai/pcm-recorder', () => ({ isPcmRecording: jest.fn(() => false), startPcm: jest.fn(async () => undefined), stopPcm: jest.fn() }));
+jest.mock('../../services/ai/pcm-recorder', () => ({
+  isPcmRecording: jest.fn(() => false),
+  startPcm: jest.fn(async () => undefined),
+  stopPcm: jest.fn(),
+  discardPcm: jest.fn(async () => undefined),
+  deleteTake: (uri: string) => mockDeleted.push(uri),
+}));
 jest.mock('../../services/ai/stt', () => ({ transcribe: jest.fn() }));
 jest.mock('../audio/audio-controller', () => ({ play: jest.fn(async () => undefined), stop: jest.fn(async () => undefined) }));
 jest.mock('../ai/conversation-partner', () => ({ partnerReply: jest.fn() }));
@@ -107,5 +113,29 @@ describe('useConversation', () => {
     await act(async () => result.current.say('Bonjour !'));
     expect(result.current.failure).toBe('rejected');
     expect(result.current.phase).toBe('ready');
+  });
+
+  it('discards a take, without writing it, when the screen closes mid-recording', async () => {
+    (requestRecordingPermissionsAsync as jest.Mock).mockResolvedValue({ granted: true });
+    const { result, unmount } = await renderHook(() => useConversation(task, models));
+    await act(async () => result.current.startTalking());
+    (isPcmRecording as jest.Mock).mockReturnValueOnce(true);
+    await unmount();
+    expect(discardPcm).toHaveBeenCalled();
+    expect(stopPcm).not.toHaveBeenCalled();
+  });
+
+  it('turns the microphone back off if the screen closed while it was starting', async () => {
+    let grant: (v: { granted: boolean }) => void = () => undefined;
+    (requestRecordingPermissionsAsync as jest.Mock).mockImplementationOnce(() => new Promise((r) => (grant = r)));
+    const { result, unmount } = await renderHook(() => useConversation(task, models));
+    let starting: Promise<void> = Promise.resolve();
+    await act(async () => {
+      starting = result.current.startTalking();
+    });
+    await unmount();
+    grant({ granted: true });
+    await starting;
+    expect(startPcm).not.toHaveBeenCalled();
   });
 });
