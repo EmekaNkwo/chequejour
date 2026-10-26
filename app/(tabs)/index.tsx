@@ -16,6 +16,7 @@ import { fromDayKey } from '../../domain/dates';
 import { useApp } from '../../features/app/AppContext';
 import { useLoad } from '../../features/app/useLoad';
 import { loadHome, type HomeData } from '../../features/home/home-data';
+import { BackupReminderCard } from '../../components/settings/BackupReminder';
 import { ExamCountdown } from '../../components/tcf/ExamCountdown';
 
 const WEEKDAY = ['S', 'M', 'T', 'W', 'T', 'F', 'S'];
@@ -56,6 +57,8 @@ function Home({ data }: { data: HomeData }) {
       <ContextRow level={level.estimate.label} unitText={`Unit ${unitIndex}/${path.units.length}`} onPress={() => router.push('/level')} />
 
       {data.examDays !== null ? <ExamCountdown days={data.examDays} weakest={data.weakest} /> : null}
+
+      <BackupReminderCard />
 
       <Card accessibilityLabel={`Today's session, ${pct} percent complete. ${plan.remaining}`} testID="session-card">
         <Row gap={spacing.lg}>

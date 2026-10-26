@@ -173,4 +173,14 @@ describe('notification sync', () => {
     await syncNotifications(api, { ...deps, settings: DEFAULT_NOTIFICATION_SETTINGS, today: '2026-10-25', learner: { openUnitIds: ['u01'], level: 'A2' }, now: new Date(2026, 9, 25, 7, 0) });
     expect([...api.scheduled.keys()].some((k) => k.startsWith('reminder'))).toBe(false);
   });
+
+  it('adds a backup notification on the due day only when the learner turned it on', async () => {
+    const deps = await setup();
+    const api = new FakeNotifications();
+    const base = { ...deps, settings: DEFAULT_NOTIFICATION_SETTINGS, today: '2026-10-25', learner: { openUnitIds: ['u01'], level: 'A2' as const }, now: new Date(2026, 9, 25, 7, 0) };
+    await syncNotifications(api, { ...base, backup: { settings: { intervalDays: 14, notify: false }, lastBackupDay: '2026-10-20' } });
+    expect([...api.scheduled.keys()].some((k) => k.startsWith('backup'))).toBe(false);
+    await syncNotifications(api, { ...base, backup: { settings: { intervalDays: 14, notify: true }, lastBackupDay: '2026-10-20' } });
+    expect(api.scheduled.get('backup-2026-11-03')).toMatchObject({ kind: 'backup', url: '/settings' });
+  });
 });

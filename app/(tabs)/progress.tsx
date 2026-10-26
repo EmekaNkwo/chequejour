@@ -6,6 +6,7 @@ import { spacing } from '../../components/theme/tokens';
 import { AppText } from '../../components/ui/AppText';
 import { LinkText, Row, SectionTitle, SKILL_ICON, SKILL_LABEL } from '../../components/ui/Bits';
 import { IconButton } from '../../components/ui/Button';
+import { BackupStatus } from '../../components/settings/BackupReminder';
 import { Card } from '../../components/ui/Card';
 import { ProgressBar } from '../../components/ui/Progress';
 import { ErrorState, Loading, Screen } from '../../components/ui/Screen';
@@ -148,6 +149,9 @@ export default function ProgressScreen() {
           </Card>
         ))
       )}
+
+      <SectionTitle title="Your data" />
+      <BackupStatus />
     </Screen>
   );
 }

@@ -17,7 +17,7 @@ installForegroundHandler();
 
 function openFromNotification(response: Notifications.NotificationResponse | null | undefined): void {
   const url = response?.notification.request.content.data?.url;
-  if (typeof url === 'string' && (url.startsWith('/daily/') || url === '/session')) {
+  if (typeof url === 'string' && (url.startsWith('/daily/') || url === '/session' || url === '/settings')) {
     router.push(url as never);
     Notifications.clearLastNotificationResponseAsync().catch((e: unknown) => logError('clear notification', e));
   }
@@ -44,7 +44,7 @@ export function NotificationManager() {
   const notificationSettings = settings.notifications;
   const placement = settings.placementLevel;
   const onboarded = settings.onboarded;
-  const { reminder: reminderToggle, examDate, dailyGoal, installDay } = settings;
+  const { reminder: reminderToggle, examDate, dailyGoal, installDay, backupReminder, lastBackupDay } = settings;
   // Studying moves the missed-day reminders, so resync when the last study day changes.
   const [lastActive, setLastActive] = useState<string | null>(null);
   useEffect(() => {
@@ -68,6 +68,7 @@ export function NotificationManager() {
         progress,
         settings: notificationSettings,
         reminder: { toggle: reminderToggle, examDate, dailyGoal, installDay },
+        backup: { settings: backupReminder, lastBackupDay },
         today,
         learner: { openUnitIds, level },
         now: new Date(),
@@ -78,7 +79,7 @@ export function NotificationManager() {
       if (state === 'active') run().catch((e: unknown) => logError('notification sync', e));
     });
     return () => sub.remove();
-  }, [content, progress, notificationSettings, placement, onboarded, today, reminderToggle, examDate, dailyGoal, installDay, lastActive]);
+  }, [content, progress, notificationSettings, placement, onboarded, today, reminderToggle, examDate, dailyGoal, installDay, lastActive, backupReminder, lastBackupDay]);
 
   return null;
 }

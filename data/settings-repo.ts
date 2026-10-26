@@ -4,6 +4,7 @@
  */
 import { z } from 'zod';
 import { LEVELS, type Level } from '../domain/content-types';
+import { BACKUP_INTERVALS, DEFAULT_BACKUP_REMINDER, type BackupInterval, type BackupReminderSettings } from '../domain/backup-reminder';
 import { DEFAULT_NOTIFICATION_SETTINGS, type NotificationSettings, type NotificationToggle } from '../domain/notification-plan';
 import { DEFAULT_REMINDER } from '../domain/reminder-plan';
 import { DEFAULT_RATE, legacyRate, PLAYBACK_RATES, type PlaybackRate } from '../domain/playback';
@@ -28,6 +29,9 @@ export interface Settings {
   examDate: string | null;
   /** NCLC level the learner is aiming for in every skill. */
   targetNclc: Nclc;
+  backupReminder: BackupReminderSettings;
+  /** Day of the last successful backup export. */
+  lastBackupDay: string | null;
 }
 
 export const DEFAULT_SETTINGS: Settings = {
@@ -42,6 +46,8 @@ export const DEFAULT_SETTINGS: Settings = {
   installDay: null,
   examDate: null,
   targetNclc: DEFAULT_TARGET_NCLC,
+  backupReminder: DEFAULT_BACKUP_REMINDER,
+  lastBackupDay: null,
 };
 
 const dayKey = z.string().regex(/^\d{4}-\d{2}-\d{2}$/);
@@ -59,6 +65,11 @@ export const settingsSchemas: { [K in keyof Settings]: z.ZodType<Settings[K]> } 
   placementLevel: z.enum(LEVELS as [Level, ...Level[]]).nullable(),
   installDay: dayKey.nullable(),
   examDate: dayKey.nullable(),
+  backupReminder: z.object({
+    intervalDays: z.union(BACKUP_INTERVALS.map((n) => z.literal(n)) as [z.ZodLiteral<BackupInterval>, z.ZodLiteral<BackupInterval>, ...z.ZodLiteral<BackupInterval>[]]).nullable(),
+    notify: z.boolean(),
+  }),
+  lastBackupDay: dayKey.nullable(),
   targetNclc: z.union(NCLC_TARGETS.map((n) => z.literal(n)) as [z.ZodLiteral<Nclc>, z.ZodLiteral<Nclc>, ...z.ZodLiteral<Nclc>[]]),
 };
 

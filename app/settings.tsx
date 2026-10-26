@@ -14,6 +14,7 @@ import { useToast } from '../components/ui/Toast';
 import { AUDIO_CLIPS } from '../content/build/audio-manifest';
 import { resetProgress } from '../data/backup';
 import type { Settings, ThemePreference } from '../data/settings-repo';
+import { lastBackupLabel, type BackupInterval } from '../domain/backup-reminder';
 import type { NotificationToggle } from '../domain/notification-plan';
 import type { DailyGoal } from '../domain/session';
 import { useApp } from '../features/app/AppContext';
@@ -22,7 +23,8 @@ import { deleteAllRecordingFiles, deleteAllRecordings } from '../features/skills
 import { useLoad } from '../features/app/useLoad';
 import { hasFrenchVoice } from '../features/audio/audio-controller';
 import { exactAlarmsAllowed, notificationPermission, requestExactAlarms, requestNotificationPermission } from '../features/notifications/expo-notifications-api';
-import { exportToFile, importFromFile } from '../features/settings/backup-files';
+import { importFromFile } from '../features/settings/backup-files';
+import { useBackupExport } from '../features/settings/useBackupExport';
 
 const GOALS: readonly { value: `${DailyGoal}`; label: string }[] = [
   { value: '10', label: '10 min' },
@@ -30,6 +32,13 @@ const GOALS: readonly { value: `${DailyGoal}`; label: string }[] = [
   { value: '20', label: '20 min' },
 ];
 
+
+const BACKUP_OPTIONS: readonly { value: string; label: string }[] = [
+  { value: '7', label: '7 days' },
+  { value: '14', label: '14 days' },
+  { value: '30', label: '30 days' },
+  { value: 'off', label: 'Off' },
+];
 
 const THEMES: readonly { value: ThemePreference; label: string }[] = [
   { value: 'system', label: 'System' },
@@ -48,7 +57,8 @@ const clipCount = Object.keys(AUDIO_CLIPS).length;
 export default function SettingsScreen() {
   const app = useApp();
   const { settings, updateSetting } = app;
-  const [busy, setBusy] = useState<'export' | 'import' | 'reset' | 'recordings' | null>(null);
+  const [busy, setBusy] = useState<'import' | 'reset' | 'recordings' | null>(null);
+  const { exporting, exportNow } = useBackupExport();
   const toast = useToast();
   const { data, error, reload } = useLoad(
     'settings',
@@ -98,20 +108,6 @@ export default function SettingsScreen() {
       logError('exact alarms', e);
     }
     reload();
-  };
-
-  const doExport = async () => {
-    setBusy('export');
-    try {
-      const result = await exportToFile(app.db, new Date());
-      if (!result.ok) toast.show({ tone: 'error', title: 'Backup not created', message: result.error });
-      else if (!result.shared) toast.show({ tone: 'success', title: 'Backup saved', message: result.uri });
-    } catch (e: unknown) {
-      logError('export progress', e);
-      toast.show({ tone: 'error', title: 'Backup not created', message: "The backup couldn't be created." });
-    } finally {
-      setBusy(null);
-    }
   };
 
   const doImport = async () => {
@@ -271,8 +267,31 @@ export default function SettingsScreen() {
           <AppText variant="meta" tone="muted">
             Progress lives only on this phone. Export a backup file to keep it safe or move it to a new phone. Speaking recordings are not included.
           </AppText>
-          <Button label="Export progress" icon="upload" variant="secondary" onPress={() => void doExport()} loading={busy === 'export'} disabled={busy !== null} testID="export-progress" />
+          <AppText variant="bodyStrong" testID="last-backup">
+            {lastBackupLabel(settings.lastBackupDay, app.today)}
+          </AppText>
+          <Button label="Export progress" icon="upload" variant="secondary" onPress={() => void exportNow()} loading={exporting} disabled={busy !== null || exporting} testID="export-progress" />
           <Button label="Import progress" icon="download" variant="secondary" onPress={() => void doImport()} loading={busy === 'import'} disabled={busy !== null} testID="import-progress" />
+          <AppText variant="label" tone="muted" style={styles.mtSm}>
+            Backup reminder
+          </AppText>
+          <SegmentedTabs
+            options={BACKUP_OPTIONS}
+            value={settings.backupReminder.intervalDays === null ? 'off' : String(settings.backupReminder.intervalDays)}
+            onChange={(v) => save('backupReminder', { ...settings.backupReminder, intervalDays: v === 'off' ? null : (Number(v) as BackupInterval) })}
+          />
+          {settings.backupReminder.intervalDays !== null ? (
+            <SwitchRow
+              label="Also send a notification"
+              description="A reminder on your phone when a backup is due."
+              value={settings.backupReminder.notify}
+              onChange={(notify) => {
+                save('backupReminder', { ...settings.backupReminder, notify });
+                if (notify) void askPermission();
+              }}
+              testID="backup-notify"
+            />
+          ) : null}
           <Button
             label="Delete all recordings"
             icon="mic-off"
@@ -304,6 +323,7 @@ export default function SettingsScreen() {
 }
 
 const styles = StyleSheet.create({
+  mtSm: { marginTop: spacing.sm },
   card: { gap: spacing.md },
   gapSm: { gap: spacing.sm },
 });

@@ -5,6 +5,7 @@
  * and are not included.
  */
 import { z } from 'zod';
+import { toDayKey } from '../domain/dates';
 import { SCHEMA_VERSION } from './migrations';
 import type { SqlDb, SqlParam } from './sql';
 
@@ -54,11 +55,14 @@ export async function exportProgress(db: SqlDb, now: Date): Promise<Backup> {
   const entries = await Promise.all(
     PROGRESS_TABLES.map(async (t) => [t, await db.getAllAsync<Record<string, SqlParam>>(`SELECT * FROM ${t}`, [])] as const),
   );
+  const tables = Object.fromEntries(entries) as Backup['tables'];
+  // The file is itself a backup made today, so a phone restored from it shows that date.
+  const settings = [...tables.settings.filter((r) => r.key !== 'lastBackupDay'), { key: 'lastBackupDay', value: JSON.stringify(toDayKey(now)) }];
   return {
     app: BACKUP_APP_ID,
     schemaVersion: SCHEMA_VERSION,
     exportedAt: now.toISOString(),
-    tables: Object.fromEntries(entries) as Backup['tables'],
+    tables: { ...tables, settings },
   };
 }
 

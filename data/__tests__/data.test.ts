@@ -230,6 +230,24 @@ describe('settings', () => {
     expect((await loadSettings(db)).playbackRate).toBe(1.25);
     await expect(saveSetting(db, 'playbackRate', 3 as never)).rejects.toThrow();
   });
+  it('stores backup reminder settings and the last backup day, defaulting to every 14 days', async () => {
+    const { db } = await setup();
+    expect([DEFAULT_SETTINGS.backupReminder, DEFAULT_SETTINGS.lastBackupDay]).toEqual([{ intervalDays: 14, notify: false }, null]);
+    await saveSetting(db, 'backupReminder', { intervalDays: null, notify: true });
+    await saveSetting(db, 'lastBackupDay', '2026-10-26');
+    const s = await loadSettings(db);
+    expect([s.backupReminder, s.lastBackupDay]).toEqual([{ intervalDays: null, notify: true }, '2026-10-26']);
+    await expect(saveSetting(db, 'backupReminder', { intervalDays: 3, notify: false } as never)).rejects.toThrow();
+  });
+  it('stamps the export day as the last backup inside the file, so a restored phone shows it', async () => {
+    const source = await setup();
+    await saveSetting(source.db, 'lastBackupDay', '2026-09-01');
+    const backup = await exportProgress(source.db, new Date(2026, 9, 26, 9, 0));
+    const target = await setup();
+    expect(await importProgress(target.db, JSON.stringify(backup))).toMatchObject({ ok: true });
+    expect((await loadSettings(target.db)).lastBackupDay).toBe('2026-10-26');
+    expect((await loadSettings(source.db)).lastBackupDay).toBe('2026-09-01');
+  });
   it('stores the exam date and target NCLC, validating both', async () => {
     const { db } = await setup();
     expect([DEFAULT_SETTINGS.examDate, DEFAULT_SETTINGS.targetNclc]).toEqual([null, 7]);
@@ -255,7 +273,8 @@ describe('backup', () => {
     const json = JSON.stringify(await exportProgress(db, new Date(0)));
     await resetProgress(db);
     expect(await progress.allCards()).toHaveLength(0);
-    expect(await importProgress(db, json)).toEqual({ ok: true, rows: 3 });
+    // 3 rows plus the lastBackupDay stamp.
+    expect(await importProgress(db, json)).toEqual({ ok: true, rows: 4 });
     expect(await progress.card('u01-w001')).not.toBeNull();
     expect((await loadSettings(db)).dailyGoal).toBe(10);
   });

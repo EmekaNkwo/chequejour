@@ -8,6 +8,7 @@ import type { ProgressRepository } from '../../data/progress-repo';
 import { headword } from '../../domain/audio-keys';
 import type { DayKey } from '../../domain/dates';
 import { horizonDays, planNotifications, type NotificationSettings, type NotificationTexts, type NotificationToggle, type PlannedNotification } from '../../domain/notification-plan';
+import { planBackupNotification, type BackupReminderSettings } from '../../domain/backup-reminder';
 import { planReminders, REMINDER_HORIZON_DAYS } from '../../domain/reminder-plan';
 import { ensureDailyItems, type DailyLearner } from '../daily/daily-service';
 
@@ -56,6 +57,7 @@ export async function syncNotifications(
     progress: ProgressRepository;
     settings: NotificationSettings;
     reminder: ReminderDeps;
+    backup?: { settings: BackupReminderSettings; lastBackupDay: DayKey | null };
     today: DayKey;
     learner: DailyLearner;
     now: Date;
@@ -72,7 +74,8 @@ export async function syncNotifications(
     { anchor, examDate: deps.reminder.examDate, dailyGoal: deps.reminder.dailyGoal },
     deps.now,
   );
-  const plan = [...daily, ...reminders];
+  const backup = deps.backup ? planBackupNotification(deps.backup.settings, deps.backup.lastBackupDay, deps.reminder.installDay, deps.now) : [];
+  const plan = [...daily, ...reminders, ...backup];
   for (const n of plan) await api.schedule(n);
   return { scheduled: plan.length, permission };
 }
