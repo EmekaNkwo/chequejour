@@ -82,7 +82,7 @@ export async function syncNotifications(
 
 async function dailyPlan(deps: { content: ContentRepository; progress: ProgressRepository; settings: NotificationSettings; today: DayKey; learner: DailyLearner; now: Date }): Promise<PlannedNotification[]> {
   if (!deps.settings.word.enabled && !deps.settings.sentence.enabled) return [];
-  const assignments = await ensureDailyItems(deps.content, deps.progress, deps.today, deps.learner, { refreshFuture: true });
+  const assignments = await ensureDailyItems(deps.content, deps.progress, deps.today, deps.learner);
   const texts = await notificationTexts(deps.content, {
     words: assignments.map((a) => a.wordId),
     sentences: assignments.map((a) => a.sentenceId),

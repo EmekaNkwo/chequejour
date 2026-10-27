@@ -23,7 +23,7 @@ export interface SpeechAi {
   wanted: boolean;
   /** Transcripts by recording file name. */
   transcripts: Readonly<Record<string, Transcript>>;
-  /** Transcribes a WAV take in the background; other takes are ignored. */
+  /** Shows what was heard in a take: at once when it was recognised live, else transcribes its WAV file in the background. Other takes are ignored. */
   request: (take: SavedRecording) => void;
 }
 
@@ -42,8 +42,12 @@ export function useSpeechAi(): SpeechAi {
 
   const request = useCallback(
     (take: SavedRecording) => {
-      if (!ready || !take.wav) return;
       const set = (t: Transcript) => setTranscripts((all) => ({ ...all, [take.fileName]: t }));
+      if (take.transcript !== null) {
+        set({ status: 'done', text: take.transcript });
+        return;
+      }
+      if (!ready || !take.wav) return;
       set({ status: 'working' });
       const signal = controller.current.signal;
       transcribe({ uri: recordingUri(take.fileName), durationMs: take.durationMs, signal })

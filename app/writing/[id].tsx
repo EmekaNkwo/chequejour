@@ -8,7 +8,7 @@ import { spacing } from '../../components/theme/tokens';
 import { AppText } from '../../components/ui/AppText';
 import { LevelPill, LinkText, Pill, Row } from '../../components/ui/Bits';
 import { Button } from '../../components/ui/Button';
-import { WritingAiFeedback } from '../../components/ai/WritingAiFeedback';
+import { WritingAiFeedback, useWarmWritingFeedback } from '../../components/ai/WritingAiFeedback';
 import { Card } from '../../components/ui/Card';
 import { PressableScale } from '../../components/ui/PressableScale';
 import { ErrorState, Loading, Screen } from '../../components/ui/Screen';
@@ -65,6 +65,8 @@ function Writing({ task, draft, submissions: initialSubmissions }: WritingProps)
   const { colors } = useTheme();
   const { progress, invalidate } = useApp();
   const [text, setText] = useState(draft?.text ?? '');
+  const aiInput = { taskType: task.taskType, level: task.level, promptFr: task.promptFr, minWords: task.minWords, maxWords: task.maxWords, text };
+  useWarmWritingFeedback(aiInput);
   const [checked, setChecked] = useState<boolean[]>(() => task.checklist.map((_, i) => draft?.checklist[i] ?? false));
   const [showModel, setShowModel] = useState(false);
   const [done, setDone] = useState(false);
@@ -222,9 +224,7 @@ function Writing({ task, draft, submissions: initialSubmissions }: WritingProps)
             <Card>
               <HintList hints={hints} />
             </Card>
-            <WritingAiFeedback
-              input={{ taskType: task.taskType, level: task.level, promptFr: task.promptFr, minWords: task.minWords, maxWords: task.maxWords, text }}
-            />
+            <WritingAiFeedback input={aiInput} />
             <Card>
               <AppText variant="cardTitle">Compare with the model</AppText>
               <AppText variant="meta" tone="muted">

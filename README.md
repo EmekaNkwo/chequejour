@@ -247,7 +247,7 @@ Adding content: see [docs/CONTENT_AUTHORING.md](docs/CONTENT_AUTHORING.md).
 
 ## Limits and known gaps
 
-- **Audio** is synthesised with the macOS "Thomas" voice (`npm run content:audio`), not
+- **Audio** is synthesised with the macOS "Amélie" voice (Canadian French) (`npm run content:audio`), not
   recorded by native speakers. Check that voice's licence before distributing the app
   beyond personal use. Missing clips fall back to the phone's French text-to-speech.
 - **Writing and speaking are self-assessed** against a model answer and checklist. Writing

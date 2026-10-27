@@ -64,7 +64,7 @@ function Shadowing({ title, lines }: { title: string; lines: readonly ShadowLine
   const toast = useToast();
   const speaker = useSpeaker();
   const speechAi = useSpeechAi();
-  const recorder = useRecorder({ wav: speechAi.ready });
+  const recorder = useRecorder({ speech: speechAi.ready });
   const player = useRecordingPlayer();
   const [index, setIndex] = useState(0);
   const [recordings, setRecordings] = useState<Recording[]>([]);

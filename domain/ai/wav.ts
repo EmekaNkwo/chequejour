@@ -66,3 +66,9 @@ export function buildWav(chunks: readonly Uint8Array[]): Uint8Array {
   }
   return wav;
 }
+
+/** The same recording with `ms` of silence in front. */
+export function withLeadingSilence(wav: Uint8Array, ms: number): Uint8Array {
+  const silence = new Uint8Array(Math.round((ms / 1000) * WAV_FORMAT.sampleRate) * BYTES_PER_SAMPLE);
+  return buildWav([silence, wav.subarray(WAV_HEADER_BYTES)]);
+}

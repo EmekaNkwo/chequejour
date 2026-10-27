@@ -1,4 +1,4 @@
-import { WAV_FORMAT, WAV_HEADER_BYTES, base64ToBytes, buildWav, pcmDurationMs, wavHeader } from '../ai/wav';
+import { WAV_FORMAT, WAV_HEADER_BYTES, base64ToBytes, buildWav, pcmDurationMs, wavHeader, withLeadingSilence } from '../ai/wav';
 
 const ascii = (b: Uint8Array, from: number, to: number) => String.fromCharCode(...b.slice(from, to));
 
@@ -51,5 +51,17 @@ describe('assembling a WAV file from recorded PCM', () => {
   it('drops a trailing half sample from the data too', () => {
     const wav = buildWav([new Uint8Array([1, 2, 3])]);
     expect(wav.length).toBe(WAV_HEADER_BYTES + 2);
+  });
+});
+
+describe('leading silence for the recognizer', () => {
+  it('puts the given silence before the recording, with a header that counts it', () => {
+    const wav = buildWav([new Uint8Array([1, 2, 3, 4])]);
+    const padded = withLeadingSilence(wav, 1000);
+    const silenceBytes = WAV_FORMAT.sampleRate * 2;
+    expect(padded.length).toBe(WAV_HEADER_BYTES + silenceBytes + 4);
+    expect(new DataView(padded.buffer).getUint32(40, true)).toBe(silenceBytes + 4);
+    expect([...padded.subarray(WAV_HEADER_BYTES, WAV_HEADER_BYTES + silenceBytes)].every((b) => b === 0)).toBe(true);
+    expect([...padded.subarray(-4)]).toEqual([1, 2, 3, 4]);
   });
 });

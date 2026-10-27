@@ -33,15 +33,31 @@ describe('daily items', () => {
     ]);
     const base = { existing: new Map(), allWords: ['wA', 'wA2', 'wP', 'wB'], allSentences: ['sA', 'sB', 'sP', 'sP2'], levels };
 
-    it('picks words and sentences from the current level first', () => {
+    it('picks words and sentences from the current level', () => {
       const plan = planDailyItems({ ...base, days: horizonDays('2026-10-25', 2), wordPool: ['wA', 'wA2', 'wP'], level: 'A2+' });
-      expect(plan.map((a) => a.wordId)).toEqual(['wP', 'wA']);
+      // wP is the only A2+ word: it repeats rather than giving an A2 word.
+      expect(plan.map((a) => a.wordId)).toEqual(['wP', 'wP']);
       expect(plan.map((a) => a.sentenceId)).toEqual(['sP', 'sP2']);
     });
 
-    it('once the level is used up, goes to easier items before harder ones', () => {
-      const plan = planDailyItems({ ...base, days: horizonDays('2026-10-25', 4), wordPool: [], level: 'A2+' });
-      expect(plan.map((a) => a.sentenceId)).toEqual(['sP', 'sP2', 'sA', 'sB']);
+    it('once the level is used up, starts again at the same level, never another one', () => {
+      const plan = planDailyItems({ ...base, days: horizonDays('2026-10-25', 5), wordPool: [], level: 'A2+' });
+      expect(plan.map((a) => a.sentenceId)).toEqual(['sP', 'sP2', 'sP', 'sP2', 'sP']);
+      expect(plan.map((a) => a.wordId)).toEqual(['wP', 'wP', 'wP', 'wP', 'wP']);
+    });
+
+    it('repeats the level’s items least recently shown first, after earlier days used them', () => {
+      const existing = new Map<string, DailyAssignment>([['2026-10-24', { day: '2026-10-24', wordId: 'wA', sentenceId: 'sA' }]]);
+      const plan = planDailyItems({ ...base, existing, days: horizonDays('2026-10-25', 3), wordPool: [], level: 'A2' });
+      expect(plan.map((a) => a.wordId)).toEqual(['wA2', 'wA', 'wA2']);
+      expect(plan.map((a) => a.sentenceId)).toEqual(['sA', 'sA', 'sA']);
+    });
+
+    it('uses the closest level only when the learner’s level has no items at all', () => {
+      const plan = planDailyItems({ ...base, days: horizonDays('2026-10-25', 3), wordPool: [], level: 'A1' });
+      // No A1 items here: the next level up (A2), and only that one.
+      expect(plan.map((a) => a.sentenceId)).toEqual(['sA', 'sA', 'sA']);
+      expect(plan.map((a) => a.wordId)).toEqual(['wA', 'wA2', 'wA']);
     });
 
     it('keeps unlocked words ahead of others at the same level', () => {
@@ -56,7 +72,7 @@ describe('daily items', () => {
       expect(levelOrder(['wB', 'w1', 'wA', 'w1p'], new Map([...levels, ['w1', 'A1'], ['w1p', 'A1+']]), 'A1')).toEqual(['w1', 'w1p', 'wA', 'wB']);
     });
 
-    it('finds future unopened days whose items are off-level, never today or opened days', () => {
+    it('finds days from today on whose items are off-level, opened or not; never past days', () => {
       const row = (day: string, wordId: string, sentenceId: string, opened = false) =>
         [day, { day, wordId, sentenceId, wordOpened: opened, sentenceOpened: false }] as const;
       const existing = new Map([
@@ -66,7 +82,9 @@ describe('daily items', () => {
         row('2026-10-28', 'wA', 'sA', true),
         row('2026-10-29', 'wP', 'sB'),
       ]);
-      expect(staleDays(existing, '2026-10-25', levels, 'A2+')).toEqual(['2026-10-26', '2026-10-29']);
+      expect(staleDays(existing, '2026-10-25', levels, 'A2+')).toEqual(['2026-10-25', '2026-10-26', '2026-10-28', '2026-10-29']);
+      // Past days are history: never planned again.
+      expect(staleDays(existing, '2026-10-26', levels, 'A2+')).toEqual(['2026-10-26', '2026-10-28', '2026-10-29']);
     });
   });
 

@@ -56,7 +56,7 @@ function Speaking({ task, mock }: { task: SpeakingTask; mock?: string }) {
   const toast = useToast();
   const speechAi = useSpeechAi();
   const conversation = useAiFeature('conversation');
-  const recorder = useRecorder({ wav: speechAi.ready });
+  const recorder = useRecorder({ speech: speechAi.ready });
   const player = useAudioPlayer(null);
   const playerStatus = useAudioPlayerStatus(player);
   const [phase, setPhase] = useState<Phase>('idle');

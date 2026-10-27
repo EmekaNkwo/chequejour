@@ -1,4 +1,4 @@
-import { EXPLANATIONS, checkWritingFeedback, writingFeedbackMessages, writingMaxChars, writingMaxTokens, type WritingFeedbackInput } from '../ai/writing-feedback';
+import { EXPLANATIONS, checkWritingFeedback, partialWritingCorrections, writingFeedbackMessages, writingMaxChars, writingMaxTokens, type WritingFeedbackInput } from '../ai/writing-feedback';
 
 const text =
   'Bonjour Karim, le week-end dernier, nous avons fêté la naissance de mon neveu en Montréal. Toute la famille était là dans le maison de ma soeur. Ma soeur était fatigué mais très heureuse. Je suis rentre tres tard. Nous sommes content.';
@@ -58,5 +58,32 @@ describe('turning the corrected copy into feedback', () => {
     expect(() => checkWritingFeedback('Salut ! Ma famille a célébré l’arrivée du bébé chez ma sœur, tout le monde était heureux.', input)).toThrow(
       expect.objectContaining({ failure: 'rejected' }),
     );
+  });
+});
+
+describe('corrections while the AI is still writing', () => {
+  const text = 'Je suis alle au cinema. Le film etait tres bien. Apres, nous avons mange.';
+  const partial = (soFar: string) => partialWritingCorrections(soFar, { ...input, text }).map((c) => [c.original, c.corrected]);
+
+  it('shows the fixes in each sentence the AI has finished', () => {
+    expect(partial('Je suis allé au cinéma. Le film était très bien. Après, nous av')).toEqual([
+      ['alle', 'allé'],
+      ['cinema', 'cinéma'],
+      ['etait tres', 'était très'],
+    ]);
+  });
+
+  it('waits for the end of a sentence, so a half-written word is never shown', () => {
+    expect(partial('Je suis allé au ciné')).toEqual([]);
+    expect(partial('Je suis allé au cinéma.')).toEqual([]);
+    expect(partial('Je suis allé au cinéma. ')).toEqual([['alle', 'allé'], ['cinema', 'cinéma']]);
+  });
+
+  it('shows nothing when the finished sentences are a rewrite', () => {
+    expect(partial('Hier soir, on est sortis voir un film génial. ')).toEqual([]);
+  });
+
+  it('only keeps fixes it can explain', () => {
+    expect(partial('Je suis allé au théâtre. ')).toEqual([['alle', 'allé']]);
   });
 });

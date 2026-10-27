@@ -1,14 +1,16 @@
 /**
- * A spoken (or typed) conversation with the AI partner. The learner's audio goes to a
- * cache file, is transcribed on the phone and deleted; it is never kept as a recording.
+ * A spoken (or typed) conversation with the AI partner. The learner's speech is recognised
+ * on the phone as they speak; the audio is not kept. (If live recognition can't start, it
+ * goes to a cache file that is transcribed and deleted.)
  * Partner lines are read aloud with the phone's French voice.
  */
 import { requestRecordingPermissionsAsync, setAudioModeAsync } from 'expo-audio';
 import { useCallback, useEffect, useRef, useState } from 'react';
 import { nextStep, openingLine, type ConversationTask, type Turn } from '../../domain/ai/conversation';
-import { aiFailureOf, type AiFailure } from '../../domain/ai/errors';
+import { AiError, aiFailureOf, type AiFailure } from '../../domain/ai/errors';
 import type { ModelEntry } from '../../domain/ai/manifest';
-import { deleteTake, discardPcm, isPcmRecording, startPcm, stopPcm } from '../../services/ai/pcm-recorder';
+import { deleteTake } from '../../services/ai/pcm-recorder';
+import { discardSpeechTake, isSpeechTakeRecording, startSpeechTake, stopSpeechTake } from '../../services/ai/speech-take';
 import { transcribe } from '../../services/ai/stt';
 import { logError } from '../app/log';
 import { play, stop as stopAudio } from '../audio/audio-controller';
@@ -63,7 +65,7 @@ export function useConversation(task: ConversationTask, models: ConversationMode
       current.abort();
       void stopAudio();
       // Leaving mid-take: stop without writing anything, so no audio is left behind.
-      if (isPcmRecording()) discardPcm().catch((e: unknown) => logError('stop conversation recording', e));
+      if (isSpeechTakeRecording()) discardSpeechTake().catch((e: unknown) => logError('stop conversation recording', e));
       idleAudio().catch((e: unknown) => logError('audio mode on leave', e));
     };
   }, [speak]);
@@ -122,10 +124,10 @@ export function useConversation(task: ConversationTask, models: ConversationMode
       await stopAudio();
       await setAudioModeAsync({ allowsRecording: true, playsInSilentMode: true });
       if (signal.aborted) return;
-      await startPcm();
+      await startSpeechTake({ keepAudio: false });
       // The screen may have closed while the microphone was starting.
       if (signal.aborted) {
-        await discardPcm();
+        await discardSpeechTake();
         return;
       }
       setFailure(null);
@@ -145,14 +147,15 @@ export function useConversation(task: ConversationTask, models: ConversationMode
     const signal = controller.current.signal;
     let uri: string | null = null;
     try {
-      const take = await stopPcm();
+      const take = await stopSpeechTake();
       await idleAudio().catch((e: unknown) => logError('audio mode', e));
       if (!take) {
         setPhase('ready');
         return;
       }
       uri = take.uri;
-      const text = await transcribe({ uri: take.uri, durationMs: take.durationMs, signal });
+      if (take.transcript === null && !take.uri) throw new AiError('failed', 'Speech recognition stopped and no audio was kept.');
+      const text = take.transcript ?? (await transcribe({ uri: take.uri ?? '', durationMs: take.durationMs, signal }));
       if (!signal.aborted) say(text);
     } catch (e: unknown) {
       if (signal.aborted) return;

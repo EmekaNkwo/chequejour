@@ -3,7 +3,7 @@ import { requestRecordingPermissionsAsync } from 'expo-audio';
 import { CLOSING_LINE, MAX_LEARNER_TURNS, REDIRECT_LINE, type ConversationTask } from '../../domain/ai/conversation';
 import { AiError } from '../../domain/ai/errors';
 import type { ModelEntry } from '../../domain/ai/manifest';
-import { discardPcm, isPcmRecording, startPcm, stopPcm } from '../../services/ai/pcm-recorder';
+import { discardSpeechTake, isSpeechTakeRecording, startSpeechTake, stopSpeechTake } from '../../services/ai/speech-take';
 import { transcribe } from '../../services/ai/stt';
 import { play } from '../audio/audio-controller';
 import { partnerReply } from '../ai/conversation-partner';
@@ -25,13 +25,13 @@ jest.mock('expo-file-system', () => ({
   },
 }));
 jest.mock('expo-audio', () => ({ requestRecordingPermissionsAsync: jest.fn(), setAudioModeAsync: jest.fn(async () => undefined) }));
-jest.mock('../../services/ai/pcm-recorder', () => ({
-  isPcmRecording: jest.fn(() => false),
-  startPcm: jest.fn(async () => undefined),
-  stopPcm: jest.fn(),
-  discardPcm: jest.fn(async () => undefined),
-  deleteTake: (uri: string) => mockDeleted.push(uri),
+jest.mock('../../services/ai/speech-take', () => ({
+  isSpeechTakeRecording: jest.fn(() => false),
+  startSpeechTake: jest.fn(async () => undefined),
+  stopSpeechTake: jest.fn(),
+  discardSpeechTake: jest.fn(async () => undefined),
 }));
+jest.mock('../../services/ai/pcm-recorder', () => ({ deleteTake: (uri: string) => mockDeleted.push(uri) }));
 jest.mock('../../services/ai/stt', () => ({ transcribe: jest.fn() }));
 jest.mock('../audio/audio-controller', () => ({ play: jest.fn(async () => undefined), stop: jest.fn(async () => undefined) }));
 jest.mock('../ai/conversation-partner', () => ({ partnerReply: jest.fn() }));
@@ -63,15 +63,27 @@ describe('useConversation', () => {
     expect(result.current.phase).toBe('ready');
   });
 
-  it('records, transcribes, deletes the audio, then replies', async () => {
+  it('hears the learner live, keeping no audio, then replies', async () => {
     (requestRecordingPermissionsAsync as jest.Mock).mockResolvedValue({ granted: true });
-    (stopPcm as jest.Mock).mockResolvedValue({ uri: 'file:///cache/speech-1.wav', durationMs: 2000 });
+    (stopSpeechTake as jest.Mock).mockResolvedValue({ uri: null, durationMs: 2000, transcript: 'Je voudrais m’inscrire.' });
+    reply.mockResolvedValue('Très bien. Quel sport ?');
+    const { result } = await renderHook(() => useConversation(task, models));
+    await act(async () => result.current.startTalking());
+    expect(startSpeechTake).toHaveBeenCalledWith({ keepAudio: false });
+    expect(result.current.phase).toBe('recording');
+    await act(async () => result.current.stopTalking());
+    expect(transcribe).not.toHaveBeenCalled();
+    expect(result.current.turns.map((t) => t.text)).toContain('Je voudrais m’inscrire.');
+    expect(result.current.turns.at(-1)?.text).toBe('Très bien. Quel sport ?');
+  });
+
+  it('falls back to transcribing a cache file, then deletes it', async () => {
+    (requestRecordingPermissionsAsync as jest.Mock).mockResolvedValue({ granted: true });
+    (stopSpeechTake as jest.Mock).mockResolvedValue({ uri: 'file:///cache/speech-1.wav', durationMs: 2000, transcript: null });
     (transcribe as jest.Mock).mockResolvedValue('Je voudrais m’inscrire.');
     reply.mockResolvedValue('Très bien. Quel sport ?');
     const { result } = await renderHook(() => useConversation(task, models));
     await act(async () => result.current.startTalking());
-    expect(startPcm).toHaveBeenCalled();
-    expect(result.current.phase).toBe('recording');
     await act(async () => result.current.stopTalking());
     expect(transcribe).toHaveBeenCalledWith(expect.objectContaining({ uri: 'file:///cache/speech-1.wav' }));
     expect(mockDeleted).toEqual(['file:///cache/speech-1.wav']);
@@ -84,7 +96,7 @@ describe('useConversation', () => {
     const { result } = await renderHook(() => useConversation(task, models));
     await act(async () => result.current.startTalking());
     expect(result.current.micAllowed).toBe(false);
-    expect(startPcm).not.toHaveBeenCalled();
+    expect(startSpeechTake).not.toHaveBeenCalled();
     await act(async () => result.current.say('   '));
     expect(result.current.heardNothing).toBe(true);
     expect(result.current.turns).toHaveLength(1);
@@ -119,10 +131,10 @@ describe('useConversation', () => {
     (requestRecordingPermissionsAsync as jest.Mock).mockResolvedValue({ granted: true });
     const { result, unmount } = await renderHook(() => useConversation(task, models));
     await act(async () => result.current.startTalking());
-    (isPcmRecording as jest.Mock).mockReturnValueOnce(true);
+    (isSpeechTakeRecording as jest.Mock).mockReturnValueOnce(true);
     await unmount();
-    expect(discardPcm).toHaveBeenCalled();
-    expect(stopPcm).not.toHaveBeenCalled();
+    expect(discardSpeechTake).toHaveBeenCalled();
+    expect(stopSpeechTake).not.toHaveBeenCalled();
   });
 
   it('turns the microphone back off if the screen closed while it was starting', async () => {
@@ -136,6 +148,6 @@ describe('useConversation', () => {
     await unmount();
     grant({ granted: true });
     await starting;
-    expect(startPcm).not.toHaveBeenCalled();
+    expect(startSpeechTake).not.toHaveBeenCalled();
   });
 });

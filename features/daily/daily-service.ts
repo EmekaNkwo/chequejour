@@ -15,22 +15,13 @@ export interface DailyLearner {
   level: Level;
 }
 
-export interface EnsureDailyOptions {
-  /**
-   * Re-plan future, unopened days whose items no longer match the learner's level.
-   * Only the notification sync passes this, since it reschedules straight after.
-   */
-  refreshFuture?: boolean;
-}
-
-/** Makes sure today and the next two weeks have a word and a sentence assigned. */
-export async function ensureDailyItems(
-  content: ContentRepository,
-  progress: ProgressRepository,
-  today: DayKey,
-  learner: DailyLearner,
-  options: EnsureDailyOptions = {},
-): Promise<DailyAssignment[]> {
+/**
+ * Makes sure today and the next two weeks have a word and a sentence assigned, at the
+ * learner's level. Days from today on planned for another level (before the learner moved
+ * up, or placement changed) are planned again; the notification sync, which runs when the
+ * app opens and when progress changes, reschedules their notifications to match.
+ */
+export async function ensureDailyItems(content: ContentRepository, progress: ProgressRepository, today: DayKey, learner: DailyLearner): Promise<DailyAssignment[]> {
   const [stored, wordPool, allWords, allSentences, levels] = await Promise.all([
     progress.dailyItems(),
     content.wordIds(learner.openUnitIds, { uniqueHeadwords: true }),
@@ -39,7 +30,7 @@ export async function ensureDailyItems(
     content.itemLevels(),
   ]);
   if (allWords.length === 0 || allSentences.length === 0) return [];
-  const stale = options.refreshFuture ? new Set(staleDays(stored, today, levels, learner.level)) : new Set<DayKey>();
+  const stale = new Set(staleDays(stored, today, levels, learner.level));
   const existing = new Map([...stored].filter(([day]) => !stale.has(day)));
   const plan = planDailyItems({ days: horizonDays(today, HORIZON_DAYS), existing, wordPool, allWords, allSentences, levels, level: learner.level });
   if (stale.size > 0) await progress.deleteDailyItems([...stale]);

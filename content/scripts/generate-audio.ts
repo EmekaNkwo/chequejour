@@ -17,7 +17,7 @@ import { cpus, tmpdir } from 'node:os';
 import { collectAudioClips, type AudioClip } from '../../domain/audio-keys';
 import { AUDIO_DIR, AUDIO_EXT, loadAll, type Report } from './load';
 
-const VOICE = process.env.CHEQUEJOUR_VOICE ?? 'Thomas';
+const VOICE = process.env.CHEQUEJOUR_VOICE ?? 'Amélie';
 const RATE_WPM = '170';
 const force = process.argv.includes('--force');
 const run = promisify(execFile);
@@ -28,7 +28,8 @@ async function synthesize(clip: AudioClip, workDir: string): Promise<void> {
   // Line breaks in dialogues become short pauses.
   const text = clip.text.replace(/\n/g, ' [[slnc 450]] ');
   await run('say', ['-v', VOICE, '-r', RATE_WPM, '-o', aiff, text]);
-  await run('afconvert', ['-f', 'm4af', '-d', 'aac', '-b', '48000', '-c', '1', aiff, out]);
+  // HE-AAC at 24 kbps: clear for a single voice, at about half the size of plain AAC at 48.
+  await run('afconvert', ['-f', 'm4af', '-d', 'aach', '-b', '24000', '-c', '1', aiff, out]);
   rmSync(aiff, { force: true });
 }
 

@@ -99,22 +99,47 @@ function mostFrequent(kinds: readonly EditKind[]): EditKind | null {
   return best;
 }
 
+/** The changes in `after` that fit a known kind of mistake, once each; the rest are counted as held back. */
+function explainedEdits(before: string, after: string): { kept: WritingCorrection[]; heldBack: number } {
+  const seen = new Set<string>();
+  const kept: WritingCorrection[] = [];
+  let heldBack = 0;
+  for (const edit of textEdits(before, after)) {
+    const id = `${edit.original}→${edit.corrected}`;
+    if (seen.has(id)) continue;
+    seen.add(id);
+    const kind = classifyEdit(edit.original, edit.corrected);
+    if (kind === null || !quotedIn(before, edit.original)) heldBack += 1;
+    else kept.push({ ...edit, kind, why: EXPLANATIONS[kind] });
+  }
+  return { kept, heldBack };
+}
+
 /** The corrections worth showing from the model's corrected copy of the text. */
 export function checkWritingFeedback(corrected: string, input: WritingFeedbackInput): CheckedWritingFeedback {
   if (changedShare(input.text, corrected) > MAX_CHANGED_SHARE) {
     throw new AiError('rejected', 'The AI rewrote the text instead of correcting it.');
   }
-  const seen = new Set<string>();
-  const kept: WritingCorrection[] = [];
-  let heldBack = 0;
-  for (const edit of textEdits(input.text, corrected)) {
-    const id = `${edit.original}→${edit.corrected}`;
-    if (seen.has(id)) continue;
-    seen.add(id);
-    const kind = classifyEdit(edit.original, edit.corrected);
-    if (kind === null || !quotedIn(input.text, edit.original)) heldBack += 1;
-    else kept.push({ ...edit, kind, why: EXPLANATIONS[kind] });
-  }
+  const { kept, heldBack } = explainedEdits(input.text, corrected);
   const kind = mostFrequent(kept.map((c) => c.kind));
   return { corrections: kept.slice(0, MAX_SHOWN), nextStep: kind ? NEXT_STEPS[kind] : null, heldBack };
+}
+
+/** Sentences with their end punctuation; a trailing fragment without one counts as a sentence too. */
+const SENTENCE = /[^.!?…]+(?:[.!?…]+|$)/g;
+
+/**
+ * Corrections from the sentences the model has finished so far, matched against the same
+ * number of the learner's sentences, to show while it is still writing. A sentence counts
+ * as finished once its end punctuation is followed by more text, so no half-written word
+ * is ever compared. The full check replaces these when the model is done.
+ */
+export function partialWritingCorrections(soFar: string, input: WritingFeedbackInput): WritingCorrection[] {
+  const end = Math.max(...['.', '!', '?', '…'].map((p) => soFar.lastIndexOf(p)));
+  if (end < 0 || end === soFar.length - 1) return [];
+  const finished = soFar.slice(0, end + 1);
+  const count = (finished.match(SENTENCE) ?? []).filter((x) => x.trim().length > 0).length;
+  const learner = (input.text.match(SENTENCE) ?? []).filter((x) => x.trim().length > 0).slice(0, count).join('');
+  if (learner.trim().length === 0 || changedShare(learner, finished) > MAX_CHANGED_SHARE) return [];
+  return explainedEdits(learner, finished).kept.slice(0, MAX_SHOWN);
 }

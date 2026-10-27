@@ -10,7 +10,7 @@ jest.mock('../../services/ai/stt', () => ({ transcribe: jest.fn() }));
 jest.mock('../skills/recordings', () => ({ recordingUri: (name: string) => `file:///rec/${name}` }));
 
 const run = transcribe as jest.Mock;
-const take = { fileName: 'a.wav', durationMs: 3000, wav: true };
+const take = { fileName: 'a.wav', durationMs: 3000, wav: true, transcript: null };
 
 beforeEach(() => {
   jest.clearAllMocks();
@@ -35,6 +35,15 @@ describe('useSpeechAi', () => {
     });
     expect(run).toHaveBeenCalledWith(expect.objectContaining({ uri: 'file:///rec/a.wav', durationMs: 3000 }));
     expect(result.current.transcripts['a.wav']).toEqual({ status: 'done', text: 'Bonjour' });
+  });
+
+  it('shows a take recognised live at once, without transcribing it again', async () => {
+    const { result } = await renderHook(() => useSpeechAi());
+    await act(async () => {
+      result.current.request({ ...take, wav: false, transcript: 'Je prends le bus' });
+    });
+    expect(result.current.transcripts['a.wav']).toEqual({ status: 'done', text: 'Je prends le bus' });
+    expect(run).not.toHaveBeenCalled();
   });
 
   it('records why a transcription failed', async () => {

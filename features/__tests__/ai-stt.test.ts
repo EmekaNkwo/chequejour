@@ -4,6 +4,9 @@ import { transcribeFile, type FileRecognizerApi, type RecognizerEvents } from '.
 jest.mock('expo-speech-recognition', () => ({ ExpoSpeechRecognitionModule: {}, AudioEncodingAndroid: { ENCODING_PCM_16BIT: 2 } }));
 
 /** A fake of the phone's recognizer: records what it was asked and lets a test play its events. */
+const dispose = jest.fn();
+beforeEach(() => dispose.mockClear());
+
 function fakeRecognizer(overrides: Partial<FileRecognizerApi> = {}) {
   let handlers: RecognizerEvents | null = null;
   const api: FileRecognizerApi & { emit: () => RecognizerEvents } = {
@@ -14,6 +17,7 @@ function fakeRecognizer(overrides: Partial<FileRecognizerApi> = {}) {
     requestPermissions: async () => true,
     startFile: jest.fn(),
     abort: jest.fn(),
+    prepare: jest.fn(async (uri: string) => ({ uri: `${uri}.padded`, dispose: dispose })),
     listen: (h) => {
       handlers = h;
       return () => {
@@ -37,11 +41,14 @@ describe('speech-to-text with the phone’s own recognizer', () => {
     const api = fakeRecognizer();
     const done = transcribeFile(api, take);
     await started();
-    expect(api.startFile).toHaveBeenCalledWith({ lang: 'fr-FR', uri: take.uri });
+    // The recognizer gets a copy with silence in front: a cold recognizer drops the first seconds it is given.
+    expect(api.prepare).toHaveBeenCalledWith(take.uri);
+    expect(api.startFile).toHaveBeenCalledWith({ lang: 'fr-FR', uri: `${take.uri}.padded` });
     api.emit().result('Je prends le bus', true);
     api.emit().result('tous les matins', true);
     api.emit().end();
     await expect(done).resolves.toBe('Je prends le bus tous les matins');
+    expect(dispose).toHaveBeenCalledTimes(1);
   });
 
   it('ignores interim results and tidies the text', async () => {
@@ -85,6 +92,7 @@ describe('speech-to-text with the phone’s own recognizer', () => {
     api.emit().error('audio-capture', 'File not supported');
     await expect(done).rejects.toBeInstanceOf(AiError);
     await expect(done).rejects.toMatchObject({ failure: 'failed' });
+    expect(dispose).toHaveBeenCalledTimes(1);
   });
 
   it('stops the recognizer when cancelled', async () => {
@@ -95,6 +103,7 @@ describe('speech-to-text with the phone’s own recognizer', () => {
     controller.abort();
     await expect(done).rejects.toMatchObject({ failure: 'cancelled' });
     expect(api.abort).toHaveBeenCalled();
+    expect(dispose).toHaveBeenCalledTimes(1);
   });
 
   it('stops the recognizer when it takes too long', async () => {

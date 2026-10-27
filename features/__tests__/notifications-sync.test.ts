@@ -118,7 +118,7 @@ describe('notification sync', () => {
     expect(words.every((n) => n.fireAt.getHours() === 6 && n.fireAt.getMinutes() === 45)).toBe(true);
   });
 
-  it('moves future daily sentences to the new level when the learner moves up, keeping today', async () => {
+  it('moves today and future daily sentences to the new level when the learner moves up', async () => {
     const deps = await setup();
     const api = new FakeNotifications();
     const base = { ...deps, settings: DEFAULT_NOTIFICATION_SETTINGS, today: '2026-10-25', now: new Date(2026, 9, 25, 7, 0) };
@@ -128,11 +128,24 @@ describe('notification sync', () => {
 
     await syncNotifications(api, { ...base, learner: { openUnitIds: ['u01'], level: 'A2+' } });
     const after = await deps.progress.dailyItems();
-    expect(after.get('2026-10-25')).toEqual(before.get('2026-10-25'));
-    const future = [...after.values()].filter((r) => r.day > '2026-10-25');
-    expect(future).toHaveLength(13);
+    const future = [...after.values()].filter((r) => r.day >= '2026-10-25');
+    expect(future).toHaveLength(14);
     expect(future.every((r) => Number(r.sentenceId.slice(1)) > 30)).toBe(true);
     expect(api.scheduled.get('sentence-2026-10-26')?.body).toBe(`Phrase ${Number(after.get('2026-10-26')!.sentenceId.slice(1)) - 1}.`);
+  });
+
+  it('switches today to the new level even after the learner opened it, keeping past days', async () => {
+    const deps = await setup();
+    const api = new FakeNotifications();
+    const base = { ...deps, settings: DEFAULT_NOTIFICATION_SETTINGS, today: '2026-10-25', now: new Date(2026, 9, 25, 7, 0) };
+    await syncNotifications(api, { ...base, learner: { openUnitIds: ['u01'], level: 'A2' } });
+    await deps.progress.markDailyOpened('2026-10-25', 'sentence');
+    await deps.progress.saveDailyItems([{ day: '2026-10-24', wordId: 'u01-w001', sentenceId: 's001' }]);
+    await syncNotifications(api, { ...base, learner: { openUnitIds: ['u01'], level: 'A2+' } });
+    const after = await deps.progress.dailyItems();
+    expect(Number(after.get('2026-10-25')!.sentenceId.slice(1))).toBeGreaterThan(30);
+    expect(after.get('2026-10-25')!.sentenceOpened).toBe(false);
+    expect(after.get('2026-10-24')!.sentenceId).toBe('s001');
   });
 
   it('leaves daily items alone when the level has not changed', async () => {

@@ -134,7 +134,8 @@ describe('language model service', () => {
     expect(fixedPrefix(full)).toEqual(full.slice(0, 3));
     warmLlm(model, fixedPrefix(full));
     await new Promise((r) => setTimeout(r, 0));
-    expect(getFormattedChat).toHaveBeenCalledWith(full.slice(0, 3), null, expect.objectContaining({ add_generation_prompt: false }));
+    // An empty turn after the example: Qwen3's template writes the last answer differently, so ending on it would not match the request.
+    expect(getFormattedChat).toHaveBeenCalledWith([...full.slice(0, 3), { role: 'user', content: '' }], null, expect.objectContaining({ add_generation_prompt: false }));
     await generate({ ...base, messages: full });
     // The request left the same opening in the cache, so warming it again reads nothing.
     warmLlm(model, fixedPrefix([...full.slice(0, 3), { role: 'user', content: 'autre texte' }]));

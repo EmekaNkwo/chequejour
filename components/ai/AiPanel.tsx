@@ -18,11 +18,13 @@ export interface AiPanelProps<T> {
   /** What the model is doing, while it works. */
   workingText?: string;
   onCancel?: () => void;
+  /** What to show of the reply so far, while it is still being written. */
+  renderPartial?: (partial: string) => ReactNode;
   children: (value: T) => ReactNode;
   testID?: string;
 }
 
-export function AiPanel<T>({ title, state, workingText = 'Thinking on this phone…', onCancel, children, testID }: AiPanelProps<T>) {
+export function AiPanel<T>({ title, state, workingText = 'Thinking on this phone…', onCancel, renderPartial, children, testID }: AiPanelProps<T>) {
   const { colors } = useTheme();
   if (state.status === 'idle') return null;
   return (
@@ -34,13 +36,16 @@ export function AiPanel<T>({ title, state, workingText = 'Thinking on this phone
         </AppText>
       </Row>
       {state.status === 'working' ? (
-        <Row gap={spacing.sm}>
-          <ActivityIndicator color={colors.textMuted} />
-          <AppText variant="meta" tone="muted" style={styles.flex}>
-            {workingText}
-          </AppText>
-          {onCancel ? <LinkText label="Stop" onPress={onCancel} /> : null}
-        </Row>
+        <>
+          {renderPartial?.(state.partial)}
+          <Row gap={spacing.sm}>
+            <ActivityIndicator color={colors.textMuted} />
+            <AppText variant="meta" tone="muted" style={styles.flex}>
+              {workingText}
+            </AppText>
+            {onCancel ? <LinkText label="Stop" onPress={onCancel} /> : null}
+          </Row>
+        </>
       ) : state.status === 'failed' ? (
         <AppText variant="meta" tone="muted">
           {aiFailureMessage(state.failure)}

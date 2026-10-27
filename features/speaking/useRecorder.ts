@@ -13,7 +13,8 @@ import {
 } from 'expo-audio';
 import { useEffect, useRef, useState } from 'react';
 import type { ProgressRepository } from '../../data/progress-repo';
-import { deleteTake, discardPcm, isPcmRecording, startPcm, stopPcm } from '../../services/ai/pcm-recorder';
+import { deleteTake } from '../../services/ai/pcm-recorder';
+import { discardSpeechTake, isSpeechTakeRecording, startSpeechTake, stopSpeechTake } from '../../services/ai/speech-take';
 import { logError } from '../app/log';
 import { stop as stopSharedAudio } from '../audio/audio-controller';
 import { recordingUri, saveRecording } from '../skills/recordings';
@@ -35,21 +36,23 @@ export interface SavedRecording {
   durationMs: number;
   /** True when saved as 16 kHz WAV, which the phone's recognizer can read. */
   wav: boolean;
+  /** What the recognizer heard while recording; null when it still has to be transcribed (or wasn't asked). */
+  transcript: string | null;
 }
 
 export interface RecorderOptions {
-  /** Record 16 kHz WAV for speech recognition instead of compressed audio. */
-  wav?: boolean;
+  /** Record for speech recognition (recognised live, or as 16 kHz WAV) instead of compressed audio. */
+  speech?: boolean;
 }
 
 const idleMode = () => setAudioModeAsync({ allowsRecording: false, playsInSilentMode: true });
 
-export function useRecorder({ wav = false }: RecorderOptions = {}): Recorder {
+export function useRecorder({ speech = false }: RecorderOptions = {}): Recorder {
   const recorder = useAudioRecorder(RecordingPresets.HIGH_QUALITY);
   const state = useAudioRecorderState(recorder, 500);
-  // The format is fixed when a recording starts, even if the AI pack changes meanwhile.
-  const wavTake = useRef(false);
-  const [pcmRecording, setPcmRecording] = useState(false);
+  // The kind of take is fixed when a recording starts, even if settings change meanwhile.
+  const speechTake = useRef(false);
+  const [speechRecording, setSpeechRecording] = useState(false);
   const unmounted = useRef(false);
   const [micAllowed, setMicAllowed] = useState<boolean | null>(null);
   // State lags a render behind; callers often ask and then start in the same handler.
@@ -63,7 +66,7 @@ export function useRecorder({ wav = false }: RecorderOptions = {}): Recorder {
     return () => {
       if (recorder.isRecording) recorder.stop().catch((e: unknown) => logError('stop recording on leave', e));
       unmounted.current = true;
-      if (isPcmRecording()) discardPcm().catch((e: unknown) => logError('stop WAV recording on leave', e));
+      if (isSpeechTakeRecording()) discardSpeechTake().catch((e: unknown) => logError('stop speech recording on leave', e));
       idleMode().catch((e: unknown) => logError('audio mode on leave', e));
     };
   }, [recorder]);
@@ -89,15 +92,15 @@ export function useRecorder({ wav = false }: RecorderOptions = {}): Recorder {
       try {
         await stopSharedAudio();
         await setAudioModeAsync({ allowsRecording: true, playsInSilentMode: true });
-        wavTake.current = wav;
-        if (wav) {
-          await startPcm();
+        speechTake.current = speech;
+        if (speech) {
+          await startSpeechTake({ keepAudio: true, onEnd: () => logError('live speech take', new Error('Recognition stopped mid-take.')) });
           // The screen may have closed while the microphone was starting.
           if (unmounted.current) {
-            await discardPcm();
+            await discardSpeechTake();
             return false;
           }
-          setPcmRecording(true);
+          setSpeechRecording(true);
         } else {
           await recorder.prepareToRecordAsync();
           recorder.record();
@@ -115,7 +118,7 @@ export function useRecorder({ wav = false }: RecorderOptions = {}): Recorder {
   const stopAndSave = async (progress: ProgressRepository, taskId: string) => {
     // Stop can be tapped while the recorder is still starting; wait so it isn't left running.
     await starting.current;
-    if (wavTake.current) return stopWav(progress, taskId);
+    if (speechTake.current) return stopSpeech(progress, taskId);
     if (!recorder.isRecording && !state.isRecording) return null;
     setBusy(true);
     try {
@@ -124,35 +127,36 @@ export function useRecorder({ wav = false }: RecorderOptions = {}): Recorder {
       const durationMs = Math.max(state.durationMillis, Date.now() - startedAt.current);
       if (!uri) return null;
       const fileName = await saveRecording(progress, taskId, uri, durationMs, Date.now());
-      return { fileName, durationMs, wav: false };
+      return { fileName, durationMs, wav: false, transcript: null };
     } finally {
       await idleMode().catch((e: unknown) => logError('audio mode', e));
       setBusy(false);
     }
   };
 
-  const stopWav = async (progress: ProgressRepository, taskId: string): Promise<SavedRecording | null> => {
-    if (!isPcmRecording()) return null;
+  const stopSpeech = async (progress: ProgressRepository, taskId: string): Promise<SavedRecording | null> => {
+    if (!isSpeechTakeRecording()) return null;
     setBusy(true);
     try {
-      const take = await stopPcm();
-      if (!take) return null;
+      const take = await stopSpeechTake();
+      if (!take?.uri) return null;
+      const uri = take.uri;
       try {
-        const fileName = await saveRecording(progress, taskId, take.uri, take.durationMs, Date.now());
-        return { fileName, durationMs: take.durationMs, wav: true };
+        const fileName = await saveRecording(progress, taskId, uri, take.durationMs, Date.now());
+        return { fileName, durationMs: take.durationMs, wav: take.transcript === null, transcript: take.transcript };
       } catch (e: unknown) {
         // Not saved: don't leave the voice recording behind in the cache.
-        deleteTake(take.uri);
+        deleteTake(uri);
         throw e;
       }
     } finally {
-      setPcmRecording(false);
+      setSpeechRecording(false);
       await idleMode().catch((e: unknown) => logError('audio mode', e));
       setBusy(false);
     }
   };
 
-  return { micAllowed, isRecording: state.isRecording || pcmRecording, busy, askPermission, start, stopAndSave };
+  return { micAllowed, isRecording: state.isRecording || speechRecording, busy, askPermission, start, stopAndSave };
 }
 
 export interface RecordingPlayer {

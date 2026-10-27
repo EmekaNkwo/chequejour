@@ -102,6 +102,16 @@ export function generate({ model, messages, maxTokens, temperature, jsonSchema, 
 }
 
 /**
+ * The prefix as the template will write it inside the full request. Qwen3's template writes
+ * an answer after the last user turn with an empty thinking block, so a prefix ending on a
+ * worked example's answer is followed by an empty learner turn to keep it a past answer.
+ */
+function warmMessages(prefix: readonly ChatMessage[]): ChatMessage[] {
+  const copy = prefix.map((m) => ({ ...m }));
+  return prefix[prefix.length - 1]?.role === 'assistant' ? [...copy, { role: 'user', content: '' }] : copy;
+}
+
+/**
  * Starts loading the language model while the learner reads, and with `prefix` (a feature's
  * fixed opening, see fixedPrefix) also reads it into the model's cache: the request then only has
  * the learner's part left to read, which saves several seconds. Never throws.
@@ -121,7 +131,7 @@ export function warmLlm(model: ModelEntry, prefix?: readonly ChatMessage[]): voi
       if (waitingRequests > 0 || cachedPrefix.get(context) === key) return;
       stopSignal.addEventListener('abort', () => void context.stopCompletion());
       const formatted = await context.getFormattedChat(
-        prefix.map((m) => ({ ...m })),
+        warmMessages(prefix),
         null,
         { jinja: true, enable_thinking: false, add_generation_prompt: false },
       );

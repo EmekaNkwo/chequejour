@@ -148,6 +148,39 @@ describe('daily items', () => {
     }
   });
 
+  it('moves today and the coming days to the new level when the learner’s level changes', async () => {
+    const app = await setup();
+    const levels = await app.content.itemLevels();
+    await ensureDailyItems(app.content, app.progress, TODAY, { openUnitIds: [], level: 'B1' });
+    const before = await app.progress.dailyItems();
+    expect(levels.get(before.get(TODAY)!.wordId)).toBe('B1');
+    await openDailyItem(app.progress, TODAY, 'word', before.get(TODAY)!.wordId, NOW);
+    const after = await ensureDailyItems(app.content, app.progress, TODAY, { openUnitIds: [], level: 'A1' });
+    const byDay = new Map(after.map((a) => [a.day, a]));
+    expect(levels.get(byDay.get(TODAY)!.wordId)).toBe('A1');
+    expect(levels.get(byDay.get(TODAY)!.sentenceId)).toBe('A1');
+    // Today switches even though the learner had opened it.
+    expect((await dailyContent(app.content, app.progress, TODAY))?.wordOpened).toBe(false);
+    for (const d of after) {
+      expect(levels.get(d.wordId)).toBe('A1');
+      expect(levels.get(d.sentenceId)).toBe('A1');
+    }
+  });
+
+  it('keeps every level’s daily items at that level for months', async () => {
+    const app = await setup();
+    const levels = await app.content.itemLevels();
+    for (const level of ['A1', 'A1+', 'A2', 'A2+', 'B1'] as const) {
+      await app.progress.deleteDailyItems([...(await app.progress.dailyItems()).keys()]);
+      for (let week = 0; week < 20; week += 1) {
+        const days = await ensureDailyItems(app.content, app.progress, addDays(TODAY, week * 7), { openUnitIds: [], level });
+        for (const d of days) {
+          expect([level, levels.get(d.wordId), levels.get(d.sentenceId)]).toEqual([level, level, level]);
+        }
+      }
+    }
+  });
+
   it('assigns nothing when the content has no words', async () => {
     const app = await setup();
     const empty = { ...app.content, wordIds: async () => [], sentenceIds: async () => [], itemLevels: async () => new Map() } as unknown as typeof app.content;
