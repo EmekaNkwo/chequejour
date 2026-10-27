@@ -1,0 +1,2222 @@
+{
+  "id": "u18",
+  "order": 24,
+  "level": "B1",
+  "theme": "Job applications and interviews",
+  "titleFr": "Candidatures et entretiens",
+  "description": "Apply for a job, talk about your experience and qualities in an interview, use precise negations (personne, rien, aucun, ne… que) and combine y and en with other pronouns.",
+  "vocab": [
+    {
+      "id": "u18-w001",
+      "fr": "candidature",
+      "en": "application (for a job)",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "candidatures",
+      "level": "B1",
+      "core": true,
+      "example": {
+        "fr": "J'ai envoyé ma candidature lundi, mais je n'ai pas encore de réponse.",
+        "en": "I sent my application on Monday, but I haven't had a reply yet."
+      }
+    },
+    {
+      "id": "u18-w002",
+      "fr": "CV",
+      "en": "CV, résumé",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "CV",
+      "level": "A2+",
+      "core": true,
+      "example": {
+        "fr": "Pensez à mettre votre CV à jour avant de postuler.",
+        "en": "Remember to update your CV before applying."
+      }
+    },
+    {
+      "id": "u18-w003",
+      "fr": "lettre de motivation",
+      "en": "cover letter",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "lettres de motivation",
+      "level": "B1",
+      "core": true,
+      "example": {
+        "fr": "Dans sa lettre de motivation, elle explique pourquoi elle veut travailler dans l'édition.",
+        "en": "In her cover letter, she explains why she wants to work in publishing."
+      }
+    },
+    {
+      "id": "u18-w004",
+      "fr": "offre d'emploi",
+      "en": "job offer, job advert",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "offres d'emploi",
+      "level": "B1",
+      "core": true,
+      "example": {
+        "fr": "J'ai trouvé cette offre d'emploi sur le site de la Ville.",
+        "en": "I found this job advert on the town hall's website."
+      }
+    },
+    {
+      "id": "u18-w005",
+      "fr": "entretien d'embauche",
+      "en": "job interview",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "entretiens d'embauche",
+      "level": "B1",
+      "core": true,
+      "example": {
+        "fr": "Mon entretien d'embauche a duré presque une heure.",
+        "en": "My job interview lasted almost an hour."
+      }
+    },
+    {
+      "id": "u18-w006",
+      "fr": "poste",
+      "en": "position, job",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "postes",
+      "level": "A2+",
+      "core": true,
+      "example": {
+        "fr": "Le poste est à pourvoir dès le mois de mars.",
+        "en": "The position is to be filled from March."
+      }
+    },
+    {
+      "id": "u18-w007",
+      "fr": "recrutement",
+      "en": "recruitment",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "recrutements",
+      "level": "B1",
+      "core": true,
+      "example": {
+        "fr": "Le recrutement se fait en trois étapes : CV, test en ligne et entretien.",
+        "en": "Recruitment takes place in three stages: CV, online test and interview."
+      }
+    },
+    {
+      "id": "u18-w008",
+      "fr": "employeur",
+      "en": "employer",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "employeurs",
+      "level": "B1",
+      "core": true,
+      "example": {
+        "fr": "Mon ancien employeur m'a écrit une très bonne recommandation.",
+        "en": "My former employer wrote me a very good reference."
+      }
+    },
+    {
+      "id": "u18-w009",
+      "fr": "embaucher",
+      "en": "to hire, to take on",
+      "pos": "verb",
+      "level": "B1",
+      "core": true,
+      "example": {
+        "fr": "Le restaurant embauche trois serveurs pour l'été.",
+        "en": "The restaurant is taking on three waiters for the summer."
+      }
+    },
+    {
+      "id": "u18-w010",
+      "fr": "postuler",
+      "en": "to apply (for a job)",
+      "pos": "verb",
+      "level": "B1",
+      "core": true,
+      "example": {
+        "fr": "Elle a postulé à cinq offres cette semaine.",
+        "en": "She applied for five jobs this week."
+      }
+    },
+    {
+      "id": "u18-w011",
+      "fr": "compétence",
+      "en": "skill, competence",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "compétences",
+      "level": "B1",
+      "core": true,
+      "example": {
+        "fr": "Ce poste demande des compétences en gestion de projet.",
+        "en": "This position requires project management skills."
+      }
+    },
+    {
+      "id": "u18-w012",
+      "fr": "expérience",
+      "en": "experience",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "expériences",
+      "level": "A2+",
+      "core": true,
+      "example": {
+        "fr": "J'ai cinq ans d'expérience dans la vente.",
+        "en": "I have five years' experience in sales."
+      }
+    },
+    {
+      "id": "u18-w013",
+      "fr": "atout",
+      "en": "asset, advantage",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "atouts",
+      "level": "B1",
+      "core": true,
+      "example": {
+        "fr": "Parler arabe est un atout pour ce poste.",
+        "en": "Speaking Arabic is an asset for this position."
+      }
+    },
+    {
+      "id": "u18-w014",
+      "fr": "point fort",
+      "en": "strength, strong point",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "points forts",
+      "level": "B1",
+      "core": true,
+      "example": {
+        "fr": "Mon point fort, c'est ma capacité à rester calme sous pression.",
+        "en": "My strong point is my ability to stay calm under pressure."
+      }
+    },
+    {
+      "id": "u18-w015",
+      "fr": "point faible",
+      "en": "weakness, weak point",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "points faibles",
+      "level": "B1",
+      "core": true,
+      "example": {
+        "fr": "On me demande souvent quel est mon point faible en entretien.",
+        "en": "I'm often asked what my weakness is in interviews."
+      }
+    },
+    {
+      "id": "u18-w016",
+      "fr": "profil",
+      "en": "profile",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "profils",
+      "level": "B1",
+      "core": true,
+      "example": {
+        "fr": "Votre profil correspond exactement à ce que nous recherchons.",
+        "en": "Your profile matches exactly what we're looking for."
+      }
+    },
+    {
+      "id": "u18-w017",
+      "fr": "disponible",
+      "en": "available",
+      "pos": "adjective",
+      "level": "A2+",
+      "core": true,
+      "example": {
+        "fr": "Je suis disponible immédiatement.",
+        "en": "I'm available immediately."
+      }
+    },
+    {
+      "id": "u18-w018",
+      "fr": "rigoureux / rigoureuse",
+      "en": "rigorous, meticulous",
+      "pos": "adjective",
+      "level": "B1",
+      "core": true,
+      "example": {
+        "fr": "Pour ce travail de comptabilité, il faut être très rigoureux.",
+        "en": "For this accounting work, you need to be very meticulous."
+      }
+    },
+    {
+      "id": "u18-w019",
+      "fr": "mettre en valeur",
+      "en": "to highlight, to showcase",
+      "pos": "expression",
+      "level": "B1",
+      "core": true,
+      "example": {
+        "fr": "Votre CV doit mettre en valeur vos expériences les plus récentes.",
+        "en": "Your CV should highlight your most recent experience."
+      }
+    },
+    {
+      "id": "u18-w020",
+      "fr": "candidat",
+      "en": "candidate, applicant",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "candidats",
+      "level": "B1",
+      "core": true,
+      "example": {
+        "fr": "Le jury a reçu dix candidats en une journée.",
+        "en": "The panel saw ten candidates in one day."
+      }
+    },
+    {
+      "id": "u18-w021",
+      "fr": "annonce",
+      "en": "advert, ad",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "annonces",
+      "level": "A2+",
+      "core": false,
+      "example": {
+        "fr": "J'ai répondu à une annonce parue dans le journal local.",
+        "en": "I answered an advert in the local paper."
+      }
+    },
+    {
+      "id": "u18-w022",
+      "fr": "cabinet de recrutement",
+      "en": "recruitment agency",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "cabinets de recrutement",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "C'est un cabinet de recrutement qui m'a contacté pour ce poste.",
+        "en": "It was a recruitment agency that contacted me about this position."
+      }
+    },
+    {
+      "id": "u18-w023",
+      "fr": "chasseur de têtes",
+      "en": "headhunter",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "chasseurs de têtes",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Un chasseur de têtes l'a repérée grâce à son profil en ligne.",
+        "en": "A headhunter spotted her thanks to her online profile."
+      }
+    },
+    {
+      "id": "u18-w024",
+      "fr": "responsable des ressources humaines",
+      "en": "HR manager",
+      "pos": "noun",
+      "gender": "mf",
+      "plural": "responsables des ressources humaines",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "La responsable des ressources humaines m'a fait visiter les locaux.",
+        "en": "The HR manager showed me round the offices."
+      }
+    },
+    {
+      "id": "u18-w025",
+      "fr": "formation continue",
+      "en": "in-service training, continuing education",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "L'entreprise propose de la formation continue à tous ses salariés.",
+        "en": "The company offers in-service training to all its employees."
+      }
+    },
+    {
+      "id": "u18-w026",
+      "fr": "alternance",
+      "en": "work-study programme, apprenticeship",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Il prépare son diplôme en alternance : deux semaines à l'école, deux semaines en entreprise.",
+        "en": "He's doing his degree as a work-study programme: two weeks at school, two weeks at a company."
+      }
+    },
+    {
+      "id": "u18-w027",
+      "fr": "intérim",
+      "en": "temping, temporary work",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Pendant un an, j'ai fait de l'intérim dans plusieurs usines.",
+        "en": "For a year, I did temping work in several factories."
+      }
+    },
+    {
+      "id": "u18-w028",
+      "fr": "période d'essai",
+      "en": "probation period, trial period",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "périodes d'essai",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Ma période d'essai se termine à la fin du mois.",
+        "en": "My probation period ends at the end of the month."
+      }
+    },
+    {
+      "id": "u18-w029",
+      "fr": "rémunération",
+      "en": "pay, remuneration",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "rémunérations",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "La rémunération dépend de l'expérience du candidat.",
+        "en": "Pay depends on the candidate's experience."
+      }
+    },
+    {
+      "id": "u18-w030",
+      "fr": "fourchette de salaire",
+      "en": "salary range",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "fourchettes de salaire",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "La fourchette de salaire est indiquée dans l'annonce.",
+        "en": "The salary range is given in the advert."
+      }
+    },
+    {
+      "id": "u18-w031",
+      "fr": "avantage",
+      "en": "benefit, perk, advantage",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "avantages",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Parmi les avantages, il y a les tickets-restaurant et une salle de sport.",
+        "en": "The perks include meal vouchers and a gym."
+      }
+    },
+    {
+      "id": "u18-w032",
+      "fr": "mobilité",
+      "en": "mobility, willingness to relocate",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "mobilités",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Une certaine mobilité géographique est demandée pour ce poste.",
+        "en": "Some willingness to relocate is required for this position."
+      }
+    },
+    {
+      "id": "u18-w033",
+      "fr": "polyvalent",
+      "en": "versatile, multi-skilled",
+      "pos": "adjective",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Dans une petite entreprise, il faut être polyvalent.",
+        "en": "In a small company, you need to be versatile."
+      }
+    },
+    {
+      "id": "u18-w034",
+      "fr": "autonome",
+      "en": "independent, able to work alone",
+      "pos": "adjective",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Nous cherchons une personne autonome, capable de gérer ses propres projets.",
+        "en": "We're looking for an independent person, able to manage their own projects."
+      }
+    },
+    {
+      "id": "u18-w035",
+      "fr": "ponctuel / ponctuelle",
+      "en": "punctual",
+      "pos": "adjective",
+      "level": "A2+",
+      "core": false,
+      "example": {
+        "fr": "Elle est toujours ponctuelle, même quand il y a des grèves.",
+        "en": "She's always punctual, even when there are strikes."
+      }
+    },
+    {
+      "id": "u18-w036",
+      "fr": "organisé",
+      "en": "organised",
+      "pos": "adjective",
+      "level": "A2+",
+      "core": false,
+      "example": {
+        "fr": "Je suis très organisé : je planifie toujours ma semaine le lundi matin.",
+        "en": "I'm very organised: I always plan my week on Monday morning."
+      }
+    },
+    {
+      "id": "u18-w037",
+      "fr": "curieux / curieuse",
+      "en": "curious, inquisitive",
+      "pos": "adjective",
+      "level": "A2+",
+      "core": false,
+      "example": {
+        "fr": "Les recruteurs apprécient les candidats curieux qui posent des questions.",
+        "en": "Recruiters appreciate inquisitive candidates who ask questions."
+      }
+    },
+    {
+      "id": "u18-w038",
+      "fr": "fiable",
+      "en": "reliable",
+      "pos": "adjective",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Mon ancien chef dit que je suis quelqu'un de fiable.",
+        "en": "My former boss says I'm a reliable person."
+      }
+    },
+    {
+      "id": "u18-w039",
+      "fr": "esprit d'équipe",
+      "en": "team spirit",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Dans ce métier, l'esprit d'équipe est indispensable.",
+        "en": "In this job, team spirit is essential."
+      }
+    },
+    {
+      "id": "u18-w040",
+      "fr": "initiative",
+      "en": "initiative",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "initiatives",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Il a pris l'initiative de créer un guide pour les nouveaux employés.",
+        "en": "He took the initiative to create a guide for new employees."
+      }
+    },
+    {
+      "id": "u18-w041",
+      "fr": "savoir-être",
+      "en": "soft skills, interpersonal skills",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "savoir-être",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Pour ce poste d'accueil, le savoir-être compte autant que le diplôme.",
+        "en": "For this reception job, soft skills count as much as qualifications."
+      }
+    },
+    {
+      "id": "u18-w042",
+      "fr": "référence",
+      "en": "reference",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "références",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Pouvez-vous nous donner les coordonnées de deux références ?",
+        "en": "Can you give us the contact details of two referees?"
+      }
+    },
+    {
+      "id": "u18-w043",
+      "fr": "lettre de recommandation",
+      "en": "letter of recommendation",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "lettres de recommandation",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Mon professeur m'a écrit une lettre de recommandation.",
+        "en": "My teacher wrote me a letter of recommendation."
+      }
+    },
+    {
+      "id": "u18-w044",
+      "fr": "candidature spontanée",
+      "en": "unsolicited application",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "candidatures spontanées",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "J'ai été embauché grâce à une candidature spontanée.",
+        "en": "I was hired thanks to an unsolicited application."
+      }
+    },
+    {
+      "id": "u18-w045",
+      "fr": "relancer",
+      "en": "to follow up (with someone)",
+      "pos": "verb",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Sans réponse après deux semaines, vous pouvez relancer l'employeur par courriel.",
+        "en": "If you have no answer after two weeks, you can follow up with the employer by email."
+      }
+    },
+    {
+      "id": "u18-w046",
+      "fr": "présélectionner",
+      "en": "to shortlist",
+      "pos": "verb",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Seuls cinq candidats ont été présélectionnés.",
+        "en": "Only five candidates were shortlisted."
+      }
+    },
+    {
+      "id": "u18-w047",
+      "fr": "convoquer",
+      "en": "to invite (officially), to summon",
+      "pos": "verb",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Elle a été convoquée à un deuxième entretien.",
+        "en": "She was invited to a second interview."
+      }
+    },
+    {
+      "id": "u18-w048",
+      "fr": "décrocher",
+      "en": "to land, to get (a job, a contract)",
+      "pos": "verb",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Il a décroché son premier emploi juste après ses études.",
+        "en": "He landed his first job right after his studies."
+      }
+    },
+    {
+      "id": "u18-w049",
+      "fr": "refus",
+      "en": "rejection, refusal",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "refus",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Après trois refus, j'ai demandé conseil à une amie recruteuse.",
+        "en": "After three rejections, I asked a recruiter friend for advice."
+      }
+    },
+    {
+      "id": "u18-w050",
+      "fr": "retenir",
+      "en": "to select, to keep (a candidate)",
+      "pos": "verb",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Malheureusement, votre candidature n'a pas été retenue.",
+        "en": "Unfortunately, your application has not been successful."
+      }
+    },
+    {
+      "id": "u18-w051",
+      "fr": "recruter",
+      "en": "to recruit",
+      "pos": "verb",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "L'hôpital recrute des infirmiers toute l'année.",
+        "en": "The hospital recruits nurses all year round."
+      }
+    },
+    {
+      "id": "u18-w052",
+      "fr": "se présenter",
+      "en": "to introduce oneself; to turn up",
+      "pos": "verb",
+      "level": "A2+",
+      "core": false,
+      "example": {
+        "fr": "Présentez-vous en deux minutes, s'il vous plaît.",
+        "en": "Please introduce yourself in two minutes."
+      }
+    },
+    {
+      "id": "u18-w053",
+      "fr": "se renseigner sur",
+      "en": "to find out about, to research",
+      "pos": "verb",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Avant l'entretien, renseignez-vous sur l'histoire de l'entreprise.",
+        "en": "Before the interview, find out about the company's history."
+      }
+    },
+    {
+      "id": "u18-w054",
+      "fr": "maîtriser",
+      "en": "to master, to have a good command of",
+      "pos": "verb",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Il maîtrise parfaitement les logiciels de dessin.",
+        "en": "He has a perfect command of drawing software."
+      }
+    },
+    {
+      "id": "u18-w055",
+      "fr": "parler couramment",
+      "en": "to speak fluently",
+      "pos": "expression",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Elle parle couramment anglais et portugais.",
+        "en": "She speaks English and Portuguese fluently."
+      }
+    },
+    {
+      "id": "u18-w056",
+      "fr": "avoir des notions de",
+      "en": "to have a basic knowledge of",
+      "pos": "expression",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "J'ai des notions d'allemand, mais je ne le parle pas couramment.",
+        "en": "I have some basic German, but I don't speak it fluently."
+      }
+    },
+    {
+      "id": "u18-w057",
+      "fr": "bilingue",
+      "en": "bilingual",
+      "pos": "adjective",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Nous recherchons un assistant bilingue français-anglais.",
+        "en": "We're looking for a bilingual French-English assistant."
+      }
+    },
+    {
+      "id": "u18-w058",
+      "fr": "tableur",
+      "en": "spreadsheet (software)",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "tableurs",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Il faut savoir utiliser un tableur pour suivre les commandes.",
+        "en": "You need to know how to use a spreadsheet to track orders."
+      }
+    },
+    {
+      "id": "u18-w059",
+      "fr": "logiciel",
+      "en": "software, program",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "logiciels",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Vous serez formé au logiciel de réservation dès votre arrivée.",
+        "en": "You'll be trained on the booking software as soon as you arrive."
+      }
+    },
+    {
+      "id": "u18-w060",
+      "fr": "lacune",
+      "en": "gap (in knowledge)",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "lacunes",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "J'ai encore quelques lacunes en comptabilité, mais je suis une formation.",
+        "en": "I still have a few gaps in accounting, but I'm taking a course."
+      }
+    },
+    {
+      "id": "u18-w061",
+      "fr": "demandeur d'emploi",
+      "en": "jobseeker",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "demandeurs d'emploi",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Les ateliers sont gratuits pour les demandeurs d'emploi.",
+        "en": "The workshops are free for jobseekers."
+      }
+    },
+    {
+      "id": "u18-w062",
+      "fr": "petit boulot",
+      "en": "odd job, casual job",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "petits boulots",
+      "level": "A2+",
+      "core": false,
+      "example": {
+        "fr": "Pendant mes études, j'ai fait plein de petits boulots.",
+        "en": "During my studies, I did lots of casual jobs."
+      }
+    },
+    {
+      "id": "u18-w063",
+      "fr": "secteur",
+      "en": "sector, field",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "secteurs",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Le secteur de la santé recrute beaucoup en ce moment.",
+        "en": "The health sector is recruiting a lot at the moment."
+      }
+    },
+    {
+      "id": "u18-w064",
+      "fr": "PME",
+      "en": "SME, small or medium-sized company",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "PME",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Je préfère travailler dans une PME, où tout le monde se connaît.",
+        "en": "I prefer working in a small company, where everyone knows each other."
+      }
+    },
+    {
+      "id": "u18-w065",
+      "fr": "start-up",
+      "en": "start-up",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "start-up",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Elle travaille pour une start-up qui développe des applications de santé.",
+        "en": "She works for a start-up that develops health apps."
+      }
+    },
+    {
+      "id": "u18-w066",
+      "fr": "fiche de poste",
+      "en": "job description",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "fiches de poste",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Lisez attentivement la fiche de poste avant l'entretien.",
+        "en": "Read the job description carefully before the interview."
+      }
+    },
+    {
+      "id": "u18-w067",
+      "fr": "mission",
+      "en": "task, assignment, duty",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "missions",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Votre mission principale sera d'accueillir les clients.",
+        "en": "Your main duty will be to welcome customers."
+      }
+    },
+    {
+      "id": "u18-w068",
+      "fr": "responsabilité",
+      "en": "responsibility",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "responsabilités",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Dans mon dernier poste, j'avais la responsabilité de toute l'équipe du soir.",
+        "en": "In my last job, I was responsible for the whole evening team."
+      }
+    },
+    {
+      "id": "u18-w069",
+      "fr": "encadrer",
+      "en": "to supervise, to manage (people)",
+      "pos": "verb",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Elle encadre une équipe de huit personnes.",
+        "en": "She manages a team of eight people."
+      }
+    },
+    {
+      "id": "u18-w070",
+      "fr": "négocier",
+      "en": "to negotiate",
+      "pos": "verb",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Il a réussi à négocier un jour de télétravail par semaine.",
+        "en": "He managed to negotiate one day of working from home a week."
+      }
+    },
+    {
+      "id": "u18-w071",
+      "fr": "s'adapter",
+      "en": "to adapt",
+      "pos": "verb",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Je m'adapte facilement à un nouvel environnement.",
+        "en": "I adapt easily to a new environment."
+      }
+    },
+    {
+      "id": "u18-w072",
+      "fr": "aucun / aucune",
+      "en": "no, not a single, none",
+      "pos": "pronoun",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Je n'ai reçu aucune réponse à ma candidature.",
+        "en": "I haven't received any reply to my application."
+      }
+    },
+    {
+      "id": "u18-w073",
+      "fr": "personne",
+      "en": "nobody, no one (ne … personne)",
+      "pos": "pronoun",
+      "level": "A2+",
+      "core": false,
+      "example": {
+        "fr": "Je ne connais personne dans cette entreprise.",
+        "en": "I don't know anyone at this company."
+      }
+    },
+    {
+      "id": "u18-w074",
+      "fr": "nulle part",
+      "en": "nowhere, not anywhere",
+      "pos": "adverb",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Je n'ai trouvé cette information nulle part sur le site.",
+        "en": "I couldn't find this information anywhere on the website."
+      }
+    },
+    {
+      "id": "u18-w075",
+      "fr": "ne … que",
+      "en": "only",
+      "pos": "expression",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Je ne travaille que le matin pour l'instant.",
+        "en": "For the moment, I only work in the mornings."
+      }
+    },
+    {
+      "id": "u18-w076",
+      "fr": "ni … ni",
+      "en": "neither … nor",
+      "pos": "conjunction",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Il n'a ni permis ni voiture.",
+        "en": "He has neither a driving licence nor a car."
+      }
+    },
+    {
+      "id": "u18-w077",
+      "fr": "non plus",
+      "en": "either, neither (after a negative)",
+      "pos": "adverb",
+      "level": "A2+",
+      "core": false,
+      "example": {
+        "fr": "Je n'ai pas eu de réponse. — Moi non plus.",
+        "en": "I haven't had a reply. — Me neither."
+      }
+    },
+    {
+      "id": "u18-w078",
+      "fr": "il y en a",
+      "en": "there is / there are some",
+      "pos": "expression",
+      "level": "A2+",
+      "core": false,
+      "example": {
+        "fr": "Des offres dans l'hôtellerie ? Il y en a beaucoup en été.",
+        "en": "Jobs in the hotel trade? There are lots of them in summer."
+      }
+    },
+    {
+      "id": "u18-w079",
+      "fr": "dans l'attente de",
+      "en": "looking forward to, awaiting (formal)",
+      "pos": "expression",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Dans l'attente de votre réponse, je vous prie d'agréer mes salutations distinguées.",
+        "en": "Looking forward to your reply, yours faithfully."
+      }
+    },
+    {
+      "id": "u18-w080",
+      "fr": "se tenir à la disposition de",
+      "en": "to be available to (formal)",
+      "pos": "expression",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Je me tiens à votre disposition pour un entretien.",
+        "en": "I am available for an interview at your convenience."
+      }
+    },
+    {
+      "id": "u18-w081",
+      "fr": "veuillez agréer mes salutations distinguées",
+      "en": "yours faithfully / yours sincerely (formal closing)",
+      "pos": "expression",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Veuillez agréer, Madame, Monsieur, mes salutations distinguées.",
+        "en": "Yours faithfully."
+      }
+    },
+    {
+      "id": "u18-w082",
+      "fr": "suite à",
+      "en": "following, further to",
+      "pos": "preposition",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Suite à notre conversation téléphonique, je vous envoie mon CV.",
+        "en": "Further to our phone conversation, I'm sending you my CV."
+      }
+    },
+    {
+      "id": "u18-w083",
+      "fr": "au sein de",
+      "en": "within, in (a team, an organisation)",
+      "pos": "preposition",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "J'aimerais évoluer au sein de votre équipe.",
+        "en": "I'd like to develop my career within your team."
+      }
+    },
+    {
+      "id": "u18-w084",
+      "fr": "en pièce jointe",
+      "en": "attached (to an email)",
+      "pos": "expression",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Vous trouverez mon CV en pièce jointe.",
+        "en": "Please find my CV attached."
+      }
+    }
+  ],
+  "grammar": [
+    {
+      "id": "u18-g01",
+      "title": "Advanced negation: personne, rien, aucun, ne… que, ni… ni",
+      "level": "B1",
+      "grammarTag": "negation",
+      "explanation": [
+        "Besides ne … pas, French has negations that give more precise information: ne … jamais (never), ne … plus (no longer, not any more), ne … rien (nothing), ne … personne (nobody), ne … aucun(e) (no, not a single), ne … ni … ni (neither … nor). In speech, ne is often dropped, but always write it.",
+        "Word order in compound tenses: pas, jamais, plus and rien go between the auxiliary and the past participle (Je n'ai rien dit. Il n'a jamais travaillé ici.). Personne, aucun and the que of ne … que go after the past participle (Je n'ai vu personne. Je n'ai reçu aucune réponse. Je n'ai envoyé qu'un CV.).",
+        "Personne, rien and aucun can also be the subject of the sentence. Then ne goes before the verb and there is no pas: Personne ne m'a rappelé. Rien n'a changé. Aucun candidat n'est venu. Aucun agrees with its noun (aucun poste, aucune offre) and is almost always singular.",
+        "Ne … que is not a real negation: it means 'only' (= seulement). Put que right before the word it restricts: Je ne travaille que le matin. Je n'ai qu'une semaine de congé. Because it is not negative, du / de la / des stay unchanged: Il ne boit que du café.",
+        "With ni … ni, the articles un / une / des disappear, but le / la / les stay: Je n'ai ni permis ni voiture. Elle n'aime ni le thé ni le café. Never combine pas with any of these negations: not « je n'ai pas vu personne »."
+      ],
+      "table": [
+        [
+          "Negation",
+          "Meaning",
+          "Present",
+          "Passé composé"
+        ],
+        [
+          "ne … jamais",
+          "never",
+          "Je ne postule jamais en ligne.",
+          "Je n'ai jamais postulé en ligne."
+        ],
+        [
+          "ne … plus",
+          "no longer",
+          "Il ne cherche plus d'emploi.",
+          "Il n'a plus cherché d'emploi."
+        ],
+        [
+          "ne … rien",
+          "nothing",
+          "Je ne dis rien.",
+          "Je n'ai rien dit."
+        ],
+        [
+          "ne … personne",
+          "nobody",
+          "Je ne connais personne.",
+          "Je n'ai vu personne."
+        ],
+        [
+          "ne … aucun(e)",
+          "no, not a single",
+          "Je n'ai aucune expérience.",
+          "Je n'ai reçu aucune réponse."
+        ],
+        [
+          "ne … que",
+          "only",
+          "Je ne parle qu'anglais.",
+          "Je n'ai envoyé qu'un CV."
+        ],
+        [
+          "ne … ni … ni",
+          "neither … nor",
+          "Je n'ai ni CV ni lettre.",
+          "Je n'ai appelé ni Paul ni Marie."
+        ]
+      ],
+      "examples": [
+        {
+          "fr": "Je n'ai encore reçu aucune réponse.",
+          "en": "I still haven't received a single reply."
+        },
+        {
+          "fr": "Personne ne m'a contacté après l'entretien.",
+          "en": "Nobody contacted me after the interview."
+        },
+        {
+          "fr": "Je n'ai qu'une question : quand commence le poste ?",
+          "en": "I only have one question: when does the job start?"
+        },
+        {
+          "fr": "Elle n'a jamais travaillé dans ce secteur.",
+          "en": "She has never worked in this sector."
+        },
+        {
+          "fr": "Nous ne recrutons plus de stagiaires cette année.",
+          "en": "We're no longer recruiting interns this year."
+        },
+        {
+          "fr": "Il n'a ni diplôme ni expérience, mais il est très motivé.",
+          "en": "He has neither a qualification nor experience, but he's very motivated."
+        },
+        {
+          "fr": "Rien n'est encore décidé.",
+          "en": "Nothing has been decided yet."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "Je n'ai pas vu personne.",
+          "right": "Je n'ai vu personne.",
+          "why": "Personne replaces pas; never use both."
+        },
+        {
+          "wrong": "Je n'ai vu rien.",
+          "right": "Je n'ai rien vu.",
+          "why": "In compound tenses, rien goes between the auxiliary and the past participle."
+        },
+        {
+          "wrong": "Je n'ai aucunes compétences en informatique.",
+          "right": "Je n'ai aucune compétence en informatique.",
+          "why": "Aucun(e) and its noun are normally singular."
+        },
+        {
+          "wrong": "Personne n'a pas répondu.",
+          "right": "Personne n'a répondu.",
+          "why": "When personne is the subject, use ne alone, without pas."
+        }
+      ]
+    },
+    {
+      "id": "u18-g02",
+      "title": "Y and en together, and the order of pronouns",
+      "level": "B1",
+      "grammarTag": "y-en",
+      "explanation": [
+        "Reminder: y replaces à + a thing or a place (J'y pense. J'y ai travaillé deux ans.), and en replaces de + a noun or a noun with a quantity (J'en ai trois. J'en parle souvent.).",
+        "When several object pronouns come before the verb, the order is fixed: me / te / se / nous / vous → le / la / les → lui / leur → y → en. So y always comes before en, and en always comes last: Il y en a. Je vous en parlerai. Je lui en ai parlé.",
+        "The most frequent combination is il y en a (there is / there are some): Des offres ? Il y en a beaucoup. It works in all tenses and in the negative: il y en avait, il y en aura, il n'y en a pas, il n'y en a aucune, il n'y en a plus.",
+        "Position: in a compound tense, the pronouns go before the auxiliary (Je lui en ai parlé). With an infinitive, they go before the infinitive (Je vais vous en parler). In the negative, ne … pas surrounds the pronouns and the conjugated verb: Je ne lui en ai pas parlé.",
+        "In the affirmative imperative, pronouns come after the verb with hyphens, and moi / toi become m' / t' before en: Parlez-m'en. Va-t'en. Verbs ending in -e or -a add an -s before y or en: Penses-y. Vas-y. In the negative imperative, the normal order returns: Ne m'en parlez pas."
+      ],
+      "table": [
+        [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        [
+          "me, te, se, nous, vous",
+          "le, la, les",
+          "lui, leur",
+          "y",
+          "en"
+        ],
+        [
+          "Je vous en parlerai.",
+          "Je le lui ai dit.",
+          "Je lui en ai parlé.",
+          "Il y en a.",
+          "Il n'y en a plus."
+        ]
+      ],
+      "examples": [
+        {
+          "fr": "Des postes à Montréal ? Oui, il y en a trois.",
+          "en": "Jobs in Montréal? Yes, there are three."
+        },
+        {
+          "fr": "Tu as parlé de ta candidature à ton chef ? — Oui, je lui en ai parlé hier.",
+          "en": "Did you tell your boss about your application? — Yes, I told him about it yesterday."
+        },
+        {
+          "fr": "Des références ? Je peux vous en donner deux.",
+          "en": "References? I can give you two."
+        },
+        {
+          "fr": "Des places pour l'atelier CV ? Désolé, il n'y en a plus.",
+          "en": "Places for the CV workshop? Sorry, there aren't any left."
+        },
+        {
+          "fr": "Le forum de l'emploi ? Je m'y suis inscrite hier.",
+          "en": "The job fair? I signed up for it yesterday."
+        },
+        {
+          "fr": "Votre expérience à l'étranger ? Parlez-m'en un peu.",
+          "en": "Your experience abroad? Tell me a bit about it."
+        },
+        {
+          "fr": "Il n'y en avait aucun dans ce secteur l'an dernier.",
+          "en": "There weren't any in this sector last year."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "Il en y a beaucoup.",
+          "right": "Il y en a beaucoup.",
+          "why": "Y always comes before en."
+        },
+        {
+          "wrong": "Je en lui ai parlé.",
+          "right": "Je lui en ai parlé.",
+          "why": "Lui comes before en, and the pronouns come before the auxiliary."
+        },
+        {
+          "wrong": "Je n'ai pas lui en parlé.",
+          "right": "Je ne lui en ai pas parlé.",
+          "why": "Ne … pas surrounds the pronouns and the auxiliary as one block."
+        },
+        {
+          "wrong": "Il y a des candidats ? — Oui, il y a.",
+          "right": "Il y a des candidats ? — Oui, il y en a.",
+          "why": "When you don't repeat the noun, en is required to replace des candidats."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "u18-ex01",
+      "type": "mcq",
+      "level": "B1",
+      "skill": "structures",
+      "grammarTag": "negation",
+      "prompt": "Choose the word that completes the sentence correctly.",
+      "promptFr": "Je n'ai vu ___ à l'accueil ce matin.",
+      "options": [
+        "rien",
+        "personne",
+        "aucun",
+        "jamais"
+      ],
+      "answer": 1,
+      "explanation": "Personne goes after the past participle: je n'ai vu personne. Rien and jamais would have to go before vu (je n'ai rien vu), and aucun needs a noun."
+    },
+    {
+      "id": "u18-ex02",
+      "type": "mcq",
+      "level": "B1",
+      "skill": "structures",
+      "grammarTag": "y-en",
+      "prompt": "Choose the correct pronoun.",
+      "promptFr": "Vous avez déjà travaillé à l'étranger ? — Oui, j'___ ai travaillé deux ans.",
+      "options": [
+        "en",
+        "lui",
+        "le",
+        "y"
+      ],
+      "answer": 3,
+      "explanation": "Y replaces a place (à l'étranger = there). En replaces de + noun, lui replaces à + person, and le is a direct object."
+    },
+    {
+      "id": "u18-ex03",
+      "type": "mcq",
+      "level": "B1",
+      "skill": "structures",
+      "grammarTag": "negation",
+      "prompt": "Choose the correct word.",
+      "promptFr": "Il n'y a ___ poste disponible en ce moment.",
+      "options": [
+        "aucun",
+        "aucune",
+        "personne",
+        "rien"
+      ],
+      "answer": 0,
+      "explanation": "Aucun agrees with poste, which is masculine. Personne and rien cannot be followed by a noun like this."
+    },
+    {
+      "id": "u18-ex04",
+      "type": "mcq",
+      "level": "B1",
+      "skill": "structures",
+      "grammarTag": "y-en",
+      "prompt": "Choose the correct pronoun.",
+      "promptFr": "Vous avez des références ? — Oui, j'___ ai trois.",
+      "options": [
+        "y",
+        "les",
+        "en",
+        "leur"
+      ],
+      "answer": 2,
+      "explanation": "With a number, en replaces the noun: j'en ai trois (= trois références). Les would not be used with a number."
+    },
+    {
+      "id": "u18-ex05",
+      "type": "mcq",
+      "level": "B1",
+      "skill": "structures",
+      "grammarTag": "y-en",
+      "prompt": "Choose the correct option.",
+      "promptFr": "Combien de candidats y a-t-il pour ce poste ? — Il ___ a une vingtaine.",
+      "options": [
+        "en y",
+        "y",
+        "y en",
+        "en"
+      ],
+      "answer": 2,
+      "explanation": "Il y a + en → il y en a. Y always comes before en. Il en a would mean 'he has some'."
+    },
+    {
+      "id": "u18-ex06",
+      "type": "fill_blank",
+      "level": "B1",
+      "skill": "structures",
+      "grammarTag": "negation",
+      "prompt": "Complete the sentence (meaning: 'only').",
+      "sentence": "Je ne parle ___ deux langues étrangères : l'anglais et l'espagnol.",
+      "answers": [
+        "que"
+      ],
+      "translation": "I only speak two foreign languages: English and Spanish.",
+      "explanation": "Ne … que means 'only'. Que goes right before what is restricted: deux langues."
+    },
+    {
+      "id": "u18-ex07",
+      "type": "fill_blank",
+      "level": "B1",
+      "skill": "structures",
+      "grammarTag": "negation",
+      "prompt": "Complete the negation.",
+      "sentence": "Il n'a fait ___ erreur pendant l'entretien.",
+      "answers": [
+        "aucune"
+      ],
+      "hint": "not a single",
+      "translation": "He didn't make a single mistake during the interview.",
+      "explanation": "Erreur is feminine, so aucune. It goes after the past participle."
+    },
+    {
+      "id": "u18-ex08",
+      "type": "fill_blank",
+      "level": "B1",
+      "skill": "structures",
+      "grammarTag": "negation",
+      "prompt": "Complete the negation.",
+      "sentence": "___ ne m'a rappelé après l'entretien.",
+      "answers": [
+        "Personne"
+      ],
+      "hint": "nobody",
+      "translation": "Nobody called me back after the interview.",
+      "explanation": "Personne as subject: Personne ne + verb, without pas."
+    },
+    {
+      "id": "u18-ex09",
+      "type": "fill_blank",
+      "level": "B1",
+      "skill": "structures",
+      "grammarTag": "negation",
+      "prompt": "Complete the negation.",
+      "sentence": "Je n'ai ni CV ___ lettre de motivation à jour.",
+      "answers": [
+        "ni"
+      ],
+      "translation": "I have neither an up-to-date CV nor an up-to-date cover letter.",
+      "explanation": "Ne … ni … ni = neither … nor. Un / une disappear after ni."
+    },
+    {
+      "id": "u18-ex10",
+      "type": "fill_blank",
+      "level": "B1",
+      "skill": "structures",
+      "grammarTag": "y-en",
+      "prompt": "Complete with the correct pronoun.",
+      "sentence": "Des offres intéressantes ? Il n'y ___ a pas beaucoup cette semaine.",
+      "answers": [
+        "en"
+      ],
+      "translation": "Interesting job offers? There aren't many this week.",
+      "explanation": "Il y en a in the negative: il n'y en a pas. En replaces des offres with a quantity (beaucoup)."
+    },
+    {
+      "id": "u18-ex11",
+      "type": "conjugation",
+      "level": "B1",
+      "skill": "structures",
+      "grammarTag": "negation",
+      "verb": "dire (ne … rien)",
+      "tense": "passé composé, negative",
+      "person": "je",
+      "answers": [
+        "n'ai rien dit"
+      ],
+      "explanation": "Rien goes between the auxiliary and the past participle: je n'ai rien dit."
+    },
+    {
+      "id": "u18-ex12",
+      "type": "conjugation",
+      "level": "B1",
+      "skill": "structures",
+      "grammarTag": "negation",
+      "verb": "voir (ne … personne)",
+      "tense": "passé composé, negative",
+      "person": "nous",
+      "answers": [
+        "n'avons vu personne"
+      ],
+      "explanation": "Personne goes after the past participle: nous n'avons vu personne."
+    },
+    {
+      "id": "u18-ex13",
+      "type": "conjugation",
+      "level": "B1",
+      "skill": "structures",
+      "grammarTag": "negation",
+      "verb": "travailler (ne … jamais)",
+      "tense": "passé composé, negative",
+      "person": "elle",
+      "answers": [
+        "n'a jamais travaillé"
+      ],
+      "explanation": "Jamais goes between the auxiliary and the past participle: elle n'a jamais travaillé."
+    },
+    {
+      "id": "u18-ex14",
+      "type": "reorder",
+      "level": "B1",
+      "skill": "structures",
+      "grammarTag": "negation",
+      "prompt": "Put the words in order to make a sentence.",
+      "tokens": [
+        "Je",
+        "ne",
+        "connais",
+        "personne",
+        "dans",
+        "cette",
+        "entreprise"
+      ],
+      "translation": "I don't know anyone at this company.",
+      "explanation": "In a simple tense, ne goes before the verb and personne after it."
+    },
+    {
+      "id": "u18-ex15",
+      "type": "reorder",
+      "level": "B1",
+      "skill": "structures",
+      "grammarTag": "y-en",
+      "prompt": "Put the words in order to make a sentence.",
+      "tokens": [
+        "Je",
+        "lui",
+        "en",
+        "ai",
+        "parlé",
+        "hier"
+      ],
+      "translation": "I told him about it yesterday.",
+      "explanation": "Order: lui before en, and both pronouns before the auxiliary ai."
+    },
+    {
+      "id": "u18-ex16",
+      "type": "match",
+      "level": "B1",
+      "skill": "structures",
+      "grammarTag": "negation",
+      "prompt": "Match each negation with its meaning.",
+      "pairs": [
+        {
+          "left": "ne … personne",
+          "right": "nobody"
+        },
+        {
+          "left": "ne … rien",
+          "right": "nothing"
+        },
+        {
+          "left": "ne … aucun",
+          "right": "not a single"
+        },
+        {
+          "left": "ne … que",
+          "right": "only"
+        },
+        {
+          "left": "ne … ni … ni",
+          "right": "neither … nor"
+        }
+      ],
+      "explanation": "Each of these replaces pas. Ne … que is the odd one out: it means 'only', not a true negative."
+    },
+    {
+      "id": "u18-ex17",
+      "type": "match",
+      "level": "B1",
+      "skill": "structures",
+      "grammarTag": "vocabulary",
+      "prompt": "Match the words with their English meaning.",
+      "pairs": [
+        {
+          "left": "postuler",
+          "right": "to apply"
+        },
+        {
+          "left": "embaucher",
+          "right": "to hire"
+        },
+        {
+          "left": "un atout",
+          "right": "an asset"
+        },
+        {
+          "left": "un point faible",
+          "right": "a weakness"
+        },
+        {
+          "left": "une candidature",
+          "right": "an application"
+        }
+      ],
+      "explanation": "Key words for job hunting: on postule à une offre, on envoie sa candidature, et l'entreprise embauche."
+    },
+    {
+      "id": "u18-ex18",
+      "type": "translate",
+      "level": "B1",
+      "skill": "structures",
+      "grammarTag": "negation",
+      "direction": "en-fr",
+      "source": "I only have one year of experience.",
+      "answers": [
+        "Je n'ai qu'un an d'expérience.",
+        "Je n'ai qu'une année d'expérience.",
+        "J'ai seulement un an d'expérience.",
+        "J'ai seulement une année d'expérience.",
+        "Je n'ai qu'un an d'expérience professionnelle.",
+        "Je n'ai qu'une seule année d'expérience."
+      ],
+      "explanation": "Ne … que = only. Que elides before un: je n'ai qu'un an. Seulement is also correct."
+    },
+    {
+      "id": "u18-ex19",
+      "type": "translate",
+      "level": "B1",
+      "skill": "structures",
+      "grammarTag": "negation",
+      "direction": "fr-en",
+      "source": "Je n'ai reçu aucune réponse.",
+      "answers": [
+        "I haven't received any reply.",
+        "I have not received any reply.",
+        "I haven't received any answer.",
+        "I have not received any answer.",
+        "I haven't received any response.",
+        "I have not received any response.",
+        "I didn't receive any reply.",
+        "I did not receive any reply.",
+        "I didn't receive any answer.",
+        "I didn't receive any response.",
+        "I have received no reply.",
+        "I have received no answer.",
+        "I have received no response.",
+        "I received no reply.",
+        "I received no answer.",
+        "I received no response.",
+        "I haven't had any reply.",
+        "I haven't had any response.",
+        "I haven't received a single reply.",
+        "I haven't received a single answer."
+      ],
+      "explanation": "Ne … aucune = not any / no / not a single. Aucune agrees with réponse (feminine)."
+    },
+    {
+      "id": "u18-ex20",
+      "type": "dictation",
+      "level": "B1",
+      "skill": "structures",
+      "grammarTag": "negation",
+      "text": "Je n'ai jamais travaillé dans ce secteur, mais j'apprends vite.",
+      "translation": "I've never worked in this sector, but I learn fast.",
+      "explanation": "Listen for the elided n' before ai: je n'ai jamais travaillé."
+    }
+  ],
+  "checkpoint": [
+    {
+      "id": "u18-cp01",
+      "type": "mcq",
+      "level": "B1",
+      "skill": "structures",
+      "grammarTag": "negation",
+      "prompt": "Choose the correct word.",
+      "promptFr": "Je n'ai ___ compris à ses explications.",
+      "options": [
+        "rien",
+        "personne",
+        "aucun",
+        "que"
+      ],
+      "answer": 0,
+      "explanation": "Rien goes between the auxiliary and the participle: je n'ai rien compris. Personne and aucun would come after compris."
+    },
+    {
+      "id": "u18-cp02",
+      "type": "mcq",
+      "level": "B1",
+      "skill": "structures",
+      "grammarTag": "negation",
+      "prompt": "Choose the correct word.",
+      "promptFr": "___ candidate n'a été retenue.",
+      "options": [
+        "Aucun",
+        "Personne",
+        "Rien",
+        "Aucune"
+      ],
+      "answer": 3,
+      "explanation": "Aucune agrees with candidate (feminine). Personne and rien cannot be followed by a noun."
+    },
+    {
+      "id": "u18-cp03",
+      "type": "mcq",
+      "level": "B1",
+      "skill": "structures",
+      "grammarTag": "negation",
+      "prompt": "Choose the correct answer.",
+      "promptFr": "Vous connaissez des gens dans l'entreprise ? — Non, je ne connais ___.",
+      "options": [
+        "rien",
+        "personne",
+        "aucun",
+        "ni"
+      ],
+      "answer": 1,
+      "explanation": "The question is about people, so personne. Rien is for things, aucun needs a noun, and ni needs two items."
+    },
+    {
+      "id": "u18-cp04",
+      "type": "mcq",
+      "level": "B1",
+      "skill": "structures",
+      "grammarTag": "y-en",
+      "prompt": "Choose the correct answer.",
+      "promptFr": "Il reste des places pour l'atelier CV ? — Non, désolé, il n'y en a ___.",
+      "options": [
+        "plus",
+        "personne",
+        "rien",
+        "que"
+      ],
+      "answer": 0,
+      "explanation": "Il n'y en a plus = there aren't any left. Personne and rien don't work with en here, and que would need something after it."
+    },
+    {
+      "id": "u18-cp05",
+      "type": "mcq",
+      "level": "B1",
+      "skill": "structures",
+      "grammarTag": "y-en",
+      "prompt": "Choose the correct pronouns.",
+      "promptFr": "Vous avez parlé de votre projet au directeur ? — Oui, je ___ ai parlé.",
+      "options": [
+        "en lui",
+        "le lui",
+        "lui en",
+        "y en"
+      ],
+      "answer": 2,
+      "explanation": "Au directeur → lui, de votre projet → en. Lui comes before en: je lui en ai parlé."
+    },
+    {
+      "id": "u18-cp06",
+      "type": "fill_blank",
+      "level": "B1",
+      "skill": "structures",
+      "grammarTag": "negation",
+      "prompt": "Complete the sentence (meaning: 'only').",
+      "sentence": "Je n'ai envoyé ___ trois candidatures ce mois-ci.",
+      "answers": [
+        "que"
+      ],
+      "translation": "I only sent three applications this month.",
+      "explanation": "Ne … que = only. Que goes after the past participle, right before trois candidatures."
+    },
+    {
+      "id": "u18-cp07",
+      "type": "fill_blank",
+      "level": "B1",
+      "skill": "structures",
+      "grammarTag": "negation",
+      "prompt": "Complete the negation.",
+      "sentence": "Elle n'a ___ expérience dans la vente.",
+      "answers": [
+        "aucune"
+      ],
+      "hint": "no, not any",
+      "translation": "She has no experience in sales.",
+      "explanation": "Expérience is feminine, so aucune."
+    },
+    {
+      "id": "u18-cp08",
+      "type": "fill_blank",
+      "level": "B1",
+      "skill": "structures",
+      "grammarTag": "y-en",
+      "prompt": "Complete with the correct pronoun.",
+      "sentence": "Des postes en télétravail ? Il y ___ a quelques-uns.",
+      "answers": [
+        "en"
+      ],
+      "translation": "Remote jobs? There are a few.",
+      "explanation": "En replaces des postes with a quantity (quelques-uns): il y en a."
+    },
+    {
+      "id": "u18-cp09",
+      "type": "fill_blank",
+      "level": "B1",
+      "skill": "structures",
+      "grammarTag": "vocabulary",
+      "prompt": "Complete with a word from the unit.",
+      "sentence": "J'ai envoyé ma ___ pour le poste de comptable lundi dernier.",
+      "answers": [
+        "candidature"
+      ],
+      "hint": "application (f)",
+      "translation": "I sent my application for the accountant position last Monday.",
+      "explanation": "Une candidature is a job application. Note: candidature, not « application » (an app)."
+    },
+    {
+      "id": "u18-cp10",
+      "type": "fill_blank",
+      "level": "B1",
+      "skill": "structures",
+      "grammarTag": "vocabulary",
+      "prompt": "Complete with a word from the unit.",
+      "sentence": "Parler trois langues, c'est un vrai ___ pour ce poste.",
+      "answers": [
+        "atout",
+        "avantage",
+        "plus"
+      ],
+      "hint": "asset (m)",
+      "translation": "Speaking three languages is a real asset for this position.",
+      "explanation": "Un atout is an asset, a strong point that gives you an advantage. Un avantage and un plus are also correct."
+    }
+  ],
+  "listening": [
+    {
+      "id": "u18-li01",
+      "title": "Un entretien d'embauche",
+      "level": "B1",
+      "kind": "interview",
+      "context": "A recruiter interviews a candidate for a customer adviser position.",
+      "lines": [
+        {
+          "speaker": "Recruteuse",
+          "fr": "Bonjour, monsieur Diallo, asseyez-vous. Vous avez trouvé facilement ?"
+        },
+        {
+          "speaker": "M. Diallo",
+          "fr": "Bonjour, madame. Oui, sans problème, je connais bien le quartier."
+        },
+        {
+          "speaker": "Recruteuse",
+          "fr": "Parfait. Alors, pourquoi avez-vous postulé chez nous ?"
+        },
+        {
+          "speaker": "M. Diallo",
+          "fr": "J'ai vu votre offre sur un site d'emploi. Je connais vos produits depuis longtemps, et ce poste de conseiller client correspond tout à fait à mon profil."
+        },
+        {
+          "speaker": "Recruteuse",
+          "fr": "Vous avez déjà fait de la vente ?"
+        },
+        {
+          "speaker": "M. Diallo",
+          "fr": "Oui, j'en ai fait pendant trois ans, dans un magasin de sport. Par contre, je n'ai jamais travaillé dans un centre d'appels."
+        },
+        {
+          "speaker": "Recruteuse",
+          "fr": "Ce n'est pas un problème, nous proposons une formation. Et l'anglais ?"
+        },
+        {
+          "speaker": "M. Diallo",
+          "fr": "Je le parle couramment : j'ai vécu deux ans à Londres."
+        },
+        {
+          "speaker": "Recruteuse",
+          "fr": "Très bien. Selon vous, quel est votre principal point faible ?"
+        },
+        {
+          "speaker": "M. Diallo",
+          "fr": "Je suis parfois trop perfectionniste. Mais j'ai appris à mieux organiser mon temps pour ne pas prendre de retard."
+        },
+        {
+          "speaker": "Recruteuse",
+          "fr": "Vous avez des questions ?"
+        },
+        {
+          "speaker": "M. Diallo",
+          "fr": "Oui, une seule : quand pensez-vous pouvoir me donner une réponse ?"
+        },
+        {
+          "speaker": "Recruteuse",
+          "fr": "Nous recevons encore deux candidats. Je vous rappellerai avant la fin de la semaine prochaine."
+        }
+      ],
+      "translation": "Recruiter: Hello, Mr Diallo, have a seat. Did you find us easily?\nMr Diallo: Hello. Yes, no problem, I know the area well.\nRecruiter: Perfect. So, why did you apply to us?\nMr Diallo: I saw your advert on a job website. I've known your products for a long time, and this customer adviser position matches my profile perfectly.\nRecruiter: Have you done sales before?\nMr Diallo: Yes, I did it for three years, in a sports shop. However, I've never worked in a call centre.\nRecruiter: That's not a problem, we provide training. And English?\nMr Diallo: I speak it fluently: I lived in London for two years.\nRecruiter: Very good. In your opinion, what is your main weakness?\nMr Diallo: I'm sometimes too much of a perfectionist. But I've learned to organise my time better so that I don't fall behind.\nRecruiter: Do you have any questions?\nMr Diallo: Yes, just one: when do you think you'll be able to give me an answer?\nRecruiter: We're still seeing two candidates. I'll call you back before the end of next week.",
+      "questions": [
+        {
+          "id": "u18-li01-q1",
+          "question": "How did Mr Diallo find out about the job?",
+          "options": [
+            "Through a friend",
+            "On a job website",
+            "From a recruitment agency",
+            "In a sports shop"
+          ],
+          "answer": 1,
+          "explanation": "« J'ai vu votre offre sur un site d'emploi. »"
+        },
+        {
+          "id": "u18-li01-q2",
+          "question": "What experience does he NOT have?",
+          "options": [
+            "Selling",
+            "Living abroad",
+            "Speaking English",
+            "Working in a call centre"
+          ],
+          "answer": 3,
+          "explanation": "« je n'ai jamais travaillé dans un centre d'appels ». He has three years in sales and lived in London."
+        },
+        {
+          "id": "u18-li01-q3",
+          "question": "What weakness does he mention?",
+          "options": [
+            "He is often late.",
+            "He is sometimes too much of a perfectionist.",
+            "He doesn't speak English well.",
+            "He has never sold anything."
+          ],
+          "answer": 1,
+          "explanation": "« Je suis parfois trop perfectionniste. »"
+        },
+        {
+          "id": "u18-li01-q4",
+          "question": "What happens next?",
+          "options": [
+            "He starts training next week.",
+            "He must come back for a second interview.",
+            "He has to send his CV again.",
+            "The recruiter will call him before the end of next week."
+          ],
+          "answer": 3,
+          "explanation": "« Nous recevons encore deux candidats. Je vous rappellerai avant la fin de la semaine prochaine. »"
+        }
+      ]
+    },
+    {
+      "id": "u18-li02",
+      "title": "Le Forum de l'emploi",
+      "level": "B1",
+      "kind": "announcement",
+      "context": "An announcement on a local radio station.",
+      "lines": [
+        {
+          "speaker": "Annonceur",
+          "fr": "Mardi prochain, de 9 heures à 17 heures, le Parc des expositions accueille le Forum de l'emploi et de l'alternance."
+        },
+        {
+          "speaker": "Annonceur",
+          "fr": "Plus de quatre-vingts entreprises de la région y seront présentes, avec près de mille postes à pourvoir dans la logistique, la santé, la restauration et le numérique."
+        },
+        {
+          "speaker": "Annonceur",
+          "fr": "L'entrée est libre et il n'est pas nécessaire de s'inscrire à l'avance."
+        },
+        {
+          "speaker": "Annonceur",
+          "fr": "Pensez à apporter plusieurs exemplaires de votre CV : certains recruteurs feront passer des entretiens sur place."
+        },
+        {
+          "speaker": "Annonceur",
+          "fr": "Vous n'avez pas de CV, ou le vôtre a besoin d'être amélioré ? À l'espace « Coup de pouce », des conseillers vous aideront à en rédiger un toute la matinée."
+        },
+        {
+          "speaker": "Annonceur",
+          "fr": "Enfin, une navette gratuite partira de la gare toutes les vingt minutes."
+        }
+      ],
+      "translation": "Next Tuesday, from 9 a.m. to 5 p.m., the Exhibition Centre is hosting the Jobs and Work-Study Fair.\nMore than eighty companies from the region will be there, with nearly a thousand positions to fill in logistics, health, catering and digital technology.\nEntry is free and there is no need to register in advance.\nRemember to bring several copies of your CV: some recruiters will hold interviews on the spot.\nDon't have a CV, or does yours need improving? At the 'Helping Hand' area, advisers will help you write one throughout the morning.\nFinally, a free shuttle bus will leave from the station every twenty minutes.",
+      "questions": [
+        {
+          "id": "u18-li02-q1",
+          "question": "How many companies will take part?",
+          "options": [
+            "More than eighty",
+            "About twenty",
+            "Nearly a thousand",
+            "Exactly forty"
+          ],
+          "answer": 0,
+          "explanation": "« Plus de quatre-vingts entreprises ». A thousand is the number of positions."
+        },
+        {
+          "id": "u18-li02-q2",
+          "question": "Do you need to register?",
+          "options": [
+            "Yes, online before Tuesday.",
+            "Yes, at the station.",
+            "No, entry is free and no registration is needed.",
+            "Only for the interviews."
+          ],
+          "answer": 2,
+          "explanation": "« L'entrée est libre et il n'est pas nécessaire de s'inscrire à l'avance. »"
+        },
+        {
+          "id": "u18-li02-q3",
+          "question": "Why should you bring several copies of your CV?",
+          "options": [
+            "The advisers will correct them.",
+            "You need one to get into the fair.",
+            "Some recruiters will interview people on the spot.",
+            "You need one to take the shuttle."
+          ],
+          "answer": 2,
+          "explanation": "« certains recruteurs feront passer des entretiens sur place »."
+        },
+        {
+          "id": "u18-li02-q4",
+          "question": "What does the 'Coup de pouce' area offer?",
+          "options": [
+            "Help writing a CV, in the morning",
+            "Free job interviews all day",
+            "Information about the shuttle",
+            "Training in digital technology"
+          ],
+          "answer": 0,
+          "explanation": "« des conseillers vous aideront à en rédiger un toute la matinée » — en = un CV."
+        }
+      ]
+    }
+  ],
+  "reading": [
+    {
+      "id": "u18-re01",
+      "title": "Le savoir-être, nouvelle priorité des recruteurs",
+      "level": "B1",
+      "kind": "article",
+      "text": "Le savoir-être, nouvelle priorité des recruteurs\n\nPendant longtemps, le diplôme et l'expérience ont été les deux critères principaux pour décrocher un emploi. Ce n'est plus tout à fait le cas. Selon une enquête menée auprès de 500 entreprises françaises, sept recruteurs sur dix affirment avoir déjà refusé un candidat très qualifié à cause de son comportement pendant l'entretien.\n\nCe que les employeurs recherchent désormais, ce sont aussi des qualités humaines : l'esprit d'équipe, la capacité à s'adapter, la curiosité ou encore la fiabilité. C'est ce qu'on appelle le « savoir-être ». « Les compétences techniques, on peut les apprendre en quelques mois. Mais une personne qui n'écoute personne et qui ne se remet jamais en question, c'est beaucoup plus difficile à changer », explique Claire Morel, responsable du recrutement dans une PME lyonnaise.\n\nPour les candidats, cela change la façon de préparer un entretien. Il ne suffit plus de réciter son CV : il faut raconter des situations concrètes qui montrent ses qualités. Un conseil des spécialistes : préparez trois ou quatre exemples précis avant le jour J. Et n'oubliez pas que l'entretien commence dès votre arrivée : la façon dont vous saluez la personne à l'accueil compte aussi !",
+      "translation": "Soft skills, recruiters' new priority\n\nFor a long time, qualifications and experience were the two main criteria for landing a job. That is no longer quite the case. According to a survey of 500 French companies, seven recruiters out of ten say they have already turned down a highly qualified candidate because of their behaviour during the interview.\n\nWhat employers are now looking for are also human qualities: team spirit, adaptability, curiosity and reliability. This is what is called 'savoir-être' (soft skills). 'Technical skills can be learned in a few months. But someone who doesn't listen to anyone and never questions themselves is much harder to change,' explains Claire Morel, head of recruitment at a small company in Montréal.\n\nFor candidates, this changes the way they prepare for an interview. It is no longer enough to recite your CV: you need to describe concrete situations that show your qualities. One piece of advice from specialists: prepare three or four precise examples before the big day. And don't forget that the interview begins as soon as you arrive: the way you greet the person at reception matters too!",
+      "questions": [
+        {
+          "id": "u18-re01-q1",
+          "question": "What did the survey show?",
+          "options": [
+            "Seven out of ten candidates have no qualifications.",
+            "Companies no longer look at qualifications.",
+            "Most interviews last less than ten minutes.",
+            "Most recruiters have rejected a highly qualified candidate because of their behaviour."
+          ],
+          "answer": 3,
+          "explanation": "« sept recruteurs sur dix affirment avoir déjà refusé un candidat très qualifié à cause de son comportement »."
+        },
+        {
+          "id": "u18-re01-q2",
+          "question": "What is Claire Morel's view?",
+          "options": [
+            "Technical skills are the most important thing.",
+            "Technical skills are easier to learn than changing someone's behaviour.",
+            "Candidates should never talk about their weaknesses.",
+            "Small companies don't need soft skills."
+          ],
+          "answer": 1,
+          "explanation": "« Les compétences techniques, on peut les apprendre en quelques mois. Mais une personne qui n'écoute personne … c'est beaucoup plus difficile à changer »."
+        },
+        {
+          "id": "u18-re01-q3",
+          "question": "What do the specialists advise candidates to do?",
+          "options": [
+            "Prepare a few precise examples that show their qualities",
+            "Learn their CV by heart",
+            "Bring several copies of their CV",
+            "Arrive very early"
+          ],
+          "answer": 0,
+          "explanation": "« préparez trois ou quatre exemples précis avant le jour J ». The text says reciting your CV is no longer enough."
+        },
+        {
+          "id": "u18-re01-q4",
+          "question": "What does the last sentence imply?",
+          "options": [
+            "The receptionist decides who gets the job.",
+            "Candidates should not talk to the receptionist.",
+            "Candidates may be judged even before the interview itself starts.",
+            "Interviews usually take place at reception."
+          ],
+          "answer": 2,
+          "explanation": "« l'entretien commence dès votre arrivée » — your behaviour is observed from the moment you arrive."
+        }
+      ]
+    },
+    {
+      "id": "u18-re02",
+      "title": "Offre d'emploi : assistant(e) commercial(e)",
+      "level": "B1",
+      "kind": "advert",
+      "text": "OFFRE D'EMPLOI\n\nLa Fabrique Verte, PME de 45 salariés spécialisée dans les produits d'entretien écologiques, recrute un(e) assistant(e) commercial(e) en CDI.\n\nVos missions :\n– répondre aux demandes des clients par téléphone et par courriel ;\n– préparer les devis et suivre les commandes ;\n– participer à l'organisation des salons professionnels.\n\nVotre profil :\n– vous êtes rigoureux(se), organisé(e) et vous avez le sens du contact ;\n– vous maîtrisez les outils bureautiques, en particulier le tableur ;\n– un bon niveau d'anglais est indispensable ; des notions d'allemand seraient un plus.\n\nAucun diplôme précis n'est exigé, mais une première expérience sur un poste similaire est souhaitée.\n\nRémunération : entre 2 100 et 2 300 $ brut par mois, selon l'expérience. Poste basé à Trois-Rivières, avec deux jours de télétravail possibles par semaine.\n\nPour postuler, envoyez votre CV et votre lettre de motivation à Mme Karine Leroy avant le 30 avril, en précisant la référence AC-24.",
+      "translation": "JOB OFFER\n\nLa Fabrique Verte, a 45-employee SME specialising in eco-friendly cleaning products, is recruiting a sales assistant on a permanent contract.\n\nYour duties:\n– answering customer enquiries by phone and email;\n– preparing quotes and following up orders;\n– helping to organise trade fairs.\n\nYour profile:\n– you are meticulous, organised and good with people;\n– you have a good command of office software, especially spreadsheets;\n– a good level of English is essential; some knowledge of German would be a plus.\n\nNo specific qualification is required, but some previous experience in a similar position is preferred.\n\nPay: between $2,100 and $2,300 gross per month, depending on experience. The job is based in Trois-Rivières, with the possibility of two days a week working from home.\n\nTo apply, send your CV and cover letter to Ms Karine Leroy before 30 April, quoting reference AC-24.",
+      "questions": [
+        {
+          "id": "u18-re02-q1",
+          "question": "Which task is NOT part of the job?",
+          "options": [
+            "Answering customers",
+            "Managing a team",
+            "Preparing quotes",
+            "Helping to organise trade fairs"
+          ],
+          "answer": 1,
+          "explanation": "The three listed missions are customer enquiries, quotes and orders, and trade fairs. Nothing is said about managing people."
+        },
+        {
+          "id": "u18-re02-q2",
+          "question": "Which requirement is essential?",
+          "options": [
+            "Some knowledge of German",
+            "A specific qualification",
+            "Living in Trois-Rivières",
+            "A good level of English"
+          ],
+          "answer": 3,
+          "explanation": "« un bon niveau d'anglais est indispensable ». German is only « un plus » and no specific diploma is required."
+        },
+        {
+          "id": "u18-re02-q3",
+          "question": "What does the company say about qualifications and experience?",
+          "options": [
+            "A university degree is required.",
+            "No specific qualification is needed, but previous experience is preferred.",
+            "Experience is not important.",
+            "Only candidates with five years' experience will be considered."
+          ],
+          "answer": 1,
+          "explanation": "« Aucun diplôme précis n'est exigé, mais une première expérience sur un poste similaire est souhaitée. »"
+        },
+        {
+          "id": "u18-re02-q4",
+          "question": "Which candidate best matches the advert?",
+          "options": [
+            "A team manager who speaks only French",
+            "A recent graduate with no work experience who speaks German",
+            "A salesperson who wants to work from home every day",
+            "Someone who has been a sales assistant, is good with spreadsheets and speaks English well"
+          ],
+          "answer": 3,
+          "explanation": "The ideal profile has similar experience, office software skills and good English. Full-time remote work is not offered (two days a week)."
+        }
+      ]
+    }
+  ],
+  "writing": [
+    {
+      "id": "u18-wr01",
+      "title": "Un courriel de candidature",
+      "level": "B1",
+      "taskType": "message",
+      "instructions": "Write a short formal email applying for the job in the advert. Present your background, your qualities and your availability.",
+      "promptFr": "Vous avez lu cette annonce sur un site d'emploi : « Hôtel des Arts, Sherbrooke, recherche réceptionniste (H/F) pour la saison d'été. Anglais exigé. » Vous écrivez un courriel au responsable pour présenter votre candidature. Vous présentez votre parcours, vos qualités et vos disponibilités. (60 à 120 mots)",
+      "minWords": 60,
+      "maxWords": 120,
+      "modelAnswer": "Objet : Candidature au poste de réceptionniste\n\nMadame, Monsieur,\n\nSuite à votre annonce, je souhaite poser ma candidature au poste de réceptionniste pour la saison d'été.\n\nJ'ai travaillé deux ans à l'accueil d'une auberge de jeunesse à Lisbonne, où je gérais les réservations et répondais aux demandes des clients. Je parle couramment anglais et portugais.\n\nJe suis organisée et souriante, et je n'ai aucun problème avec les horaires de nuit ou de week-end. Je suis disponible dès le 1er juin.\n\nVous trouverez mon CV en pièce jointe. Je me tiens à votre disposition pour un entretien.\n\nVeuillez agréer, Madame, Monsieur, mes salutations distinguées.\n\nSofia Martins",
+      "checklist": [
+        "I include a clear subject line and a formal greeting (Madame, Monsieur).",
+        "I say which job I'm applying for and where I saw the advert.",
+        "I present relevant experience and language skills.",
+        "I mention my qualities and my availability, using at least one advanced negation (aucun, jamais, ne… que…).",
+        "I end with a formal closing (Veuillez agréer… / Je me tiens à votre disposition…).",
+        "My email is between 60 and 120 words."
+      ]
+    },
+    {
+      "id": "u18-wr02",
+      "title": "Diplôme ou expérience ?",
+      "level": "B1",
+      "taskType": "opinion",
+      "instructions": "TCF task 3: write an argued opinion. Present both sides, give an example and conclude.",
+      "promptFr": "Pour trouver un emploi, certains pensent que le diplôme est essentiel, d'autres que l'expérience compte davantage. Quelle est votre opinion ? Justifiez votre réponse avec des exemples. (120 à 180 mots)",
+      "minWords": 120,
+      "maxWords": 180,
+      "modelAnswer": "À mon avis, le diplôme et l'expérience sont tous les deux importants, mais l'expérience a souvent plus de poids.\n\nD'un côté, le diplôme reste nécessaire pour certains métiers. On ne peut pas devenir médecin ou avocat sans études longues, et beaucoup d'entreprises n'examinent aucune candidature sans un certain niveau de formation.\n\nD'un autre côté, un diplôme ne garantit pas qu'on sache travailler en équipe ou gérer des imprévus. C'est sur le terrain qu'on apprend vraiment un métier. Ma cousine, par exemple, n'avait que son diplôme d'études secondaires, mais après trois ans de petits boulots dans la restauration, elle a été embauchée comme responsable d'un restaurant.\n\nDe plus, de nombreux recruteurs accordent aujourd'hui beaucoup d'importance au savoir-être, qui ne s'apprend pas à l'université.\n\nEn conclusion, je pense que le diplôme ouvre des portes, mais que c'est l'expérience qui permet ensuite de progresser.",
+      "checklist": [
+        "I give my opinion clearly in the introduction and the conclusion.",
+        "I present arguments on both sides with connectors (d'un côté, d'un autre côté, de plus, en conclusion).",
+        "I include a concrete example.",
+        "I use at least two different negations (ne… aucun, ne… que, ne… jamais…).",
+        "My text is between 120 and 180 words."
+      ]
+    }
+  ],
+  "speaking": [
+    {
+      "id": "u18-sp01",
+      "title": "Entretien pour un poste en librairie",
+      "level": "B1",
+      "taskType": "interaction",
+      "instructions": "TCF task 2: role-play. You have two minutes to prepare. The examiner plays the recruiter. Introduce yourself, answer the questions and ask at least two questions about the job.",
+      "promptFr": "Vous passez un entretien d'embauche pour un poste de vendeur ou vendeuse dans une librairie. L'examinateur joue le rôle du recruteur. Vous vous présentez, vous répondez à ses questions et vous lui posez au moins deux questions sur le poste.",
+      "prepSeconds": 120,
+      "speakSeconds": 210,
+      "modelAnswer": "(Bonjour, présentez-vous, s'il vous plaît.)\nBonjour, madame. Je m'appelle Daniel, j'ai vingt-huit ans et j'habite à Lévis depuis deux ans. J'ai travaillé trois ans dans une boutique de jeux vidéo, où je conseillais les clients et je gérais les stocks.\n(Pourquoi voulez-vous travailler dans une librairie ?)\nJ'adore lire, surtout des romans policiers, et j'aime partager mes découvertes. Je pense que c'est un atout pour conseiller les clients.\n(Vous avez déjà travaillé dans une librairie ?)\nNon, je n'y ai jamais travaillé, mais j'apprends vite et je suis très organisé.\nJ'ai deux questions, si vous permettez. Quels seraient les horaires de travail ? Et est-ce qu'il y a une formation au début ?\n(Vous travaillerez du mardi au samedi, et oui, il y a une semaine de formation.)\nParfait, merci beaucoup. Je suis vraiment motivé par ce poste.",
+      "tips": [
+        "Use vous and polite formulas throughout (si vous permettez, je voudrais savoir…).",
+        "Present your experience with the passé composé and the imparfait.",
+        "Turn a weakness into a positive: je n'y ai jamais travaillé, mais j'apprends vite.",
+        "Prepare at least two questions about the job: hours, training, team, start date."
+      ]
+    },
+    {
+      "id": "u18-sp02",
+      "title": "Changer souvent d'emploi ?",
+      "level": "B1",
+      "taskType": "opinion",
+      "instructions": "TCF task 3: give and justify your opinion on the statement.",
+      "promptFr": "« Pour progresser dans sa carrière, il faut changer d'emploi régulièrement. » Qu'en pensez-vous ?",
+      "prepSeconds": 0,
+      "speakSeconds": 270,
+      "modelAnswer": "Je ne suis pas complètement d'accord avec cette idée. Bien sûr, changer d'entreprise permet de découvrir d'autres méthodes de travail, de développer de nouvelles compétences et souvent d'obtenir un meilleur salaire. Une amie informaticienne, par exemple, a changé trois fois de poste en six ans, et chaque fois, elle a beaucoup appris.\n\nPourtant, rester longtemps dans la même entreprise a aussi des avantages. On connaît bien l'équipe, on gagne la confiance de ses responsables et on peut évoluer en interne. D'ailleurs, certains employeurs se méfient des candidats qui ne restent jamais plus d'un an au même endroit.\n\nPour moi, ce qui compte, ce n'est pas le nombre d'emplois, c'est ce qu'on apprend. Si on ne progresse plus et qu'on n'a aucune perspective d'évolution, il vaut mieux partir. Sinon, la stabilité peut être un vrai atout.",
+      "tips": [
+        "Say clearly how far you agree, then give arguments on both sides.",
+        "Support your view with a real or invented example.",
+        "Use precise negations to sound natural: ne… jamais plus d'un an, ne… plus, aucune perspective.",
+        "Conclude with a nuanced answer (ça dépend de…, si…, sinon…)."
+      ]
+    }
+  ]
+}

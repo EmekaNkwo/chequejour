@@ -1,0 +1,320 @@
+{
+  "id": "a01",
+  "order": 1,
+  "level": "A1",
+  "theme": "Greetings and introductions",
+  "titleFr": "Bonjour !",
+  "description": "Say hello and goodbye, introduce yourself, spell your name and use polite words, with subject pronouns and the verbs être and avoir.",
+  "vocab": [
+    { "id": "a01-w001", "fr": "bonjour", "en": "hello, good morning", "pos": "expression", "level": "A1", "core": true, "example": { "fr": "Bonjour, madame ! Vous allez bien ?", "en": "Hello, madam! Are you well?" } },
+    { "id": "a01-w002", "fr": "salut", "en": "hi, bye (informal)", "pos": "expression", "level": "A1", "core": true, "example": { "fr": "Salut, Karim ! Ça va ?", "en": "Hi, Karim! How's it going?" } },
+    { "id": "a01-w003", "fr": "au revoir", "en": "goodbye", "pos": "expression", "level": "A1", "core": true, "example": { "fr": "Au revoir, monsieur, et merci !", "en": "Goodbye, sir, and thank you!" } },
+    { "id": "a01-w004", "fr": "bonsoir", "en": "good evening", "pos": "expression", "level": "A1", "core": true, "example": { "fr": "Bonsoir, tout le monde ! Ça va ?", "en": "Good evening, everyone! How are you?" } },
+    { "id": "a01-w005", "fr": "ça va", "en": "how are you? / I'm fine", "pos": "expression", "level": "A1", "core": true, "example": { "fr": "Ça va bien, merci. Et toi ?", "en": "I'm fine, thanks. And you?" } },
+    { "id": "a01-w006", "fr": "bien", "en": "well, fine", "pos": "adverb", "level": "A1", "core": true, "example": { "fr": "Je vais bien, merci.", "en": "I'm well, thank you." } },
+    { "id": "a01-w007", "fr": "merci", "en": "thank you", "pos": "expression", "level": "A1", "core": true, "example": { "fr": "Merci pour votre message !", "en": "Thank you for your message!" } },
+    { "id": "a01-w008", "fr": "s'il vous plaît", "en": "please (polite or to several people)", "pos": "expression", "level": "A1", "core": true, "example": { "fr": "Votre nom, s'il vous plaît ?", "en": "Your name, please?" } },
+    { "id": "a01-w009", "fr": "pardon", "en": "sorry, excuse me", "pos": "expression", "level": "A1", "core": true, "example": { "fr": "Pardon, madame, vous êtes Madame Martin ?", "en": "Excuse me, madam, are you Mrs Martin?" } },
+    { "id": "a01-w010", "fr": "oui", "en": "yes", "pos": "adverb", "level": "A1", "core": true, "example": { "fr": "Oui, je parle un peu français.", "en": "Yes, I speak a little French." } },
+    { "id": "a01-w011", "fr": "non", "en": "no", "pos": "adverb", "level": "A1", "core": true, "example": { "fr": "Non, je ne suis pas française, je suis belge.", "en": "No, I'm not French, I'm Belgian." } },
+    { "id": "a01-w012", "fr": "être", "en": "to be", "pos": "verb", "level": "A1", "core": true, "example": { "fr": "Je suis canadien et j'habite à Vancouver.", "en": "I'm Canadian and I live in Vancouver." } },
+    { "id": "a01-w013", "fr": "avoir", "en": "to have", "pos": "verb", "level": "A1", "core": true, "example": { "fr": "J'ai vingt-cinq ans.", "en": "I'm twenty-five (years old)." } },
+    { "id": "a01-w014", "fr": "nom", "en": "name, surname", "pos": "noun", "gender": "m", "plural": "noms", "level": "A1", "core": true, "example": { "fr": "Quel est votre nom ?", "en": "What is your name?" } },
+    { "id": "a01-w015", "fr": "monsieur", "en": "sir, Mr", "pos": "noun", "gender": "m", "plural": "messieurs", "level": "A1", "core": true, "example": { "fr": "Merci, monsieur, bonne journée !", "en": "Thank you, sir, have a nice day!" } },
+    { "id": "a01-w016", "fr": "madame", "en": "madam, Mrs, Ms", "pos": "noun", "gender": "f", "plural": "mesdames", "level": "A1", "core": true, "example": { "fr": "Excusez-moi, madame, vous parlez anglais ?", "en": "Excuse me, madam, do you speak English?" } },
+    { "id": "a01-w017", "fr": "parler", "en": "to speak", "pos": "verb", "level": "A1", "core": true, "example": { "fr": "Nous parlons français en classe.", "en": "We speak French in class." } },
+    { "id": "a01-w018", "fr": "comprendre", "en": "to understand", "pos": "verb", "level": "A1", "core": true, "example": { "fr": "Tu comprends la question ?", "en": "Do you understand the question?" } },
+    { "id": "a01-w019", "fr": "bonne nuit", "en": "good night", "pos": "expression", "level": "A1", "core": false, "example": { "fr": "Bonne nuit, à demain !", "en": "Good night, see you tomorrow!" } },
+    { "id": "a01-w020", "fr": "bonne journée", "en": "have a nice day", "pos": "expression", "level": "A1", "core": false, "example": { "fr": "Merci et bonne journée !", "en": "Thanks and have a nice day!" } },
+    { "id": "a01-w021", "fr": "à bientôt", "en": "see you soon", "pos": "expression", "level": "A1", "core": false, "example": { "fr": "Au revoir, Paul, à bientôt !", "en": "Goodbye, Paul, see you soon!" } },
+    { "id": "a01-w022", "fr": "à demain", "en": "see you tomorrow", "pos": "expression", "level": "A1", "core": false, "example": { "fr": "Le cours est fini. À demain, tout le monde !", "en": "The class is over. See you tomorrow, everyone!" } },
+    { "id": "a01-w023", "fr": "comment allez-vous", "en": "how are you? (polite)", "pos": "expression", "level": "A1", "core": false, "example": { "fr": "Bonjour, Madame Petit. Comment allez-vous ?", "en": "Hello, Mrs Petit. How are you?" } },
+    { "id": "a01-w024", "fr": "pas mal", "en": "not bad", "pos": "expression", "level": "A1", "core": false, "example": { "fr": "Ça va ? — Pas mal, merci. Et toi ?", "en": "How are you? — Not bad, thanks. And you?" } },
+    { "id": "a01-w025", "fr": "très", "en": "very", "pos": "adverb", "level": "A1", "core": false, "example": { "fr": "Je suis très content d'être ici.", "en": "I'm very happy to be here." } },
+    { "id": "a01-w026", "fr": "mal", "en": "badly, not well", "pos": "adverb", "level": "A1", "core": false, "example": { "fr": "Aujourd'hui, ça va mal : je suis fatigué.", "en": "Today things aren't good: I'm tired." } },
+    { "id": "a01-w027", "fr": "moi aussi", "en": "me too", "pos": "expression", "level": "A1", "core": false, "example": { "fr": "Tu es canadienne ? Moi aussi !", "en": "You're Canadian? Me too!" } },
+    { "id": "a01-w028", "fr": "de rien", "en": "you're welcome", "pos": "expression", "level": "A1", "core": false, "example": { "fr": "Merci beaucoup ! — De rien.", "en": "Thank you very much! — You're welcome." } },
+    { "id": "a01-w029", "fr": "je vous en prie", "en": "you're welcome (polite)", "pos": "expression", "level": "A1", "core": false, "example": { "fr": "Merci, monsieur. — Je vous en prie, madame.", "en": "Thank you, sir. — You're welcome, madam." } },
+    { "id": "a01-w030", "fr": "excusez-moi", "en": "excuse me (polite)", "pos": "expression", "level": "A1", "core": false, "example": { "fr": "Excusez-moi, vous êtes le professeur ?", "en": "Excuse me, are you the teacher?" } },
+    { "id": "a01-w031", "fr": "s'il te plaît", "en": "please (informal, to one person)", "pos": "expression", "level": "A1", "core": false, "example": { "fr": "Tu peux répéter, s'il te plaît ?", "en": "Can you repeat, please?" } },
+    { "id": "a01-w032", "fr": "merci beaucoup", "en": "thank you very much", "pos": "expression", "level": "A1", "core": false, "example": { "fr": "Merci beaucoup pour votre aide !", "en": "Thank you very much for your help!" } },
+    { "id": "a01-w033", "fr": "désolé / désolée", "en": "sorry", "pos": "adjective", "level": "A1", "core": false, "example": { "fr": "Je suis désolée, je ne parle pas espagnol.", "en": "I'm sorry, I don't speak Spanish." } },
+    { "id": "a01-w034", "fr": "d'accord", "en": "OK, all right", "pos": "expression", "level": "A1", "core": false, "example": { "fr": "On parle français ? — D'accord !", "en": "Shall we speak French? — OK!" } },
+    { "id": "a01-w035", "fr": "bienvenue", "en": "welcome", "pos": "expression", "level": "A1", "core": false, "example": { "fr": "Bienvenue au Canada !", "en": "Welcome to Canada!" } },
+    { "id": "a01-w036", "fr": "tu", "en": "you (one person, informal)", "pos": "pronoun", "level": "A1", "core": false, "example": { "fr": "Tu es d'où, Sam ?", "en": "Where are you from, Sam?" } },
+    { "id": "a01-w037", "fr": "vous", "en": "you (polite, or several people)", "pos": "pronoun", "level": "A1", "core": false, "example": { "fr": "Vous êtes Madame Lambert ?", "en": "Are you Mrs Lambert?" } },
+    { "id": "a01-w038", "fr": "on", "en": "we (informal), people, one", "pos": "pronoun", "level": "A1", "core": false, "example": { "fr": "Au Québec, on parle français.", "en": "In Quebec, people speak French." } },
+    { "id": "a01-w039", "fr": "moi", "en": "me, I (stressed)", "pos": "pronoun", "level": "A1", "core": false, "example": { "fr": "Moi, c'est Nadia. Et toi ?", "en": "I'm Nadia. And you?" } },
+    { "id": "a01-w040", "fr": "présenter", "en": "to introduce (someone)", "pos": "verb", "level": "A1", "core": false, "example": { "fr": "Je vous présente Julie. Elle est belge.", "en": "Let me introduce Julie. She's Belgian." } },
+    { "id": "a01-w041", "fr": "lettre", "en": "letter (of the alphabet)", "pos": "noun", "gender": "f", "plural": "lettres", "level": "A1", "core": false, "example": { "fr": "Mon prénom a cinq lettres.", "en": "My first name has five letters." } },
+    { "id": "a01-w042", "fr": "alphabet", "en": "alphabet", "pos": "noun", "gender": "m", "plural": "alphabets", "level": "A1", "core": false, "example": { "fr": "L'alphabet français a vingt-six lettres.", "en": "The French alphabet has twenty-six letters." } },
+    { "id": "a01-w043", "fr": "épeler", "en": "to spell", "pos": "verb", "level": "A1", "core": false, "example": { "fr": "Vous pouvez épeler votre nom, s'il vous plaît ?", "en": "Can you spell your name, please?" } },
+    { "id": "a01-w044", "fr": "comment ça s'écrit", "en": "how do you spell that?", "pos": "expression", "level": "A1", "core": false, "example": { "fr": "Moreau ? Comment ça s'écrit ?", "en": "Moreau? How do you spell that?" } },
+    { "id": "a01-w045", "fr": "mot", "en": "word", "pos": "noun", "gender": "m", "plural": "mots", "level": "A1", "core": false, "example": { "fr": "« Merci » est un mot très utile.", "en": "\"Merci\" is a very useful word." } },
+    { "id": "a01-w046", "fr": "question", "en": "question", "pos": "noun", "gender": "f", "plural": "questions", "level": "A1", "core": false, "example": { "fr": "J'ai une question, madame.", "en": "I have a question, madam." } },
+    { "id": "a01-w047", "fr": "réponse", "en": "answer", "pos": "noun", "gender": "f", "plural": "réponses", "level": "A1", "core": false, "example": { "fr": "Quelle est la bonne réponse ?", "en": "What is the right answer?" } },
+    { "id": "a01-w048", "fr": "répétez, s'il vous plaît", "en": "please repeat", "pos": "expression", "level": "A1", "core": false, "example": { "fr": "Répétez, s'il vous plaît, je n'entends pas bien.", "en": "Please repeat, I can't hear well." } },
+    { "id": "a01-w049", "fr": "je ne comprends pas", "en": "I don't understand", "pos": "expression", "level": "A1", "core": false, "example": { "fr": "Pardon, je ne comprends pas. Vous parlez vite.", "en": "Sorry, I don't understand. You're speaking fast." } },
+    { "id": "a01-w050", "fr": "comment on dit", "en": "how do you say", "pos": "expression", "level": "A1", "core": false, "example": { "fr": "Comment on dit « thank you » en français ?", "en": "How do you say \"thank you\" in French?" } },
+    { "id": "a01-w051", "fr": "vouloir dire", "en": "to mean", "pos": "expression", "level": "A1", "core": false, "example": { "fr": "Qu'est-ce que « salut » veut dire ?", "en": "What does \"salut\" mean?" } },
+    { "id": "a01-w052", "fr": "lentement", "en": "slowly", "pos": "adverb", "level": "A1", "core": false, "example": { "fr": "Parlez lentement, s'il vous plaît.", "en": "Please speak slowly." } },
+    { "id": "a01-w053", "fr": "écouter", "en": "to listen (to)", "pos": "verb", "level": "A1", "core": false, "example": { "fr": "Écoutez bien et répétez après moi.", "en": "Listen carefully and repeat after me." } },
+    { "id": "a01-w054", "fr": "écrire", "en": "to write", "pos": "verb", "level": "A1", "core": false, "example": { "fr": "Écrivez votre prénom ici, s'il vous plaît.", "en": "Please write your first name here." } },
+    { "id": "a01-w055", "fr": "apprendre", "en": "to learn", "pos": "verb", "level": "A1", "core": false, "example": { "fr": "J'apprends le français pour aller au Canada.", "en": "I'm learning French to go to Canada." } },
+    { "id": "a01-w056", "fr": "d'où", "en": "from where", "pos": "expression", "level": "A1", "core": false, "example": { "fr": "Vous êtes d'où, monsieur ?", "en": "Where are you from, sir?" } },
+    { "id": "a01-w057", "fr": "France", "en": "France", "pos": "noun", "gender": "f", "level": "A1", "core": false, "example": { "fr": "Nicolas habite en France, à Lille.", "en": "Nicolas lives in France, in Lille." } },
+    { "id": "a01-w058", "fr": "Canada", "en": "Canada", "pos": "noun", "gender": "m", "level": "A1", "core": false, "example": { "fr": "Elle habite au Canada, à Toronto.", "en": "She lives in Canada, in Toronto." } },
+    { "id": "a01-w059", "fr": "Belgique", "en": "Belgium", "pos": "noun", "gender": "f", "level": "A1", "core": false, "example": { "fr": "Bruxelles est en Belgique.", "en": "Brussels is in Belgium." } },
+    { "id": "a01-w060", "fr": "Suisse", "en": "Switzerland", "pos": "noun", "gender": "f", "level": "A1", "core": false, "example": { "fr": "En Suisse, on parle français et allemand.", "en": "In Switzerland, people speak French and German." } },
+    { "id": "a01-w061", "fr": "Maroc", "en": "Morocco", "pos": "noun", "gender": "m", "level": "A1", "core": false, "example": { "fr": "Yassine vient du Maroc.", "en": "Yassine comes from Morocco." } },
+    { "id": "a01-w062", "fr": "Sénégal", "en": "Senegal", "pos": "noun", "gender": "m", "level": "A1", "core": false, "example": { "fr": "Dakar est la capitale du Sénégal.", "en": "Dakar is the capital of Senegal." } },
+    { "id": "a01-w063", "fr": "États-Unis", "en": "United States", "pos": "noun", "gender": "m", "pluralOnly": true, "level": "A1", "core": false, "example": { "fr": "Mon ami habite aux États-Unis.", "en": "My friend lives in the United States." } },
+    { "id": "a01-w064", "fr": "français / française", "en": "French", "pos": "adjective", "level": "A1", "core": false, "example": { "fr": "Claire est française, elle habite à Montréal.", "en": "Claire is French, she lives in Montréal." } },
+    { "id": "a01-w065", "fr": "anglais / anglaise", "en": "English", "pos": "adjective", "level": "A1", "core": false, "example": { "fr": "Tom est anglais, il est de Londres.", "en": "Tom is English, he's from London." } },
+    { "id": "a01-w066", "fr": "canadien / canadienne", "en": "Canadian", "pos": "adjective", "level": "A1", "core": false, "example": { "fr": "Nous sommes canadiens, de Montréal.", "en": "We're Canadian, from Montreal." } },
+    { "id": "a01-w067", "fr": "belge", "en": "Belgian", "pos": "adjective", "level": "A1", "core": false, "example": { "fr": "Lucie est belge, elle est de Bruxelles.", "en": "Lucie is Belgian, she's from Brussels." } }
+  ],
+  "grammar": [
+    {
+      "id": "a01-g01",
+      "title": "Subject pronouns, tu and vous",
+      "level": "A1",
+      "grammarTag": "pronoms-sujets",
+      "explanation": [
+        "A subject pronoun tells you who does the action: je (I), tu (you), il (he), elle (she), on (we / people), nous (we), vous (you), ils and elles (they). In French, you almost always need one before the verb.",
+        "Je becomes j' before a vowel or a silent h: j'ai, j'habite, j'apprends. Never write je ai.",
+        "French has two words for 'you'. Use tu with one person you know well: a friend, a child, a family member, a classmate your age. Use vous with a person you don't know, an older person, a boss, a shop assistant or an official. Vous is also the only word for 'you' when you talk to two or more people.",
+        "If you are not sure, use vous. It is always polite. A French speaker may then say « On peut se tutoyer ? » (Can we use tu?).",
+        "Ils means 'they' for a group of men, or a mixed group of men and women. Elles is only for a group of women. One man in a group of ten women: ils!",
+        "On is very common in spoken French. It often means 'we' (on parle français = we speak French) or 'people in general'. It uses the same verb form as il and elle."
+      ],
+      "table": [
+        ["Pronoun", "English", "When to use it"],
+        ["je (j')", "I", "yourself; j' before a vowel or h"],
+        ["tu", "you", "one person you know well (friend, child)"],
+        ["il", "he / it", "one man or a masculine thing"],
+        ["elle", "she / it", "one woman or a feminine thing"],
+        ["on", "we / people", "spoken French; same verb form as il"],
+        ["nous", "we", "you and other people"],
+        ["vous", "you", "one person (polite) or several people"],
+        ["ils", "they", "men, or a mixed group"],
+        ["elles", "they", "women only"]
+      ],
+      "examples": [
+        { "fr": "Je m'appelle Ana. J'habite à Ottawa.", "en": "My name is Ana. I live in Ottawa." },
+        { "fr": "Salut, Léo ! Tu es d'où ?", "en": "Hi, Léo! Where are you from?" },
+        { "fr": "Bonjour, monsieur. Vous êtes Monsieur Roy ?", "en": "Hello, sir. Are you Mr Roy?" },
+        { "fr": "Marie et Paul, vous parlez anglais ?", "en": "Marie and Paul, do you speak English?" },
+        { "fr": "Elle est belge et il est suisse.", "en": "She is Belgian and he is Swiss." },
+        { "fr": "Anna et Marc ? Ils sont canadiens.", "en": "Anna and Marc? They're Canadian." },
+        { "fr": "Lina et Sara ? Elles sont françaises.", "en": "Lina and Sara? They're French." },
+        { "fr": "Ici, on parle français.", "en": "Here, we speak French." }
+      ],
+      "commonMistakes": [
+        { "wrong": "Je ai une question.", "right": "J'ai une question.", "why": "Je becomes j' before a vowel sound." },
+        { "wrong": "Bonjour, madame. Tu es Madame Dubois ?", "right": "Bonjour, madame. Vous êtes Madame Dubois ?", "why": "Use vous with someone you don't know or with an adult in a formal situation." },
+        { "wrong": "Paul et Julie ? Elles sont anglais.", "right": "Paul et Julie ? Ils sont anglais.", "why": "A mixed group of men and women is ils, not elles." }
+      ]
+    },
+    {
+      "id": "a01-g02",
+      "title": "Être and avoir",
+      "level": "A1",
+      "grammarTag": "etre-avoir",
+      "explanation": [
+        "Être (to be) and avoir (to have) are the two most important verbs in French. They are irregular, so learn the table by heart.",
+        "Use être to say who you are: your name (je suis Ana), your nationality (je suis canadien), how you are (je suis fatigué) and where you are (je suis à Montréal).",
+        "Use avoir to say what you have: j'ai une question, nous avons un cours de français.",
+        "Careful: in French, you 'have' your age. Say j'ai trente ans (I have thirty years), never je suis trente ans. Always add the word ans. To ask: Tu as quel âge ? or Quel âge avez-vous ?",
+        "Remember the elision: j'ai, not je ai. In the negative, ne becomes n' before a vowel: je ne suis pas, but je n'ai pas.",
+        "Nationality adjectives agree: add -e for a woman (il est français, elle est française) and -s for a group (ils sont canadiens). A word that already ends in -s does not change: ils sont français. Some words are the same for men and women: belge, suisse."
+      ],
+      "table": [
+        ["Person", "être (to be)", "avoir (to have)"],
+        ["je", "je suis", "j'ai"],
+        ["tu", "tu es", "tu as"],
+        ["il / elle / on", "il est", "il a"],
+        ["nous", "nous sommes", "nous avons"],
+        ["vous", "vous êtes", "vous avez"],
+        ["ils / elles", "ils sont", "ils ont"]
+      ],
+      "examples": [
+        { "fr": "Je suis canadienne et j'ai vingt-huit ans.", "en": "I'm Canadian and I'm twenty-eight." },
+        { "fr": "Tu es français ? — Non, je suis belge.", "en": "Are you French? — No, I'm Belgian." },
+        { "fr": "Il a une question pour vous.", "en": "He has a question for you." },
+        { "fr": "Nous sommes à Québec.", "en": "We are in Quebec City." },
+        { "fr": "Vous avez quel âge, madame ?", "en": "How old are you, madam?" },
+        { "fr": "Elles sont très gentilles.", "en": "They are very kind." },
+        { "fr": "Ils ont un cours de français ce soir.", "en": "They have a French class this evening." },
+        { "fr": "Je ne suis pas anglais et je n'ai pas vingt ans !", "en": "I'm not English and I'm not twenty!" }
+      ],
+      "commonMistakes": [
+        { "wrong": "Je suis trente ans.", "right": "J'ai trente ans.", "why": "Age uses avoir in French, and you must say ans." },
+        { "wrong": "Nous sont canadiens.", "right": "Nous sommes canadiens.", "why": "With nous, être is sommes. Sont goes with ils and elles." },
+        { "wrong": "Vous êtes une question ?", "right": "Vous avez une question ?", "why": "To have a question is avoir: vous avez." }
+      ]
+    }
+  ],
+  "exercises": [
+    { "id": "a01-ex01", "type": "mcq", "level": "A1", "skill": "structures", "grammarTag": "pronoms-sujets", "prompt": "You meet your new manager, Mrs Roy, for the first time. How do you ask her name?", "options": ["Comment vous appelez-vous ?", "Comment tu t'appelles ?", "Comment il s'appelle ?"], "answer": 0, "explanation": "Use vous with a person you don't know well, like a manager. Tu is for friends and children, and il means 'he', so that asks about another man." },
+    { "id": "a01-ex02", "type": "mcq", "level": "A1", "skill": "structures", "grammarTag": "etre-avoir", "prompt": "Choose the correct verb.", "promptFr": "Elle ___ trente ans.", "options": ["a", "est", "as", "ont"], "answer": 0, "explanation": "Age uses avoir, and with elle avoir is a. Est comes from être, as goes with tu and ont with ils/elles." },
+    { "id": "a01-ex03", "type": "mcq", "level": "A1", "skill": "structures", "grammarTag": "pronoms-sujets", "prompt": "Choose the correct pronoun.", "promptFr": "Marc et Julie ? ___ sont canadiens.", "options": ["Ils", "Elles", "Nous", "Il"], "answer": 0, "explanation": "Marc and Julie are a man and a woman: a mixed group is ils. Elles is only for women, nous means 'we' and il is only one man." },
+    { "id": "a01-ex04", "type": "mcq", "level": "A1", "skill": "structures", "grammarTag": "vocabulary", "prompt": "Someone says « Merci beaucoup ! » to you. What do you answer?", "options": ["De rien.", "S'il vous plaît.", "Pardon.", "Bonne nuit."], "answer": 0, "explanation": "De rien means 'you're welcome'. S'il vous plaît is 'please' (for asking), pardon is 'sorry' and bonne nuit is said at bedtime." },
+    { "id": "a01-ex05", "type": "fill_blank", "level": "A1", "skill": "structures", "grammarTag": "etre-avoir", "prompt": "Complete with être in the present tense.", "sentence": "Nous ___ français.", "answers": ["sommes"], "hint": "être", "translation": "We are French.", "explanation": "Être with nous: nous sommes." },
+    { "id": "a01-ex06", "type": "fill_blank", "level": "A1", "skill": "structures", "grammarTag": "etre-avoir", "prompt": "Complete with avoir in the present tense.", "sentence": "Tu ___ quel âge ?", "answers": ["as"], "hint": "avoir", "translation": "How old are you?", "explanation": "To ask someone's age, use avoir. With tu, avoir is as (tu as)." },
+    { "id": "a01-ex07", "type": "fill_blank", "level": "A1", "skill": "structures", "grammarTag": "pronoms-sujets", "prompt": "Complete with the subject pronoun for 'we'.", "sentence": "___ parlons français et anglais.", "answers": ["Nous"], "hint": "we", "translation": "We speak French and English.", "explanation": "The verb ends in -ons (parlons), so the subject is nous. On also means 'we', but it takes the form parle." },
+    { "id": "a01-ex08", "type": "conjugation", "level": "A1", "skill": "structures", "grammarTag": "etre-avoir", "verb": "être", "tense": "présent", "person": "vous", "answers": ["êtes"], "explanation": "Être: je suis, tu es, il est, nous sommes, vous êtes, ils sont." },
+    { "id": "a01-ex09", "type": "conjugation", "level": "A1", "skill": "structures", "grammarTag": "etre-avoir", "verb": "avoir", "tense": "présent", "person": "ils", "answers": ["ont"], "explanation": "Avoir: j'ai, tu as, il a, nous avons, vous avez, ils ont. Don't confuse ils ont (have) with ils sont (are)." },
+    { "id": "a01-ex10", "type": "conjugation", "level": "A1", "skill": "structures", "grammarTag": "etre-avoir", "verb": "être", "tense": "présent", "person": "je", "answers": ["suis"], "explanation": "Être with je: je suis. This is the verb you use to say your name and nationality." },
+    { "id": "a01-ex11", "type": "reorder", "level": "A1", "skill": "structures", "grammarTag": "pronoms-sujets", "prompt": "Put the words in order to introduce yourself.", "tokens": ["Je", "m'appelle", "Sara", "et", "j'habite", "à", "Québec."], "translation": "My name is Sara and I live in Quebec City.", "explanation": "Je m'appelle + name, then j'habite à + city. Je becomes j' before habite." },
+    { "id": "a01-ex12", "type": "reorder", "level": "A1", "skill": "structures", "grammarTag": "etre-avoir", "prompt": "Put the words in order to make a sentence.", "tokens": ["Paul", "a", "vingt-deux", "ans", "et", "il", "est", "suisse."], "translation": "Paul is twenty-two and he is Swiss.", "explanation": "Age uses avoir (Paul a vingt-deux ans) and nationality uses être (il est suisse)." },
+    { "id": "a01-ex13", "type": "match", "level": "A1", "skill": "structures", "grammarTag": "vocabulary", "prompt": "Match the greetings with their meanings.", "pairs": [{ "left": "bonjour", "right": "hello" }, { "left": "bonsoir", "right": "good evening" }, { "left": "bonne nuit", "right": "good night" }, { "left": "au revoir", "right": "goodbye" }, { "left": "à bientôt", "right": "see you soon" }], "explanation": "Bonjour is for the day, bonsoir for the evening and bonne nuit before you go to bed. Au revoir and à bientôt are for leaving." },
+    { "id": "a01-ex14", "type": "match", "level": "A1", "skill": "structures", "grammarTag": "vocabulary", "prompt": "Match the classroom phrases with their meanings.", "pairs": [{ "left": "Je ne comprends pas.", "right": "I don't understand." }, { "left": "Répétez, s'il vous plaît.", "right": "Please repeat." }, { "left": "Comment ça s'écrit ?", "right": "How do you spell that?" }, { "left": "Qu'est-ce que ça veut dire ?", "right": "What does that mean?" }, { "left": "Plus lentement, s'il vous plaît.", "right": "More slowly, please." }], "explanation": "These phrases help you in class and in real life when you don't understand something." },
+    { "id": "a01-ex15", "type": "translate", "level": "A1", "skill": "structures", "grammarTag": "etre-avoir", "direction": "fr-en", "source": "Je suis canadienne et j'habite à Toronto.", "answers": ["I am Canadian and I live in Toronto.", "I'm Canadian and I live in Toronto."], "explanation": "Je suis = I am; j'habite à + city = I live in + city. Canadienne is the feminine form, so the speaker is a woman." },
+    { "id": "a01-ex16", "type": "translate", "level": "A1", "skill": "structures", "grammarTag": "pronoms-sujets", "direction": "en-fr", "source": "Are you French, sir?", "answers": ["Vous êtes français, monsieur ?", "Êtes-vous français, monsieur ?", "Est-ce que vous êtes français, monsieur ?"], "explanation": "Speaking to a man you don't know (monsieur), use vous: vous êtes. You can ask a question with your voice, with est-ce que or by inverting: êtes-vous." },
+    { "id": "a01-ex17", "type": "translate", "level": "A1", "skill": "structures", "grammarTag": "etre-avoir", "direction": "en-fr", "source": "I am thirty years old.", "answers": ["J'ai trente ans.", "J'ai 30 ans."], "explanation": "Age uses avoir in French: j'ai trente ans. Je suis trente ans is wrong." },
+    { "id": "a01-ex18", "type": "mcq", "level": "A1", "skill": "structures", "grammarTag": "pronoms-sujets", "prompt": "Choose the correct verb form.", "promptFr": "Marie et moi, on ___ à Ottawa.", "options": ["habite", "habitons", "habitent", "habites"], "answer": 0, "explanation": "On means 'we' here, but it uses the il/elle form: on habite. Habitons goes with nous, habitent with ils and habites with tu." },
+    { "id": "a01-ex19", "type": "dictation", "level": "A1", "skill": "listening", "grammarTag": "pronoms-sujets", "text": "Bonjour, je m'appelle Lina et je suis belge.", "translation": "Hello, my name is Lina and I'm Belgian.", "explanation": "Listen for the apostrophe in m'appelle (two p, two l) and the silent final s in suis." },
+    { "id": "a01-ex20", "type": "dictation", "level": "A1", "skill": "listening", "grammarTag": "etre-avoir", "text": "Vous avez une question, madame ?", "translation": "Do you have a question, madam?", "explanation": "The s of vous is pronounced like z before avez: vous‿avez. Madame is written in lower case inside a sentence." }
+  ],
+  "checkpoint": [
+    { "id": "a01-cp01", "type": "mcq", "level": "A1", "skill": "structures", "grammarTag": "etre-avoir", "prompt": "Choose the correct form of être.", "promptFr": "Vous ___ étudiant ?", "options": ["êtes", "es", "est", "sommes"], "answer": 0, "explanation": "Être with vous: vous êtes. Es goes with tu, est with il/elle and sommes with nous." },
+    { "id": "a01-cp02", "type": "mcq", "level": "A1", "skill": "structures", "grammarTag": "etre-avoir", "prompt": "Choose the correct verb.", "promptFr": "Quel âge ___-tu ?", "options": ["as", "es", "a", "ai"], "answer": 0, "explanation": "Age uses avoir, and with tu avoir is as: quel âge as-tu ? Es is from être, a goes with il/elle and ai with je." },
+    { "id": "a01-cp03", "type": "mcq", "level": "A1", "skill": "structures", "grammarTag": "pronoms-sujets", "prompt": "You are at the bank and you speak to the clerk, a woman you don't know. What do you say?", "options": ["Bonjour, madame. Vous parlez anglais ?", "Salut ! Tu parles anglais ?", "Bonne nuit, madame. Tu parles anglais ?"], "answer": 0, "explanation": "With a stranger, use bonjour and vous. Salut and tu are informal, and bonne nuit is only for bedtime." },
+    { "id": "a01-cp04", "type": "mcq", "level": "A1", "skill": "structures", "grammarTag": "pronoms-sujets", "prompt": "Choose the correct pronoun.", "promptFr": "Sophie et Claire ? ___ sont québécoises.", "options": ["Elles", "Ils", "Elle", "Vous"], "answer": 0, "explanation": "Sophie and Claire are two women, so the pronoun is elles. Ils is for men or mixed groups, elle is one woman and vous means 'you'." },
+    { "id": "a01-cp05", "type": "fill_blank", "level": "A1", "skill": "structures", "grammarTag": "etre-avoir", "prompt": "Complete with avoir in the present tense.", "sentence": "Nous ___ une question.", "answers": ["avons"], "hint": "avoir", "translation": "We have a question.", "explanation": "Avoir with nous: nous avons." },
+    { "id": "a01-cp06", "type": "conjugation", "level": "A1", "skill": "structures", "grammarTag": "etre-avoir", "verb": "être", "tense": "présent", "person": "ils", "answers": ["sont"], "explanation": "Être with ils/elles: ils sont. Be careful: ils ont (with a z sound: ils‿ont) is avoir." },
+    { "id": "a01-cp07", "type": "conjugation", "level": "A1", "skill": "structures", "grammarTag": "etre-avoir", "verb": "avoir", "tense": "présent", "person": "vous", "answers": ["avez"], "explanation": "Avoir with vous: vous avez." },
+    { "id": "a01-cp08", "type": "match", "level": "A1", "skill": "structures", "grammarTag": "vocabulary", "prompt": "Match the polite words with their meanings.", "pairs": [{ "left": "merci", "right": "thank you" }, { "left": "s'il vous plaît", "right": "please" }, { "left": "pardon", "right": "sorry" }, { "left": "de rien", "right": "you're welcome" }], "explanation": "These four words are the basis of politeness in French. Use them every day!" },
+    { "id": "a01-cp09", "type": "translate", "level": "A1", "skill": "structures", "grammarTag": "vocabulary", "direction": "fr-en", "source": "Je ne comprends pas. Vous pouvez répéter, s'il vous plaît ?", "answers": ["I don't understand. Can you repeat, please?", "I don't understand. Could you repeat, please?", "I do not understand. Can you repeat, please?", "I don't understand. Can you repeat that, please?"], "explanation": "Je ne comprends pas = I don't understand. Vous pouvez répéter ? = Can you repeat?" },
+    { "id": "a01-cp10", "type": "translate", "level": "A1", "skill": "structures", "grammarTag": "etre-avoir", "direction": "en-fr", "source": "She is Canadian and she is twenty-five.", "answers": ["Elle est canadienne et elle a vingt-cinq ans.", "Elle est canadienne et elle a 25 ans."], "explanation": "Nationality uses être (elle est canadienne, with the feminine -nne) and age uses avoir (elle a vingt-cinq ans)." }
+  ],
+  "listening": [
+    {
+      "id": "a01-li01",
+      "title": "À l'accueil de l'école",
+      "level": "A1",
+      "kind": "dialogue",
+      "context": "A new student arrives at the reception desk of a language school.",
+      "lines": [
+        { "speaker": "Réceptionniste", "fr": "Bonjour, madame. Bienvenue à l'école !" },
+        { "speaker": "Amina", "fr": "Bonjour, monsieur. Je m'appelle Amina Diallo." },
+        { "speaker": "Réceptionniste", "fr": "Diallo ? Comment ça s'écrit, s'il vous plaît ?" },
+        { "speaker": "Amina", "fr": "D-I-A, deux L, O." },
+        { "speaker": "Réceptionniste", "fr": "Merci. Vous êtes d'où ?" },
+        { "speaker": "Amina", "fr": "Je suis sénégalaise, mais j'habite à Montréal." },
+        { "speaker": "Réceptionniste", "fr": "Très bien. Voici votre carte. Bonne journée !" },
+        { "speaker": "Amina", "fr": "Merci beaucoup. Au revoir !" }
+      ],
+      "translation": "Receptionist: Hello, madam. Welcome to the school!\nAmina: Hello, sir. My name is Amina Diallo.\nReceptionist: Diallo? How do you spell that, please?\nAmina: D-I-A, double L, O.\nReceptionist: Thank you. Where are you from?\nAmina: I'm Senegalese, but I live in Montreal.\nReceptionist: Very good. Here is your card. Have a nice day!\nAmina: Thank you very much. Goodbye!",
+      "questions": [
+        { "id": "a01-li01-q1", "question": "What does the receptionist ask Amina to do?", "options": ["Spell her surname", "Repeat her first name", "Speak more slowly", "Write her address"], "answer": 0, "explanation": "He asks « Comment ça s'écrit ? » (How do you spell that?) and she spells D-I-A-L-L-O." },
+        { "id": "a01-li01-q2", "question": "Where is Amina from?", "options": ["Canada", "Senegal", "Morocco", "France"], "answer": 1, "explanation": "She says « Je suis sénégalaise » (I'm Senegalese). Canada is where she lives now." },
+        { "id": "a01-li01-q3", "question": "Where does Amina live?", "options": ["In Dakar", "In Paris", "In Montreal", "In Quebec City"], "answer": 2, "explanation": "« J'habite à Montréal. »" }
+      ]
+    },
+    {
+      "id": "a01-li02",
+      "title": "Un message de Marc",
+      "level": "A1",
+      "kind": "message",
+      "context": "Léa listens to a voicemail from her friend Marc.",
+      "lines": [
+        { "speaker": "Marc", "fr": "Salut, Léa, c'est Marc ! Ça va ?" },
+        { "speaker": "Marc", "fr": "Je suis au café avec un ami. Il s'appelle Hugo." },
+        { "speaker": "Marc", "fr": "Hugo est suisse, il a vingt ans." },
+        { "speaker": "Marc", "fr": "Il parle français et allemand, mais pas anglais." },
+        { "speaker": "Marc", "fr": "Il est très gentil. Tu es libre ? Rappelle-moi !" },
+        { "speaker": "Marc", "fr": "À bientôt !" }
+      ],
+      "translation": "Marc: Hi, Léa, it's Marc! How are you?\nMarc: I'm at the café with a friend. His name is Hugo.\nMarc: Hugo is Swiss, he's twenty.\nMarc: He speaks French and German, but not English.\nMarc: He's very nice. Are you free? Call me back!\nMarc: See you soon!",
+      "questions": [
+        { "id": "a01-li02-q1", "question": "What nationality is Hugo?", "options": ["French", "Belgian", "Swiss", "German"], "answer": 2, "explanation": "Marc says « Hugo est suisse »." },
+        { "id": "a01-li02-q2", "question": "Which languages does Hugo speak?", "options": ["French and English", "French and German", "German and English", "Only French"], "answer": 1, "explanation": "« Il parle français et allemand, mais pas anglais. »" },
+        { "id": "a01-li02-q3", "question": "What does Marc ask Léa to do?", "options": ["Come to his house", "Call him back", "Send a message to Hugo", "Wait at the café"], "answer": 1, "explanation": "« Rappelle-moi ! » means 'Call me back!'" }
+      ]
+    }
+  ],
+  "reading": [
+    {
+      "id": "a01-re01",
+      "title": "Bonjour la classe !",
+      "level": "A1",
+      "kind": "message",
+      "text": "Salut tout le monde !\n\nJe m'appelle Julia, j'ai vingt-huit ans et je suis brésilienne. J'habite à Ottawa, au Canada. Je parle portugais, anglais et un peu français. Je suis nouvelle dans le cours. Je ne comprends pas tout, mais j'apprends vite ! Et vous, vous êtes d'où ?\n\nÀ demain,\nJulia",
+      "translation": "Hi everyone!\n\nMy name is Julia, I'm twenty-eight and I'm Brazilian. I live in Ottawa, in Canada. I speak Portuguese, English and a little French. I'm new in the class. I don't understand everything, but I learn fast! And you, where are you from?\n\nSee you tomorrow,\nJulia",
+      "questions": [
+        { "id": "a01-re01-q1", "question": "What nationality is Julia?", "options": ["Canadian", "Portuguese", "Brazilian", "French"], "answer": 2, "explanation": "« Je suis brésilienne. » She speaks Portuguese and lives in Canada, but she is Brazilian." },
+        { "id": "a01-re01-q2", "question": "How well does Julia speak French?", "options": ["Very well", "A little", "Not at all"], "answer": 1, "explanation": "« Je parle … un peu français » means she speaks a little French." },
+        { "id": "a01-re01-q3", "question": "What does Julia ask the class?", "options": ["Their age", "Their names", "Where they are from", "What languages they speak"], "answer": 2, "explanation": "« Vous êtes d'où ? » means 'Where are you from?'" }
+      ]
+    },
+    {
+      "id": "a01-re02",
+      "title": "En classe, on parle français !",
+      "level": "A1",
+      "kind": "notice",
+      "text": "EN CLASSE, ON PARLE FRANÇAIS !\n\nVous ne comprenez pas ? Dites : « Je ne comprends pas. »\nLe professeur parle vite ? Dites : « Plus lentement, s'il vous plaît. »\nVous cherchez un mot ? Demandez : « Comment on dit… en français ? »\nVous voulez écrire un nom ? Demandez : « Comment ça s'écrit ? »\n\nEt n'oubliez pas : bonjour, s'il vous plaît, merci !",
+      "translation": "IN CLASS, WE SPEAK FRENCH!\n\nYou don't understand? Say: \"I don't understand.\"\nThe teacher is speaking fast? Say: \"More slowly, please.\"\nYou're looking for a word? Ask: \"How do you say… in French?\"\nYou want to write a name? Ask: \"How do you spell that?\"\n\nAnd don't forget: hello, please, thank you!",
+      "questions": [
+        { "id": "a01-re02-q1", "question": "What should you say if the teacher speaks too fast?", "options": ["« Je ne comprends pas. »", "« Plus lentement, s'il vous plaît. »", "« Comment ça s'écrit ? »"], "answer": 1, "explanation": "The poster says: Le professeur parle vite ? Dites « Plus lentement, s'il vous plaît. »" },
+        { "id": "a01-re02-q2", "question": "Which question helps you find a French word?", "options": ["« Comment on dit… en français ? »", "« Comment ça s'écrit ? »", "« Vous êtes d'où ? »"], "answer": 0, "explanation": "« Comment on dit… en français ? » means 'How do you say… in French?'" },
+        { "id": "a01-re02-q3", "question": "Which language should students speak in class?", "options": ["English", "Their own language", "French"], "answer": 2, "explanation": "The title says « En classe, on parle français ! »" }
+      ]
+    }
+  ],
+  "writing": [
+    {
+      "id": "a01-wr01",
+      "title": "Introduce yourself to your class",
+      "level": "A1",
+      "taskType": "message",
+      "instructions": "You are new in a French class. Write a short message (20–40 words) to the class group. Say hello, give your name, nationality, age and city, say which languages you speak, and say goodbye.",
+      "promptFr": "Vous êtes nouveau ou nouvelle dans un cours de français. Écrivez un message au groupe de la classe pour vous présenter : nom, nationalité, âge, ville, langues. (20 à 40 mots)",
+      "minWords": 20,
+      "maxWords": 40,
+      "modelAnswer": "Bonjour à tous !\n\nJe m'appelle Kofi Mensah. Je suis ghanéen et j'ai trente-deux ans. J'habite à Toronto, au Canada. Je parle anglais et un peu français. Je suis très content d'être ici !\n\nÀ bientôt,\nKofi",
+      "checklist": [
+        "I start with a greeting and end with a goodbye (à bientôt, à demain…).",
+        "I give my name with je m'appelle.",
+        "I give my nationality with je suis and my age with j'ai … ans.",
+        "I say where I live with j'habite à + city.",
+        "I say which languages I speak with je parle."
+      ]
+    }
+  ],
+  "speaking": [
+    {
+      "id": "a01-sp01",
+      "title": "Introduce yourself",
+      "level": "A1",
+      "taskType": "entretien",
+      "instructions": "The examiner greets you and asks you to introduce yourself. Speak simply: say hello, give your name and spell it, then say your nationality, your age and where you live.",
+      "promptFr": "Bonjour ! Comment vous appelez-vous ? Vous pouvez épeler votre nom ? Vous êtes d'où ? Où habitez-vous ?",
+      "prepSeconds": 0,
+      "speakSeconds": 120,
+      "modelAnswer": "Bonjour, madame. Je m'appelle Ana Silva. Silva, ça s'écrit S-I-L-V-A. Je suis brésilienne, mais j'habite à Montréal, au Canada. J'ai trente et un ans. J'habite avec une amie. Je suis très contente d'être ici. Merci !",
+      "tips": [
+        "Start with bonjour and use vous with the examiner.",
+        "Practise the French alphabet so you can spell your name without stopping.",
+        "Say j'ai … ans for your age, never je suis … ans."
+      ]
+    },
+    {
+      "id": "a01-sp02",
+      "title": "Languages and countries",
+      "level": "A1",
+      "taskType": "entretien",
+      "instructions": "The examiner asks simple questions about the languages you speak and your country. Answer with short, complete sentences.",
+      "promptFr": "Quelles langues parlez-vous ? Vous parlez bien français ? Vous venez de quel pays ? Pourquoi vous apprenez le français ?",
+      "prepSeconds": 0,
+      "speakSeconds": 120,
+      "modelAnswer": "Je parle arabe et anglais. Je parle un peu français, mais pas très bien. Je suis marocain, mon pays, c'est le Maroc. J'apprends le français pour habiter au Canada. Parfois, je ne comprends pas. Alors, je dis : « Répétez, s'il vous plaît. »",
+      "tips": [
+        "Languages are written with a small letter: je parle anglais, arabe, espagnol.",
+        "If you don't understand, say « Pardon, vous pouvez répéter, s'il vous plaît ? ».",
+        "Use mais to add a second idea: je parle anglais, mais pas espagnol."
+      ]
+    }
+  ]
+}

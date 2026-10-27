@@ -1,0 +1,2146 @@
+{
+  "id": "u07",
+  "order": 13,
+  "level": "A2+",
+  "theme": "Work",
+  "titleFr": "Le monde du travail",
+  "description": "Talk about your job, your colleagues and your working day. Use lui and leur to say who you talk, write or send things to, and use the futur proche to talk about your plans at work.",
+  "vocab": [
+    {
+      "id": "u07-w001",
+      "fr": "entreprise",
+      "en": "company, business",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "entreprises",
+      "level": "A2",
+      "core": true,
+      "example": {
+        "fr": "Mon entreprise va ouvrir un nouveau bureau à Moncton.",
+        "en": "My company is going to open a new office in Moncton."
+      }
+    },
+    {
+      "id": "u07-w002",
+      "fr": "collègue",
+      "en": "colleague",
+      "pos": "noun",
+      "gender": "mf",
+      "plural": "collègues",
+      "level": "A2",
+      "core": true,
+      "example": {
+        "fr": "Ma collègue Sophie m'aide quand j'ai trop de travail.",
+        "en": "My colleague Sophie helps me when I have too much work."
+      }
+    },
+    {
+      "id": "u07-w003",
+      "fr": "patron",
+      "en": "boss",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "patrons",
+      "level": "A2",
+      "core": true,
+      "example": {
+        "fr": "Le patron nous a félicités pour notre travail.",
+        "en": "The boss congratulated us on our work."
+      }
+    },
+    {
+      "id": "u07-w004",
+      "fr": "réunion",
+      "en": "meeting",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "réunions",
+      "level": "A2",
+      "core": true,
+      "example": {
+        "fr": "La réunion de lundi est reportée à mardi.",
+        "en": "Monday's meeting has been postponed to Tuesday."
+      }
+    },
+    {
+      "id": "u07-w005",
+      "fr": "bureau",
+      "en": "office; desk",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "bureaux",
+      "level": "A2",
+      "core": true,
+      "example": {
+        "fr": "Je suis au bureau de 9 heures à 18 heures.",
+        "en": "I'm at the office from 9 am to 6 pm."
+      }
+    },
+    {
+      "id": "u07-w006",
+      "fr": "salaire",
+      "en": "salary, wages",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "salaires",
+      "level": "A2",
+      "core": true,
+      "example": {
+        "fr": "Son salaire n'est pas très élevé, mais il aime son travail.",
+        "en": "His salary isn't very high, but he likes his job."
+      }
+    },
+    {
+      "id": "u07-w007",
+      "fr": "emploi",
+      "en": "job, employment",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "emplois",
+      "level": "A2",
+      "core": true,
+      "example": {
+        "fr": "Après six mois de recherche, elle a enfin trouvé un emploi.",
+        "en": "After six months of searching, she has finally found a job."
+      }
+    },
+    {
+      "id": "u07-w008",
+      "fr": "poste",
+      "en": "position, post (job)",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "postes",
+      "level": "A2+",
+      "core": true,
+      "example": {
+        "fr": "Il occupe un poste de responsable dans une banque.",
+        "en": "He holds a managerial position in a bank."
+      }
+    },
+    {
+      "id": "u07-w009",
+      "fr": "horaire",
+      "en": "working hours, schedule",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "horaires",
+      "level": "A2",
+      "core": true,
+      "example": {
+        "fr": "Mes horaires sont flexibles : je peux commencer à 8 h ou à 10 h.",
+        "en": "My hours are flexible: I can start at 8 or at 10."
+      }
+    },
+    {
+      "id": "u07-w010",
+      "fr": "congé",
+      "en": "leave, time off",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "congés",
+      "level": "A2",
+      "core": true,
+      "example": {
+        "fr": "Je vais prendre une semaine de congé en mars.",
+        "en": "I'm going to take a week off in March."
+      }
+    },
+    {
+      "id": "u07-w011",
+      "fr": "client",
+      "en": "client, customer",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "clients",
+      "level": "A2",
+      "core": true,
+      "example": {
+        "fr": "Je téléphone à mes clients pour leur présenter nos nouveaux produits.",
+        "en": "I phone my clients to present our new products to them."
+      }
+    },
+    {
+      "id": "u07-w012",
+      "fr": "projet",
+      "en": "project",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "projets",
+      "level": "A2",
+      "core": true,
+      "example": {
+        "fr": "Notre équipe va commencer un nouveau projet le mois prochain.",
+        "en": "Our team is going to start a new project next month."
+      }
+    },
+    {
+      "id": "u07-w013",
+      "fr": "tâche",
+      "en": "task",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "tâches",
+      "level": "A2+",
+      "core": true,
+      "example": {
+        "fr": "Ma première tâche du matin, c'est de lire mes courriels.",
+        "en": "My first task in the morning is reading my emails."
+      }
+    },
+    {
+      "id": "u07-w014",
+      "fr": "travailler",
+      "en": "to work",
+      "pos": "verb",
+      "level": "A2",
+      "core": true,
+      "example": {
+        "fr": "Je travaille dans une petite entreprise près de chez moi.",
+        "en": "I work in a small company near my home."
+      }
+    },
+    {
+      "id": "u07-w015",
+      "fr": "embaucher",
+      "en": "to hire, to take on",
+      "pos": "verb",
+      "level": "A2+",
+      "core": true,
+      "example": {
+        "fr": "Le restaurant va embaucher deux serveurs pour l'été.",
+        "en": "The restaurant is going to hire two waiters for the summer."
+      }
+    },
+    {
+      "id": "u07-w016",
+      "fr": "envoyer",
+      "en": "to send",
+      "pos": "verb",
+      "level": "A2",
+      "core": true,
+      "example": {
+        "fr": "Je lui envoie le rapport avant midi.",
+        "en": "I'm sending him the report before noon."
+      }
+    },
+    {
+      "id": "u07-w017",
+      "fr": "téléphoner",
+      "en": "to phone, to call (téléphoner à quelqu'un)",
+      "pos": "verb",
+      "level": "A2",
+      "core": true,
+      "example": {
+        "fr": "Mon client ne répond pas, je vais lui téléphoner plus tard.",
+        "en": "My client isn't answering, I'm going to call him later."
+      }
+    },
+    {
+      "id": "u07-w018",
+      "fr": "demander",
+      "en": "to ask, to ask for (demander quelque chose à quelqu'un)",
+      "pos": "verb",
+      "level": "A2",
+      "core": true,
+      "example": {
+        "fr": "J'ai demandé un jour de congé à ma responsable.",
+        "en": "I asked my manager for a day off."
+      }
+    },
+    {
+      "id": "u07-w019",
+      "fr": "répondre",
+      "en": "to answer, to reply (répondre à quelqu'un)",
+      "pos": "verb",
+      "level": "A2",
+      "core": true,
+      "example": {
+        "fr": "Elle répond toujours aux courriels de ses clients dans la journée.",
+        "en": "She always answers her clients' emails the same day."
+      }
+    },
+    {
+      "id": "u07-w020",
+      "fr": "à temps plein",
+      "en": "full-time",
+      "pos": "expression",
+      "level": "A2",
+      "core": true,
+      "example": {
+        "fr": "Elle travaille à temps plein, du lundi au vendredi.",
+        "en": "She works full-time, from Monday to Friday."
+      }
+    },
+    {
+      "id": "u07-w021",
+      "fr": "à temps partiel",
+      "en": "part-time",
+      "pos": "expression",
+      "level": "A2",
+      "core": false,
+      "example": {
+        "fr": "Il travaille à temps partiel pour s'occuper de ses enfants.",
+        "en": "He works part-time so he can look after his children."
+      }
+    },
+    {
+      "id": "u07-w022",
+      "fr": "contrat",
+      "en": "contract",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "contrats",
+      "level": "A2",
+      "core": false,
+      "example": {
+        "fr": "J'ai signé mon contrat de travail hier.",
+        "en": "I signed my employment contract yesterday."
+      }
+    },
+    {
+      "id": "u07-w023",
+      "fr": "CDI",
+      "en": "permanent contract (contrat à durée indéterminée)",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "CDI",
+      "level": "A2+",
+      "core": false,
+      "example": {
+        "fr": "Après deux ans, l'entreprise lui a proposé un CDI.",
+        "en": "After two years, the company offered her a permanent contract."
+      }
+    },
+    {
+      "id": "u07-w024",
+      "fr": "CDD",
+      "en": "fixed-term contract (contrat à durée déterminée)",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "CDD",
+      "level": "A2+",
+      "core": false,
+      "example": {
+        "fr": "J'ai un CDD de six mois dans une agence de voyages.",
+        "en": "I have a six-month fixed-term contract in a travel agency."
+      }
+    },
+    {
+      "id": "u07-w025",
+      "fr": "stage",
+      "en": "internship, work placement",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "stages",
+      "level": "A2",
+      "core": false,
+      "example": {
+        "fr": "Pendant ses études, elle a fait un stage dans une banque.",
+        "en": "During her studies, she did an internship in a bank."
+      }
+    },
+    {
+      "id": "u07-w026",
+      "fr": "stagiaire",
+      "en": "intern, trainee",
+      "pos": "noun",
+      "gender": "mf",
+      "plural": "stagiaires",
+      "level": "A2+",
+      "core": false,
+      "example": {
+        "fr": "La stagiaire va nous aider pour le projet cet été.",
+        "en": "The intern is going to help us with the project this summer."
+      }
+    },
+    {
+      "id": "u07-w027",
+      "fr": "équipe",
+      "en": "team",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "équipes",
+      "level": "A2",
+      "core": false,
+      "example": {
+        "fr": "Notre équipe est petite, mais très efficace.",
+        "en": "Our team is small, but very efficient."
+      }
+    },
+    {
+      "id": "u07-w028",
+      "fr": "service",
+      "en": "department (in a company)",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "services",
+      "level": "A2+",
+      "core": false,
+      "example": {
+        "fr": "Il travaille au service clients depuis trois ans.",
+        "en": "He has been working in the customer service department for three years."
+      }
+    },
+    {
+      "id": "u07-w029",
+      "fr": "directeur",
+      "en": "director, manager",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "directeurs",
+      "level": "A2",
+      "core": false,
+      "example": {
+        "fr": "Le directeur va présenter les résultats de l'année.",
+        "en": "The director is going to present the year's results."
+      }
+    },
+    {
+      "id": "u07-w030",
+      "fr": "salarié",
+      "en": "employee, salaried worker",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "salariés",
+      "level": "A2+",
+      "core": false,
+      "example": {
+        "fr": "Cette entreprise compte deux cents salariés.",
+        "en": "This company has two hundred employees."
+      }
+    },
+    {
+      "id": "u07-w031",
+      "fr": "métier",
+      "en": "trade, occupation, job",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "métiers",
+      "level": "A2",
+      "core": false,
+      "example": {
+        "fr": "Infirmière, c'est un métier difficile mais passionnant.",
+        "en": "Nursing is a difficult but fascinating job."
+      }
+    },
+    {
+      "id": "u07-w032",
+      "fr": "carrière",
+      "en": "career",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "carrières",
+      "level": "A2+",
+      "core": false,
+      "example": {
+        "fr": "Il a fait toute sa carrière dans la même entreprise.",
+        "en": "He spent his whole career in the same company."
+      }
+    },
+    {
+      "id": "u07-w033",
+      "fr": "formation",
+      "en": "training, course",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "formations",
+      "level": "A2+",
+      "core": false,
+      "example": {
+        "fr": "Je vais suivre une formation en informatique au printemps.",
+        "en": "I'm going to do an IT training course in the spring."
+      }
+    },
+    {
+      "id": "u07-w034",
+      "fr": "compétence",
+      "en": "skill",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "compétences",
+      "level": "A2+",
+      "core": false,
+      "example": {
+        "fr": "Pour ce poste, l'anglais est une compétence importante.",
+        "en": "For this position, English is an important skill."
+      }
+    },
+    {
+      "id": "u07-w035",
+      "fr": "dossier",
+      "en": "file, folder; case",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "dossiers",
+      "level": "A2",
+      "core": false,
+      "example": {
+        "fr": "Peux-tu me passer le dossier du client Martin ?",
+        "en": "Can you pass me the file for our client Martin?"
+      }
+    },
+    {
+      "id": "u07-w036",
+      "fr": "rapport",
+      "en": "report",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "rapports",
+      "level": "A2+",
+      "core": false,
+      "example": {
+        "fr": "Je dois finir ce rapport avant vendredi.",
+        "en": "I have to finish this report before Friday."
+      }
+    },
+    {
+      "id": "u07-w037",
+      "fr": "ordre du jour",
+      "en": "agenda (of a meeting)",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "ordres du jour",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Le budget est le premier point à l'ordre du jour.",
+        "en": "The budget is the first item on the agenda."
+      }
+    },
+    {
+      "id": "u07-w038",
+      "fr": "pause déjeuner",
+      "en": "lunch break",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "pauses déjeuner",
+      "level": "A2",
+      "core": false,
+      "example": {
+        "fr": "Pendant la pause déjeuner, je mange avec mes collègues.",
+        "en": "During the lunch break, I eat with my colleagues."
+      }
+    },
+    {
+      "id": "u07-w039",
+      "fr": "heure supplémentaire",
+      "en": "overtime hour",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "heures supplémentaires",
+      "level": "A2+",
+      "core": false,
+      "example": {
+        "fr": "Ce mois-ci, j'ai fait dix heures supplémentaires.",
+        "en": "This month, I did ten hours of overtime."
+      }
+    },
+    {
+      "id": "u07-w040",
+      "fr": "télétravail",
+      "en": "remote work, working from home",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2+",
+      "core": false,
+      "example": {
+        "fr": "Je suis en télétravail le mercredi et le vendredi.",
+        "en": "I work from home on Wednesdays and Fridays."
+      }
+    },
+    {
+      "id": "u07-w041",
+      "fr": "imprimante",
+      "en": "printer",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "imprimantes",
+      "level": "A2",
+      "core": false,
+      "example": {
+        "fr": "L'imprimante du deuxième étage ne marche plus.",
+        "en": "The printer on the second floor doesn't work any more."
+      }
+    },
+    {
+      "id": "u07-w042",
+      "fr": "courriel",
+      "en": "email",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "courriels",
+      "level": "A2",
+      "core": false,
+      "example": {
+        "fr": "J'ai reçu un courriel de la directrice ce matin.",
+        "en": "I received an email from the director this morning."
+      }
+    },
+    {
+      "id": "u07-w043",
+      "fr": "pièce jointe",
+      "en": "attachment",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "pièces jointes",
+      "level": "A2+",
+      "core": false,
+      "example": {
+        "fr": "Vous trouverez le programme en pièce jointe.",
+        "en": "You will find the programme attached."
+      }
+    },
+    {
+      "id": "u07-w044",
+      "fr": "délai",
+      "en": "deadline, time allowed",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "délais",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Le délai est très court : nous avons seulement trois jours.",
+        "en": "The deadline is very tight: we only have three days."
+      }
+    },
+    {
+      "id": "u07-w045",
+      "fr": "augmentation",
+      "en": "pay rise, raise",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "augmentations",
+      "level": "A2+",
+      "core": false,
+      "example": {
+        "fr": "Elle va demander une augmentation à son patron.",
+        "en": "She's going to ask her boss for a pay rise."
+      }
+    },
+    {
+      "id": "u07-w046",
+      "fr": "prime",
+      "en": "bonus (money)",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "primes",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "En décembre, tous les salariés reçoivent une prime.",
+        "en": "In December, all the employees get a bonus."
+      }
+    },
+    {
+      "id": "u07-w047",
+      "fr": "fiche de paie",
+      "en": "payslip",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "fiches de paie",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Gardez bien vos fiches de paie, elles sont importantes.",
+        "en": "Keep your payslips safe, they are important."
+      }
+    },
+    {
+      "id": "u07-w048",
+      "fr": "grève",
+      "en": "strike",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "grèves",
+      "level": "A2+",
+      "core": false,
+      "example": {
+        "fr": "Les employés de la banque sont en grève aujourd'hui.",
+        "en": "The bank employees are on strike today."
+      }
+    },
+    {
+      "id": "u07-w049",
+      "fr": "retraite",
+      "en": "retirement; pension",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "retraites",
+      "level": "A2+",
+      "core": false,
+      "example": {
+        "fr": "Mon père va prendre sa retraite l'année prochaine.",
+        "en": "My father is going to retire next year."
+      }
+    },
+    {
+      "id": "u07-w050",
+      "fr": "chômage",
+      "en": "unemployment",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2+",
+      "core": false,
+      "example": {
+        "fr": "Il est au chômage depuis deux mois, mais il a un entretien demain.",
+        "en": "He has been unemployed for two months, but he has an interview tomorrow."
+      }
+    },
+    {
+      "id": "u07-w051",
+      "fr": "usine",
+      "en": "factory",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "usines",
+      "level": "A2",
+      "core": false,
+      "example": {
+        "fr": "Mon oncle travaille dans une usine de voitures.",
+        "en": "My uncle works in a car factory."
+      }
+    },
+    {
+      "id": "u07-w052",
+      "fr": "secteur",
+      "en": "sector, field",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "secteurs",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Elle cherche un emploi dans le secteur du tourisme.",
+        "en": "She's looking for a job in the tourism sector."
+      }
+    },
+    {
+      "id": "u07-w053",
+      "fr": "comptable",
+      "en": "accountant",
+      "pos": "noun",
+      "gender": "mf",
+      "plural": "comptables",
+      "level": "A2+",
+      "core": false,
+      "example": {
+        "fr": "Le comptable prépare les fiches de paie à la fin du mois.",
+        "en": "The accountant prepares the payslips at the end of the month."
+      }
+    },
+    {
+      "id": "u07-w054",
+      "fr": "ingénieur",
+      "en": "engineer",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "ingénieurs",
+      "level": "A2",
+      "core": false,
+      "example": {
+        "fr": "Mon frère est ingénieur dans une entreprise d'énergie.",
+        "en": "My brother is an engineer in an energy company."
+      }
+    },
+    {
+      "id": "u07-w055",
+      "fr": "mission",
+      "en": "assignment, task",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "missions",
+      "level": "A2+",
+      "core": false,
+      "example": {
+        "fr": "Pour ma première mission, je vais aller à Bruxelles.",
+        "en": "For my first assignment, I'm going to go to Brussels."
+      }
+    },
+    {
+      "id": "u07-w056",
+      "fr": "démissionner",
+      "en": "to resign, to quit",
+      "pos": "verb",
+      "level": "A2+",
+      "core": false,
+      "example": {
+        "fr": "Elle a démissionné parce qu'elle n'aimait pas l'ambiance.",
+        "en": "She resigned because she didn't like the atmosphere."
+      }
+    },
+    {
+      "id": "u07-w057",
+      "fr": "licencier",
+      "en": "to lay off, to dismiss",
+      "pos": "verb",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "L'usine va licencier cinquante personnes.",
+        "en": "The factory is going to lay off fifty people."
+      }
+    },
+    {
+      "id": "u07-w058",
+      "fr": "recruter",
+      "en": "to recruit",
+      "pos": "verb",
+      "level": "A2+",
+      "core": false,
+      "example": {
+        "fr": "Nous recrutons un vendeur pour notre magasin de Trois-Rivières.",
+        "en": "We are recruiting a sales assistant for our shop in Trois-Rivières."
+      }
+    },
+    {
+      "id": "u07-w059",
+      "fr": "gérer",
+      "en": "to manage, to handle",
+      "pos": "verb",
+      "level": "A2+",
+      "core": false,
+      "example": {
+        "fr": "Ma responsable gère une équipe de douze personnes.",
+        "en": "My manager runs a team of twelve people."
+      }
+    },
+    {
+      "id": "u07-w060",
+      "fr": "rédiger",
+      "en": "to write, to draft",
+      "pos": "verb",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Je dois rédiger le compte rendu de la réunion.",
+        "en": "I have to write up the minutes of the meeting."
+      }
+    },
+    {
+      "id": "u07-w061",
+      "fr": "photocopieuse",
+      "en": "photocopier",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "photocopieuses",
+      "level": "A2+",
+      "core": false,
+      "example": {
+        "fr": "La photocopieuse est en panne, je vais appeler le technicien.",
+        "en": "The photocopier is broken, I'm going to call the technician."
+      }
+    },
+    {
+      "id": "u07-w062",
+      "fr": "négocier",
+      "en": "to negotiate",
+      "pos": "verb",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Elle va négocier son salaire avant de signer le contrat.",
+        "en": "She's going to negotiate her salary before signing the contract."
+      }
+    },
+    {
+      "id": "u07-w063",
+      "fr": "expliquer",
+      "en": "to explain (expliquer quelque chose à quelqu'un)",
+      "pos": "verb",
+      "level": "A2",
+      "core": false,
+      "example": {
+        "fr": "Le chef d'équipe leur explique les nouvelles règles de sécurité.",
+        "en": "The team leader explains the new safety rules to them."
+      }
+    },
+    {
+      "id": "u07-w064",
+      "fr": "conseiller",
+      "en": "to advise (conseiller à quelqu'un de faire)",
+      "pos": "verb",
+      "level": "A2+",
+      "core": false,
+      "example": {
+        "fr": "Mon collègue m'a conseillé de parler au directeur.",
+        "en": "My colleague advised me to talk to the director."
+      }
+    },
+    {
+      "id": "u07-w065",
+      "fr": "annoncer",
+      "en": "to announce",
+      "pos": "verb",
+      "level": "A2+",
+      "core": false,
+      "example": {
+        "fr": "La directrice nous a annoncé une bonne nouvelle.",
+        "en": "The director announced some good news to us."
+      }
+    },
+    {
+      "id": "u07-w066",
+      "fr": "prévenir",
+      "en": "to let (someone) know, to warn",
+      "pos": "verb",
+      "level": "A2+",
+      "core": false,
+      "example": {
+        "fr": "Si tu es en retard, préviens-moi par message.",
+        "en": "If you're late, let me know by text."
+      }
+    },
+    {
+      "id": "u07-w067",
+      "fr": "promettre",
+      "en": "to promise (promettre quelque chose à quelqu'un)",
+      "pos": "verb",
+      "level": "A2+",
+      "core": false,
+      "example": {
+        "fr": "Le patron leur a promis une prime à la fin de l'année.",
+        "en": "The boss promised them a bonus at the end of the year."
+      }
+    },
+    {
+      "id": "u07-w068",
+      "fr": "remplacer",
+      "en": "to replace, to cover for",
+      "pos": "verb",
+      "level": "A2+",
+      "core": false,
+      "example": {
+        "fr": "Pendant mes vacances, Julien va me remplacer.",
+        "en": "While I'm on holiday, Julien is going to cover for me."
+      }
+    },
+    {
+      "id": "u07-w069",
+      "fr": "se débrouiller",
+      "en": "to manage, to cope",
+      "pos": "verb",
+      "level": "A2+",
+      "core": false,
+      "example": {
+        "fr": "Je ne connais pas bien ce logiciel, mais je me débrouille.",
+        "en": "I don't know this software well, but I manage."
+      }
+    },
+    {
+      "id": "u07-w070",
+      "fr": "débordé",
+      "en": "swamped, snowed under",
+      "pos": "adjective",
+      "level": "A2+",
+      "core": false,
+      "example": {
+        "fr": "Désolée, je suis débordée cette semaine.",
+        "en": "Sorry, I'm swamped this week."
+      }
+    },
+    {
+      "id": "u07-w071",
+      "fr": "motivé",
+      "en": "motivated",
+      "pos": "adjective",
+      "level": "A2",
+      "core": false,
+      "example": {
+        "fr": "Nous cherchons une personne motivée et dynamique.",
+        "en": "We are looking for a motivated, dynamic person."
+      }
+    },
+    {
+      "id": "u07-w072",
+      "fr": "compétent",
+      "en": "competent, skilled",
+      "pos": "adjective",
+      "level": "A2+",
+      "core": false,
+      "example": {
+        "fr": "C'est une avocate très compétente.",
+        "en": "She's a very competent lawyer."
+      }
+    },
+    {
+      "id": "u07-w073",
+      "fr": "efficace",
+      "en": "efficient, effective",
+      "pos": "adjective",
+      "level": "A2+",
+      "core": false,
+      "example": {
+        "fr": "Avec ce nouveau logiciel, nous allons être plus efficaces.",
+        "en": "With this new software, we're going to be more efficient."
+      }
+    },
+    {
+      "id": "u07-w074",
+      "fr": "ponctuel / ponctuelle",
+      "en": "punctual",
+      "pos": "adjective",
+      "level": "A2+",
+      "core": false,
+      "example": {
+        "fr": "Ma collègue est toujours ponctuelle aux réunions.",
+        "en": "My colleague is always on time for meetings."
+      }
+    },
+    {
+      "id": "u07-w075",
+      "fr": "exigeant",
+      "en": "demanding",
+      "pos": "adjective",
+      "level": "A2+",
+      "core": false,
+      "example": {
+        "fr": "Notre client est exigeant, mais il est juste.",
+        "en": "Our client is demanding, but he is fair."
+      }
+    },
+    {
+      "id": "u07-w076",
+      "fr": "fatigant",
+      "en": "tiring",
+      "pos": "adjective",
+      "level": "A2",
+      "core": false,
+      "example": {
+        "fr": "Ce travail est fatigant parce qu'on reste debout toute la journée.",
+        "en": "This job is tiring because you stand all day."
+      }
+    },
+    {
+      "id": "u07-w077",
+      "fr": "être en congé",
+      "en": "to be on leave, to be off work",
+      "pos": "expression",
+      "level": "A2",
+      "core": false,
+      "example": {
+        "fr": "Je suis en congé jusqu'au 15 août.",
+        "en": "I'm on leave until 15 August."
+      }
+    },
+    {
+      "id": "u07-w078",
+      "fr": "faire le point",
+      "en": "to take stock, to review progress",
+      "pos": "expression",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "On va faire le point sur le projet jeudi.",
+        "en": "We're going to review the project's progress on Thursday."
+      }
+    },
+    {
+      "id": "u07-w079",
+      "fr": "tenir au courant",
+      "en": "to keep (someone) informed",
+      "pos": "expression",
+      "level": "A2+",
+      "core": false,
+      "example": {
+        "fr": "Je vous tiens au courant dès que j'ai une réponse.",
+        "en": "I'll keep you posted as soon as I have an answer."
+      }
+    },
+    {
+      "id": "u07-w080",
+      "fr": "dès que possible",
+      "en": "as soon as possible",
+      "pos": "expression",
+      "level": "A2+",
+      "core": false,
+      "example": {
+        "fr": "Merci de me répondre dès que possible.",
+        "en": "Please reply to me as soon as possible."
+      }
+    },
+    {
+      "id": "u07-w081",
+      "fr": "en ce moment",
+      "en": "at the moment, currently",
+      "pos": "expression",
+      "level": "A2",
+      "core": false,
+      "example": {
+        "fr": "En ce moment, je travaille sur un projet passionnant.",
+        "en": "At the moment, I'm working on a fascinating project."
+      }
+    },
+    {
+      "id": "u07-w082",
+      "fr": "chef d'équipe",
+      "en": "team leader",
+      "pos": "noun",
+      "gender": "mf",
+      "plural": "chefs d'équipe",
+      "level": "A2+",
+      "core": false,
+      "example": {
+        "fr": "Notre chef d'équipe va nous présenter le planning lundi.",
+        "en": "Our team leader is going to present the schedule to us on Monday."
+      }
+    },
+    {
+      "id": "u07-w083",
+      "fr": "bientôt",
+      "en": "soon",
+      "pos": "adverb",
+      "level": "A2",
+      "core": false,
+      "example": {
+        "fr": "Le nouveau directeur va bientôt arriver.",
+        "en": "The new director is going to arrive soon."
+      }
+    },
+    {
+      "id": "u07-w084",
+      "fr": "la semaine prochaine",
+      "en": "next week",
+      "pos": "expression",
+      "level": "A2",
+      "core": false,
+      "example": {
+        "fr": "La semaine prochaine, je vais travailler de chez moi.",
+        "en": "Next week, I'm going to work from home."
+      }
+    }
+  ],
+  "grammar": [
+    {
+      "id": "u07-g01",
+      "title": "Indirect object pronouns: lui and leur",
+      "level": "A2+",
+      "grammarTag": "coi",
+      "explanation": [
+        "Many French verbs connect to a person with the preposition à: parler à, téléphoner à, répondre à, écrire à, envoyer quelque chose à, donner quelque chose à, demander quelque chose à, expliquer quelque chose à, promettre quelque chose à. The person after à is an indirect object (COI).",
+        "To avoid repeating the person, replace à + person with an indirect object pronoun: me (m'), te (t'), lui, nous, vous, leur. Lui means 'to him' OR 'to her'; leur means 'to them' (men, women or a mixed group). Je parle à Paul → Je lui parle. Je parle à mes collègues → Je leur parle.",
+        "The pronoun goes directly before the conjugated verb: Je lui envoie le dossier. In the negative, ne goes before the pronoun and pas after the verb: Je ne lui envoie pas le dossier. In the passé composé, the pronoun goes before the auxiliary: Je lui ai envoyé le dossier. Je ne lui ai pas envoyé le dossier.",
+        "The past participle never agrees with an indirect object: Elle a parlé à ses collègues → Elle leur a parlé (no -s, no -e). Leur as a pronoun is invariable: never write *leurs before a verb.",
+        "Watch out for verbs that are direct in French but indirect in English, and vice versa. Téléphoner à and répondre à take lui/leur (Je lui téléphone), but appeler, aider and écouter take a direct object: Je l'appelle, je l'aide."
+      ],
+      "table": [
+        [
+          "Person",
+          "Pronoun",
+          "Example"
+        ],
+        [
+          "to me",
+          "me / m'",
+          "Elle m'écrit souvent."
+        ],
+        [
+          "to you (tu)",
+          "te / t'",
+          "Je te réponds ce soir."
+        ],
+        [
+          "to him / to her",
+          "lui",
+          "Je lui téléphone demain."
+        ],
+        [
+          "to us",
+          "nous",
+          "Le patron nous explique le projet."
+        ],
+        [
+          "to you (vous)",
+          "vous",
+          "Je vous envoie le contrat."
+        ],
+        [
+          "to them",
+          "leur",
+          "Nous leur donnons les horaires."
+        ]
+      ],
+      "examples": [
+        {
+          "fr": "Tu as répondu à la cliente ? — Oui, je lui ai répondu ce matin.",
+          "en": "Did you reply to the client? — Yes, I replied to her this morning."
+        },
+        {
+          "fr": "Les stagiaires arrivent lundi. Je leur explique le travail le premier jour.",
+          "en": "The interns arrive on Monday. I explain the work to them on the first day."
+        },
+        {
+          "fr": "Mon patron ne me parle jamais de son salaire.",
+          "en": "My boss never talks to me about his salary."
+        },
+        {
+          "fr": "Nous ne leur avons pas encore envoyé le contrat.",
+          "en": "We haven't sent them the contract yet."
+        },
+        {
+          "fr": "Marc est malade : téléphone-lui et demande-lui de rester chez lui.",
+          "en": "Marc is ill: phone him and ask him to stay at home."
+        },
+        {
+          "fr": "Ma directrice m'a promis une augmentation.",
+          "en": "My director promised me a pay rise."
+        },
+        {
+          "fr": "Ce sont mes collègues : je leur offre un café tous les vendredis.",
+          "en": "These are my colleagues: I buy them a coffee every Friday."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "Je le téléphone ce soir.",
+          "right": "Je lui téléphone ce soir.",
+          "why": "Téléphoner takes à + person (téléphoner à Paul), so you need the indirect pronoun lui, not le."
+        },
+        {
+          "wrong": "Je leurs ai répondu.",
+          "right": "Je leur ai répondu.",
+          "why": "The pronoun leur never takes an -s. (Leurs with -s is only the possessive: leurs bureaux.)"
+        },
+        {
+          "wrong": "Je lui ai parlée hier.",
+          "right": "Je lui ai parlé hier.",
+          "why": "The past participle does not agree with an indirect object pronoun, even if lui refers to a woman."
+        },
+        {
+          "wrong": "Je ne ai pas lui écrit.",
+          "right": "Je ne lui ai pas écrit.",
+          "why": "The pronoun stays glued in front of the auxiliary; ne goes before the pronoun and pas after the auxiliary."
+        }
+      ]
+    },
+    {
+      "id": "u07-g02",
+      "title": "The futur proche: aller + infinitive",
+      "level": "A2+",
+      "grammarTag": "futur-proche",
+      "explanation": [
+        "The futur proche (near future) expresses plans, intentions and things that are about to happen. It is very common in everyday French, especially in speech: Je vais changer de travail. La réunion va commencer.",
+        "Form it with the present tense of aller + an infinitive: je vais, tu vas, il/elle/on va, nous allons, vous allez, ils/elles vont + travailler, finir, prendre… Do not put a preposition between aller and the infinitive.",
+        "In the negative, ne… pas goes around aller, not around the infinitive: Je ne vais pas travailler demain. Elle ne va pas accepter ce poste.",
+        "Object pronouns (lui, leur, le, me…) and reflexive pronouns go in front of the infinitive, because they belong to that verb: Je vais lui téléphoner. Nous allons leur répondre. Tu vas te débrouiller.",
+        "Typical time expressions: tout à l'heure, ce soir, demain, bientôt, la semaine prochaine, le mois prochain, dans deux jours, l'année prochaine. Je vais aller à Montréal is correct: aller + aller is perfectly normal."
+      ],
+      "table": [
+        [
+          "Subject",
+          "aller (present)",
+          "+ infinitive"
+        ],
+        [
+          "je",
+          "vais",
+          "signer le contrat"
+        ],
+        [
+          "tu",
+          "vas",
+          "finir le rapport"
+        ],
+        [
+          "il / elle / on",
+          "va",
+          "prendre un congé"
+        ],
+        [
+          "nous",
+          "allons",
+          "embaucher une stagiaire"
+        ],
+        [
+          "vous",
+          "allez",
+          "travailler à temps plein"
+        ],
+        [
+          "ils / elles",
+          "vont",
+          "faire grève"
+        ]
+      ],
+      "examples": [
+        {
+          "fr": "Je vais commencer un nouveau travail en septembre.",
+          "en": "I'm going to start a new job in September."
+        },
+        {
+          "fr": "Dépêche-toi, la réunion va commencer !",
+          "en": "Hurry up, the meeting is about to start!"
+        },
+        {
+          "fr": "Nous n'allons pas finir le projet avant vendredi.",
+          "en": "We're not going to finish the project before Friday."
+        },
+        {
+          "fr": "Les clients attendent : je vais leur répondre tout de suite.",
+          "en": "The clients are waiting: I'm going to reply to them right away."
+        },
+        {
+          "fr": "Est-ce que tu vas demander une augmentation ?",
+          "en": "Are you going to ask for a pay rise?"
+        },
+        {
+          "fr": "L'entreprise va embaucher dix personnes l'année prochaine.",
+          "en": "The company is going to hire ten people next year."
+        },
+        {
+          "fr": "Ne t'inquiète pas, tu vas te débrouiller !",
+          "en": "Don't worry, you're going to manage!"
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "Je vais à travailler demain.",
+          "right": "Je vais travailler demain.",
+          "why": "In the futur proche, aller is followed directly by the infinitive, with no preposition."
+        },
+        {
+          "wrong": "Je vais ne travailler pas lundi.",
+          "right": "Je ne vais pas travailler lundi.",
+          "why": "Ne… pas surrounds the conjugated verb aller, not the infinitive."
+        },
+        {
+          "wrong": "Je lui vais parler.",
+          "right": "Je vais lui parler.",
+          "why": "The pronoun belongs to the infinitive parler, so it goes right in front of it."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "u07-ex01",
+      "type": "mcq",
+      "level": "A2+",
+      "skill": "structures",
+      "grammarTag": "coi",
+      "prompt": "Choose the correct pronoun.",
+      "promptFr": "Tu as écrit à Marc ? — Oui, je ___ ai écrit hier.",
+      "options": [
+        "lui",
+        "l'",
+        "le",
+        "leur"
+      ],
+      "answer": 0,
+      "explanation": "Écrire takes à + person (écrire à Marc), and Marc is one person, so the indirect pronoun is lui. L' and le are direct object pronouns; leur means 'to them'."
+    },
+    {
+      "id": "u07-ex02",
+      "type": "mcq",
+      "level": "A2+",
+      "skill": "structures",
+      "grammarTag": "coi",
+      "prompt": "Choose the correct pronoun.",
+      "promptFr": "Les clients attendent une réponse. Je vais ___ répondre ce soir.",
+      "options": [
+        "leur",
+        "les",
+        "lui",
+        "leurs"
+      ],
+      "answer": 0,
+      "explanation": "Répondre à + several people → leur. Les is a direct object pronoun, lui is singular, and the pronoun leur never takes an -s."
+    },
+    {
+      "id": "u07-ex03",
+      "type": "mcq",
+      "level": "A2+",
+      "skill": "structures",
+      "grammarTag": "futur-proche",
+      "prompt": "Complete with the futur proche.",
+      "promptFr": "Demain, nous ___ notre nouvelle collègue.",
+      "options": [
+        "allons rencontrer",
+        "allons rencontré",
+        "allons à rencontrer",
+        "vont rencontrer"
+      ],
+      "answer": 0,
+      "explanation": "Futur proche = aller in the present + infinitive: nous allons rencontrer. Rencontré is a past participle, there is no à before the infinitive, and vont does not go with nous."
+    },
+    {
+      "id": "u07-ex04",
+      "type": "mcq",
+      "level": "A2+",
+      "skill": "structures",
+      "grammarTag": "coi",
+      "prompt": "Which sentence is correct?",
+      "options": [
+        "Je ne lui ai pas parlé.",
+        "Je ne ai pas lui parlé.",
+        "Je lui n'ai pas parlé.",
+        "Je n'ai pas lui parlé."
+      ],
+      "answer": 0,
+      "explanation": "In the passé composé, the pronoun goes directly before the auxiliary, and ne… pas surrounds the pronoun + auxiliary: je ne lui ai pas parlé."
+    },
+    {
+      "id": "u07-ex05",
+      "type": "mcq",
+      "level": "A2+",
+      "skill": "structures",
+      "grammarTag": "vocabulary",
+      "prompt": "Who is this? 'A student who works in a company for a few months to learn the job.'",
+      "options": [
+        "un stagiaire",
+        "un comptable",
+        "un patron",
+        "un directeur"
+      ],
+      "answer": 0,
+      "explanation": "Un stagiaire does a stage (internship) to learn the job. A comptable manages the accounts, and a patron or directeur runs the company."
+    },
+    {
+      "id": "u07-ex06",
+      "type": "fill_blank",
+      "level": "A2+",
+      "skill": "structures",
+      "grammarTag": "coi",
+      "prompt": "Replace 'à ma directrice' with a pronoun.",
+      "sentence": "Ma directrice est en réunion, alors je ___ envoie un message.",
+      "answers": [
+        "lui"
+      ],
+      "hint": "envoyer quelque chose à quelqu'un",
+      "translation": "My director is in a meeting, so I'm sending her a message.",
+      "explanation": "Envoyer quelque chose à quelqu'un: à ma directrice (one person) becomes lui, placed before the verb."
+    },
+    {
+      "id": "u07-ex07",
+      "type": "fill_blank",
+      "level": "A2+",
+      "skill": "structures",
+      "grammarTag": "futur-proche",
+      "prompt": "Complete with the correct form of aller.",
+      "sentence": "Attention, la réunion ___ commencer dans cinq minutes !",
+      "answers": [
+        "va"
+      ],
+      "hint": "aller, present tense",
+      "translation": "Careful, the meeting is going to start in five minutes!",
+      "explanation": "Futur proche: la réunion (= elle) → va + infinitive."
+    },
+    {
+      "id": "u07-ex08",
+      "type": "fill_blank",
+      "level": "A2+",
+      "skill": "structures",
+      "grammarTag": "coi",
+      "prompt": "Complete with lui or leur.",
+      "sentence": "Mes collègues m'ont beaucoup aidé, alors je ___ ai offert des chocolats.",
+      "answers": [
+        "leur"
+      ],
+      "translation": "My colleagues helped me a lot, so I gave them some chocolates.",
+      "explanation": "Offrir quelque chose à + several people (mes collègues) → leur. No agreement of the past participle with an indirect object."
+    },
+    {
+      "id": "u07-ex09",
+      "type": "fill_blank",
+      "level": "A2+",
+      "skill": "structures",
+      "grammarTag": "futur-proche",
+      "prompt": "Complete the negative futur proche.",
+      "sentence": "Je suis malade, je ne ___ pas travailler demain.",
+      "answers": [
+        "vais"
+      ],
+      "hint": "aller, je",
+      "translation": "I'm ill, I'm not going to work tomorrow.",
+      "explanation": "In the negative futur proche, ne… pas surrounds aller: je ne vais pas travailler."
+    },
+    {
+      "id": "u07-ex10",
+      "type": "fill_blank",
+      "level": "A2+",
+      "skill": "structures",
+      "grammarTag": "vocabulary",
+      "prompt": "Complete the expression.",
+      "sentence": "Je travaille 35 heures par semaine : j'ai un poste à temps ___.",
+      "answers": [
+        "plein",
+        "complet"
+      ],
+      "translation": "I work 35 hours a week: I have a full-time job.",
+      "explanation": "À temps plein (or à temps complet) = full-time (about 35 to 40 hours a week in Canada). À temps partiel = part-time."
+    },
+    {
+      "id": "u07-ex11",
+      "type": "conjugation",
+      "level": "A2+",
+      "skill": "structures",
+      "grammarTag": "futur-proche",
+      "verb": "signer",
+      "tense": "futur proche",
+      "person": "nous",
+      "answers": [
+        "allons signer"
+      ],
+      "explanation": "Nous allons + infinitive: nous allons signer."
+    },
+    {
+      "id": "u07-ex12",
+      "type": "conjugation",
+      "level": "A2+",
+      "skill": "structures",
+      "grammarTag": "futur-proche",
+      "verb": "se débrouiller",
+      "tense": "futur proche",
+      "person": "tu",
+      "answers": [
+        "vas te débrouiller"
+      ],
+      "explanation": "With a reflexive verb, the reflexive pronoun goes before the infinitive and matches the subject: tu vas te débrouiller."
+    },
+    {
+      "id": "u07-ex13",
+      "type": "conjugation",
+      "level": "A2+",
+      "skill": "structures",
+      "grammarTag": "futur-proche",
+      "verb": "démissionner",
+      "tense": "futur proche",
+      "person": "elle",
+      "answers": [
+        "va démissionner"
+      ],
+      "explanation": "Elle va + infinitive: elle va démissionner."
+    },
+    {
+      "id": "u07-ex14",
+      "type": "reorder",
+      "level": "A2+",
+      "skill": "structures",
+      "grammarTag": "coi",
+      "prompt": "Put the words in order: 'I'm going to explain the project to him.'",
+      "tokens": [
+        "Je",
+        "vais",
+        "lui",
+        "expliquer",
+        "le",
+        "projet"
+      ],
+      "translation": "I'm going to explain the project to him / her.",
+      "explanation": "In the futur proche, the pronoun lui goes directly before the infinitive expliquer."
+    },
+    {
+      "id": "u07-ex15",
+      "type": "reorder",
+      "level": "A2+",
+      "skill": "structures",
+      "grammarTag": "coi",
+      "prompt": "Put the words in order: 'We haven't replied to them yet.'",
+      "tokens": [
+        "Nous",
+        "ne",
+        "leur",
+        "avons",
+        "pas",
+        "encore",
+        "répondu"
+      ],
+      "translation": "We haven't replied to them yet.",
+      "explanation": "Ne + pronoun + auxiliary + pas (encore) + past participle: nous ne leur avons pas encore répondu."
+    },
+    {
+      "id": "u07-ex16",
+      "type": "match",
+      "level": "A2+",
+      "skill": "structures",
+      "grammarTag": "vocabulary",
+      "prompt": "Match the French words with their English meaning.",
+      "pairs": [
+        {
+          "left": "un CDI",
+          "right": "a permanent contract"
+        },
+        {
+          "left": "une grève",
+          "right": "a strike"
+        },
+        {
+          "left": "un congé",
+          "right": "time off, leave"
+        },
+        {
+          "left": "une fiche de paie",
+          "right": "a payslip"
+        },
+        {
+          "left": "une augmentation",
+          "right": "a pay rise"
+        }
+      ],
+      "explanation": "These words are all about working conditions."
+    },
+    {
+      "id": "u07-ex17",
+      "type": "match",
+      "level": "A2+",
+      "skill": "structures",
+      "grammarTag": "coi",
+      "prompt": "Match each sentence with its meaning.",
+      "pairs": [
+        {
+          "left": "Je lui parle.",
+          "right": "I'm talking to him / her."
+        },
+        {
+          "left": "Je leur parle.",
+          "right": "I'm talking to them."
+        },
+        {
+          "left": "Je le vois.",
+          "right": "I see him."
+        },
+        {
+          "left": "Je les vois.",
+          "right": "I see them."
+        }
+      ],
+      "explanation": "Lui and leur are indirect (to him/her, to them); le and les are direct objects (him, them)."
+    },
+    {
+      "id": "u07-ex18",
+      "type": "translate",
+      "level": "A2+",
+      "skill": "structures",
+      "grammarTag": "coi",
+      "direction": "en-fr",
+      "source": "I'm going to phone him tomorrow.",
+      "answers": [
+        "Je vais lui téléphoner demain.",
+        "Demain, je vais lui téléphoner.",
+        "Je vais l'appeler demain.",
+        "Demain, je vais l'appeler.",
+        "Je vais lui passer un coup de fil demain.",
+        "Demain, je vais lui passer un coup de fil."
+      ],
+      "explanation": "Téléphoner à quelqu'un → lui. In the futur proche, lui goes before the infinitive: je vais lui téléphoner."
+    },
+    {
+      "id": "u07-ex19",
+      "type": "translate",
+      "level": "A2+",
+      "skill": "structures",
+      "grammarTag": "coi",
+      "direction": "fr-en",
+      "source": "Elle leur a demandé de finir le rapport avant vendredi.",
+      "answers": [
+        "She asked them to finish the report before Friday.",
+        "She asked them to finish the report by Friday.",
+        "She has asked them to finish the report before Friday.",
+        "She has asked them to finish the report by Friday.",
+        "She's asked them to finish the report before Friday.",
+        "She's asked them to finish the report by Friday."
+      ],
+      "explanation": "Leur = (to) them. Demander à quelqu'un de faire quelque chose = to ask someone to do something."
+    },
+    {
+      "id": "u07-ex20",
+      "type": "dictation",
+      "level": "A2+",
+      "skill": "structures",
+      "grammarTag": "futur-proche",
+      "text": "Je vais lui envoyer le dossier cet après-midi.",
+      "translation": "I'm going to send him / her the file this afternoon.",
+      "explanation": "Futur proche (je vais + envoyer) with lui placed before the infinitive. Note the hyphen in après-midi."
+    }
+  ],
+  "listening": [
+    {
+      "id": "u07-li01",
+      "title": "Préparer la réunion",
+      "level": "A2+",
+      "kind": "dialogue",
+      "context": "Two colleagues, Claire and Karim, organise Thursday's meeting with clients.",
+      "lines": [
+        {
+          "speaker": "Claire",
+          "fr": "Karim, tu as un moment ? On doit préparer la réunion de jeudi."
+        },
+        {
+          "speaker": "Karim",
+          "fr": "Oui, bien sûr. Qu'est-ce qu'on va présenter aux clients ?"
+        },
+        {
+          "speaker": "Claire",
+          "fr": "Le nouveau projet. Je vais leur montrer le planning et le budget."
+        },
+        {
+          "speaker": "Karim",
+          "fr": "D'accord. Et le directeur, tu lui as parlé de la réunion ?"
+        },
+        {
+          "speaker": "Claire",
+          "fr": "Pas encore. Je vais lui écrire un courriel cet après-midi."
+        },
+        {
+          "speaker": "Karim",
+          "fr": "Parfait. Moi, je vais réserver la salle et commander des cafés."
+        },
+        {
+          "speaker": "Claire",
+          "fr": "Bonne idée. Et la stagiaire, elle va venir avec nous ?"
+        },
+        {
+          "speaker": "Karim",
+          "fr": "Oui, elle va prendre des notes. Je vais lui expliquer son rôle demain matin."
+        },
+        {
+          "speaker": "Claire",
+          "fr": "Super. On fait le point mercredi à 14 heures ?"
+        },
+        {
+          "speaker": "Karim",
+          "fr": "Entendu, à mercredi !"
+        }
+      ],
+      "translation": "Claire: Karim, have you got a moment? We need to prepare Thursday's meeting.\nKarim: Yes, of course. What are we going to present to the clients?\nClaire: The new project. I'm going to show them the schedule and the budget.\nKarim: OK. And the director, have you talked to him about the meeting?\nClaire: Not yet. I'm going to write him an email this afternoon.\nKarim: Perfect. I'm going to book the room and order coffee.\nClaire: Good idea. And the intern, is she going to come with us?\nKarim: Yes, she's going to take notes. I'm going to explain her role to her tomorrow morning.\nClaire: Great. Shall we take stock on Wednesday at 2 pm?\nKarim: Agreed, see you on Wednesday!",
+      "questions": [
+        {
+          "id": "u07-li01-q1",
+          "question": "What is Claire going to show the clients?",
+          "options": [
+            "The schedule and the budget",
+            "The new office",
+            "The contract",
+            "The employees' salaries"
+          ],
+          "answer": 0,
+          "explanation": "Claire says: « Je vais leur montrer le planning et le budget. »"
+        },
+        {
+          "id": "u07-li01-q2",
+          "question": "What is Karim going to do?",
+          "options": [
+            "Book the room and order coffee",
+            "Write to the director",
+            "Take notes at the meeting",
+            "Present the budget"
+          ],
+          "answer": 0,
+          "explanation": "Karim says: « je vais réserver la salle et commander des cafés. » Claire writes to the director and the intern takes notes."
+        },
+        {
+          "id": "u07-li01-q3",
+          "question": "What will the intern do at the meeting?",
+          "options": [
+            "Take notes",
+            "Present the project",
+            "Serve the coffee",
+            "Nothing, she won't come"
+          ],
+          "answer": 0,
+          "explanation": "Karim says: « elle va prendre des notes »."
+        }
+      ]
+    },
+    {
+      "id": "u07-li02",
+      "title": "Un message de la responsable",
+      "level": "A2+",
+      "kind": "message",
+      "context": "A voicemail from Thomas's manager.",
+      "lines": [
+        {
+          "speaker": "Nathalie Lefèvre",
+          "fr": "Bonjour Thomas, c'est Nathalie Lefèvre. Je vous appelle au sujet de la formation de lundi."
+        },
+        {
+          "speaker": "Nathalie Lefèvre",
+          "fr": "Malheureusement, le formateur est malade, donc la formation va avoir lieu le jeudi 12 à la place."
+        },
+        {
+          "speaker": "Nathalie Lefèvre",
+          "fr": "Je vais prévenir les autres participants par courriel cet après-midi."
+        },
+        {
+          "speaker": "Nathalie Lefèvre",
+          "fr": "Est-ce que vous pouvez me rappeler avant ce soir ? J'ai aussi une question sur le rapport pour le client Duval."
+        },
+        {
+          "speaker": "Nathalie Lefèvre",
+          "fr": "Je suis au bureau jusqu'à 18 heures. Merci et bonne journée !"
+        }
+      ],
+      "translation": "Hello Thomas, it's Nathalie Lefèvre. I'm calling you about Monday's training. Unfortunately, the trainer is ill, so the training is going to take place on Thursday the 12th instead. I'm going to let the other participants know by email this afternoon. Could you call me back before this evening? I also have a question about the report for the client Duval. I'm in the office until 6 pm. Thanks and have a nice day!",
+      "questions": [
+        {
+          "id": "u07-li02-q1",
+          "question": "Why is the training moved?",
+          "options": [
+            "The trainer is ill.",
+            "The room is not available.",
+            "Thomas is on leave.",
+            "There is a strike."
+          ],
+          "answer": 0,
+          "explanation": "« le formateur est malade »."
+        },
+        {
+          "id": "u07-li02-q2",
+          "question": "When will the training take place now?",
+          "options": [
+            "Thursday the 12th",
+            "Monday",
+            "This evening",
+            "Next Monday"
+          ],
+          "answer": 0,
+          "explanation": "« la formation va avoir lieu le jeudi 12 à la place »."
+        },
+        {
+          "id": "u07-li02-q3",
+          "question": "What does Nathalie ask Thomas to do?",
+          "options": [
+            "Call her back before this evening",
+            "Email the other participants",
+            "Finish the Duval report tonight",
+            "Come to the office at 6 pm"
+          ],
+          "answer": 0,
+          "explanation": "« Est-ce que vous pouvez me rappeler avant ce soir ? » Nathalie will email the participants herself."
+        }
+      ]
+    }
+  ],
+  "reading": [
+    {
+      "id": "u07-re01",
+      "title": "Arrivée d'une nouvelle stagiaire",
+      "level": "A2+",
+      "kind": "email",
+      "text": "Objet : Arrivée d'une nouvelle stagiaire\n\nBonjour à tous,\n\nJe vous annonce l'arrivée de Léa Moreau, notre nouvelle stagiaire. Elle va travailler avec nous au service marketing pendant six mois, à partir du lundi 3 mars.\n\nLéa est étudiante en commerce et elle est très motivée. Le premier jour, Julien va lui présenter l'équipe et lui montrer les bureaux. Ensuite, Sarah va lui expliquer nos outils et nos projets en cours.\n\nPour bien l'accueillir, nous allons organiser un petit déjeuner dans la salle de réunion à 9 h 30. Je vous demande d'être présents si possible.\n\nSi vous avez des tâches simples pour elle, envoyez-moi un message avant vendredi.\n\nMerci à tous et bonne semaine,\n\nIsabelle Garnier\nResponsable marketing",
+      "translation": "Subject: Arrival of a new intern\n\nHello everyone,\n\nI'm pleased to announce the arrival of Léa Moreau, our new intern. She is going to work with us in the marketing department for six months, starting on Monday 3 March.\n\nLéa is a business student and she is very motivated. On the first day, Julien is going to introduce the team to her and show her the offices. Then Sarah is going to explain our tools and current projects to her.\n\nTo welcome her properly, we are going to organise a breakfast in the meeting room at 9.30. I'd ask you to be there if possible.\n\nIf you have simple tasks for her, send me a message before Friday.\n\nThanks everyone and have a good week,\n\nIsabelle Garnier\nMarketing manager",
+      "questions": [
+        {
+          "id": "u07-re01-q1",
+          "question": "How long is Léa going to work in the department?",
+          "options": [
+            "Six months",
+            "Three months",
+            "One week",
+            "Until Friday"
+          ],
+          "answer": 0,
+          "explanation": "« pendant six mois, à partir du lundi 3 mars »."
+        },
+        {
+          "id": "u07-re01-q2",
+          "question": "Who is going to explain the tools and current projects to Léa?",
+          "options": [
+            "Sarah",
+            "Julien",
+            "Isabelle",
+            "The whole team"
+          ],
+          "answer": 0,
+          "explanation": "« Sarah va lui expliquer nos outils et nos projets en cours. » Julien introduces the team."
+        },
+        {
+          "id": "u07-re01-q3",
+          "question": "What should colleagues do before Friday?",
+          "options": [
+            "Send Isabelle a message if they have simple tasks for Léa",
+            "Prepare the breakfast",
+            "Book the meeting room",
+            "Write to Léa"
+          ],
+          "answer": 0,
+          "explanation": "« Si vous avez des tâches simples pour elle, envoyez-moi un message avant vendredi. »"
+        }
+      ]
+    },
+    {
+      "id": "u07-re02",
+      "title": "Grève des transports : télétravail possible",
+      "level": "A2+",
+      "kind": "notice",
+      "text": "À l'attention de tous les salariés\n\nUne grève des transports en commun est prévue le mardi 18 et le mercredi 19 novembre. Pendant ces deux jours, beaucoup de trains et de bus ne vont pas circuler.\n\nPour cette raison, la direction autorise exceptionnellement le télétravail pour tous les postes compatibles. Si vous allez travailler de chez vous, prévenez votre responsable avant lundi soir.\n\nLes salariés qui vont venir au bureau pourront arriver plus tard ou partir plus tôt : les horaires seront flexibles. Les réunions avec les clients vont avoir lieu en visioconférence.\n\nAttention : la cantine va rester fermée le mardi. Le mercredi, elle va ouvrir normalement.\n\nPour toute question, contactez le service des ressources humaines au poste 214.\n\nLa Direction",
+      "translation": "For the attention of all employees\n\nA public transport strike is planned for Tuesday 18 and Wednesday 19 November. During these two days, many trains and buses will not run.\n\nFor this reason, management is exceptionally allowing remote work for all suitable positions. If you are going to work from home, let your manager know before Monday evening.\n\nEmployees who are going to come to the office will be able to arrive later or leave earlier: working hours will be flexible. Meetings with clients are going to take place by video conference.\n\nPlease note: the canteen is going to stay closed on Tuesday. On Wednesday, it is going to open as usual.\n\nIf you have any questions, contact the human resources department on extension 214.\n\nManagement",
+      "questions": [
+        {
+          "id": "u07-re02-q1",
+          "question": "Why is remote work allowed on these two days?",
+          "options": [
+            "Because of a transport strike",
+            "Because the office is closed",
+            "Because of a training day",
+            "Because of a holiday"
+          ],
+          "answer": 0,
+          "explanation": "« Une grève des transports en commun est prévue… Pour cette raison, la direction autorise… le télétravail »."
+        },
+        {
+          "id": "u07-re02-q2",
+          "question": "What must employees who work from home do?",
+          "options": [
+            "Inform their manager before Monday evening",
+            "Call human resources",
+            "Come in on Wednesday",
+            "Send a report every day"
+          ],
+          "answer": 0,
+          "explanation": "« prévenez votre responsable avant lundi soir »."
+        },
+        {
+          "id": "u07-re02-q3",
+          "question": "What about the canteen?",
+          "options": [
+            "Closed on Tuesday, open as usual on Wednesday",
+            "Closed on both days",
+            "Open on both days",
+            "Open on Tuesday only"
+          ],
+          "answer": 0,
+          "explanation": "« la cantine va rester fermée le mardi. Le mercredi, elle va ouvrir normalement »."
+        }
+      ]
+    }
+  ],
+  "writing": [
+    {
+      "id": "u07-wr01",
+      "title": "Absent à la réunion",
+      "level": "A2+",
+      "taskType": "message",
+      "instructions": "Write a message to a colleague (60–120 words). Say you can't come to tomorrow's meeting, explain why and say what you are going to do to help. Use the futur proche and at least one indirect pronoun (lui / leur).",
+      "promptFr": "Vous ne pouvez pas aller à la réunion de demain. Vous écrivez un message à un(e) collègue pour l'informer, expliquer pourquoi et lui dire ce que vous allez faire pour l'aider. (60 mots minimum / 120 mots maximum)",
+      "minWords": 60,
+      "maxWords": 120,
+      "modelAnswer": "Salut Marion,\n\nJe suis désolé, mais je ne vais pas pouvoir venir à la réunion de demain matin. Mon fils est malade et je vais rester à la maison avec lui. Est-ce que tu peux présenter le projet à ma place ? Je vais t'envoyer mes notes et le budget ce soir. Si les clients ont des questions difficiles, tu peux leur dire que je vais leur répondre par courriel jeudi. Je vais aussi prévenir le directeur et lui expliquer la situation. Merci beaucoup, je te dois un café !\n\nÀ bientôt,\nPaul",
+      "checklist": [
+        "I greet my colleague and sign the message.",
+        "I say clearly that I can't come and give a reason.",
+        "I use the futur proche (je vais + infinitive) at least three times.",
+        "I use lui or leur correctly, before the verb or the infinitive.",
+        "I thank my colleague.",
+        "My message has between 60 and 120 words."
+      ]
+    },
+    {
+      "id": "u07-wr02",
+      "title": "Mon travail",
+      "level": "A2+",
+      "taskType": "description",
+      "instructions": "Describe your job, or a job you would like to do (120–150 words): your tasks, your colleagues, your hours. Then say what you are going to do in the coming months.",
+      "promptFr": "Décrivez votre travail (ou un travail que vous aimeriez faire) : vos tâches, vos collègues, vos horaires. Dites aussi ce que vous allez faire dans les prochains mois. (120 mots minimum / 150 mots maximum)",
+      "minWords": 120,
+      "maxWords": 150,
+      "modelAnswer": "Je travaille comme assistante commerciale dans une entreprise de meubles à Montréal. J'ai un CDI à temps plein et mes horaires sont assez flexibles : je commence entre 8 h et 9 h 30, et le vendredi, je suis en télétravail. Mes tâches sont variées. Le matin, je réponds aux courriels des clients et je leur envoie des devis. L'après-midi, je prépare les commandes avec mon équipe. Mes collègues sont sympathiques et nous déjeunons souvent ensemble à la cantine. Ma responsable est exigeante, mais elle m'aide beaucoup. Dans les prochains mois, je vais suivre une formation en anglais, parce que nous allons travailler avec des clients étrangers. En septembre, je vais aussi demander une augmentation à ma responsable : je vais lui parler de mes résultats. J'espère qu'elle va accepter !",
+      "checklist": [
+        "I say what my job is and where I work.",
+        "I describe my tasks and my hours in the present tense.",
+        "I describe my colleagues or my manager with adjectives.",
+        "I talk about my plans with the futur proche.",
+        "I use lui / leur at least once.",
+        "My text has between 120 and 150 words."
+      ]
+    }
+  ],
+  "speaking": [
+    {
+      "id": "u07-sp01",
+      "title": "Demander un congé",
+      "level": "A2+",
+      "taskType": "interaction",
+      "instructions": "Role-play: you want to take a week off. The examiner plays your manager. Ask for the days, explain why and suggest how your work will be organised while you are away.",
+      "promptFr": "Vous voulez prendre une semaine de congé. Vous parlez à votre responsable (l'examinateur) : vous lui demandez ces jours, vous expliquez pourquoi et vous proposez une organisation pendant votre absence.",
+      "prepSeconds": 120,
+      "speakSeconds": 210,
+      "modelAnswer": "Bonjour Madame Roche, vous avez cinq minutes ? Je voudrais vous demander une semaine de congé, du 14 au 18 avril. Ma sœur va se marier au Portugal et toute ma famille va y aller. Je sais que c'est une période chargée, alors j'ai déjà réfléchi à l'organisation. Je vais finir le rapport pour le client Petit avant mon départ. Julien est d'accord pour me remplacer : je vais lui expliquer mes dossiers en cours lundi prochain. Pour les clients, je vais leur envoyer un courriel pour les prévenir. Est-ce que c'est possible pour vous ? Si vous préférez, je peux aussi revenir le jeudi.",
+      "tips": [
+        "Start politely: « Vous avez cinq minutes ? Je voudrais vous demander… »",
+        "Give a concrete reason and precise dates.",
+        "Show you are organised with the futur proche: « Je vais finir… Je vais lui expliquer… »",
+        "Ask for your manager's opinion and offer a compromise."
+      ]
+    },
+    {
+      "id": "u07-sp02",
+      "title": "Le télétravail",
+      "level": "A2+",
+      "taskType": "opinion",
+      "instructions": "Give your opinion: is remote work a good solution for employees? Give reasons and an example.",
+      "promptFr": "À votre avis, est-ce que le télétravail est une bonne solution pour les salariés ? Pourquoi ?",
+      "prepSeconds": 0,
+      "speakSeconds": 270,
+      "modelAnswer": "À mon avis, le télétravail est une bonne solution, mais pas tous les jours. D'abord, on ne perd pas de temps dans les transports. Moi, par exemple, je mets une heure pour aller au bureau, donc quand je travaille de chez moi, je gagne deux heures par jour. On est aussi plus calme pour faire des tâches difficiles, comme rédiger un rapport. Mais il y a des inconvénients. À la maison, on est souvent seul et on parle moins avec ses collègues. Quand j'ai un problème, c'est plus facile de leur poser une question au bureau. Alors, je pense que deux jours de télétravail par semaine, c'est l'idéal. L'année prochaine, mon entreprise va proposer ce système, et je vais l'essayer.",
+      "tips": [
+        "Give your opinion at the start: « À mon avis… », « Je pense que… »",
+        "Organise your ideas: d'abord, aussi, mais, alors.",
+        "Give one advantage and one disadvantage with a personal example.",
+        "Finish with a clear conclusion."
+      ]
+    }
+  ],
+  "checkpoint": [
+    {
+      "id": "u07-cp01",
+      "type": "mcq",
+      "level": "A2+",
+      "skill": "structures",
+      "grammarTag": "coi",
+      "prompt": "Choose the correct pronoun.",
+      "promptFr": "Tu as parlé au directeur ? — Oui, je ___ ai parlé ce matin.",
+      "options": [
+        "lui",
+        "le",
+        "leur",
+        "l'"
+      ],
+      "answer": 0,
+      "explanation": "Parler à + one person → lui. Le / l' are direct object pronouns; leur means 'to them'."
+    },
+    {
+      "id": "u07-cp02",
+      "type": "fill_blank",
+      "level": "A2+",
+      "skill": "structures",
+      "grammarTag": "futur-proche",
+      "prompt": "Complete with the correct form of aller.",
+      "sentence": "Ce soir, nous ___ finir le rapport ensemble.",
+      "answers": [
+        "allons"
+      ],
+      "translation": "This evening, we are going to finish the report together.",
+      "explanation": "Futur proche with nous: nous allons + infinitive."
+    },
+    {
+      "id": "u07-cp03",
+      "type": "mcq",
+      "level": "A2+",
+      "skill": "structures",
+      "grammarTag": "coi",
+      "prompt": "Choose the correct pronoun.",
+      "promptFr": "Mes clients ? Je ___ téléphone tous les lundis.",
+      "options": [
+        "leur",
+        "les",
+        "lui",
+        "leurs"
+      ],
+      "answer": 0,
+      "explanation": "Téléphoner à + several people → leur. Les is direct, lui is singular, and the pronoun leur never takes an -s."
+    },
+    {
+      "id": "u07-cp04",
+      "type": "mcq",
+      "level": "A2+",
+      "skill": "structures",
+      "grammarTag": "vocabulary",
+      "prompt": "Choose the right word.",
+      "promptFr": "Paul a 65 ans et il ne travaille plus : il est à la ___.",
+      "options": [
+        "retraite",
+        "grève",
+        "réunion",
+        "formation"
+      ],
+      "answer": 0,
+      "explanation": "Être à la retraite = to be retired. Grève (strike), réunion (meeting) and formation (training) don't fit a 65-year-old who has stopped working."
+    },
+    {
+      "id": "u07-cp05",
+      "type": "fill_blank",
+      "level": "A2+",
+      "skill": "structures",
+      "grammarTag": "vocabulary",
+      "prompt": "Complete with a word from the unit.",
+      "sentence": "La ___ commence à 9 heures dans la salle B : toute l'équipe doit être là.",
+      "answers": [
+        "réunion"
+      ],
+      "translation": "The meeting starts at 9 o'clock in room B: the whole team must be there.",
+      "explanation": "Une réunion is a meeting where the team gets together."
+    },
+    {
+      "id": "u07-cp06",
+      "type": "mcq",
+      "level": "A2+",
+      "skill": "structures",
+      "grammarTag": "futur-proche",
+      "prompt": "Choose the correct negative.",
+      "promptFr": "Elle trouve le salaire trop bas : elle ___ ce poste.",
+      "options": [
+        "ne va pas accepter",
+        "ne pas va accepter",
+        "va accepter pas",
+        "n'accepter va pas"
+      ],
+      "answer": 0,
+      "explanation": "Ne… pas goes around aller, the conjugated verb: elle ne va pas accepter."
+    },
+    {
+      "id": "u07-cp07",
+      "type": "fill_blank",
+      "level": "A2+",
+      "skill": "structures",
+      "grammarTag": "coi",
+      "prompt": "Complete with lui or leur.",
+      "sentence": "Ce sont nos nouveaux stagiaires : on ___ explique le travail le premier jour.",
+      "answers": [
+        "leur"
+      ],
+      "translation": "These are our new interns: we explain the work to them on the first day.",
+      "explanation": "Expliquer quelque chose à + several people → leur."
+    },
+    {
+      "id": "u07-cp08",
+      "type": "mcq",
+      "level": "A2+",
+      "skill": "structures",
+      "grammarTag": "coi",
+      "prompt": "Which sentence is correct?",
+      "options": [
+        "Je vais lui demander une augmentation.",
+        "Je lui vais demander une augmentation.",
+        "Je vais demander lui une augmentation.",
+        "Je vais leurs demander une augmentation."
+      ],
+      "answer": 0,
+      "explanation": "In the futur proche, the pronoun goes right before the infinitive: je vais lui demander. Leurs with -s is never a pronoun."
+    },
+    {
+      "id": "u07-cp09",
+      "type": "fill_blank",
+      "level": "A2+",
+      "skill": "structures",
+      "grammarTag": "vocabulary",
+      "prompt": "Complete with a verb meaning 'to hire'.",
+      "sentence": "Notre entreprise va ___ trois nouveaux ingénieurs.",
+      "answers": [
+        "embaucher",
+        "recruter",
+        "engager"
+      ],
+      "translation": "Our company is going to hire three new engineers.",
+      "explanation": "Embaucher (or recruter / engager) = to take on new staff. After va, use the infinitive."
+    },
+    {
+      "id": "u07-cp10",
+      "type": "mcq",
+      "level": "A2+",
+      "skill": "structures",
+      "grammarTag": "vocabulary",
+      "prompt": "Choose the right word.",
+      "promptFr": "Un contrat qui a une date de fin, c'est un ___.",
+      "options": [
+        "CDD",
+        "CDI",
+        "salaire",
+        "congé"
+      ],
+      "answer": 0,
+      "explanation": "CDD = contrat à durée déterminée (fixed-term). A CDI has no end date; salaire and congé are not contracts."
+    }
+  ]
+}

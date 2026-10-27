@@ -1,0 +1,17 @@
+# A notification opens /daily/word?day=…; the same route is reachable through the app scheme.
+appId: com.emeka.chequejour
+---
+- setAirplaneMode: enabled
+- clearState
+- launchApp
+- tapOn:
+    id: onboarding-start
+- tapOn:
+    id: skip-placement
+- openLink: chequejour://daily/word?test=1
+- assertVisible:
+    id: daily-test
+- openLink: chequejour://daily/sentence
+- assertVisible:
+    id: sentence-screen
+- setAirplaneMode: disabled

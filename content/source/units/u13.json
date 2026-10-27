@@ -1,0 +1,2218 @@
+{
+  "id": "u13",
+  "order": 19,
+  "level": "B1",
+  "theme": "The environment",
+  "titleFr": "Protéger la planète",
+  "description": "Talk about climate change, waste, energy and everyday green habits. Learn the conditionnel présent to give advice, make polite requests and imagine situations with si + imparfait.",
+  "vocab": [
+    {
+      "id": "u13-w001",
+      "fr": "environnement",
+      "en": "environment",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "environnements",
+      "level": "A2+",
+      "core": true,
+      "example": {
+        "fr": "Nous pouvons tous protéger l'environnement, même avec de petits gestes.",
+        "en": "We can all protect the environment, even with small actions."
+      }
+    },
+    {
+      "id": "u13-w002",
+      "fr": "pollution",
+      "en": "pollution",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "pollutions",
+      "level": "A2+",
+      "core": true,
+      "example": {
+        "fr": "La pollution de l'air est un vrai problème dans les grandes villes.",
+        "en": "Air pollution is a real problem in big cities."
+      }
+    },
+    {
+      "id": "u13-w003",
+      "fr": "réchauffement climatique",
+      "en": "global warming",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1",
+      "core": true,
+      "example": {
+        "fr": "Le réchauffement climatique rend les étés de plus en plus chauds.",
+        "en": "Global warming is making summers hotter and hotter."
+      }
+    },
+    {
+      "id": "u13-w004",
+      "fr": "déchet",
+      "en": "piece of waste, rubbish",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "déchets",
+      "level": "A2+",
+      "core": true,
+      "example": {
+        "fr": "Nous essayons de produire moins de déchets à la maison.",
+        "en": "We are trying to produce less waste at home."
+      }
+    },
+    {
+      "id": "u13-w005",
+      "fr": "recycler",
+      "en": "to recycle",
+      "pos": "verb",
+      "level": "A2+",
+      "core": true,
+      "example": {
+        "fr": "Si on recyclait mieux le plastique, on polluerait moins les océans.",
+        "en": "If we recycled plastic better, we would pollute the oceans less."
+      }
+    },
+    {
+      "id": "u13-w006",
+      "fr": "trier",
+      "en": "to sort (waste)",
+      "pos": "verb",
+      "level": "A2+",
+      "core": true,
+      "example": {
+        "fr": "Dans mon immeuble, on trie le verre, le papier et les emballages.",
+        "en": "In my building, we sort glass, paper and packaging."
+      }
+    },
+    {
+      "id": "u13-w007",
+      "fr": "gaspiller",
+      "en": "to waste",
+      "pos": "verb",
+      "level": "B1",
+      "core": true,
+      "example": {
+        "fr": "Il ne faut pas gaspiller l'eau quand on se brosse les dents.",
+        "en": "You shouldn't waste water when you brush your teeth."
+      }
+    },
+    {
+      "id": "u13-w008",
+      "fr": "économiser",
+      "en": "to save (energy, water, money)",
+      "pos": "verb",
+      "level": "A2+",
+      "core": true,
+      "example": {
+        "fr": "On économiserait beaucoup d'énergie en baissant le chauffage d'un degré.",
+        "en": "We would save a lot of energy by turning the heating down one degree."
+      }
+    },
+    {
+      "id": "u13-w009",
+      "fr": "énergie",
+      "en": "energy",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "énergies",
+      "level": "A2+",
+      "core": true,
+      "example": {
+        "fr": "Les appareils en veille consomment de l'énergie inutilement.",
+        "en": "Devices on standby use energy for nothing."
+      }
+    },
+    {
+      "id": "u13-w010",
+      "fr": "protéger",
+      "en": "to protect",
+      "pos": "verb",
+      "level": "A2+",
+      "core": true,
+      "example": {
+        "fr": "Cette association protège les oiseaux de la région.",
+        "en": "This association protects the birds of the region."
+      }
+    },
+    {
+      "id": "u13-w011",
+      "fr": "planète",
+      "en": "planet",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "planètes",
+      "level": "A2",
+      "core": true,
+      "example": {
+        "fr": "Nous n'avons qu'une seule planète, il faut en prendre soin.",
+        "en": "We only have one planet; we must take care of it."
+      }
+    },
+    {
+      "id": "u13-w012",
+      "fr": "climat",
+      "en": "climate",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "climats",
+      "level": "A2+",
+      "core": true,
+      "example": {
+        "fr": "Le climat change plus vite que les scientifiques ne le pensaient.",
+        "en": "The climate is changing faster than scientists thought."
+      }
+    },
+    {
+      "id": "u13-w013",
+      "fr": "espèce",
+      "en": "species",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "espèces",
+      "level": "B1",
+      "core": true,
+      "example": {
+        "fr": "Beaucoup d'espèces animales risquent de disparaître.",
+        "en": "Many animal species are at risk of disappearing."
+      }
+    },
+    {
+      "id": "u13-w014",
+      "fr": "menacé",
+      "en": "threatened, endangered",
+      "pos": "adjective",
+      "level": "B1",
+      "core": true,
+      "example": {
+        "fr": "L'ours polaire est une espèce menacée.",
+        "en": "The polar bear is an endangered species."
+      }
+    },
+    {
+      "id": "u13-w015",
+      "fr": "écologique",
+      "en": "ecological, eco-friendly",
+      "pos": "adjective",
+      "level": "A2+",
+      "core": true,
+      "example": {
+        "fr": "En ville, le vélo est le moyen de transport le plus écologique.",
+        "en": "In town, the bike is the most eco-friendly means of transport."
+      }
+    },
+    {
+      "id": "u13-w016",
+      "fr": "durable",
+      "en": "sustainable, long-lasting",
+      "pos": "adjective",
+      "level": "B1",
+      "core": true,
+      "example": {
+        "fr": "Je préfère acheter des vêtements de qualité, plus durables.",
+        "en": "I prefer to buy good-quality clothes that last longer."
+      }
+    },
+    {
+      "id": "u13-w017",
+      "fr": "transport en commun",
+      "en": "public transport",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "transports en commun",
+      "level": "A2+",
+      "core": true,
+      "example": {
+        "fr": "Si les transports en commun étaient gratuits, je laisserais ma voiture au garage.",
+        "en": "If public transport were free, I would leave my car in the garage."
+      }
+    },
+    {
+      "id": "u13-w018",
+      "fr": "émission",
+      "en": "emission",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "émissions",
+      "level": "B1",
+      "core": true,
+      "example": {
+        "fr": "Les émissions de CO2 des voitures doivent baisser.",
+        "en": "CO2 emissions from cars must come down."
+      }
+    },
+    {
+      "id": "u13-w019",
+      "fr": "ressource",
+      "en": "resource",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "ressources",
+      "level": "B1",
+      "core": true,
+      "example": {
+        "fr": "L'eau est une ressource précieuse qu'il faut partager.",
+        "en": "Water is a precious resource that must be shared."
+      }
+    },
+    {
+      "id": "u13-w020",
+      "fr": "sécheresse",
+      "en": "drought",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "sécheresses",
+      "level": "B1",
+      "core": true,
+      "example": {
+        "fr": "Après trois mois de sécheresse, les agriculteurs manquent d'eau.",
+        "en": "After three months of drought, farmers are short of water."
+      }
+    },
+    {
+      "id": "u13-w021",
+      "fr": "biodiversité",
+      "en": "biodiversity",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "La biodiversité diminue presque partout dans le monde.",
+        "en": "Biodiversity is declining almost everywhere in the world."
+      }
+    },
+    {
+      "id": "u13-w022",
+      "fr": "écosystème",
+      "en": "ecosystem",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "écosystèmes",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "La pollution menace tout l'écosystème de la rivière.",
+        "en": "Pollution threatens the whole ecosystem of the river."
+      }
+    },
+    {
+      "id": "u13-w023",
+      "fr": "gaz à effet de serre",
+      "en": "greenhouse gas",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "gaz à effet de serre",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Les avions émettent beaucoup de gaz à effet de serre.",
+        "en": "Planes emit a lot of greenhouse gases."
+      },
+      "pluralOnly": true
+    },
+    {
+      "id": "u13-w024",
+      "fr": "empreinte carbone",
+      "en": "carbon footprint",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "empreintes carbone",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "En mangeant moins de viande, je réduirais mon empreinte carbone.",
+        "en": "By eating less meat, I would reduce my carbon footprint."
+      }
+    },
+    {
+      "id": "u13-w025",
+      "fr": "énergie renouvelable",
+      "en": "renewable energy",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "énergies renouvelables",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Le solaire et l'éolien sont des énergies renouvelables.",
+        "en": "Solar and wind power are renewable energies."
+      }
+    },
+    {
+      "id": "u13-w026",
+      "fr": "panneau solaire",
+      "en": "solar panel",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "panneaux solaires",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Mes voisins ont installé des panneaux solaires sur leur toit.",
+        "en": "My neighbours have put solar panels on their roof."
+      }
+    },
+    {
+      "id": "u13-w027",
+      "fr": "éolienne",
+      "en": "wind turbine",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "éoliennes",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "On a construit une dizaine d'éoliennes au large de la côte.",
+        "en": "About ten wind turbines have been built off the coast."
+      }
+    },
+    {
+      "id": "u13-w028",
+      "fr": "centrale nucléaire",
+      "en": "nuclear power station",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "centrales nucléaires",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Une grande partie de l'électricité française vient des centrales nucléaires.",
+        "en": "A large part of French electricity comes from nuclear power stations."
+      }
+    },
+    {
+      "id": "u13-w029",
+      "fr": "pétrole",
+      "en": "oil, petroleum",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "La plupart des plastiques sont fabriqués à partir du pétrole.",
+        "en": "Most plastics are made from oil."
+      }
+    },
+    {
+      "id": "u13-w030",
+      "fr": "inondation",
+      "en": "flood",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "inondations",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Les fortes pluies ont provoqué des inondations dans le sud du pays.",
+        "en": "The heavy rain caused floods in the south of the country."
+      }
+    },
+    {
+      "id": "u13-w031",
+      "fr": "canicule",
+      "en": "heatwave",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "canicules",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Pendant la canicule, il a fait 40 degrés à Montréal.",
+        "en": "During the heatwave, it reached 40 degrees in Montréal."
+      }
+    },
+    {
+      "id": "u13-w032",
+      "fr": "tempête",
+      "en": "storm",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "tempêtes",
+      "level": "A2+",
+      "core": false,
+      "example": {
+        "fr": "La tempête a fait tomber plusieurs arbres sur la route.",
+        "en": "The storm brought down several trees onto the road."
+      }
+    },
+    {
+      "id": "u13-w033",
+      "fr": "incendie",
+      "en": "fire (large, destructive)",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "incendies",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Les incendies de forêt sont plus fréquents à cause de la sécheresse.",
+        "en": "Forest fires are more frequent because of the drought."
+      }
+    },
+    {
+      "id": "u13-w034",
+      "fr": "fonte des glaces",
+      "en": "melting of the ice",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "La fonte des glaces fait monter le niveau de la mer.",
+        "en": "The melting of the ice is making the sea level rise."
+      }
+    },
+    {
+      "id": "u13-w035",
+      "fr": "niveau de la mer",
+      "en": "sea level",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Si le niveau de la mer montait d'un mètre, certaines villes seraient inondées.",
+        "en": "If the sea level rose by one metre, some cities would be flooded."
+      }
+    },
+    {
+      "id": "u13-w036",
+      "fr": "déforestation",
+      "en": "deforestation",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "La déforestation détruit l'habitat de nombreux animaux.",
+        "en": "Deforestation destroys the habitat of many animals."
+      }
+    },
+    {
+      "id": "u13-w037",
+      "fr": "compost",
+      "en": "compost",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "composts",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Nous mettons les épluchures de légumes dans le compost.",
+        "en": "We put vegetable peelings in the compost."
+      }
+    },
+    {
+      "id": "u13-w038",
+      "fr": "bac de tri",
+      "en": "recycling bin",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "bacs de tri",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Les bouteilles en plastique vont dans le bac de tri jaune.",
+        "en": "Plastic bottles go in the yellow recycling bin."
+      }
+    },
+    {
+      "id": "u13-w039",
+      "fr": "emballage",
+      "en": "packaging",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "emballages",
+      "level": "A2+",
+      "core": false,
+      "example": {
+        "fr": "Ce magasin vend des produits sans emballage.",
+        "en": "This shop sells products without packaging."
+      }
+    },
+    {
+      "id": "u13-w040",
+      "fr": "plastique",
+      "en": "plastic",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "plastiques",
+      "level": "A2",
+      "core": false,
+      "example": {
+        "fr": "On trouve du plastique jusqu'au fond des océans.",
+        "en": "Plastic is found even at the bottom of the oceans."
+      }
+    },
+    {
+      "id": "u13-w041",
+      "fr": "verre",
+      "en": "glass (material)",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2",
+      "core": false,
+      "example": {
+        "fr": "Le verre peut se recycler presque à l'infini.",
+        "en": "Glass can be recycled almost endlessly."
+      }
+    },
+    {
+      "id": "u13-w042",
+      "fr": "gourde",
+      "en": "reusable water bottle",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "gourdes",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "J'ai toujours une gourde dans mon sac pour ne pas acheter de bouteilles d'eau.",
+        "en": "I always have a water bottle in my bag so I don't buy bottled water."
+      }
+    },
+    {
+      "id": "u13-w043",
+      "fr": "réutilisable",
+      "en": "reusable",
+      "pos": "adjective",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "J'apporte des sacs réutilisables quand je fais les courses.",
+        "en": "I bring reusable bags when I go shopping."
+      }
+    },
+    {
+      "id": "u13-w044",
+      "fr": "jetable",
+      "en": "disposable",
+      "pos": "adjective",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "La Ville a interdit la vaisselle jetable pendant la fête du quartier.",
+        "en": "The town hall banned disposable tableware during the neighbourhood party."
+      }
+    },
+    {
+      "id": "u13-w045",
+      "fr": "en vrac",
+      "en": "loose, in bulk (without packaging)",
+      "pos": "expression",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Dans cette épicerie, on achète les pâtes et le riz en vrac.",
+        "en": "In this grocery shop, you buy pasta and rice loose."
+      }
+    },
+    {
+      "id": "u13-w046",
+      "fr": "circuit court",
+      "en": "short supply chain (buying direct from local producers)",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "circuits courts",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Acheter en circuit court permet de soutenir les agriculteurs de la région.",
+        "en": "Buying direct from producers helps support local farmers."
+      }
+    },
+    {
+      "id": "u13-w047",
+      "fr": "bio",
+      "en": "organic",
+      "pos": "adjective",
+      "level": "A2+",
+      "core": false,
+      "example": {
+        "fr": "Les fruits bio sont souvent plus chers, mais ils sont cultivés sans pesticides.",
+        "en": "Organic fruit is often more expensive, but it is grown without pesticides."
+      }
+    },
+    {
+      "id": "u13-w048",
+      "fr": "potager",
+      "en": "vegetable garden",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "potagers",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Ma grand-mère cultive ses propres tomates dans son potager.",
+        "en": "My grandmother grows her own tomatoes in her vegetable garden."
+      }
+    },
+    {
+      "id": "u13-w049",
+      "fr": "pesticide",
+      "en": "pesticide",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "pesticides",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Certains pesticides sont interdits parce qu'ils tuent les insectes utiles.",
+        "en": "Some pesticides are banned because they kill useful insects."
+      }
+    },
+    {
+      "id": "u13-w050",
+      "fr": "abeille",
+      "en": "bee",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "abeilles",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Sans les abeilles, beaucoup de plantes ne pourraient pas se reproduire.",
+        "en": "Without bees, many plants could not reproduce."
+      }
+    },
+    {
+      "id": "u13-w051",
+      "fr": "eau potable",
+      "en": "drinking water",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Dans certaines régions, l'accès à l'eau potable devient difficile.",
+        "en": "In some regions, access to drinking water is becoming difficult."
+      }
+    },
+    {
+      "id": "u13-w052",
+      "fr": "covoiturage",
+      "en": "car-sharing, carpooling",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Je fais du covoiturage avec deux collègues pour aller au bureau.",
+        "en": "I carpool with two colleagues to get to the office."
+      }
+    },
+    {
+      "id": "u13-w053",
+      "fr": "borne de recharge",
+      "en": "charging point",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "bornes de recharge",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Il manque encore des bornes de recharge pour les voitures électriques.",
+        "en": "There still aren't enough charging points for electric cars."
+      }
+    },
+    {
+      "id": "u13-w054",
+      "fr": "isolation",
+      "en": "insulation",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Grâce à une bonne isolation, nous dépensons moins en chauffage.",
+        "en": "Thanks to good insulation, we spend less on heating."
+      }
+    },
+    {
+      "id": "u13-w055",
+      "fr": "en veille",
+      "en": "on standby",
+      "pos": "expression",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Ne laisse pas la télévision en veille toute la nuit.",
+        "en": "Don't leave the TV on standby all night."
+      }
+    },
+    {
+      "id": "u13-w056",
+      "fr": "polluer",
+      "en": "to pollute",
+      "pos": "verb",
+      "level": "A2+",
+      "core": false,
+      "example": {
+        "fr": "Les vieilles voitures polluent beaucoup plus que les nouvelles.",
+        "en": "Old cars pollute much more than new ones."
+      }
+    },
+    {
+      "id": "u13-w057",
+      "fr": "réduire",
+      "en": "to reduce, to cut down",
+      "pos": "verb",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Nous devrions réduire notre consommation de viande.",
+        "en": "We should reduce how much meat we eat."
+      }
+    },
+    {
+      "id": "u13-w058",
+      "fr": "jeter",
+      "en": "to throw away",
+      "pos": "verb",
+      "level": "A2+",
+      "core": false,
+      "example": {
+        "fr": "Il est interdit de jeter des papiers par terre.",
+        "en": "It is forbidden to throw litter on the ground."
+      }
+    },
+    {
+      "id": "u13-w059",
+      "fr": "réutiliser",
+      "en": "to reuse",
+      "pos": "verb",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Je réutilise les bocaux en verre pour ranger les épices.",
+        "en": "I reuse glass jars to store spices."
+      }
+    },
+    {
+      "id": "u13-w060",
+      "fr": "réparer",
+      "en": "to repair",
+      "pos": "verb",
+      "level": "A2+",
+      "core": false,
+      "example": {
+        "fr": "Au lieu de jeter mon grille-pain, je l'ai fait réparer.",
+        "en": "Instead of throwing my toaster away, I had it repaired."
+      }
+    },
+    {
+      "id": "u13-w061",
+      "fr": "sensibiliser",
+      "en": "to raise awareness",
+      "pos": "verb",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "L'école sensibilise les enfants au tri des déchets.",
+        "en": "The school raises children's awareness of waste sorting."
+      }
+    },
+    {
+      "id": "u13-w062",
+      "fr": "s'engager",
+      "en": "to get involved, to commit oneself",
+      "pos": "verb",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Ma fille s'est engagée dans une association écologiste.",
+        "en": "My daughter got involved in an environmental association."
+      }
+    },
+    {
+      "id": "u13-w063",
+      "fr": "lutter contre",
+      "en": "to fight against",
+      "pos": "verb",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Chacun peut lutter contre le gaspillage à son niveau.",
+        "en": "Everyone can fight against waste in their own way."
+      }
+    },
+    {
+      "id": "u13-w064",
+      "fr": "préserver",
+      "en": "to preserve",
+      "pos": "verb",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Il faut préserver les espaces verts en ville.",
+        "en": "Green spaces in town must be preserved."
+      }
+    },
+    {
+      "id": "u13-w065",
+      "fr": "disparaître",
+      "en": "to disappear",
+      "pos": "verb",
+      "level": "A2+",
+      "core": false,
+      "example": {
+        "fr": "Certains glaciers des Alpes pourraient disparaître d'ici la fin du siècle.",
+        "en": "Some Alpine glaciers could disappear by the end of the century."
+      }
+    },
+    {
+      "id": "u13-w066",
+      "fr": "se réchauffer",
+      "en": "to get warmer",
+      "pos": "verb",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Les océans se réchauffent plus vite que prévu.",
+        "en": "The oceans are warming faster than expected."
+      }
+    },
+    {
+      "id": "u13-w067",
+      "fr": "éteindre",
+      "en": "to switch off",
+      "pos": "verb",
+      "level": "A2+",
+      "core": false,
+      "example": {
+        "fr": "Pense à éteindre la lumière en sortant de la pièce.",
+        "en": "Remember to switch off the light when you leave the room."
+      }
+    },
+    {
+      "id": "u13-w068",
+      "fr": "débrancher",
+      "en": "to unplug",
+      "pos": "verb",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Je débranche mon chargeur quand je ne l'utilise pas.",
+        "en": "I unplug my charger when I'm not using it."
+      }
+    },
+    {
+      "id": "u13-w069",
+      "fr": "nocif / nocive",
+      "en": "harmful",
+      "pos": "adjective",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Les fumées de cette usine sont nocives pour la santé.",
+        "en": "The fumes from this factory are harmful to health."
+      }
+    },
+    {
+      "id": "u13-w070",
+      "fr": "biodégradable",
+      "en": "biodegradable",
+      "pos": "adjective",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Ces sacs sont biodégradables : ils disparaissent en quelques mois.",
+        "en": "These bags are biodegradable: they break down in a few months."
+      }
+    },
+    {
+      "id": "u13-w071",
+      "fr": "respectueux / respectueuse de l'environnement",
+      "en": "environmentally friendly",
+      "pos": "adjective",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Cette entreprise se dit respectueuse de l'environnement.",
+        "en": "This company claims to be environmentally friendly."
+      }
+    },
+    {
+      "id": "u13-w072",
+      "fr": "irréversible",
+      "en": "irreversible",
+      "pos": "adjective",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Certains dégâts causés à la nature sont irréversibles.",
+        "en": "Some damage done to nature is irreversible."
+      }
+    },
+    {
+      "id": "u13-w073",
+      "fr": "à long terme",
+      "en": "in the long term",
+      "pos": "expression",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "À long terme, les énergies renouvelables coûteront moins cher.",
+        "en": "In the long term, renewable energy will cost less."
+      }
+    },
+    {
+      "id": "u13-w074",
+      "fr": "faire un geste pour la planète",
+      "en": "to do one's bit for the planet",
+      "pos": "expression",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Prendre le vélo plutôt que la voiture, c'est faire un geste pour la planète.",
+        "en": "Taking the bike rather than the car is doing your bit for the planet."
+      }
+    },
+    {
+      "id": "u13-w075",
+      "fr": "prendre conscience de",
+      "en": "to become aware of",
+      "pos": "expression",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Beaucoup de jeunes ont pris conscience de l'urgence climatique.",
+        "en": "Many young people have become aware of the climate emergency."
+      }
+    },
+    {
+      "id": "u13-w076",
+      "fr": "mettre en place",
+      "en": "to set up, to introduce",
+      "pos": "expression",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "La ville a mis en place un service de location de vélos.",
+        "en": "The town has set up a bike rental service."
+      }
+    },
+    {
+      "id": "u13-w077",
+      "fr": "au lieu de",
+      "en": "instead of",
+      "pos": "preposition",
+      "level": "A2+",
+      "core": false,
+      "example": {
+        "fr": "Je prends le train au lieu de l'avion pour les courts trajets.",
+        "en": "I take the train instead of the plane for short journeys."
+      }
+    },
+    {
+      "id": "u13-w078",
+      "fr": "écologiste",
+      "en": "environmentalist",
+      "pos": "noun",
+      "gender": "mf",
+      "plural": "écologistes",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Les écologistes s'opposent à la construction d'une nouvelle autoroute.",
+        "en": "Environmentalists are opposed to the building of a new motorway."
+      }
+    },
+    {
+      "id": "u13-w079",
+      "fr": "manifestation",
+      "en": "demonstration, protest march",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "manifestations",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Des milliers de jeunes ont participé à la manifestation pour le climat.",
+        "en": "Thousands of young people took part in the climate march."
+      }
+    },
+    {
+      "id": "u13-w080",
+      "fr": "enjeu",
+      "en": "issue, what is at stake",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "enjeux",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "La protection de l'eau est un enjeu majeur pour les années à venir.",
+        "en": "Protecting water is a major issue for the years to come."
+      }
+    },
+    {
+      "id": "u13-w081",
+      "fr": "catastrophe naturelle",
+      "en": "natural disaster",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "catastrophes naturelles",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Les catastrophes naturelles coûtent de plus en plus cher aux assurances.",
+        "en": "Natural disasters are costing insurers more and more."
+      }
+    },
+    {
+      "id": "u13-w082",
+      "fr": "mesure",
+      "en": "measure (action taken)",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "mesures",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Le gouvernement a annoncé de nouvelles mesures contre la pollution.",
+        "en": "The government has announced new measures against pollution."
+      }
+    },
+    {
+      "id": "u13-w083",
+      "fr": "gaspillage",
+      "en": "waste, wastefulness",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Le gaspillage alimentaire représente des tonnes de nourriture chaque année.",
+        "en": "Food waste amounts to tonnes of food every year."
+      }
+    },
+    {
+      "id": "u13-w084",
+      "fr": "il vaudrait mieux",
+      "en": "it would be better to",
+      "pos": "expression",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Il vaudrait mieux prendre le train que l'avion pour aller à Québec.",
+        "en": "It would be better to take the train than the plane to go to Quebec City."
+      }
+    }
+  ],
+  "grammar": [
+    {
+      "id": "u13-g01",
+      "title": "The conditionnel présent: form and uses",
+      "level": "B1",
+      "grammarTag": "conditionnel",
+      "explanation": [
+        "The conditionnel présent usually translates English \"would\" + verb: je recyclerais = I would recycle. You build it with the same stem as the futur simple and the endings of the imparfait: -ais, -ais, -ait, -ions, -iez, -aient.",
+        "For most verbs the stem is the infinitive: trier → je trierais, protéger → nous protégerions. Verbs in -re drop the final e: prendre → je prendrais, réduire → tu réduirais. Verbs like acheter and jeter keep the spelling change of the future: j'achèterais, je jetterais.",
+        "The irregular stems are exactly those of the futur simple: être → ser-, avoir → aur-, aller → ir-, faire → fer-, pouvoir → pourr-, vouloir → voudr-, devoir → devr-, venir → viendr-, voir → verr-, savoir → saur-, falloir → faudr- (il faudrait), valoir → vaudr- (il vaudrait mieux).",
+        "Main uses: polite requests (Je voudrais…, Pourriez-vous… ?), advice (Tu devrais…, Il faudrait…, À ta place, je…), wishes (J'aimerais…), imagined situations (Dans un monde idéal, on n'utiliserait plus de plastique) and unconfirmed facts in the news (Selon la presse, l'usine serait responsable de la pollution).",
+        "Watch the je form: je trierai (future, \"I will sort\") and je trierais (conditionnel, \"I would sort\") sound almost the same. In writing, the -s makes all the difference, so check the meaning of the sentence."
+      ],
+      "table": [
+        [
+          "Infinitive",
+          "Stem",
+          "je",
+          "nous",
+          "ils / elles"
+        ],
+        [
+          "recycler",
+          "recycler-",
+          "recyclerais",
+          "recyclerions",
+          "recycleraient"
+        ],
+        [
+          "prendre",
+          "prendr-",
+          "prendrais",
+          "prendrions",
+          "prendraient"
+        ],
+        [
+          "être",
+          "ser-",
+          "serais",
+          "serions",
+          "seraient"
+        ],
+        [
+          "avoir",
+          "aur-",
+          "aurais",
+          "aurions",
+          "auraient"
+        ],
+        [
+          "faire",
+          "fer-",
+          "ferais",
+          "ferions",
+          "feraient"
+        ],
+        [
+          "pouvoir",
+          "pourr-",
+          "pourrais",
+          "pourrions",
+          "pourraient"
+        ],
+        [
+          "devoir",
+          "devr-",
+          "devrais",
+          "devrions",
+          "devraient"
+        ],
+        [
+          "vouloir",
+          "voudr-",
+          "voudrais",
+          "voudrions",
+          "voudraient"
+        ]
+      ],
+      "examples": [
+        {
+          "fr": "Je voudrais des renseignements sur le tri des déchets, s'il vous plaît.",
+          "en": "I would like some information about waste sorting, please."
+        },
+        {
+          "fr": "Pourriez-vous éteindre la climatisation en partant ?",
+          "en": "Could you switch off the air conditioning when you leave?"
+        },
+        {
+          "fr": "Tu devrais débrancher ton ordinateur le soir.",
+          "en": "You should unplug your computer in the evening."
+        },
+        {
+          "fr": "À ta place, je prendrais le train plutôt que l'avion.",
+          "en": "If I were you, I would take the train rather than the plane."
+        },
+        {
+          "fr": "Il faudrait planter plus d'arbres dans notre quartier.",
+          "en": "More trees ought to be planted in our neighbourhood."
+        },
+        {
+          "fr": "J'aimerais vivre dans une ville sans voitures.",
+          "en": "I would love to live in a car-free city."
+        },
+        {
+          "fr": "Selon un journal local, la rivière serait polluée par une usine voisine.",
+          "en": "According to a local paper, the river is said to be polluted by a nearby factory."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "Je voudrai un sac réutilisable, s'il vous plaît.",
+          "right": "Je voudrais un sac réutilisable, s'il vous plaît.",
+          "why": "A polite request needs the conditionnel (-ais). Je voudrai is the futur simple."
+        },
+        {
+          "wrong": "Ils pouveraient faire plus d'efforts.",
+          "right": "Ils pourraient faire plus d'efforts.",
+          "why": "Pouvoir has the irregular stem pourr- (with double r), as in the future."
+        },
+        {
+          "wrong": "Tu devrais de trier tes déchets.",
+          "right": "Tu devrais trier tes déchets.",
+          "why": "Devoir is followed directly by an infinitive, with no preposition."
+        }
+      ]
+    },
+    {
+      "id": "u13-g02",
+      "title": "Imagining: si + imparfait → conditionnel",
+      "level": "B1",
+      "grammarTag": "conditionnel",
+      "explanation": [
+        "To imagine a situation that is unreal or unlikely now or in the future, French uses si + imparfait in the \"if\" clause and the conditionnel présent in the result clause: Si j'avais un jardin, je ferais du compost (If I had a garden, I would make compost).",
+        "The golden rule: never put the conditionnel straight after si meaning \"if\". English learners often say \"si j'aurais\" by analogy with \"would\" — it is always wrong. The conditionnel goes in the other clause.",
+        "The two clauses can swap places: Je ferais du compost si j'avais un jardin. Use a comma only when the si clause comes first.",
+        "Compare with a real, likely condition, which uses si + présent and then the présent, the futur or the imperative: S'il fait beau demain, j'irai au travail à vélo. The choice of tense shows how likely you think the situation is.",
+        "Si becomes s' only before il and ils: s'il, s'ils. It stays si before elle, on and other vowels: si elle, si on. And \"Et si on + imparfait… ?\" is a friendly way to make a suggestion: Et si on allait au marché à vélo ?"
+      ],
+      "table": [
+        [
+          "Situation",
+          "si clause",
+          "Result clause",
+          "Example"
+        ],
+        [
+          "Real / likely",
+          "si + présent",
+          "présent, futur or impératif",
+          "Si tu tries tes déchets, tu en jetteras moins."
+        ],
+        [
+          "Imagined / unlikely",
+          "si + imparfait",
+          "conditionnel présent",
+          "Si tu triais tes déchets, tu en jetterais moins."
+        ],
+        [
+          "Suggestion",
+          "Et si on + imparfait… ?",
+          "—",
+          "Et si on prenait le bus ?"
+        ]
+      ],
+      "examples": [
+        {
+          "fr": "Si les trains étaient moins chers, je ne prendrais plus l'avion.",
+          "en": "If trains were cheaper, I would no longer take the plane."
+        },
+        {
+          "fr": "Si on éteignait les écrans la nuit, on économiserait de l'électricité.",
+          "en": "If we switched screens off at night, we would save electricity."
+        },
+        {
+          "fr": "S'il y avait plus de pistes cyclables, plus de gens viendraient au travail à vélo.",
+          "en": "If there were more cycle lanes, more people would come to work by bike."
+        },
+        {
+          "fr": "Nous achèterions des produits locaux si le marché était plus près.",
+          "en": "We would buy local products if the market were closer."
+        },
+        {
+          "fr": "Si tu pouvais changer une chose dans ta ville, qu'est-ce que tu changerais ?",
+          "en": "If you could change one thing in your town, what would you change?"
+        },
+        {
+          "fr": "Et si on organisait un nettoyage de la plage samedi ?",
+          "en": "How about organising a beach clean-up on Saturday?"
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "Si j'aurais le temps, je réparerais mon vélo.",
+          "right": "Si j'avais le temps, je réparerais mon vélo.",
+          "why": "After si (if), use the imparfait, never the conditionnel."
+        },
+        {
+          "wrong": "Si je gagnais plus, j'achèterai une voiture électrique.",
+          "right": "Si je gagnais plus, j'achèterais une voiture électrique.",
+          "why": "si + imparfait goes with the conditionnel (-ais), not the futur (-ai)."
+        },
+        {
+          "wrong": "Si il faisait moins chaud, on dormirait mieux.",
+          "right": "S'il faisait moins chaud, on dormirait mieux.",
+          "why": "Si elides to s' before il and ils."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "u13-ex01",
+      "type": "mcq",
+      "level": "B1",
+      "skill": "structures",
+      "grammarTag": "conditionnel",
+      "prompt": "Choose the correct form to give advice.",
+      "promptFr": "À ta place, je ___ le train plutôt que l'avion.",
+      "options": [
+        "prendrais",
+        "prendrai",
+        "prenais",
+        "prendrait"
+      ],
+      "answer": 0,
+      "explanation": "À ta place introduces advice, so we need the conditionnel with je: prendrais. Prendrai is the future, prenais the imparfait and prendrait the il/elle form."
+    },
+    {
+      "id": "u13-ex02",
+      "type": "mcq",
+      "level": "B1",
+      "skill": "structures",
+      "grammarTag": "conditionnel",
+      "prompt": "Complete the hypothetical sentence.",
+      "promptFr": "Si les bus ___ gratuits, plus de gens les utiliseraient.",
+      "options": [
+        "seraient",
+        "sont",
+        "étaient",
+        "seront"
+      ],
+      "answer": 2,
+      "explanation": "The result clause is in the conditionnel (utiliseraient), so the si clause needs the imparfait: étaient. Never use the conditionnel after si."
+    },
+    {
+      "id": "u13-ex03",
+      "type": "mcq",
+      "level": "B1",
+      "skill": "structures",
+      "grammarTag": "conditionnel",
+      "prompt": "Which sentence is correct?",
+      "options": [
+        "Si on trierait mieux, on recyclerait plus.",
+        "Si on triait mieux, on recyclera plus.",
+        "Si on trie mieux, on recyclerait plus.",
+        "Si on triait mieux, on recyclerait plus."
+      ],
+      "answer": 3,
+      "explanation": "The pattern is si + imparfait (triait) → conditionnel (recyclerait). The other sentences mix the tenses or put the conditionnel after si."
+    },
+    {
+      "id": "u13-ex04",
+      "type": "mcq",
+      "level": "B1",
+      "skill": "structures",
+      "grammarTag": "vocabulary",
+      "prompt": "Which word means \"a long period without rain\"?",
+      "options": [
+        "une inondation",
+        "une sécheresse",
+        "une canicule",
+        "une tempête"
+      ],
+      "answer": 1,
+      "explanation": "Une sécheresse is a drought. Une inondation is a flood, une canicule a heatwave and une tempête a storm."
+    },
+    {
+      "id": "u13-ex05",
+      "type": "mcq",
+      "level": "B1",
+      "skill": "structures",
+      "grammarTag": "conditionnel",
+      "prompt": "Complete the polite request with the conditionnel.",
+      "promptFr": "___-vous me dire où se trouve le bac de tri pour le verre ?",
+      "options": [
+        "Pouvez",
+        "Pourriez",
+        "Pourrez",
+        "Pouviez"
+      ],
+      "answer": 1,
+      "explanation": "Pourriez is the conditionnel of pouvoir (vous). Pouvez is the present, pourrez the future and pouviez the imparfait."
+    },
+    {
+      "id": "u13-ex06",
+      "type": "fill_blank",
+      "level": "B1",
+      "skill": "structures",
+      "grammarTag": "conditionnel",
+      "prompt": "Put the verb in brackets in the conditionnel présent.",
+      "sentence": "Nous ___ (devoir) éteindre les lumières en partant.",
+      "answers": [
+        "devrions"
+      ],
+      "hint": "devoir → stem devr-",
+      "translation": "We should switch off the lights when we leave.",
+      "explanation": "Devoir has the stem devr-; the nous ending is -ions: devrions."
+    },
+    {
+      "id": "u13-ex07",
+      "type": "fill_blank",
+      "level": "B1",
+      "skill": "structures",
+      "grammarTag": "conditionnel",
+      "prompt": "Complete with the conditionnel présent of the verb in brackets.",
+      "sentence": "Si j'avais un jardin, je ___ (faire) du compost.",
+      "answers": [
+        "ferais"
+      ],
+      "hint": "faire → stem fer-",
+      "translation": "If I had a garden, I would make compost.",
+      "explanation": "si + imparfait (avais) → conditionnel. Faire has the irregular stem fer-: je ferais."
+    },
+    {
+      "id": "u13-ex08",
+      "type": "fill_blank",
+      "level": "B1",
+      "skill": "structures",
+      "grammarTag": "conditionnel",
+      "prompt": "Complete the si clause with the right tense of the verb in brackets.",
+      "sentence": "Si les gens ___ (gaspiller) moins, il y aurait moins de déchets.",
+      "answers": [
+        "gaspillaient"
+      ],
+      "hint": "The other clause is in the conditionnel.",
+      "translation": "If people wasted less, there would be less rubbish.",
+      "explanation": "The result clause (il y aurait) is in the conditionnel, so the si clause takes the imparfait: gaspillaient."
+    },
+    {
+      "id": "u13-ex09",
+      "type": "fill_blank",
+      "level": "A2+",
+      "skill": "structures",
+      "grammarTag": "vocabulary",
+      "prompt": "Complete with the right verb in the present tense.",
+      "sentence": "Chez nous, on ___ les déchets : le verre d'un côté, le plastique de l'autre.",
+      "answers": [
+        "trie"
+      ],
+      "hint": "to sort",
+      "translation": "At home, we sort our rubbish: glass on one side, plastic on the other.",
+      "explanation": "Trier means to sort. With on, the present tense is trie."
+    },
+    {
+      "id": "u13-ex10",
+      "type": "fill_blank",
+      "level": "B1",
+      "skill": "structures",
+      "grammarTag": "conditionnel",
+      "prompt": "Put the verb in brackets in the conditionnel présent.",
+      "sentence": "Il ___ (valoir) mieux prendre le vélo pour les petits trajets.",
+      "answers": [
+        "vaudrait"
+      ],
+      "hint": "valoir → stem vaudr-",
+      "translation": "It would be better to take the bike for short journeys.",
+      "explanation": "Il vaudrait mieux (it would be better) is a very common way to give advice. Valoir has the irregular stem vaudr-."
+    },
+    {
+      "id": "u13-ex11",
+      "type": "conjugation",
+      "level": "B1",
+      "skill": "structures",
+      "grammarTag": "conditionnel",
+      "verb": "pouvoir",
+      "tense": "conditionnel présent",
+      "person": "ils",
+      "answers": [
+        "pourraient"
+      ],
+      "explanation": "Pouvoir → stem pourr- + ending -aient: ils pourraient."
+    },
+    {
+      "id": "u13-ex12",
+      "type": "conjugation",
+      "level": "B1",
+      "skill": "structures",
+      "grammarTag": "conditionnel",
+      "verb": "être",
+      "tense": "conditionnel présent",
+      "person": "nous",
+      "answers": [
+        "serions"
+      ],
+      "explanation": "Être → stem ser- + ending -ions: nous serions."
+    },
+    {
+      "id": "u13-ex13",
+      "type": "conjugation",
+      "level": "B1",
+      "skill": "structures",
+      "grammarTag": "conditionnel",
+      "verb": "venir",
+      "tense": "conditionnel présent",
+      "person": "vous",
+      "answers": [
+        "viendriez"
+      ],
+      "explanation": "Venir → stem viendr- + ending -iez: vous viendriez."
+    },
+    {
+      "id": "u13-ex14",
+      "type": "reorder",
+      "level": "B1",
+      "skill": "structures",
+      "grammarTag": "conditionnel",
+      "prompt": "Put the words in order to make a sentence.",
+      "tokens": [
+        "S'il",
+        "y",
+        "avait",
+        "plus",
+        "de",
+        "pistes",
+        "cyclables,",
+        "je",
+        "prendrais",
+        "mon",
+        "vélo."
+      ],
+      "translation": "If there were more cycle lanes, I would take my bike.",
+      "explanation": "si + imparfait (s'il y avait) comes first, followed by a comma and the conditionnel (je prendrais)."
+    },
+    {
+      "id": "u13-ex15",
+      "type": "reorder",
+      "level": "B1",
+      "skill": "structures",
+      "grammarTag": "conditionnel",
+      "prompt": "Put the words in order to give advice.",
+      "tokens": [
+        "À",
+        "ta",
+        "place,",
+        "je",
+        "ferais",
+        "réparer",
+        "cet",
+        "ordinateur."
+      ],
+      "translation": "If I were you, I would have this computer repaired.",
+      "explanation": "À ta place + conditionnel is a natural way to give advice. Faire + infinitive (faire réparer) means to have something done."
+    },
+    {
+      "id": "u13-ex16",
+      "type": "match",
+      "level": "B1",
+      "skill": "structures",
+      "grammarTag": "vocabulary",
+      "prompt": "Match each French word with its English meaning.",
+      "pairs": [
+        {
+          "left": "une éolienne",
+          "right": "a wind turbine"
+        },
+        {
+          "left": "gaspiller",
+          "right": "to waste"
+        },
+        {
+          "left": "un emballage",
+          "right": "packaging"
+        },
+        {
+          "left": "débrancher",
+          "right": "to unplug"
+        },
+        {
+          "left": "une espèce menacée",
+          "right": "an endangered species"
+        }
+      ],
+      "explanation": "These are key words for talking about the environment and green habits."
+    },
+    {
+      "id": "u13-ex17",
+      "type": "match",
+      "level": "B1",
+      "skill": "structures",
+      "grammarTag": "conditionnel",
+      "prompt": "Match each infinitive with its conditionnel form.",
+      "pairs": [
+        {
+          "left": "avoir",
+          "right": "j'aurais"
+        },
+        {
+          "left": "aller",
+          "right": "j'irais"
+        },
+        {
+          "left": "savoir",
+          "right": "je saurais"
+        },
+        {
+          "left": "voir",
+          "right": "je verrais"
+        },
+        {
+          "left": "vouloir",
+          "right": "je voudrais"
+        }
+      ],
+      "explanation": "These verbs have irregular stems in the conditionnel, the same as in the futur simple: aur-, ir-, saur-, verr-, voudr-."
+    },
+    {
+      "id": "u13-ex18",
+      "type": "translate",
+      "level": "B1",
+      "skill": "structures",
+      "grammarTag": "conditionnel",
+      "direction": "en-fr",
+      "source": "If I had more time, I would repair my old bike.",
+      "answers": [
+        "Si j'avais plus de temps, je réparerais mon vieux vélo.",
+        "Si j'avais davantage de temps, je réparerais mon vieux vélo.",
+        "Je réparerais mon vieux vélo si j'avais plus de temps.",
+        "Je réparerais mon vieux vélo si j'avais davantage de temps."
+      ],
+      "explanation": "If + past (had) → si + imparfait (j'avais); would repair → conditionnel (je réparerais)."
+    },
+    {
+      "id": "u13-ex19",
+      "type": "translate",
+      "level": "B1",
+      "skill": "structures",
+      "grammarTag": "conditionnel",
+      "direction": "fr-en",
+      "source": "Nous devrions réduire nos déchets.",
+      "answers": [
+        "We should reduce our waste.",
+        "We ought to reduce our waste.",
+        "We should cut down on our waste.",
+        "We should reduce our rubbish.",
+        "We should reduce our garbage.",
+        "We should produce less waste."
+      ],
+      "explanation": "Devoir in the conditionnel (nous devrions) means should / ought to."
+    },
+    {
+      "id": "u13-ex20",
+      "type": "dictation",
+      "level": "B1",
+      "skill": "listening",
+      "grammarTag": "conditionnel",
+      "text": "Si nous économisions l'eau, nous protégerions mieux la planète.",
+      "translation": "If we saved water, we would protect the planet better.",
+      "explanation": "Listen for the endings: économisions (imparfait after si) and protégerions (conditionnel, with the -er- of the stem)."
+    },
+    {
+      "id": "u13-ex21",
+      "type": "match",
+      "level": "B1",
+      "skill": "structures",
+      "grammarTag": "conditionnel",
+      "prompt": "Match the beginnings and endings of the sentences.",
+      "pairs": [
+        {
+          "left": "Si tu prenais le vélo,",
+          "right": "tu ferais du sport tous les jours."
+        },
+        {
+          "left": "Si j'avais un jardin,",
+          "right": "je ferais pousser mes légumes."
+        },
+        {
+          "left": "Si nous recyclions davantage,",
+          "right": "nous produirions moins de déchets."
+        },
+        {
+          "left": "Si les villes plantaient plus d'arbres,",
+          "right": "elles seraient plus fraîches en été."
+        }
+      ],
+      "explanation": "For an imagined situation, use si + imparfait, then the conditionnel. The subject stays the same in both halves here: tu… tu, je… je, nous… nous, les villes… elles."
+    }
+  ],
+  "listening": [
+    {
+      "id": "u13-li01",
+      "title": "Une colocation plus verte",
+      "level": "B1",
+      "kind": "dialogue",
+      "context": "Two flatmates, Inès and Hugo, talk about how to change their habits at home.",
+      "lines": [
+        {
+          "speaker": "Inès",
+          "fr": "Tu as vu la facture d'électricité ? Elle a encore augmenté."
+        },
+        {
+          "speaker": "Hugo",
+          "fr": "Oui… Si on coupait le chauffage dans la chambre d'amis, on économiserait déjà pas mal."
+        },
+        {
+          "speaker": "Inès",
+          "fr": "Bonne idée. Et on devrait arrêter de laisser l'ordinateur en veille toute la nuit."
+        },
+        {
+          "speaker": "Hugo",
+          "fr": "D'accord. Par contre, pour les déchets, je trouve qu'on jette encore beaucoup trop de choses."
+        },
+        {
+          "speaker": "Inès",
+          "fr": "C'est vrai. Si on avait un composteur, on pourrait y mettre toutes les épluchures."
+        },
+        {
+          "speaker": "Hugo",
+          "fr": "Le problème, c'est qu'on n'a pas de jardin."
+        },
+        {
+          "speaker": "Inès",
+          "fr": "La Ville a installé des bacs à compost dans le square, juste en bas de la rue."
+        },
+        {
+          "speaker": "Hugo",
+          "fr": "Ah, je ne savais pas ! Alors on pourrait commencer dès ce week-end."
+        },
+        {
+          "speaker": "Inès",
+          "fr": "Et pour les courses, ça te dirait d'aller à l'épicerie en vrac le samedi ?"
+        },
+        {
+          "speaker": "Hugo",
+          "fr": "Pourquoi pas, mais ce serait un peu plus cher, non ?"
+        },
+        {
+          "speaker": "Inès",
+          "fr": "Pas forcément. On achèterait seulement les quantités nécessaires, donc on gaspillerait moins."
+        },
+        {
+          "speaker": "Hugo",
+          "fr": "Bon, tu m'as convaincu. On essaie pendant un mois et on fait le bilan."
+        }
+      ],
+      "translation": "Inès: Have you seen the electricity bill? It's gone up again.\nHugo: Yes… If we turned off the heating in the spare room, we'd already save quite a lot.\nInès: Good idea. And we should stop leaving the computer on standby all night.\nHugo: OK. On the other hand, as for rubbish, I think we still throw away far too many things.\nInès: That's true. If we had a compost bin, we could put all the peelings in it.\nHugo: The problem is that we haven't got a garden.\nInès: The town hall has put compost bins in the little park, just at the bottom of the street.\nHugo: Oh, I didn't know! Then we could start this weekend.\nInès: And for the shopping, how about going to the bulk grocery shop on Saturdays?\nHugo: Why not, but it would be a bit more expensive, wouldn't it?\nInès: Not necessarily. We'd only buy the quantities we need, so we'd waste less.\nHugo: All right, you've convinced me. We'll try it for a month and then take stock.",
+      "questions": [
+        {
+          "id": "u13-li01-q1",
+          "question": "What starts the conversation?",
+          "options": [
+            "A neighbour's complaint",
+            "A higher electricity bill",
+            "A letter from the town hall",
+            "A broken heater"
+          ],
+          "answer": 1,
+          "explanation": "Inès says the electricity bill « a encore augmenté » (has gone up again)."
+        },
+        {
+          "id": "u13-li01-q2",
+          "question": "Where will they put their vegetable peelings?",
+          "options": [
+            "In their own garden",
+            "At the bulk grocery shop",
+            "In shared compost bins in the nearby park",
+            "In the yellow recycling bin"
+          ],
+          "answer": 2,
+          "explanation": "They have no garden, but the town hall has installed compost bins « dans le square, juste en bas de la rue »."
+        },
+        {
+          "id": "u13-li01-q3",
+          "question": "What is Hugo worried about regarding the bulk shop?",
+          "options": [
+            "It might cost more",
+            "It is too far away",
+            "It is closed on Saturdays",
+            "It doesn't sell vegetables"
+          ],
+          "answer": 0,
+          "explanation": "Hugo says « ce serait un peu plus cher, non ? » (it would be a bit more expensive)."
+        },
+        {
+          "id": "u13-li01-q4",
+          "question": "What do they decide in the end?",
+          "options": [
+            "To move to a flat with a garden",
+            "To stop heating the whole flat",
+            "To buy a new computer",
+            "To try these changes for a month and review them"
+          ],
+          "answer": 3,
+          "explanation": "« On essaie pendant un mois et on fait le bilan » — they will try for a month and take stock."
+        }
+      ]
+    },
+    {
+      "id": "u13-li02",
+      "title": "Sécheresse : l'eau sous surveillance",
+      "level": "B1",
+      "kind": "announcement",
+      "context": "A local radio news report about water restrictions during a dry summer.",
+      "lines": [
+        {
+          "speaker": "Journaliste",
+          "fr": "Bonjour à tous, voici le point sur la sécheresse dans notre région."
+        },
+        {
+          "speaker": "Journaliste",
+          "fr": "Depuis le début de l'été, il n'a presque pas plu, et le niveau des rivières est très bas."
+        },
+        {
+          "speaker": "Journaliste",
+          "fr": "La municipalité a donc décidé de limiter l'usage de l'eau à partir de lundi prochain."
+        },
+        {
+          "speaker": "Journaliste",
+          "fr": "Il sera interdit d'arroser les jardins entre 8 heures et 20 heures et de laver sa voiture chez soi."
+        },
+        {
+          "speaker": "Journaliste",
+          "fr": "Les piscines privées ne pourront pas être remplies jusqu'à nouvel ordre."
+        },
+        {
+          "speaker": "Journaliste",
+          "fr": "Selon Environnement Canada, des orages pourraient éclater en fin de semaine, mais ils ne suffiraient pas à remplir les nappes d'eau souterraines."
+        },
+        {
+          "speaker": "Journaliste",
+          "fr": "En cas de non-respect de ces règles, les contrevenants risquent une amende. Plus d'informations sur le site de la municipalité."
+        }
+      ],
+      "translation": "Hello everyone, here is the latest on the drought in our region.\nSince the beginning of the summer, it has hardly rained, and the river levels are very low.\nThe municipality has therefore decided to restrict water use from next Monday.\nIt will be forbidden to water gardens between 8 a.m. and 8 p.m. and to wash your car at home.\nPrivate swimming pools may not be filled until further notice.\nAccording to Environment Canada, storms could break out at the end of the week, but they would not be enough to refill the underground water reserves.\nAnyone who breaks these rules risks a fine. More information on the municipality's website.",
+      "questions": [
+        {
+          "id": "u13-li02-q1",
+          "question": "Why is water use being restricted?",
+          "options": [
+            "A pipe has burst",
+            "The rivers are very low after a dry summer",
+            "The tap water is polluted",
+            "There have been floods"
+          ],
+          "answer": 1,
+          "explanation": "« Il n'a presque pas plu, et le niveau des rivières est très bas »."
+        },
+        {
+          "id": "u13-li02-q2",
+          "question": "Which of these will be forbidden?",
+          "options": [
+            "Watering gardens at 10 p.m.",
+            "Drinking tap water",
+            "Washing your car at home",
+            "Going to public swimming pools"
+          ],
+          "answer": 2,
+          "explanation": "It will be forbidden « de laver sa voiture chez soi ». Watering is only forbidden between 8 a.m. and 8 p.m."
+        },
+        {
+          "id": "u13-li02-q3",
+          "question": "What does the weather service say about the storms?",
+          "options": [
+            "They would not solve the problem",
+            "They will certainly end the drought",
+            "They will cause floods",
+            "They are expected on Monday"
+          ],
+          "answer": 0,
+          "explanation": "The storms « ne suffiraient pas » (would not be enough) to refill the underground water. The conditionnel shows this is a forecast, not a certainty."
+        }
+      ]
+    }
+  ],
+  "reading": [
+    {
+      "id": "u13-re01",
+      "title": "Réparer plutôt que jeter",
+      "level": "B1",
+      "kind": "article",
+      "text": "Une cafetière qui ne chauffe plus, une lampe qui ne s'allume pas, un pantalon déchiré : autrefois, beaucoup de ces objets finissaient à la poubelle. Aujourd'hui, de plus en plus de Français les apportent dans un repair café. Le principe est simple : une fois par mois, des bénévoles accueillent les habitants dans une salle municipale et les aident à réparer eux-mêmes leurs objets abîmés. Le service est gratuit, mais chacun peut laisser une petite contribution.\n\nÀ Sherbrooke, le repair café du quartier des Fontaines existe depuis six ans. « Au début, nous recevions une dizaine de personnes. Maintenant, il en vient parfois cinquante », raconte Michel, électricien à la retraite. Selon lui, environ deux objets sur trois repartent en état de marche.\n\nPour les organisateurs, l'objectif n'est pas seulement écologique. « Si chacun apprenait à réparer, on achèterait moins d'appareils neufs et on produirait moins de déchets. Mais c'est aussi un lieu où l'on discute et où l'on se rencontre entre voisins », explique Sarah, l'une des fondatrices. Elle aimerait maintenant ouvrir un atelier réservé aux adolescents : « Ce sont eux qui changeront les habitudes de demain. »",
+      "translation": "A coffee maker that no longer heats up, a lamp that won't switch on, torn trousers: in the past, many of these objects ended up in the bin. Today, more and more French people take them to a repair café. The idea is simple: once a month, volunteers welcome residents in a council hall and help them repair their damaged objects themselves. The service is free, but everyone can leave a small contribution.\n\nIn Sherbrooke, the repair café in the Fontaines district has existed for six years. \"At the beginning, we had about ten people. Now, sometimes fifty come,\" says Michel, a retired electrician. According to him, about two objects out of three leave in working order.\n\nFor the organisers, the goal is not only ecological. \"If everyone learnt to repair things, we would buy fewer new appliances and produce less waste. But it's also a place where neighbours chat and meet each other,\" explains Sarah, one of the founders. She would now like to open a workshop just for teenagers: \"They are the ones who will change tomorrow's habits.\"",
+      "questions": [
+        {
+          "id": "u13-re01-q1",
+          "question": "How does a repair café work?",
+          "options": [
+            "Professionals repair objects for a fee",
+            "Volunteers help residents repair their own objects",
+            "Broken objects are collected and sold second-hand",
+            "Volunteers repair objects in people's homes"
+          ],
+          "answer": 1,
+          "explanation": "Volunteers « aident [les habitants] à réparer eux-mêmes leurs objets »."
+        },
+        {
+          "id": "u13-re01-q2",
+          "question": "What does Michel say about the repair café in Sherbrooke?",
+          "options": [
+            "Fewer people come than before",
+            "Only electrical objects are accepted",
+            "Most objects can be repaired",
+            "It will close soon"
+          ],
+          "answer": 2,
+          "explanation": "« Environ deux objets sur trois repartent en état de marche » — about two out of three objects are fixed."
+        },
+        {
+          "id": "u13-re01-q3",
+          "question": "What can we infer from Sarah's words?",
+          "options": [
+            "The social side of the repair café matters as much as the ecological side",
+            "She thinks repairing is too difficult for most people",
+            "She wants to make the repair café more profitable",
+            "She thinks new appliances are better quality"
+          ],
+          "answer": 0,
+          "explanation": "She says the goal « n'est pas seulement écologique » and that it is also a place to meet neighbours."
+        },
+        {
+          "id": "u13-re01-q4",
+          "question": "Why does Sarah want a workshop for teenagers?",
+          "options": [
+            "Because teenagers break more objects",
+            "Because the hall is too small for adults",
+            "Because teenagers asked for it",
+            "Because she believes young people will shape future habits"
+          ],
+          "answer": 3,
+          "explanation": "« Ce sont eux qui changeront les habitudes de demain »."
+        }
+      ]
+    },
+    {
+      "id": "u13-re02",
+      "title": "Train ou avion ?",
+      "level": "B1",
+      "kind": "message",
+      "text": "Forum « Vivre plus vert » — Sujet : Prendre l'avion pour aller à Québec, c'est raisonnable ?\n\nMessage de Léa_31 :\nBonjour à tous ! Je dois aller voir ma sœur à Québec le mois prochain. J'habite à Montréal et, honnêtement, l'avion me tente : c'est rapide et j'ai trouvé un billet à 45 dollars. Mais mes collègues me répètent que je devrais prendre le train, parce que l'avion émet beaucoup plus de CO2. En réalité, le train met à peu près trois heures et quart, et si je compte le trajet jusqu'à l'aéroport, le contrôle de sécurité et l'attente, j'arriverais presque à la même heure en avion. Le seul vrai problème, c'est le prix : le même jour, le train coûte 95 dollars. Si les billets de train étaient moins chers, je n'hésiterais pas une seconde ! Qu'est-ce que vous feriez à ma place ?",
+      "translation": "Forum \"Living greener\" — Topic: Is it reasonable to fly to Quebec City?\n\nMessage from Léa_31:\nHello everyone! I have to visit my sister in Quebec City next month. I live in Montreal and, honestly, flying is tempting: it's quick and I found a ticket for 45 dollars. But my colleagues keep telling me I should take the train, because the plane emits much more CO2. In reality, the train takes about three and a quarter hours, and if I count the journey to the airport, the security check and the waiting, I would arrive at almost the same time by plane. The only real problem is the price: on the same day, the train costs 95 dollars. If train tickets were cheaper, I wouldn't hesitate for a second! What would you do in my place?",
+      "questions": [
+        {
+          "id": "u13-re02-q1",
+          "question": "Why is Léa tempted to fly?",
+          "options": [
+            "She is afraid of trains",
+            "It is quick and cheap",
+            "Her sister lives near the airport",
+            "Her colleagues recommend it"
+          ],
+          "answer": 1,
+          "explanation": "« C'est rapide et j'ai trouvé un billet à 45 dollars »."
+        },
+        {
+          "id": "u13-re02-q2",
+          "question": "What can we conclude about the total journey time?",
+          "options": [
+            "The plane is much faster door to door",
+            "The train takes twice as long",
+            "Both options take about the same time overall",
+            "The plane takes longer because of delays"
+          ],
+          "answer": 2,
+          "explanation": "Counting the trip to the airport and waiting time, she « arriverai[t] presque à la même heure »."
+        },
+        {
+          "id": "u13-re02-q3",
+          "question": "What would make Léa choose the train without hesitation?",
+          "options": [
+            "Cheaper train tickets",
+            "A faster train",
+            "Her sister's advice",
+            "A direct flight"
+          ],
+          "answer": 0,
+          "explanation": "« Si les billets de train étaient moins chers, je n'hésiterais pas une seconde ! »"
+        }
+      ]
+    }
+  ],
+  "writing": [
+    {
+      "id": "u13-wr01",
+      "title": "Un centre-ville sans voitures ?",
+      "level": "B1",
+      "taskType": "opinion",
+      "instructions": "Write an argued opinion (120–180 words). Give your point of view, at least two arguments with examples, a limit or counter-argument, and a conclusion. Use connectors and the conditionnel to imagine consequences.",
+      "promptFr": "Plusieurs villes envisagent d'interdire les voitures dans leur centre. Qu'en pensez-vous ? Vous donnerez votre opinion et la justifierez avec des arguments et des exemples. (120 à 180 mots)",
+      "minWords": 120,
+      "maxWords": 180,
+      "modelAnswer": "Aujourd'hui, de nombreuses villes réfléchissent à interdire les voitures dans leur centre. À mon avis, c'est une bonne idée, à condition de proposer de vraies solutions aux habitants.\n\nD'abord, si les voitures ne circulaient plus dans le centre, l'air serait beaucoup moins pollué. Les enfants et les personnes âgées respireraient mieux et il y aurait moins de bruit. Ensuite, les rues deviendraient plus agréables : on pourrait y créer des pistes cyclables, des terrasses ou des espaces verts.\n\nCependant, cette mesure ne peut pas fonctionner sans de bons transports en commun. Si les bus étaient rares ou trop chers, les personnes qui habitent loin seraient pénalisées. Il faudrait aussi penser aux personnes handicapées et aux livraisons.\n\nEn conclusion, je suis favorable à un centre-ville sans voitures, mais la Ville devrait d'abord développer les transports en commun et les parkings à l'entrée de la ville. Ainsi, tout le monde pourrait profiter d'une ville plus propre et plus calme.",
+      "checklist": [
+        "I stated my opinion clearly in the introduction.",
+        "I gave at least two arguments, each with an example.",
+        "I included a limit or counter-argument (cependant, mais…).",
+        "I used si + imparfait → conditionnel at least once.",
+        "I used connectors to organise my text (d'abord, ensuite, en conclusion…).",
+        "My text is between 120 and 180 words."
+      ]
+    },
+    {
+      "id": "u13-wr02",
+      "title": "Un compost dans la cour",
+      "level": "B1",
+      "taskType": "message",
+      "instructions": "Write a reply to your neighbour (60–120 words). Accept the idea, offer your help and suggest a meeting.",
+      "promptFr": "Votre voisin Karim vous propose d'installer un compost commun dans la cour de votre immeuble. Vous lui répondez : vous acceptez son idée, vous proposez votre aide et vous lui donnez rendez-vous pour en parler. (60 à 120 mots)",
+      "minWords": 60,
+      "maxWords": 120,
+      "modelAnswer": "Bonjour Karim,\n\nMerci pour ton message, je trouve ton idée de compost commun excellente ! Chez moi, on jette beaucoup d'épluchures et ce serait dommage de continuer comme ça. Si tu veux, je pourrais demander l'accord du syndic cette semaine. On pourrait aussi mettre une affiche dans le hall pour expliquer aux voisins ce qu'on peut mettre dans le compost. Par contre, il faudrait choisir un endroit loin des fenêtres, à cause des odeurs. Est-ce que tu serais libre samedi matin pour en parler ? Je pourrais passer chez toi vers 10 heures.\n\nÀ bientôt,\nJulie",
+      "checklist": [
+        "I greeted my neighbour and thanked him for his idea.",
+        "I clearly accepted the proposal.",
+        "I offered concrete help using the conditionnel (je pourrais…).",
+        "I suggested a day and time to meet.",
+        "My message is between 60 and 120 words, with a closing formula."
+      ]
+    }
+  ],
+  "speaking": [
+    {
+      "id": "u13-sp01",
+      "title": "Se renseigner sur le tri à l'hôtel de ville",
+      "level": "B1",
+      "taskType": "interaction",
+      "instructions": "Role-play. You have just moved to a new town. You call the town hall to find out how waste sorting and collection work. The examiner plays the town hall employee. Ask polite questions using the conditionnel.",
+      "promptFr": "Vous venez d'emménager dans une nouvelle ville. Vous téléphonez à l'hôtel de ville pour vous renseigner sur le tri et le ramassage des déchets (jours de collecte, bacs, encombrants, compost…).",
+      "prepSeconds": 120,
+      "speakSeconds": 210,
+      "modelAnswer": "Bonjour madame, je viens d'emménager dans le quartier de la gare et je voudrais quelques renseignements sur le tri des déchets. D'abord, pourriez-vous me dire quels jours passent les camions de collecte ? D'accord, le mardi pour les ordures ménagères et le vendredi pour le bac jaune. Et qu'est-ce qu'on peut mettre exactement dans le bac jaune ? Les emballages en plastique, le carton et les canettes, très bien. Pour le verre, il faudrait l'apporter dans un conteneur, c'est ça ? Est-ce que vous sauriez où se trouve le plus proche ? Autre question : j'ai un vieux canapé à jeter. Comment est-ce que je devrais faire ? Ah, il faut prendre rendez-vous pour les encombrants, je vois. Enfin, j'aimerais faire du compost, mais je n'ai pas de jardin. Est-ce que la Ville distribuerait des composteurs pour les appartements ? Parfait, je vais remplir le formulaire en ligne. Merci beaucoup pour votre aide, bonne journée !",
+      "tips": [
+        "Use the conditionnel to sound polite: je voudrais, pourriez-vous, est-ce que vous sauriez…",
+        "Reformulate the answers you get (D'accord, le mardi…) to show that you understand and to keep the conversation going.",
+        "Prepare four or five topics in advance (collection days, glass, bulky items, compost) so you never run out of questions.",
+        "Finish politely by thanking the person and saying goodbye."
+      ]
+    },
+    {
+      "id": "u13-sp02",
+      "title": "Les petits gestes suffisent-ils ?",
+      "level": "B1",
+      "taskType": "opinion",
+      "instructions": "Give and justify your opinion for about four minutes. Use examples from your own life, a counter-argument and at least one si + imparfait → conditionnel sentence.",
+      "promptFr": "Selon vous, les petits gestes du quotidien (trier ses déchets, éteindre la lumière, prendre le vélo) suffisent-ils pour protéger l'environnement ? Pourquoi ?",
+      "prepSeconds": 0,
+      "speakSeconds": 270,
+      "modelAnswer": "À mon avis, les petits gestes sont importants, mais ils ne suffisent pas. D'un côté, ils permettent à chacun de prendre conscience du problème. Par exemple, chez moi, nous trions nos déchets et nous avons arrêté d'acheter des bouteilles en plastique. Si tout le monde faisait la même chose, on produirait beaucoup moins de déchets. De l'autre côté, la plus grande partie de la pollution vient des industries, des transports et de la production d'énergie. Un particulier ne peut pas décider à la place d'une usine ou d'un gouvernement. C'est pourquoi il faudrait aussi des lois plus strictes, par exemple pour limiter les emballages ou développer les énergies renouvelables. Si les transports en commun étaient plus nombreux et moins chers, les gens laisseraient plus facilement leur voiture. Bref, je pense que les deux sont nécessaires : nos gestes quotidiens et des décisions politiques courageuses.",
+      "tips": [
+        "Start with a clear position (À mon avis…, Je pense que…) and come back to it in your conclusion.",
+        "Balance your answer with d'un côté… de l'autre côté… to show nuance.",
+        "Give a personal example: it makes your argument more convincing and easier to develop.",
+        "Use si + imparfait → conditionnel to imagine solutions: Si tout le monde…, on…"
+      ]
+    }
+  ],
+  "checkpoint": [
+    {
+      "id": "u13-cp01",
+      "type": "mcq",
+      "level": "B1",
+      "skill": "structures",
+      "grammarTag": "conditionnel",
+      "prompt": "Complete the sentence.",
+      "promptFr": "Si on ___ moins de plastique, les océans seraient plus propres.",
+      "options": [
+        "utiliserait",
+        "utilisait",
+        "utilise",
+        "utilisera"
+      ],
+      "answer": 1,
+      "explanation": "si + imparfait (utilisait) → conditionnel (seraient). The conditionnel never comes directly after si."
+    },
+    {
+      "id": "u13-cp02",
+      "type": "fill_blank",
+      "level": "B1",
+      "skill": "structures",
+      "grammarTag": "conditionnel",
+      "prompt": "Make the request polite: put the verb in brackets in the conditionnel présent.",
+      "sentence": "Bonjour, je ___ (vouloir) des informations sur le compost, s'il vous plaît.",
+      "answers": [
+        "voudrais"
+      ],
+      "hint": "vouloir → stem voudr-",
+      "translation": "Hello, I would like some information about composting, please.",
+      "explanation": "Je voudrais is the polite conditionnel form of vouloir."
+    },
+    {
+      "id": "u13-cp03",
+      "type": "mcq",
+      "level": "B1",
+      "skill": "structures",
+      "grammarTag": "conditionnel",
+      "prompt": "In a sentence imagining an unlikely situation, which tense follows si?",
+      "options": [
+        "The conditionnel présent",
+        "The futur simple",
+        "The imparfait",
+        "The passé composé"
+      ],
+      "answer": 2,
+      "explanation": "Hypothetical sentences follow the pattern si + imparfait → conditionnel présent."
+    },
+    {
+      "id": "u13-cp04",
+      "type": "fill_blank",
+      "level": "B1",
+      "skill": "structures",
+      "grammarTag": "conditionnel",
+      "prompt": "Give advice: put the verb in brackets in the conditionnel présent.",
+      "sentence": "Tu ___ (devoir) débrancher ton chargeur la nuit.",
+      "answers": [
+        "devrais"
+      ],
+      "hint": "devoir → stem devr-",
+      "translation": "You should unplug your charger at night.",
+      "explanation": "Tu devrais (you should) is the conditionnel of devoir, used for advice."
+    },
+    {
+      "id": "u13-cp05",
+      "type": "mcq",
+      "level": "B1",
+      "skill": "structures",
+      "grammarTag": "vocabulary",
+      "prompt": "Choose the right word.",
+      "promptFr": "Le soleil et le vent sont des énergies ___.",
+      "options": [
+        "jetables",
+        "nocives",
+        "renouvelables",
+        "menacées"
+      ],
+      "answer": 2,
+      "explanation": "Solar and wind power are énergies renouvelables (renewable). Jetable means disposable, nocif harmful and menacé endangered."
+    },
+    {
+      "id": "u13-cp06",
+      "type": "fill_blank",
+      "level": "B1",
+      "skill": "structures",
+      "grammarTag": "conditionnel",
+      "prompt": "Complete the si clause with the right tense of the verb in brackets.",
+      "sentence": "S'il ___ (faire) moins chaud, il y aurait moins d'incendies.",
+      "answers": [
+        "faisait"
+      ],
+      "hint": "The other clause is in the conditionnel.",
+      "translation": "If it were less hot, there would be fewer fires.",
+      "explanation": "The result clause is in the conditionnel (il y aurait), so the si clause takes the imparfait: faisait."
+    },
+    {
+      "id": "u13-cp07",
+      "type": "mcq",
+      "level": "B1",
+      "skill": "structures",
+      "grammarTag": "conditionnel",
+      "prompt": "The journalist reports unconfirmed information. Choose the right form.",
+      "promptFr": "Selon la presse, l'usine ___ responsable de la pollution de la rivière.",
+      "options": [
+        "serait",
+        "serais",
+        "sera",
+        "soit"
+      ],
+      "answer": 0,
+      "explanation": "The conditionnel (serait) presents information that is not confirmed. Serais is the je/tu form, sera is the future and soit the subjonctif."
+    },
+    {
+      "id": "u13-cp08",
+      "type": "fill_blank",
+      "level": "B1",
+      "skill": "structures",
+      "grammarTag": "vocabulary",
+      "prompt": "Complete with the right noun.",
+      "sentence": "Pour aller au travail, je fais du ___ avec deux collègues.",
+      "answers": [
+        "covoiturage"
+      ],
+      "hint": "car-sharing",
+      "translation": "To get to work, I carpool with two colleagues.",
+      "explanation": "Faire du covoiturage means to share a car journey with other people."
+    },
+    {
+      "id": "u13-cp09",
+      "type": "mcq",
+      "level": "B1",
+      "skill": "structures",
+      "grammarTag": "conditionnel",
+      "prompt": "Which sentence is correct?",
+      "options": [
+        "Si ils recyclaient, ils jetteraient moins.",
+        "S'ils recycleraient, ils jetteraient moins.",
+        "S'ils recyclaient, ils jetteront moins.",
+        "S'ils recyclaient, ils jetteraient moins."
+      ],
+      "answer": 3,
+      "explanation": "Si elides before ils (s'ils), takes the imparfait (recyclaient), and the result is in the conditionnel (jetteraient)."
+    },
+    {
+      "id": "u13-cp10",
+      "type": "fill_blank",
+      "level": "B1",
+      "skill": "structures",
+      "grammarTag": "conditionnel",
+      "prompt": "Put the verb in brackets in the conditionnel présent.",
+      "sentence": "Si j'avais une voiture électrique, j'___ (avoir) besoin d'une borne de recharge.",
+      "answers": [
+        "aurais"
+      ],
+      "hint": "avoir → stem aur-",
+      "translation": "If I had an electric car, I would need a charging point.",
+      "explanation": "si + imparfait (avais) → conditionnel. Avoir has the stem aur-: j'aurais."
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+# Writing: live word count, hand in, possible hints, side-by-side model, past submissions.
+appId: com.emeka.chequejour
+---
+- runFlow: common/fresh-start.yaml
+- openLink: chequejour://writing/u01-wr01
+- assertVisible:
+    id: writing-screen
+- tapOn:
+    id: writing-input
+- inputText: Salut Marie, je suis tres content. Je travaille a Montreal et je aime la ville. A bientot
+- assertVisible: .*words.*
+- hideKeyboard
+- scrollUntilVisible:
+    element:
+      id: writing-done
+- tapOn:
+    id: writing-done
+- assertVisible:
+    id: writing-hints
+- assertVisible: Possible.*
+- scrollUntilVisible:
+    element:
+      id: side-by-side
+- scrollUntilVisible:
+    element:
+      id: writing-again
+- tapOn:
+    id: writing-again
+- scrollUntilVisible:
+    element:
+      id: past-submissions
+- setAirplaneMode: disabled

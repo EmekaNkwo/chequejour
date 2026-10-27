@@ -1,0 +1,1956 @@
+{
+  "id": "mk4",
+  "title": "Examen blanc 4",
+  "listening": [
+    {
+      "id": "mk4-li01",
+      "title": "Au cinéma",
+      "level": "A2",
+      "kind": "announcement",
+      "context": "An announcement in a cinema.",
+      "lines": [
+        {
+          "speaker": "Annonce",
+          "fr": "Mesdames et messieurs, bonsoir. Ce soir, la séance de vingt heures trente du film « Le Grand Nord » a lieu exceptionnellement dans la salle numéro quatre, et non dans la salle deux. La salle quatre se trouve au premier étage, à côté de l'ascenseur. Merci et bonne séance !"
+        }
+      ],
+      "translation": "Good evening, ladies and gentlemen. Tonight, the 8:30 pm showing of the film \"Le Grand Nord\" is exceptionally taking place in screen four, not screen two. Screen four is on the first floor, next to the lift. Thank you and enjoy the film!",
+      "questions": [
+        {
+          "id": "mk4-li01-q1",
+          "question": "Dans quelle salle le film est-il projeté ce soir ?",
+          "options": [
+            "Dans la salle deux",
+            "Dans la salle quatre",
+            "Dans la salle huit",
+            "Dans la salle trente"
+          ],
+          "answer": 1,
+          "explanation": "« Dans la salle numéro quatre, et non dans la salle deux. » Screen two is the usual room, not tonight's.",
+          "band": "A1"
+        }
+      ]
+    },
+    {
+      "id": "mk4-li02",
+      "title": "Message de Karim",
+      "level": "A2",
+      "kind": "message",
+      "context": "A voicemail from a friend.",
+      "lines": [
+        {
+          "speaker": "Karim",
+          "fr": "Salut, c'est Karim ! Pour le restaurant, finalement, on ne peut pas y aller jeudi : il est fermé. Je te propose vendredi soir, à dix-neuf heures. J'ai déjà réservé une table pour quatre. Rappelle-moi si ça ne va pas !"
+        }
+      ],
+      "translation": "Hi, it's Karim! About the restaurant, in the end we can't go on Thursday: it's closed. I suggest Friday evening, at 7 pm. I've already booked a table for four. Call me back if that doesn't work!",
+      "questions": [
+        {
+          "id": "mk4-li02-q1",
+          "question": "Quand vont-ils au restaurant ?",
+          "options": [
+            "Jeudi soir",
+            "Vendredi soir",
+            "Vendredi à midi",
+            "Samedi soir"
+          ],
+          "answer": 1,
+          "explanation": "« Je te propose vendredi soir, à dix-neuf heures. » Thursday is impossible because the restaurant is closed.",
+          "band": "A1"
+        }
+      ]
+    },
+    {
+      "id": "mk4-li03",
+      "title": "Au marché",
+      "level": "A2",
+      "kind": "dialogue",
+      "context": "A customer at a fruit and vegetable stall.",
+      "lines": [
+        {
+          "speaker": "Vendeur",
+          "fr": "Bonjour madame, qu'est-ce que je vous sers ?"
+        },
+        {
+          "speaker": "Cliente",
+          "fr": "Bonjour. Je voudrais un kilo de tomates et une barquette de fraises, s'il vous plaît."
+        },
+        {
+          "speaker": "Vendeur",
+          "fr": "Voilà. Les tomates, c'est quatre dollars, et les fraises, cinq dollars. Ça fait neuf dollars."
+        },
+        {
+          "speaker": "Cliente",
+          "fr": "Tenez, voici dix dollars."
+        },
+        {
+          "speaker": "Vendeur",
+          "fr": "Et voici un dollar. Bonne journée !"
+        }
+      ],
+      "translation": "Seller: Hello madam, what can I get you? / Customer: Hello. I'd like a kilo of tomatoes and a punnet of strawberries, please. / Seller: There you are. The tomatoes are four dollars and the strawberries five dollars. That's nine dollars. / Customer: Here's ten dollars. / Seller: And here's one dollar. Have a nice day!",
+      "questions": [
+        {
+          "id": "mk4-li03-q1",
+          "question": "Combien la cliente paie-t-elle en tout ?",
+          "options": [
+            "Quatre dollars",
+            "Neuf dollars",
+            "Cinq dollars",
+            "Dix dollars"
+          ],
+          "answer": 1,
+          "explanation": "« Ça fait neuf dollars. » She hands over ten dollars but gets one dollar back.",
+          "band": "A1"
+        }
+      ]
+    },
+    {
+      "id": "mk4-li04",
+      "title": "Au musée",
+      "level": "A2",
+      "kind": "announcement",
+      "context": "An announcement in a museum.",
+      "lines": [
+        {
+          "speaker": "Annonce",
+          "fr": "Votre attention, s'il vous plaît. La visite guidée en français commence dans dix minutes. Le rendez-vous est devant la boutique du musée, au rez-de-chaussée. La visite dure une heure et elle est gratuite pour tous les visiteurs."
+        }
+      ],
+      "translation": "Your attention, please. The guided tour in French starts in ten minutes. The meeting point is in front of the museum shop, on the ground floor. The tour lasts one hour and is free for all visitors.",
+      "questions": [
+        {
+          "id": "mk4-li04-q1",
+          "question": "Où est le rendez-vous pour la visite guidée ?",
+          "options": [
+            "À la cafétéria",
+            "Devant l'entrée principale",
+            "Devant la boutique du musée",
+            "Au premier étage"
+          ],
+          "answer": 2,
+          "explanation": "« Le rendez-vous est devant la boutique du musée, au rez-de-chaussée. »",
+          "band": "A1"
+        }
+      ]
+    },
+    {
+      "id": "mk4-li05",
+      "title": "Une commande de pizza",
+      "level": "A2",
+      "kind": "dialogue",
+      "context": "A phone call to a pizzeria.",
+      "lines": [
+        {
+          "speaker": "Employé",
+          "fr": "Pizzeria Bella, bonsoir !"
+        },
+        {
+          "speaker": "Client",
+          "fr": "Bonsoir. Je voudrais commander une grande pizza aux légumes, à livrer, s'il vous plaît."
+        },
+        {
+          "speaker": "Employé",
+          "fr": "Très bien. Quelle est votre adresse ?"
+        },
+        {
+          "speaker": "Client",
+          "fr": "Douze, rue des Érables."
+        },
+        {
+          "speaker": "Employé",
+          "fr": "D'accord. Ce soir, il y a beaucoup de commandes : la livraison prend quarante-cinq minutes."
+        },
+        {
+          "speaker": "Client",
+          "fr": "Pas de problème, merci."
+        }
+      ],
+      "translation": "Employee: Pizzeria Bella, good evening! / Customer: Good evening. I'd like to order a large vegetable pizza for delivery, please. / Employee: Very good. What's your address? / Customer: Twelve, rue des Érables. / Employee: OK. There are a lot of orders tonight: delivery takes forty-five minutes. / Customer: No problem, thank you.",
+      "questions": [
+        {
+          "id": "mk4-li05-q1",
+          "question": "Dans combien de temps la pizza sera-t-elle livrée ?",
+          "options": [
+            "Dans quinze minutes",
+            "Dans douze minutes",
+            "Dans une heure et demie",
+            "Dans quarante-cinq minutes"
+          ],
+          "answer": 3,
+          "explanation": "« La livraison prend quarante-cinq minutes. » Twelve is the house number.",
+          "band": "A1"
+        }
+      ]
+    },
+    {
+      "id": "mk4-li06",
+      "title": "À l'école de langues",
+      "level": "A2",
+      "kind": "message",
+      "context": "A voicemail from a language school.",
+      "lines": [
+        {
+          "speaker": "Secrétaire",
+          "fr": "Bonjour, ici Sophie, de l'école de langues Polyglotte. Votre cours de français de mardi n'a pas lieu dans la salle cinq. Il a lieu dans la salle douze, au deuxième étage. L'horaire ne change pas : de dix-huit heures à vingt heures. À mardi !"
+        }
+      ],
+      "translation": "Hello, this is Sophie from the Polyglotte language school. Your French class on Tuesday is not in room five. It is in room twelve, on the second floor. The time doesn't change: from 6 pm to 8 pm. See you on Tuesday!",
+      "questions": [
+        {
+          "id": "mk4-li06-q1",
+          "question": "Qu'est-ce qui change pour le cours de mardi ?",
+          "options": [
+            "L'heure du cours",
+            "Le professeur",
+            "La salle",
+            "Le jour"
+          ],
+          "answer": 2,
+          "explanation": "The class moves from « la salle cinq » to « la salle douze ». « L'horaire ne change pas » and the day is still Tuesday.",
+          "band": "A1"
+        }
+      ]
+    },
+    {
+      "id": "mk4-li07",
+      "title": "À la gare d'autocars",
+      "level": "A2",
+      "kind": "announcement",
+      "context": "An announcement in a coach station.",
+      "lines": [
+        {
+          "speaker": "Annonce",
+          "fr": "Mesdames et messieurs, en raison de la tempête de neige, l'autocar de quatorze heures à destination de Québec partira avec environ une heure de retard. Le départ est donc prévu vers quinze heures, quai numéro six. En attendant, les passagers peuvent patienter dans la salle d'attente, où du café chaud est offert gratuitement. Merci de votre patience."
+        }
+      ],
+      "translation": "Ladies and gentlemen, because of the snowstorm, the 2 pm coach to Quebec City will leave about one hour late. Departure is therefore expected at around 3 pm, from bay six. In the meantime, passengers can wait in the waiting room, where hot coffee is offered free of charge. Thank you for your patience.",
+      "questions": [
+        {
+          "id": "mk4-li07-q1",
+          "question": "Pourquoi l'autocar est-il en retard ?",
+          "options": [
+            "À cause d'un accident",
+            "À cause de la neige",
+            "À cause d'une grève",
+            "À cause d'un problème mécanique"
+          ],
+          "answer": 1,
+          "explanation": "« En raison de la tempête de neige » – because of the snowstorm.",
+          "band": "A2"
+        },
+        {
+          "id": "mk4-li07-q2",
+          "question": "Qu'est-ce qu'on offre aux passagers ?",
+          "options": [
+            "Un repas",
+            "Un billet gratuit",
+            "Une nuit à l'hôtel",
+            "Une boisson chaude"
+          ],
+          "answer": 3,
+          "explanation": "« Du café chaud est offert gratuitement » – free hot coffee, i.e. a hot drink.",
+          "band": "A2"
+        }
+      ]
+    },
+    {
+      "id": "mk4-li08",
+      "title": "La boutique d'informatique",
+      "level": "A2",
+      "kind": "message",
+      "context": "A voicemail from a computer repair shop.",
+      "lines": [
+        {
+          "speaker": "Technicien",
+          "fr": "Bonjour, c'est Marc, de la boutique Info-Service. Votre ordinateur portable est réparé. Nous avons changé le clavier, mais l'écran fonctionnait bien, donc nous n'y avons pas touché. La réparation coûte quatre-vingt-dix dollars. Vous pouvez venir le chercher à partir de demain, du lundi au samedi, entre dix heures et dix-huit heures. N'oubliez pas d'apporter votre reçu. Merci et à bientôt !"
+        }
+      ],
+      "translation": "Hello, it's Marc from the Info-Service shop. Your laptop is repaired. We replaced the keyboard, but the screen was working fine, so we didn't touch it. The repair costs ninety dollars. You can come and collect it from tomorrow, Monday to Saturday, between 10 am and 6 pm. Don't forget to bring your receipt. Thank you and see you soon!",
+      "questions": [
+        {
+          "id": "mk4-li08-q1",
+          "question": "Qu'est-ce que le technicien a changé ?",
+          "options": [
+            "Le clavier",
+            "L'écran",
+            "La batterie",
+            "Le chargeur"
+          ],
+          "answer": 0,
+          "explanation": "« Nous avons changé le clavier. » The screen « fonctionnait bien », so they didn't touch it.",
+          "band": "A2"
+        },
+        {
+          "id": "mk4-li08-q2",
+          "question": "Que faut-il apporter pour récupérer l'ordinateur ?",
+          "options": [
+            "Le reçu",
+            "Une pièce d'identité",
+            "Le chargeur de l'ordinateur",
+            "Une carte de crédit"
+          ],
+          "answer": 0,
+          "explanation": "« N'oubliez pas d'apporter votre reçu. »",
+          "band": "A2"
+        }
+      ]
+    },
+    {
+      "id": "mk4-li09",
+      "title": "Au restaurant",
+      "level": "A2",
+      "kind": "dialogue",
+      "context": "A customer ordering in a restaurant.",
+      "lines": [
+        {
+          "speaker": "Serveur",
+          "fr": "Vous avez choisi ?"
+        },
+        {
+          "speaker": "Cliente",
+          "fr": "Oui, je vais prendre le plat du jour, le poulet aux champignons."
+        },
+        {
+          "speaker": "Serveur",
+          "fr": "Ah, je suis désolé, il n'y en a plus. Il reste du saumon grillé ou des pâtes aux légumes."
+        },
+        {
+          "speaker": "Cliente",
+          "fr": "Hum… Je n'aime pas beaucoup le poisson. Je vais prendre les pâtes, alors."
+        },
+        {
+          "speaker": "Serveur",
+          "fr": "Très bien. Et comme boisson ?"
+        },
+        {
+          "speaker": "Cliente",
+          "fr": "Une carafe d'eau, s'il vous plaît."
+        }
+      ],
+      "translation": "Waiter: Have you chosen? / Customer: Yes, I'll have the dish of the day, the chicken with mushrooms. / Waiter: Oh, I'm sorry, there's none left. There's still grilled salmon or vegetable pasta. / Customer: Hmm… I don't really like fish. I'll have the pasta, then. / Waiter: Very good. And to drink? / Customer: A jug of water, please.",
+      "questions": [
+        {
+          "id": "mk4-li09-q1",
+          "question": "Qu'est-ce que la cliente commande finalement ?",
+          "options": [
+            "Le poulet aux champignons",
+            "Le saumon grillé",
+            "Les pâtes aux légumes",
+            "Une salade"
+          ],
+          "answer": 2,
+          "explanation": "The chicken is finished (« il n'y en a plus ») and she doesn't like fish, so: « Je vais prendre les pâtes, alors. »",
+          "band": "A2"
+        }
+      ]
+    },
+    {
+      "id": "mk4-li10",
+      "title": "Échanger des chaussures",
+      "level": "A2",
+      "kind": "dialogue",
+      "context": "A customer in a shoe shop.",
+      "lines": [
+        {
+          "speaker": "Client",
+          "fr": "Bonjour, j'ai acheté ces chaussures samedi, mais elles sont trop petites. Est-ce que je peux être remboursé ?"
+        },
+        {
+          "speaker": "Vendeuse",
+          "fr": "Vous avez votre ticket de caisse ?"
+        },
+        {
+          "speaker": "Client",
+          "fr": "Non, je crois que je l'ai perdu."
+        },
+        {
+          "speaker": "Vendeuse",
+          "fr": "Alors je ne peux pas vous rembourser. Mais je peux vous les échanger contre une autre pointure."
+        },
+        {
+          "speaker": "Client",
+          "fr": "D'accord. Je voudrais du quarante-trois, alors."
+        }
+      ],
+      "translation": "Customer: Hello, I bought these shoes on Saturday, but they're too small. Can I get a refund? / Saleswoman: Do you have your receipt? / Customer: No, I think I've lost it. / Saleswoman: Then I can't refund you. But I can exchange them for another size. / Customer: OK. I'd like a 43, then.",
+      "questions": [
+        {
+          "id": "mk4-li10-q1",
+          "question": "Que propose la vendeuse ?",
+          "options": [
+            "De rembourser le client",
+            "D'échanger les chaussures contre une autre pointure",
+            "De réparer les chaussures",
+            "De revenir samedi avec le ticket"
+          ],
+          "answer": 1,
+          "explanation": "Without a receipt there is no refund, but « je peux vous les échanger contre une autre pointure ».",
+          "band": "A2"
+        }
+      ]
+    },
+    {
+      "id": "mk4-li11",
+      "title": "Musique au parc",
+      "level": "A2",
+      "kind": "announcement",
+      "context": "An announcement on a local radio station.",
+      "lines": [
+        {
+          "speaker": "Animatrice",
+          "fr": "Bonne nouvelle pour les amateurs de musique ! Le festival Musique au parc revient du douze au quinze juillet, au parc des Saules. Tous les concerts sont gratuits et commencent à dix-neuf heures. Les organisateurs conseillent d'apporter une chaise pliante ou une couverture, car il n'y a pas de sièges. Attention : en cas de pluie, les concerts ont lieu sous le grand chapiteau, à côté du lac."
+        }
+      ],
+      "translation": "Good news for music lovers! The Musique au parc festival is back from 12 to 15 July in the parc des Saules. All the concerts are free and start at 7 pm. The organisers advise bringing a folding chair or a blanket, as there are no seats. Note: if it rains, the concerts take place under the big marquee next to the lake.",
+      "questions": [
+        {
+          "id": "mk4-li11-q1",
+          "question": "Combien coûtent les concerts ?",
+          "options": [
+            "Rien, ils sont gratuits",
+            "Douze dollars",
+            "Quinze dollars",
+            "Le prix dépend du concert"
+          ],
+          "answer": 0,
+          "explanation": "« Tous les concerts sont gratuits. » Twelve and fifteen are the festival dates.",
+          "band": "A2"
+        },
+        {
+          "id": "mk4-li11-q2",
+          "question": "Que se passe-t-il s'il pleut ?",
+          "options": [
+            "Les concerts sont annulés",
+            "Les concerts ont lieu sous un chapiteau",
+            "Les concerts sont reportés au lendemain",
+            "Les concerts commencent plus tard"
+          ],
+          "answer": 1,
+          "explanation": "« En cas de pluie, les concerts ont lieu sous le grand chapiteau, à côté du lac. »",
+          "band": "A2"
+        }
+      ]
+    },
+    {
+      "id": "mk4-li12",
+      "title": "Le premier jour",
+      "level": "A2",
+      "kind": "dialogue",
+      "context": "A new employee talking to a colleague.",
+      "lines": [
+        {
+          "speaker": "Inès",
+          "fr": "Bonjour, je suis Inès. Je commence aujourd'hui au service comptable."
+        },
+        {
+          "speaker": "Paul",
+          "fr": "Bienvenue, Inès ! Moi, c'est Paul. Tu as déjà reçu ton badge ?"
+        },
+        {
+          "speaker": "Inès",
+          "fr": "Non, pas encore. On m'a dit de passer à l'accueil."
+        },
+        {
+          "speaker": "Paul",
+          "fr": "En fait, les badges, c'est au bureau de la sécurité, au sous-sol. L'accueil ne s'en occupe plus."
+        },
+        {
+          "speaker": "Inès",
+          "fr": "Ah, merci ! Et pour le dîner, il y a une cafétéria ?"
+        },
+        {
+          "speaker": "Paul",
+          "fr": "Oui, au troisième étage, mais elle est souvent pleine à midi. Moi, j'y vais vers midi et demi, c'est plus calme. Tu veux venir avec moi ?"
+        }
+      ],
+      "translation": "Inès: Hello, I'm Inès. I'm starting in the accounts department today. / Paul: Welcome, Inès! I'm Paul. Have you got your badge yet? / Inès: No, not yet. I was told to go to reception. / Paul: Actually, badges are done at the security office, in the basement. Reception doesn't handle them any more. / Inès: Oh, thanks! And for lunch, is there a cafeteria? / Paul: Yes, on the third floor, but it's often full at noon. I go around half past twelve, it's quieter. Do you want to come with me?",
+      "questions": [
+        {
+          "id": "mk4-li12-q1",
+          "question": "Où Inès doit-elle aller pour avoir son badge ?",
+          "options": [
+            "À l'accueil",
+            "Au bureau de la sécurité",
+            "Au service comptable",
+            "À la cafétéria"
+          ],
+          "answer": 1,
+          "explanation": "« Les badges, c'est au bureau de la sécurité, au sous-sol. L'accueil ne s'en occupe plus. »",
+          "band": "A2"
+        },
+        {
+          "id": "mk4-li12-q2",
+          "question": "Pourquoi Paul va-t-il à la cafétéria vers midi et demi ?",
+          "options": [
+            "Il y a moins de monde",
+            "Il commence à travailler tard",
+            "Les plats sont moins chers",
+            "La cafétéria ouvre à midi et demi"
+          ],
+          "answer": 0,
+          "explanation": "« Elle est souvent pleine à midi… vers midi et demi, c'est plus calme. » Note: in Québec, « le dîner » is lunch.",
+          "band": "A2"
+        }
+      ]
+    },
+    {
+      "id": "mk4-li13",
+      "title": "Cours d'informatique pour débutants",
+      "level": "A2",
+      "kind": "announcement",
+      "context": "An announcement on a community radio station.",
+      "lines": [
+        {
+          "speaker": "Animateur",
+          "fr": "Le centre communautaire Saint-Michel propose cet automne des cours d'informatique pour débutants. Vous apprendrez à envoyer des courriels, à faire des achats en ligne en toute sécurité et à utiliser les services du gouvernement sur Internet. Les cours ont lieu le mercredi soir, de dix-huit heures trente à vingt heures, pendant huit semaines. L'inscription coûte vingt dollars. Il faut s'inscrire avant le vingt septembre, sur place ou par téléphone. Attention, les places sont limitées à douze personnes."
+        }
+      ],
+      "translation": "This autumn, the Saint-Michel community centre is offering computer classes for beginners. You will learn to send emails, shop online safely and use government services on the Internet. Classes take place on Wednesday evenings, from 6:30 pm to 8 pm, for eight weeks. Registration costs twenty dollars. You must register before 20 September, in person or by phone. Note that places are limited to twelve people.",
+      "questions": [
+        {
+          "id": "mk4-li13-q1",
+          "question": "Combien de temps dure la formation ?",
+          "options": [
+            "Une soirée",
+            "Douze semaines",
+            "Huit semaines",
+            "Vingt jours"
+          ],
+          "answer": 2,
+          "explanation": "« Pendant huit semaines. » Twelve is the maximum number of people, twenty the price and the registration date.",
+          "band": "A2"
+        },
+        {
+          "id": "mk4-li13-q2",
+          "question": "Comment peut-on s'inscrire ?",
+          "options": [
+            "Seulement sur Internet",
+            "Par courriel",
+            "Le premier soir du cours",
+            "Sur place ou par téléphone"
+          ],
+          "answer": 3,
+          "explanation": "« Il faut s'inscrire avant le vingt septembre, sur place ou par téléphone. »",
+          "band": "A2"
+        }
+      ]
+    },
+    {
+      "id": "mk4-li14",
+      "title": "Un stage à Montréal",
+      "level": "B1",
+      "kind": "dialogue",
+      "context": "Two students in Québec talking about an internship.",
+      "lines": [
+        {
+          "speaker": "Chloé",
+          "fr": "Alors, Mehdi, c'est confirmé, ton stage à Montréal ?"
+        },
+        {
+          "speaker": "Mehdi",
+          "fr": "Oui ! J'ai reçu la réponse hier. Je pars six mois dans une entreprise de jeux vidéo, à partir de janvier."
+        },
+        {
+          "speaker": "Chloé",
+          "fr": "En plein hiver ! Tu n'as pas peur du froid ?"
+        },
+        {
+          "speaker": "Mehdi",
+          "fr": "Un peu, mais ce qui m'inquiète surtout, c'est le logement. Les loyers ont beaucoup augmenté là-bas, et l'entreprise ne m'aide pas à trouver un appartement."
+        },
+        {
+          "speaker": "Chloé",
+          "fr": "Tu pourrais demander à l'université. Ma cousine a trouvé une chambre en résidence étudiante pendant son échange, et ça lui coûtait beaucoup moins cher."
+        },
+        {
+          "speaker": "Mehdi",
+          "fr": "Bonne idée, je vais leur écrire cette semaine."
+        }
+      ],
+      "translation": "Chloé: So, Mehdi, is your internship in Montreal confirmed? / Mehdi: Yes! I got the answer yesterday. I'm going for six months to a video game company, starting in January. / Chloé: In the middle of winter! Aren't you afraid of the cold? / Mehdi: A bit, but what worries me most is housing. Rents have gone up a lot there, and the company isn't helping me find a flat. / Chloé: You could ask the university. My cousin found a room in a student residence during her exchange, and it cost her much less. / Mehdi: Good idea, I'll write to them this week.",
+      "questions": [
+        {
+          "id": "mk4-li14-q1",
+          "question": "Qu'est-ce qui inquiète le plus Mehdi ?",
+          "options": [
+            "Le froid de l'hiver",
+            "Le travail dans l'entreprise",
+            "Parler français au Québec",
+            "Trouver un logement"
+          ],
+          "answer": 3,
+          "explanation": "« Ce qui m'inquiète surtout, c'est le logement. » He is only « un peu » afraid of the cold.",
+          "band": "B1"
+        },
+        {
+          "id": "mk4-li14-q2",
+          "question": "Que conseille Chloé ?",
+          "options": [
+            "De contacter l'université pour une chambre en résidence",
+            "De demander de l'aide à l'entreprise",
+            "D'habiter chez sa cousine",
+            "De partir plus tard, au printemps"
+          ],
+          "answer": 0,
+          "explanation": "« Tu pourrais demander à l'université », like her cousin who found « une chambre en résidence étudiante ». The company « ne m'aide pas ».",
+          "band": "B1"
+        }
+      ]
+    },
+    {
+      "id": "mk4-li15",
+      "title": "Un train annulé",
+      "level": "B1",
+      "kind": "dialogue",
+      "context": "A traveller at a station ticket office.",
+      "lines": [
+        {
+          "speaker": "Voyageuse",
+          "fr": "Bonjour, mon train pour Montréal de dix heures douze est annulé. Qu'est-ce que je peux faire ?"
+        },
+        {
+          "speaker": "Agent",
+          "fr": "Je suis désolé, madame, il y a un problème sur la voie. Le prochain train direct part à treize heures, mais il est complet. Je peux vous proposer le train de onze heures quarante, avec un changement à Drummondville."
+        },
+        {
+          "speaker": "Voyageuse",
+          "fr": "Et j'arriverai à quelle heure ?"
+        },
+        {
+          "speaker": "Agent",
+          "fr": "À quinze heures dix. Et à cause du retard, vous pourrez demander le remboursement de la moitié de votre billet sur notre site."
+        },
+        {
+          "speaker": "Voyageuse",
+          "fr": "Bon, je prends celui-là, alors."
+        }
+      ],
+      "translation": "Traveller: Hello, my 10:12 train to Montréal is cancelled. What can I do? / Agent: I'm sorry, madam, there's a problem on the line. The next direct train leaves at 1 pm, but it's full. I can offer you the 11:40 train, with a change in Drummondville. / Traveller: And what time will I arrive? / Agent: At 3:10 pm. And because of the delay, you can claim back half of your ticket on our website. / Traveller: Right, I'll take that one, then.",
+      "questions": [
+        {
+          "id": "mk4-li15-q1",
+          "question": "Quelle solution la voyageuse accepte-t-elle ?",
+          "options": [
+            "Le train de onze heures quarante avec un changement",
+            "Le train direct de treize heures",
+            "Le remboursement complet de son billet",
+            "Un autocar pour Montréal"
+          ],
+          "answer": 0,
+          "explanation": "The 1 pm direct train « est complet », so she takes the 11:40 train « avec un changement à Drummondville ». She will get half her ticket back, not all of it.",
+          "band": "B1"
+        }
+      ]
+    },
+    {
+      "id": "mk4-li16",
+      "title": "Une erreur sur la facture",
+      "level": "B1",
+      "kind": "dialogue",
+      "context": "A customer calling a mobile phone company.",
+      "lines": [
+        {
+          "speaker": "Conseiller",
+          "fr": "Service clients de Mobi-Tel, bonjour. Que puis-je faire pour vous ?"
+        },
+        {
+          "speaker": "Client",
+          "fr": "Bonjour. Je viens de recevoir ma facture de téléphone, et elle est de cent vingt dollars, au lieu de quarante-cinq comme d'habitude."
+        },
+        {
+          "speaker": "Conseiller",
+          "fr": "Je regarde… Je vois des frais d'itinérance. Vous avez voyagé aux États-Unis le mois dernier ?"
+        },
+        {
+          "speaker": "Client",
+          "fr": "Oui, trois jours à Boston. Mais j'avais acheté un forfait voyage avant de partir, justement pour éviter ces frais."
+        },
+        {
+          "speaker": "Conseiller",
+          "fr": "Effectivement, je vois le forfait, mais il n'a pas été activé correctement. C'est une erreur de notre part. Je vais annuler ces frais, et vous recevrez une nouvelle facture d'ici une semaine."
+        },
+        {
+          "speaker": "Client",
+          "fr": "Merci beaucoup."
+        }
+      ],
+      "translation": "Adviser: Mobi-Tel customer service, hello. What can I do for you? / Customer: Hello. I've just received my phone bill, and it's one hundred and twenty dollars instead of forty-five as usual. / Adviser: Let me look… I can see roaming charges. Did you travel to the United States last month? / Customer: Yes, three days in Boston. But I'd bought a travel plan before leaving, precisely to avoid those charges. / Adviser: Indeed, I can see the plan, but it wasn't activated properly. It's our mistake. I'm going to cancel those charges, and you'll receive a new bill within a week. / Customer: Thank you very much.",
+      "questions": [
+        {
+          "id": "mk4-li16-q1",
+          "question": "Pourquoi la facture est-elle plus élevée que d'habitude ?",
+          "options": [
+            "Le client a changé de forfait",
+            "Des frais d'itinérance ont été facturés",
+            "Le client a acheté un nouveau téléphone",
+            "Le prix de l'abonnement a augmenté"
+          ],
+          "answer": 1,
+          "explanation": "« Je vois des frais d'itinérance » – roaming charges from his trip to Boston, because his travel plan « n'a pas été activé correctement ».",
+          "band": "B1"
+        },
+        {
+          "id": "mk4-li16-q2",
+          "question": "Que va faire l'entreprise ?",
+          "options": [
+            "Rembourser le forfait voyage",
+            "Offrir un mois d'abonnement gratuit",
+            "Annuler les frais et envoyer une nouvelle facture",
+            "Demander au client de payer la moitié des frais"
+          ],
+          "answer": 2,
+          "explanation": "« Je vais annuler ces frais, et vous recevrez une nouvelle facture d'ici une semaine. »",
+          "band": "B1"
+        }
+      ]
+    },
+    {
+      "id": "mk4-li17",
+      "title": "Le marché de Noël",
+      "level": "B1",
+      "kind": "announcement",
+      "context": "A short report on a local radio station.",
+      "lines": [
+        {
+          "speaker": "Journaliste",
+          "fr": "Le marché de Noël ouvre ses portes ce week-end sur la place de l'Hôtel-de-Ville. Cette année, il compte soixante chalets, soit vingt de plus que l'an dernier. On y trouvera surtout des produits de la région : fromages, sirop d'érable, bijoux et jouets en bois fabriqués par des artisans locaux. Grande nouveauté : une patinoire a été installée au centre de la place. L'accès est gratuit, mais il faut apporter ses propres patins. Le marché sera ouvert jusqu'au vingt-trois décembre, du jeudi au dimanche, de onze heures à vingt et une heures."
+        }
+      ],
+      "translation": "The Christmas market opens this weekend on the town hall square. This year it has sixty stalls, twenty more than last year. You'll find mainly regional products: cheeses, maple syrup, jewellery and wooden toys made by local craftspeople. The big novelty: an ice rink has been set up in the middle of the square. Access is free, but you must bring your own skates. The market will be open until 23 December, Thursday to Sunday, from 11 am to 9 pm.",
+      "questions": [
+        {
+          "id": "mk4-li17-q1",
+          "question": "Qu'est-ce qui est nouveau cette année ?",
+          "options": [
+            "Une patinoire au centre de la place",
+            "Des produits venus de toute l'Europe",
+            "Un marché ouvert tous les jours",
+            "La location de patins gratuite"
+          ],
+          "answer": 0,
+          "explanation": "« Grande nouveauté : une patinoire a été installée au centre de la place. » Skates are not provided: « il faut apporter ses propres patins ».",
+          "band": "B1"
+        },
+        {
+          "id": "mk4-li17-q2",
+          "question": "Combien de chalets y avait-il l'an dernier ?",
+          "options": [
+            "Soixante",
+            "Quarante",
+            "Vingt",
+            "Quatre-vingts"
+          ],
+          "answer": 1,
+          "explanation": "« Soixante chalets, soit vingt de plus que l'an dernier » – so last year there were 60 − 20 = 40.",
+          "band": "B1"
+        }
+      ]
+    },
+    {
+      "id": "mk4-li18",
+      "title": "Recruter en Gaspésie",
+      "level": "B1",
+      "kind": "interview",
+      "context": "A radio interview with a business owner in a remote region of Québec.",
+      "lines": [
+        {
+          "speaker": "Journaliste",
+          "fr": "Monsieur Gagnon, vous dirigez une entreprise de transformation du poisson en Gaspésie. Vous avez du mal à recruter ?"
+        },
+        {
+          "speaker": "Monsieur Gagnon",
+          "fr": "Oui, beaucoup. Nous avons quinze postes à pourvoir, et très peu de candidats. Les jeunes de la région partent étudier à Montréal ou à Québec, et souvent, ils ne reviennent pas."
+        },
+        {
+          "speaker": "Journaliste",
+          "fr": "Qu'est-ce que vous faites pour attirer des travailleurs ?"
+        },
+        {
+          "speaker": "Monsieur Gagnon",
+          "fr": "Le principal obstacle, c'est le logement : il y a très peu d'appartements disponibles ici. Alors, nous avons acheté une maison, que nous louons à nos nouveaux employés pour un prix très bas pendant leur première année. Nous accueillons aussi de plus en plus de travailleurs venus de l'étranger, et nous leur offrons des cours de français gratuits."
+        }
+      ],
+      "translation": "Journalist: Mr Gagnon, you run a fish-processing company in Gaspésie. Do you have trouble recruiting? / Mr Gagnon: Yes, a lot. We have fifteen jobs to fill and very few applicants. Young people from the region go to study in Montreal or Quebec City and often don't come back. / Journalist: What are you doing to attract workers? / Mr Gagnon: The main obstacle is housing: there are very few flats available here. So we bought a house, which we rent to our new employees at a very low price during their first year. We are also welcoming more and more workers from abroad, and we offer them free French classes.",
+      "questions": [
+        {
+          "id": "mk4-li18-q1",
+          "question": "Pourquoi l'entreprise a-t-elle du mal à recruter ?",
+          "options": [
+            "Beaucoup de jeunes quittent la région et ne reviennent pas",
+            "Les salaires sont trop bas",
+            "Le travail est trop dangereux",
+            "Les candidats ne parlent pas français"
+          ],
+          "answer": 0,
+          "explanation": "« Les jeunes de la région partent étudier à Montréal ou à Québec, et souvent, ils ne reviennent pas. » Salaries and danger are never mentioned.",
+          "band": "B1"
+        },
+        {
+          "id": "mk4-li18-q2",
+          "question": "Quelle solution l'entreprise a-t-elle trouvée pour le logement ?",
+          "options": [
+            "Elle paie l'hôtel de ses employés",
+            "Elle construit un immeuble",
+            "Elle loue une maison à petit prix aux nouveaux employés",
+            "Elle rembourse une partie de leur loyer"
+          ],
+          "answer": 2,
+          "explanation": "« Nous avons acheté une maison, que nous louons à nos nouveaux employés pour un prix très bas pendant leur première année. »",
+          "band": "B1"
+        }
+      ]
+    },
+    {
+      "id": "mk4-li19",
+      "title": "Les applications de livraison",
+      "level": "B1",
+      "kind": "dialogue",
+      "context": "Two friends talking about food delivery apps.",
+      "lines": [
+        {
+          "speaker": "Julie",
+          "fr": "Tu commandes encore ton repas sur une application ? C'est la troisième fois cette semaine !"
+        },
+        {
+          "speaker": "Samir",
+          "fr": "Je sais… Je rentre tard du travail et je n'ai pas le courage de cuisiner."
+        },
+        {
+          "speaker": "Julie",
+          "fr": "Mais tu as regardé combien ça te coûte ? Entre les frais de livraison, les frais de service et le pourboire, ton plat à quinze dollars t'en coûte presque vingt-cinq."
+        },
+        {
+          "speaker": "Samir",
+          "fr": "C'est vrai que ça monte vite. Le mois dernier, j'ai dépensé plus de trois cents dollars comme ça."
+        },
+        {
+          "speaker": "Julie",
+          "fr": "Tu pourrais cuisiner le dimanche pour plusieurs jours. Moi, je prépare de grandes quantités et je congèle des portions."
+        },
+        {
+          "speaker": "Samir",
+          "fr": "Pourquoi pas… Mais alors, tu viens m'apprendre ta recette de chili ?"
+        }
+      ],
+      "translation": "Julie: You're ordering your meal on an app again? That's the third time this week! / Samir: I know… I get home late from work and I can't face cooking. / Julie: But have you looked at what it costs you? What with delivery fees, service fees and the tip, your fifteen-dollar dish costs you almost twenty-five. / Samir: It's true it adds up fast. Last month I spent over three hundred dollars that way. / Julie: You could cook on Sunday for several days. I make big batches and freeze portions. / Samir: Why not… But then, will you come and teach me your chilli recipe?",
+      "questions": [
+        {
+          "id": "mk4-li19-q1",
+          "question": "Pourquoi Samir commande-t-il souvent ses repas ?",
+          "options": [
+            "Il ne sait pas cuisiner",
+            "Les applications sont moins chères que l'épicerie",
+            "Il n'a pas de cuisine chez lui",
+            "Il est fatigué quand il rentre du travail"
+          ],
+          "answer": 3,
+          "explanation": "« Je rentre tard du travail et je n'ai pas le courage de cuisiner. » Julie shows that the apps are actually expensive.",
+          "band": "B1"
+        },
+        {
+          "id": "mk4-li19-q2",
+          "question": "Que propose Julie ?",
+          "options": [
+            "Commander seulement le week-end",
+            "Choisir une application moins chère",
+            "Manger au restaurant avec elle",
+            "Préparer plusieurs repas à l'avance le dimanche"
+          ],
+          "answer": 3,
+          "explanation": "« Tu pourrais cuisiner le dimanche pour plusieurs jours », and freeze portions as she does.",
+          "band": "B1"
+        }
+      ]
+    },
+    {
+      "id": "mk4-li20",
+      "title": "Devenir citoyenne canadienne",
+      "level": "B1",
+      "kind": "interview",
+      "context": "A radio interview with a new Canadian citizen.",
+      "lines": [
+        {
+          "speaker": "Journaliste",
+          "fr": "Leila, vous êtes arrivée du Maroc il y a six ans, et hier, vous êtes devenue citoyenne canadienne. Comment s'est passée la cérémonie ?"
+        },
+        {
+          "speaker": "Leila",
+          "fr": "C'était très émouvant. Nous étions une soixantaine de personnes, venues de plus de vingt pays. Nous avons prêté serment, puis chacun a reçu son certificat. Mes enfants étaient dans la salle, et ils ont beaucoup applaudi !"
+        },
+        {
+          "speaker": "Journaliste",
+          "fr": "Avant la cérémonie, il y a eu un examen. C'était difficile ?"
+        },
+        {
+          "speaker": "Leila",
+          "fr": "Il fallait bien se préparer. Il y a des questions sur l'histoire, la géographie, les institutions… J'ai étudié le guide officiel le soir pendant deux mois, avec mon mari. Mais ce qui m'a aidée le plus, c'est un groupe de révision à la bibliothèque de mon quartier : on se posait des questions les uns aux autres."
+        },
+        {
+          "speaker": "Journaliste",
+          "fr": "Qu'est-ce que la citoyenneté change pour vous ?"
+        },
+        {
+          "speaker": "Leila",
+          "fr": "Concrètement, je vais pouvoir voter aux prochaines élections. Pour moi, c'est le plus important : j'habite ici, je paie mes impôts ici, et maintenant, je peux participer aux décisions."
+        }
+      ],
+      "translation": "Journalist: Leila, you arrived from Morocco six years ago, and yesterday you became a Canadian citizen. How did the ceremony go? / Leila: It was very moving. There were about sixty of us, from more than twenty countries. We took the oath, then everyone received their certificate. My children were in the room, and they clapped a lot! / Journalist: Before the ceremony there was a test. Was it difficult? / Leila: You had to prepare well. There are questions on history, geography, institutions… I studied the official guide in the evenings for two months, with my husband. But what helped me most was a study group at my local library: we asked each other questions. / Journalist: What does citizenship change for you? / Leila: In practical terms, I'll be able to vote in the next elections. For me, that's the most important thing: I live here, I pay my taxes here, and now I can take part in decisions.",
+      "questions": [
+        {
+          "id": "mk4-li20-q1",
+          "question": "Qui était présent à la cérémonie pour soutenir Leila ?",
+          "options": [
+            "Ses parents venus du Maroc",
+            "Ses collègues de travail",
+            "Les membres de son groupe de révision",
+            "Ses enfants"
+          ],
+          "answer": 3,
+          "explanation": "« Mes enfants étaient dans la salle, et ils ont beaucoup applaudi ! »",
+          "band": "B1"
+        },
+        {
+          "id": "mk4-li20-q2",
+          "question": "Qu'est-ce qui l'a le plus aidée à préparer l'examen ?",
+          "options": [
+            "Un groupe de révision à la bibliothèque",
+            "Les soirées d'étude avec son mari",
+            "Des cours en ligne",
+            "Un professeur particulier"
+          ],
+          "answer": 0,
+          "explanation": "She studied with her husband, « mais ce qui m'a aidée le plus, c'est un groupe de révision à la bibliothèque ».",
+          "band": "B1"
+        },
+        {
+          "id": "mk4-li20-q3",
+          "question": "Pour Leila, quel est le changement le plus important ?",
+          "options": [
+            "Elle pourra voyager plus facilement",
+            "Elle paiera moins d'impôts",
+            "Elle pourra voter",
+            "Elle pourra travailler dans la fonction publique"
+          ],
+          "answer": 2,
+          "explanation": "« Je vais pouvoir voter aux prochaines élections. Pour moi, c'est le plus important. »",
+          "band": "B1"
+        }
+      ]
+    },
+    {
+      "id": "mk4-li21",
+      "title": "Les caisses libre-service",
+      "level": "B1",
+      "kind": "announcement",
+      "context": "A consumer column on the radio.",
+      "lines": [
+        {
+          "speaker": "Chroniqueur",
+          "fr": "Dans les supermarchés, les caisses libre-service se sont multipliées ces dernières années. Pour les enseignes, l'avantage est évident : une seule employée peut surveiller six ou huit caisses à la fois. Mais le vent semble tourner. Certaines chaînes, en Europe comme en Amérique du Nord, font aujourd'hui marche arrière et réinstallent des caisses traditionnelles. La raison ? Les erreurs et les vols, volontaires ou non, seraient nettement plus fréquents aux caisses automatiques. Et puis, beaucoup de clients se lassent de faire eux-mêmes un travail pour lequel ils ne reçoivent aucune réduction. Quelques magasins tentent donc un compromis : les caisses automatiques restent, mais elles sont désormais réservées aux paniers de moins de dix articles."
+        }
+      ],
+      "translation": "In supermarkets, self-checkouts have multiplied in recent years. For the chains, the advantage is obvious: a single employee can supervise six or eight tills at once. But the tide seems to be turning. Some chains, in Europe as in North America, are now backtracking and putting traditional checkouts back. The reason? Errors and theft, intentional or not, are said to be much more frequent at self-checkouts. And many customers are tired of doing a job themselves for which they receive no discount. So a few shops are trying a compromise: the self-checkouts stay, but they are now reserved for baskets of fewer than ten items.",
+      "questions": [
+        {
+          "id": "mk4-li21-q1",
+          "question": "Selon le chroniqueur, pourquoi certains magasins reviennent-ils aux caisses traditionnelles ?",
+          "options": [
+            "Les caisses automatiques tombent souvent en panne",
+            "La loi oblige les magasins à embaucher des caissiers",
+            "Les erreurs et les vols sont plus fréquents aux caisses automatiques",
+            "Les clients âgés ne savent pas les utiliser"
+          ],
+          "answer": 2,
+          "explanation": "« Les erreurs et les vols, volontaires ou non, seraient nettement plus fréquents aux caisses automatiques. » Breakdowns, the law and older customers are not mentioned.",
+          "band": "B2"
+        },
+        {
+          "id": "mk4-li21-q2",
+          "question": "Quel compromis certains magasins proposent-ils ?",
+          "options": [
+            "Réserver les caisses automatiques aux petits achats",
+            "Offrir une réduction aux clients qui utilisent les caisses automatiques",
+            "Supprimer toutes les caisses automatiques",
+            "Ouvrir les caisses automatiques seulement le soir"
+          ],
+          "answer": 0,
+          "explanation": "« Elles sont désormais réservées aux paniers de moins de dix articles. » Customers complain precisely that they get « aucune réduction ».",
+          "band": "B2"
+        }
+      ]
+    },
+    {
+      "id": "mk4-li22",
+      "title": "Acheter une maison entre amis",
+      "level": "B1",
+      "kind": "interview",
+      "context": "A radio interview with a financial adviser about housing costs.",
+      "lines": [
+        {
+          "speaker": "Journaliste",
+          "fr": "Avec la hausse des prix de l'immobilier, de plus en plus de jeunes achètent une maison à plusieurs. Mathieu Roy, vous êtes conseiller financier. Est-ce une bonne idée ?"
+        },
+        {
+          "speaker": "Mathieu Roy",
+          "fr": "Ça peut l'être. À deux ou trois amis, on partage la mise de fonds, ce qui permet de devenir propriétaire plusieurs années plus tôt. Mais il ne faut pas se lancer sans précaution. Le vrai danger, ce n'est pas le prix, c'est la séparation : que se passe-t-il si l'un des propriétaires veut vendre sa part, ou s'il perd son emploi ?"
+        },
+        {
+          "speaker": "Journaliste",
+          "fr": "Que conseillez-vous, alors ?"
+        },
+        {
+          "speaker": "Mathieu Roy",
+          "fr": "Avant même de visiter une maison, il faut signer une convention devant un notaire. On y précise qui paie quoi, comment on partage les réparations, et surtout comment on peut sortir de l'accord. Ça peut sembler peu romantique entre amis, mais c'est justement ce qui protège l'amitié."
+        }
+      ],
+      "translation": "Journalist: With rising property prices, more and more young people are buying a house together. Mathieu Roy, you're a financial adviser. Is it a good idea? / Mathieu Roy: It can be. With two or three friends, you share the down payment, which lets you become an owner several years earlier. But you shouldn't rush in without precautions. The real danger isn't the price, it's separation: what happens if one of the owners wants to sell their share, or loses their job? / Journalist: So what do you advise? / Mathieu Roy: Before you even visit a house, you need to sign an agreement in front of a notary. It sets out who pays what, how repairs are shared and, above all, how you can leave the agreement. It may seem unromantic between friends, but that's exactly what protects the friendship.",
+      "questions": [
+        {
+          "id": "mk4-li22-q1",
+          "question": "Selon Mathieu Roy, quel est le principal avantage de l'achat à plusieurs ?",
+          "options": [
+            "Payer moins d'impôts",
+            "Obtenir un meilleur taux à la banque",
+            "Acheter une maison plus grande en centre-ville",
+            "Devenir propriétaire plus tôt"
+          ],
+          "answer": 3,
+          "explanation": "Sharing the down payment « permet de devenir propriétaire plusieurs années plus tôt ».",
+          "band": "B2"
+        },
+        {
+          "id": "mk4-li22-q2",
+          "question": "D'après lui, quand faut-il signer une convention ?",
+          "options": [
+            "Au moment de vendre la maison",
+            "Seulement si l'un des propriétaires perd son emploi",
+            "Après la première année dans la maison",
+            "Avant de commencer à visiter des maisons"
+          ],
+          "answer": 3,
+          "explanation": "« Avant même de visiter une maison, il faut signer une convention devant un notaire. »",
+          "band": "B2"
+        }
+      ]
+    },
+    {
+      "id": "mk4-li23",
+      "title": "Le dernier commerce du village",
+      "level": "B1",
+      "kind": "interview",
+      "context": "A radio interview with a researcher about shops in rural areas.",
+      "lines": [
+        {
+          "speaker": "Journaliste",
+          "fr": "Dans beaucoup de villages, le dernier commerce ferme ses portes. Vous étudiez ce phénomène, madame Lefèvre. Est-il inévitable ?"
+        },
+        {
+          "speaker": "Madame Lefèvre",
+          "fr": "Je ne crois pas. Il est vrai que les grandes surfaces et les achats en ligne ont fragilisé les petites épiceries. Mais on voit apparaître un nouveau modèle : le commerce multiservice. Dans un même lieu, on peut acheter son pain, déposer un colis, boire un café, et parfois même faire des démarches administratives avec l'aide d'un employé."
+        },
+        {
+          "speaker": "Journaliste",
+          "fr": "Ces commerces sont-ils vraiment rentables ?"
+        },
+        {
+          "speaker": "Madame Lefèvre",
+          "fr": "Rarement à eux seuls, et c'est là que les communes jouent un rôle décisif. Souvent, c'est la Ville qui achète le local et qui le loue à bas prix au commerçant. En échange, celui-ci s'engage à rester ouvert un certain nombre de jours par semaine. Ce qu'il faut comprendre, c'est que ces lieux ne vendent pas seulement des produits : ils recréent du lien social, en particulier pour les personnes âgées qui ne conduisent plus."
+        }
+      ],
+      "translation": "Journalist: In many villages, the last shop is closing down. You study this phenomenon, Ms Lefèvre. Is it inevitable? / Ms Lefèvre: I don't think so. It's true that big supermarkets and online shopping have weakened small grocery shops. But a new model is emerging: the multi-service shop. In the same place you can buy your bread, drop off a parcel, have a coffee and sometimes even do administrative paperwork with the help of an employee. / Journalist: Are these shops really profitable? / Ms Lefèvre: Rarely on their own, and that's where local councils play a decisive role. Often the town hall buys the premises and rents them cheaply to the shopkeeper. In return, the shopkeeper commits to staying open a certain number of days a week. What you have to understand is that these places don't just sell products: they rebuild social ties, especially for elderly people who no longer drive.",
+      "questions": [
+        {
+          "id": "mk4-li23-q1",
+          "question": "D'après madame Lefèvre, la disparition des commerces de village…",
+          "options": [
+            "est uniquement due aux achats en ligne",
+            "touche surtout les grandes villes",
+            "n'est pas une fatalité",
+            "a été arrêtée par une nouvelle loi"
+          ],
+          "answer": 2,
+          "explanation": "Asked if it is inevitable, she answers « Je ne crois pas ». She blames both « les grandes surfaces et les achats en ligne », not online shopping alone.",
+          "band": "B2"
+        },
+        {
+          "id": "mk4-li23-q2",
+          "question": "Quel rôle les communes jouent-elles ?",
+          "options": [
+            "Elles paient le salaire des employés",
+            "Elles louent un local au commerçant à bas prix",
+            "Elles gèrent elles-mêmes le commerce",
+            "Elles interdisent les grandes surfaces à proximité"
+          ],
+          "answer": 1,
+          "explanation": "« C'est la Ville qui achète le local et qui le loue à bas prix au commerçant. »",
+          "band": "B2"
+        },
+        {
+          "id": "mk4-li23-q3",
+          "question": "Selon elle, en plus de vendre des produits, ces commerces…",
+          "options": [
+            "proposent des prix plus bas que les supermarchés",
+            "attirent de nombreux touristes",
+            "recréent du lien social, surtout pour les personnes âgées",
+            "créent beaucoup d'emplois dans la région"
+          ],
+          "answer": 2,
+          "explanation": "« Ils recréent du lien social, en particulier pour les personnes âgées qui ne conduisent plus. »",
+          "band": "B2"
+        }
+      ]
+    }
+  ],
+  "reading": [
+    {
+      "id": "mk4-re01",
+      "title": "Restaurant Chez Mamie",
+      "level": "A2",
+      "kind": "advert",
+      "text": "RESTAURANT CHEZ MAMIE\n\nMenu du jour : 16 $\nEntrée + plat + dessert\nBoisson non comprise\n\nOuvert du mardi au dimanche, midi et soir\nFermé le lundi\nRéservation conseillée le week-end",
+      "translation": "RESTAURANT CHEZ MAMIE\n\nSet menu of the day: $16\nStarter + main course + dessert\nDrink not included\n\nOpen Tuesday to Sunday, lunchtime and evening\nClosed on Mondays\nBooking recommended at weekends",
+      "questions": [
+        {
+          "id": "mk4-re01-q1",
+          "question": "Quel jour le restaurant est-il fermé ?",
+          "options": [
+            "Le lundi",
+            "Le mardi",
+            "Le dimanche",
+            "Le samedi soir"
+          ],
+          "answer": 0,
+          "explanation": "« Fermé le lundi. » It is open « du mardi au dimanche ».",
+          "band": "A1"
+        }
+      ]
+    },
+    {
+      "id": "mk4-re02",
+      "title": "Message de Julien",
+      "level": "A2",
+      "kind": "message",
+      "text": "Salut Emma ! Mon train a 20 minutes de retard. Je ne peux pas être au cinéma à 19 h. Tu peux acheter les billets et m'attendre devant l'entrée ? Je te rembourse ce soir. Merci ! Julien",
+      "translation": "Hi Emma! My train is 20 minutes late. I can't be at the cinema at 7 pm. Can you buy the tickets and wait for me in front of the entrance? I'll pay you back tonight. Thanks! Julien",
+      "questions": [
+        {
+          "id": "mk4-re02-q1",
+          "question": "Que demande Julien à Emma ?",
+          "options": [
+            "D'aller le chercher à la gare",
+            "De changer de film",
+            "De rentrer chez elle",
+            "D'acheter les billets de cinéma"
+          ],
+          "answer": 3,
+          "explanation": "« Tu peux acheter les billets et m'attendre devant l'entrée ? »",
+          "band": "A1"
+        }
+      ]
+    },
+    {
+      "id": "mk4-re03",
+      "title": "Soldes d'hiver",
+      "level": "A2",
+      "kind": "advert",
+      "text": "GRANDES SOLDES D'HIVER\n\nManteaux, bonnets et gants : -30 %\nBottes : -50 %\n\nDu 8 au 21 janvier\nMagasin Le Chalet – 45, rue Principale",
+      "translation": "BIG WINTER SALE\n\nCoats, hats and gloves: 30% off\nBoots: 50% off\n\nFrom 8 to 21 January\nLe Chalet shop – 45 rue Principale",
+      "questions": [
+        {
+          "id": "mk4-re03-q1",
+          "question": "Quels articles ont la plus grande réduction ?",
+          "options": [
+            "Les manteaux",
+            "Les gants",
+            "Les bottes",
+            "Les bonnets"
+          ],
+          "answer": 2,
+          "explanation": "Boots are « -50 % »; coats, hats and gloves only « -30 % ».",
+          "band": "A1"
+        }
+      ]
+    },
+    {
+      "id": "mk4-re04",
+      "title": "Bureau de poste",
+      "level": "A2",
+      "kind": "notice",
+      "text": "BUREAU DE POSTE\n\nLundi – vendredi : 8 h 30 – 18 h\nSamedi : 9 h – 12 h\nDimanche : fermé\n\nPour envoyer un colis, prenez un ticket à l'entrée.",
+      "translation": "POST OFFICE\n\nMonday – Friday: 8:30 am – 6 pm\nSaturday: 9 am – 12 noon\nSunday: closed\n\nTo send a parcel, take a ticket at the entrance.",
+      "questions": [
+        {
+          "id": "mk4-re04-q1",
+          "question": "Que faut-il faire pour envoyer un colis ?",
+          "options": [
+            "Téléphoner avant de venir",
+            "Prendre un ticket à l'entrée",
+            "Venir le samedi après-midi",
+            "Acheter une boîte au guichet"
+          ],
+          "answer": 1,
+          "explanation": "« Pour envoyer un colis, prenez un ticket à l'entrée. » On Saturday the office closes at noon.",
+          "band": "A1"
+        }
+      ]
+    },
+    {
+      "id": "mk4-re05",
+      "title": "Canapé à donner",
+      "level": "A2",
+      "kind": "advert",
+      "text": "À DONNER\n\nCanapé bleu, 3 places, en bon état.\nÀ venir chercher chez moi avant le 30 mai (2e étage, pas d'ascenseur).\n\nContactez Nathalie au 514 555-0147.",
+      "translation": "FREE TO A GOOD HOME\n\nBlue three-seater sofa, in good condition.\nTo be collected from my place before 30 May (2nd floor, no lift).\n\nContact Nathalie on 514 555-0147.",
+      "questions": [
+        {
+          "id": "mk4-re05-q1",
+          "question": "Combien coûte le canapé ?",
+          "options": [
+            "Trente dollars",
+            "Trois dollars",
+            "Cinquante dollars",
+            "Rien, il est gratuit"
+          ],
+          "answer": 3,
+          "explanation": "« À donner » means it is given away for free. 3 is the number of seats and 30 the date.",
+          "band": "A1"
+        }
+      ]
+    },
+    {
+      "id": "mk4-re06",
+      "title": "Parking du centre",
+      "level": "A2",
+      "kind": "notice",
+      "text": "PARKING DU CENTRE\n\nGratuit pendant 1 heure\nEnsuite : 2 $ de l'heure\nGratuit toute la journée le dimanche\n\nPayez à la machine avant de reprendre votre voiture.",
+      "translation": "TOWN CENTRE CAR PARK\n\nFree for 1 hour\nAfter that: $2 per hour\nFree all day on Sundays\n\nPay at the machine before collecting your car.",
+      "questions": [
+        {
+          "id": "mk4-re06-q1",
+          "question": "Quand le parking est-il gratuit toute la journée ?",
+          "options": [
+            "Le samedi",
+            "Le dimanche",
+            "Le lundi",
+            "Jamais"
+          ],
+          "answer": 1,
+          "explanation": "« Gratuit toute la journée le dimanche. » On other days only the first hour is free.",
+          "band": "A1"
+        }
+      ]
+    },
+    {
+      "id": "mk4-re07",
+      "title": "Journée portes ouvertes",
+      "level": "A2",
+      "kind": "email",
+      "text": "Objet : Journée portes ouvertes – Cégep de la Rivière\n\nBonjour,\n\nMerci de votre intérêt pour notre programme de techniques de tourisme. Nous vous invitons à notre journée portes ouvertes, le samedi 9 novembre, de 10 h à 15 h. Vous pourrez visiter les salles de cours, rencontrer des professeurs et poser vos questions sur l'admission.\n\nÀ 13 h, d'anciens étudiants parleront de leur expérience de stage. L'inscription à la journée n'est pas obligatoire, mais elle nous aide à l'organiser.\n\nAu plaisir de vous rencontrer,\n\nLe service des admissions",
+      "translation": "Subject: Open day – Cégep de la Rivière\n\nHello,\n\nThank you for your interest in our tourism programme. We invite you to our open day on Saturday 9 November, from 10 am to 3 pm. You will be able to visit the classrooms, meet teachers and ask your questions about admission.\n\nAt 1 pm, former students will talk about their internship experience. Registering for the day is not compulsory, but it helps us organise it.\n\nWe look forward to meeting you,\n\nThe admissions office",
+      "questions": [
+        {
+          "id": "mk4-re07-q1",
+          "question": "Que peut-on faire à 13 h ?",
+          "options": [
+            "Écouter d'anciens étudiants parler de leur stage",
+            "S'inscrire au programme",
+            "Passer un test d'admission",
+            "Visiter les salles avec le directeur"
+          ],
+          "answer": 0,
+          "explanation": "« À 13 h, d'anciens étudiants parleront de leur expérience de stage. »",
+          "band": "A2"
+        },
+        {
+          "id": "mk4-re07-q2",
+          "question": "Faut-il s'inscrire à la journée portes ouvertes ?",
+          "options": [
+            "Oui, c'est obligatoire",
+            "Non, mais c'est utile pour les organisateurs",
+            "Oui, avant le 9 novembre à 10 h",
+            "Non, l'inscription est impossible"
+          ],
+          "answer": 1,
+          "explanation": "« L'inscription à la journée n'est pas obligatoire, mais elle nous aide à l'organiser. »",
+          "band": "A2"
+        }
+      ]
+    },
+    {
+      "id": "mk4-re08",
+      "title": "Camping du Lac-Vert",
+      "level": "A2",
+      "kind": "notice",
+      "text": "CAMPING DU LAC-VERT – RÈGLEMENT\n\n• Arrivées à partir de 14 h, départs avant 11 h.\n• Silence entre 22 h et 7 h.\n• Les feux sont permis seulement dans les foyers prévus à cet effet.\n• Les chiens sont acceptés, mais toujours en laisse.\n• Il est interdit de laver la vaisselle dans le lac.",
+      "translation": "LAC-VERT CAMPSITE – RULES\n\n• Arrivals from 2 pm, departures before 11 am.\n• Quiet between 10 pm and 7 am.\n• Fires are allowed only in the fire pits provided.\n• Dogs are accepted, but always on a lead.\n• Washing dishes in the lake is forbidden.",
+      "questions": [
+        {
+          "id": "mk4-re08-q1",
+          "question": "Selon le règlement, qu'est-ce qui est permis ?",
+          "options": [
+            "Venir avec son chien s'il reste en laisse",
+            "Arriver au camping à 10 h",
+            "Faire un feu où on veut",
+            "Laver sa vaisselle dans le lac"
+          ],
+          "answer": 0,
+          "explanation": "« Les chiens sont acceptés, mais toujours en laisse. » Arrivals are from 2 pm, fires only in the fire pits, and dishes in the lake are forbidden.",
+          "band": "A2"
+        }
+      ]
+    },
+    {
+      "id": "mk4-re09",
+      "title": "La Cabane des Érables recrute",
+      "level": "A2",
+      "kind": "advert",
+      "text": "LA CABANE DES ÉRABLES RECRUTE !\n\nPour la saison des sucres (de mars à fin avril), nous cherchons :\n– 4 serveurs ou serveuses\n– 2 aides-cuisiniers\n\nTravail les samedis et dimanches.\nExpérience appréciée mais pas obligatoire : formation offerte.\nRepas fournis sur place.\nNavette gratuite depuis le métro Longueuil.\n\nDéposez votre CV à l'accueil avant le 15 février.",
+      "translation": "LA CABANE DES ÉRABLES IS HIRING!\n\nFor the maple syrup season (March to the end of April), we are looking for:\n– 4 waiters or waitresses\n– 2 kitchen assistants\n\nWork on Saturdays and Sundays.\nExperience appreciated but not required: training provided.\nMeals provided on site.\nFree shuttle from Longueuil metro station.\n\nDrop off your CV at reception before 15 February.",
+      "questions": [
+        {
+          "id": "mk4-re09-q1",
+          "question": "Quand faut-il travailler ?",
+          "options": [
+            "Tous les jours de mars à avril",
+            "Les fins de semaine",
+            "Seulement le soir",
+            "Du lundi au vendredi"
+          ],
+          "answer": 1,
+          "explanation": "« Travail les samedis et dimanches » – at weekends (« la fin de semaine » in Québec).",
+          "band": "A2"
+        },
+        {
+          "id": "mk4-re09-q2",
+          "question": "Qu'est-ce que l'employeur offre ?",
+          "options": [
+            "Un logement sur place",
+            "Un meilleur salaire aux personnes expérimentées",
+            "Une voiture de fonction",
+            "Les repas et une formation"
+          ],
+          "answer": 3,
+          "explanation": "« Formation offerte » and « Repas fournis sur place ». There is a free shuttle, but no housing or car.",
+          "band": "A2"
+        }
+      ]
+    },
+    {
+      "id": "mk4-re10",
+      "title": "Fermeture du pont",
+      "level": "A2",
+      "kind": "notice",
+      "text": "AVIS À LA POPULATION\n\nPour des travaux de réparation, le pont de la rue Champlain sera fermé aux voitures du 3 au 14 juin.\nLes piétons et les cyclistes pourront continuer à l'utiliser.\nLes automobilistes devront passer par le boulevard des Pins.\nLa ligne d'autobus 12 sera déviée : consultez les horaires sur l'application de la ville.",
+      "translation": "NOTICE TO RESIDENTS\n\nFor repair work, the rue Champlain bridge will be closed to cars from 3 to 14 June.\nPedestrians and cyclists will still be able to use it.\nDrivers will have to go via boulevard des Pins.\nBus route 12 will be diverted: check the timetables on the city's app.",
+      "questions": [
+        {
+          "id": "mk4-re10-q1",
+          "question": "Qui pourra traverser le pont pendant les travaux ?",
+          "options": [
+            "Les automobilistes",
+            "L'autobus 12",
+            "Les piétons et les cyclistes",
+            "Personne"
+          ],
+          "answer": 2,
+          "explanation": "« Les piétons et les cyclistes pourront continuer à l'utiliser. » Cars and bus 12 must take another route.",
+          "band": "A2"
+        }
+      ]
+    },
+    {
+      "id": "mk4-re11",
+      "title": "Votre commande n° 48213",
+      "level": "A2",
+      "kind": "email",
+      "text": "Objet : Votre commande n° 48213\n\nBonjour monsieur Diallo,\n\nNous sommes désolés : la lampe de bureau que vous avez commandée le 2 octobre n'est plus en stock. Elle devrait arriver dans notre entrepôt dans trois semaines.\n\nVous avez deux possibilités :\n– attendre la livraison : dans ce cas, nous vous offrons les frais de port ;\n– annuler votre commande : vous serez alors remboursé sous cinq jours.\n\nMerci de nous indiquer votre choix en répondant à ce courriel.\n\nLe service clients de Maison Déco",
+      "translation": "Subject: Your order no. 48213\n\nHello Mr Diallo,\n\nWe are sorry: the desk lamp you ordered on 2 October is out of stock. It should arrive at our warehouse in three weeks.\n\nYou have two options:\n– wait for delivery: in that case, we will give you free shipping;\n– cancel your order: you will then be refunded within five days.\n\nPlease let us know your choice by replying to this email.\n\nMaison Déco customer service",
+      "questions": [
+        {
+          "id": "mk4-re11-q1",
+          "question": "Quel est le problème ?",
+          "options": [
+            "La lampe est arrivée cassée",
+            "L'article commandé n'est pas disponible pour le moment",
+            "Le colis a été livré à une mauvaise adresse",
+            "Le paiement a été refusé"
+          ],
+          "answer": 1,
+          "explanation": "« La lampe de bureau que vous avez commandée… n'est plus en stock. »",
+          "band": "A2"
+        },
+        {
+          "id": "mk4-re11-q2",
+          "question": "Que se passe-t-il si M. Diallo attend la livraison ?",
+          "options": [
+            "Il sera remboursé sous cinq jours",
+            "Il recevra une autre lampe",
+            "Il aura une réduction sur sa prochaine commande",
+            "Il ne paiera pas les frais de port"
+          ],
+          "answer": 3,
+          "explanation": "« Attendre la livraison : dans ce cas, nous vous offrons les frais de port. » The refund is for cancelling.",
+          "band": "A2"
+        }
+      ]
+    },
+    {
+      "id": "mk4-re12",
+      "title": "Café des langues",
+      "level": "A2",
+      "kind": "advert",
+      "text": "CAFÉ DES LANGUES\nTous les jeudis, de 18 h à 20 h, au café Le Bavard\n\nVous voulez pratiquer le français, l'anglais ou l'espagnol dans une ambiance détendue ? Venez discuter avec des personnes de tous les pays !\n\nChaque table a sa langue : choisissez la vôtre et changez de table quand vous voulez.\nEntrée libre : il suffit de prendre une consommation.\nTous les niveaux sont les bienvenus, même les débutants.",
+      "translation": "LANGUAGE CAFÉ\nEvery Thursday, 6 pm to 8 pm, at the café Le Bavard\n\nDo you want to practise French, English or Spanish in a relaxed atmosphere? Come and chat with people from all over the world!\n\nEach table has its own language: choose yours and change tables whenever you like.\nFree entry: you just need to buy a drink.\nAll levels are welcome, even beginners.",
+      "questions": [
+        {
+          "id": "mk4-re12-q1",
+          "question": "Comment fonctionne le café des langues ?",
+          "options": [
+            "Un professeur donne un cours à chaque table",
+            "On doit rester à la même table toute la soirée",
+            "On parle seulement français",
+            "On choisit sa table selon la langue qu'on veut parler"
+          ],
+          "answer": 3,
+          "explanation": "« Chaque table a sa langue : choisissez la vôtre et changez de table quand vous voulez. »",
+          "band": "A2"
+        },
+        {
+          "id": "mk4-re12-q2",
+          "question": "Que faut-il payer ?",
+          "options": [
+            "Une inscription annuelle",
+            "Seulement une consommation",
+            "Un cours par soirée",
+            "Un ticket d'entrée"
+          ],
+          "answer": 1,
+          "explanation": "« Entrée libre : il suffit de prendre une consommation » – you only pay for your drink.",
+          "band": "A2"
+        }
+      ]
+    },
+    {
+      "id": "mk4-re13",
+      "title": "Message d'Amina",
+      "level": "A2",
+      "kind": "email",
+      "text": "Salut Laura,\n\nJ'ai une grande nouvelle : j'ai trouvé un emploi à Sherbrooke ! Je vais travailler comme technicienne dans un laboratoire de l'université. Je commence le 1er mars.\n\nJe suis contente, mais un peu stressée, parce que je ne connais personne là-bas. Toi, tu as fait tes études à Sherbrooke, non ? Tu pourrais me conseiller un quartier agréable, pas trop loin de l'université ?\n\nJe vais visiter la ville la fin de semaine prochaine. Si tu es libre, tu veux venir avec moi ?\n\nBisous,\nAmina",
+      "translation": "Hi Laura,\n\nI have big news: I've found a job in Sherbrooke! I'm going to work as a technician in a university laboratory. I start on 1 March.\n\nI'm happy, but a bit stressed, because I don't know anyone there. You studied in Sherbrooke, didn't you? Could you recommend a nice neighbourhood, not too far from the university?\n\nI'm going to visit the city next weekend. If you're free, do you want to come with me?\n\nLove,\nAmina",
+      "questions": [
+        {
+          "id": "mk4-re13-q1",
+          "question": "Pourquoi Amina est-elle un peu stressée ?",
+          "options": [
+            "Elle n'aime pas son nouveau travail",
+            "Elle commence demain",
+            "Elle ne connaît personne à Sherbrooke",
+            "Elle n'a pas encore trouvé d'emploi"
+          ],
+          "answer": 2,
+          "explanation": "« Un peu stressée, parce que je ne connais personne là-bas. »",
+          "band": "A2"
+        },
+        {
+          "id": "mk4-re13-q2",
+          "question": "Que demande Amina à Laura ?",
+          "options": [
+            "De l'aider à déménager",
+            "De lui trouver un emploi à l'université",
+            "De l'héberger chez elle",
+            "De lui conseiller un quartier"
+          ],
+          "answer": 3,
+          "explanation": "« Tu pourrais me conseiller un quartier agréable, pas trop loin de l'université ? »",
+          "band": "A2"
+        }
+      ]
+    },
+    {
+      "id": "mk4-re14",
+      "title": "Une soirée décevante",
+      "level": "B1",
+      "kind": "letter",
+      "text": "Madame, Monsieur,\n\nLe samedi 14 septembre, j'ai réservé une table dans votre restaurant pour fêter l'anniversaire de ma mère. Nous étions six personnes. Malheureusement, cette soirée a été très décevante.\n\nNous avons attendu plus d'une heure avant de recevoir nos plats, et deux d'entre eux étaient froids. Quand nous l'avons signalé au serveur, il nous a répondu que la cuisine était débordée, sans proposer de les réchauffer. Enfin, le gâteau d'anniversaire que j'avais commandé à l'avance n'était pas prêt.\n\nJe comprends qu'un restaurant puisse connaître une soirée difficile. Cependant, nous avons payé 420 dollars pour un service qui ne correspondait pas du tout à votre réputation. Je vous demande donc un remboursement partiel ou, au minimum, un bon d'achat qui nous permettrait de revenir dans de meilleures conditions.\n\nDans l'attente de votre réponse, veuillez agréer, Madame, Monsieur, mes salutations distinguées.\n\nFrançois Bélanger",
+      "translation": "Dear Sir or Madam,\n\nOn Saturday 14 September, I booked a table in your restaurant to celebrate my mother's birthday. There were six of us. Unfortunately, the evening was very disappointing.\n\nWe waited more than an hour for our dishes, and two of them were cold. When we pointed this out to the waiter, he replied that the kitchen was overwhelmed, without offering to warm them up. Finally, the birthday cake I had ordered in advance was not ready.\n\nI understand that a restaurant can have a difficult evening. However, we paid 420 dollars for a service that did not live up to your reputation at all. I am therefore asking for a partial refund or, at the very least, a voucher that would allow us to come back in better conditions.\n\nI look forward to your reply.\n\nYours faithfully,\n\nFrançois Bélanger",
+      "questions": [
+        {
+          "id": "mk4-re14-q1",
+          "question": "Pourquoi M. Bélanger est-il allé au restaurant ?",
+          "options": [
+            "Pour un repas d'affaires",
+            "Pour fêter son propre anniversaire",
+            "Pour goûter le nouveau menu",
+            "Pour fêter l'anniversaire de sa mère"
+          ],
+          "answer": 3,
+          "explanation": "« J'ai réservé une table… pour fêter l'anniversaire de ma mère. »",
+          "band": "B1"
+        },
+        {
+          "id": "mk4-re14-q2",
+          "question": "Comment le serveur a-t-il réagi ?",
+          "options": [
+            "Il a réchauffé les plats",
+            "Il a offert le dessert",
+            "Il a expliqué que la cuisine avait trop de travail",
+            "Il a appelé le directeur"
+          ],
+          "answer": 2,
+          "explanation": "« Il nous a répondu que la cuisine était débordée, sans proposer de les réchauffer. »",
+          "band": "B1"
+        },
+        {
+          "id": "mk4-re14-q3",
+          "question": "Que demande M. Bélanger ?",
+          "options": [
+            "Le remboursement total du repas",
+            "Des excuses écrites du serveur",
+            "Un remboursement partiel ou un bon d'achat",
+            "Un gâteau d'anniversaire gratuit"
+          ],
+          "answer": 2,
+          "explanation": "« Je vous demande donc un remboursement partiel ou, au minimum, un bon d'achat. » He does not ask for a full refund.",
+          "band": "B1"
+        }
+      ]
+    },
+    {
+      "id": "mk4-re15",
+      "title": "Accueil des nouveaux arrivants",
+      "level": "B1",
+      "kind": "notice",
+      "text": "SERVICE D'ACCUEIL DES NOUVEAUX ARRIVANTS\nVille de Saint-Laurent-des-Monts\n\nVous venez de vous installer dans notre ville ? Notre équipe vous accompagne gratuitement pendant votre première année.\n\nNous pouvons vous aider à :\n– comprendre le fonctionnement des services municipaux (collecte des déchets, permis, bibliothèques) ;\n– inscrire vos enfants à l'école ou à la garderie ;\n– trouver un cours de français adapté à votre niveau ;\n– rencontrer d'autres familles grâce à notre programme de jumelage.\n\nLe jumelage met en contact une famille nouvellement arrivée avec une famille installée depuis longtemps dans la ville. Les deux familles se rencontrent au moins une fois par mois, pendant six mois, pour partager des activités.\n\nNos conseillers vous reçoivent du lundi au jeudi, uniquement sur rendez-vous.",
+      "translation": "NEWCOMERS' WELCOME SERVICE\nTown of Saint-Laurent-des-Monts\n\nHave you just settled in our town? Our team supports you free of charge during your first year.\n\nWe can help you to:\n– understand how municipal services work (waste collection, permits, libraries);\n– enrol your children at school or in daycare;\n– find a French course suited to your level;\n– meet other families through our pairing programme.\n\nThe pairing programme puts a newly arrived family in touch with a family that has lived in the town for a long time. The two families meet at least once a month, for six months, to share activities.\n\nOur advisers see people Monday to Thursday, by appointment only.",
+      "questions": [
+        {
+          "id": "mk4-re15-q1",
+          "question": "À qui s'adresse ce service ?",
+          "options": [
+            "Aux touristes de passage",
+            "Aux personnes arrivées dans la ville depuis moins d'un an",
+            "Aux familles installées depuis longtemps",
+            "Uniquement aux étudiants étrangers"
+          ],
+          "answer": 1,
+          "explanation": "« Vous venez de vous installer dans notre ville ? Notre équipe vous accompagne… pendant votre première année. » Long-established families only take part as partners in the pairing programme.",
+          "band": "B1"
+        },
+        {
+          "id": "mk4-re15-q2",
+          "question": "En quoi consiste le jumelage ?",
+          "options": [
+            "Des rencontres régulières entre une nouvelle famille et une famille de la ville",
+            "Un échange de logement entre deux familles",
+            "Des cours de français donnés par des bénévoles",
+            "Une visite guidée de la ville le premier mois"
+          ],
+          "answer": 0,
+          "explanation": "« Le jumelage met en contact une famille nouvellement arrivée avec une famille installée depuis longtemps… au moins une fois par mois, pendant six mois. »",
+          "band": "B1"
+        }
+      ]
+    },
+    {
+      "id": "mk4-re16",
+      "title": "Nouveaux horaires pour les fêtes",
+      "level": "B1",
+      "kind": "email",
+      "text": "Objet : Changement d'horaires à partir du 1er décembre\n\nBonjour à toute l'équipe,\n\nComme chaque année, le magasin prolongera ses heures d'ouverture pendant la période des fêtes. Du 1er au 24 décembre, nous fermerons à 21 h du lundi au samedi, au lieu de 18 h.\n\nPour couvrir ces heures, nous avons besoin de volontaires. Les heures faites après 18 h seront payées 25 % de plus. Les employés intéressés peuvent s'inscrire sur la feuille affichée dans la salle de pause avant le 15 novembre. S'il n'y a pas assez de volontaires, la direction répartira les heures du soir entre tous les employés, en tenant compte des contraintes familiales de chacun.\n\nMerci de votre collaboration,\n\nSandrine Morel, gérante",
+      "translation": "Subject: Change of hours from 1 December\n\nHello everyone,\n\nAs every year, the shop will extend its opening hours during the holiday season. From 1 to 24 December, we will close at 9 pm Monday to Saturday, instead of 6 pm.\n\nTo cover these hours, we need volunteers. Hours worked after 6 pm will be paid 25% more. Interested employees can sign up on the sheet posted in the break room before 15 November. If there are not enough volunteers, management will share out the evening hours among all employees, taking everyone's family commitments into account.\n\nThank you for your cooperation,\n\nSandrine Morel, manager",
+      "questions": [
+        {
+          "id": "mk4-re16-q1",
+          "question": "Qu'est-ce qui change en décembre ?",
+          "options": [
+            "Le magasin ouvrira le dimanche",
+            "Le magasin fermera plus tard le soir",
+            "Le magasin ouvrira plus tôt le matin",
+            "Le magasin fermera à 18 h"
+          ],
+          "answer": 1,
+          "explanation": "« Nous fermerons à 21 h du lundi au samedi, au lieu de 18 h. » Sunday is not mentioned.",
+          "band": "B1"
+        },
+        {
+          "id": "mk4-re16-q2",
+          "question": "Que se passera-t-il s'il n'y a pas assez de volontaires ?",
+          "options": [
+            "Le magasin gardera ses horaires habituels",
+            "La direction répartira les heures du soir entre les employés",
+            "On embauchera des employés temporaires",
+            "Les heures du soir ne seront plus mieux payées"
+          ],
+          "answer": 1,
+          "explanation": "« La direction répartira les heures du soir entre tous les employés, en tenant compte des contraintes familiales. »",
+          "band": "B1"
+        }
+      ]
+    },
+    {
+      "id": "mk4-re17",
+      "title": "L'hiver, nouvelle saison touristique",
+      "level": "B1",
+      "kind": "article",
+      "text": "Longtemps considéré comme une saison à éviter, l'hiver québécois attire désormais des visiteurs du monde entier. Carnaval, hôtels de glace, randonnée en raquettes, traîneau à chiens : l'offre touristique s'est beaucoup développée.\n\nÀ Québec, les hôteliers constatent que les touristes européens restent en moyenne plus longtemps en hiver qu'en été : ils viennent souvent pour une semaine complète, alors que les visiteurs d'été ne passent que deux ou trois nuits en ville avant de partir vers d'autres régions.\n\nCe succès pose toutefois un défi : le manque de neige certains hivers. Plusieurs organisateurs ont donc commencé à proposer des activités de rechange, comme des visites gastronomiques ou des ateliers d'artisanat, pour que les vacances restent réussies même quand la météo ne coopère pas.",
+      "translation": "Long seen as a season to avoid, the Québec winter now attracts visitors from all over the world. Carnival, ice hotels, snowshoe hikes, dog sledding: the tourism offer has grown a lot.\n\nIn Quebec City, hoteliers note that European tourists stay longer on average in winter than in summer: they often come for a full week, whereas summer visitors spend only two or three nights in the city before heading to other regions.\n\nThis success does pose a challenge, however: the lack of snow in some winters. Several organisers have therefore started to offer alternative activities, such as food tours or craft workshops, so that holidays are still a success even when the weather doesn't cooperate.",
+      "questions": [
+        {
+          "id": "mk4-re17-q1",
+          "question": "Que remarquent les hôteliers de Québec ?",
+          "options": [
+            "Les touristes européens préfèrent venir en été",
+            "Les touristes européens restent plus longtemps en hiver qu'en été",
+            "Les hôtels sont presque vides en hiver",
+            "Les visiteurs d'été restent une semaine complète"
+          ],
+          "answer": 1,
+          "explanation": "« Les touristes européens restent en moyenne plus longtemps en hiver qu'en été. » It is winter visitors who stay a full week.",
+          "band": "B1"
+        },
+        {
+          "id": "mk4-re17-q2",
+          "question": "Pourquoi certains organisateurs proposent-ils des visites gastronomiques ?",
+          "options": [
+            "Pour offrir des activités même quand il n'y a pas assez de neige",
+            "Parce que les touristes n'aiment pas le froid",
+            "Pour attirer davantage de touristes en été",
+            "Parce que les activités sportives coûtent trop cher"
+          ],
+          "answer": 0,
+          "explanation": "Because of « le manque de neige certains hivers », they offer « des activités de rechange… même quand la météo ne coopère pas ».",
+          "band": "B1"
+        }
+      ]
+    },
+    {
+      "id": "mk4-re18",
+      "title": "Étudier et travailler en même temps",
+      "level": "B1",
+      "kind": "article",
+      "text": "Selon une enquête menée dans plusieurs universités, près de deux étudiants sur trois occupent un emploi pendant l'année scolaire. Serveurs, caissiers, livreurs ou tuteurs : ils travaillent en moyenne quinze heures par semaine.\n\nPour la majorité d'entre eux, il s'agit avant tout de payer le loyer et l'épicerie. Mais l'enquête montre aussi que ces emplois ont des avantages : les étudiants qui travaillent apprennent à mieux organiser leur temps et se sentent plus à l'aise lors de leurs premiers entretiens d'embauche après le diplôme.\n\nLes chercheurs mettent cependant en garde : au-delà de vingt heures par semaine, les résultats scolaires ont tendance à baisser. Ils recommandent donc aux universités de créer davantage d'emplois sur le campus, avec des horaires adaptés aux périodes d'examens.",
+      "translation": "According to a survey carried out in several universities, nearly two out of three students have a job during the academic year. Waiters, cashiers, delivery drivers or tutors: they work fifteen hours a week on average.\n\nFor most of them, it is above all about paying the rent and the groceries. But the survey also shows that these jobs have advantages: students who work learn to organise their time better and feel more at ease in their first job interviews after graduating.\n\nThe researchers do give a warning, however: beyond twenty hours a week, academic results tend to fall. They therefore recommend that universities create more jobs on campus, with hours adapted to exam periods.",
+      "questions": [
+        {
+          "id": "mk4-re18-q1",
+          "question": "Pourquoi la plupart des étudiants travaillent-ils ?",
+          "options": [
+            "Pour acquérir de l'expérience professionnelle",
+            "Parce que l'université les y oblige",
+            "Pour financer leurs voyages",
+            "Pour payer leurs dépenses essentielles"
+          ],
+          "answer": 3,
+          "explanation": "« Pour la majorité d'entre eux, il s'agit avant tout de payer le loyer et l'épicerie. » Better interview skills are a side benefit, not the main reason.",
+          "band": "B1"
+        },
+        {
+          "id": "mk4-re18-q2",
+          "question": "Que recommandent les chercheurs ?",
+          "options": [
+            "Interdire aux étudiants de travailler",
+            "Limiter le travail étudiant à quinze heures par semaine",
+            "Supprimer les examens pour les étudiants qui travaillent",
+            "Créer plus d'emplois sur le campus aux horaires adaptés"
+          ],
+          "answer": 3,
+          "explanation": "« Ils recommandent donc aux universités de créer davantage d'emplois sur le campus, avec des horaires adaptés aux périodes d'examens. » Fifteen hours is the current average, not a recommendation.",
+          "band": "B1"
+        }
+      ]
+    },
+    {
+      "id": "mk4-re19",
+      "title": "Vivre aux Îles-de-la-Madeleine",
+      "level": "B1",
+      "kind": "article",
+      "text": "Au milieu du golfe du Saint-Laurent, l'archipel des Îles-de-la-Madeleine compte environ treize mille habitants. Chaque été, la population double avec l'arrivée des touristes, attirés par les plages, le vent et les paysages.\n\nDepuis quelques années, l'archipel attire aussi de nouveaux résidents permanents. Grâce au télétravail, des graphistes, des traducteurs ou des programmeurs ont choisi de s'y installer pour profiter d'un rythme de vie plus calme. « Ici, je mets cinq minutes pour aller à la plage, et mes enfants vont à l'école à vélo », explique Julien, développeur web arrivé de Montréal il y a deux ans.\n\nLa vie insulaire a pourtant ses contraintes. L'hiver est long, les liaisons avec le continent sont parfois interrompues par le mauvais temps, et les produits coûtent plus cher, car presque tout arrive par bateau. Surtout, le logement est devenu difficile à trouver : de nombreuses maisons sont transformées en locations touristiques, ce qui inquiète les travailleurs saisonniers et les jeunes familles.",
+      "translation": "In the middle of the Gulf of St. Lawrence, the Magdalen Islands archipelago has around thirteen thousand inhabitants. Every summer, the population doubles with the arrival of tourists, attracted by the beaches, the wind and the scenery.\n\nFor some years now, the archipelago has also been attracting new permanent residents. Thanks to remote working, graphic designers, translators and programmers have chosen to settle there to enjoy a calmer pace of life. \"Here, it takes me five minutes to get to the beach, and my children cycle to school,\" explains Julien, a web developer who arrived from Montreal two years ago.\n\nIsland life does have its constraints, though. Winter is long, links with the mainland are sometimes cut by bad weather, and goods cost more, because almost everything arrives by boat. Above all, housing has become hard to find: many houses are being turned into tourist rentals, which worries seasonal workers and young families.",
+      "questions": [
+        {
+          "id": "mk4-re19-q1",
+          "question": "Que se passe-t-il chaque été ?",
+          "options": [
+            "La population double grâce aux touristes",
+            "Les liaisons avec le continent sont interrompues",
+            "Les télétravailleurs quittent l'archipel",
+            "Les écoles ferment pour accueillir les touristes"
+          ],
+          "answer": 0,
+          "explanation": "« Chaque été, la population double avec l'arrivée des touristes. » It is bad weather, not summer, that cuts links with the mainland.",
+          "band": "B1"
+        },
+        {
+          "id": "mk4-re19-q2",
+          "question": "Pourquoi des télétravailleurs s'installent-ils aux Îles ?",
+          "options": [
+            "Pour avoir une vie plus tranquille",
+            "Parce que les salaires y sont plus élevés",
+            "Parce que les logements y sont bon marché",
+            "Parce que leur entreprise les y envoie"
+          ],
+          "answer": 0,
+          "explanation": "« Pour profiter d'un rythme de vie plus calme. » Housing is actually « difficile à trouver ».",
+          "band": "B1"
+        },
+        {
+          "id": "mk4-re19-q3",
+          "question": "Pourquoi les produits coûtent-ils plus cher ?",
+          "options": [
+            "Presque tout arrive par bateau",
+            "Les touristes achètent tout en été",
+            "Il y a très peu de magasins",
+            "Les taxes sont plus élevées sur les îles"
+          ],
+          "answer": 0,
+          "explanation": "« Les produits coûtent plus cher, car presque tout arrive par bateau. »",
+          "band": "B1"
+        }
+      ]
+    },
+    {
+      "id": "mk4-re20",
+      "title": "Point de vue : le pourboire en question",
+      "level": "B1",
+      "kind": "article",
+      "text": "Au Québec, laisser un pourboire d'environ 15 % au restaurant est une habitude solidement ancrée. Mais depuis la généralisation des terminaux de paiement, une nouvelle tendance agace de nombreux consommateurs : on leur suggère désormais de laisser un pourboire partout, au comptoir d'un café, chez le boulanger, et parfois même pour un achat en libre-service. Et les pourcentages proposés grimpent : 18, 20, voire 25 %.\n\nPour les défenseurs du système, le pourboire reste indispensable, car le salaire minimum des serveurs est inférieur au salaire minimum général. Sans cette contribution des clients, beaucoup ne pourraient tout simplement pas vivre de leur métier.\n\nC'est précisément là que le bât blesse, selon moi. Ce n'est pas au client de compenser des salaires trop bas : c'est à l'employeur, et donc au prix affiché sur le menu. Quelques restaurants ont d'ailleurs fait le choix d'inclure le service dans leurs prix et de mieux payer leur personnel. Leurs clients paient un peu plus cher au départ, mais ils savent exactement ce qu'ils vont dépenser. Une transparence qui, à mon avis, devrait devenir la norme.",
+      "translation": "In Québec, leaving a tip of about 15% in restaurants is a deeply rooted habit. But since payment terminals have become widespread, a new trend is annoying many consumers: they are now prompted to leave a tip everywhere – at a café counter, at the bakery, and sometimes even for a self-service purchase. And the suggested percentages are climbing: 18, 20, even 25%.\n\nFor those who defend the system, tipping remains essential, because the minimum wage for waiting staff is lower than the general minimum wage. Without this contribution from customers, many simply could not make a living from their job.\n\nThat is precisely where the problem lies, in my view. It is not up to the customer to make up for wages that are too low: it is up to the employer, and therefore to the price shown on the menu. Some restaurants have in fact chosen to include service in their prices and pay their staff better. Their customers pay a little more at first, but they know exactly what they will spend. A transparency that, in my opinion, should become the norm.",
+      "questions": [
+        {
+          "id": "mk4-re20-q1",
+          "question": "Qu'est-ce qui agace de nombreux consommateurs ?",
+          "options": [
+            "On leur propose de laisser un pourboire même là où ce n'était pas l'usage",
+            "Les restaurants refusent les cartes de paiement",
+            "Le pourboire au restaurant a été supprimé",
+            "Les serveurs exigent un pourboire en espèces"
+          ],
+          "answer": 0,
+          "explanation": "« On leur suggère désormais de laisser un pourboire partout, au comptoir d'un café, chez le boulanger… » – places where tipping wasn't customary.",
+          "band": "B2"
+        },
+        {
+          "id": "mk4-re20-q2",
+          "question": "Quel argument avancent les défenseurs du pourboire ?",
+          "options": [
+            "Le pourboire améliore la qualité du service",
+            "Les clients aiment récompenser un bon service",
+            "Les serveurs ont un salaire minimum plus bas que les autres travailleurs",
+            "Sans pourboire, les restaurants ne pourraient pas payer leur loyer"
+          ],
+          "answer": 2,
+          "explanation": "« Le salaire minimum des serveurs est inférieur au salaire minimum général. »",
+          "band": "B2"
+        },
+        {
+          "id": "mk4-re20-q3",
+          "question": "Quelle est la position de l'auteur ?",
+          "options": [
+            "Le pourboire devrait être obligatoire partout",
+            "Les clients devraient laisser au moins 25 %",
+            "Le service devrait être inclus dans les prix affichés",
+            "Les serveurs devraient être payés moins cher"
+          ],
+          "answer": 2,
+          "explanation": "« Ce n'est pas au client de compenser des salaires trop bas : c'est à l'employeur, et donc au prix affiché sur le menu… Une transparence qui… devrait devenir la norme. »",
+          "band": "B2"
+        }
+      ]
+    },
+    {
+      "id": "mk4-re21",
+      "title": "Le CV anonyme, une solution suffisante ?",
+      "level": "B1",
+      "kind": "article",
+      "text": "Pour lutter contre la discrimination à l'embauche, certaines entreprises ont adopté le CV anonyme : le nom, l'âge, la photo et l'adresse du candidat sont retirés avant que le recruteur ne lise le document. L'objectif est clair : juger les candidats uniquement sur leurs compétences et leur expérience.\n\nLes premiers résultats sont encourageants dans plusieurs entreprises, où la proportion de candidats issus de l'immigration convoqués en entretien a augmenté. Toutefois, les spécialistes des ressources humaines rappellent que l'anonymat s'arrête à la porte de la salle d'entretien. Si les recruteurs ont des préjugés, ceux-ci peuvent réapparaître au moment de la rencontre.\n\nPar ailleurs, certains indices restent visibles malgré tout : un diplôme obtenu à l'étranger ou une expérience dans une entreprise peu connue suffit parfois à écarter un dossier. Pour beaucoup d'experts, le CV anonyme n'est donc utile que s'il s'accompagne d'une formation des recruteurs et d'une meilleure reconnaissance des diplômes étrangers.",
+      "translation": "To fight discrimination in hiring, some companies have adopted the anonymous CV: the applicant's name, age, photo and address are removed before the recruiter reads the document. The aim is clear: to judge applicants solely on their skills and experience.\n\nThe first results are encouraging in several companies, where the proportion of applicants from immigrant backgrounds invited to interview has increased. However, human resources specialists point out that anonymity stops at the door of the interview room. If recruiters have prejudices, these can reappear at the moment of the meeting.\n\nMoreover, some clues remain visible despite everything: a degree obtained abroad or experience in a little-known company is sometimes enough to set an application aside. For many experts, the anonymous CV is therefore only useful if it comes with training for recruiters and better recognition of foreign qualifications.",
+      "questions": [
+        {
+          "id": "mk4-re21-q1",
+          "question": "Quel est l'objectif du CV anonyme ?",
+          "options": [
+            "Réduire le temps de lecture des CV",
+            "Protéger les données personnelles des candidats",
+            "Évaluer les candidats seulement sur leurs compétences",
+            "Limiter le nombre de candidatures"
+          ],
+          "answer": 2,
+          "explanation": "« L'objectif est clair : juger les candidats uniquement sur leurs compétences et leur expérience. »",
+          "band": "B2"
+        },
+        {
+          "id": "mk4-re21-q2",
+          "question": "Selon les experts, à quelle condition le CV anonyme est-il utile ?",
+          "options": [
+            "S'il s'accompagne d'une formation des recruteurs",
+            "S'il est imposé à toutes les entreprises",
+            "S'il comprend une photo du candidat",
+            "S'il remplace l'entretien d'embauche"
+          ],
+          "answer": 0,
+          "explanation": "« Le CV anonyme n'est donc utile que s'il s'accompagne d'une formation des recruteurs et d'une meilleure reconnaissance des diplômes étrangers. »",
+          "band": "B2"
+        }
+      ]
+    },
+    {
+      "id": "mk4-re22",
+      "title": "Le retour des trains de nuit",
+      "level": "B1",
+      "kind": "article",
+      "text": "Ils avaient presque disparu du paysage européen. Les trains de nuit font pourtant leur retour, portés par une clientèle qui souhaite voyager autrement. Partir le soir, dormir dans une couchette et se réveiller au cœur d'une autre ville : l'idée séduit, notamment les voyageurs qui veulent éviter l'avion.\n\nLe succès reste cependant fragile. Les billets sont souvent plus chers que ceux des compagnies aériennes à bas prix, et le confort laisse parfois à désirer : couchettes étroites, sanitaires partagés, retards fréquents. Les compagnies ferroviaires, de leur côté, rappellent que ces trains coûtent cher à exploiter, car chaque voiture transporte beaucoup moins de passagers qu'un train de jour.\n\nPour que le train de nuit devienne une véritable alternative, il faudra sans doute que les pouvoirs publics le soutiennent financièrement, comme ils le font déjà pour d'autres moyens de transport.",
+      "translation": "They had almost disappeared from the European landscape. Yet night trains are making a comeback, driven by customers who want to travel differently. Leaving in the evening, sleeping in a couchette and waking up in the heart of another city: the idea appeals, especially to travellers who want to avoid flying.\n\nThe success remains fragile, however. Tickets are often more expensive than those of low-cost airlines, and comfort sometimes leaves something to be desired: narrow couchettes, shared toilets, frequent delays. Rail companies, for their part, point out that these trains are expensive to run, because each carriage carries far fewer passengers than a day train.\n\nFor the night train to become a real alternative, public authorities will probably have to support it financially, as they already do for other means of transport.",
+      "questions": [
+        {
+          "id": "mk4-re22-q1",
+          "question": "Pourquoi les trains de nuit coûtent-ils cher à exploiter ?",
+          "options": [
+            "Les conducteurs sont payés double la nuit",
+            "Les trains doivent être chauffés toute la nuit",
+            "Chaque voiture transporte moins de passagers qu'en journée",
+            "Les gares doivent rester ouvertes plus tard"
+          ],
+          "answer": 2,
+          "explanation": "« Ces trains coûtent cher à exploiter, car chaque voiture transporte beaucoup moins de passagers qu'un train de jour. »",
+          "band": "B2"
+        },
+        {
+          "id": "mk4-re22-q2",
+          "question": "Selon l'auteur, qu'est-ce qui permettrait leur développement ?",
+          "options": [
+            "Une baisse du prix des billets d'avion",
+            "La suppression des couchettes",
+            "Une aide financière des pouvoirs publics",
+            "Des trains plus rapides"
+          ],
+          "answer": 2,
+          "explanation": "« Il faudra sans doute que les pouvoirs publics le soutiennent financièrement. »",
+          "band": "B2"
+        }
+      ]
+    }
+  ],
+  "writing": [
+    {
+      "id": "mk4-wr01",
+      "title": "Une visite à Québec",
+      "level": "A2",
+      "taskType": "message",
+      "instructions": "Task 1: write a short message to a friend (60–120 words). Say why you are writing, give the dates of your trip, suggest meeting, ask two or three precise questions, and sign off.",
+      "promptFr": "Vous allez passer une fin de semaine à Québec le mois prochain. Votre amie Mélissa habite là-bas. Vous lui écrivez un message pour lui annoncer votre visite, lui proposer de vous voir et lui demander des conseils (restaurants, activités, transports). (60 à 120 mots)",
+      "minWords": 60,
+      "maxWords": 120,
+      "modelAnswer": "Salut Mélissa,\n\nJ'espère que tu vas bien ! Je t'écris parce que je vais passer la fin de semaine du 14 au 16 novembre à Québec avec ma sœur. Ce serait super de te voir ! Est-ce que tu es libre le samedi soir ? On pourrait manger ensemble.\n\nJ'ai aussi besoin de tes conseils. Tu connais un bon restaurant pas trop cher dans le Vieux-Québec ? Qu'est-ce qu'on peut visiter s'il fait très froid ? Et pour aller de la gare à notre hôtel, c'est mieux de prendre l'autobus ou un taxi ?\n\nMerci d'avance, et réponds-moi vite !\n\nBises,\nAna",
+      "checklist": [
+        "I greeted my friend and said why I am writing.",
+        "I gave the dates of my trip and suggested a day and time to meet.",
+        "I asked at least two precise questions (restaurant, activities, transport).",
+        "I used the informal tu form consistently.",
+        "I closed the message warmly and stayed between 60 and 120 words."
+      ]
+    },
+    {
+      "id": "mk4-wr02",
+      "title": "Un voyage plein d'imprévus",
+      "level": "A2+",
+      "taskType": "description",
+      "instructions": "Task 2: write an account of a trip for your blog (120–150 words). Say where you went, tell what went wrong using past tenses (passé composé and imparfait), explain how you solved the problem and say what you learned.",
+      "promptFr": "Lors d'un voyage récent, rien ne s'est passé comme prévu (retard, bagage perdu, problème d'hôtel…). Sur votre blog, vous racontez ce qui s'est passé et vous dites ce que vous avez retenu de cette expérience. (120 à 150 mots)",
+      "minWords": 120,
+      "maxWords": 150,
+      "modelAnswer": "L'été dernier, je suis partie en Gaspésie avec deux amies. Nous avions tout organisé : le train jusqu'à Rimouski, puis une voiture de location pour faire le tour de la péninsule.\n\nMalheureusement, rien ne s'est passé comme prévu. D'abord, notre train avait trois heures de retard, et quand nous sommes arrivées, l'agence de location était déjà fermée. Il pleuvait, il était tard et nous étions épuisées. Heureusement, un monsieur très gentil nous a conseillé une petite auberge près de la gare.\n\nLe lendemain, nous avons récupéré la voiture, mais nous avions perdu notre première nuit à l'hôtel de Percé. Finalement, le reste du voyage a été magnifique : nous avons vu des baleines et nous avons mangé un homard délicieux !\n\nCette aventure m'a appris une chose : en voyage, il faut toujours prévoir un plan B… et garder le sens de l'humour.",
+      "checklist": [
+        "I said where and when I travelled, and with whom.",
+        "I used the imparfait for background (il pleuvait, nous étions…).",
+        "I used the passé composé for the main events and the problem.",
+        "I explained how the problem was solved and what I learned.",
+        "I used time markers (d'abord, le lendemain, finalement…) and stayed between 120 and 150 words."
+      ]
+    },
+    {
+      "id": "mk4-wr03",
+      "title": "Acheter en ligne ou en magasin ?",
+      "level": "B1",
+      "taskType": "opinion",
+      "instructions": "Task 3: read the two documents, which give opposing views. Compare the two points of view, then give and justify your own opinion (120–180 words).",
+      "promptFr": "Un site d'information publie ces deux témoignages sur le thème « Faut-il faire ses achats en ligne ou dans les commerces ? ». Vous écrivez un commentaire : vous comparez les deux points de vue, puis vous donnez votre opinion en la justifiant. (120 à 180 mots)",
+      "minWords": 120,
+      "maxWords": 180,
+      "documents": [
+        {
+          "title": "Document 1 – « Internet me fait gagner du temps »",
+          "text": "Je travaille à temps plein et j'ai deux enfants : je n'ai pas le temps de faire les magasins. Sur Internet, je compare les prix en quelques minutes, je lis les avis des autres clients et je me fais livrer à la maison, même le dimanche. Et si l'article ne me convient pas, je le renvoie gratuitement. Pour moi, c'est devenu une évidence. (Sophie, 38 ans)"
+        },
+        {
+          "title": "Document 2 – « Je préfère voir et toucher »",
+          "text": "J'achète presque tout dans les commerces de mon quartier. En magasin, je peux essayer un vêtement, toucher un tissu et demander conseil à un vendeur qui connaît ses produits. Les achats en ligne, c'est pratique, mais ça vide nos rues commerçantes et ça multiplie les camions de livraison. Je préfère payer un peu plus cher et faire vivre mon quartier. (Martin, 56 ans)"
+        }
+      ],
+      "modelAnswer": "Ces deux témoignages présentent deux manières opposées de faire ses achats.\n\nPour Sophie, acheter en ligne est surtout une question de temps : elle compare les prix, lit les avis et se fait livrer, ce qui est très pratique quand on travaille et qu'on a des enfants. Martin, au contraire, préfère les commerces de son quartier, parce qu'il peut essayer les produits et recevoir des conseils. De plus, il pense que les achats en ligne font disparaître les petits commerces.\n\nPersonnellement, je partage plutôt l'avis de Martin, même si je comprends Sophie. D'abord, pour les vêtements ou les chaussures, je préfère essayer avant d'acheter : j'ai souvent dû renvoyer des colis parce que la taille ne convenait pas. Ensuite, quand j'achète près de chez moi, je contribue à garder des emplois dans mon quartier.\n\nCependant, pour des produits techniques que je connais bien, Internet reste plus simple et souvent moins cher. En conclusion, l'idéal est de combiner les deux, selon ce qu'on achète.",
+      "checklist": [
+        "I summarised each document's point of view in my own words, without copying whole sentences.",
+        "I compared the two views with connectors (pour…, au contraire, de plus, alors que).",
+        "I gave my own opinion clearly and justified it with at least two arguments.",
+        "I used a personal example to support one argument.",
+        "I acknowledged the other side (cependant…), wrote a conclusion and stayed between 120 and 180 words."
+      ]
+    }
+  ],
+  "speaking": [
+    {
+      "id": "mk4-sp01",
+      "title": "Votre parcours",
+      "level": "A2",
+      "taskType": "entretien",
+      "instructions": "Task 1 (2 minutes, no preparation): guided interview. The examiner asks you questions about yourself, your studies and work, your daily life and your plans: answer in full sentences and add details.",
+      "promptFr": "Présentez-vous : parlez de votre parcours (études, emplois), de votre vie quotidienne, de ce que vous aimez faire et de vos projets pour les prochaines années.",
+      "prepSeconds": 0,
+      "speakSeconds": 120,
+      "modelAnswer": "Bonjour ! Je m'appelle Diego, j'ai vingt-neuf ans et je viens de Colombie, de la ville de Medellín. J'habite à Bogotá avec ma femme, Valentina. Nous n'avons pas encore d'enfants.\n\nJ'ai fait des études de comptabilité à l'université, et depuis cinq ans, je travaille dans une entreprise qui exporte des fleurs. Je m'occupe des factures et des paiements des clients étrangers. J'aime mon travail, mais les journées sont longues : je commence à sept heures et je finis souvent après dix-huit heures.\n\nLe soir et le week-end, j'aime cuisiner pour mes amis et jouer de la guitare. Le dimanche, nous allons souvent marcher à la montagne.\n\nDans deux ans, nous voulons nous installer au Nouveau-Brunswick, à Moncton, parce qu'on y parle français et anglais. J'aimerais y travailler comme comptable. C'est pour ça que je prends des cours de français trois fois par semaine depuis un an et demi.",
+      "tips": [
+        "Organise your answer: who you are, studies and work, daily life, hobbies, plans.",
+        "Explain your choices with parce que and add one concrete detail for each topic.",
+        "Mix tenses: present for now, passé composé for your studies, futur proche or conditionnel (j'aimerais…) for plans.",
+        "Use depuis + duration to say how long you have done something (je travaille ici depuis cinq ans).",
+        "If you don't understand a question, ask politely: « Pourriez-vous répéter, s'il vous plaît ? »"
+      ]
+    },
+    {
+      "id": "mk4-sp02",
+      "title": "Une fin de semaine dans Charlevoix",
+      "level": "A2+",
+      "taskType": "interaction",
+      "instructions": "Task 2 (2 minutes' preparation, then 3 minutes 30): interaction. The examiner plays an employee of the tourist office. You ask the questions to get all the information you need to organise your trip, and react to the answers.",
+      "promptFr": "Vous voulez passer une fin de semaine dans la région de Charlevoix, au Québec. Vous téléphonez à l'office de tourisme pour vous renseigner : transport, hébergement, activités, prix, météo et équipement. L'examinateur joue le rôle de l'employé de l'office de tourisme.",
+      "prepSeconds": 120,
+      "speakSeconds": 210,
+      "modelAnswer": "Bonjour, madame. Je voudrais passer une fin de semaine dans Charlevoix au début du mois de février, et j'aurais quelques questions, s'il vous plaît.\n\nD'abord, je n'ai pas de voiture. Comment est-ce qu'on peut venir de Québec ? … Ah, il y a un autobus. Combien de temps dure le trajet ? … D'accord, ce n'est pas trop long.\n\nEt pour dormir, qu'est-ce que vous me conseillez ? Nous sommes deux, et nous cherchons quelque chose de simple, pas trop cher. … Une auberge, c'est parfait. Est-ce que le petit-déjeuner est compris ? … Très bien.\n\nQuelles activités peut-on faire en hiver ? … La raquette, ça m'intéresse beaucoup ! Est-ce qu'on peut louer l'équipement sur place, ou faut-il l'apporter ? … Et combien coûte la location pour une journée ?\n\nQuel temps fait-il en général en février ? … Moins vingt ? Ah, il faut vraiment bien s'habiller ! Qu'est-ce que je dois absolument apporter ?\n\nDernière question : faut-il réserver les activités à l'avance ? … D'accord, je vais réserver aujourd'hui, alors. Merci beaucoup pour votre aide, madame. Bonne journée !",
+      "tips": [
+        "Use the 2 minutes to list your topics: transport, accommodation, activities, prices, weather, equipment.",
+        "Give some context at the start (dates, number of people, no car) so your questions make sense.",
+        "Vary your questions: est-ce que…, inversion (Faut-il… ? Peut-on… ?), combien, quel, comment.",
+        "React to each answer (c'est parfait, ce n'est pas trop long, ah, il faut bien s'habiller !) and ask a follow-up question.",
+        "End naturally: say what you will do next and thank the employee."
+      ]
+    },
+    {
+      "id": "mk4-sp03",
+      "title": "Une année de travail avant les études ?",
+      "level": "B1",
+      "taskType": "opinion",
+      "instructions": "Task 3 (4 minutes 30, no preparation): give and justify your opinion on the statement. Organise your ideas, give examples, and consider the opposite view.",
+      "promptFr": "« Les jeunes devraient travailler pendant un an avant de commencer des études supérieures. » Qu'en pensez-vous ?",
+      "prepSeconds": 0,
+      "speakSeconds": 270,
+      "modelAnswer": "Selon cette affirmation, il serait préférable que les jeunes travaillent un an avant d'aller à l'université ou au cégep. Je trouve cette idée plutôt intéressante, mais je ne pense pas qu'il faille l'imposer à tout le monde.\n\nD'abord, je vois de vrais avantages. À dix-huit ans, beaucoup de jeunes ne savent pas encore ce qu'ils veulent faire. Une année de travail leur permet de découvrir un milieu professionnel et de choisir leurs études avec plus de certitude. Mon frère, par exemple, a travaillé un an dans un hôtel, et c'est là qu'il a décidé d'étudier le tourisme.\n\nEnsuite, travailler permet de gagner de l'argent. Les études coûtent cher, et un jeune qui a des économies sera moins obligé de travailler trop d'heures pendant ses cours.\n\nCependant, il y a aussi des risques. Certains jeunes s'habituent à leur salaire et ne reprennent jamais leurs études. D'autres, au contraire, savent très bien ce qu'ils veulent : pour un futur médecin ou un futur ingénieur, perdre une année n'a pas beaucoup de sens.\n\nPour conclure, je pense qu'une année de travail peut être très utile, mais qu'elle doit rester un choix personnel. L'idéal serait que les écoles aident les jeunes qui le souhaitent à organiser cette année.",
+      "tips": [
+        "There is no preparation time: rephrase the statement in your own words, then say clearly where you stand.",
+        "Announce and organise your arguments: d'abord, ensuite, cependant, pour conclure.",
+        "Give a concrete example from your life or someone you know for at least one argument.",
+        "Present the opposite view (certains pensent que…, au contraire…) before you conclude.",
+        "After « je ne pense pas que » or « il faut que », use the subjunctive (qu'il faille, qu'elle soit…)."
+      ]
+    }
+  ]
+}

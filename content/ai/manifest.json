@@ -1,0 +1,34 @@
+{
+  "version": 1,
+  "allowedHosts": [
+    "huggingface.co"
+  ],
+  "llm": {
+    "high": "smollm3-3b",
+    "mid": "qwen3-1.7b"
+  },
+  "models": [
+    {
+      "id": "smollm3-3b",
+      "kind": "llm",
+      "name": "SmolLM3 3B (Q4_K_M)",
+      "file": "SmolLM3-Q4_K_M.gguf",
+      "url": "https://huggingface.co/ggml-org/SmolLM3-3B-GGUF/resolve/4965cb60b150737b68a0408c36aeefb65078f894/SmolLM3-Q4_K_M.gguf",
+      "bytes": 1915305312,
+      "sha256": "8334b850b7bd46238c16b0c550df2138f0889bf433809008cc17a8b05761863e",
+      "licence": "Apache-2.0",
+      "source": "HuggingFaceTB/SmolLM3-3B, GGUF by ggml-org"
+    },
+    {
+      "id": "qwen3-1.7b",
+      "kind": "llm",
+      "name": "Qwen3 1.7B (Q4_K_M)",
+      "file": "Qwen3-1.7B-Q4_K_M.gguf",
+      "url": "https://huggingface.co/unsloth/Qwen3-1.7B-GGUF/resolve/d7f544eead698dbd1f15126ef60b45a1e1933222/Qwen3-1.7B-Q4_K_M.gguf",
+      "bytes": 1107409472,
+      "sha256": "b139949c5bd74937ad8ed8c8cf3d9ffb1e99c866c823204dc42c0d91fa181897",
+      "licence": "Apache-2.0",
+      "source": "Qwen/Qwen3-1.7B, GGUF by Unsloth"
+    }
+  ]
+}

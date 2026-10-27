@@ -1,0 +1,1522 @@
+[
+  {
+    "id": "s191",
+    "fr": "Quand je suis arrivé au bureau ce matin, mes collègues étaient déjà en réunion.",
+    "en": "When I got to the office this morning, my colleagues were already in a meeting.",
+    "grammarNote": "Passé composé for the arrival (an event), imparfait for the situation already in progress.",
+    "grammarTag": "pc-vs-imparfait",
+    "level": "A2+"
+  },
+  {
+    "id": "s192",
+    "fr": "Le dossier que vous m'avez envoyé hier est incomplet : il manque une pièce justificative.",
+    "en": "The file you sent me yesterday is incomplete: a supporting document is missing.",
+    "grammarNote": "Relative pronoun 'que' stands for the direct object: 'le dossier que vous m'avez envoyé'.",
+    "grammarTag": "relatifs",
+    "level": "A2+"
+  },
+  {
+    "id": "s193",
+    "fr": "Cet été, nous partirons en Gaspésie et nous louerons une petite maison près de la mer.",
+    "en": "This summer we'll go to Brittany and rent a little house near the sea.",
+    "grammarNote": "Futur simple for firm plans: 'nous partirons', 'nous louerons'.",
+    "grammarTag": "futur-simple",
+    "level": "A2+"
+  },
+  {
+    "id": "s194",
+    "fr": "Ma cheffe m'a demandé le rapport, alors je le lui envoie avant midi.",
+    "en": "My boss asked me for the report, so I'm sending it to her before noon.",
+    "grammarNote": "Double object pronouns: direct 'le' (the report) comes before indirect 'lui' (to her).",
+    "grammarTag": "cod",
+    "level": "A2+"
+  },
+  {
+    "id": "s195",
+    "fr": "Tu vas à la piscine ce soir ? Oui, j'y vais avec ma sœur après le travail.",
+    "en": "Are you going to the pool tonight? Yes, I'm going with my sister after work.",
+    "grammarNote": "'Y' replaces a place introduced by 'à': 'à la piscine' → 'j'y vais'.",
+    "grammarTag": "y-en",
+    "level": "A2+"
+  },
+  {
+    "id": "s196",
+    "fr": "J'ai téléphoné à l'hôtel de ville et je leur ai expliqué mon problème de stationnement.",
+    "en": "I phoned the town hall and explained my parking problem to them.",
+    "grammarNote": "'Leur' is the indirect object pronoun for 'à + people': expliquer quelque chose à quelqu'un.",
+    "grammarTag": "coi",
+    "level": "A2+"
+  },
+  {
+    "id": "s197",
+    "fr": "Je vais prendre rendez-vous chez le médecin parce que je tousse depuis une semaine.",
+    "en": "I'm going to make a doctor's appointment because I've been coughing for a week.",
+    "grammarNote": "Futur proche (aller + infinitive) for a decision about the near future.",
+    "grammarTag": "futur-proche",
+    "level": "A2+"
+  },
+  {
+    "id": "s198",
+    "fr": "Ce train est plus rapide que le bus, mais il coûte presque deux fois plus cher.",
+    "en": "This train is faster than the bus, but it costs almost twice as much.",
+    "grammarNote": "Comparatives 'plus … que' and 'deux fois plus cher' to compare speed and price.",
+    "grammarTag": "comparatifs",
+    "level": "A2+"
+  },
+  {
+    "id": "s199",
+    "fr": "Je ne fume plus depuis trois ans et je me sens beaucoup mieux.",
+    "en": "I haven't smoked for three years and I feel much better.",
+    "grammarNote": "'Ne … plus' means 'no longer': an action that has stopped.",
+    "grammarTag": "negation",
+    "level": "A2+"
+  },
+  {
+    "id": "s200",
+    "fr": "N'oubliez pas d'apporter une pièce d'identité et un justificatif de domicile récent.",
+    "en": "Don't forget to bring ID and a recent proof of address.",
+    "grammarNote": "Negative imperative: 'ne' and 'pas' go around the verb, with no subject: 'N'oubliez pas'.",
+    "grammarTag": "imperatif",
+    "level": "A2+"
+  },
+  {
+    "id": "s201",
+    "fr": "On se retrouve devant la gare, à côté de la boulangerie, vers dix-huit heures ?",
+    "en": "Shall we meet in front of the station, next to the bakery, around 6 p.m.?",
+    "grammarNote": "Prepositions of place and time: 'devant', 'à côté de', 'vers' (around).",
+    "grammarTag": "prepositions",
+    "level": "A2+"
+  },
+  {
+    "id": "s202",
+    "fr": "Les lettres que j'ai reçues ce matin venaient toutes de la banque.",
+    "en": "The letters I received this morning all came from the bank.",
+    "grammarNote": "Past participle with avoir agrees with a direct object placed before it: 'les lettres que j'ai reçues'.",
+    "grammarTag": "accord",
+    "level": "A2+"
+  },
+  {
+    "id": "s203",
+    "fr": "Il pleuvait si fort que nous avons décidé de rester à la maison.",
+    "en": "It was raining so hard that we decided to stay at home.",
+    "grammarNote": "Imparfait for the background (the rain), passé composé for the decision taken.",
+    "grammarTag": "pc-vs-imparfait",
+    "level": "A2+"
+  },
+  {
+    "id": "s204",
+    "fr": "Quand tu auras ton diplôme, tu pourras chercher un poste à l'étranger.",
+    "en": "When you have your degree, you'll be able to look for a job abroad.",
+    "grammarNote": "After 'quand', French uses the future for a future action: 'quand tu auras', not 'quand tu as'.",
+    "grammarTag": "futur-simple",
+    "level": "A2+"
+  },
+  {
+    "id": "s205",
+    "fr": "C'est une collègue sur qui je peux toujours compter quand j'ai un souci.",
+    "en": "She's a colleague I can always count on when I have a problem.",
+    "grammarNote": "Preposition + 'qui' for a person: compter sur quelqu'un → 'sur qui'.",
+    "grammarTag": "relatifs",
+    "level": "A2+"
+  },
+  {
+    "id": "s206",
+    "fr": "Des fruits ? J'en achète au marché tous les samedis, ils sont moins chers.",
+    "en": "Fruit? I buy it at the market every Saturday; it's cheaper.",
+    "grammarNote": "'En' replaces a noun with a partitive or indefinite article: 'des fruits' → 'j'en achète'.",
+    "grammarTag": "y-en",
+    "level": "A2+"
+  },
+  {
+    "id": "s207",
+    "fr": "Mon frère m'a prêté sa voiture, je dois la lui rendre dimanche soir.",
+    "en": "My brother lent me his car; I have to give it back to him on Sunday evening.",
+    "grammarNote": "Double pronouns 'la lui': direct object (the car) before indirect object (to him).",
+    "grammarTag": "cod",
+    "level": "A2+"
+  },
+  {
+    "id": "s208",
+    "fr": "Hier soir, j'ai regardé un documentaire passionnant sur la vie dans les océans.",
+    "en": "Last night I watched a fascinating documentary about life in the oceans.",
+    "grammarNote": "Passé composé for a completed action at a specific time ('hier soir').",
+    "grammarTag": "passe-compose",
+    "level": "A2+"
+  },
+  {
+    "id": "s209",
+    "fr": "Quand j'étais étudiant, je travaillais le week-end dans un café pour payer mon loyer.",
+    "en": "When I was a student, I used to work weekends in a café to pay my rent.",
+    "grammarNote": "Imparfait for past habits and situations: 'j'étais', 'je travaillais'.",
+    "grammarTag": "imparfait",
+    "level": "A2+"
+  },
+  {
+    "id": "s210",
+    "fr": "Il y a moins de monde au musée le mardi matin, c'est le meilleur moment pour y aller.",
+    "en": "There are fewer people at the museum on Tuesday mornings; it's the best time to go.",
+    "grammarNote": "'Moins de' + noun for quantity, and the irregular superlative 'le meilleur'.",
+    "grammarTag": "comparatifs",
+    "level": "A2+"
+  },
+  {
+    "id": "s211",
+    "fr": "Je n'ai rien compris à la réunion parce que tout le monde parlait en même temps.",
+    "en": "I didn't understand anything in the meeting because everyone was talking at once.",
+    "grammarNote": "'Ne … rien' means 'nothing'; in the passé composé it surrounds the auxiliary: 'je n'ai rien compris'.",
+    "grammarTag": "negation",
+    "level": "A2+"
+  },
+  {
+    "id": "s212",
+    "fr": "Je voudrais un peu de lait dans mon café, mais pas de sucre, s'il vous plaît.",
+    "en": "I'd like a little milk in my coffee, but no sugar, please.",
+    "grammarNote": "After a quantity ('un peu de') and after a negation ('pas de'), the partitive becomes 'de'.",
+    "grammarTag": "partitifs",
+    "level": "A2+"
+  },
+  {
+    "id": "s213",
+    "fr": "Remplissez ce formulaire, signez-le en bas de la page et rapportez-le au guichet.",
+    "en": "Fill in this form, sign it at the bottom of the page and bring it back to the counter.",
+    "grammarNote": "In a positive imperative, the object pronoun goes after the verb with a hyphen: 'signez-le'.",
+    "grammarTag": "imperatif",
+    "level": "A2+"
+  },
+  {
+    "id": "s214",
+    "fr": "La semaine prochaine, je vais commencer un nouveau travail dans une entreprise de transport.",
+    "en": "Next week I'm going to start a new job at a transport company.",
+    "grammarNote": "Futur proche (aller + infinitive) for a planned event that is coming soon.",
+    "grammarTag": "futur-proche",
+    "level": "A2+"
+  },
+  {
+    "id": "s215",
+    "fr": "Nous avons longtemps hésité, mais finalement nous avons choisi l'appartement le plus lumineux.",
+    "en": "We hesitated for a long time, but in the end we chose the brightest flat.",
+    "grammarNote": "Superlative after the noun: 'l'appartement le plus lumineux' (article repeated).",
+    "grammarTag": "comparatifs",
+    "level": "A2+"
+  },
+  {
+    "id": "s216",
+    "fr": "J'ai envoyé un mail au propriétaire, mais il ne m'a pas encore répondu.",
+    "en": "I sent the landlord an email, but he hasn't replied to me yet.",
+    "grammarNote": "'Répondre à quelqu'un' takes an indirect object: 'il ne m'a pas répondu'.",
+    "grammarTag": "coi",
+    "level": "A2+"
+  },
+  {
+    "id": "s217",
+    "fr": "Avant de partir en vacances, pensez à vérifier la date de validité de votre passeport.",
+    "en": "Before going on holiday, remember to check your passport's expiry date.",
+    "grammarNote": "'Avant de' + infinitive, and 'penser à' + infinitive (remember to).",
+    "grammarTag": "prepositions",
+    "level": "A2+"
+  },
+  {
+    "id": "s218",
+    "fr": "Je suis tombée dans l'escalier pendant que je portais des cartons.",
+    "en": "I fell on the stairs while I was carrying boxes.",
+    "grammarNote": "Passé composé for the sudden event, imparfait for the action in progress ('pendant que').",
+    "grammarTag": "pc-vs-imparfait",
+    "level": "A2+"
+  },
+  {
+    "id": "s219",
+    "fr": "La plupart des employés viennent au travail à vélo depuis que la ville a construit des pistes cyclables.",
+    "en": "Most employees have been cycling to work since the town built cycle lanes.",
+    "grammarNote": "'La plupart des' + plural noun takes a plural verb: 'la plupart des employés viennent'.",
+    "grammarTag": "accord",
+    "level": "A2+"
+  },
+  {
+    "id": "s220",
+    "fr": "Je te conseille ce restaurant : on y mange bien et les prix sont raisonnables.",
+    "en": "I recommend this restaurant: the food is good and the prices are reasonable.",
+    "grammarNote": "'Y' replaces a place already mentioned: 'on y mange bien' = 'on mange bien dans ce restaurant'.",
+    "grammarTag": "y-en",
+    "level": "A2+"
+  },
+  {
+    "id": "s221",
+    "fr": "À votre arrivée, vous prendrez la ligne 2 du métro jusqu'au terminus.",
+    "en": "When you arrive, take metro line 2 to the end of the line.",
+    "grammarNote": "Futur simple used to give instructions politely: 'vous prendrez'.",
+    "grammarTag": "futur-simple",
+    "level": "A2+"
+  },
+  {
+    "id": "s222",
+    "fr": "Le quartier où j'ai grandi a beaucoup changé ces dernières années.",
+    "en": "The neighbourhood where I grew up has changed a lot in recent years.",
+    "grammarNote": "Relative pronoun 'où' for a place: 'le quartier où j'ai grandi'.",
+    "grammarTag": "relatifs",
+    "level": "A2+"
+  },
+  {
+    "id": "s223",
+    "fr": "Ça fait longtemps qu'on ne s'est pas vus ! Tu as le temps de prendre un café ?",
+    "en": "It's been ages since we last saw each other! Do you have time for a coffee?",
+    "grammarNote": "Expression 'ça fait longtemps que' + negative passé composé for 'it's been a long time since'.",
+    "grammarTag": "vocabulary",
+    "level": "A2+"
+  },
+  {
+    "id": "s224",
+    "fr": "Elle ne mange jamais de viande, mais elle adore le poisson et les fruits de mer.",
+    "en": "She never eats meat, but she loves fish and seafood.",
+    "grammarNote": "'Ne … jamais' means 'never'; after it, 'de la viande' becomes 'de viande'.",
+    "grammarTag": "negation",
+    "level": "A2+"
+  },
+  {
+    "id": "s225",
+    "fr": "Tu as parlé de ton projet à tes parents ? Non, je ne leur en ai pas encore parlé.",
+    "en": "Have you told your parents about your plan? No, I haven't talked to them about it yet.",
+    "grammarNote": "'Leur' (to them) + 'en' (about it): parler de quelque chose à quelqu'un.",
+    "grammarTag": "coi",
+    "level": "A2+"
+  },
+  {
+    "id": "s226",
+    "fr": "J'ai acheté ces chaussures en solde, elles m'ont coûté la moitié du prix.",
+    "en": "I bought these shoes in the sale; they cost me half price.",
+    "grammarNote": "Useful expressions: 'en solde' (on sale) and 'la moitié du prix' (half price).",
+    "grammarTag": "vocabulary",
+    "level": "A2+"
+  },
+  {
+    "id": "s227",
+    "fr": "Pendant les travaux, la bibliothèque sera fermée et les cours auront lieu dans la salle des fêtes.",
+    "en": "During the building work, the library will be closed and classes will take place in the community hall.",
+    "grammarNote": "Futur simple of être and avoir, irregular stems: 'sera', 'auront'.",
+    "grammarTag": "futur-simple",
+    "level": "A2+"
+  },
+  {
+    "id": "s228",
+    "fr": "Il fait plus chaud aujourd'hui qu'hier, mais il fera moins beau demain.",
+    "en": "It's warmer today than yesterday, but the weather will be less nice tomorrow.",
+    "grammarNote": "Comparatives 'plus … que' and 'moins …' with weather expressions.",
+    "grammarTag": "comparatifs",
+    "level": "A2+"
+  },
+  {
+    "id": "s229",
+    "fr": "Je cherche une voiture qui consomme peu et qui est facile à garer en ville.",
+    "en": "I'm looking for a car that uses little fuel and is easy to park in town.",
+    "grammarNote": "Relative pronoun 'qui' stands for the subject of the clause: 'une voiture qui consomme peu'.",
+    "grammarTag": "relatifs",
+    "level": "A2+"
+  },
+  {
+    "id": "s230",
+    "fr": "Je me suis inscrit à un cours de cuisine, et j'en suis très content.",
+    "en": "I signed up for a cooking class, and I'm very happy with it.",
+    "grammarNote": "'En' replaces 'de + thing' after expressions like 'être content de': 'j'en suis content'.",
+    "grammarTag": "y-en",
+    "level": "A2+"
+  },
+  {
+    "id": "s231",
+    "fr": "Quand nous habitions à la campagne, nous allions au marché à pied tous les dimanches.",
+    "en": "When we lived in the countryside, we used to walk to the market every Sunday.",
+    "grammarNote": "Imparfait for repeated actions in the past ('tous les dimanches').",
+    "grammarTag": "imparfait",
+    "level": "A2+"
+  },
+  {
+    "id": "s232",
+    "fr": "Prends ton parapluie, la météo annonce de la pluie pour cet après-midi.",
+    "en": "Take your umbrella; the forecast says rain this afternoon.",
+    "grammarNote": "Imperative of 'prendre' in the 'tu' form: 'prends', without the subject.",
+    "grammarTag": "imperatif",
+    "level": "A2+"
+  },
+  {
+    "id": "s233",
+    "fr": "Après la sortie au zoo, les enfants sont rentrés à la maison fatigués mais heureux.",
+    "en": "After the trip to the zoo, the children came home tired but happy.",
+    "grammarNote": "With être, the past participle agrees with the subject: 'les enfants sont rentrés'.",
+    "grammarTag": "accord",
+    "level": "A2+"
+  },
+  {
+    "id": "s234",
+    "fr": "Je ne connais personne dans cette ville, alors je vais m'inscrire dans une association.",
+    "en": "I don't know anyone in this town, so I'm going to join a club.",
+    "grammarNote": "'Ne … personne' means 'nobody / not anyone'.",
+    "grammarTag": "negation",
+    "level": "A2+"
+  },
+  {
+    "id": "s235",
+    "fr": "Mes voisins sont très gentils : quand je pars, je leur laisse mes clés et ils s'occupent du chat.",
+    "en": "My neighbours are very kind: when I go away, I leave them my keys and they look after the cat.",
+    "grammarNote": "'Leur' replaces 'à mes voisins' as an indirect object: laisser quelque chose à quelqu'un.",
+    "grammarTag": "coi",
+    "level": "A2+"
+  },
+  {
+    "id": "s236",
+    "fr": "Il est arrivé en retard à l'entretien parce qu'il y avait des bouchons partout.",
+    "en": "He arrived late for the interview because there were traffic jams everywhere.",
+    "grammarNote": "Passé composé for the event, imparfait for the explanation or circumstances.",
+    "grammarTag": "pc-vs-imparfait",
+    "level": "A2+"
+  },
+  {
+    "id": "s237",
+    "fr": "Dans quelques années, on utilisera sans doute beaucoup moins la voiture en ville.",
+    "en": "In a few years, we'll probably use cars much less in town.",
+    "grammarNote": "Futur simple for predictions: 'on utilisera'.",
+    "grammarTag": "futur-simple",
+    "level": "A2+"
+  },
+  {
+    "id": "s238",
+    "fr": "Voici la liste des documents que vous devez fournir pour votre demande de logement.",
+    "en": "Here is the list of documents you must provide for your housing application.",
+    "grammarNote": "'Que' introduces a relative clause whose subject is 'vous': 'les documents que vous devez fournir'.",
+    "grammarTag": "relatifs",
+    "level": "A2+"
+  },
+  {
+    "id": "s239",
+    "fr": "Pour aller à la poste, tournez à gauche au feu, puis continuez tout droit.",
+    "en": "To get to the post office, turn left at the lights, then keep going straight on.",
+    "grammarNote": "Imperative 'vous' forms for directions: 'tournez', 'continuez'.",
+    "grammarTag": "imperatif",
+    "level": "A2+"
+  },
+  {
+    "id": "s240",
+    "fr": "Ce film est moins connu que le premier, mais je l'ai trouvé bien meilleur.",
+    "en": "This film is less well known than the first one, but I found it much better.",
+    "grammarNote": "'Moins … que', and the irregular comparative 'meilleur' (better), strengthened by 'bien'.",
+    "grammarTag": "comparatifs",
+    "level": "A2+"
+  },
+  {
+    "id": "s241",
+    "fr": "Nous allons organiser une petite fête pour le départ à la retraite de notre collègue.",
+    "en": "We're going to throw a little party for our colleague's retirement.",
+    "grammarNote": "Futur proche with 'nous': 'nous allons organiser'.",
+    "grammarTag": "futur-proche",
+    "level": "A2+"
+  },
+  {
+    "id": "s242",
+    "fr": "Il n'y a plus de pain, tu peux en acheter en rentrant ?",
+    "en": "There's no bread left; can you buy some on your way home?",
+    "grammarNote": "'En' replaces 'du pain' after a verb + infinitive: it goes before the infinitive ('en acheter').",
+    "grammarTag": "y-en",
+    "level": "A2+"
+  },
+  {
+    "id": "s243",
+    "fr": "J'ai mis mon manteau parce qu'il faisait froid, puis je suis sorti promener le chien.",
+    "en": "I put my coat on because it was cold, then I went out to walk the dog.",
+    "grammarNote": "Passé composé for the sequence of actions, imparfait for the weather (background).",
+    "grammarTag": "pc-vs-imparfait",
+    "level": "A2+"
+  },
+  {
+    "id": "s244",
+    "fr": "Cette année, j'ai décidé de faire du sport au moins deux fois par semaine.",
+    "en": "This year I've decided to do sport at least twice a week.",
+    "grammarNote": "Partitive article with 'faire': 'faire du sport', 'faire de la natation'.",
+    "grammarTag": "partitifs",
+    "level": "A2+"
+  },
+  {
+    "id": "s245",
+    "fr": "Je vous remercie pour votre aide, vous m'avez vraiment rendu service.",
+    "en": "Thank you for your help; you really did me a favour.",
+    "grammarNote": "Idiomatic expression 'rendre service à quelqu'un' (to do someone a favour).",
+    "grammarTag": "vocabulary",
+    "level": "A2+"
+  },
+  {
+    "id": "s246",
+    "fr": "Elles se sont levées tôt pour ne pas rater le premier train.",
+    "en": "They got up early so as not to miss the first train.",
+    "grammarNote": "Reflexive verbs use être, so the participle agrees: 'elles se sont levées'.",
+    "grammarTag": "accord",
+    "level": "A2+"
+  },
+  {
+    "id": "s247",
+    "fr": "Si tu finis tôt demain, on ira au cinéma ensemble.",
+    "en": "If you finish early tomorrow, we'll go to the cinema together.",
+    "grammarNote": "'Si' + present, then futur simple in the main clause: 'si tu finis…, on ira'.",
+    "grammarTag": "futur-simple",
+    "level": "A2+"
+  },
+  {
+    "id": "s248",
+    "fr": "On a visité trois appartements, mais aucun ne nous a plu.",
+    "en": "We viewed three flats, but we didn't like any of them.",
+    "grammarNote": "'Aucun … ne' as subject means 'none': 'aucun ne nous a plu'.",
+    "grammarTag": "negation",
+    "level": "A2+"
+  },
+  {
+    "id": "s249",
+    "fr": "Je travaille dans cette entreprise depuis deux ans et je m'y sens bien.",
+    "en": "I've been working at this company for two years and I feel at home there.",
+    "grammarNote": "Present tense + 'depuis' for something that started in the past and is still going on.",
+    "grammarTag": "present",
+    "level": "A2+"
+  },
+  {
+    "id": "s250",
+    "fr": "Elle parle français mieux que moi, parce qu'elle a vécu trois ans au Québec.",
+    "en": "She speaks French better than me, because she lived in Quebec for three years.",
+    "grammarNote": "'Mieux' is the comparative of the adverb 'bien': 'elle parle mieux que moi'.",
+    "grammarTag": "comparatifs",
+    "level": "A2+"
+  },
+  {
+    "id": "s251",
+    "fr": "Il faut que tu remplisses ce formulaire avant la fin du mois, sinon ta demande sera refusée.",
+    "en": "You have to fill in this form before the end of the month, otherwise your application will be rejected.",
+    "grammarNote": "Subjonctif after 'il faut que': 'il faut que tu remplisses'.",
+    "grammarTag": "subjonctif",
+    "level": "B1"
+  },
+  {
+    "id": "s252",
+    "fr": "Si j'avais plus de temps libre, je ferais du bénévolat dans une association de quartier.",
+    "en": "If I had more free time, I'd volunteer for a local association.",
+    "grammarNote": "'Si' + imparfait, then conditionnel for a hypothesis: 'si j'avais…, je ferais'.",
+    "grammarTag": "conditionnel",
+    "level": "B1"
+  },
+  {
+    "id": "s253",
+    "fr": "Le livre dont tu m'as parlé est enfin disponible à la médiathèque.",
+    "en": "The book you told me about is finally available at the library.",
+    "grammarNote": "'Dont' replaces 'de + noun' after verbs like 'parler de': 'le livre dont tu m'as parlé'.",
+    "grammarTag": "dont",
+    "level": "B1"
+  },
+  {
+    "id": "s254",
+    "fr": "Le journaliste a expliqué que le gouvernement préparait une nouvelle loi sur le logement.",
+    "en": "The journalist explained that the government was preparing a new housing law.",
+    "grammarNote": "Reported speech in the past: the present becomes imparfait ('préparait').",
+    "grammarTag": "discours-indirect",
+    "level": "B1"
+  },
+  {
+    "id": "s255",
+    "fr": "Ce poste est intéressant ; cependant, le salaire est un peu bas pour une ville aussi chère.",
+    "en": "This job is interesting; however, the salary is rather low for such an expensive city.",
+    "grammarNote": "'Cependant' (however) introduces a contrast with what has just been said.",
+    "grammarTag": "connecteurs",
+    "level": "B1"
+  },
+  {
+    "id": "s256",
+    "fr": "Quand j'ai commencé ce travail, je ne connaissais personne et je me sentais un peu perdu.",
+    "en": "When I started this job, I didn't know anyone and I felt a bit lost.",
+    "grammarNote": "Passé composé for the starting point, imparfait for feelings and the situation at the time.",
+    "grammarTag": "pc-vs-imparfait",
+    "level": "B1"
+  },
+  {
+    "id": "s257",
+    "fr": "Je n'ai reçu aucune réponse à ma candidature, alors j'ai décidé de relancer l'entreprise.",
+    "en": "I haven't had any reply to my application, so I decided to follow up with the company.",
+    "grammarNote": "'Ne … aucun(e)' + noun means 'not a single': 'aucune réponse'.",
+    "grammarTag": "negation",
+    "level": "B1"
+  },
+  {
+    "id": "s258",
+    "fr": "Si on veut réduire nos déchets, on devrait acheter moins de produits emballés dans du plastique.",
+    "en": "If we want to reduce our waste, we should buy fewer products wrapped in plastic.",
+    "grammarNote": "Conditionnel of 'devoir' ('on devrait') to give advice or a recommendation.",
+    "grammarTag": "conditionnel",
+    "level": "B1"
+  },
+  {
+    "id": "s259",
+    "fr": "Mes parents veulent que je fasse des études de médecine, mais moi, je préfère le dessin.",
+    "en": "My parents want me to study medicine, but I prefer drawing.",
+    "grammarNote": "Subjonctif after 'vouloir que' when the subjects differ: 'ils veulent que je fasse'.",
+    "grammarTag": "subjonctif",
+    "level": "B1"
+  },
+  {
+    "id": "s260",
+    "fr": "C'est la décision la plus difficile que j'aie jamais prise.",
+    "en": "It's the hardest decision I've ever made.",
+    "grammarNote": "Superlative 'la plus difficile', often followed by the subjonctif ('que j'aie jamais prise').",
+    "grammarTag": "comparatifs",
+    "level": "B1"
+  },
+  {
+    "id": "s261",
+    "fr": "Ce qui m'inquiète, c'est que personne ne semble prendre le problème au sérieux.",
+    "en": "What worries me is that nobody seems to take the problem seriously.",
+    "grammarNote": "'Ce qui' (what) is the subject of the relative clause: 'ce qui m'inquiète'.",
+    "grammarTag": "relatifs",
+    "level": "B1"
+  },
+  {
+    "id": "s262",
+    "fr": "Des légumes bio, on en trouve maintenant dans presque tous les supermarchés.",
+    "en": "Organic vegetables: you can now find them in almost every supermarket.",
+    "grammarNote": "'En' replaces 'des légumes bio', a noun introduced by an indefinite article.",
+    "grammarTag": "y-en",
+    "level": "B1"
+  },
+  {
+    "id": "s263",
+    "fr": "Dans dix ans, la plupart des voitures vendues en Europe seront électriques.",
+    "en": "In ten years, most cars sold in Europe will be electric.",
+    "grammarNote": "Futur simple for a prediction: 'seront' (irregular stem of être).",
+    "grammarTag": "futur-simple",
+    "level": "B1"
+  },
+  {
+    "id": "s264",
+    "fr": "Bien qu'il soit très compétent, il n'a pas obtenu la promotion qu'il espérait.",
+    "en": "Although he's very competent, he didn't get the promotion he was hoping for.",
+    "grammarNote": "'Bien que' (although) is always followed by the subjonctif: 'bien qu'il soit'.",
+    "grammarTag": "subjonctif",
+    "level": "B1"
+  },
+  {
+    "id": "s265",
+    "fr": "Elle m'a demandé si j'avais déjà travaillé dans le secteur de la santé.",
+    "en": "She asked me whether I had ever worked in the health sector.",
+    "grammarNote": "Reported yes/no question with 'si'; the passé composé becomes plus-que-parfait.",
+    "grammarTag": "discours-indirect",
+    "level": "B1"
+  },
+  {
+    "id": "s266",
+    "fr": "Alors que les prix augmentent, les salaires, eux, restent presque les mêmes.",
+    "en": "While prices are going up, wages are staying almost the same.",
+    "grammarNote": "'Alors que' (whereas, while) contrasts two facts happening at the same time.",
+    "grammarTag": "connecteurs",
+    "level": "B1"
+  },
+  {
+    "id": "s267",
+    "fr": "Je lui ai proposé de l'aide, mais il m'a répondu qu'il n'en avait pas besoin.",
+    "en": "I offered him help, but he told me he didn't need it.",
+    "grammarNote": "'En' replaces 'de + thing' after 'avoir besoin de': 'il n'en avait pas besoin'.",
+    "grammarTag": "y-en",
+    "level": "B1"
+  },
+  {
+    "id": "s268",
+    "fr": "À ta place, je n'accepterais pas cette offre sans avoir lu le contrat en détail.",
+    "en": "If I were you, I wouldn't accept this offer without reading the contract carefully.",
+    "grammarNote": "Conditionnel after 'à ta place' to give advice: 'je n'accepterais pas'.",
+    "grammarTag": "conditionnel",
+    "level": "B1"
+  },
+  {
+    "id": "s269",
+    "fr": "Je suis ravie que vous puissiez venir à notre réunion d'information jeudi prochain.",
+    "en": "I'm delighted that you can come to our information meeting next Thursday.",
+    "grammarNote": "Subjonctif after an emotion: 'être ravi(e) que' + 'vous puissiez'.",
+    "grammarTag": "subjonctif",
+    "level": "B1"
+  },
+  {
+    "id": "s270",
+    "fr": "Les personnes dont la demande est incomplète recevront un courrier dans les quinze jours.",
+    "en": "People whose application is incomplete will receive a letter within two weeks.",
+    "grammarNote": "'Dont' expresses possession (whose): 'les personnes dont la demande…'.",
+    "grammarTag": "dont",
+    "level": "B1"
+  },
+  {
+    "id": "s271",
+    "fr": "Il n'y a que deux trains par jour pour aller dans ce village, c'est vraiment peu.",
+    "en": "There are only two trains a day to that village; that's really not many.",
+    "grammarNote": "'Ne … que' means 'only'; it is a restriction, not a true negation.",
+    "grammarTag": "negation",
+    "level": "B1"
+  },
+  {
+    "id": "s272",
+    "fr": "Le télétravail est une bonne solution, à condition de bien organiser ses journées.",
+    "en": "Working from home is a good solution, provided you organise your days well.",
+    "grammarNote": "'À condition de' + infinitive expresses a condition (provided that).",
+    "grammarTag": "connecteurs",
+    "level": "B1"
+  },
+  {
+    "id": "s273",
+    "fr": "Nous avons dû annuler le pique-nique parce qu'il pleuvait depuis le matin.",
+    "en": "We had to cancel the picnic because it had been raining since the morning.",
+    "grammarNote": "Passé composé for the decision, imparfait + 'depuis' for an ongoing background situation.",
+    "grammarTag": "pc-vs-imparfait",
+    "level": "B1"
+  },
+  {
+    "id": "s274",
+    "fr": "Je doute que cette réforme suffise à résoudre le problème du chômage des jeunes.",
+    "en": "I doubt this reform will be enough to solve youth unemployment.",
+    "grammarNote": "Subjonctif after doubt: 'je doute que' + 'suffise'.",
+    "grammarTag": "subjonctif",
+    "level": "B1"
+  },
+  {
+    "id": "s275",
+    "fr": "Les résultats de l'enquête sont meilleurs que prévu, ce qui rassure toute l'équipe.",
+    "en": "The survey results are better than expected, which reassures the whole team.",
+    "grammarNote": "Irregular comparative 'meilleurs que prévu' (better than expected), agreeing with 'résultats'.",
+    "grammarTag": "comparatifs",
+    "level": "B1"
+  },
+  {
+    "id": "s276",
+    "fr": "Le ministre a déclaré qu'il ne changerait pas d'avis malgré les manifestations.",
+    "en": "The minister declared that he would not change his mind despite the protests.",
+    "grammarNote": "Reported speech in the past: a future becomes conditionnel ('il ne changerait pas').",
+    "grammarTag": "discours-indirect",
+    "level": "B1"
+  },
+  {
+    "id": "s277",
+    "fr": "Tu as pensé à ton rendez-vous de demain à Service Canada ? Oui, j'y pense, ne t'inquiète pas.",
+    "en": "Have you remembered your appointment at the prefecture tomorrow? Yes, I've got it in mind, don't worry.",
+    "grammarNote": "'Y' replaces 'à + thing' after 'penser à': 'j'y pense'.",
+    "grammarTag": "y-en",
+    "level": "B1"
+  },
+  {
+    "id": "s278",
+    "fr": "Si j'étais toi, je demanderais conseil à un avocat avant de signer quoi que ce soit.",
+    "en": "If I were you, I'd ask a lawyer for advice before signing anything.",
+    "grammarNote": "'Si j'étais toi' + conditionnel: the classic way to give advice.",
+    "grammarTag": "conditionnel",
+    "level": "B1"
+  },
+  {
+    "id": "s279",
+    "fr": "Il faut que nous prenions une décision rapidement, car le délai expire vendredi.",
+    "en": "We need to make a decision quickly, because the deadline is Friday.",
+    "grammarNote": "Subjonctif of 'prendre' after 'il faut que': 'que nous prenions'.",
+    "grammarTag": "subjonctif",
+    "level": "B1"
+  },
+  {
+    "id": "s280",
+    "fr": "C'est un sujet dont on parle beaucoup en ce moment dans les médias.",
+    "en": "It's a subject people are talking about a lot in the media right now.",
+    "grammarNote": "'Dont' replaces 'de + noun' after 'parler de': 'un sujet dont on parle'.",
+    "grammarTag": "dont",
+    "level": "B1"
+  },
+  {
+    "id": "s281",
+    "fr": "Il nous avait promis de venir à la fête ; pourtant, on ne l'a pas vu de la soirée.",
+    "en": "He had promised to come to the party; yet we didn't see him all evening.",
+    "grammarNote": "'Pourtant' (yet, and still) marks a surprising contrast with what was expected.",
+    "grammarTag": "connecteurs",
+    "level": "B1"
+  },
+  {
+    "id": "s282",
+    "fr": "Je ne vais plus jamais dans ce magasin depuis que le service client m'a mal reçu.",
+    "en": "I never go to that shop any more since customer service treated me badly.",
+    "grammarNote": "Combined negation 'ne … plus jamais' (never again, never any more).",
+    "grammarTag": "negation",
+    "level": "B1"
+  },
+  {
+    "id": "s283",
+    "fr": "La météo annonce qu'il fera beau ce week-end, on pourra enfin sortir les vélos.",
+    "en": "The forecast says it'll be sunny this weekend, so we can finally get the bikes out.",
+    "grammarNote": "Reported speech with a present reporting verb: the tense stays the same ('il fera').",
+    "grammarTag": "discours-indirect",
+    "level": "B1"
+  },
+  {
+    "id": "s284",
+    "fr": "Le candidat que nous avons retenu a une solide expérience dans la gestion de projets.",
+    "en": "The candidate we have selected has solid experience in project management.",
+    "grammarNote": "'Que' introduces the relative clause; the candidate is the object of 'retenir'.",
+    "grammarTag": "relatifs",
+    "level": "B1"
+  },
+  {
+    "id": "s285",
+    "fr": "Si les transports en commun étaient gratuits, beaucoup de gens laisseraient leur voiture au garage.",
+    "en": "If public transport were free, lots of people would leave their car in the garage.",
+    "grammarNote": "Hypothesis with 'si' + imparfait ('étaient') and conditionnel ('laisseraient').",
+    "grammarTag": "conditionnel",
+    "level": "B1"
+  },
+  {
+    "id": "s286",
+    "fr": "Mon médecin m'a conseillé de marcher davantage, alors je vais au travail à pied.",
+    "en": "My doctor advised me to walk more, so I go to work on foot.",
+    "grammarNote": "'Conseiller à quelqu'un de faire' takes an indirect object: 'il m'a conseillé'.",
+    "grammarTag": "coi",
+    "level": "B1"
+  },
+  {
+    "id": "s287",
+    "fr": "Pour que le projet réussisse, chacun doit respecter les délais fixés.",
+    "en": "For the project to succeed, everyone must meet the agreed deadlines.",
+    "grammarNote": "'Pour que' (so that) is followed by the subjonctif: 'pour que le projet réussisse'.",
+    "grammarTag": "subjonctif",
+    "level": "B1"
+  },
+  {
+    "id": "s288",
+    "fr": "Les énergies renouvelables coûtent de moins en moins cher, ce qui est une bonne nouvelle.",
+    "en": "Renewable energy is getting cheaper and cheaper, which is good news.",
+    "grammarNote": "'De moins en moins' (less and less) for a gradual change.",
+    "grammarTag": "comparatifs",
+    "level": "B1"
+  },
+  {
+    "id": "s289",
+    "fr": "Le centre-ville est bien desservi ; en revanche, les loyers y sont très élevés.",
+    "en": "The town centre has good transport links; on the other hand, rents there are very high.",
+    "grammarNote": "'En revanche' (on the other hand) balances an advantage against a drawback.",
+    "grammarTag": "connecteurs",
+    "level": "B1"
+  },
+  {
+    "id": "s290",
+    "fr": "Quand l'alarme a sonné, tout le monde travaillait tranquillement dans son bureau.",
+    "en": "When the alarm went off, everyone was working quietly in their office.",
+    "grammarNote": "Imparfait for an action in progress interrupted by an event in the passé composé.",
+    "grammarTag": "pc-vs-imparfait",
+    "level": "B1"
+  },
+  {
+    "id": "s291",
+    "fr": "Je n'ai parlé à personne de mon projet, car je préfère attendre d'être sûr.",
+    "en": "I haven't told anyone about my plan, because I'd rather wait until I'm sure.",
+    "grammarNote": "'Ne … personne': in the passé composé, 'personne' goes after the participle.",
+    "grammarTag": "negation",
+    "level": "B1"
+  },
+  {
+    "id": "s292",
+    "fr": "Il est essentiel que les citoyens soient informés des risques liés à la pollution de l'air.",
+    "en": "It is essential that citizens are informed about the risks of air pollution.",
+    "grammarNote": "Subjonctif after impersonal expressions of necessity: 'il est essentiel que' + 'soient'.",
+    "grammarTag": "subjonctif",
+    "level": "B1"
+  },
+  {
+    "id": "s293",
+    "fr": "Les vacances dont je rêve, c'est un mois au bord de la mer, sans téléphone ni ordinateur.",
+    "en": "The holiday I dream of is a month by the sea, with no phone or computer.",
+    "grammarNote": "'Dont' after 'rêver de': 'les vacances dont je rêve'.",
+    "grammarTag": "dont",
+    "level": "B1"
+  },
+  {
+    "id": "s294",
+    "fr": "D'après la direction, l'usine fermera ses portes à la fin de l'année et cent emplois seront supprimés.",
+    "en": "According to management, the factory will close at the end of the year and a hundred jobs will be cut.",
+    "grammarNote": "Futur simple in active and passive forms: 'fermera', 'seront supprimés'.",
+    "grammarTag": "futur-simple",
+    "level": "B1"
+  },
+  {
+    "id": "s295",
+    "fr": "J'ai écrit à mes anciens collègues pour leur annoncer la bonne nouvelle.",
+    "en": "I wrote to my former colleagues to tell them the good news.",
+    "grammarNote": "'Leur' (to them) is the indirect object of 'annoncer quelque chose à quelqu'un'.",
+    "grammarTag": "coi",
+    "level": "B1"
+  },
+  {
+    "id": "s296",
+    "fr": "Ce que je préfère dans mon métier, c'est le contact avec le public.",
+    "en": "What I like best about my job is dealing with the public.",
+    "grammarNote": "'Ce que' (what) is the object of the relative clause: 'ce que je préfère'.",
+    "grammarTag": "relatifs",
+    "level": "B1"
+  },
+  {
+    "id": "s297",
+    "fr": "J'aimerais tellement que mes enfants puissent grandir dans un environnement plus sain.",
+    "en": "I'd so love my children to be able to grow up in a healthier environment.",
+    "grammarNote": "Subjonctif after a wish: 'j'aimerais que' + 'puissent'.",
+    "grammarTag": "subjonctif",
+    "level": "B1"
+  },
+  {
+    "id": "s298",
+    "fr": "Le budget a été réduit ; par conséquent, certains projets culturels seront abandonnés.",
+    "en": "The budget has been cut; as a result, some cultural projects will be dropped.",
+    "grammarNote": "'Par conséquent' (as a result) introduces a consequence.",
+    "grammarTag": "connecteurs",
+    "level": "B1"
+  },
+  {
+    "id": "s299",
+    "fr": "Tu aurais dû me le dire plus tôt, j'aurais pu t'aider.",
+    "en": "You should have told me sooner; I could have helped you.",
+    "grammarNote": "Past conditional ('aurais dû', 'aurais pu') to express regret or reproach.",
+    "grammarTag": "conditionnel",
+    "level": "B1"
+  },
+  {
+    "id": "s300",
+    "fr": "Il ne reste plus aucune place pour le concert de samedi, tout a été vendu en une heure.",
+    "en": "There are no seats left for Saturday's concert; everything sold out in an hour.",
+    "grammarNote": "'Ne … plus aucun(e)' means 'no … left at all'.",
+    "grammarTag": "negation",
+    "level": "B1"
+  },
+  {
+    "id": "s301",
+    "fr": "Elle a affirmé qu'elle avait envoyé le colis la semaine précédente.",
+    "en": "She claimed she had sent the parcel the previous week.",
+    "grammarNote": "Reported speech in the past: passé composé → plus-que-parfait, 'la semaine dernière' → 'la semaine précédente'.",
+    "grammarTag": "discours-indirect",
+    "level": "B1"
+  },
+  {
+    "id": "s302",
+    "fr": "Plus on lit en français, plus on enrichit son vocabulaire et sa compréhension.",
+    "en": "The more you read in French, the more you build your vocabulary and understanding.",
+    "grammarNote": "'Plus … plus …' (the more … the more …) links two quantities that grow together.",
+    "grammarTag": "comparatifs",
+    "level": "B1"
+  },
+  {
+    "id": "s303",
+    "fr": "Des solutions, il y en a, mais il faut avoir le courage de les appliquer.",
+    "en": "There are solutions, but you need the courage to put them into practice.",
+    "grammarNote": "'Il y en a' (there are some): 'en' replaces 'des solutions'.",
+    "grammarTag": "y-en",
+    "level": "B1"
+  },
+  {
+    "id": "s304",
+    "fr": "Je ne pense pas que ce soit une bonne idée de partir maintenant, avec cette neige.",
+    "en": "I don't think it's a good idea to leave now, with all this snow.",
+    "grammarNote": "Negative 'je ne pense pas que' takes the subjonctif ('ce soit'); affirmative 'je pense que' takes the indicative.",
+    "grammarTag": "subjonctif",
+    "level": "B1"
+  },
+  {
+    "id": "s305",
+    "fr": "Quand je serai à la retraite, je voyagerai et je m'occuperai de mon jardin.",
+    "en": "When I'm retired, I'll travel and look after my garden.",
+    "grammarNote": "Futur simple in both clauses after 'quand' for a future time.",
+    "grammarTag": "futur-simple",
+    "level": "B1"
+  },
+  {
+    "id": "s306",
+    "fr": "La ville a installé des bacs à compost dans chaque quartier afin de réduire les déchets.",
+    "en": "The town has put compost bins in every neighbourhood to reduce waste.",
+    "grammarNote": "'Afin de' + infinitive expresses purpose (in order to), a more formal 'pour'.",
+    "grammarTag": "prepositions",
+    "level": "B1"
+  },
+  {
+    "id": "s307",
+    "fr": "Même si le stage n'est pas payé, il m'apportera une expérience précieuse.",
+    "en": "Even if the internship isn't paid, it will give me valuable experience.",
+    "grammarNote": "'Même si' (even if) is followed by the indicative, never the subjonctif.",
+    "grammarTag": "connecteurs",
+    "level": "B1"
+  },
+  {
+    "id": "s308",
+    "fr": "J'ai rencontré quelqu'un dont le métier consiste à réparer des instruments anciens.",
+    "en": "I met someone whose job is repairing old instruments.",
+    "grammarNote": "'Dont' for possession: 'quelqu'un dont le métier' (someone whose job).",
+    "grammarTag": "dont",
+    "level": "B1"
+  },
+  {
+    "id": "s309",
+    "fr": "Il faudrait que tu ailles voir un spécialiste si la douleur ne passe pas.",
+    "en": "You ought to see a specialist if the pain doesn't go away.",
+    "grammarNote": "Subjonctif of 'aller' after 'il faudrait que': 'que tu ailles'.",
+    "grammarTag": "subjonctif",
+    "level": "B1"
+  },
+  {
+    "id": "s310",
+    "fr": "Les nouveaux horaires, je les trouve beaucoup plus pratiques que les anciens.",
+    "en": "The new opening hours: I find them much more convenient than the old ones.",
+    "grammarNote": "Direct object pronoun 'les' picks up a noun placed at the start for emphasis.",
+    "grammarTag": "cod",
+    "level": "B1"
+  },
+  {
+    "id": "s311",
+    "fr": "Pendant que je regardais les informations, mon téléphone a sonné trois fois.",
+    "en": "While I was watching the news, my phone rang three times.",
+    "grammarNote": "Imparfait for the ongoing background, passé composé for the repeated, counted event.",
+    "grammarTag": "pc-vs-imparfait",
+    "level": "B1"
+  },
+  {
+    "id": "s312",
+    "fr": "Personne n'a voulu prendre la parole pendant le débat, ce qui était un peu gênant.",
+    "en": "Nobody wanted to speak during the debate, which was a bit awkward.",
+    "grammarNote": "'Personne ne' as the subject of the sentence (nobody).",
+    "grammarTag": "negation",
+    "level": "B1"
+  },
+  {
+    "id": "s313",
+    "fr": "On pourrait se retrouver un peu plus tôt pour préparer la présentation ensemble ?",
+    "en": "Could we meet a bit earlier to prepare the presentation together?",
+    "grammarNote": "Conditionnel of 'pouvoir' for a polite suggestion: 'on pourrait'.",
+    "grammarTag": "conditionnel",
+    "level": "B1"
+  },
+  {
+    "id": "s314",
+    "fr": "Je regrette que tu ne sois pas venu à la soirée, on s'est vraiment bien amusés.",
+    "en": "I'm sorry you didn't come to the party; we had a really good time.",
+    "grammarNote": "Subjonctif passé after regret: 'je regrette que tu ne sois pas venu'.",
+    "grammarTag": "subjonctif",
+    "level": "B1"
+  },
+  {
+    "id": "s315",
+    "fr": "Ce document, vous devez nous le renvoyer signé avant le quinze mars.",
+    "en": "You must send this document back to us, signed, before the fifteenth of March.",
+    "grammarNote": "Double pronouns 'nous le': first/second-person pronoun before 'le'.",
+    "grammarTag": "cod",
+    "level": "B1"
+  },
+  {
+    "id": "s316",
+    "fr": "Mon responsable m'a demandé de terminer le rapport avant la fin de la semaine.",
+    "en": "My manager asked me to finish the report before the end of the week.",
+    "grammarNote": "Reported instruction: 'demander à quelqu'un de' + infinitive.",
+    "grammarTag": "discours-indirect",
+    "level": "B1"
+  },
+  {
+    "id": "s317",
+    "fr": "C'est dans cette région que le taux de chômage est le plus faible du pays.",
+    "en": "This is the region with the lowest unemployment rate in the country.",
+    "grammarNote": "Superlative 'le plus faible du pays': 'de' introduces the group being compared.",
+    "grammarTag": "comparatifs",
+    "level": "B1"
+  },
+  {
+    "id": "s318",
+    "fr": "Je m'intéresse beaucoup à la politique, mais je n'y comprends pas toujours tout.",
+    "en": "I'm very interested in politics, but I don't always understand all of it.",
+    "grammarNote": "'Y' replaces 'à + thing': comprendre quelque chose à la politique → 'j'y comprends'.",
+    "grammarTag": "y-en",
+    "level": "B1"
+  },
+  {
+    "id": "s319",
+    "fr": "Au lieu de prendre l'avion, nous avons choisi le train pour limiter notre impact sur le climat.",
+    "en": "Instead of flying, we chose the train to limit our impact on the climate.",
+    "grammarNote": "'Au lieu de' + infinitive (instead of doing).",
+    "grammarTag": "prepositions",
+    "level": "B1"
+  },
+  {
+    "id": "s320",
+    "fr": "Avant que tu partes, je voudrais te donner quelques conseils pour ton entretien.",
+    "en": "Before you leave, I'd like to give you some advice for your interview.",
+    "grammarNote": "'Avant que' is followed by the subjonctif: 'avant que tu partes'.",
+    "grammarTag": "subjonctif",
+    "level": "B1"
+  },
+  {
+    "id": "s321",
+    "fr": "Je vous serais reconnaissant de bien vouloir me communiquer les horaires d'ouverture du service.",
+    "en": "I would be grateful if you could let me know the department's opening hours.",
+    "grammarNote": "Conditionnel in formal letters: 'je vous serais reconnaissant de…'.",
+    "grammarTag": "conditionnel",
+    "level": "B1"
+  },
+  {
+    "id": "s322",
+    "fr": "Il a beaucoup travaillé cette année ; il mérite donc largement ses vacances.",
+    "en": "He's worked very hard this year, so he thoroughly deserves his holiday.",
+    "grammarNote": "'Donc' (so, therefore) expresses a logical consequence and often goes after the verb.",
+    "grammarTag": "connecteurs",
+    "level": "B1"
+  },
+  {
+    "id": "s323",
+    "fr": "Les mesures que le gouvernement a annoncées hier ne satisfont personne.",
+    "en": "The measures the government announced yesterday satisfy no one.",
+    "grammarNote": "The past participle agrees with the preceding direct object 'que' (= les mesures): 'annoncées'.",
+    "grammarTag": "accord",
+    "level": "B1"
+  },
+  {
+    "id": "s324",
+    "fr": "Autrefois, les gens réparaient leurs objets ; aujourd'hui, on les jette dès qu'ils sont cassés.",
+    "en": "In the past, people repaired their things; today, we throw them away as soon as they break.",
+    "grammarNote": "Imparfait for past habits, contrasted with the present: 'autrefois, les gens réparaient'.",
+    "grammarTag": "imparfait",
+    "level": "B1"
+  },
+  {
+    "id": "s325",
+    "fr": "Ce qui compte, ce n'est pas de gagner, mais de progresser chaque jour.",
+    "en": "What matters isn't winning but making progress every day.",
+    "grammarNote": "'Ce qui' (what) as the subject, picked up by 'ce' for emphasis.",
+    "grammarTag": "relatifs",
+    "level": "B1"
+  },
+  {
+    "id": "s326",
+    "fr": "Mon fils m'a demandé pourquoi les abeilles étaient en danger.",
+    "en": "My son asked me why bees were in danger.",
+    "grammarNote": "Reported question with a question word ('pourquoi'): no inversion, and present → imparfait.",
+    "grammarTag": "discours-indirect",
+    "level": "B1"
+  },
+  {
+    "id": "s327",
+    "fr": "Il est possible que le train ait du retard à cause de la grève.",
+    "en": "The train may be delayed because of the strike.",
+    "grammarNote": "Subjonctif after possibility: 'il est possible que' + 'ait'.",
+    "grammarTag": "subjonctif",
+    "level": "B1"
+  },
+  {
+    "id": "s328",
+    "fr": "Si nous ne faisons rien maintenant, les générations futures en paieront le prix.",
+    "en": "If we do nothing now, future generations will pay the price.",
+    "grammarNote": "'Si' + present, futur simple in the main clause: a real condition.",
+    "grammarTag": "futur-simple",
+    "level": "B1"
+  },
+  {
+    "id": "s329",
+    "fr": "Je n'ai jamais vu autant de monde dans cette rue que pendant la fête de la musique.",
+    "en": "I've never seen so many people in this street as during the music festival.",
+    "grammarNote": "'Ne … jamais' around the auxiliary in the passé composé: 'je n'ai jamais vu'.",
+    "grammarTag": "negation",
+    "level": "B1"
+  },
+  {
+    "id": "s330",
+    "fr": "À mon avis, les réseaux sociaux ont autant d'avantages que d'inconvénients.",
+    "en": "In my opinion, social media has as many advantages as disadvantages.",
+    "grammarNote": "'Autant de … que de …' compares equal quantities.",
+    "grammarTag": "comparatifs",
+    "level": "B1"
+  },
+  {
+    "id": "s331",
+    "fr": "La personne à qui vous devez vous adresser est absente jusqu'à lundi.",
+    "en": "The person you need to speak to is away until Monday.",
+    "grammarNote": "Preposition + 'qui' for a person: s'adresser à quelqu'un → 'à qui'.",
+    "grammarTag": "relatifs",
+    "level": "B1"
+  },
+  {
+    "id": "s332",
+    "fr": "J'ai longtemps hésité, car je ne savais pas si je voulais vraiment quitter ma ville.",
+    "en": "I hesitated for a long time, because I didn't know whether I really wanted to leave my town.",
+    "grammarNote": "Passé composé for a completed period ('longtemps hésité'), imparfait for state of mind.",
+    "grammarTag": "pc-vs-imparfait",
+    "level": "B1"
+  },
+  {
+    "id": "s333",
+    "fr": "Bien que les billets soient chers, la salle est pleine tous les soirs.",
+    "en": "Even though tickets are expensive, the venue is full every night.",
+    "grammarNote": "'Bien que' + subjonctif: 'bien que les billets soient chers'.",
+    "grammarTag": "subjonctif",
+    "level": "B1"
+  },
+  {
+    "id": "s334",
+    "fr": "Les produits locaux, j'en achète le plus possible, même s'ils sont un peu plus chers.",
+    "en": "Local products: I buy as many as I can, even if they're a bit more expensive.",
+    "grammarNote": "'En' replaces a quantity of a noun ('des produits locaux').",
+    "grammarTag": "y-en",
+    "level": "B1"
+  },
+  {
+    "id": "s335",
+    "fr": "Le rapport indique que les émissions de gaz à effet de serre ont baissé de dix pour cent.",
+    "en": "The report shows that greenhouse gas emissions have fallen by ten per cent.",
+    "grammarNote": "Reported speech with a present reporting verb ('indique que'): no tense change.",
+    "grammarTag": "discours-indirect",
+    "level": "B1"
+  },
+  {
+    "id": "s336",
+    "fr": "Si j'avais su que le musée était fermé le lundi, je serais venu un autre jour.",
+    "en": "If I'd known the museum was closed on Mondays, I'd have come another day.",
+    "grammarNote": "'Si' + plus-que-parfait, then past conditional: an unreal past ('je serais venu').",
+    "grammarTag": "conditionnel",
+    "level": "B1"
+  },
+  {
+    "id": "s337",
+    "fr": "Nous vous informons que votre abonnement sera renouvelé automatiquement le premier du mois.",
+    "en": "Please note that your subscription will be renewed automatically on the first of the month.",
+    "grammarNote": "Passive futur simple in formal notices: 'sera renouvelé'.",
+    "grammarTag": "futur-simple",
+    "level": "B1"
+  },
+  {
+    "id": "s338",
+    "fr": "Je cherche un logement dont le loyer ne dépasse pas sept cents dollars.",
+    "en": "I'm looking for a place whose rent doesn't exceed seven hundred dollars.",
+    "grammarNote": "'Dont' for possession: 'un logement dont le loyer…' (whose rent).",
+    "grammarTag": "dont",
+    "level": "B1"
+  },
+  {
+    "id": "s339",
+    "fr": "Il ne faut pas que vous oubliiez de dater et de signer le contrat en bas de chaque page.",
+    "en": "You mustn't forget to date and sign the contract at the bottom of every page.",
+    "grammarNote": "Subjonctif of 'oublier' with 'vous': 'que vous oubliiez' (double i).",
+    "grammarTag": "subjonctif",
+    "level": "B1"
+  },
+  {
+    "id": "s340",
+    "fr": "Ils se sont disputés à cause d'un malentendu, puis ils se sont excusés.",
+    "en": "They argued because of a misunderstanding, then they apologised.",
+    "grammarNote": "Reflexive verbs in the passé composé use être and agree: 'ils se sont disputés'.",
+    "grammarTag": "passe-compose",
+    "level": "B1"
+  },
+  {
+    "id": "s341",
+    "fr": "Elle travaille énormément ; pourtant, elle trouve toujours du temps pour sa famille.",
+    "en": "She works enormously hard, yet she always finds time for her family.",
+    "grammarNote": "'Pourtant' (yet) introduces a fact that goes against what you might expect.",
+    "grammarTag": "connecteurs",
+    "level": "B1"
+  },
+  {
+    "id": "s342",
+    "fr": "On m'a proposé un poste à l'étranger, et je l'ai accepté sans hésiter.",
+    "en": "I was offered a job abroad, and I accepted it without hesitating.",
+    "grammarNote": "Direct object pronoun 'l'' (= le poste) goes before the auxiliary in the passé composé.",
+    "grammarTag": "cod",
+    "level": "B1"
+  },
+  {
+    "id": "s343",
+    "fr": "Grâce à ce programme, des milliers de jeunes ont pu trouver un premier emploi.",
+    "en": "Thanks to this programme, thousands of young people have been able to find a first job.",
+    "grammarNote": "'Grâce à' introduces a positive cause; 'à cause de' is used for a negative one.",
+    "grammarTag": "prepositions",
+    "level": "B1"
+  },
+  {
+    "id": "s344",
+    "fr": "Ça m'étonnerait qu'il accepte de travailler le dimanche sans être payé davantage.",
+    "en": "I'd be surprised if he agreed to work Sundays without being paid more.",
+    "grammarNote": "Subjonctif after 'ça m'étonnerait que' (doubt or surprise).",
+    "grammarTag": "subjonctif",
+    "level": "B1"
+  },
+  {
+    "id": "s345",
+    "fr": "En cas de problème, n'hésitez pas à contacter le service technique au numéro indiqué.",
+    "en": "If there's a problem, feel free to contact technical support on the number shown.",
+    "grammarNote": "Fixed expressions 'en cas de' (in case of) and 'n'hésitez pas à' (feel free to).",
+    "grammarTag": "vocabulary",
+    "level": "B1"
+  },
+  {
+    "id": "s346",
+    "fr": "Si tu pouvais changer une seule chose dans ta vie, qu'est-ce que tu changerais ?",
+    "en": "If you could change just one thing in your life, what would you change?",
+    "grammarNote": "'Si' + imparfait ('pouvais') + conditionnel ('changerais') for an imaginary situation.",
+    "grammarTag": "conditionnel",
+    "level": "B1"
+  },
+  {
+    "id": "s347",
+    "fr": "Au moment où je suis sortie du bureau, il commençait à neiger très fort.",
+    "en": "Just as I left the office, it was starting to snow heavily.",
+    "grammarNote": "Passé composé for the moment of leaving, imparfait for the weather in progress.",
+    "grammarTag": "pc-vs-imparfait",
+    "level": "B1"
+  },
+  {
+    "id": "s348",
+    "fr": "Ne vous inquiétez pas, je m'en occupe dès demain matin.",
+    "en": "Don't worry, I'll deal with it first thing tomorrow morning.",
+    "grammarNote": "'En' replaces 'de + thing' after 's'occuper de': 'je m'en occupe'.",
+    "grammarTag": "y-en",
+    "level": "B1"
+  },
+  {
+    "id": "s349",
+    "fr": "Les associations dont je fais partie organisent des collectes de vêtements chaque hiver.",
+    "en": "The associations I belong to organise clothing collections every winter.",
+    "grammarNote": "'Dont' after 'faire partie de': 'les associations dont je fais partie'.",
+    "grammarTag": "dont",
+    "level": "B1"
+  },
+  {
+    "id": "s350",
+    "fr": "Le gouvernement envisage d'interdire les voitures les plus polluantes dans le centre des grandes villes.",
+    "en": "The government is considering banning the most polluting cars from big city centres.",
+    "grammarNote": "Superlative with a plural noun: 'les voitures les plus polluantes'.",
+    "grammarTag": "comparatifs",
+    "level": "B1"
+  },
+  {
+    "id": "s351",
+    "fr": "Le technicien m'a assuré que tout serait réparé avant notre retour de vacances.",
+    "en": "The technician assured me everything would be fixed before we got back from holiday.",
+    "grammarNote": "Reported speech in the past: a future becomes conditionnel ('serait réparé').",
+    "grammarTag": "discours-indirect",
+    "level": "B1"
+  },
+  {
+    "id": "s352",
+    "fr": "Je n'ai que dix minutes pour déjeuner aujourd'hui, alors je vais prendre un sandwich.",
+    "en": "I've only got ten minutes for lunch today, so I'll grab a sandwich.",
+    "grammarNote": "'Ne … que' (only) restricts: 'je n'ai que dix minutes'.",
+    "grammarTag": "negation",
+    "level": "B1"
+  },
+  {
+    "id": "s353",
+    "fr": "Je souhaite que cette rencontre soit l'occasion d'un vrai dialogue entre les habitants et la Ville.",
+    "en": "I hope this meeting will be a chance for real dialogue between residents and the town hall.",
+    "grammarNote": "'Souhaiter que' takes the subjonctif ('soit'), unlike 'espérer que'.",
+    "grammarTag": "subjonctif",
+    "level": "B1"
+  },
+  {
+    "id": "s354",
+    "fr": "J'espère que tu trouveras rapidement un appartement qui te plaît.",
+    "en": "I hope you'll quickly find a flat you like.",
+    "grammarNote": "'Espérer que' takes the indicative, here the futur simple: 'tu trouveras'.",
+    "grammarTag": "futur-simple",
+    "level": "B1"
+  },
+  {
+    "id": "s355",
+    "fr": "Faute de moyens, la piscine municipale restera fermée tout l'été.",
+    "en": "Due to lack of funds, the municipal swimming pool will stay closed all summer.",
+    "grammarNote": "'Faute de' + noun means 'for lack of', a common formal expression.",
+    "grammarTag": "vocabulary",
+    "level": "B1"
+  },
+  {
+    "id": "s356",
+    "fr": "Je vous écris afin de vous signaler un problème de chauffage dans mon appartement.",
+    "en": "I'm writing to inform you of a heating problem in my flat.",
+    "grammarNote": "'Vous' is an indirect object of 'écrire à' and 'signaler à quelqu'un'.",
+    "grammarTag": "coi",
+    "level": "B1"
+  },
+  {
+    "id": "s357",
+    "fr": "Je ne peux pas venir ce soir ; en effet, j'ai promis à ma sœur de garder ses enfants.",
+    "en": "I can't come tonight; the thing is, I promised my sister I'd look after her children.",
+    "grammarNote": "'En effet' introduces an explanation or justification of what was just said.",
+    "grammarTag": "connecteurs",
+    "level": "B1"
+  },
+  {
+    "id": "s358",
+    "fr": "Ce que les jeunes demandent aux élus, c'est surtout d'être écoutés et pris au sérieux.",
+    "en": "What young people are asking of their elected officials, above all, is to be listened to and taken seriously.",
+    "grammarNote": "'Ce que' as the object of 'demander', highlighted by 'c'est'.",
+    "grammarTag": "relatifs",
+    "level": "B1"
+  },
+  {
+    "id": "s359",
+    "fr": "Si la ville plantait plus d'arbres, il ferait moins chaud dans les rues en été.",
+    "en": "If the city planted more trees, the streets would be cooler in summer.",
+    "grammarNote": "'Si' + imparfait + conditionnel to imagine the result of a change.",
+    "grammarTag": "conditionnel",
+    "level": "B1"
+  },
+  {
+    "id": "s360",
+    "fr": "Je trouve dommage que les jeunes lisent de moins en moins la presse.",
+    "en": "I think it's a shame that young people read the press less and less.",
+    "grammarNote": "Subjonctif after a judgement or feeling: 'je trouve dommage que' + 'lisent'.",
+    "grammarTag": "subjonctif",
+    "level": "B1"
+  },
+  {
+    "id": "s361",
+    "fr": "J'ai lu l'article jusqu'au bout, mais je n'ai rien appris de nouveau.",
+    "en": "I read the article to the end, but I didn't learn anything new.",
+    "grammarNote": "'Ne … rien' + 'de' + adjective: 'rien de nouveau' (nothing new).",
+    "grammarTag": "negation",
+    "level": "B1"
+  },
+  {
+    "id": "s362",
+    "fr": "Nous partirons tôt de façon à éviter les embouteillages sur l'autoroute.",
+    "en": "We'll leave early so as to avoid the traffic jams on the motorway.",
+    "grammarNote": "'De façon à' + infinitive expresses purpose (so as to).",
+    "grammarTag": "prepositions",
+    "level": "B1"
+  },
+  {
+    "id": "s363",
+    "fr": "Ses parents l'ont toujours encouragée à suivre sa passion pour la musique.",
+    "en": "Her parents always encouraged her to follow her passion for music.",
+    "grammarNote": "The participle agrees with the preceding direct object 'l'' (= her): 'encouragée'.",
+    "grammarTag": "accord",
+    "level": "B1"
+  },
+  {
+    "id": "s364",
+    "fr": "Le patron a promis aux employés qu'ils recevraient une prime en décembre.",
+    "en": "The boss promised the staff they would get a bonus in December.",
+    "grammarNote": "Reported promise in the past: future → conditionnel ('ils recevraient').",
+    "grammarTag": "discours-indirect",
+    "level": "B1"
+  },
+  {
+    "id": "s365",
+    "fr": "Je ne m'attendais pas à ce que la réunion dure aussi longtemps.",
+    "en": "I didn't expect the meeting to go on so long.",
+    "grammarNote": "'S'attendre à ce que' is followed by the subjonctif: 'que la réunion dure'.",
+    "grammarTag": "subjonctif",
+    "level": "B1"
+  },
+  {
+    "id": "s366",
+    "fr": "Pour progresser à l'oral, il vaut mieux parler souvent, même en faisant des erreurs.",
+    "en": "To improve your speaking, it's better to talk often, even if you make mistakes.",
+    "grammarNote": "Expression 'il vaut mieux' + infinitive (it's better to).",
+    "grammarTag": "vocabulary",
+    "level": "B1"
+  },
+  {
+    "id": "s367",
+    "fr": "C'est une ville dont l'histoire est fascinante et dont les habitants sont très accueillants.",
+    "en": "It's a city with a fascinating history and very welcoming inhabitants.",
+    "grammarNote": "'Dont' expresses possession, and can be repeated: 'dont l'histoire… dont les habitants…'.",
+    "grammarTag": "dont",
+    "level": "B1"
+  },
+  {
+    "id": "s368",
+    "fr": "Mes collègues, je les vois plus souvent que ma propre famille !",
+    "en": "My colleagues: I see them more often than my own family!",
+    "grammarNote": "'Plus souvent que' compares how often something happens (adverb comparison).",
+    "grammarTag": "comparatifs",
+    "level": "B1"
+  },
+  {
+    "id": "s369",
+    "fr": "On en a parlé hier en réunion, et tout le monde était d'accord.",
+    "en": "We talked about it yesterday in the meeting, and everyone agreed.",
+    "grammarNote": "'En' replaces 'de + thing' after 'parler de': 'on en a parlé'.",
+    "grammarTag": "y-en",
+    "level": "B1"
+  },
+  {
+    "id": "s370",
+    "fr": "Elle a raconté qu'elle avait vécu plusieurs années en Afrique avant de s'installer au Québec.",
+    "en": "She told us she had lived in Africa for several years before settling in Québec.",
+    "grammarNote": "Reported narrative: passé composé becomes plus-que-parfait ('elle avait vécu').",
+    "grammarTag": "discours-indirect",
+    "level": "B1"
+  },
+  {
+    "id": "s371",
+    "fr": "Le stage s'est très bien passé, si bien qu'on m'a proposé un contrat à durée indéterminée.",
+    "en": "The internship went very well, so much so that I was offered a permanent contract.",
+    "grammarNote": "'Si bien que' (so that, with the result that) introduces a consequence.",
+    "grammarTag": "connecteurs",
+    "level": "B1"
+  },
+  {
+    "id": "s372",
+    "fr": "Nous sommes tellement contents que tu aies réussi ton examen du premier coup !",
+    "en": "We're so happy you passed your exam first time!",
+    "grammarNote": "Subjonctif passé after an emotion: 'contents que tu aies réussi'.",
+    "grammarTag": "subjonctif",
+    "level": "B1"
+  },
+  {
+    "id": "s373",
+    "fr": "Quand je vivais en colocation, on partageait les courses et on cuisinait ensemble le soir.",
+    "en": "When I lived in a flatshare, we shared the shopping and cooked together in the evenings.",
+    "grammarNote": "Imparfait for habits in a past period of life.",
+    "grammarTag": "imparfait",
+    "level": "B1"
+  },
+  {
+    "id": "s374",
+    "fr": "Vous devriez vous renseigner auprès de l'Agence du revenu du Canada avant de déménager.",
+    "en": "You should check with the Canada Revenue Agency before moving.",
+    "grammarNote": "Conditionnel of 'devoir' ('vous devriez') for polite advice.",
+    "grammarTag": "conditionnel",
+    "level": "B1"
+  },
+  {
+    "id": "s375",
+    "fr": "Aucun des candidats n'a répondu correctement à la dernière question.",
+    "en": "None of the candidates answered the last question correctly.",
+    "grammarNote": "'Aucun … ne' as the subject: 'aucun des candidats n'a répondu'.",
+    "grammarTag": "negation",
+    "level": "B1"
+  },
+  {
+    "id": "s376",
+    "fr": "Le film m'a tellement plu que je suis retourné le voir le lendemain.",
+    "en": "I liked the film so much that I went back to see it the next day.",
+    "grammarNote": "'Tellement … que' expresses intensity followed by its consequence.",
+    "grammarTag": "vocabulary",
+    "level": "B1"
+  },
+  {
+    "id": "s377",
+    "fr": "Je crains que nous ne soyons pas prêts à temps pour l'ouverture du festival.",
+    "en": "I'm afraid we won't be ready in time for the opening of the festival.",
+    "grammarNote": "Subjonctif after fear: 'je crains que' + 'nous ne soyons pas'.",
+    "grammarTag": "subjonctif",
+    "level": "B1"
+  },
+  {
+    "id": "s378",
+    "fr": "La consommation d'eau a beaucoup augmenté, il faudra donc trouver de nouvelles solutions.",
+    "en": "Water consumption has risen sharply, so we'll have to find new solutions.",
+    "grammarNote": "Futur simple of 'falloir': 'il faudra' (we will have to).",
+    "grammarTag": "futur-simple",
+    "level": "B1"
+  },
+  {
+    "id": "s379",
+    "fr": "Les spectateurs, à qui on avait promis un remboursement, attendent toujours leur argent.",
+    "en": "The audience members, who had been promised a refund, are still waiting for their money.",
+    "grammarNote": "'À qui' for a person after 'promettre quelque chose à quelqu'un'.",
+    "grammarTag": "relatifs",
+    "level": "B1"
+  },
+  {
+    "id": "s380",
+    "fr": "Il paraît que le nouveau directeur veut réorganiser complètement le service.",
+    "en": "Apparently the new director wants to completely reorganise the department.",
+    "grammarNote": "'Il paraît que' (apparently, I've heard that) is followed by the indicative.",
+    "grammarTag": "vocabulary",
+    "level": "B1"
+  }
+]

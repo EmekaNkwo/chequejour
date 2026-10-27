@@ -1,0 +1,1895 @@
+{
+  "id": "mk3",
+  "title": "Examen blanc 3",
+  "listening": [
+    {
+      "id": "mk3-li01",
+      "title": "Fermeture de la patinoire",
+      "level": "A2",
+      "kind": "announcement",
+      "context": "A recorded message at an outdoor skating rink in Québec.",
+      "lines": [
+        {
+          "speaker": "Annonce",
+          "fr": "Bonjour et bienvenue à la patinoire du parc des Érables. Aujourd'hui, la patinoire est fermée parce qu'il fait trop doux et la glace n'est pas solide. Elle va rouvrir demain matin, à dix heures, si la température baisse. Merci de votre compréhension !"
+        }
+      ],
+      "translation": "Hello and welcome to the Parc des Érables skating rink. Today the rink is closed because it is too mild and the ice is not solid. It will reopen tomorrow morning at 10 am if the temperature drops. Thank you for your understanding!",
+      "questions": [
+        {
+          "id": "mk3-li01-q1",
+          "question": "Pourquoi la patinoire est-elle fermée aujourd'hui ?",
+          "options": [
+            "Parce qu'il neige beaucoup",
+            "Parce que c'est un jour férié",
+            "Parce qu'il fait trop froid",
+            "Parce qu'il fait trop doux"
+          ],
+          "answer": 3,
+          "explanation": "« La patinoire est fermée parce qu'il fait trop doux et la glace n'est pas solide. » The problem is mild weather, not cold or snow.",
+          "band": "A1"
+        }
+      ]
+    },
+    {
+      "id": "mk3-li02",
+      "title": "Rappel de la clinique dentaire",
+      "level": "A2",
+      "kind": "message",
+      "context": "A voicemail from a dental clinic.",
+      "lines": [
+        {
+          "speaker": "Réceptionniste",
+          "fr": "Bonjour, ici la clinique dentaire du Vieux-Port. Ce message est pour Madame Diallo. Nous vous rappelons votre rendez-vous avec le docteur Morin jeudi prochain, à dix heures trente. Merci d'arriver dix minutes en avance. Pour annuler, appelez-nous au moins vingt-quatre heures avant. Bonne journée !"
+        }
+      ],
+      "translation": "Hello, this is the Vieux-Port dental clinic. This message is for Mrs Diallo. We are reminding you of your appointment with Dr Morin next Thursday at 10:30. Please arrive ten minutes early. To cancel, call us at least 24 hours before. Have a good day!",
+      "questions": [
+        {
+          "id": "mk3-li02-q1",
+          "question": "Quand est le rendez-vous de Madame Diallo ?",
+          "options": [
+            "Jeudi à dix heures trente",
+            "Jeudi à dix heures vingt",
+            "Mardi à dix heures trente",
+            "Lundi à dix heures"
+          ],
+          "answer": 0,
+          "explanation": "« jeudi prochain, à dix heures trente ». She should arrive ten minutes early (10:20), but the appointment itself is at 10:30.",
+          "band": "A1"
+        }
+      ]
+    },
+    {
+      "id": "mk3-li03",
+      "title": "Location de skis",
+      "level": "A2",
+      "kind": "dialogue",
+      "context": "At the rental desk of a cross-country ski centre.",
+      "lines": [
+        {
+          "speaker": "Client",
+          "fr": "Bonjour, je voudrais louer des skis de fond pour la journée, s'il vous plaît."
+        },
+        {
+          "speaker": "Employée",
+          "fr": "Bien sûr. Quelle pointure faites-vous ?"
+        },
+        {
+          "speaker": "Client",
+          "fr": "Du quarante-deux. C'est combien ?"
+        },
+        {
+          "speaker": "Employée",
+          "fr": "Les skis, les bottes et les bâtons, c'est vingt dollars pour la journée. Pour deux heures seulement, c'est douze dollars."
+        },
+        {
+          "speaker": "Client",
+          "fr": "La journée, alors. Merci !"
+        }
+      ],
+      "translation": "Customer: Hello, I'd like to rent cross-country skis for the day, please. / Employee: Of course. What shoe size are you? / Customer: Forty-two. How much is it? / Employee: Skis, boots and poles are twenty dollars for the day. For just two hours, it's twelve dollars. / Customer: The day, then. Thank you!",
+      "questions": [
+        {
+          "id": "mk3-li03-q1",
+          "question": "Combien le client va-t-il payer ?",
+          "options": [
+            "Vingt dollars",
+            "Douze dollars",
+            "Quarante-deux dollars",
+            "Deux dollars"
+          ],
+          "answer": 0,
+          "explanation": "He chooses the full day (« La journée, alors »), which costs twenty dollars. Twelve dollars is the two-hour price; 42 is his shoe size.",
+          "band": "A1"
+        }
+      ]
+    },
+    {
+      "id": "mk3-li04",
+      "title": "Écoles fermées",
+      "level": "A2",
+      "kind": "announcement",
+      "context": "A news flash on a local radio station.",
+      "lines": [
+        {
+          "speaker": "Radio",
+          "fr": "Voici une information importante pour les parents. À cause de la tempête de neige, toutes les écoles de la région sont fermées aujourd'hui. Les autobus scolaires ne circulent pas. Les bureaux de la ville, eux, restent ouverts. Soyez prudents sur les routes !"
+        }
+      ],
+      "translation": "Here is some important news for parents. Because of the snowstorm, all schools in the region are closed today. School buses are not running. City offices, however, remain open. Be careful on the roads!",
+      "questions": [
+        {
+          "id": "mk3-li04-q1",
+          "question": "Qu'est-ce qui est fermé aujourd'hui ?",
+          "options": [
+            "Les bureaux de la ville",
+            "Les routes",
+            "Les magasins",
+            "Les écoles"
+          ],
+          "answer": 3,
+          "explanation": "« Toutes les écoles de la région sont fermées aujourd'hui. » City offices stay open, and the roads are open but dangerous.",
+          "band": "A1"
+        }
+      ]
+    },
+    {
+      "id": "mk3-li05",
+      "title": "Un service entre voisins",
+      "level": "A2",
+      "kind": "message",
+      "context": "A voicemail from a neighbour.",
+      "lines": [
+        {
+          "speaker": "Karine",
+          "fr": "Salut Thomas, c'est Karine, ta voisine du troisième. Je pars chez ma sœur ce week-end. Est-ce que tu pourrais arroser mes plantes samedi ? Tu n'as pas besoin de nourrir le chat, ma fille passe le voir. Je laisse la clé chez le concierge. Merci mille fois !"
+        }
+      ],
+      "translation": "Hi Thomas, it's Karine, your neighbour from the third floor. I'm going to my sister's this weekend. Could you water my plants on Saturday? You don't need to feed the cat, my daughter is dropping by to see him. I'm leaving the key with the caretaker. Thanks a million!",
+      "questions": [
+        {
+          "id": "mk3-li05-q1",
+          "question": "Que demande Karine à Thomas ?",
+          "options": [
+            "De nourrir son chat",
+            "D'arroser ses plantes",
+            "De garder sa fille",
+            "D'aller chercher la clé chez sa sœur"
+          ],
+          "answer": 1,
+          "explanation": "« Est-ce que tu pourrais arroser mes plantes samedi ? » She says explicitly that he doesn't need to feed the cat.",
+          "band": "A1"
+        }
+      ]
+    },
+    {
+      "id": "mk3-li06",
+      "title": "À la salle de sport",
+      "level": "A2",
+      "kind": "dialogue",
+      "context": "At the reception desk of a gym.",
+      "lines": [
+        {
+          "speaker": "Cliente",
+          "fr": "Bonjour, c'est quand, le cours de zumba, s'il vous plaît ?"
+        },
+        {
+          "speaker": "Employé",
+          "fr": "Le cours de zumba, c'est le mardi et le jeudi, à dix-huit heures. Mais attention, jeudi, il est complet."
+        },
+        {
+          "speaker": "Cliente",
+          "fr": "Ah, dommage. Alors je vais venir mardi."
+        }
+      ],
+      "translation": "Customer: Hello, when is the Zumba class, please? / Employee: The Zumba class is on Tuesdays and Thursdays at 6 pm. But careful, Thursday's is full. / Customer: Oh, too bad. Then I'll come on Tuesday.",
+      "questions": [
+        {
+          "id": "mk3-li06-q1",
+          "question": "Quel jour la cliente va-t-elle venir au cours ?",
+          "options": [
+            "Le jeudi",
+            "Le mercredi",
+            "Le mardi",
+            "Le samedi"
+          ],
+          "answer": 2,
+          "explanation": "Thursday's class is full (« jeudi, il est complet »), so she says « je vais venir mardi ».",
+          "band": "A1"
+        }
+      ]
+    },
+    {
+      "id": "mk3-li07",
+      "title": "Collecte de sang",
+      "level": "A2",
+      "kind": "announcement",
+      "context": "An announcement in a shopping centre.",
+      "lines": [
+        {
+          "speaker": "Annonce",
+          "fr": "Votre attention, s'il vous plaît. Samedi prochain, une collecte de sang aura lieu au centre communautaire, de neuf heures à quinze heures. Pour donner du sang, vous devez avoir plus de dix-huit ans et apporter une pièce d'identité avec photo. Pensez à bien manger et à boire de l'eau avant de venir. Une collation vous sera offerte après le don. Merci pour votre générosité !"
+        }
+      ],
+      "translation": "Your attention, please. Next Saturday, a blood drive will take place at the community centre, from 9 am to 3 pm. To give blood, you must be over 18 and bring photo ID. Remember to eat well and drink water before you come. A snack will be offered after your donation. Thank you for your generosity!",
+      "questions": [
+        {
+          "id": "mk3-li07-q1",
+          "question": "Où aura lieu la collecte de sang ?",
+          "options": [
+            "Au centre commercial",
+            "À l'hôpital",
+            "Au centre communautaire",
+            "À l'hôtel de ville"
+          ],
+          "answer": 2,
+          "explanation": "« Une collecte de sang aura lieu au centre communautaire. » The announcement is heard in a shopping centre, but the blood drive is elsewhere.",
+          "band": "A2"
+        },
+        {
+          "id": "mk3-li07-q2",
+          "question": "Que faut-il faire avant de venir ?",
+          "options": [
+            "Bien manger et boire de l'eau",
+            "Prendre rendez-vous par téléphone",
+            "Ne rien manger le matin",
+            "Acheter une collation"
+          ],
+          "answer": 0,
+          "explanation": "« Pensez à bien manger et à boire de l'eau avant de venir. » The snack is offered after the donation.",
+          "band": "A2"
+        }
+      ]
+    },
+    {
+      "id": "mk3-li08",
+      "title": "Visite d'un appartement",
+      "level": "A2",
+      "kind": "message",
+      "context": "A voicemail from a real-estate agent.",
+      "lines": [
+        {
+          "speaker": "Agente",
+          "fr": "Bonjour Monsieur Benali, c'est Julie Tremblay, de l'agence Habitat Plus. Je vous appelle au sujet de la visite de l'appartement de la rue Saint-Jean. Le propriétaire ne peut pas être là à seize heures, alors je vous propose dix-sept heures trente, le même jour. Si l'appartement vous plaît, apportez vos trois dernières fiches de paie : il y a déjà deux autres personnes intéressées. Rappelez-moi pour confirmer, s'il vous plaît."
+        }
+      ],
+      "translation": "Hello Mr Benali, it's Julie Tremblay from the Habitat Plus agency. I'm calling about the viewing of the flat on rue Saint-Jean. The owner can't be there at 4 pm, so I suggest 5:30 pm, the same day. If you like the flat, bring your last three payslips: there are already two other interested people. Please call me back to confirm.",
+      "questions": [
+        {
+          "id": "mk3-li08-q1",
+          "question": "À quelle heure est la nouvelle visite ?",
+          "options": [
+            "À seize heures",
+            "À seize heures trente",
+            "À dix-sept heures trente",
+            "À dix-sept heures"
+          ],
+          "answer": 2,
+          "explanation": "The 4 pm slot is cancelled: « je vous propose dix-sept heures trente, le même jour ».",
+          "band": "A2"
+        },
+        {
+          "id": "mk3-li08-q2",
+          "question": "Pourquoi l'agente conseille-t-elle d'apporter des fiches de paie ?",
+          "options": [
+            "Parce que le propriétaire ne sera pas là",
+            "Parce que la visite est payante",
+            "Parce que l'appartement est déjà loué",
+            "Parce que d'autres personnes veulent l'appartement"
+          ],
+          "answer": 3,
+          "explanation": "« Apportez vos trois dernières fiches de paie : il y a déjà deux autres personnes intéressées. » Having the documents ready helps him get the flat first.",
+          "band": "A2"
+        }
+      ]
+    },
+    {
+      "id": "mk3-li09",
+      "title": "Ouvrir un compte",
+      "level": "A2",
+      "kind": "dialogue",
+      "context": "At a bank counter.",
+      "lines": [
+        {
+          "speaker": "Client",
+          "fr": "Bonjour, je viens d'arriver au Canada et je voudrais ouvrir un compte."
+        },
+        {
+          "speaker": "Conseillère",
+          "fr": "Avec plaisir. Vous avez votre passeport et une preuve d'adresse ?"
+        },
+        {
+          "speaker": "Client",
+          "fr": "J'ai mon passeport, mais je n'ai pas encore de facture à mon nom."
+        },
+        {
+          "speaker": "Conseillère",
+          "fr": "Ce n'est pas grave, votre bail suffit. Vous recevrez votre carte par la poste dans une semaine environ."
+        }
+      ],
+      "translation": "Customer: Hello, I've just arrived in Canada and I'd like to open an account. / Adviser: With pleasure. Do you have your passport and proof of address? / Customer: I have my passport, but I don't have a bill in my name yet. / Adviser: That's fine, your lease is enough. You'll receive your card by post in about a week.",
+      "questions": [
+        {
+          "id": "mk3-li09-q1",
+          "question": "Qu'est-ce que le client peut utiliser comme preuve d'adresse ?",
+          "options": [
+            "Son bail",
+            "Son passeport",
+            "Une facture d'électricité",
+            "Sa carte bancaire"
+          ],
+          "answer": 0,
+          "explanation": "He has no bill in his name yet, and the adviser answers « votre bail suffit ». The passport proves his identity, not his address.",
+          "band": "A2"
+        }
+      ]
+    },
+    {
+      "id": "mk3-li10",
+      "title": "Message de l'entraîneur",
+      "level": "A2",
+      "kind": "message",
+      "context": "A voicemail from a children's soccer coach.",
+      "lines": [
+        {
+          "speaker": "Entraîneur",
+          "fr": "Bonsoir à tous les parents, c'est Marco, l'entraîneur de soccer. À cause de la pluie, le terrain est fermé et l'entraînement de demain soir est annulé. On le remplace par un entraînement dimanche matin, à neuf heures, au gymnase de l'école. N'oubliez pas des espadrilles propres pour l'intérieur. Merci !"
+        }
+      ],
+      "translation": "Good evening, parents, it's Marco, the soccer coach. Because of the rain, the field is closed and tomorrow evening's practice is cancelled. We're replacing it with a practice on Sunday morning at 9 am in the school gym. Don't forget clean sneakers for indoors. Thank you!",
+      "questions": [
+        {
+          "id": "mk3-li10-q1",
+          "question": "Où aura lieu l'entraînement de remplacement ?",
+          "options": [
+            "Sur le terrain de soccer",
+            "Au gymnase de l'école",
+            "Chez l'entraîneur",
+            "Au parc municipal"
+          ],
+          "answer": 1,
+          "explanation": "« dimanche matin, à neuf heures, au gymnase de l'école ». The field is closed because of the rain.",
+          "band": "A2"
+        }
+      ]
+    },
+    {
+      "id": "mk3-li11",
+      "title": "Coupure d'eau",
+      "level": "A2",
+      "kind": "message",
+      "context": "A message from the caretaker on a building's phone line.",
+      "lines": [
+        {
+          "speaker": "Concierge",
+          "fr": "Bonjour à tous les locataires, ici Denis, le concierge. Mardi prochain, un plombier va remplacer les tuyaux du sous-sol. L'eau sera coupée de huit heures à midi dans tout l'immeuble. Je vous conseille de remplir quelques bouteilles d'eau lundi soir. La salle de lavage sera fermée toute la journée. Si vous avez des questions, je suis à mon bureau, au rez-de-chaussée."
+        }
+      ],
+      "translation": "Hello to all tenants, this is Denis, the caretaker. Next Tuesday, a plumber is going to replace the pipes in the basement. The water will be cut off from 8 am to noon in the whole building. I advise you to fill a few bottles of water on Monday evening. The laundry room will be closed all day. If you have any questions, I'm in my office on the ground floor.",
+      "questions": [
+        {
+          "id": "mk3-li11-q1",
+          "question": "Pendant combien de temps l'eau sera-t-elle coupée ?",
+          "options": [
+            "Pendant quatre heures",
+            "Pendant toute la journée",
+            "Pendant deux heures",
+            "Pendant toute la nuit"
+          ],
+          "answer": 0,
+          "explanation": "From 8 am to noon (« de huit heures à midi ») is four hours. It is the laundry room, not the water, that is closed all day.",
+          "band": "A2"
+        },
+        {
+          "id": "mk3-li11-q2",
+          "question": "Que conseille le concierge ?",
+          "options": [
+            "Faire sa lessive mardi matin",
+            "Appeler le plombier",
+            "Remplir des bouteilles d'eau la veille",
+            "Descendre au sous-sol mardi"
+          ],
+          "answer": 2,
+          "explanation": "« Je vous conseille de remplir quelques bouteilles d'eau lundi soir », the evening before the work.",
+          "band": "A2"
+        }
+      ]
+    },
+    {
+      "id": "mk3-li12",
+      "title": "À la clinique sans rendez-vous",
+      "level": "A2",
+      "kind": "dialogue",
+      "context": "At the reception of a walk-in clinic in Montréal.",
+      "lines": [
+        {
+          "speaker": "Réceptionniste",
+          "fr": "Bonjour, monsieur. Vous avez votre carte d'assurance maladie ?"
+        },
+        {
+          "speaker": "Patient",
+          "fr": "Oui, la voici. J'ai mal à la gorge depuis quatre jours et j'ai de la fièvre."
+        },
+        {
+          "speaker": "Réceptionniste",
+          "fr": "D'accord. Il y a environ deux heures d'attente ce matin. Vous pouvez attendre ici, ou bien rentrer chez vous : on vous enverra un texto quand ce sera bientôt votre tour."
+        },
+        {
+          "speaker": "Patient",
+          "fr": "J'habite à cinq minutes, je vais rentrer. Merci beaucoup !"
+        }
+      ],
+      "translation": "Receptionist: Hello, sir. Do you have your health insurance card? / Patient: Yes, here it is. I've had a sore throat for four days and I have a fever. / Receptionist: All right. There's about a two-hour wait this morning. You can wait here, or go home: we'll send you a text when it's almost your turn. / Patient: I live five minutes away, I'll go home. Thank you very much!",
+      "questions": [
+        {
+          "id": "mk3-li12-q1",
+          "question": "Pourquoi le patient vient-il à la clinique ?",
+          "options": [
+            "Il a mal à la tête depuis quatre jours",
+            "Il veut renouveler sa carte d'assurance maladie",
+            "Il a besoin d'un vaccin",
+            "Il a mal à la gorge et de la fièvre"
+          ],
+          "answer": 3,
+          "explanation": "« J'ai mal à la gorge depuis quatre jours et j'ai de la fièvre. » He shows his card; he isn't renewing it.",
+          "band": "A2"
+        },
+        {
+          "id": "mk3-li12-q2",
+          "question": "Que va faire le patient ?",
+          "options": [
+            "Attendre deux heures dans la salle",
+            "Revenir demain matin",
+            "Aller dans une autre clinique",
+            "Rentrer chez lui et attendre un texto"
+          ],
+          "answer": 3,
+          "explanation": "He lives five minutes away and says « je vais rentrer »; the clinic will text him when his turn is near.",
+          "band": "A2"
+        }
+      ]
+    },
+    {
+      "id": "mk3-li13",
+      "title": "Exercice d'évacuation",
+      "level": "A2",
+      "kind": "announcement",
+      "context": "An announcement over the loudspeakers in an office building.",
+      "lines": [
+        {
+          "speaker": "Annonce",
+          "fr": "Bonjour à tous. Un exercice d'évacuation incendie aura lieu cet après-midi, à quatorze heures. Quand l'alarme sonnera, quittez votre poste calmement. N'utilisez pas les ascenseurs : prenez les escaliers. Le point de rassemblement est dans le stationnement, derrière le bâtiment. Ne retournez pas à l'intérieur avant l'autorisation des responsables. Merci de votre collaboration."
+        }
+      ],
+      "translation": "Hello everyone. A fire evacuation drill will take place this afternoon at 2 pm. When the alarm sounds, leave your workstation calmly. Do not use the lifts: take the stairs. The assembly point is in the car park behind the building. Do not go back inside until the people in charge allow it. Thank you for your cooperation.",
+      "questions": [
+        {
+          "id": "mk3-li13-q1",
+          "question": "Que doivent faire les employés quand l'alarme sonne ?",
+          "options": [
+            "Prendre les ascenseurs",
+            "Prendre les escaliers",
+            "Rester à leur poste",
+            "Appeler les pompiers"
+          ],
+          "answer": 1,
+          "explanation": "« N'utilisez pas les ascenseurs : prenez les escaliers. »",
+          "band": "A2"
+        },
+        {
+          "id": "mk3-li13-q2",
+          "question": "Où les employés doivent-ils se retrouver ?",
+          "options": [
+            "Devant l'entrée principale",
+            "Dans la cafétéria",
+            "À l'accueil",
+            "Dans le stationnement derrière le bâtiment"
+          ],
+          "answer": 3,
+          "explanation": "« Le point de rassemblement est dans le stationnement, derrière le bâtiment. »",
+          "band": "A2"
+        }
+      ]
+    },
+    {
+      "id": "mk3-li14",
+      "title": "Le camp de jour",
+      "level": "B1",
+      "kind": "dialogue",
+      "context": "Two parents talk in their kitchen about the summer holidays.",
+      "lines": [
+        {
+          "speaker": "Sophie",
+          "fr": "J'ai regardé les camps de jour pour cet été. Celui du centre sportif coûte deux cent cinquante dollars par semaine. Pour six semaines, ça fait beaucoup."
+        },
+        {
+          "speaker": "Marc",
+          "fr": "C'est vrai. Et si on demandait à mes parents de garder les enfants tout l'été ? Ils le proposent souvent."
+        },
+        {
+          "speaker": "Sophie",
+          "fr": "Ils ont soixante-quinze ans, Marc. Deux enfants toute la journée pendant six semaines, ce serait épuisant pour eux. Par contre, une semaine chez eux, ça leur ferait plaisir, et aux enfants aussi."
+        },
+        {
+          "speaker": "Marc",
+          "fr": "D'accord. Alors une semaine chez mes parents, et moi, je peux prendre deux semaines de vacances."
+        },
+        {
+          "speaker": "Sophie",
+          "fr": "Moi aussi. Il reste donc une semaine de camp à payer. Je vais quand même me renseigner : la ville offre peut-être une aide financière aux familles."
+        }
+      ],
+      "translation": "Sophie: I looked at day camps for this summer. The one at the sports centre costs two hundred and fifty dollars a week. For six weeks, that's a lot. / Marc: True. What if we asked my parents to look after the children all summer? They often offer. / Sophie: They're seventy-five, Marc. Two children all day for six weeks would be exhausting for them. On the other hand, one week at their place would make them happy, and the children too. / Marc: OK. So one week at my parents', and I can take two weeks' holiday. / Sophie: Me too. That leaves one week of camp to pay for. I'll still look into it: the city may offer financial help to families.",
+      "questions": [
+        {
+          "id": "mk3-li14-q1",
+          "question": "Pourquoi Sophie ne veut-elle pas confier les enfants aux grands-parents tout l'été ?",
+          "options": [
+            "Elle pense que ce serait trop fatigant pour eux",
+            "Les grands-parents habitent trop loin",
+            "Les enfants ne veulent pas y aller",
+            "Les grands-parents ont déjà refusé"
+          ],
+          "answer": 0,
+          "explanation": "« Deux enfants toute la journée pendant six semaines, ce serait épuisant pour eux. » She actually thinks one week would please everyone.",
+          "band": "B1"
+        },
+        {
+          "id": "mk3-li14-q2",
+          "question": "Que va faire Sophie ?",
+          "options": [
+            "Se renseigner sur une aide financière de la ville",
+            "Inscrire les enfants au camp pour six semaines",
+            "Demander des vacances supplémentaires",
+            "Chercher une gardienne"
+          ],
+          "answer": 0,
+          "explanation": "« Je vais quand même me renseigner : la ville offre peut-être une aide financière aux familles. » Only one week of camp remains to be paid.",
+          "band": "B1"
+        }
+      ]
+    },
+    {
+      "id": "mk3-li15",
+      "title": "Votre dossier d'assurance",
+      "level": "B1",
+      "kind": "message",
+      "context": "A voicemail from an insurance company.",
+      "lines": [
+        {
+          "speaker": "Conseiller",
+          "fr": "Bonjour, Madame Lefebvre, ici Patrick Gagnon, de l'assurance Boréal. J'ai bien reçu votre déclaration pour le dégât d'eau dans votre cuisine. Pour traiter votre dossier, il me manque encore deux choses : des photos des dommages et la facture du plombier. Vous pouvez les envoyer directement depuis votre espace client. Attention : sans ces documents avant le quinze du mois, nous ne pourrons pas vous rembourser. Merci et bonne journée."
+        }
+      ],
+      "translation": "Hello Mrs Lefebvre, this is Patrick Gagnon from Boréal insurance. I have received your claim for the water damage in your kitchen. To process your file, I'm still missing two things: photos of the damage and the plumber's invoice. You can send them directly from your customer account. Please note: without these documents before the 15th of the month, we won't be able to reimburse you. Thank you and have a good day.",
+      "questions": [
+        {
+          "id": "mk3-li15-q1",
+          "question": "Que doit faire Madame Lefebvre ?",
+          "options": [
+            "Déclarer le dégât d'eau avant le quinze",
+            "Envoyer des photos et la facture avant le quinze",
+            "Se rendre au bureau de l'assurance",
+            "Rappeler le plombier pour une nouvelle réparation"
+          ],
+          "answer": 1,
+          "explanation": "The claim has already been received (« J'ai bien reçu votre déclaration »); what is missing is « des photos des dommages et la facture du plombier », to be sent online before the 15th.",
+          "band": "B1"
+        }
+      ]
+    },
+    {
+      "id": "mk3-li16",
+      "title": "Une chute au travail",
+      "level": "B1",
+      "kind": "dialogue",
+      "context": "In a warehouse, an employee talks to her supervisor.",
+      "lines": [
+        {
+          "speaker": "Nadia",
+          "fr": "Monsieur Roy, Kevin vient de glisser sur la glace devant la porte des livraisons. Il dit qu'il a mal au poignet."
+        },
+        {
+          "speaker": "Superviseur",
+          "fr": "Il faut qu'il voie la secouriste tout de suite. Ensuite, on remplira ensemble le registre des accidents, même si ça semble léger."
+        },
+        {
+          "speaker": "Nadia",
+          "fr": "Il ne veut pas. Il dit que ce n'est rien et qu'il préfère finir sa journée."
+        },
+        {
+          "speaker": "Superviseur",
+          "fr": "Je comprends, mais si la douleur augmente demain et que rien n'est déclaré, il aura du mal à être indemnisé. Et appelez l'équipe d'entretien : je veux qu'on mette du sel devant cette porte avant la prochaine livraison."
+        }
+      ],
+      "translation": "Nadia: Mr Roy, Kevin has just slipped on the ice in front of the delivery door. He says his wrist hurts. / Supervisor: He must see the first-aider right away. Then we'll fill in the accident register together, even if it seems minor. / Nadia: He doesn't want to. He says it's nothing and he'd rather finish his day. / Supervisor: I understand, but if the pain gets worse tomorrow and nothing has been reported, he'll have trouble getting compensation. And call the maintenance team: I want salt put down in front of that door before the next delivery.",
+      "questions": [
+        {
+          "id": "mk3-li16-q1",
+          "question": "Pourquoi le superviseur insiste-t-il pour déclarer l'accident ?",
+          "options": [
+            "Parce que Kevin doit rentrer chez lui",
+            "Pour que Kevin puisse être indemnisé si la douleur augmente",
+            "Parce que la blessure est très grave",
+            "Pour sanctionner l'équipe d'entretien"
+          ],
+          "answer": 1,
+          "explanation": "« Si la douleur augmente demain et que rien n'est déclaré, il aura du mal à être indemnisé. » He even says the injury seems minor (« même si ça semble léger »).",
+          "band": "B1"
+        },
+        {
+          "id": "mk3-li16-q2",
+          "question": "Que demande le superviseur à l'équipe d'entretien ?",
+          "options": [
+            "De réparer la porte des livraisons",
+            "De soigner Kevin",
+            "De mettre du sel devant la porte",
+            "D'annuler la prochaine livraison"
+          ],
+          "answer": 2,
+          "explanation": "« Je veux qu'on mette du sel devant cette porte avant la prochaine livraison. » Kevin is to see the first-aider, not the maintenance team.",
+          "band": "B1"
+        }
+      ]
+    },
+    {
+      "id": "mk3-li17",
+      "title": "Le Festival du film de quartier",
+      "level": "B1",
+      "kind": "announcement",
+      "context": "An advertisement on a community radio station.",
+      "lines": [
+        {
+          "speaker": "Animatrice",
+          "fr": "Du douze au vingt juillet, le Festival du film de quartier revient pour sa dixième édition ! Cette année, une trentaine de films venus de quinze pays seront présentés en version originale, avec des sous-titres en français. Les séances en salle coûtent huit dollars, mais chaque soir, à la tombée de la nuit, un film est projeté gratuitement en plein air, au parc des Ormes. Apportez votre chaise ou une couverture : il n'y a pas de places assises. En cas de pluie, la séance est déplacée à la bibliothèque. Nouveauté cette année : un atelier pour apprendre à réaliser un court métrage avec son téléphone, réservé aux jeunes de douze à dix-sept ans."
+        }
+      ],
+      "translation": "From the 12th to the 20th of July, the Neighbourhood Film Festival is back for its tenth edition! This year, around thirty films from fifteen countries will be shown in their original language with French subtitles. Indoor screenings cost eight dollars, but every evening at nightfall a film is shown for free in the open air in the Parc des Ormes. Bring your chair or a blanket: there is no seating. If it rains, the screening moves to the library. New this year: a workshop to learn how to make a short film with your phone, for young people aged twelve to seventeen only.",
+      "questions": [
+        {
+          "id": "mk3-li17-q1",
+          "question": "Que faut-il prévoir pour les séances en plein air ?",
+          "options": [
+            "Un billet de huit dollars",
+            "Une réservation à la bibliothèque",
+            "Un téléphone chargé",
+            "Une chaise ou une couverture"
+          ],
+          "answer": 3,
+          "explanation": "« Apportez votre chaise ou une couverture : il n'y a pas de places assises. » The outdoor films are free; eight dollars is the indoor price.",
+          "band": "B1"
+        },
+        {
+          "id": "mk3-li17-q2",
+          "question": "À qui l'atelier de court métrage est-il destiné ?",
+          "options": [
+            "Aux réalisateurs professionnels",
+            "Aux adolescents",
+            "À toutes les familles",
+            "Aux personnes qui apprennent le français"
+          ],
+          "answer": 1,
+          "explanation": "The workshop is « réservé aux jeunes de douze à dix-sept ans », i.e. teenagers.",
+          "band": "B1"
+        }
+      ]
+    },
+    {
+      "id": "mk3-li18",
+      "title": "Les pneus d'hiver",
+      "level": "B1",
+      "kind": "dialogue",
+      "context": "Two friends talk in Québec at the beginning of November.",
+      "lines": [
+        {
+          "speaker": "Antoine",
+          "fr": "Tu as fait poser tes pneus d'hiver, Leila ?"
+        },
+        {
+          "speaker": "Leila",
+          "fr": "Pas encore. Il fait encore dix degrés, je me suis dit que j'avais le temps."
+        },
+        {
+          "speaker": "Antoine",
+          "fr": "Attention, au Québec, c'est obligatoire à partir du premier décembre. Et surtout, tous les garages sont pleins à la dernière minute. Moi, l'an dernier, j'ai attendu et j'ai dû patienter trois semaines pour avoir un rendez-vous."
+        },
+        {
+          "speaker": "Leila",
+          "fr": "Trois semaines ! Bon, j'appelle mon garage demain. Tu sais combien ça coûte ?"
+        },
+        {
+          "speaker": "Antoine",
+          "fr": "Si tu as déjà tes pneus, pour les changer seulement, compte environ quatre-vingts dollars. Et demande-leur s'ils peuvent garder tes pneus d'été jusqu'au printemps. Moi, je n'ai pas de place chez moi, alors je les laisse au garage."
+        }
+      ],
+      "translation": "Antoine: Have you had your winter tyres put on, Leila? / Leila: Not yet. It's still ten degrees, I thought I had time. / Antoine: Careful, in Québec they're compulsory from the first of December. And above all, every garage is full at the last minute. Last year I waited and had to wait three weeks for an appointment. / Leila: Three weeks! OK, I'll call my garage tomorrow. Do you know how much it costs? / Antoine: If you already have your tyres, just changing them costs about eighty dollars. And ask them if they can keep your summer tyres until spring. I don't have room at home, so I leave them at the garage.",
+      "questions": [
+        {
+          "id": "mk3-li18-q1",
+          "question": "Pourquoi Antoine conseille-t-il à Leila de ne pas attendre ?",
+          "options": [
+            "Il va neiger la semaine prochaine",
+            "Les garages sont très occupés juste avant la date limite",
+            "Les prix augmentent en décembre",
+            "Son garage ferme en décembre"
+          ],
+          "answer": 1,
+          "explanation": "« Tous les garages sont pleins à la dernière minute » — he had to wait three weeks last year.",
+          "band": "B1"
+        },
+        {
+          "id": "mk3-li18-q2",
+          "question": "Qu'est-ce qu'Antoine conseille à Leila de demander au garage ?",
+          "options": [
+            "S'il vend des pneus moins chers",
+            "S'il est ouvert le dimanche",
+            "S'il peut garder ses pneus d'été",
+            "S'il peut lui prêter une voiture"
+          ],
+          "answer": 2,
+          "explanation": "« Demande-leur s'ils peuvent garder tes pneus d'été jusqu'au printemps. »",
+          "band": "B1"
+        }
+      ]
+    },
+    {
+      "id": "mk3-li19",
+      "title": "Courir par moins vingt",
+      "level": "B1",
+      "kind": "interview",
+      "context": "An interview on a Québec radio sports programme.",
+      "lines": [
+        {
+          "speaker": "Journaliste",
+          "fr": "Mathieu Caron, vous avez fondé un club de course qui s'entraîne dehors tout l'hiver. Vos membres ne sont pas un peu fous ?"
+        },
+        {
+          "speaker": "Mathieu",
+          "fr": "Pas du tout ! Au début, nous étions cinq. Aujourd'hui, nous sommes plus de cent. Les gens découvrent que l'hiver est beaucoup plus agréable quand on le vit dehors, au lieu de rester enfermé."
+        },
+        {
+          "speaker": "Journaliste",
+          "fr": "Mais courir par moins vingt degrés, ce n'est pas dangereux ?"
+        },
+        {
+          "speaker": "Mathieu",
+          "fr": "Il faut être bien équipé : plusieurs couches de vêtements, des gants, et des crampons sous les chaussures pour la glace. Mais le vrai danger, c'est de trop se couvrir : on transpire, puis on a froid. Et quand il fait moins de moins vingt-cinq, on annule la sortie."
+        },
+        {
+          "speaker": "Journaliste",
+          "fr": "Qu'est-ce qui motive vos membres ?"
+        },
+        {
+          "speaker": "Mathieu",
+          "fr": "Le groupe, surtout. Seul, personne ne sort à six heures du matin dans le noir. Ensemble, on se motive, et après la course, on boit un café ensemble. D'ailleurs, beaucoup de nouveaux arrivants nous rejoignent pour se faire des amis."
+        }
+      ],
+      "translation": "Journalist: Mathieu Caron, you founded a running club that trains outdoors all winter. Aren't your members a bit crazy? / Mathieu: Not at all! At the start there were five of us. Today there are more than a hundred. People discover that winter is much more pleasant when you live it outdoors instead of staying shut inside. / Journalist: But isn't running at minus twenty dangerous? / Mathieu: You have to be well equipped: several layers of clothing, gloves, and spikes under your shoes for the ice. But the real danger is wrapping up too much: you sweat, then you get cold. And when it's colder than minus twenty-five, we cancel the run. / Journalist: What motivates your members? / Mathieu: The group, above all. On your own, nobody goes out at six in the morning in the dark. Together we motivate each other, and after the run we have a coffee together. In fact, many newcomers join us to make friends.",
+      "questions": [
+        {
+          "id": "mk3-li19-q1",
+          "question": "Selon Mathieu, quel est le vrai danger quand on court l'hiver ?",
+          "options": [
+            "Glisser sur la glace",
+            "Courir seul dans le noir",
+            "Courir trop vite",
+            "Porter trop de vêtements et transpirer"
+          ],
+          "answer": 3,
+          "explanation": "« Le vrai danger, c'est de trop se couvrir : on transpire, puis on a froid. » Ice is handled with spikes.",
+          "band": "B1"
+        },
+        {
+          "id": "mk3-li19-q2",
+          "question": "Pourquoi beaucoup de nouveaux arrivants rejoignent-ils le club ?",
+          "options": [
+            "Pour se faire des amis",
+            "Pour apprendre le français",
+            "Parce que le club est gratuit",
+            "Pour préparer un marathon"
+          ],
+          "answer": 0,
+          "explanation": "« Beaucoup de nouveaux arrivants nous rejoignent pour se faire des amis. »",
+          "band": "B1"
+        }
+      ]
+    },
+    {
+      "id": "mk3-li20",
+      "title": "Le bénévolat en entreprise",
+      "level": "B1",
+      "kind": "interview",
+      "context": "An interview on a business radio programme.",
+      "lines": [
+        {
+          "speaker": "Journaliste",
+          "fr": "Madame Ouellet, dans votre entreprise, les employés peuvent faire du bénévolat sur leur temps de travail. Comment ça fonctionne ?"
+        },
+        {
+          "speaker": "Mme Ouellet",
+          "fr": "Chaque employé a droit à une journée payée par mois pour aider un organisme de son choix : une banque alimentaire, une école, un refuge pour animaux… La seule condition, c'est que l'organisme soit à but non lucratif."
+        },
+        {
+          "speaker": "Journaliste",
+          "fr": "Ça doit coûter cher à l'entreprise, non ?"
+        },
+        {
+          "speaker": "Mme Ouellet",
+          "fr": "Moins qu'on pourrait le croire. Environ un employé sur trois utilise vraiment cette journée. Et nous avons constaté que ces employés restent plus longtemps chez nous. Or, recruter et former quelqu'un de nouveau, ça coûte beaucoup plus cher."
+        },
+        {
+          "speaker": "Journaliste",
+          "fr": "Les employés n'ont pas l'impression qu'on les oblige à être généreux ?"
+        },
+        {
+          "speaker": "Mme Ouellet",
+          "fr": "C'était ma crainte au départ. C'est pour ça que tout est volontaire : personne n'a à expliquer pourquoi il ne participe pas, et on ne publie aucun classement. Ce qui compte, c'est que l'envie vienne des employés eux-mêmes."
+        }
+      ],
+      "translation": "Journalist: Ms Ouellet, in your company employees can volunteer during working hours. How does it work? / Ms Ouellet: Each employee is entitled to one paid day a month to help an organisation of their choice: a food bank, a school, an animal shelter… The only condition is that the organisation is non-profit. / Journalist: That must be expensive for the company, surely? / Ms Ouellet: Less than you might think. About one employee in three actually uses this day. And we've noticed that these employees stay with us longer. And recruiting and training someone new costs much more. / Journalist: Don't employees feel they are being forced to be generous? / Ms Ouellet: That was my fear at the start. That's why everything is voluntary: nobody has to explain why they don't take part, and we don't publish any ranking. What matters is that the wish comes from the employees themselves.",
+      "questions": [
+        {
+          "id": "mk3-li20-q1",
+          "question": "Quelle est la condition pour choisir un organisme ?",
+          "options": [
+            "Il doit être proche de l'entreprise",
+            "Il doit être à but non lucratif",
+            "Il doit aider des enfants",
+            "Il doit être choisi par la direction"
+          ],
+          "answer": 1,
+          "explanation": "« La seule condition, c'est que l'organisme soit à but non lucratif. » Employees choose the organisation themselves.",
+          "band": "B1"
+        },
+        {
+          "id": "mk3-li20-q2",
+          "question": "Selon Mme Ouellet, pourquoi ce programme coûte-t-il moins cher qu'on le pense ?",
+          "options": [
+            "Les organismes paient une partie des salaires",
+            "La journée de bénévolat n'est pas payée",
+            "Les employés qui y participent quittent moins l'entreprise",
+            "Le gouvernement rembourse ces journées"
+          ],
+          "answer": 2,
+          "explanation": "Participants « restent plus longtemps chez nous », and recruiting and training replacements « coûte beaucoup plus cher ». The day is paid (« une journée payée »).",
+          "band": "B1"
+        },
+        {
+          "id": "mk3-li20-q3",
+          "question": "Comment l'entreprise évite-t-elle que les employés se sentent obligés ?",
+          "options": [
+            "La participation est volontaire et il n'y a pas de classement",
+            "Elle offre une prime aux participants",
+            "Elle choisit l'organisme à leur place",
+            "Elle réserve le bénévolat aux cadres"
+          ],
+          "answer": 0,
+          "explanation": "« Tout est volontaire : personne n'a à expliquer pourquoi il ne participe pas, et on ne publie aucun classement. »",
+          "band": "B1"
+        }
+      ]
+    },
+    {
+      "id": "mk3-li21",
+      "title": "Les écrans et le sommeil",
+      "level": "B1",
+      "kind": "interview",
+      "context": "An interview with a doctor on a health programme.",
+      "lines": [
+        {
+          "speaker": "Journaliste",
+          "fr": "Docteure Lambert, on entend souvent que les écrans empêchent les adolescents de dormir. Est-ce vraiment la lumière bleue qui pose problème ?"
+        },
+        {
+          "speaker": "Docteure Lambert",
+          "fr": "La lumière joue un rôle, mais on l'a probablement surestimé. Le principal problème, c'est ce que les jeunes font sur leur écran. Une série dont on veut voir la suite, une conversation de groupe qui ne s'arrête jamais : tout cela stimule le cerveau et repousse l'heure du coucher. Un adolescent qui se couche à minuit et se lève à sept heures accumule un manque de sommeil considérable, avec des conséquences sur l'humeur et la concentration."
+        },
+        {
+          "speaker": "Journaliste",
+          "fr": "Faut-il alors confisquer les téléphones le soir ?"
+        },
+        {
+          "speaker": "Docteure Lambert",
+          "fr": "Interdire sans expliquer fonctionne rarement à cet âge. Je conseille plutôt aux familles de fixer des règles ensemble, par exemple laisser tous les téléphones dans la cuisine à partir d'une certaine heure, y compris ceux des parents. Les adolescents acceptent beaucoup mieux une règle quand les adultes la respectent aussi."
+        }
+      ],
+      "translation": "Journalist: Dr Lambert, we often hear that screens stop teenagers from sleeping. Is it really blue light that's the problem? / Dr Lambert: Light plays a part, but it has probably been overestimated. The main problem is what young people do on their screens. A series you want to see the next episode of, a group chat that never stops: all of this stimulates the brain and pushes back bedtime. A teenager who goes to bed at midnight and gets up at seven builds up a considerable lack of sleep, with consequences for mood and concentration. / Journalist: So should phones be confiscated in the evening? / Dr Lambert: Banning without explaining rarely works at that age. I'd rather advise families to set rules together, for example leaving all phones in the kitchen from a certain time, including the parents'. Teenagers accept a rule much better when adults respect it too.",
+      "questions": [
+        {
+          "id": "mk3-li21-q1",
+          "question": "Selon la docteure, qu'est-ce qui retarde surtout le coucher des adolescents ?",
+          "options": [
+            "La lumière bleue des écrans",
+            "Les devoirs scolaires",
+            "Les horaires de travail des parents",
+            "Les contenus qui leur donnent envie de rester connectés"
+          ],
+          "answer": 3,
+          "explanation": "Blue light has « probablement [été] surestimé »; « le principal problème, c'est ce que les jeunes font sur leur écran » — series and endless group chats.",
+          "band": "B2"
+        },
+        {
+          "id": "mk3-li21-q2",
+          "question": "Que recommande la docteure aux familles ?",
+          "options": [
+            "Confisquer les téléphones des adolescents",
+            "Des règles communes que les parents respectent aussi",
+            "Utiliser des filtres contre la lumière bleue",
+            "Laisser les adolescents décider seuls"
+          ],
+          "answer": 1,
+          "explanation": "She advises « fixer des règles ensemble… y compris [les téléphones] des parents », because teenagers accept rules better « quand les adultes la respectent aussi ». She says banning without explanation rarely works.",
+          "band": "B2"
+        }
+      ]
+    },
+    {
+      "id": "mk3-li22",
+      "title": "Chronique environnement : la mode jetable",
+      "level": "B1",
+      "kind": "announcement",
+      "context": "An environment column on a radio station.",
+      "lines": [
+        {
+          "speaker": "Chroniqueuse",
+          "fr": "Bonjour à tous. Aujourd'hui, parlons de nos garde-robes. On achète environ deux fois plus de vêtements qu'il y a vingt ans, mais on les garde deux fois moins longtemps. En cause : les marques à très bas prix, qui proposent de nouveaux modèles chaque semaine. Le problème, c'est que ces vêtements sont souvent de mauvaise qualité et difficiles à recycler, parce qu'ils mélangent plusieurs matières. On pourrait croire que donner ses vêtements aux friperies règle la question. Malheureusement, ces boutiques en reçoivent aujourd'hui tellement qu'une grande partie finit quand même à la décharge, parfois à l'autre bout du monde. Alors, que faire ? Le geste le plus efficace reste le plus simple : acheter moins, choisir des pièces qui durent, et apprendre à les réparer. Le vêtement le plus écologique, c'est celui qu'on porte déjà."
+        }
+      ],
+      "translation": "Hello everyone. Today, let's talk about our wardrobes. We buy about twice as many clothes as twenty years ago, but we keep them half as long. The cause: very low-cost brands that offer new designs every week. The problem is that these clothes are often poor quality and hard to recycle, because they mix several materials. You might think that giving your clothes to second-hand shops solves the issue. Unfortunately, these shops now receive so many that a large share still ends up in landfill, sometimes on the other side of the world. So what can we do? The most effective step is still the simplest: buy less, choose pieces that last, and learn to repair them. The most environmentally friendly garment is the one you already wear.",
+      "questions": [
+        {
+          "id": "mk3-li22-q1",
+          "question": "Selon la chroniqueuse, pourquoi ces vêtements sont-ils difficiles à recycler ?",
+          "options": [
+            "Ils sont fabriqués à l'autre bout du monde",
+            "Les friperies refusent de les prendre",
+            "Ils sont faits d'un mélange de matières",
+            "Ils sont vendus trop peu cher"
+          ],
+          "answer": 2,
+          "explanation": "They are hard to recycle « parce qu'ils mélangent plusieurs matières ». « À l'autre bout du monde » refers to where donated clothes can end up.",
+          "band": "B2"
+        },
+        {
+          "id": "mk3-li22-q2",
+          "question": "Quelle est l'idée principale de la fin de la chronique ?",
+          "options": [
+            "Il faut donner davantage de vêtements aux friperies",
+            "Le plus utile est d'acheter moins et de garder ses vêtements longtemps",
+            "Les marques doivent proposer plus de modèles",
+            "Il faut interdire les vêtements bon marché"
+          ],
+          "answer": 1,
+          "explanation": "« Acheter moins, choisir des pièces qui durent, et apprendre à les réparer. Le vêtement le plus écologique, c'est celui qu'on porte déjà. » Donating is presented as an insufficient solution.",
+          "band": "B2"
+        }
+      ]
+    },
+    {
+      "id": "mk3-li23",
+      "title": "La télémédecine en région",
+      "level": "B1",
+      "kind": "interview",
+      "context": "A radio interview with a family doctor working in a rural region of Québec.",
+      "lines": [
+        {
+          "speaker": "Journaliste",
+          "fr": "Docteur Bouchard, vous travaillez en Gaspésie et vous faites une partie de vos consultations par vidéo. Pourquoi ce choix ?"
+        },
+        {
+          "speaker": "Docteur Bouchard",
+          "fr": "Dans notre région, certains patients habitent à plus d'une heure de route de la clinique. L'hiver, quand les routes sont mauvaises, beaucoup renonçaient tout simplement à venir. Avec la vidéo, une personne âgée peut me montrer une plaie ou me parler de ses médicaments sans quitter sa cuisine."
+        },
+        {
+          "speaker": "Journaliste",
+          "fr": "Est-ce que cela remplace une vraie consultation ?"
+        },
+        {
+          "speaker": "Docteur Bouchard",
+          "fr": "Non, et il ne faut pas le prétendre. Je ne peux pas écouter des poumons ni examiner un ventre à travers un écran. La vidéo convient au suivi d'une maladie connue, au renouvellement d'une ordonnance ou à l'explication de résultats. Pour un problème nouveau, je demande presque toujours à voir le patient."
+        },
+        {
+          "speaker": "Journaliste",
+          "fr": "Et tout le monde peut en profiter ?"
+        },
+        {
+          "speaker": "Docteur Bouchard",
+          "fr": "C'est là que ça se complique. Une partie de mes patients n'a pas de bonne connexion Internet, ou n'est pas à l'aise avec la technologie. Et ce sont souvent ceux qui en auraient le plus besoin. Nous avons donc formé des bénévoles qui vont chez eux avec une tablette. Sans cela, la télémédecine risquerait d'augmenter les inégalités au lieu de les réduire."
+        }
+      ],
+      "translation": "Journalist: Dr Bouchard, you work in the Gaspé region and you do some of your consultations by video. Why this choice? / Dr Bouchard: In our region, some patients live more than an hour's drive from the clinic. In winter, when the roads are bad, many simply gave up coming. With video, an elderly person can show me a wound or talk to me about their medication without leaving their kitchen. / Journalist: Does this replace a real consultation? / Dr Bouchard: No, and we mustn't pretend it does. I can't listen to lungs or examine an abdomen through a screen. Video is suitable for following up a known illness, renewing a prescription or explaining results. For a new problem, I almost always ask to see the patient. / Journalist: And can everyone benefit? / Dr Bouchard: That's where it gets complicated. Some of my patients don't have a good internet connection, or aren't comfortable with technology. And they are often the ones who would need it most. So we trained volunteers who go to their homes with a tablet. Without that, telemedicine could increase inequality instead of reducing it.",
+      "questions": [
+        {
+          "id": "mk3-li23-q1",
+          "question": "Quel problème la vidéo a-t-elle d'abord permis de résoudre ?",
+          "options": [
+            "La clinique manquait de médecins",
+            "Les consultations coûtaient trop cher",
+            "Des patients renonçaient à consulter à cause de la distance et des routes",
+            "Les patients âgés refusaient leurs médicaments"
+          ],
+          "answer": 2,
+          "explanation": "Patients live « à plus d'une heure de route » and, in winter, « beaucoup renonçaient tout simplement à venir ».",
+          "band": "B2"
+        },
+        {
+          "id": "mk3-li23-q2",
+          "question": "Dans quel cas le docteur préfère-t-il voir le patient en personne ?",
+          "options": [
+            "Pour renouveler une ordonnance",
+            "Pour expliquer des résultats",
+            "Pour un problème de santé nouveau",
+            "Pour le suivi d'une maladie connue"
+          ],
+          "answer": 2,
+          "explanation": "« Pour un problème nouveau, je demande presque toujours à voir le patient. » The three other situations are those he says video suits.",
+          "band": "B2"
+        },
+        {
+          "id": "mk3-li23-q3",
+          "question": "Quel paradoxe le docteur souligne-t-il ?",
+          "options": [
+            "Les patients qui en ont le plus besoin sont souvent les moins bien équipés",
+            "La vidéo prend plus de temps qu'une consultation",
+            "Les bénévoles maîtrisent mal la technologie",
+            "Les jeunes patients préfèrent se déplacer"
+          ],
+          "answer": 0,
+          "explanation": "Patients without a good connection or digital skills « sont souvent ceux qui en auraient le plus besoin » — hence the volunteers with tablets.",
+          "band": "B2"
+        }
+      ]
+    }
+  ],
+  "reading": [
+    {
+      "id": "mk3-re01",
+      "title": "Clinique dentaire Sourire",
+      "level": "A2",
+      "kind": "notice",
+      "text": "CLINIQUE DENTAIRE SOURIRE\n\nDu lundi au jeudi : 8 h – 20 h\nVendredi : 8 h – 16 h\nSamedi : 9 h – 13 h\nDimanche : fermé\n\nUrgences : appelez le 418 555-0142.\nStationnement gratuit derrière la clinique.",
+      "translation": "SOURIRE DENTAL CLINIC\n\nMonday to Thursday: 8 am – 8 pm\nFriday: 8 am – 4 pm\nSaturday: 9 am – 1 pm\nSunday: closed\n\nEmergencies: call 418 555-0142.\nFree parking behind the clinic.",
+      "questions": [
+        {
+          "id": "mk3-re01-q1",
+          "question": "Quel jour la clinique ferme-t-elle à 16 h ?",
+          "options": [
+            "Le samedi",
+            "Le lundi",
+            "Le vendredi",
+            "Le dimanche"
+          ],
+          "answer": 2,
+          "explanation": "« Vendredi : 8 h – 16 h ». On Saturday it closes at 1 pm and it is closed on Sunday.",
+          "band": "A1"
+        }
+      ]
+    },
+    {
+      "id": "mk3-re02",
+      "title": "Message d'Amir",
+      "level": "A2",
+      "kind": "message",
+      "text": "Salut Jonas ! Mon autobus est bloqué à cause de la neige. Va à l'aréna sans moi, j'arrive vers 19 h 30. Tu peux m'acheter un chocolat chaud ? Je te rembourse ce soir. Amir",
+      "translation": "Hi Jonas! My bus is stuck because of the snow. Go to the arena without me, I'll be there around 7:30 pm. Can you buy me a hot chocolate? I'll pay you back tonight. Amir",
+      "questions": [
+        {
+          "id": "mk3-re02-q1",
+          "question": "Pourquoi Amir est-il en retard ?",
+          "options": [
+            "Il a oublié son billet",
+            "Il travaille tard",
+            "Son autobus est bloqué par la neige",
+            "Il est malade"
+          ],
+          "answer": 2,
+          "explanation": "« Mon autobus est bloqué à cause de la neige. »",
+          "band": "A1"
+        }
+      ]
+    },
+    {
+      "id": "mk3-re03",
+      "title": "Patinoire du parc des Érables",
+      "level": "A2",
+      "kind": "notice",
+      "text": "PATINOIRE DU PARC DES ÉRABLES\n\nOuverte tous les jours de 10 h à 22 h\nLocation de patins : gratuite (pièce d'identité demandée)\nCasque obligatoire pour les moins de 12 ans\nChalet chauffé avec toilettes\nInterdit : bâtons de hockey de 17 h à 22 h",
+      "translation": "PARC DES ÉRABLES SKATING RINK\n\nOpen every day from 10 am to 10 pm\nSkate rental: free (ID required)\nHelmet compulsory for under-12s\nHeated chalet with toilets\nForbidden: hockey sticks from 5 pm to 10 pm",
+      "questions": [
+        {
+          "id": "mk3-re03-q1",
+          "question": "Que faut-il pour louer des patins ?",
+          "options": [
+            "Une pièce d'identité",
+            "Cinq dollars",
+            "Un casque",
+            "Un abonnement"
+          ],
+          "answer": 0,
+          "explanation": "« Location de patins : gratuite (pièce d'identité demandée) ». The helmet is only compulsory for children under 12.",
+          "band": "A1"
+        }
+      ]
+    },
+    {
+      "id": "mk3-re04",
+      "title": "Appartement 4 ½ à louer",
+      "level": "A2",
+      "kind": "advert",
+      "text": "À LOUER – 4 ½ à Sherbrooke\n\n2 chambres, cuisine équipée, grand balcon\nChauffage et eau chaude inclus\n950 $ par mois\nLibre le 1er juillet\nAnimaux non acceptés\n\nAppelez Mme Côté au 819 555-0193, le soir après 18 h.",
+      "translation": "FOR RENT – 4½ in Sherbrooke\n\n2 bedrooms, equipped kitchen, large balcony\nHeating and hot water included\n$950 a month\nAvailable 1 July\nNo pets\n\nCall Mrs Côté on 819 555-0193, in the evening after 6 pm.",
+      "questions": [
+        {
+          "id": "mk3-re04-q1",
+          "question": "Qu'est-ce qui est inclus dans le loyer ?",
+          "options": [
+            "Le chauffage et l'eau chaude",
+            "L'électricité et Internet",
+            "Le stationnement",
+            "Les meubles"
+          ],
+          "answer": 0,
+          "explanation": "« Chauffage et eau chaude inclus ». In Québec, a « 4 ½ » is a flat with two bedrooms, a living room, a kitchen and a bathroom.",
+          "band": "A1"
+        }
+      ]
+    },
+    {
+      "id": "mk3-re05",
+      "title": "Un mot pour la gardienne",
+      "level": "A2",
+      "kind": "message",
+      "text": "Bonsoir Émilie,\n\nLes enfants ont déjà mangé. Ils peuvent regarder la télé jusqu'à 19 h 30, puis c'est le bain et le pyjama. Au lit à 20 h ! Lina a besoin de sa doudou pour dormir : elle est sur le canapé. Nous rentrons vers 23 h.\n\nMerci !\nCaroline",
+      "translation": "Good evening Émilie,\n\nThe children have already eaten. They can watch TV until 7:30 pm, then it's bath and pyjamas. In bed at 8 pm! Lina needs her cuddly toy to sleep: it's on the sofa. We'll be back around 11 pm.\n\nThanks!\nCaroline",
+      "questions": [
+        {
+          "id": "mk3-re05-q1",
+          "question": "À quelle heure les enfants doivent-ils se coucher ?",
+          "options": [
+            "À 19 h 30",
+            "À 23 h",
+            "À 20 h",
+            "À 21 h"
+          ],
+          "answer": 2,
+          "explanation": "« Au lit à 20 h ! » 7:30 pm is the end of TV time, and 11 pm is when the parents come back.",
+          "band": "A1"
+        }
+      ]
+    },
+    {
+      "id": "mk3-re06",
+      "title": "Avis de déneigement",
+      "level": "A2",
+      "kind": "notice",
+      "text": "AVIS DE DÉNEIGEMENT\n\nCe soir, de 19 h à 7 h, la ville enlève la neige dans votre rue.\nNe laissez pas votre voiture dans la rue : elle sera remorquée.\nVous pouvez vous garer gratuitement au stationnement de l'école Saint-Louis.\n\nMerci de votre collaboration !",
+      "translation": "SNOW REMOVAL NOTICE\n\nTonight, from 7 pm to 7 am, the city is removing snow from your street.\nDo not leave your car in the street: it will be towed.\nYou can park for free in the Saint-Louis school car park.\n\nThank you for your cooperation!",
+      "questions": [
+        {
+          "id": "mk3-re06-q1",
+          "question": "Où peut-on laisser sa voiture cette nuit ?",
+          "options": [
+            "Au stationnement de l'école",
+            "Dans la rue",
+            "Sur le trottoir",
+            "Au garage de l'hôtel de ville"
+          ],
+          "answer": 0,
+          "explanation": "« Vous pouvez vous garer gratuitement au stationnement de l'école Saint-Louis. » Cars left in the street will be towed.",
+          "band": "A1"
+        }
+      ]
+    },
+    {
+      "id": "mk3-re07",
+      "title": "Votre rendez-vous de vaccination",
+      "level": "A2",
+      "kind": "email",
+      "text": "Objet : Confirmation de votre rendez-vous\n\nBonjour Monsieur Okafor,\n\nVotre rendez-vous pour le vaccin contre la grippe est confirmé :\nmercredi 6 novembre, à 15 h 10\nCentre de vaccination, 250, boulevard Laurier, 2e étage\n\nN'oubliez pas votre carte d'assurance maladie. Portez un vêtement à manches courtes. Après le vaccin, vous devrez attendre 15 minutes sur place.\n\nVous ne pouvez pas venir ? Annulez votre rendez-vous en ligne pour laisser la place à quelqu'un d'autre.\n\nLe Centre de santé régional",
+      "translation": "Subject: Confirmation of your appointment\n\nHello Mr Okafor,\n\nYour appointment for the flu vaccine is confirmed:\nWednesday 6 November at 3:10 pm\nVaccination centre, 250 boulevard Laurier, 2nd floor\n\nDon't forget your health insurance card. Wear short sleeves. After the vaccine, you will have to wait 15 minutes on site.\n\nCan't come? Cancel your appointment online to leave the slot to someone else.\n\nThe Regional Health Centre",
+      "questions": [
+        {
+          "id": "mk3-re07-q1",
+          "question": "Qu'est-ce que M. Okafor doit apporter ?",
+          "options": [
+            "Son passeport",
+            "Une ordonnance du médecin",
+            "Sa carte d'assurance maladie",
+            "Un vêtement de rechange"
+          ],
+          "answer": 2,
+          "explanation": "« N'oubliez pas votre carte d'assurance maladie. » He must wear short sleeves, not bring spare clothes.",
+          "band": "A2"
+        },
+        {
+          "id": "mk3-re07-q2",
+          "question": "Que doit-il faire après le vaccin ?",
+          "options": [
+            "Rentrer directement chez lui",
+            "Rester quinze minutes sur place",
+            "Prendre un nouveau rendez-vous en ligne",
+            "Monter au troisième étage"
+          ],
+          "answer": 1,
+          "explanation": "« Après le vaccin, vous devrez attendre 15 minutes sur place. »",
+          "band": "A2"
+        }
+      ]
+    },
+    {
+      "id": "mk3-re08",
+      "title": "Salle de lavage",
+      "level": "A2",
+      "kind": "notice",
+      "text": "SALLE DE LAVAGE – RÈGLEMENT\n\n• Ouverte de 8 h à 21 h.\n• Maximum deux machines par logement à la fois.\n• Retirez votre linge dès la fin du cycle.\n• Nettoyez le filtre de la sécheuse après chaque utilisation.\n• Le linge oublié plus de 24 heures sera déposé dans le bac « Objets trouvés ».\n\nLa gestion",
+      "translation": "LAUNDRY ROOM – RULES\n\n• Open from 8 am to 9 pm.\n• Maximum two machines per flat at a time.\n• Remove your laundry as soon as the cycle ends.\n• Clean the dryer filter after each use.\n• Laundry left more than 24 hours will be put in the « Lost property » bin.\n\nThe management",
+      "questions": [
+        {
+          "id": "mk3-re08-q1",
+          "question": "Que se passe-t-il si on oublie son linge pendant deux jours ?",
+          "options": [
+            "Il est jeté à la poubelle",
+            "On doit payer une amende",
+            "Il est mis dans le bac des objets trouvés",
+            "Il est lavé une deuxième fois"
+          ],
+          "answer": 2,
+          "explanation": "« Le linge oublié plus de 24 heures sera déposé dans le bac « Objets trouvés ». » Two days is more than 24 hours.",
+          "band": "A2"
+        }
+      ]
+    },
+    {
+      "id": "mk3-re09",
+      "title": "Club de course Les Lièvres",
+      "level": "A2",
+      "kind": "advert",
+      "text": "CLUB DE COURSE LES LIÈVRES\n\nVous voulez commencer à courir ? Rejoignez-nous !\n\nGroupe débutants : mardi et jeudi à 18 h 30\nGroupe avancé : samedi à 8 h\nDépart : devant le chalet du parc Riverain\n\nPremier mois gratuit, ensuite 20 $ par mois.\nL'hiver, nous courons dehors ! Pensez aux vêtements chauds.\n\nInscription : sur place, 15 minutes avant le départ.",
+      "translation": "LES LIÈVRES RUNNING CLUB\n\nWant to start running? Join us!\n\nBeginners' group: Tuesday and Thursday at 6:30 pm\nAdvanced group: Saturday at 8 am\nStart: in front of the Parc Riverain chalet\n\nFirst month free, then $20 a month.\nIn winter, we run outdoors! Remember warm clothes.\n\nRegistration: on site, 15 minutes before the start.",
+      "questions": [
+        {
+          "id": "mk3-re09-q1",
+          "question": "Quand courent les débutants ?",
+          "options": [
+            "Le samedi matin",
+            "Tous les jours",
+            "Le mardi et le jeudi soir",
+            "Le mardi et le samedi"
+          ],
+          "answer": 2,
+          "explanation": "« Groupe débutants : mardi et jeudi à 18 h 30 ». Saturday morning is for the advanced group.",
+          "band": "A2"
+        },
+        {
+          "id": "mk3-re09-q2",
+          "question": "Comment s'inscrit-on au club ?",
+          "options": [
+            "Par téléphone",
+            "Sur place, un peu avant le départ",
+            "Sur le site Internet du club",
+            "Dans un magasin de sport"
+          ],
+          "answer": 1,
+          "explanation": "« Inscription : sur place, 15 minutes avant le départ. »",
+          "band": "A2"
+        }
+      ]
+    },
+    {
+      "id": "mk3-re10",
+      "title": "Votre succursale déménage",
+      "level": "A2",
+      "kind": "notice",
+      "text": "AVIS À NOTRE CLIENTÈLE\n\nÀ partir du 3 mars, notre succursale de la rue Principale déménage au 45, avenue des Pins, à côté de la pharmacie.\nLe guichet automatique de la rue Principale restera en service jusqu'au 31 mars.\nVos numéros de compte et vos cartes ne changent pas.\n\nPour toute question, appelez-nous au 1 800 555-0110.",
+      "translation": "NOTICE TO OUR CUSTOMERS\n\nFrom 3 March, our rue Principale branch is moving to 45 avenue des Pins, next to the pharmacy.\nThe cash machine on rue Principale will remain in service until 31 March.\nYour account numbers and cards do not change.\n\nFor any questions, call us on 1 800 555-0110.",
+      "questions": [
+        {
+          "id": "mk3-re10-q1",
+          "question": "Qu'est-ce qui change pour les clients ?",
+          "options": [
+            "Leurs numéros de compte",
+            "Leurs cartes bancaires",
+            "Le numéro de téléphone de la banque",
+            "L'adresse de la succursale"
+          ],
+          "answer": 3,
+          "explanation": "The branch « déménage au 45, avenue des Pins ». « Vos numéros de compte et vos cartes ne changent pas. »",
+          "band": "A2"
+        }
+      ]
+    },
+    {
+      "id": "mk3-re11",
+      "title": "Message de la garderie",
+      "level": "A2",
+      "kind": "email",
+      "text": "Objet : Journée pédagogique et sortie\n\nChers parents,\n\nNous vous rappelons que la garderie sera fermée le vendredi 14 février : c'est une journée de formation pour toute l'équipe.\n\nLe mercredi 19 février, nous irons glisser au parc avec les grands (4 et 5 ans). Merci d'habiller votre enfant chaudement : habit de neige, tuque, mitaines et bottes. Ajoutez une paire de mitaines de rechange dans son sac.\n\nLes plus petits resteront à la garderie ce jour-là.\n\nL'équipe des Petits Flocons",
+      "translation": "Subject: Training day and outing\n\nDear parents,\n\nWe remind you that the daycare will be closed on Friday 14 February: it is a training day for the whole team.\n\nOn Wednesday 19 February, we will go sledding in the park with the older children (4 and 5 years old). Please dress your child warmly: snowsuit, woolly hat, mittens and boots. Add a spare pair of mittens to their bag.\n\nThe youngest will stay at the daycare that day.\n\nThe Petits Flocons team",
+      "questions": [
+        {
+          "id": "mk3-re11-q1",
+          "question": "Pourquoi la garderie est-elle fermée le 14 février ?",
+          "options": [
+            "L'équipe suit une formation",
+            "C'est la Saint-Valentin",
+            "Les enfants vont au parc",
+            "Une tempête est annoncée"
+          ],
+          "answer": 0,
+          "explanation": "« C'est une journée de formation pour toute l'équipe. » The park outing is on 19 February.",
+          "band": "A2"
+        },
+        {
+          "id": "mk3-re11-q2",
+          "question": "Que doivent faire les parents des grands pour le 19 février ?",
+          "options": [
+            "Venir chercher leur enfant plus tôt",
+            "Habiller l'enfant chaudement et prévoir des mitaines en plus",
+            "Payer la sortie au parc",
+            "Garder leur enfant à la maison"
+          ],
+          "answer": 1,
+          "explanation": "« Merci d'habiller votre enfant chaudement… Ajoutez une paire de mitaines de rechange dans son sac. »",
+          "band": "A2"
+        }
+      ]
+    },
+    {
+      "id": "mk3-re12",
+      "title": "Votre nouvelle carte de débit",
+      "level": "A2",
+      "kind": "email",
+      "text": "Objet : Votre nouvelle carte est en route\n\nBonjour Madame Nguyen,\n\nVotre carte de débit expire le 30 avril. Vous allez recevoir votre nouvelle carte par la poste dans les dix prochains jours.\n\nQuand vous la recevrez, faites un premier achat avec votre NIP habituel pour l'activer. Ensuite, coupez votre ancienne carte en deux.\n\nAttention : notre banque ne vous demandera jamais votre NIP par courriel ni par téléphone. Si quelqu'un vous le demande, ne répondez pas et appelez-nous.\n\nService à la clientèle, Banque Horizon",
+      "translation": "Subject: Your new card is on its way\n\nHello Mrs Nguyen,\n\nYour debit card expires on 30 April. You will receive your new card by post in the next ten days.\n\nWhen you receive it, make a first purchase with your usual PIN to activate it. Then cut your old card in two.\n\nWarning: our bank will never ask for your PIN by email or by phone. If someone asks you for it, do not answer and call us.\n\nCustomer service, Banque Horizon",
+      "questions": [
+        {
+          "id": "mk3-re12-q1",
+          "question": "Comment Mme Nguyen doit-elle activer sa nouvelle carte ?",
+          "options": [
+            "En appelant la banque",
+            "En répondant à ce courriel",
+            "En coupant son ancienne carte",
+            "En faisant un achat avec son NIP"
+          ],
+          "answer": 3,
+          "explanation": "« Faites un premier achat avec votre NIP habituel pour l'activer. » Cutting the old card comes afterwards.",
+          "band": "A2"
+        },
+        {
+          "id": "mk3-re12-q2",
+          "question": "Que doit-elle faire si quelqu'un lui demande son NIP au téléphone ?",
+          "options": [
+            "Donner son NIP si la personne travaille à la banque",
+            "Commander une autre carte",
+            "Envoyer son NIP par courriel",
+            "Ne pas répondre et contacter sa banque"
+          ],
+          "answer": 3,
+          "explanation": "« Notre banque ne vous demandera jamais votre NIP… Si quelqu'un vous le demande, ne répondez pas et appelez-nous. »",
+          "band": "A2"
+        }
+      ]
+    },
+    {
+      "id": "mk3-re13",
+      "title": "La Popote roulante cherche des bénévoles",
+      "level": "A2",
+      "kind": "advert",
+      "text": "LA POPOTE ROULANTE CHERCHE DES BÉNÉVOLES\n\nChaque midi, nous livrons des repas chauds à des personnes âgées qui vivent seules.\n\nNous cherchons :\n• des chauffeurs avec voiture (essence remboursée) ;\n• des aides en cuisine, le matin de 9 h à 11 h.\n\nUne ou deux heures par semaine suffisent !\nPas besoin de parler parfaitement français : votre sourire compte plus que votre accent.\n\nContactez Josée au 514 555-0177.",
+      "translation": "MEALS ON WHEELS IS LOOKING FOR VOLUNTEERS\n\nEvery lunchtime, we deliver hot meals to elderly people who live alone.\n\nWe are looking for:\n• drivers with a car (fuel reimbursed);\n• kitchen helpers, in the morning from 9 to 11 am.\n\nOne or two hours a week is enough!\nNo need to speak perfect French: your smile counts more than your accent.\n\nContact Josée on 514 555-0177.",
+      "questions": [
+        {
+          "id": "mk3-re13-q1",
+          "question": "Qu'est-ce que l'organisme offre aux chauffeurs ?",
+          "options": [
+            "Le remboursement de l'essence",
+            "Un repas chaud gratuit",
+            "Un salaire à l'heure",
+            "Une voiture de service"
+          ],
+          "answer": 0,
+          "explanation": "« des chauffeurs avec voiture (essence remboursée) ». They use their own car and are volunteers, so unpaid.",
+          "band": "A2"
+        },
+        {
+          "id": "mk3-re13-q2",
+          "question": "Selon l'annonce, qu'est-ce qui compte le plus ?",
+          "options": [
+            "Parler parfaitement français",
+            "Avoir de l'expérience en cuisine",
+            "La bonne humeur des bénévoles",
+            "Être disponible tous les jours"
+          ],
+          "answer": 2,
+          "explanation": "« Votre sourire compte plus que votre accent. » One or two hours a week are enough.",
+          "band": "A2"
+        }
+      ]
+    },
+    {
+      "id": "mk3-re14",
+      "title": "Les patinoires de quartier en danger",
+      "level": "B1",
+      "kind": "article",
+      "text": "Dans beaucoup de villes québécoises, les patinoires extérieures font partie de la vie de quartier depuis des générations. Pourtant, leur saison raccourcit. Dans certains quartiers, les patinoires naturelles n'ont été ouvertes qu'une trentaine de jours l'hiver dernier, contre plus de soixante il y a quelques décennies. La cause est connue : les redoux sont de plus en plus fréquents, et une seule journée au-dessus de zéro peut abîmer une glace préparée pendant des semaines.\n\nSouvent, ce sont des bénévoles qui arrosent la glace la nuit, quand il fait le plus froid. « Il faut parfois sortir à trois heures du matin avec le boyau, raconte Gilles, retraité. Mais quand je vois les enfants patiner le lendemain, je ne regrette rien. »\n\nCertaines villes investissent dans des patinoires réfrigérées, qui restent ouvertes même par temps doux. Elles coûtent cependant très cher à construire et consomment beaucoup d'énergie. Pour de nombreux habitants, la solution idéale serait d'installer quelques patinoires réfrigérées par secteur, tout en continuant à soutenir les bénévoles.",
+      "translation": "In many Québec towns, outdoor skating rinks have been part of neighbourhood life for generations. Yet their season is getting shorter. In some neighbourhoods, natural rinks were open for only about thirty days last winter, compared with more than sixty a few decades ago. The cause is well known: mild spells are more and more frequent, and a single day above zero can damage ice that took weeks to prepare.\n\nOften, it is volunteers who water the ice at night, when it is coldest. « Sometimes you have to go out at three in the morning with the hose, » says Gilles, a retiree. « But when I see the children skating the next day, I have no regrets. »\n\nSome cities are investing in refrigerated rinks, which stay open even in mild weather. However, they are very expensive to build and use a lot of energy. For many residents, the ideal solution would be to install a few refrigerated rinks per district while continuing to support the volunteers.",
+      "questions": [
+        {
+          "id": "mk3-re14-q1",
+          "question": "Pourquoi la saison des patinoires extérieures raccourcit-elle ?",
+          "options": [
+            "Il y a de moins en moins de bénévoles",
+            "Les villes ferment les patinoires pour faire des économies",
+            "Les enfants patinent moins qu'avant",
+            "Les périodes de redoux sont plus fréquentes"
+          ],
+          "answer": 3,
+          "explanation": "« La cause est connue : les redoux sont de plus en plus fréquents. »",
+          "band": "B1"
+        },
+        {
+          "id": "mk3-re14-q2",
+          "question": "Pourquoi les bénévoles arrosent-ils la glace la nuit ?",
+          "options": [
+            "Parce qu'ils travaillent pendant la journée",
+            "Parce que la ville l'exige",
+            "Parce que l'eau coûte moins cher la nuit",
+            "Parce que c'est le moment le plus froid"
+          ],
+          "answer": 3,
+          "explanation": "They water the ice « la nuit, quand il fait le plus froid ».",
+          "band": "B1"
+        },
+        {
+          "id": "mk3-re14-q3",
+          "question": "Quel inconvénient des patinoires réfrigérées l'article mentionne-t-il ?",
+          "options": [
+            "Elles ferment par temps doux",
+            "Elles ont besoin de bénévoles la nuit",
+            "Leur glace est de moins bonne qualité",
+            "Elles coûtent cher et consomment beaucoup d'énergie"
+          ],
+          "answer": 3,
+          "explanation": "« Elles coûtent cependant très cher à construire et consomment beaucoup d'énergie. » They actually stay open in mild weather.",
+          "band": "B1"
+        }
+      ]
+    },
+    {
+      "id": "mk3-re15",
+      "title": "Lettre à la propriétaire",
+      "level": "B1",
+      "kind": "letter",
+      "text": "Madame Gauthier,\n\nJe suis locataire de l'appartement 6 au 1220, rue Fleury, depuis septembre dernier. Je vous écris au sujet d'un problème d'humidité dans la chambre. Depuis le début de l'hiver, des taches de moisissure apparaissent sur le mur extérieur, derrière le lit. J'aère tous les jours et j'ai acheté un déshumidificateur, mais les taches reviennent toujours.\n\nJe vous ai déjà téléphoné deux fois en décembre, sans réponse. Comme ma fille de trois ans dort dans cette chambre et qu'elle tousse beaucoup depuis un mois, la situation m'inquiète.\n\nJe vous demande donc de faire inspecter le mur par un spécialiste d'ici la fin du mois. Vous trouverez ci-joint des photos des taches. Sans réponse de votre part, je devrai m'adresser au Tribunal administratif du logement.\n\nVeuillez agréer, Madame, mes salutations distinguées.\n\nYasmine Haddad",
+      "translation": "Mrs Gauthier,\n\nI have been the tenant of flat 6 at 1220 rue Fleury since last September. I am writing to you about a damp problem in the bedroom. Since the beginning of winter, mould stains have been appearing on the outside wall, behind the bed. I air the room every day and I bought a dehumidifier, but the stains always come back.\n\nI have already phoned you twice in December, with no answer. As my three-year-old daughter sleeps in this room and has been coughing a lot for a month, the situation worries me.\n\nI therefore ask you to have the wall inspected by a specialist by the end of the month. Please find attached photos of the stains. Without a reply from you, I will have to turn to the Housing Tribunal.\n\nYours faithfully,\n\nYasmine Haddad",
+      "questions": [
+        {
+          "id": "mk3-re15-q1",
+          "question": "Qu'a déjà fait Yasmine pour régler le problème ?",
+          "options": [
+            "Elle a fait venir un spécialiste",
+            "Elle aère la pièce et utilise un déshumidificateur",
+            "Elle a repeint le mur",
+            "Elle a changé sa fille de chambre"
+          ],
+          "answer": 1,
+          "explanation": "« J'aère tous les jours et j'ai acheté un déshumidificateur. » She is asking the landlady to send a specialist.",
+          "band": "B1"
+        },
+        {
+          "id": "mk3-re15-q2",
+          "question": "Que fera Yasmine si la propriétaire ne répond pas ?",
+          "options": [
+            "Elle quittera l'appartement",
+            "Elle arrêtera de payer son loyer",
+            "Elle fera les réparations elle-même",
+            "Elle s'adressera au tribunal du logement"
+          ],
+          "answer": 3,
+          "explanation": "« Sans réponse de votre part, je devrai m'adresser au Tribunal administratif du logement. »",
+          "band": "B1"
+        }
+      ]
+    },
+    {
+      "id": "mk3-re16",
+      "title": "Nouvelles règles de sécurité à l'entrepôt",
+      "level": "B1",
+      "kind": "email",
+      "text": "Objet : Sécurité – changements à partir du lundi 10 février\n\nBonjour à toute l'équipe,\n\nÀ la suite des deux chutes survenues ce mois-ci, nous modifions quelques règles.\n\n1. Les chaussures de sécurité à semelle antidérapante deviennent obligatoires pour tout le personnel de l'entrepôt, y compris les employés de bureau qui s'y rendent. L'entreprise rembourse jusqu'à 150 $ sur présentation de la facture.\n2. Une courte formation sur la manipulation des charges lourdes aura lieu le jeudi 13 février. Elle est obligatoire et se déroule pendant les heures de travail.\n3. Tout incident, même sans blessure, doit être signalé à votre superviseur le jour même.\n\nNotre objectif n'est pas de vous compliquer la vie, mais que chacun rentre chez soi en bonne santé.\n\nIsabelle Morin, responsable santé et sécurité",
+      "translation": "Subject: Safety – changes from Monday 10 February\n\nHello everyone,\n\nFollowing the two falls that happened this month, we are changing a few rules.\n\n1. Safety shoes with non-slip soles become compulsory for all warehouse staff, including office employees who go there. The company reimburses up to $150 on presentation of the receipt.\n2. A short training session on handling heavy loads will take place on Thursday 13 February. It is compulsory and takes place during working hours.\n3. Any incident, even without injury, must be reported to your supervisor the same day.\n\nOur aim is not to make your life complicated, but for everyone to go home in good health.\n\nIsabelle Morin, health and safety manager",
+      "questions": [
+        {
+          "id": "mk3-re16-q1",
+          "question": "Qui doit porter des chaussures de sécurité ?",
+          "options": [
+            "Seulement les employés de l'entrepôt",
+            "Toute personne qui travaille dans l'entrepôt ou qui s'y rend",
+            "Seulement les employés qui ont suivi la formation",
+            "Seulement les employés qui sont tombés"
+          ],
+          "answer": 1,
+          "explanation": "The rule applies to « tout le personnel de l'entrepôt, y compris les employés de bureau qui s'y rendent ».",
+          "band": "B1"
+        },
+        {
+          "id": "mk3-re16-q2",
+          "question": "Que faut-il faire en cas d'incident sans blessure ?",
+          "options": [
+            "Rien, si personne n'est blessé",
+            "Le signaler au superviseur le jour même",
+            "Remplir un formulaire à la fin du mois",
+            "Suivre une nouvelle formation"
+          ],
+          "answer": 1,
+          "explanation": "« Tout incident, même sans blessure, doit être signalé à votre superviseur le jour même. »",
+          "band": "B1"
+        }
+      ]
+    },
+    {
+      "id": "mk3-re17",
+      "title": "Pensez à votre pharmacien",
+      "level": "B1",
+      "kind": "article",
+      "text": "Vous avez une petite infection, une allergie saisonnière ou besoin de renouveler une ordonnance, mais impossible d'obtenir un rendez-vous chez votre médecin avant trois semaines ? Pensez à votre pharmacien. Au Québec, les pharmaciens peuvent aujourd'hui prolonger certaines ordonnances, prescrire des traitements pour des problèmes de santé simples et même administrer des vaccins.\n\nCe service permet de désengorger les cliniques et les urgences, où beaucoup de patients se présentent pour des problèmes qui ne sont pas graves. Il ne remplace pas pour autant le médecin : si les symptômes sont inhabituels ou durent trop longtemps, le pharmacien orientera le patient vers une clinique.\n\nAttention, certains de ces services peuvent être payants selon votre assurance. Mieux vaut se renseigner au comptoir avant la consultation.",
+      "translation": "Do you have a minor infection, a seasonal allergy or need to renew a prescription, but can't get an appointment with your doctor for three weeks? Think of your pharmacist. In Québec, pharmacists can now extend certain prescriptions, prescribe treatment for simple health problems and even give vaccines.\n\nThis service helps relieve pressure on clinics and emergency departments, where many patients turn up with problems that are not serious. It does not replace the doctor, however: if the symptoms are unusual or last too long, the pharmacist will refer the patient to a clinic.\n\nPlease note that some of these services may have a charge depending on your insurance. It's best to ask at the counter before the consultation.",
+      "questions": [
+        {
+          "id": "mk3-re17-q1",
+          "question": "Selon l'article, quel est l'un des avantages de ce service ?",
+          "options": [
+            "Il remplace complètement le médecin de famille",
+            "Il est toujours gratuit",
+            "Il réduit le nombre de patients dans les cliniques et aux urgences",
+            "Il permet de traiter plus vite les problèmes graves"
+          ],
+          "answer": 2,
+          "explanation": "« Ce service permet de désengorger les cliniques et les urgences. » The article says it does not replace the doctor and may not be free.",
+          "band": "B1"
+        },
+        {
+          "id": "mk3-re17-q2",
+          "question": "Que fait le pharmacien si les symptômes sont inhabituels ?",
+          "options": [
+            "Il envoie le patient vers une clinique",
+            "Il prescrit un traitement plus fort",
+            "Il demande au patient de revenir dans trois semaines",
+            "Il appelle une ambulance"
+          ],
+          "answer": 0,
+          "explanation": "« Si les symptômes sont inhabituels ou durent trop longtemps, le pharmacien orientera le patient vers une clinique. »",
+          "band": "B1"
+        }
+      ]
+    },
+    {
+      "id": "mk3-re18",
+      "title": "La Banque de temps du quartier",
+      "level": "B1",
+      "kind": "advert",
+      "text": "LA BANQUE DE TEMPS DU QUARTIER\nÉchangez vos talents, pas votre argent !\n\nLe principe est simple : vous offrez une heure de service à un membre, et vous gagnez une heure que vous pourrez utiliser plus tard. Une heure de jardinage vaut une heure de cours de guitare, une heure d'aide pour la déclaration de revenus vaut une heure de couture : tous les services ont la même valeur.\n\nAucun échange d'argent n'est permis entre membres. Les services qui exigent un permis professionnel (électricité, plomberie, soins de santé) sont exclus pour des raisons d'assurance.\n\nL'inscription est gratuite. Une rencontre d'accueil d'une heure est obligatoire pour expliquer le fonctionnement. Prochaine rencontre : mardi 4 mars, à 19 h, au centre communautaire.",
+      "translation": "THE NEIGHBOURHOOD TIME BANK\nExchange your talents, not your money!\n\nThe principle is simple: you offer one hour of service to a member, and you earn one hour that you can use later. An hour of gardening is worth an hour of guitar lessons, an hour of help with a tax return is worth an hour of sewing: all services have the same value.\n\nNo money may be exchanged between members. Services that require a professional licence (electrical work, plumbing, health care) are excluded for insurance reasons.\n\nMembership is free. A one-hour welcome meeting is compulsory to explain how it works. Next meeting: Tuesday 4 March, 7 pm, at the community centre.",
+      "questions": [
+        {
+          "id": "mk3-re18-q1",
+          "question": "Comment fonctionnent les échanges ?",
+          "options": [
+            "Les services sont payés à petit prix",
+            "Les services professionnels valent plus d'heures",
+            "Chaque heure de service donnée permet de recevoir une heure de service",
+            "On échange des objets contre des services"
+          ],
+          "answer": 2,
+          "explanation": "« Vous offrez une heure de service… et vous gagnez une heure… tous les services ont la même valeur. » No money is exchanged.",
+          "band": "B1"
+        },
+        {
+          "id": "mk3-re18-q2",
+          "question": "Pourquoi certains services sont-ils exclus ?",
+          "options": [
+            "Parce qu'ils prennent trop de temps",
+            "Pour des raisons d'assurance",
+            "Parce que personne ne les demande",
+            "Parce qu'ils coûtent trop cher"
+          ],
+          "answer": 1,
+          "explanation": "Services requiring a professional licence « sont exclus pour des raisons d'assurance ».",
+          "band": "B1"
+        }
+      ]
+    },
+    {
+      "id": "mk3-re19",
+      "title": "Le repas en famille résiste",
+      "level": "B1",
+      "kind": "article",
+      "text": "On annonce souvent la fin du repas en famille, victime des horaires chargés, des écrans et des plats livrés. Une enquête menée auprès de deux mille familles montre pourtant une réalité plus nuancée. Près de sept familles sur dix déclarent partager le repas du soir au moins quatre fois par semaine. Ce qui a changé, c'est surtout la durée : le repas dure en moyenne vingt-cinq minutes, contre près de quarante il y a une génération.\n\nLes chercheurs observent aussi que la télévision a souvent été remplacée par les téléphones. Dans un foyer sur trois, au moins une personne consulte son écran pendant le repas. Ce sont d'ailleurs les parents, plus souvent que les enfants, qui ont du mal à s'en passer.\n\nPour les spécialistes, l'enjeu n'est pas de revenir aux longs repas d'autrefois. Même court, un repas partagé sans écran permet aux enfants de parler de leur journée et aux parents de remarquer un souci. La qualité de l'échange compte davantage que le menu ou la durée.",
+      "translation": "We often hear that the family meal is dying, a victim of busy schedules, screens and delivered meals. A survey of two thousand families, however, shows a more nuanced reality. Nearly seven families out of ten say they share the evening meal at least four times a week. What has changed is mainly the length: the meal lasts twenty-five minutes on average, compared with nearly forty a generation ago.\n\nResearchers also observe that television has often been replaced by phones. In one household out of three, at least one person looks at their screen during the meal. And it is the parents, more often than the children, who find it hard to do without.\n\nFor specialists, the point is not to go back to the long meals of the past. Even if it is short, a meal shared without screens lets children talk about their day and parents notice a worry. The quality of the conversation matters more than the menu or the length.",
+      "questions": [
+        {
+          "id": "mk3-re19-q1",
+          "question": "Selon l'enquête, qu'est-ce qui a surtout changé ?",
+          "options": [
+            "Les familles ne mangent presque plus ensemble",
+            "Le repas dure moins longtemps",
+            "Les familles mangent surtout des plats livrés",
+            "Le repas a lieu plus tard le soir"
+          ],
+          "answer": 1,
+          "explanation": "« Ce qui a changé, c'est surtout la durée » — 25 minutes instead of about 40. Seven families out of ten still eat together often.",
+          "band": "B1"
+        },
+        {
+          "id": "mk3-re19-q2",
+          "question": "Qui a le plus de mal à ne pas regarder son téléphone à table ?",
+          "options": [
+            "Les parents",
+            "Les enfants",
+            "Les adolescents",
+            "Les grands-parents"
+          ],
+          "answer": 0,
+          "explanation": "« Ce sont d'ailleurs les parents, plus souvent que les enfants, qui ont du mal à s'en passer. »",
+          "band": "B1"
+        },
+        {
+          "id": "mk3-re19-q3",
+          "question": "Quel est le message des spécialistes ?",
+          "options": [
+            "Il faut revenir aux repas de quarante minutes",
+            "Le menu est essentiel pour la santé des enfants",
+            "La qualité de la conversation compte plus que la durée du repas",
+            "Les écrans peuvent rester à table s'ils sont éteints"
+          ],
+          "answer": 2,
+          "explanation": "« L'enjeu n'est pas de revenir aux longs repas d'autrefois… La qualité de l'échange compte davantage que le menu ou la durée. »",
+          "band": "B1"
+        }
+      ]
+    },
+    {
+      "id": "mk3-re20",
+      "title": "Apprivoiser l'hiver plutôt que le subir",
+      "level": "B1",
+      "kind": "article",
+      "text": "Pendant longtemps, les villes nordiques ont traité l'hiver comme un ennemi : on déneigeait, on chauffait, et on attendait le printemps. Depuis une quinzaine d'années, une autre approche gagne du terrain. Inspirées notamment par des villes scandinaves, plusieurs municipalités canadiennes cherchent désormais à rendre l'hiver agréable plutôt qu'à le rendre simplement supportable.\n\nConcrètement, cela passe par des choix d'aménagement parfois modestes : des sentiers déneigés pour les piétons et pas seulement des rues pour les voitures, des abris contre le vent dans les parcs, un éclairage chaleureux, des festivals qui donnent une raison de sortir le soir. Certaines villes ont même modifié leur règlement pour permettre aux restaurants de garder leur terrasse ouverte toute l'année, avec des foyers extérieurs.\n\nLes défenseurs de cette approche ne prétendent pas faire disparaître le froid. Leur argument est d'abord social : l'isolement et le manque d'activité physique augmentent nettement pendant les mois sombres, surtout chez les personnes âgées et les nouveaux arrivants, qui découvrent souvent l'hiver sans en connaître les codes. Encourager les gens à sortir est donc aussi une question de santé publique. Reste un défi : ces aménagements doivent profiter à tous les quartiers, et pas seulement aux centres-villes déjà dynamiques.",
+      "translation": "For a long time, northern cities treated winter as an enemy: they cleared snow, turned up the heating and waited for spring. Over the last fifteen years or so, another approach has been gaining ground. Inspired in particular by Scandinavian cities, several Canadian municipalities now try to make winter enjoyable rather than simply bearable.\n\nIn practice, this involves sometimes modest planning choices: cleared paths for pedestrians and not just streets for cars, wind shelters in parks, warm lighting, festivals that give people a reason to go out in the evening. Some cities have even changed their by-laws to let restaurants keep their terraces open all year round, with outdoor fireplaces.\n\nSupporters of this approach do not claim they will make the cold disappear. Their argument is above all social: isolation and lack of physical activity rise sharply during the dark months, especially among older people and newcomers, who often discover winter without knowing its codes. Encouraging people to go out is therefore also a public-health issue. One challenge remains: these improvements must benefit every neighbourhood, not just city centres that are already lively.",
+      "questions": [
+        {
+          "id": "mk3-re20-q1",
+          "question": "Quelle évolution l'article décrit-il ?",
+          "options": [
+            "Des villes veulent rendre l'hiver agréable au lieu de seulement le supporter",
+            "Des villes réduisent le déneigement pour faire des économies",
+            "Les Canadiens partent de plus en plus vers le sud l'hiver",
+            "Les villes scandinaves s'inspirent des villes canadiennes"
+          ],
+          "answer": 0,
+          "explanation": "Municipalities « cherchent désormais à rendre l'hiver agréable plutôt qu'à le rendre simplement supportable ». It is Canadian cities that are inspired by Scandinavian ones, not the reverse.",
+          "band": "B2"
+        },
+        {
+          "id": "mk3-re20-q2",
+          "question": "Selon ses défenseurs, pourquoi cette approche est-elle importante ?",
+          "options": [
+            "Elle attire davantage de touristes étrangers",
+            "Elle limite l'isolement et l'inactivité pendant l'hiver",
+            "Elle permet de faire disparaître le froid",
+            "Elle augmente les revenus des restaurants"
+          ],
+          "answer": 1,
+          "explanation": "« Leur argument est d'abord social : l'isolement et le manque d'activité physique augmentent nettement pendant les mois sombres. » They explicitly do not claim to make the cold disappear.",
+          "band": "B2"
+        },
+        {
+          "id": "mk3-re20-q3",
+          "question": "Quelle réserve l'article exprime-t-il à la fin ?",
+          "options": [
+            "Ces aménagements coûtent trop cher aux villes",
+            "Ces aménagements risquent de ne profiter qu'à certains quartiers",
+            "Les personnes âgées refusent de sortir l'hiver",
+            "Les festivals d'hiver attirent trop de monde"
+          ],
+          "answer": 1,
+          "explanation": "« Reste un défi : ces aménagements doivent profiter à tous les quartiers, et pas seulement aux centres-villes déjà dynamiques. »",
+          "band": "B2"
+        }
+      ]
+    },
+    {
+      "id": "mk3-re21",
+      "title": "Vers une société sans argent liquide ?",
+      "level": "B1",
+      "kind": "article",
+      "text": "Payer un café avec son téléphone est devenu un geste banal. Dans plusieurs pays, moins d'un achat sur cinq se fait encore en espèces, et certains commerces affichent désormais « paiement par carte seulement ». Pour les commerçants, l'avantage est évident : moins de risques de vol, pas de monnaie à compter le soir, des transactions plus rapides.\n\nCette évolution inquiète pourtant plusieurs associations. Une partie de la population, en particulier des personnes âgées ou à faible revenu, n'a pas de carte bancaire ou ne maîtrise pas les applications. Les espèces sont aussi, pour beaucoup de familles, un moyen concret de contrôler leur budget : quand le portefeuille est vide, on arrête de dépenser. Enfin, une panne informatique ou une coupure d'électricité suffit à paralyser un système entièrement numérique.\n\nC'est pourquoi certains pays ont choisi d'obliger les commerces essentiels, comme les épiceries et les pharmacies, à continuer d'accepter l'argent liquide. Il ne s'agit pas de freiner le progrès, expliquent leurs gouvernements, mais de s'assurer que personne n'en soit exclu.",
+      "translation": "Paying for a coffee with your phone has become an ordinary gesture. In several countries, fewer than one purchase in five is still made in cash, and some shops now display « card payment only ». For shopkeepers, the advantage is obvious: less risk of theft, no change to count in the evening, faster transactions.\n\nThis trend worries several associations, however. Part of the population, in particular older or low-income people, has no bank card or does not know how to use the apps. For many families, cash is also a concrete way to control their budget: when the wallet is empty, you stop spending. Finally, a computer failure or a power cut is enough to paralyse an entirely digital system.\n\nThat is why some countries have chosen to require essential shops, such as grocery stores and pharmacies, to keep accepting cash. It is not about holding back progress, their governments explain, but about making sure nobody is excluded from it.",
+      "questions": [
+        {
+          "id": "mk3-re21-q1",
+          "question": "Selon l'article, pourquoi certaines familles tiennent-elles aux espèces ?",
+          "options": [
+            "Elles les aident à contrôler leurs dépenses",
+            "Elles sont plus rapides que la carte",
+            "Elles protègent contre le vol",
+            "Elles donnent droit à des réductions"
+          ],
+          "answer": 0,
+          "explanation": "« Les espèces sont aussi… un moyen concret de contrôler leur budget : quand le portefeuille est vide, on arrête de dépenser. » Speed and less theft are advantages of cards for shopkeepers.",
+          "band": "B2"
+        },
+        {
+          "id": "mk3-re21-q2",
+          "question": "Quelle est la position des pays qui obligent certains commerces à accepter les espèces ?",
+          "options": [
+            "Le paiement numérique doit être interdit",
+            "Les commerçants doivent payer plus d'impôts",
+            "L'argent liquide est plus sûr que la carte",
+            "Le progrès ne doit laisser personne de côté"
+          ],
+          "answer": 3,
+          "explanation": "« Il ne s'agit pas de freiner le progrès… mais de s'assurer que personne n'en soit exclu. »",
+          "band": "B2"
+        }
+      ]
+    },
+    {
+      "id": "mk3-re22",
+      "title": "Point de vue : le sport au bureau, une fausse bonne idée ?",
+      "level": "B1",
+      "kind": "article",
+      "text": "De plus en plus d'entreprises installent une salle de sport, offrent des cours de yoga à l'heure du dîner ou organisent des défis de pas entre équipes. L'intention est louable : les employés sédentaires bougent trop peu, et l'activité physique réduit le stress. Mais je crains que l'on confonde encouragement et pression.\n\nQuand la direction publie chaque semaine le classement des équipes les plus actives, l'employé qui souffre du dos, celui qui a de jeunes enfants et aucune minute libre, ou celle qui préfère simplement marcher seule le dimanche se retrouvent dans une position inconfortable. Le sport, qui devrait être un plaisir, devient une nouvelle performance à afficher.\n\nPlutôt que de transformer le bureau en gymnase, les employeurs feraient mieux de s'attaquer aux causes de la sédentarité et du stress : les réunions interminables, les journées trop longues, les courriels à toute heure. Donner du temps aux salariés reste la meilleure façon de leur permettre de prendre soin d'eux, comme ils le souhaitent.",
+      "translation": "More and more companies are installing a gym, offering yoga classes at lunchtime or organising step challenges between teams. The intention is commendable: sedentary employees move too little, and physical activity reduces stress. But I fear that encouragement is being confused with pressure.\n\nWhen management publishes a weekly ranking of the most active teams, the employee with back pain, the one with young children and not a minute to spare, or the one who simply prefers to walk alone on Sundays find themselves in an uncomfortable position. Sport, which should be a pleasure, becomes yet another performance to show off.\n\nRather than turning the office into a gym, employers would do better to tackle the causes of inactivity and stress: endless meetings, overly long days, emails at all hours. Giving employees time remains the best way to let them take care of themselves, as they wish.",
+      "questions": [
+        {
+          "id": "mk3-re22-q1",
+          "question": "Que reproche l'auteur à certaines initiatives sportives en entreprise ?",
+          "options": [
+            "Elles peuvent mettre les employés sous pression",
+            "Elles coûtent trop cher aux entreprises",
+            "Elles n'ont aucun effet sur le stress",
+            "Elles sont réservées aux cadres"
+          ],
+          "answer": 0,
+          "explanation": "« Je crains que l'on confonde encouragement et pression » — for example with weekly rankings. The author admits that activity reduces stress.",
+          "band": "B2"
+        },
+        {
+          "id": "mk3-re22-q2",
+          "question": "Que propose l'auteur aux employeurs ?",
+          "options": [
+            "Organiser davantage de défis entre équipes",
+            "Rendre le sport obligatoire à l'heure du dîner",
+            "Publier les classements de façon anonyme",
+            "S'attaquer à ce qui rend les journées longues et stressantes"
+          ],
+          "answer": 3,
+          "explanation": "Employers should « s'attaquer aux causes de la sédentarité et du stress : les réunions interminables, les journées trop longues, les courriels à toute heure ».",
+          "band": "B2"
+        }
+      ]
+    }
+  ],
+  "writing": [
+    {
+      "id": "mk3-wr01",
+      "title": "Un service à votre voisine",
+      "level": "A2",
+      "taskType": "message",
+      "instructions": "Task 1: write a short message to your neighbour (60–120 words). Say who you are and why you are writing, explain what you need and when, give practical details (key, how to reach you), and thank her.",
+      "promptFr": "Vous partez une semaine en voyage. Vous écrivez un message à votre voisine pour lui demander de prendre votre courrier et d'arroser vos plantes. Expliquez quand vous partez, où se trouve la clé et comment vous joindre. (60 à 120 mots)",
+      "minWords": 60,
+      "maxWords": 120,
+      "modelAnswer": "Bonjour Madame Leblanc,\n\nC'est Ana, votre voisine de l'appartement 12. Je pars voir ma famille à Vancouver du samedi 8 au samedi 15 mars, et j'ai un petit service à vous demander.\n\nPourriez-vous prendre mon courrier tous les deux ou trois jours et arroser mes plantes une fois pendant la semaine ? Elles sont devant la fenêtre du salon.\n\nSi cela vous convient, je vous apporterai la clé de l'appartement et celle de la boîte aux lettres vendredi soir. En cas de problème, vous pouvez m'écrire au 514 555-0126.\n\nMerci beaucoup ! Je vous rapporterai un petit souvenir.\n\nAna",
+      "checklist": [
+        "I greeted my neighbour and said who I am (name, flat).",
+        "I explained why I am writing and gave the dates of my trip.",
+        "I asked politely for the two services (pourriez-vous… ?).",
+        "I gave practical details: where the key is and how to contact me.",
+        "I thanked her, signed off and stayed between 60 and 120 words."
+      ]
+    },
+    {
+      "id": "mk3-wr02",
+      "title": "Mon premier hiver",
+      "level": "A2+",
+      "taskType": "description",
+      "instructions": "Task 2: write an account of an experience for your blog (120–150 words). Say when and where it happened, tell what happened using past tenses (passé composé and imparfait), and give your impressions.",
+      "promptFr": "Vous vivez au Canada depuis peu. Sur votre blog, vous racontez une journée de votre premier hiver (première tempête, première sortie dans la neige, activité d'hiver…) et vous dites ce que vous en avez pensé. (120 à 150 mots)",
+      "minWords": 120,
+      "maxWords": 150,
+      "modelAnswer": "L'hiver dernier, j'ai vécu ma première vraie tempête de neige à Québec ! Je venais d'arriver du Sénégal et je n'avais jamais vu de neige.\n\nCe matin-là, quand je me suis réveillé, tout était blanc. Il neigeait encore et il faisait moins quinze degrés. Mon collègue Jean-François m'a téléphoné : « Le bureau est fermé, viens faire de la raquette avec nous ! » J'ai mis tous mes vêtements chauds, mais j'avais quand même froid aux pieds.\n\nNous avons marché pendant deux heures dans un grand parc. Au début, je tombais souvent et tout le monde riait, moi aussi ! Ensuite, nous sommes allés dans un petit chalet et nous avons bu un chocolat chaud près du feu.\n\nCette journée m'a vraiment plu. J'ai compris que l'hiver n'est pas seulement difficile : il peut aussi être magnifique, à condition d'avoir de bonnes bottes !",
+      "checklist": [
+        "I said what the experience was, when and where it took place.",
+        "I used the imparfait for background and descriptions (il neigeait, j'avais froid).",
+        "I used the passé composé for the main events (j'ai mis, nous avons marché).",
+        "I gave my feelings and an overall opinion of the day.",
+        "I used time markers (ce matin-là, au début, ensuite) and stayed between 120 and 150 words."
+      ]
+    },
+    {
+      "id": "mk3-wr03",
+      "title": "L'argent de poche, bonne idée ?",
+      "level": "B1",
+      "taskType": "opinion",
+      "instructions": "Task 3: read the two documents, which give opposing views. Compare the two points of view, then give and justify your own opinion (120–180 words).",
+      "promptFr": "Un site pour les parents publie ces deux témoignages sur le thème « Faut-il donner de l'argent de poche aux enfants ? ». Vous écrivez sur le forum du site : vous comparez les deux points de vue, puis vous donnez votre opinion en la justifiant. (120 à 180 mots)",
+      "minWords": 120,
+      "maxWords": 180,
+      "documents": [
+        {
+          "title": "Document 1 – « Une vraie école de la gestion »",
+          "text": "Depuis l'âge de huit ans, nos deux filles reçoivent dix dollars par semaine. Elles décident seules comment les dépenser. Au début, elles ont tout dépensé en bonbons ! Puis elles ont appris à économiser pour s'acheter un livre ou un jeu. Pour moi, l'argent de poche apprend aux enfants la valeur des choses et la patience. (Nathalie, mère de deux enfants)"
+        },
+        {
+          "title": "Document 2 – « L'argent, ça se mérite »",
+          "text": "Chez nous, il n'y a pas d'argent de poche « gratuit ». Si notre fils veut de l'argent, il peut laver la voiture ou tondre la pelouse du voisin. Je veux qu'il comprenne que l'argent vient du travail. Donner de l'argent sans rien demander en échange, c'est préparer des adultes qui attendent tout des autres. (Karim, père d'un garçon de douze ans)"
+        }
+      ],
+      "modelAnswer": "Ces deux témoignages montrent deux façons très différentes de parler d'argent aux enfants.\n\nD'un côté, Nathalie donne une somme fixe chaque semaine à ses filles et les laisse libres de la dépenser. Selon elle, c'est en faisant des erreurs qu'elles ont appris à économiser. De l'autre, Karim refuse de donner de l'argent sans contrepartie : son fils doit rendre des services pour en gagner. Alors que Nathalie insiste sur l'autonomie, Karim met l'accent sur la valeur du travail.\n\nPersonnellement, je suis plutôt d'accord avec Nathalie. En effet, un enfant qui gère une petite somme apprend tôt à faire des choix et à attendre avant d'acheter. De plus, aider à la maison fait partie de la vie de famille : à mon avis, on ne devrait pas être payé pour ranger sa chambre. Cependant, l'idée de Karim me semble intéressante pour les adolescents, qui peuvent gagner un peu plus en travaillant pour des voisins.\n\nEn conclusion, l'argent de poche est utile, à condition que les parents l'accompagnent de conseils.",
+      "checklist": [
+        "I summarised each document's point of view in my own words, without copying whole sentences.",
+        "I compared the two views with connectors (d'un côté, de l'autre, alors que).",
+        "I gave my own opinion clearly and justified it with at least two arguments.",
+        "I acknowledged the other side (cependant…) before concluding.",
+        "I wrote a conclusion (en conclusion…) and stayed between 120 and 180 words."
+      ]
+    }
+  ],
+  "speaking": [
+    {
+      "id": "mk3-sp01",
+      "title": "Votre quotidien",
+      "level": "A2",
+      "taskType": "entretien",
+      "instructions": "Task 1 (2 minutes, no preparation): guided interview. The examiner asks you questions about yourself and your daily life: answer in full sentences and add details.",
+      "promptFr": "Parlez de votre quotidien : votre logement et votre quartier, votre journée type, ce que vous faites le week-end et vos projets pour les prochains mois.",
+      "prepSeconds": 0,
+      "speakSeconds": 120,
+      "modelAnswer": "Bonjour ! Je m'appelle Diego, j'ai vingt-neuf ans et je suis colombien. J'habite à Bogotá, dans un petit appartement près de mon travail, avec ma femme, Paula.\n\nJe suis technicien informatique dans une banque. En semaine, je me lève à six heures, je prends le bus et je commence à huit heures. Le soir, après le travail, je suis des cours de français en ligne, environ une heure par jour.\n\nLe week-end, nous allons au marché le samedi matin, et le dimanche, je joue au football avec des amis. Mon quartier est très animé : il y a beaucoup de cafés et un grand parc.\n\nL'année prochaine, nous voulons nous installer au Canada, à Québec. Paula est infirmière et moi, j'aimerais continuer dans l'informatique. Avant de partir, je dois encore améliorer mon français et, surtout, acheter un très bon manteau !",
+      "tips": [
+        "Cover several areas: home and neighbourhood, a typical day, weekends and plans.",
+        "Use time expressions to structure your day: le matin, ensuite, le soir, le week-end.",
+        "Use different tenses: present for habits, futur proche or conditionnel for plans (nous allons…, j'aimerais…).",
+        "Give reasons and details instead of one-word answers; ask « Pouvez-vous répéter ? » if needed."
+      ]
+    },
+    {
+      "id": "mk3-sp02",
+      "title": "Louer un appartement à Québec",
+      "level": "A2+",
+      "taskType": "interaction",
+      "instructions": "Task 2 (2 minutes' preparation, then 3 minutes 30): interaction. The examiner plays the owner of the flat. You ask the questions to get all the information you need, and react to the answers.",
+      "promptFr": "Vous allez vous installer à Québec et vous avez vu une annonce pour un appartement. Vous téléphonez au propriétaire pour vous renseigner : loyer, ce qui est inclus, date de disponibilité, durée du bail, animaux, stationnement, transports. L'examinateur joue le rôle du propriétaire.",
+      "prepSeconds": 120,
+      "speakSeconds": 210,
+      "modelAnswer": "Bonjour, monsieur. J'appelle au sujet de l'annonce pour l'appartement de la rue Cartier. Est-ce qu'il est toujours disponible ?\n\nParfait. Combien coûte le loyer par mois ? … Et qu'est-ce qui est inclus ? Le chauffage, l'électricité, Internet ? … Ah, l'électricité n'est pas incluse. Combien ça coûte environ en hiver ?\n\nÀ partir de quelle date l'appartement est-il libre ? … Le premier juillet, très bien. Et le bail, c'est pour un an ?\n\nJ'ai un petit chat très calme. Est-ce que les animaux sont acceptés ? … D'accord, je comprends.\n\nEst-ce qu'il y a un stationnement ? Je n'ai pas encore de voiture, mais j'en achèterai peut-être une. … Et l'hiver, qui s'occupe du déneigement ?\n\nPour aller au centre-ville, il y a un arrêt d'autobus près de l'immeuble ? … Super, c'est pratique.\n\nQuels documents dois-je vous fournir pour louer l'appartement ? … Très bien.\n\nEst-ce que je pourrais visiter l'appartement samedi matin ? … Parfait, alors à samedi, dix heures. Merci beaucoup, au revoir !",
+      "tips": [
+        "Use your 2 minutes to list the topics: price, what's included, date, lease, pets, parking, transport, documents.",
+        "Vary your questions: est-ce que…, combien…, quel / quelle…, à partir de quand…, inversion (Pourriez-vous… ?).",
+        "Use polite forms: je voudrais, j'aimerais savoir, est-ce que je pourrais.",
+        "React to each answer (très bien, ah, c'est dommage, c'est pratique) and ask a follow-up question.",
+        "End naturally: arrange a visit, thank the owner and say goodbye."
+      ]
+    },
+    {
+      "id": "mk3-sp03",
+      "title": "Le bénévolat obligatoire à l'école ?",
+      "level": "B1",
+      "taskType": "opinion",
+      "instructions": "Task 3 (4 minutes 30, no preparation): give and justify your opinion on the statement. Organise your ideas, give examples, and consider the opposite view.",
+      "promptFr": "« Tous les élèves du secondaire devraient faire des heures de bénévolat obligatoires pour obtenir leur diplôme. » Qu'en pensez-vous ?",
+      "prepSeconds": 0,
+      "speakSeconds": 270,
+      "modelAnswer": "C'est un sujet qui me touche, parce que j'ai fait du bénévolat moi-même. Globalement, je suis plutôt favorable à cette idée, mais avec quelques conditions.\n\nD'abord, le bénévolat permet aux jeunes de découvrir des réalités qu'ils ne connaissent pas. Un adolescent qui aide dans une banque alimentaire ou qui lit des livres à des personnes âgées comprend mieux les difficultés des autres. Quand j'avais seize ans, j'ai aidé des enfants à faire leurs devoirs, et ça m'a beaucoup appris.\n\nEnsuite, c'est une première expérience utile pour l'avenir. Les jeunes apprennent à être à l'heure, à travailler en équipe, et ils peuvent même découvrir un métier. Sur un CV, c'est aussi un vrai plus.\n\nCependant, je comprends les personnes qui ne sont pas d'accord. Certains élèves travaillent déjà le soir pour aider leur famille, et d'autres ont beaucoup de devoirs. De plus, on peut se demander si un bénévolat obligatoire est encore du bénévolat.\n\nC'est pourquoi je pense qu'il faudrait un nombre d'heures raisonnable, par exemple vingt heures sur toute l'année, et laisser les élèves choisir leur organisme. Il faudrait aussi que l'école les aide à trouver une activité près de chez eux.\n\nPour conclure, je pense que ce serait une bonne mesure, à condition qu'elle reste souple et qu'elle donne vraiment envie aux jeunes de s'engager.",
+      "tips": [
+        "There is no preparation time: rephrase the statement first and say clearly whether you agree.",
+        "Announce and organise your arguments: d'abord, ensuite, cependant, pour conclure.",
+        "Give a concrete example from your own experience (quand j'avais seize ans…).",
+        "Acknowledge the opposite view (je comprends les personnes qui…) and propose a compromise.",
+        "Use the conditional to make proposals (il faudrait, ce serait) and « à condition que » + subjunctive."
+      ]
+    }
+  ]
+}

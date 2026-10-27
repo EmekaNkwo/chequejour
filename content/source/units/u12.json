@@ -1,0 +1,2188 @@
+{
+  "id": "u12",
+  "order": 18,
+  "level": "B1",
+  "theme": "Media and information",
+  "titleFr": "Médias et information",
+  "description": "Newspapers, radio, TV, social media and fake news. Grammar: reporting what people say and ask with a present-tense reporting verb (il dit que, elle demande si, ce que, de + infinitive).",
+  "vocab": [
+    {
+      "id": "u12-w001",
+      "fr": "actualité",
+      "en": "current events, the news (often plural)",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "actualités",
+      "level": "A2+",
+      "core": true,
+      "example": {
+        "fr": "Je suis l'actualité internationale tous les matins à la radio.",
+        "en": "I follow international news every morning on the radio."
+      }
+    },
+    {
+      "id": "u12-w002",
+      "fr": "journal",
+      "en": "newspaper; news bulletin",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "journaux",
+      "level": "A2",
+      "core": true,
+      "example": {
+        "fr": "Mon grand-père lit encore le journal papier au petit déjeuner.",
+        "en": "My grandfather still reads the print newspaper at breakfast."
+      }
+    },
+    {
+      "id": "u12-w003",
+      "fr": "article",
+      "en": "article",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "articles",
+      "level": "A2",
+      "core": true,
+      "example": {
+        "fr": "Cet article explique pourquoi les loyers augmentent.",
+        "en": "This article explains why rents are going up."
+      }
+    },
+    {
+      "id": "u12-w004",
+      "fr": "journaliste",
+      "en": "journalist",
+      "pos": "noun",
+      "gender": "mf",
+      "plural": "journalistes",
+      "level": "A2",
+      "core": true,
+      "example": {
+        "fr": "La journaliste dit qu'elle a passé trois mois sur cette enquête.",
+        "en": "The journalist says she spent three months on this investigation."
+      }
+    },
+    {
+      "id": "u12-w005",
+      "fr": "presse",
+      "en": "the press",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "presses",
+      "level": "A2+",
+      "core": true,
+      "example": {
+        "fr": "La presse régionale reste très lue au Québec.",
+        "en": "The regional press is still widely read in Québec."
+      }
+    },
+    {
+      "id": "u12-w006",
+      "fr": "média",
+      "en": "medium; (plural) the media",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "médias",
+      "level": "A2+",
+      "core": true,
+      "example": {
+        "fr": "Tous les médias parlent de cette élection.",
+        "en": "All the media are talking about this election."
+      }
+    },
+    {
+      "id": "u12-w007",
+      "fr": "réseau social",
+      "en": "social network, social media platform",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "réseaux sociaux",
+      "level": "A2+",
+      "core": true,
+      "example": {
+        "fr": "Elle passe deux heures par jour sur les réseaux sociaux.",
+        "en": "She spends two hours a day on social media."
+      }
+    },
+    {
+      "id": "u12-w008",
+      "fr": "titre",
+      "en": "headline, title",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "titres",
+      "level": "A2",
+      "core": true,
+      "example": {
+        "fr": "Le titre de l'article est plus alarmant que son contenu.",
+        "en": "The article's headline is more alarming than its content."
+      }
+    },
+    {
+      "id": "u12-w009",
+      "fr": "source",
+      "en": "source",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "sources",
+      "level": "B1",
+      "core": true,
+      "example": {
+        "fr": "Un bon journaliste vérifie toujours ses sources.",
+        "en": "A good journalist always checks their sources."
+      }
+    },
+    {
+      "id": "u12-w010",
+      "fr": "fausse information",
+      "en": "piece of fake news, false information",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "fausses informations",
+      "level": "B1",
+      "core": true,
+      "example": {
+        "fr": "Cette fausse information a été partagée des milliers de fois.",
+        "en": "This piece of fake news was shared thousands of times."
+      }
+    },
+    {
+      "id": "u12-w011",
+      "fr": "émission",
+      "en": "(TV or radio) programme, show",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "émissions",
+      "level": "A2+",
+      "core": true,
+      "example": {
+        "fr": "Cette émission de radio invite chaque semaine un scientifique.",
+        "en": "This radio programme invites a scientist every week."
+      }
+    },
+    {
+      "id": "u12-w012",
+      "fr": "chaîne",
+      "en": "(TV) channel",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "chaînes",
+      "level": "A2",
+      "core": true,
+      "example": {
+        "fr": "Sur quelle chaîne passe le match ce soir ?",
+        "en": "Which channel is the match on tonight?"
+      }
+    },
+    {
+      "id": "u12-w013",
+      "fr": "lecteur",
+      "en": "reader (f: lectrice)",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "lecteurs",
+      "level": "A2+",
+      "core": true,
+      "example": {
+        "fr": "Beaucoup de lecteurs ont écrit au journal après cet article.",
+        "en": "Many readers wrote to the newspaper after this article."
+      }
+    },
+    {
+      "id": "u12-w014",
+      "fr": "interview",
+      "en": "interview (in the media)",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "interviews",
+      "level": "A2+",
+      "core": true,
+      "example": {
+        "fr": "Dans son interview, la chanteuse dit qu'elle prépare un nouvel album.",
+        "en": "In her interview, the singer says she's preparing a new album."
+      }
+    },
+    {
+      "id": "u12-w015",
+      "fr": "annoncer",
+      "en": "to announce",
+      "pos": "verb",
+      "level": "A2+",
+      "core": true,
+      "example": {
+        "fr": "Le gouvernement annonce que les impôts vont baisser.",
+        "en": "The government announces that taxes are going to fall."
+      }
+    },
+    {
+      "id": "u12-w016",
+      "fr": "affirmer",
+      "en": "to state, to claim, to assert",
+      "pos": "verb",
+      "level": "B1",
+      "core": true,
+      "example": {
+        "fr": "Le ministre affirme qu'il n'était pas au courant.",
+        "en": "The minister claims he didn't know about it."
+      }
+    },
+    {
+      "id": "u12-w017",
+      "fr": "déclarer",
+      "en": "to declare, to state (officially)",
+      "pos": "verb",
+      "level": "B1",
+      "core": true,
+      "example": {
+        "fr": "Le maire déclare que la piscine restera ouverte cet été.",
+        "en": "The mayor states that the swimming pool will stay open this summer."
+      }
+    },
+    {
+      "id": "u12-w018",
+      "fr": "préciser",
+      "en": "to specify, to add (a detail)",
+      "pos": "verb",
+      "level": "B1",
+      "core": true,
+      "example": {
+        "fr": "La police précise que personne n'a été blessé.",
+        "en": "The police add that nobody was injured."
+      }
+    },
+    {
+      "id": "u12-w019",
+      "fr": "s'informer",
+      "en": "to keep informed, to get the news",
+      "pos": "verb",
+      "level": "B1",
+      "core": true,
+      "example": {
+        "fr": "Je m'informe surtout grâce aux podcasts.",
+        "en": "I get most of my news from podcasts."
+      }
+    },
+    {
+      "id": "u12-w020",
+      "fr": "selon",
+      "en": "according to",
+      "pos": "preposition",
+      "level": "A2+",
+      "core": true,
+      "example": {
+        "fr": "Selon le journal, la grève va durer toute la semaine.",
+        "en": "According to the newspaper, the strike will last all week."
+      }
+    },
+    {
+      "id": "u12-w021",
+      "fr": "information",
+      "en": "piece of news, information (informal: info)",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "informations",
+      "level": "A2",
+      "core": false,
+      "example": {
+        "fr": "J'ai entendu cette information aux infos de midi.",
+        "en": "I heard this piece of news on the midday news."
+      }
+    },
+    {
+      "id": "u12-w022",
+      "fr": "rédaction",
+      "en": "editorial team, newsroom",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "rédactions",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "La rédaction se réunit tous les matins à neuf heures.",
+        "en": "The editorial team meets every morning at nine."
+      }
+    },
+    {
+      "id": "u12-w023",
+      "fr": "rédacteur en chef",
+      "en": "editor-in-chief (f: rédactrice en chef)",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "rédacteurs en chef",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Le rédacteur en chef décide quels sujets seront à la une.",
+        "en": "The editor-in-chief decides which stories will be on the front page."
+      }
+    },
+    {
+      "id": "u12-w024",
+      "fr": "reportage",
+      "en": "report, documentary feature",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "reportages",
+      "level": "A2+",
+      "core": false,
+      "example": {
+        "fr": "J'ai vu un reportage passionnant sur les pêcheurs bretons.",
+        "en": "I saw a fascinating report on Breton fishermen."
+      }
+    },
+    {
+      "id": "u12-w025",
+      "fr": "envoyé spécial",
+      "en": "special correspondent (f: envoyée spéciale)",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "envoyés spéciaux",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Notre envoyé spécial nous explique que la situation est calme ce soir.",
+        "en": "Our special correspondent tells us that the situation is calm tonight."
+      }
+    },
+    {
+      "id": "u12-w026",
+      "fr": "correspondant",
+      "en": "correspondent (f: correspondante)",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "correspondants",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Elle est correspondante à Bruxelles pour une radio française.",
+        "en": "She is the Brussels correspondent for a French radio station."
+      }
+    },
+    {
+      "id": "u12-w027",
+      "fr": "présentateur",
+      "en": "presenter, newsreader (f: présentatrice)",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "présentateurs",
+      "level": "A2+",
+      "core": false,
+      "example": {
+        "fr": "Le présentateur du journal télévisé a l'air fatigué ce soir.",
+        "en": "The TV newsreader looks tired tonight."
+      }
+    },
+    {
+      "id": "u12-w028",
+      "fr": "animateur",
+      "en": "host (of a show) (f: animatrice)",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "animateurs",
+      "level": "A2+",
+      "core": false,
+      "example": {
+        "fr": "L'animatrice demande aux auditeurs ce qu'ils pensent du nouveau règlement.",
+        "en": "The host asks listeners what they think of the new rules."
+      }
+    },
+    {
+      "id": "u12-w029",
+      "fr": "auditeur",
+      "en": "listener (f: auditrice)",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "auditeurs",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Les auditeurs peuvent appeler la radio pour donner leur avis.",
+        "en": "Listeners can call the radio station to give their opinion."
+      }
+    },
+    {
+      "id": "u12-w030",
+      "fr": "téléspectateur",
+      "en": "(TV) viewer (f: téléspectatrice)",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "téléspectateurs",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Plus de cinq millions de téléspectateurs ont regardé le débat.",
+        "en": "More than five million viewers watched the debate."
+      }
+    },
+    {
+      "id": "u12-w031",
+      "fr": "abonné",
+      "en": "subscriber, follower (f: abonnée)",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "abonnés",
+      "level": "A2+",
+      "core": false,
+      "example": {
+        "fr": "Sa chaîne de cuisine compte deux cent mille abonnés.",
+        "en": "Her cooking channel has two hundred thousand subscribers."
+      }
+    },
+    {
+      "id": "u12-w032",
+      "fr": "kiosque",
+      "en": "newsstand, news kiosk",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "kiosques",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "On trouve ce magazine dans tous les kiosques.",
+        "en": "You can find this magazine at every newsstand."
+      }
+    },
+    {
+      "id": "u12-w033",
+      "fr": "quotidien",
+      "en": "daily newspaper",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "quotidiens",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Ce quotidien sort tous les jours sauf le dimanche.",
+        "en": "This daily comes out every day except Sunday."
+      }
+    },
+    {
+      "id": "u12-w034",
+      "fr": "hebdomadaire",
+      "en": "weekly (magazine or paper)",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "hebdomadaires",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Il lit un hebdomadaire d'économie chaque vendredi.",
+        "en": "He reads a weekly business magazine every Friday."
+      }
+    },
+    {
+      "id": "u12-w035",
+      "fr": "magazine",
+      "en": "magazine",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "magazines",
+      "level": "A2",
+      "core": false,
+      "example": {
+        "fr": "Dans la salle d'attente, il y a de vieux magazines.",
+        "en": "There are old magazines in the waiting room."
+      }
+    },
+    {
+      "id": "u12-w036",
+      "fr": "à la une",
+      "en": "on the front page, in the headlines",
+      "pos": "expression",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "L'incendie de la cathédrale était à la une de tous les journaux.",
+        "en": "The cathedral fire was on the front page of every newspaper."
+      }
+    },
+    {
+      "id": "u12-w037",
+      "fr": "gros titre",
+      "en": "headline (in large print)",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "gros titres",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Beaucoup de gens lisent seulement les gros titres.",
+        "en": "Many people only read the headlines."
+      }
+    },
+    {
+      "id": "u12-w038",
+      "fr": "édition",
+      "en": "edition",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "éditions",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Vous trouverez l'interview complète dans notre édition de dimanche.",
+        "en": "You'll find the full interview in our Sunday edition."
+      }
+    },
+    {
+      "id": "u12-w039",
+      "fr": "dépêche",
+      "en": "news wire, dispatch",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "dépêches",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Selon une dépêche reçue à midi, l'accord a été signé.",
+        "en": "According to a dispatch received at noon, the agreement has been signed."
+      }
+    },
+    {
+      "id": "u12-w040",
+      "fr": "en direct",
+      "en": "live (broadcast)",
+      "pos": "expression",
+      "level": "A2+",
+      "core": false,
+      "example": {
+        "fr": "La cérémonie est retransmise en direct à la télévision.",
+        "en": "The ceremony is being broadcast live on television."
+      }
+    },
+    {
+      "id": "u12-w041",
+      "fr": "journal télévisé",
+      "en": "TV news",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "journaux télévisés",
+      "level": "A2+",
+      "core": false,
+      "example": {
+        "fr": "Chez mes parents, on regarde le journal télévisé pendant le dîner.",
+        "en": "At my parents' house, we watch the TV news during dinner."
+      }
+    },
+    {
+      "id": "u12-w042",
+      "fr": "flash info",
+      "en": "news flash, short news bulletin",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "flashs info",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "La radio diffuse un flash info toutes les demi-heures.",
+        "en": "The radio station broadcasts a news flash every half hour."
+      }
+    },
+    {
+      "id": "u12-w043",
+      "fr": "podcast",
+      "en": "podcast",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "podcasts",
+      "level": "A2",
+      "core": false,
+      "example": {
+        "fr": "J'écoute un podcast d'histoire dans le métro.",
+        "en": "I listen to a history podcast on the metro."
+      }
+    },
+    {
+      "id": "u12-w044",
+      "fr": "publication",
+      "en": "post (online); publication",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "publications",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Sa dernière publication a reçu des centaines de commentaires.",
+        "en": "Her latest post got hundreds of comments."
+      }
+    },
+    {
+      "id": "u12-w045",
+      "fr": "publier",
+      "en": "to publish, to post",
+      "pos": "verb",
+      "level": "A2+",
+      "core": false,
+      "example": {
+        "fr": "Le journal a publié une lettre ouverte de cent médecins.",
+        "en": "The newspaper published an open letter from a hundred doctors."
+      }
+    },
+    {
+      "id": "u12-w046",
+      "fr": "internaute",
+      "en": "internet user",
+      "pos": "noun",
+      "gender": "mf",
+      "plural": "internautes",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "De nombreux internautes ont signalé la vidéo.",
+        "en": "Many internet users reported the video."
+      }
+    },
+    {
+      "id": "u12-w047",
+      "fr": "commenter",
+      "en": "to comment (on)",
+      "pos": "verb",
+      "level": "A2+",
+      "core": false,
+      "example": {
+        "fr": "Des milliers d'internautes ont commenté la décision.",
+        "en": "Thousands of internet users commented on the decision."
+      }
+    },
+    {
+      "id": "u12-w048",
+      "fr": "relayer",
+      "en": "to pass on, to spread (news)",
+      "pos": "verb",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Plusieurs sites ont relayé la rumeur sans la vérifier.",
+        "en": "Several websites passed on the rumour without checking it."
+      }
+    },
+    {
+      "id": "u12-w049",
+      "fr": "diffuser",
+      "en": "to broadcast, to air",
+      "pos": "verb",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Le film sera diffusé dimanche soir sur une chaîne publique.",
+        "en": "The film will be broadcast on Sunday evening on a public channel."
+      }
+    },
+    {
+      "id": "u12-w050",
+      "fr": "démentir",
+      "en": "to deny (a report), to refute",
+      "pos": "verb",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "L'entreprise dément les rumeurs de fermeture.",
+        "en": "The company denies the rumours that it will close."
+      }
+    },
+    {
+      "id": "u12-w051",
+      "fr": "nier",
+      "en": "to deny",
+      "pos": "verb",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Le suspect nie avoir été sur place ce soir-là.",
+        "en": "The suspect denies being at the scene that night."
+      }
+    },
+    {
+      "id": "u12-w052",
+      "fr": "révéler",
+      "en": "to reveal",
+      "pos": "verb",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "L'enquête révèle que l'usine polluait la rivière depuis des années.",
+        "en": "The investigation reveals that the factory had been polluting the river for years."
+      }
+    },
+    {
+      "id": "u12-w053",
+      "fr": "confirmer",
+      "en": "to confirm",
+      "pos": "verb",
+      "level": "A2+",
+      "core": false,
+      "example": {
+        "fr": "La Ville confirme que le concert aura bien lieu.",
+        "en": "The town hall confirms that the concert will go ahead."
+      }
+    },
+    {
+      "id": "u12-w054",
+      "fr": "avouer",
+      "en": "to admit, to confess",
+      "pos": "verb",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "L'acteur avoue qu'il a eu très peur avant la première.",
+        "en": "The actor admits that he was very scared before the premiere."
+      }
+    },
+    {
+      "id": "u12-w055",
+      "fr": "assurer",
+      "en": "to assure, to insist (that)",
+      "pos": "verb",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Le directeur assure que les salariés seront informés.",
+        "en": "The director insists that the employees will be kept informed."
+      }
+    },
+    {
+      "id": "u12-w056",
+      "fr": "rapporter",
+      "en": "to report, to relate",
+      "pos": "verb",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Le journaliste rapporte les propos du président mot pour mot.",
+        "en": "The journalist reports the president's words word for word."
+      }
+    },
+    {
+      "id": "u12-w057",
+      "fr": "répéter",
+      "en": "to repeat",
+      "pos": "verb",
+      "level": "A2",
+      "core": false,
+      "example": {
+        "fr": "Elle répète qu'elle n'a rien à cacher.",
+        "en": "She repeats that she has nothing to hide."
+      }
+    },
+    {
+      "id": "u12-w058",
+      "fr": "recommander",
+      "en": "to recommend, to advise",
+      "pos": "verb",
+      "level": "A2+",
+      "core": false,
+      "example": {
+        "fr": "Les médecins recommandent de limiter le temps d'écran des enfants.",
+        "en": "Doctors recommend limiting children's screen time."
+      }
+    },
+    {
+      "id": "u12-w059",
+      "fr": "ordonner",
+      "en": "to order",
+      "pos": "verb",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Le juge ordonne au site de retirer la vidéo.",
+        "en": "The judge orders the website to take down the video."
+      }
+    },
+    {
+      "id": "u12-w060",
+      "fr": "interdire",
+      "en": "to forbid, to ban",
+      "pos": "verb",
+      "level": "A2+",
+      "core": false,
+      "example": {
+        "fr": "Le règlement interdit aux élèves d'utiliser leur téléphone en classe.",
+        "en": "The rules forbid pupils to use their phones in class."
+      }
+    },
+    {
+      "id": "u12-w061",
+      "fr": "ajouter",
+      "en": "to add",
+      "pos": "verb",
+      "level": "A2+",
+      "core": false,
+      "example": {
+        "fr": "« Et ce n'est pas fini », ajoute la présentatrice.",
+        "en": "'And that's not all,' the presenter adds."
+      }
+    },
+    {
+      "id": "u12-w062",
+      "fr": "avertir",
+      "en": "to warn",
+      "pos": "verb",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "La police avertit les habitants que des escrocs se font passer pour des agents.",
+        "en": "The police warn residents that scammers are posing as officials."
+      }
+    },
+    {
+      "id": "u12-w063",
+      "fr": "témoin",
+      "en": "witness",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "témoins",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Un témoin raconte qu'il a entendu une explosion.",
+        "en": "A witness says he heard an explosion."
+      }
+    },
+    {
+      "id": "u12-w064",
+      "fr": "témoignage",
+      "en": "testimony, first-hand account",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "témoignages",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Le reportage est construit autour de témoignages d'infirmières.",
+        "en": "The report is built around nurses' first-hand accounts."
+      }
+    },
+    {
+      "id": "u12-w065",
+      "fr": "enquête",
+      "en": "investigation; survey",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "enquêtes",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Cette enquête a duré deux ans et a révélé un scandale.",
+        "en": "This investigation lasted two years and uncovered a scandal."
+      }
+    },
+    {
+      "id": "u12-w066",
+      "fr": "audience",
+      "en": "audience figures, ratings",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "audiences",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "L'audience de l'émission a doublé en un an.",
+        "en": "The programme's ratings doubled in a year."
+      }
+    },
+    {
+      "id": "u12-w067",
+      "fr": "rumeur",
+      "en": "rumour",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "rumeurs",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Une rumeur dit que le stade va être vendu.",
+        "en": "There's a rumour that the stadium is going to be sold."
+      }
+    },
+    {
+      "id": "u12-w068",
+      "fr": "scandale",
+      "en": "scandal",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "scandales",
+      "level": "A2+",
+      "core": false,
+      "example": {
+        "fr": "Le scandale a fait la une pendant des semaines.",
+        "en": "The scandal was front-page news for weeks."
+      }
+    },
+    {
+      "id": "u12-w069",
+      "fr": "censure",
+      "en": "censorship",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "censures",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Dans certains pays, la censure empêche les journalistes de travailler.",
+        "en": "In some countries, censorship prevents journalists from working."
+      }
+    },
+    {
+      "id": "u12-w070",
+      "fr": "liberté de la presse",
+      "en": "freedom of the press",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "La liberté de la presse est un pilier de la démocratie.",
+        "en": "Freedom of the press is a pillar of democracy."
+      }
+    },
+    {
+      "id": "u12-w071",
+      "fr": "partial / partiale",
+      "en": "biased, partial",
+      "pos": "adjective",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Ce reportage est partial : il ne donne la parole qu'à un seul camp.",
+        "en": "This report is biased: it only lets one side speak."
+      }
+    },
+    {
+      "id": "u12-w072",
+      "fr": "fiable",
+      "en": "reliable, trustworthy",
+      "pos": "adjective",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Ce site n'est pas fiable : il ne cite jamais ses sources.",
+        "en": "This website isn't reliable: it never cites its sources."
+      }
+    },
+    {
+      "id": "u12-w073",
+      "fr": "neutre",
+      "en": "neutral",
+      "pos": "adjective",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Le présentateur essaie de rester neutre pendant le débat.",
+        "en": "The presenter tries to stay neutral during the debate."
+      }
+    },
+    {
+      "id": "u12-w074",
+      "fr": "sensationnel / sensationnelle",
+      "en": "sensational",
+      "pos": "adjective",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Les titres sensationnels attirent plus de clics.",
+        "en": "Sensational headlines attract more clicks."
+      }
+    },
+    {
+      "id": "u12-w075",
+      "fr": "officiel / officielle",
+      "en": "official",
+      "pos": "adjective",
+      "level": "A2+",
+      "core": false,
+      "example": {
+        "fr": "Les résultats officiels seront annoncés ce soir.",
+        "en": "The official results will be announced tonight."
+      }
+    },
+    {
+      "id": "u12-w076",
+      "fr": "anonyme",
+      "en": "anonymous",
+      "pos": "adjective",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "La journaliste protège sa source, qui veut rester anonyme.",
+        "en": "The journalist protects her source, who wants to remain anonymous."
+      }
+    },
+    {
+      "id": "u12-w077",
+      "fr": "influenceur",
+      "en": "influencer (f: influenceuse)",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "influenceurs",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Cet influenceur dit à ses abonnés qu'il teste tous les produits.",
+        "en": "This influencer tells his followers that he tests every product."
+      }
+    },
+    {
+      "id": "u12-w078",
+      "fr": "algorithme",
+      "en": "algorithm",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "algorithmes",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "L'algorithme nous montre surtout ce que nous aimons déjà.",
+        "en": "The algorithm mostly shows us what we already like."
+      }
+    },
+    {
+      "id": "u12-w079",
+      "fr": "éditorial",
+      "en": "editorial, leader (article)",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "éditoriaux",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Dans son éditorial, la directrice du journal défend la liberté de la presse.",
+        "en": "In her editorial, the newspaper's director defends press freedom."
+      }
+    },
+    {
+      "id": "u12-w080",
+      "fr": "d'après",
+      "en": "according to",
+      "pos": "preposition",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "D'après les témoins, l'accident a eu lieu vers minuit.",
+        "en": "According to witnesses, the accident happened around midnight."
+      }
+    },
+    {
+      "id": "u12-w081",
+      "fr": "apparemment",
+      "en": "apparently",
+      "pos": "adverb",
+      "level": "A2+",
+      "core": false,
+      "example": {
+        "fr": "Apparemment, la nouvelle n'est pas encore officielle.",
+        "en": "Apparently, the news isn't official yet."
+      }
+    },
+    {
+      "id": "u12-w082",
+      "fr": "il paraît que",
+      "en": "apparently, they say that",
+      "pos": "expression",
+      "level": "A2+",
+      "core": false,
+      "example": {
+        "fr": "Il paraît que la chanteuse va annuler sa tournée.",
+        "en": "Apparently, the singer is going to cancel her tour."
+      }
+    },
+    {
+      "id": "u12-w083",
+      "fr": "esprit critique",
+      "en": "critical thinking",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "esprits critiques",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "L'école doit aider les enfants à développer leur esprit critique.",
+        "en": "School must help children develop their critical thinking."
+      }
+    },
+    {
+      "id": "u12-w084",
+      "fr": "se méfier de",
+      "en": "to be wary of, to distrust",
+      "pos": "verb",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Méfie-toi des vidéos qui n'indiquent ni date ni lieu.",
+        "en": "Be wary of videos that give neither a date nor a place."
+      }
+    }
+  ],
+  "grammar": [
+    {
+      "id": "u12-g01",
+      "title": "Reporting statements and questions: que, si, où, quand…",
+      "level": "B1",
+      "grammarTag": "discours-indirect",
+      "explanation": [
+        "Reported (indirect) speech tells what someone says without quoting them word for word. When the reporting verb is in the present (il dit, elle explique, ils annoncent…), the tense of the original words does not change: « Je suis en retard. » → Il dit qu'il est en retard. « Nous avons gagné. » → Ils disent qu'ils ont gagné. « Le train partira à midi. » → On annonce que le train partira à midi.",
+        "To report a statement, use que (qu' before a vowel) after the reporting verb. Unlike English 'that', que can never be left out, and it is repeated before each new clause: « Elle dit qu'elle est fatiguée et qu'elle va rentrer. » Useful verbs: dire, expliquer, annoncer, affirmer, déclarer, préciser, répondre, raconter, ajouter.",
+        "Pronouns and possessives change to fit the new point of view: « Je vous appelle demain. » → Il dit qu'il nous appelle demain. « Mon fils est malade. » → Elle dit que son fils est malade.",
+        "To report a yes/no question, use si (s' before il and ils only, never before elle): « Tu viens ? » / « Est-ce que tu viens ? » → Il demande si je viens. « Il est parti ? » → Elle demande s'il est parti. Est-ce que disappears, there is no inversion and no question mark.",
+        "To report a question with a question word (où, quand, comment, pourquoi, combien, qui, quel…), keep the question word and use normal statement word order: « Où habites-tu ? » → Il me demande où j'habite. « Quand est-ce que l'émission commence ? » → Elle demande quand l'émission commence."
+      ],
+      "table": [
+        [
+          "Direct speech",
+          "Reported speech (present reporting verb)"
+        ],
+        [
+          "« Je travaille à la radio. »",
+          "Il dit qu'il travaille à la radio."
+        ],
+        [
+          "« Nous avons lu l'article. »",
+          "Elles expliquent qu'elles ont lu l'article."
+        ],
+        [
+          "« Est-ce que tu as vu le reportage ? »",
+          "Il me demande si j'ai vu le reportage."
+        ],
+        [
+          "« Il est journaliste ? »",
+          "Elle demande s'il est journaliste."
+        ],
+        [
+          "« Pourquoi est-ce que vous partez ? »",
+          "Il nous demande pourquoi nous partons."
+        ],
+        [
+          "« Combien coûte l'abonnement ? »",
+          "Elle demande combien coûte l'abonnement."
+        ]
+      ],
+      "examples": [
+        {
+          "fr": "La présentatrice annonce que le débat va commencer.",
+          "en": "The presenter announces that the debate is about to begin."
+        },
+        {
+          "fr": "Le ministre affirme qu'il n'a jamais rencontré ce journaliste.",
+          "en": "The minister claims he has never met this journalist."
+        },
+        {
+          "fr": "Ma mère dit que son journal préféré n'existe plus en papier.",
+          "en": "My mother says her favourite newspaper no longer exists in print."
+        },
+        {
+          "fr": "Un auditeur demande si l'émission sera rediffusée.",
+          "en": "A listener asks whether the programme will be repeated."
+        },
+        {
+          "fr": "Le journaliste demande au maire pourquoi il a changé d'avis.",
+          "en": "The journalist asks the mayor why he changed his mind."
+        },
+        {
+          "fr": "Les lecteurs veulent savoir quand le prochain numéro sortira.",
+          "en": "Readers want to know when the next issue will come out."
+        },
+        {
+          "fr": "Elle explique qu'elle s'informe surtout à la radio et qu'elle ne regarde jamais la télé.",
+          "en": "She explains that she mostly gets her news from the radio and never watches TV."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "Elle dit elle est malade.",
+          "right": "Elle dit qu'elle est malade.",
+          "why": "In French, que (qu') is compulsory after the reporting verb, even though 'that' is optional in English."
+        },
+        {
+          "wrong": "Il demande est-ce que tu viens.",
+          "right": "Il demande si tu viens.",
+          "why": "A reported yes/no question uses si; est-ce que disappears."
+        },
+        {
+          "wrong": "Il demande si il peut venir.",
+          "right": "Il demande s'il peut venir.",
+          "why": "Si becomes s' before il and ils (but not before elle: si elle)."
+        },
+        {
+          "wrong": "Il me demande où habite-t-elle.",
+          "right": "Il me demande où elle habite.",
+          "why": "In a reported question, there is no inversion: use normal subject + verb order."
+        }
+      ]
+    },
+    {
+      "id": "u12-g02",
+      "title": "Reporting 'what' and orders: ce que, ce qui, de + infinitive",
+      "level": "B1",
+      "grammarTag": "discours-indirect",
+      "explanation": [
+        "When the original question uses qu'est-ce que or que (what, as the object), the reported question uses ce que (ce qu' before a vowel): « Qu'est-ce que tu lis ? » → Il demande ce que je lis. « Que veulent les lecteurs ? » → Le rédacteur se demande ce que veulent les lecteurs.",
+        "When the original question uses qu'est-ce qui (what, as the subject), use ce qui: « Qu'est-ce qui se passe ? » → Il demande ce qui se passe. « Qu'est-ce qui t'intéresse ? » → Elle me demande ce qui m'intéresse.",
+        "An order or request in the imperative becomes de + infinitive after dire, demander, conseiller, ordonner, interdire, recommander: « Éteignez vos téléphones ! » → Le présentateur nous demande d'éteindre nos téléphones.",
+        "For a negative order, put ne pas together before the infinitive: « Ne partagez pas cette vidéo ! » → Elle nous dit de ne pas partager cette vidéo. The person receiving the order is an indirect object (dire à quelqu'un de…), so the pronouns are me, te, lui, nous, vous, leur: « Il lui demande de rappeler. »",
+        "Summary: statement → que; yes/no question → si; question word → the same word; qu'est-ce que → ce que; qu'est-ce qui → ce qui; imperative → de + infinitive."
+      ],
+      "table": [
+        [
+          "Direct speech",
+          "Linker",
+          "Reported speech"
+        ],
+        [
+          "« Qu'est-ce que tu regardes ? »",
+          "ce que",
+          "Il me demande ce que je regarde."
+        ],
+        [
+          "« Qu'est-ce qui se passe ? »",
+          "ce qui",
+          "Elle demande ce qui se passe."
+        ],
+        [
+          "« Vérifiez vos sources ! »",
+          "de + infinitive",
+          "Il nous dit de vérifier nos sources."
+        ],
+        [
+          "« Ne crois pas tout ! »",
+          "de ne pas + infinitive",
+          "Elle me dit de ne pas tout croire."
+        ]
+      ],
+      "examples": [
+        {
+          "fr": "Le journaliste demande aux passants ce qu'ils pensent de la réforme.",
+          "en": "The journalist asks passers-by what they think of the reform."
+        },
+        {
+          "fr": "Mon fils me demande ce qui se passe dans le monde.",
+          "en": "My son asks me what is happening in the world."
+        },
+        {
+          "fr": "L'animateur demande aux auditeurs d'appeler avant midi.",
+          "en": "The host asks listeners to call before noon."
+        },
+        {
+          "fr": "Les experts nous conseillent de lire plusieurs sources.",
+          "en": "Experts advise us to read several sources."
+        },
+        {
+          "fr": "La police demande aux habitants de ne pas sortir ce soir.",
+          "en": "The police are asking residents not to go out tonight."
+        },
+        {
+          "fr": "Je ne comprends pas ce que dit ce titre.",
+          "en": "I don't understand what this headline says."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "Il demande qu'est-ce que je fais.",
+          "right": "Il demande ce que je fais.",
+          "why": "In reported speech, qu'est-ce que becomes ce que."
+        },
+        {
+          "wrong": "Il demande ce que se passe.",
+          "right": "Il demande ce qui se passe.",
+          "why": "Ce qui is the subject of se passe; ce que needs its own subject after it."
+        },
+        {
+          "wrong": "Elle me dit que je ferme la porte.",
+          "right": "Elle me dit de fermer la porte.",
+          "why": "A reported order uses de + infinitive, not que + a conjugated verb."
+        },
+        {
+          "wrong": "Il nous dit de pas partager la vidéo.",
+          "right": "Il nous dit de ne pas partager la vidéo.",
+          "why": "Before an infinitive, both parts of the negation come first: ne pas partager."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "u12-ex01",
+      "type": "mcq",
+      "level": "B1",
+      "skill": "structures",
+      "grammarTag": "discours-indirect",
+      "prompt": "Report the question: « Est-ce que l'émission est en direct ? »",
+      "promptFr": "Il demande ___ l'émission est en direct.",
+      "options": [
+        "que",
+        "si",
+        "ce que",
+        "est-ce que"
+      ],
+      "answer": 1,
+      "explanation": "A yes/no question is reported with si, and est-ce que disappears."
+    },
+    {
+      "id": "u12-ex02",
+      "type": "mcq",
+      "level": "B1",
+      "skill": "structures",
+      "grammarTag": "discours-indirect",
+      "prompt": "Report the question: « Qu'est-ce que tu regardes ? »",
+      "promptFr": "Elle me demande ___ je regarde.",
+      "options": [
+        "ce que",
+        "qu'est-ce que",
+        "ce qui",
+        "si"
+      ],
+      "answer": 0,
+      "explanation": "Qu'est-ce que (what, object) becomes ce que in reported speech."
+    },
+    {
+      "id": "u12-ex03",
+      "type": "mcq",
+      "level": "B1",
+      "skill": "structures",
+      "grammarTag": "discours-indirect",
+      "prompt": "Report the order: « Ne croyez pas tout ce que vous lisez ! »",
+      "promptFr": "Le professeur nous dit ___ tout ce que nous lisons.",
+      "options": [
+        "que nous ne croyons pas",
+        "ne pas croire",
+        "de ne pas croire",
+        "de croire pas"
+      ],
+      "answer": 2,
+      "explanation": "A negative order becomes de ne pas + infinitive. « Que nous ne croyons pas » would be a statement, not an order."
+    },
+    {
+      "id": "u12-ex04",
+      "type": "mcq",
+      "level": "B1",
+      "skill": "structures",
+      "grammarTag": "discours-indirect",
+      "prompt": "Report the question: « Qu'est-ce qui se passe à Montréal ? »",
+      "promptFr": "Il demande ___ se passe à Montréal.",
+      "options": [
+        "ce que",
+        "qu'est-ce qui",
+        "si",
+        "ce qui"
+      ],
+      "answer": 3,
+      "explanation": "Qu'est-ce qui (what, subject) becomes ce qui: it is the subject of se passe."
+    },
+    {
+      "id": "u12-ex05",
+      "type": "mcq",
+      "level": "B1",
+      "skill": "structures",
+      "grammarTag": "discours-indirect",
+      "prompt": "Report the statement: « Le ministre va démissionner. »",
+      "promptFr": "Le journaliste annonce que le ministre ___ démissionner.",
+      "options": [
+        "va",
+        "allait",
+        "aille",
+        "irait"
+      ],
+      "answer": 0,
+      "explanation": "With a present reporting verb (annonce), the tense of the original sentence doesn't change: va démissionner."
+    },
+    {
+      "id": "u12-ex06",
+      "type": "fill_blank",
+      "level": "B1",
+      "skill": "structures",
+      "grammarTag": "discours-indirect",
+      "prompt": "Report the statement: « Je suis fatiguée. »",
+      "sentence": "Elle dit ___ elle est fatiguée.",
+      "answers": [
+        "qu'"
+      ],
+      "translation": "She says she is tired.",
+      "explanation": "A statement is reported with que, which becomes qu' before elle."
+    },
+    {
+      "id": "u12-ex07",
+      "type": "fill_blank",
+      "level": "B1",
+      "skill": "structures",
+      "grammarTag": "discours-indirect",
+      "prompt": "Report the question: « Où est-ce que vous habitez ? »",
+      "sentence": "Le journaliste me demande ___ j'habite.",
+      "answers": [
+        "où"
+      ],
+      "translation": "The journalist asks me where I live.",
+      "explanation": "Keep the question word où and drop est-ce que."
+    },
+    {
+      "id": "u12-ex08",
+      "type": "fill_blank",
+      "level": "B1",
+      "skill": "structures",
+      "grammarTag": "discours-indirect",
+      "prompt": "Report the question: « Vous avez lu cet article ? »",
+      "sentence": "Elle nous demande ___ nous avons lu cet article.",
+      "answers": [
+        "si"
+      ],
+      "translation": "She asks us whether we have read this article.",
+      "explanation": "A yes/no question is reported with si."
+    },
+    {
+      "id": "u12-ex09",
+      "type": "fill_blank",
+      "level": "B1",
+      "skill": "structures",
+      "grammarTag": "vocabulary",
+      "prompt": "Complete with the right noun.",
+      "sentence": "Je ne crois pas cette histoire : la ___ n'est pas fiable.",
+      "answers": [
+        "source"
+      ],
+      "hint": "where the information comes from",
+      "translation": "I don't believe this story: the source isn't reliable.",
+      "explanation": "La source is where a piece of information comes from."
+    },
+    {
+      "id": "u12-ex10",
+      "type": "fill_blank",
+      "level": "B1",
+      "skill": "structures",
+      "grammarTag": "vocabulary",
+      "prompt": "Complete with the right word.",
+      "sentence": "Les fausses informations circulent très vite sur les ___ sociaux.",
+      "answers": [
+        "réseaux"
+      ],
+      "hint": "networks",
+      "translation": "Fake news spreads very fast on social media.",
+      "explanation": "Les réseaux sociaux = social networks / social media. Réseau has an irregular plural: réseaux."
+    },
+    {
+      "id": "u12-ex11",
+      "type": "fill_blank",
+      "level": "B1",
+      "skill": "structures",
+      "grammarTag": "discours-indirect",
+      "prompt": "Report Léa's words: « Mon émission commence à 20 heures. »",
+      "sentence": "Léa dit que ___ émission commence à 20 heures.",
+      "answers": [
+        "son"
+      ],
+      "translation": "Léa says that her programme starts at 8 p.m.",
+      "explanation": "Mon becomes son from the reporter's point of view. Émission is feminine but starts with a vowel, so it takes son, not sa."
+    },
+    {
+      "id": "u12-ex12",
+      "type": "fill_blank",
+      "level": "B1",
+      "skill": "structures",
+      "grammarTag": "discours-indirect",
+      "prompt": "Report the teacher's order to her students: « Vérifiez vos sources ! »",
+      "sentence": "La professeure dit aux étudiants ___ leurs sources.",
+      "answers": [
+        "de vérifier",
+        "qu'ils vérifient"
+      ],
+      "translation": "The teacher tells the students to check their sources.",
+      "explanation": "An imperative becomes de + infinitive: dire à quelqu'un de faire quelque chose."
+    },
+    {
+      "id": "u12-ex13",
+      "type": "fill_blank",
+      "level": "B1",
+      "skill": "structures",
+      "grammarTag": "discours-indirect",
+      "prompt": "The editor asks you and your colleague: « Quand est-ce que vous publiez l'article ? » Report the question.",
+      "sentence": "Le rédacteur nous demande quand nous ___ l'article.",
+      "answers": [
+        "publions"
+      ],
+      "hint": "publier",
+      "translation": "The editor asks us when we are publishing the article.",
+      "explanation": "Vous becomes nous from our point of view, and the present tense stays the same: nous publions."
+    },
+    {
+      "id": "u12-ex14",
+      "type": "reorder",
+      "level": "B1",
+      "skill": "structures",
+      "grammarTag": "discours-indirect",
+      "prompt": "Put the words in order.",
+      "tokens": [
+        "Elle",
+        "me",
+        "demande",
+        "ce",
+        "que",
+        "je",
+        "pense",
+        "de",
+        "cet",
+        "article."
+      ],
+      "translation": "She asks me what I think of this article.",
+      "explanation": "Reported 'what' question: demander + ce que + subject + verb."
+    },
+    {
+      "id": "u12-ex15",
+      "type": "reorder",
+      "level": "B1",
+      "skill": "structures",
+      "grammarTag": "discours-indirect",
+      "prompt": "Put the words in order.",
+      "tokens": [
+        "Le",
+        "présentateur",
+        "annonce",
+        "que",
+        "l'émission",
+        "est",
+        "annulée."
+      ],
+      "translation": "The presenter announces that the programme is cancelled.",
+      "explanation": "Reporting verb + que + the statement in its original tense."
+    },
+    {
+      "id": "u12-ex16",
+      "type": "match",
+      "level": "B1",
+      "skill": "structures",
+      "grammarTag": "vocabulary",
+      "prompt": "Match the French words with their English meaning.",
+      "pairs": [
+        {
+          "left": "une chaîne",
+          "right": "a TV channel"
+        },
+        {
+          "left": "une émission",
+          "right": "a programme"
+        },
+        {
+          "left": "un titre",
+          "right": "a headline"
+        },
+        {
+          "left": "un lecteur",
+          "right": "a reader"
+        },
+        {
+          "left": "une source",
+          "right": "a source"
+        }
+      ],
+      "explanation": "Core words for talking about the media."
+    },
+    {
+      "id": "u12-ex17",
+      "type": "match",
+      "level": "B1",
+      "skill": "structures",
+      "grammarTag": "discours-indirect",
+      "prompt": "Match the direct speech with the reported speech.",
+      "pairs": [
+        {
+          "left": "« Tu viens ? »",
+          "right": "Il me demande si je viens."
+        },
+        {
+          "left": "« Qu'est-ce que tu fais ? »",
+          "right": "Il me demande ce que je fais."
+        },
+        {
+          "left": "« Viens ! »",
+          "right": "Il me dit de venir."
+        },
+        {
+          "left": "« Je viens. »",
+          "right": "Il dit qu'il vient."
+        }
+      ],
+      "explanation": "Yes/no question → si; qu'est-ce que → ce que; order → de + infinitive; statement → que."
+    },
+    {
+      "id": "u12-ex18",
+      "type": "translate",
+      "level": "B1",
+      "skill": "structures",
+      "grammarTag": "discours-indirect",
+      "direction": "en-fr",
+      "source": "She asks me if I have read the news.",
+      "answers": [
+        "Elle me demande si j'ai lu les informations.",
+        "Elle me demande si j'ai lu les infos.",
+        "Elle me demande si j'ai lu l'actualité.",
+        "Elle me demande si j'ai lu les actualités.",
+        "Elle me demande si j'ai lu les nouvelles."
+      ],
+      "explanation": "'If / whether' in a reported question is si, and the passé composé stays the same."
+    },
+    {
+      "id": "u12-ex19",
+      "type": "translate",
+      "level": "B1",
+      "skill": "structures",
+      "grammarTag": "discours-indirect",
+      "direction": "fr-en",
+      "source": "Le journaliste explique que sa source veut rester anonyme.",
+      "answers": [
+        "The journalist explains that his source wants to remain anonymous.",
+        "The journalist explains that her source wants to remain anonymous.",
+        "The journalist explains that his source wants to stay anonymous.",
+        "The journalist explains that her source wants to stay anonymous.",
+        "The journalist explains his source wants to remain anonymous.",
+        "The journalist explains his source wants to stay anonymous.",
+        "The journalist explains that their source wants to remain anonymous.",
+        "The reporter explains that his source wants to remain anonymous.",
+        "The journalist says that his source wants to remain anonymous."
+      ],
+      "explanation": "Explique que = explains that. In English, 'that' can be left out; in French, que cannot."
+    },
+    {
+      "id": "u12-ex20",
+      "type": "dictation",
+      "level": "B1",
+      "skill": "listening",
+      "grammarTag": "discours-indirect",
+      "text": "Elle nous demande de ne pas partager cette vidéo.",
+      "translation": "She asks us not to share this video.",
+      "explanation": "A negative request: demander de ne pas + infinitive."
+    }
+  ],
+  "listening": [
+    {
+      "id": "u12-li01",
+      "title": "Démêler le vrai du faux",
+      "level": "B1",
+      "kind": "interview",
+      "context": "A radio host interviews a journalist who runs workshops on fake news in secondary schools.",
+      "lines": [
+        {
+          "speaker": "Animatrice",
+          "fr": "Bonjour Marc Lemoine. Vous êtes journaliste et vous animez des ateliers sur les fausses informations dans les écoles secondaires. Qu'est-ce que vous dites aux élèves ?"
+        },
+        {
+          "speaker": "Marc",
+          "fr": "Je leur dis d'abord qu'une information qui fait peur ou qui met en colère doit toujours nous rendre prudents."
+        },
+        {
+          "speaker": "Animatrice",
+          "fr": "Pourquoi ?"
+        },
+        {
+          "speaker": "Marc",
+          "fr": "Parce que les fausses informations jouent sur nos émotions. Plus on est choqué, plus on partage vite, sans réfléchir."
+        },
+        {
+          "speaker": "Animatrice",
+          "fr": "Et concrètement, comment est-ce qu'on vérifie une information ?"
+        },
+        {
+          "speaker": "Marc",
+          "fr": "Je conseille aux jeunes de se poser trois questions : qui a écrit ce texte, quand, et est-ce que d'autres médias en parlent ?"
+        },
+        {
+          "speaker": "Animatrice",
+          "fr": "Et les élèves vous écoutent ?"
+        },
+        {
+          "speaker": "Marc",
+          "fr": "Oui, ils sont très curieux. Souvent, ils me demandent si je peux vérifier une vidéo qu'ils ont vue sur un réseau social. On le fait ensemble, en classe."
+        },
+        {
+          "speaker": "Animatrice",
+          "fr": "Et les adultes ? Ils sont meilleurs que les jeunes pour repérer le faux ?"
+        },
+        {
+          "speaker": "Marc",
+          "fr": "Pas du tout ! Plusieurs études montrent que les plus de soixante ans partagent davantage de fausses informations que les adolescents."
+        },
+        {
+          "speaker": "Animatrice",
+          "fr": "Un dernier conseil pour nos auditeurs ?"
+        },
+        {
+          "speaker": "Marc",
+          "fr": "Oui : avant de partager quelque chose, attendez cinq minutes. C'est tout simple, mais ça change beaucoup de choses."
+        }
+      ],
+      "translation": "Host: Hello, Marc Lemoine. You're a journalist and you run workshops on fake news in secondary schools. What do you tell the pupils?\nMarc: First, I tell them that a piece of news that frightens us or makes us angry should always make us careful.\nHost: Why?\nMarc: Because fake news plays on our emotions. The more shocked we are, the faster we share, without thinking.\nHost: And in practice, how do you check a piece of news?\nMarc: I advise young people to ask themselves three questions: who wrote this text, when, and are other media talking about it?\nHost: And do the pupils listen to you?\nMarc: Yes, they're very curious. They often ask me if I can check a video they've seen on social media. We do it together, in class.\nHost: And adults? Are they better than young people at spotting what's false?\nMarc: Not at all! Several studies show that people over sixty share more fake news than teenagers.\nHost: One last piece of advice for our listeners?\nMarc: Yes: before you share something, wait five minutes. It's very simple, but it makes a big difference.",
+      "questions": [
+        {
+          "id": "u12-li01-q1",
+          "question": "What does Marc tell the pupils first?",
+          "options": [
+            "To stop using social media",
+            "To be careful with news that makes them afraid or angry",
+            "To read only printed newspapers",
+            "To trust their teachers"
+          ],
+          "answer": 1,
+          "explanation": "« Une information qui fait peur ou qui met en colère doit toujours nous rendre prudents. »"
+        },
+        {
+          "id": "u12-li01-q2",
+          "question": "Which of these is NOT one of his three questions?",
+          "options": [
+            "Who wrote the text?",
+            "When was it written?",
+            "How many people have shared it?",
+            "Are other media talking about it?"
+          ],
+          "answer": 2,
+          "explanation": "His three questions are who, when, and whether other media mention it. The number of shares is not one of them."
+        },
+        {
+          "id": "u12-li01-q3",
+          "question": "What do pupils often ask him?",
+          "options": [
+            "Whether he can check a video they have seen",
+            "How to become a journalist",
+            "Why adults don't trust them",
+            "What his favourite newspaper is"
+          ],
+          "answer": 0,
+          "explanation": "« Ils me demandent si je peux vérifier une vidéo qu'ils ont vue sur un réseau social. »"
+        },
+        {
+          "id": "u12-li01-q4",
+          "question": "What does Marc say about people over sixty?",
+          "options": [
+            "They are better than teenagers at spotting fake news.",
+            "They don't use social media.",
+            "They read more newspapers than teenagers.",
+            "They share more fake news than teenagers."
+          ],
+          "answer": 3,
+          "explanation": "« Les plus de soixante ans partagent davantage de fausses informations que les adolescents. »"
+        }
+      ]
+    },
+    {
+      "id": "u12-li02",
+      "title": "Le flash info de 18 heures",
+      "level": "B1",
+      "kind": "announcement",
+      "context": "A short local radio news bulletin.",
+      "lines": [
+        {
+          "speaker": "Journaliste",
+          "fr": "Il est 18 heures, voici le flash info."
+        },
+        {
+          "speaker": "Journaliste",
+          "fr": "La Ville de Québec annonce que le tramway sera gratuit le week-end à partir du mois de mars."
+        },
+        {
+          "speaker": "Journaliste",
+          "fr": "Le maire explique que cette mesure doit encourager les habitants à laisser leur voiture au garage."
+        },
+        {
+          "speaker": "Journaliste",
+          "fr": "Les commerçants du centre-ville, eux, se demandent si elle suffira à faire revenir les clients."
+        },
+        {
+          "speaker": "Journaliste",
+          "fr": "Dans le reste de l'actualité, les services météo préviennent que de fortes pluies sont attendues demain sur toute la région."
+        },
+        {
+          "speaker": "Journaliste",
+          "fr": "Le ministère des Transports demande aux automobilistes de limiter leurs déplacements et de ne pas traverser les routes inondées."
+        },
+        {
+          "speaker": "Journaliste",
+          "fr": "Enfin, en sport, l'entraîneur du club local affirme que son équipe est prête pour la finale de samedi."
+        }
+      ],
+      "translation": "It's 6 p.m.; here is the news flash.\nQuebec City announces that the tram will be free at weekends from March.\nThe mayor explains that this measure is meant to encourage residents to leave their cars in the garage.\nCity-centre shopkeepers, for their part, wonder whether it will be enough to bring customers back.\nIn other news, the weather services warn that heavy rain is expected tomorrow across the whole region.\nThe Ministry of Transport is asking drivers to limit their journeys and not to drive across flooded roads.\nFinally, in sport, the local club's coach says his team is ready for Saturday's final.",
+      "questions": [
+        {
+          "id": "u12-li02-q1",
+          "question": "What does the town hall announce?",
+          "options": [
+            "The tram will be free at weekends from March.",
+            "A new tram line will open in March.",
+            "Cars will be banned from the city centre.",
+            "Parking will be free on Saturdays."
+          ],
+          "answer": 0,
+          "explanation": "« Le tramway sera gratuit le week-end à partir du mois de mars. »"
+        },
+        {
+          "id": "u12-li02-q2",
+          "question": "What do the shopkeepers wonder?",
+          "options": [
+            "Whether they will have to close on Sundays",
+            "Whether the measure will bring customers back",
+            "Why the mayor didn't ask them",
+            "When the work will finish"
+          ],
+          "answer": 1,
+          "explanation": "« Ils se demandent si elle suffira à faire revenir les clients. »"
+        },
+        {
+          "id": "u12-li02-q3",
+          "question": "What are drivers asked to do?",
+          "options": [
+            "Use the tram tomorrow",
+            "Drive slowly in the city centre",
+            "Limit their journeys and avoid flooded roads",
+            "Leave their cars at home on Saturday"
+          ],
+          "answer": 2,
+          "explanation": "The Ministry of Transport asks them « de limiter leurs déplacements et de ne pas traverser les routes inondées »."
+        }
+      ]
+    }
+  ],
+  "reading": [
+    {
+      "id": "u12-re01",
+      "title": "Comment les jeunes s'informent-ils ?",
+      "level": "B1",
+      "kind": "article",
+      "text": "Comment les jeunes s'informent-ils ?\n\nIls ne lisent presque plus de journaux papier et regardent rarement le journal télévisé. Pourtant, les 15-25 ans ne se désintéressent pas de l'actualité, affirme une étude récente. Simplement, ils s'informent autrement.\n\nPour la majorité d'entre eux, les réseaux sociaux sont devenus la première source d'information. Lucas, 19 ans, étudiant à Moncton, explique qu'il découvre l'actualité sur son téléphone, entre deux vidéos de musique. « Si un sujet m'intéresse, je cherche un article plus complet sur le site d'un grand quotidien », précise-t-il.\n\nCe mode d'information pose cependant des problèmes. Les algorithmes montrent surtout des contenus qui ressemblent à ce qu'on a déjà aimé, et les publications les plus partagées ne sont pas toujours les plus fiables. Les chercheurs constatent d'ailleurs que beaucoup de jeunes ont du mal à distinguer un reportage d'une publicité.\n\nPour Claire Martin, enseignante en éducation aux médias, la solution n'est pas d'interdire les écrans. Elle dit qu'il faut plutôt apprendre aux élèves à se poser les bonnes questions : qui parle ? Dans quel but ? « Les jeunes ne manquent pas de curiosité, ajoute-t-elle. Il leur manque parfois des outils. »",
+      "translation": "How do young people get their news?\n\nThey hardly read paper newspapers any more and rarely watch the TV news. Yet 15- to 25-year-olds are not losing interest in current events, says a recent study. They simply get their news in a different way.\n\nFor most of them, social media have become their main source of information. Lucas, 19, a student in Moncton, explains that he discovers the news on his phone, between two music videos. 'If a topic interests me, I look for a fuller article on the website of a major daily paper,' he adds.\n\nHowever, this way of getting information causes problems. Algorithms mostly show content that resembles what we have already liked, and the most shared posts are not always the most reliable. Researchers also note that many young people find it hard to tell a news report from an advertisement.\n\nFor Claire Martin, a media-education teacher, the solution is not to ban screens. She says that we should instead teach pupils to ask themselves the right questions: who is speaking? For what purpose? 'Young people don't lack curiosity,' she adds. 'What they sometimes lack is the tools.'",
+      "questions": [
+        {
+          "id": "u12-re01-q1",
+          "question": "According to the study, young people…",
+          "options": [
+            "are no longer interested in the news.",
+            "are still interested in the news but get it differently.",
+            "prefer the TV news to social media.",
+            "mostly read paper newspapers."
+          ],
+          "answer": 1,
+          "explanation": "« Les 15-25 ans ne se désintéressent pas de l'actualité… Simplement, ils s'informent autrement. »"
+        },
+        {
+          "id": "u12-re01-q2",
+          "question": "What does Lucas do when a topic interests him?",
+          "options": [
+            "He shares it with his friends.",
+            "He watches a music video about it.",
+            "He looks for a fuller article on a newspaper's website.",
+            "He asks his teacher."
+          ],
+          "answer": 2,
+          "explanation": "« Je cherche un article plus complet sur le site d'un grand quotidien. »"
+        },
+        {
+          "id": "u12-re01-q3",
+          "question": "What problem with algorithms does the article mention?",
+          "options": [
+            "They mostly show content similar to what you already like.",
+            "They block newspaper websites.",
+            "They only show advertisements.",
+            "They are too slow."
+          ],
+          "answer": 0,
+          "explanation": "« Les algorithmes montrent surtout des contenus qui ressemblent à ce qu'on a déjà aimé. »"
+        },
+        {
+          "id": "u12-re01-q4",
+          "question": "What does Claire Martin believe?",
+          "options": [
+            "Screens should be banned at school.",
+            "Young people are not curious enough.",
+            "Only teachers can choose reliable sources.",
+            "Pupils need to be taught how to question what they read."
+          ],
+          "answer": 3,
+          "explanation": "She rejects banning screens and says pupils should learn to ask the right questions; they lack tools, not curiosity."
+        }
+      ]
+    },
+    {
+      "id": "u12-re02",
+      "title": "Réponse de la rédaction",
+      "level": "B1",
+      "kind": "email",
+      "text": "Objet : Votre message du 12 octobre\n\nMonsieur Benali,\n\nNous vous remercions pour votre message au sujet de notre article « Le marché du samedi va fermer ». Vous nous dites que cette information est fausse et que vous avez parlé vous-même avec le responsable du marché.\n\nAprès vérification, vous avez raison : la Ville nous confirme que le marché ne fermera pas, mais qu'il s'installera place de la Gare pendant six mois, le temps des travaux. Notre journaliste a mal compris une déclaration de l'adjoint au maire, et nous vous présentons nos excuses.\n\nUn rectificatif sera publié dans notre édition de jeudi et sur notre site internet. Vous nous demandez aussi si vous pouvez écrire un court témoignage sur l'importance de ce marché pour le quartier : avec plaisir ! Envoyez-nous un texte de 1 500 caractères maximum avant mardi.\n\nBien cordialement,\n\nSophie Arnaud\nRédactrice en chef, L'Écho de Valmont",
+      "translation": "Subject: Your message of 12 October\n\nDear Mr Benali,\n\nThank you for your message about our article 'The Saturday market is going to close'. You tell us that this information is false and that you spoke to the market manager yourself.\n\nAfter checking, you are right: the town hall confirms that the market will not close, but that it will move to the Place de la Gare for six months, while the work is carried out. Our journalist misunderstood a statement by the deputy mayor, and we apologise.\n\nA correction will be published in our Thursday edition and on our website. You also ask whether you can write a short account of how important this market is for the neighbourhood: we'd be delighted! Send us a text of no more than 1,500 characters before Tuesday.\n\nKind regards,\n\nSophie Arnaud\nEditor-in-chief, L'Écho de Valmont",
+      "questions": [
+        {
+          "id": "u12-re02-q1",
+          "question": "Why did Mr Benali write to the newspaper?",
+          "options": [
+            "To cancel his subscription",
+            "To say that an article contained false information",
+            "To advertise his market stall",
+            "To complain about the building work"
+          ],
+          "answer": 1,
+          "explanation": "« Vous nous dites que cette information est fausse. »"
+        },
+        {
+          "id": "u12-re02-q2",
+          "question": "What is actually going to happen to the market?",
+          "options": [
+            "It will close for good.",
+            "It will open on Sundays instead.",
+            "It will be smaller.",
+            "It will move temporarily during the work."
+          ],
+          "answer": 3,
+          "explanation": "It will move to the Place de la Gare for six months, during the work."
+        },
+        {
+          "id": "u12-re02-q3",
+          "question": "Where did the mistake come from?",
+          "options": [
+            "The market manager gave wrong information.",
+            "The town hall changed its decision.",
+            "The journalist misunderstood the deputy mayor.",
+            "Mr Benali misread the article."
+          ],
+          "answer": 2,
+          "explanation": "« Notre journaliste a mal compris une déclaration de l'adjoint au maire. »"
+        },
+        {
+          "id": "u12-re02-q4",
+          "question": "What can we say about the newspaper's reaction?",
+          "options": [
+            "It defends its journalist and refuses to change anything.",
+            "It admits its mistake and offers Mr Benali space to write.",
+            "It asks Mr Benali to pay for a correction.",
+            "It promises to stop writing about the market."
+          ],
+          "answer": 1,
+          "explanation": "The editor apologises, announces a correction and accepts his testimony."
+        }
+      ]
+    }
+  ],
+  "writing": [
+    {
+      "id": "u12-wr01",
+      "title": "Les réseaux sociaux, une bonne source d'information ?",
+      "level": "B1",
+      "taskType": "opinion",
+      "instructions": "TCF task 3: give and justify your opinion on social media as a source of news. Present arguments for and against, give examples and conclude. Try to report what others say (certains disent que…, les experts conseillent de…).",
+      "promptFr": "« Aujourd'hui, les réseaux sociaux sont la meilleure façon de s'informer. » Qu'en pensez-vous ? Donnez votre opinion en présentant des arguments et des exemples. (120 à 180 mots)",
+      "minWords": 120,
+      "maxWords": 180,
+      "modelAnswer": "Beaucoup de gens disent que les réseaux sociaux sont devenus leur principale source d'information. Je comprends pourquoi, mais je ne pense pas que ce soit la meilleure façon de s'informer.\n\nBien sûr, les réseaux sociaux ont des avantages. L'information circule très vite, elle est gratuite, et on peut suivre directement des journalistes ou des témoins. Par exemple, pendant les inondations de l'an dernier, j'ai vu les premières images sur mon téléphone, bien avant le journal télévisé.\n\nCependant, n'importe qui peut publier n'importe quoi. Les publications les plus partagées sont souvent les plus choquantes, pas les plus fiables. De plus, les algorithmes nous montrent surtout ce que nous aimons déjà, et nous découvrons rarement d'autres points de vue.\n\nC'est pourquoi les spécialistes nous conseillent de vérifier les sources et de comparer plusieurs médias. Personnellement, j'utilise les réseaux sociaux pour découvrir un sujet, puis je lis un article sérieux pour le comprendre. À mon avis, ils sont un bon point de départ, mais pas une source suffisante.",
+      "checklist": [
+        "I stated my opinion clearly at the beginning.",
+        "I gave arguments for and against, with at least one concrete example.",
+        "I used connectors (bien sûr, cependant, de plus, c'est pourquoi).",
+        "I reported other people's words or advice correctly (disent que…, conseillent de + infinitive).",
+        "I wrote a clear conclusion.",
+        "I stayed between 120 and 180 words."
+      ]
+    },
+    {
+      "id": "u12-wr02",
+      "title": "Tu as vu cette info ?",
+      "level": "B1",
+      "taskType": "message",
+      "instructions": "Write a message to a friend telling them about a news report you have just read or heard. Report what the article or the people interviewed say, and ask your friend's opinion. Use reported speech with present reporting verbs.",
+      "promptFr": "Vous venez de lire un article ou d'écouter une émission sur un sujet qui intéresse votre ami(e). Écrivez-lui un message : expliquez ce que dit l'article ou l'émission, rapportez les paroles d'une personne interviewée et demandez son avis à votre ami(e). (60 à 120 mots)",
+      "minWords": 60,
+      "maxWords": 120,
+      "modelAnswer": "Salut Hugo,\n\nJe viens de lire un article qui va t'intéresser, toi qui fais du vélo tous les jours ! Le journal annonce que la ville va créer dix kilomètres de pistes cyclables d'ici l'été. Le maire explique qu'il veut réduire la circulation dans le centre et que les travaux commencent en avril.\n\nUn commerçant interviewé dit qu'il a peur de perdre des clients, parce qu'il y aura moins de places de parking. Par contre, une association de cyclistes affirme que c'est une excellente nouvelle et demande aux habitants de soutenir le projet.\n\nEt toi, qu'est-ce que tu en penses ? Tu crois que ça va vraiment changer quelque chose ?\n\nBises,\nMaya",
+      "checklist": [
+        "I used an informal greeting and closing (tu).",
+        "I explained what the article says with que.",
+        "I reported at least one person's words, and one request with de + infinitive.",
+        "I kept the original tenses after a present reporting verb.",
+        "I asked my friend's opinion and stayed between 60 and 120 words."
+      ]
+    }
+  ],
+  "speaking": [
+    {
+      "id": "u12-sp01",
+      "title": "S'abonner à un journal",
+      "level": "B1",
+      "taskType": "interaction",
+      "instructions": "Role-play: you phone the subscriptions department of a newspaper (the examiner) to find out about their offers. Ask about formats, price, delivery and cancellation, then decide.",
+      "promptFr": "Vous voulez vous abonner à un journal. Vous téléphonez au service abonnements pour vous renseigner sur les différentes formules (papier, numérique), le prix, la livraison et la résiliation. L'examinateur joue le rôle de l'employé.",
+      "prepSeconds": 120,
+      "speakSeconds": 210,
+      "modelAnswer": "Bonjour madame, j'aimerais m'abonner à votre journal et je voudrais savoir quelles formules vous proposez. … D'accord, il y a une formule papier et une formule numérique. Quelle est la différence de prix ? … Ah, le numérique coûte presque deux fois moins cher. Et avec l'abonnement numérique, est-ce que j'ai accès aux anciens articles ? … Très bien. Pour la formule papier, le journal est livré à quelle heure ? Je pars travailler à sept heures. … Avant six heures trente, parfait. J'ai une amie qui dit qu'on peut aussi recevoir seulement l'édition du week-end : c'est vrai ? … Intéressant. Et si je veux arrêter mon abonnement, qu'est-ce que je dois faire ? Il faut envoyer une lettre recommandée ? … Ah, on peut résilier en ligne à tout moment, c'est pratique. Bon, je crois que je vais prendre la formule numérique avec le journal papier le dimanche. Est-ce que je peux m'inscrire maintenant, par téléphone ?",
+      "tips": [
+        "Explain clearly what you want at the beginning of the call.",
+        "Reformulate the answers to check you have understood (Ah, le numérique coûte presque deux fois moins cher).",
+        "Use reported speech to mention what someone told you (J'ai une amie qui dit que…).",
+        "Make a decision at the end and say why."
+      ]
+    },
+    {
+      "id": "u12-sp02",
+      "title": "Peut-on faire confiance aux médias ?",
+      "level": "B1",
+      "taskType": "opinion",
+      "instructions": "Give and justify your opinion on whether we can still trust the media. Give examples and suggest how to get reliable information.",
+      "promptFr": "Selon un sondage, beaucoup de gens disent qu'ils ne font plus confiance aux médias. Et vous, faites-vous confiance aux journalistes ? Donnez votre opinion et justifiez-la.",
+      "prepSeconds": 0,
+      "speakSeconds": 270,
+      "modelAnswer": "Je comprends les gens qui disent qu'ils n'ont plus confiance dans les médias, mais personnellement, je fais confiance à certains journalistes, pas à tous. D'abord, il faut distinguer les médias sérieux et les sites qui cherchent seulement des clics. Un bon journal vérifie ses sources, cite des experts et publie un rectificatif quand il se trompe. Par exemple, le quotidien régional que je lis a reconnu une erreur la semaine dernière, et pour moi, c'est plutôt un signe d'honnêteté. En revanche, à la télévision, certaines chaînes d'information répètent les mêmes images toute la journée et cherchent à faire peur. Mon conseil, c'est de ne pas s'informer avec une seule source. Moi, j'écoute la radio le matin, je lis deux journaux différents en ligne, et quand une information me semble incroyable, je vérifie si d'autres médias en parlent. Donc, oui, on peut faire confiance aux médias, mais avec un esprit critique.",
+      "tips": [
+        "Start with a clear position, even if it is nuanced (oui, mais…).",
+        "Report what other people say: les gens disent que…, un sondage révèle que…",
+        "Give a concrete example from your own experience.",
+        "Finish with advice or a conclusion that answers the question."
+      ]
+    }
+  ],
+  "checkpoint": [
+    {
+      "id": "u12-cp01",
+      "type": "mcq",
+      "level": "B1",
+      "skill": "structures",
+      "grammarTag": "discours-indirect",
+      "prompt": "Report the question: « Est-ce que tu as vu le journal ? »",
+      "promptFr": "Il me demande ___ j'ai vu le journal.",
+      "options": [
+        "que",
+        "ce que",
+        "si",
+        "est-ce que"
+      ],
+      "answer": 2,
+      "explanation": "A yes/no question is reported with si."
+    },
+    {
+      "id": "u12-cp02",
+      "type": "mcq",
+      "level": "B1",
+      "skill": "structures",
+      "grammarTag": "discours-indirect",
+      "prompt": "Report the question: « Qu'est-ce que vous pensez de cette loi ? »",
+      "promptFr": "Le journaliste demande aux passants ___ ils pensent de cette loi.",
+      "options": [
+        "qu'est-ce qu'",
+        "ce qu'",
+        "ce qui",
+        "si"
+      ],
+      "answer": 1,
+      "explanation": "Qu'est-ce que becomes ce que, shortened to ce qu' before ils."
+    },
+    {
+      "id": "u12-cp03",
+      "type": "mcq",
+      "level": "B1",
+      "skill": "structures",
+      "grammarTag": "discours-indirect",
+      "prompt": "Report the request: « Éteignez vos portables. »",
+      "promptFr": "On nous demande ___ nos portables.",
+      "options": [
+        "que nous éteignons",
+        "éteindre",
+        "si nous éteignons",
+        "d'éteindre"
+      ],
+      "answer": 3,
+      "explanation": "A request in the imperative becomes de + infinitive: d'éteindre."
+    },
+    {
+      "id": "u12-cp04",
+      "type": "mcq",
+      "level": "B1",
+      "skill": "structures",
+      "grammarTag": "vocabulary",
+      "prompt": "A programme that you watch at the same moment as it happens is broadcast…",
+      "options": [
+        "à la une",
+        "en direct",
+        "en ligne",
+        "en différé"
+      ],
+      "answer": 1,
+      "explanation": "En direct = live. À la une = on the front page, en ligne = online, en différé = recorded and shown later."
+    },
+    {
+      "id": "u12-cp05",
+      "type": "mcq",
+      "level": "B1",
+      "skill": "structures",
+      "grammarTag": "vocabulary",
+      "prompt": "Which adjective describes a source you can trust?",
+      "options": [
+        "fiable",
+        "anonyme",
+        "sensationnelle",
+        "douteuse"
+      ],
+      "answer": 0,
+      "explanation": "Fiable = reliable. Anonyme means you don't know who it is, sensationnelle describes something designed to cause a sensation, and douteuse means doubtful."
+    },
+    {
+      "id": "u12-cp06",
+      "type": "fill_blank",
+      "level": "B1",
+      "skill": "structures",
+      "grammarTag": "discours-indirect",
+      "prompt": "Report the statement: « J'ai trouvé une erreur dans l'article. »",
+      "sentence": "Le lecteur dit qu'il ___ trouvé une erreur dans l'article.",
+      "answers": [
+        "a"
+      ],
+      "translation": "The reader says he found a mistake in the article.",
+      "explanation": "With a present reporting verb, the passé composé stays the same: il a trouvé."
+    },
+    {
+      "id": "u12-cp07",
+      "type": "fill_blank",
+      "level": "B1",
+      "skill": "structures",
+      "grammarTag": "discours-indirect",
+      "prompt": "Report the question: « Comment est-ce que tu t'informes ? »",
+      "sentence": "Elle me demande ___ je m'informe.",
+      "answers": [
+        "comment"
+      ],
+      "translation": "She asks me how I keep informed.",
+      "explanation": "Keep the question word (comment) and drop est-ce que."
+    },
+    {
+      "id": "u12-cp08",
+      "type": "fill_blank",
+      "level": "B1",
+      "skill": "structures",
+      "grammarTag": "discours-indirect",
+      "prompt": "Report the question: « Qu'est-ce qui t'intéresse dans l'actualité ? »",
+      "sentence": "Il me demande ___ m'intéresse dans l'actualité.",
+      "answers": [
+        "ce qui"
+      ],
+      "translation": "He asks me what interests me in the news.",
+      "explanation": "Qu'est-ce qui (subject) becomes ce qui."
+    },
+    {
+      "id": "u12-cp09",
+      "type": "fill_blank",
+      "level": "B1",
+      "skill": "structures",
+      "grammarTag": "vocabulary",
+      "prompt": "Complete with the past participle of the right verb.",
+      "sentence": "Cette vidéo a été ___ des milliers de fois sur les réseaux sociaux.",
+      "answers": [
+        "partagée",
+        "relayée"
+      ],
+      "hint": "shared",
+      "translation": "This video has been shared thousands of times on social media.",
+      "explanation": "Partager = to share. In the passive, the participle agrees with vidéo (feminine): partagée."
+    },
+    {
+      "id": "u12-cp10",
+      "type": "fill_blank",
+      "level": "B1",
+      "skill": "structures",
+      "grammarTag": "vocabulary",
+      "prompt": "Complete with the past participle of the right verb.",
+      "sentence": "Le journal télévisé est ___ tous les soirs à 20 heures.",
+      "answers": [
+        "diffusé",
+        "retransmis"
+      ],
+      "hint": "broadcast",
+      "translation": "The TV news is broadcast every evening at 8 p.m.",
+      "explanation": "Diffuser = to broadcast; in the passive: est diffusé."
+    }
+  ]
+}

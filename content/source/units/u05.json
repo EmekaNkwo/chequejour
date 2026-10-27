@@ -1,0 +1,346 @@
+{
+  "id": "u05",
+  "order": 11,
+  "level": "A2",
+  "theme": "Getting around town",
+  "titleFr": "Se déplacer en ville",
+  "description": "Find your way in a French town: ask for and give directions, describe where places are, and use buses, trams and the metro. Grammar: prepositions of place, the pronoun y, and the imperative.",
+  "vocab": [
+    { "id": "u05-w001", "fr": "rue", "en": "street", "pos": "noun", "gender": "f", "plural": "rues", "level": "A2", "core": true, "example": { "fr": "La boulangerie est au bout de la rue.", "en": "The bakery is at the end of the street." } },
+    { "id": "u05-w002", "fr": "place", "en": "square (in a town)", "pos": "noun", "gender": "f", "plural": "places", "level": "A2", "core": true, "example": { "fr": "On se retrouve sur la place, devant la fontaine.", "en": "Let's meet on the square, in front of the fountain." } },
+    { "id": "u05-w003", "fr": "carrefour", "en": "crossroads, junction", "pos": "noun", "gender": "m", "plural": "carrefours", "level": "A2", "core": true, "example": { "fr": "Au carrefour, prenez la rue à droite.", "en": "At the crossroads, take the street on the right." } },
+    { "id": "u05-w004", "fr": "feu", "en": "traffic light", "pos": "noun", "gender": "m", "plural": "feux", "level": "A2", "core": true, "example": { "fr": "Arrêtez-vous, le feu est rouge !", "en": "Stop, the light is red!" } },
+    { "id": "u05-w005", "fr": "trottoir", "en": "pavement, sidewalk", "pos": "noun", "gender": "m", "plural": "trottoirs", "level": "A2", "core": true, "example": { "fr": "Les vélos ne doivent pas rouler sur le trottoir.", "en": "Bikes must not ride on the pavement." } },
+    { "id": "u05-w006", "fr": "quartier", "en": "neighbourhood, district", "pos": "noun", "gender": "m", "plural": "quartiers", "level": "A2", "core": true, "example": { "fr": "Mon quartier est calme, mais il y a beaucoup de commerces.", "en": "My neighbourhood is quiet, but there are lots of shops." } },
+    { "id": "u05-w007", "fr": "hôtel de ville", "en": "town hall, city hall", "pos": "noun", "gender": "m", "plural": "hôtels de ville", "level": "A2", "core": true, "example": { "fr": "L'hôtel de ville est ouvert le samedi matin.", "en": "The town hall is open on Saturday mornings." } },
+    { "id": "u05-w008", "fr": "gare", "en": "railway station", "pos": "noun", "gender": "f", "plural": "gares", "level": "A2", "core": true, "example": { "fr": "La gare est à dix minutes à pied du centre.", "en": "The station is ten minutes' walk from the centre." } },
+    { "id": "u05-w009", "fr": "arrêt de bus", "en": "bus stop", "pos": "noun", "gender": "m", "plural": "arrêts de bus", "level": "A2", "core": true, "example": { "fr": "L'arrêt de bus est juste devant la pharmacie.", "en": "The bus stop is right in front of the chemist's." } },
+    { "id": "u05-w010", "fr": "métro", "en": "underground, metro", "pos": "noun", "gender": "m", "plural": "métros", "level": "A2", "core": true, "example": { "fr": "Je prends le métro pour aller au travail.", "en": "I take the metro to go to work." } },
+    { "id": "u05-w011", "fr": "ticket", "en": "ticket (bus, metro)", "pos": "noun", "gender": "m", "plural": "tickets", "level": "A2", "core": true, "example": { "fr": "Un ticket de bus coûte deux dollars.", "en": "A bus ticket costs two dollars." } },
+    { "id": "u05-w012", "fr": "plan", "en": "map (of a town)", "pos": "noun", "gender": "m", "plural": "plans", "level": "A2", "core": true, "example": { "fr": "Vous avez un plan de la ville, s'il vous plaît ?", "en": "Do you have a map of the town, please?" } },
+    { "id": "u05-w013", "fr": "tourner", "en": "to turn", "pos": "verb", "level": "A2", "core": true, "example": { "fr": "Tournez à gauche après la banque.", "en": "Turn left after the bank." } },
+    { "id": "u05-w014", "fr": "traverser", "en": "to cross", "pos": "verb", "level": "A2", "core": true, "example": { "fr": "Traversez la place et continuez tout droit.", "en": "Cross the square and keep going straight on." } },
+    { "id": "u05-w015", "fr": "continuer", "en": "to carry on, to keep going", "pos": "verb", "level": "A2", "core": true, "example": { "fr": "Continuez jusqu'au deuxième feu.", "en": "Keep going until the second set of lights." } },
+    { "id": "u05-w016", "fr": "tout droit", "en": "straight on", "pos": "adverb", "level": "A2", "core": true, "example": { "fr": "Allez tout droit, la poste est sur votre droite.", "en": "Go straight on, the post office is on your right." } },
+    { "id": "u05-w017", "fr": "à gauche", "en": "on the left, to the left", "pos": "expression", "level": "A2", "core": true, "example": { "fr": "Le musée est à gauche, après le pont.", "en": "The museum is on the left, after the bridge." } },
+    { "id": "u05-w018", "fr": "à droite", "en": "on the right, to the right", "pos": "expression", "level": "A2", "core": true, "example": { "fr": "Prenez la deuxième rue à droite.", "en": "Take the second street on the right." } },
+    { "id": "u05-w019", "fr": "en face de", "en": "opposite", "pos": "preposition", "level": "A2", "core": true, "example": { "fr": "Le cinéma est en face de la gare.", "en": "The cinema is opposite the station." } },
+    { "id": "u05-w020", "fr": "à côté de", "en": "next to", "pos": "preposition", "level": "A2", "core": true, "example": { "fr": "J'habite à côté du parc.", "en": "I live next to the park." } },
+    { "id": "u05-w021", "fr": "avenue", "en": "avenue", "pos": "noun", "gender": "f", "plural": "avenues", "level": "A2", "core": false, "example": { "fr": "Cette avenue est bordée d'arbres.", "en": "This avenue is lined with trees." } },
+    { "id": "u05-w022", "fr": "boulevard", "en": "boulevard", "pos": "noun", "gender": "m", "plural": "boulevards", "level": "A2", "core": false, "example": { "fr": "Il y a toujours des bouchons sur le boulevard le soir.", "en": "There are always traffic jams on the boulevard in the evening." } },
+    { "id": "u05-w023", "fr": "ruelle", "en": "lane, alley", "pos": "noun", "gender": "f", "plural": "ruelles", "level": "A2", "core": false, "example": { "fr": "Les ruelles de la vieille ville sont très étroites.", "en": "The lanes of the old town are very narrow." } },
+    { "id": "u05-w024", "fr": "pont", "en": "bridge", "pos": "noun", "gender": "m", "plural": "ponts", "level": "A2", "core": false, "example": { "fr": "Traversez le pont et tournez à droite.", "en": "Cross the bridge and turn right." } },
+    { "id": "u05-w025", "fr": "rond-point", "en": "roundabout", "pos": "noun", "gender": "m", "plural": "ronds-points", "level": "A2", "core": false, "example": { "fr": "Au rond-point, prenez la deuxième sortie.", "en": "At the roundabout, take the second exit." } },
+    { "id": "u05-w026", "fr": "passage piéton", "en": "pedestrian crossing", "pos": "noun", "gender": "m", "plural": "passages piétons", "level": "A2", "core": false, "example": { "fr": "Traverse toujours sur le passage piéton.", "en": "Always cross at the pedestrian crossing." } },
+    { "id": "u05-w027", "fr": "coin", "en": "corner", "pos": "noun", "gender": "m", "plural": "coins", "level": "A2", "core": false, "example": { "fr": "Il y a un café au coin de la rue.", "en": "There's a café on the corner of the street." } },
+    { "id": "u05-w028", "fr": "centre-ville", "en": "town centre, city centre", "pos": "noun", "gender": "m", "plural": "centres-villes", "level": "A2", "core": false, "example": { "fr": "Le centre-ville est interdit aux voitures le dimanche.", "en": "The town centre is closed to cars on Sundays." } },
+    { "id": "u05-w029", "fr": "banlieue", "en": "suburbs", "pos": "noun", "gender": "f", "plural": "banlieues", "level": "A2", "core": false, "example": { "fr": "Beaucoup de gens habitent en banlieue et travaillent en ville.", "en": "Many people live in the suburbs and work in town." } },
+    { "id": "u05-w030", "fr": "bâtiment", "en": "building", "pos": "noun", "gender": "m", "plural": "bâtiments", "level": "A2", "core": false, "example": { "fr": "La bibliothèque est dans le grand bâtiment blanc.", "en": "The library is in the big white building." } },
+    { "id": "u05-w031", "fr": "église", "en": "church", "pos": "noun", "gender": "f", "plural": "églises", "level": "A2", "core": false, "example": { "fr": "L'église du village date du douzième siècle.", "en": "The village church dates from the twelfth century." } },
+    { "id": "u05-w032", "fr": "musée", "en": "museum", "pos": "noun", "gender": "m", "plural": "musées", "level": "A2", "core": false, "example": { "fr": "Le musée est gratuit le premier dimanche du mois.", "en": "The museum is free on the first Sunday of the month." } },
+    { "id": "u05-w033", "fr": "bibliothèque", "en": "library", "pos": "noun", "gender": "f", "plural": "bibliothèques", "level": "A2", "core": false, "example": { "fr": "Je vais à la bibliothèque pour emprunter des livres.", "en": "I go to the library to borrow books." } },
+    { "id": "u05-w034", "fr": "poste", "en": "post office", "pos": "noun", "gender": "f", "plural": "postes", "level": "A2", "core": false, "example": { "fr": "La poste ferme à midi le samedi.", "en": "The post office closes at noon on Saturdays." } },
+    { "id": "u05-w035", "fr": "commissariat", "en": "police station", "pos": "noun", "gender": "m", "plural": "commissariats", "level": "A2", "core": false, "example": { "fr": "J'ai perdu mon portefeuille, je dois aller au commissariat.", "en": "I've lost my wallet, I have to go to the police station." } },
+    { "id": "u05-w036", "fr": "office de tourisme", "en": "tourist office", "pos": "noun", "gender": "m", "plural": "offices de tourisme", "level": "A2", "core": false, "example": { "fr": "À l'office de tourisme, on peut demander un plan gratuit.", "en": "At the tourist office you can ask for a free map." } },
+    { "id": "u05-w037", "fr": "parc", "en": "park", "pos": "noun", "gender": "m", "plural": "parcs", "level": "A2", "core": false, "example": { "fr": "Le dimanche, nous nous promenons dans le parc.", "en": "On Sundays we go for a walk in the park." } },
+    { "id": "u05-w038", "fr": "jardin public", "en": "public garden, park", "pos": "noun", "gender": "m", "plural": "jardins publics", "level": "A2", "core": false, "example": { "fr": "Le jardin public ferme à la tombée de la nuit.", "en": "The public garden closes at nightfall." } },
+    { "id": "u05-w039", "fr": "parking", "en": "car park", "pos": "noun", "gender": "m", "plural": "parkings", "level": "A2", "core": false, "example": { "fr": "Le parking de la gare est complet.", "en": "The station car park is full." } },
+    { "id": "u05-w040", "fr": "station", "en": "station (metro, tram), stop", "pos": "noun", "gender": "f", "plural": "stations", "level": "A2", "core": false, "example": { "fr": "Descendez à la station Hôtel de Ville.", "en": "Get off at Hôtel de Ville station." } },
+    { "id": "u05-w041", "fr": "ligne", "en": "line (bus, metro)", "pos": "noun", "gender": "f", "plural": "lignes", "level": "A2", "core": false, "example": { "fr": "Prenez la ligne 4 jusqu'au terminus.", "en": "Take line 4 to the end of the line." } },
+    { "id": "u05-w042", "fr": "tramway", "en": "tram", "pos": "noun", "gender": "m", "plural": "tramways", "level": "A2", "core": false, "example": { "fr": "Le tramway passe toutes les six minutes.", "en": "The tram comes every six minutes." } },
+    { "id": "u05-w043", "fr": "vélo", "en": "bike, bicycle", "pos": "noun", "gender": "m", "plural": "vélos", "level": "A2", "core": false, "example": { "fr": "Je vais à la fac à vélo quand il fait beau.", "en": "I cycle to university when the weather is nice." } },
+    { "id": "u05-w044", "fr": "piste cyclable", "en": "cycle lane", "pos": "noun", "gender": "f", "plural": "pistes cyclables", "level": "A2", "core": false, "example": { "fr": "Il y a une piste cyclable le long du canal.", "en": "There's a cycle lane along the canal." } },
+    { "id": "u05-w045", "fr": "trottinette", "en": "scooter (kick or electric)", "pos": "noun", "gender": "f", "plural": "trottinettes", "level": "A2", "core": false, "example": { "fr": "Beaucoup de jeunes se déplacent en trottinette électrique.", "en": "Lots of young people get around on electric scooters." } },
+    { "id": "u05-w046", "fr": "embouteillage", "en": "traffic jam", "pos": "noun", "gender": "m", "plural": "embouteillages", "level": "A2", "core": false, "example": { "fr": "Je suis en retard à cause d'un embouteillage.", "en": "I'm late because of a traffic jam." } },
+    { "id": "u05-w047", "fr": "piéton", "en": "pedestrian", "pos": "noun", "gender": "m", "plural": "piétons", "level": "A2", "core": false, "example": { "fr": "Cette rue est réservée aux piétons.", "en": "This street is for pedestrians only." } },
+    { "id": "u05-w048", "fr": "correspondance", "en": "connection, change (between lines)", "pos": "noun", "gender": "f", "plural": "correspondances", "level": "A2", "core": false, "example": { "fr": "Pour aller à l'aéroport, il y a une correspondance à la gare centrale.", "en": "To get to the airport, you change at the central station." } },
+    { "id": "u05-w049", "fr": "direction", "en": "direction (of a line)", "pos": "noun", "gender": "f", "plural": "directions", "level": "A2", "core": false, "example": { "fr": "Prenez le métro direction Château, et descendez au troisième arrêt.", "en": "Take the metro towards Château and get off at the third stop." } },
+    { "id": "u05-w050", "fr": "quai", "en": "platform", "pos": "noun", "gender": "m", "plural": "quais", "level": "A2", "core": false, "example": { "fr": "Le train pour Montréal part du quai numéro trois.", "en": "The train to Montréal leaves from platform three." } },
+    { "id": "u05-w051", "fr": "horaire", "en": "timetable; time", "pos": "noun", "gender": "m", "plural": "horaires", "level": "A2", "core": false, "example": { "fr": "Les horaires des bus changent pendant les vacances.", "en": "The bus times change during the holidays." } },
+    { "id": "u05-w052", "fr": "trajet", "en": "journey, trip", "pos": "noun", "gender": "m", "plural": "trajets", "level": "A2", "core": false, "example": { "fr": "Le trajet en bus dure vingt minutes.", "en": "The bus journey takes twenty minutes." } },
+    { "id": "u05-w053", "fr": "abonnement", "en": "season ticket, pass", "pos": "noun", "gender": "m", "plural": "abonnements", "level": "A2", "core": false, "example": { "fr": "Avec un abonnement mensuel, le bus est beaucoup moins cher.", "en": "With a monthly pass, the bus is much cheaper." } },
+    { "id": "u05-w054", "fr": "valider", "en": "to validate (a ticket)", "pos": "verb", "level": "A2", "core": false, "example": { "fr": "N'oubliez pas de valider votre ticket en montant dans le bus.", "en": "Don't forget to validate your ticket when you get on the bus." } },
+    { "id": "u05-w055", "fr": "monter", "en": "to get on (a bus, train)", "pos": "verb", "level": "A2", "core": false, "example": { "fr": "Montez dans le bus par la porte avant.", "en": "Get on the bus through the front door." } },
+    { "id": "u05-w056", "fr": "descendre", "en": "to get off (a bus, train)", "pos": "verb", "level": "A2", "core": false, "example": { "fr": "Je descends au prochain arrêt.", "en": "I'm getting off at the next stop." } },
+    { "id": "u05-w057", "fr": "changer", "en": "to change (lines, trains)", "pos": "verb", "level": "A2", "core": false, "example": { "fr": "Il faut changer à la station Bastide pour prendre la ligne B.", "en": "You have to change at Bastide station to take line B." } },
+    { "id": "u05-w058", "fr": "rater", "en": "to miss (a bus, train)", "pos": "verb", "level": "A2", "core": false, "example": { "fr": "Dépêche-toi, on va rater le tram !", "en": "Hurry up, we're going to miss the tram!" } },
+    { "id": "u05-w059", "fr": "se perdre", "en": "to get lost", "pos": "verb", "level": "A2", "core": false, "example": { "fr": "Prends un plan, c'est facile de se perdre dans la vieille ville.", "en": "Take a map, it's easy to get lost in the old town." } },
+    { "id": "u05-w060", "fr": "se trouver", "en": "to be located", "pos": "verb", "level": "A2", "core": false, "example": { "fr": "Où se trouve la gare routière, s'il vous plaît ?", "en": "Where is the bus station, please?" } },
+    { "id": "u05-w061", "fr": "demander son chemin", "en": "to ask the way", "pos": "expression", "level": "A2", "core": false, "example": { "fr": "Je ne trouve pas l'hôtel, je vais demander mon chemin.", "en": "I can't find the hotel, I'm going to ask the way." } },
+    { "id": "u05-w062", "fr": "indiquer", "en": "to show, to point out (the way)", "pos": "verb", "level": "A2", "core": false, "example": { "fr": "Pardon, vous pouvez m'indiquer l'hôtel de ville ?", "en": "Excuse me, can you tell me the way to the town hall?" } },
+    { "id": "u05-w063", "fr": "suivre", "en": "to follow", "pos": "verb", "level": "A2", "core": false, "example": { "fr": "Suivez les panneaux « Centre-ville ».", "en": "Follow the signs for the town centre." } },
+    { "id": "u05-w064", "fr": "se garer", "en": "to park", "pos": "verb", "level": "A2", "core": false, "example": { "fr": "C'est difficile de se garer dans ce quartier.", "en": "It's hard to park in this neighbourhood." } },
+    { "id": "u05-w065", "fr": "à pied", "en": "on foot", "pos": "expression", "level": "A2", "core": false, "example": { "fr": "Je vais au travail à pied, c'est tout près.", "en": "I walk to work, it's very close." } },
+    { "id": "u05-w066", "fr": "au bout de", "en": "at the end of", "pos": "preposition", "level": "A2", "core": false, "example": { "fr": "La pharmacie est au bout de l'avenue.", "en": "The chemist's is at the end of the avenue." } },
+    { "id": "u05-w067", "fr": "près de", "en": "near, close to", "pos": "preposition", "level": "A2", "core": false, "example": { "fr": "Il y a un arrêt de tram près de chez moi.", "en": "There's a tram stop near my place." } },
+    { "id": "u05-w068", "fr": "loin de", "en": "far from", "pos": "preposition", "level": "A2", "core": false, "example": { "fr": "L'aéroport est loin du centre-ville.", "en": "The airport is far from the city centre." } },
+    { "id": "u05-w069", "fr": "devant", "en": "in front of", "pos": "preposition", "level": "A2", "core": false, "example": { "fr": "Je t'attends devant le cinéma.", "en": "I'll wait for you in front of the cinema." } },
+    { "id": "u05-w070", "fr": "derrière", "en": "behind", "pos": "preposition", "level": "A2", "core": false, "example": { "fr": "Le parking est derrière le supermarché.", "en": "The car park is behind the supermarket." } },
+    { "id": "u05-w071", "fr": "entre", "en": "between", "pos": "preposition", "level": "A2", "core": false, "example": { "fr": "La poste est entre la banque et le fleuriste.", "en": "The post office is between the bank and the florist's." } },
+    { "id": "u05-w072", "fr": "jusqu'à", "en": "as far as, until", "pos": "preposition", "level": "A2", "core": false, "example": { "fr": "Allez jusqu'à l'église, puis tournez à gauche.", "en": "Go as far as the church, then turn left." } },
+    { "id": "u05-w073", "fr": "le long de", "en": "along", "pos": "preposition", "level": "A2", "core": false, "example": { "fr": "On peut se promener le long de la rivière.", "en": "You can walk along the river." } },
+    { "id": "u05-w074", "fr": "au milieu de", "en": "in the middle of", "pos": "preposition", "level": "A2", "core": false, "example": { "fr": "Il y a une statue au milieu de la place.", "en": "There's a statue in the middle of the square." } },
+    { "id": "u05-w075", "fr": "animé", "en": "lively, busy", "pos": "adjective", "level": "A2", "core": false, "example": { "fr": "Le soir, la rue principale est très animée.", "en": "In the evening, the high street is very lively." } },
+    { "id": "u05-w076", "fr": "proche", "en": "near, close", "pos": "adjective", "level": "A2", "core": false, "example": { "fr": "La station la plus proche est à cinq minutes.", "en": "The nearest station is five minutes away." } },
+    { "id": "u05-w077", "fr": "pressé", "en": "in a hurry", "pos": "adjective", "level": "A2", "core": false, "example": { "fr": "Désolée, je suis pressée, mon bus arrive !", "en": "Sorry, I'm in a hurry, my bus is coming!" } },
+    { "id": "u05-w078", "fr": "heure de pointe", "en": "rush hour", "pos": "noun", "gender": "f", "plural": "heures de pointe", "level": "A2", "core": false, "example": { "fr": "Aux heures de pointe, le métro est plein.", "en": "At rush hour, the metro is packed." } },
+    { "id": "u05-w079", "fr": "c'est loin d'ici ?", "en": "is it far from here?", "pos": "expression", "level": "A2", "core": false, "example": { "fr": "Le château, c'est loin d'ici ?", "en": "Is the castle far from here?" } },
+    { "id": "u05-w080", "fr": "ça prend combien de temps ?", "en": "how long does it take?", "pos": "expression", "level": "A2", "core": false, "example": { "fr": "En tram, ça prend combien de temps pour aller à la gare ?", "en": "How long does it take to get to the station by tram?" } },
+    { "id": "u05-w081", "fr": "à deux pas", "en": "a stone's throw away, very close", "pos": "expression", "level": "A2", "core": false, "example": { "fr": "Mon hôtel est à deux pas de la plage.", "en": "My hotel is a stone's throw from the beach." } },
+    { "id": "u05-w082", "fr": "se déplacer", "en": "to get around, to travel", "pos": "verb", "level": "A2", "core": false, "example": { "fr": "En ville, je me déplace surtout à vélo.", "en": "In town I mostly get around by bike." } },
+    { "id": "u05-w083", "fr": "circulation", "en": "traffic", "pos": "noun", "gender": "f", "plural": "circulations", "level": "A2", "core": false, "example": { "fr": "Il y a beaucoup de circulation le vendredi soir.", "en": "There's a lot of traffic on Friday evenings." } },
+    { "id": "u05-w084", "fr": "panneau", "en": "sign, road sign", "pos": "noun", "gender": "m", "plural": "panneaux", "level": "A2", "core": false, "example": { "fr": "Le panneau indique que la rue est en sens unique.", "en": "The sign shows that the street is one-way." } }
+  ],
+  "grammar": [
+    {
+      "id": "u05-g01",
+      "title": "Saying where: prepositions of place and the pronoun y",
+      "level": "A2",
+      "grammarTag": "y-en",
+      "explanation": [
+        "Many prepositions of place end in de: à côté de (next to), en face de (opposite), près de (near), loin de (far from), au bout de (at the end of), au coin de (on the corner of), au milieu de (in the middle of). De contracts with le and les: de + le = du, de + les = des. So you say en face du musée, à côté de la gare, près de l'église, loin des magasins.",
+        "Other prepositions take no de: devant (in front of), derrière (behind), entre (between), dans (in), sur (on), sous (under). With à (to, at), remember the contractions à + le = au and à + les = aux: Je vais au parc, à la poste, à l'arrêt de bus, aux urgences.",
+        "The pronoun y means \"there\". It replaces a place introduced by à, au, en, dans, chez, sur, devant, etc. Tu vas à la bibliothèque ? — Oui, j'y vais. Il habite en Gaspésie ? — Oui, il y habite depuis dix ans. Y is very common in French; you can't simply leave it out like \"there\" in English: you say J'y vais, not Je vais.",
+        "Y goes directly before the conjugated verb: j'y vais, nous y allons. In the negative, ne… pas goes around y and the verb: je n'y vais pas. With two verbs, y goes before the infinitive: je vais y aller, je peux y aller à pied. In the passé composé, y goes before the auxiliary: j'y suis allé(e).",
+        "Remember elision: je + y = j'y, ne + y = n'y. And the useful fixed expressions on y va (let's go) and il y a (there is / there are) contain the same y."
+      ],
+      "table": [
+        ["Preposition", "Example", "Meaning"],
+        ["à côté de", "à côté du cinéma", "next to the cinema"],
+        ["en face de", "en face de la gare", "opposite the station"],
+        ["près de / loin de", "près de l'église / loin des magasins", "near the church / far from the shops"],
+        ["au bout de", "au bout de la rue", "at the end of the street"],
+        ["devant / derrière", "devant l'hôtel de ville / derrière le parc", "in front of the town hall / behind the park"],
+        ["entre", "entre la poste et la banque", "between the post office and the bank"],
+        ["y (pronoun)", "Tu vas au musée ? — Oui, j'y vais.", "Are you going to the museum? — Yes, I'm going (there)."]
+      ],
+      "examples": [
+        { "fr": "La pharmacie est à côté de la boulangerie.", "en": "The chemist's is next to the bakery." },
+        { "fr": "L'arrêt de bus est en face de l'école secondaire.", "en": "The bus stop is opposite the secondary school." },
+        { "fr": "Il y a un parking derrière l'hôtel de ville.", "en": "There's a car park behind the town hall." },
+        { "fr": "Tu vas au marché demain ? — Oui, j'y vais avec ma mère.", "en": "Are you going to the market tomorrow? — Yes, I'm going with my mother." },
+        { "fr": "La plage ? Nous n'y allons jamais en été, il y a trop de monde.", "en": "The beach? We never go there in summer, there are too many people." },
+        { "fr": "Le musée est fermé aujourd'hui, on va y aller samedi.", "en": "The museum is closed today, we'll go there on Saturday." },
+        { "fr": "Chez Paul ? J'y suis allée hier soir.", "en": "Paul's place? I went there last night." }
+      ],
+      "commonMistakes": [
+        { "wrong": "Le café est en face de le musée.", "right": "Le café est en face du musée.", "why": "De + le always contracts to du." },
+        { "wrong": "Je vais à le parc.", "right": "Je vais au parc.", "why": "À + le always contracts to au." },
+        { "wrong": "Je vais y. / Oui, je vais.", "right": "Oui, j'y vais.", "why": "Y goes before the conjugated verb, and French doesn't normally drop it after aller." },
+        { "wrong": "Je ne vais y pas.", "right": "Je n'y vais pas.", "why": "In the negative, ne goes before y and pas after the verb." }
+      ]
+    },
+    {
+      "id": "u05-g02",
+      "title": "The imperative: giving directions and instructions",
+      "level": "A2",
+      "grammarTag": "imperatif",
+      "explanation": [
+        "The imperative is used to give directions, instructions and advice: Tournez à gauche. Prends le bus. Allons au parc ! It has three forms — tu, nous and vous — and no subject pronoun. Use the vous form with strangers or with several people, the tu form with a friend, and the nous form for \"let's…\".",
+        "To form it, take the present tense and drop the subject: tu prends → prends, nous traversons → traversons, vous continuez → continuez. Verbs ending in -er (and aller) lose the final -s in the tu form: tu tournes → tourne, tu vas → va. Other verbs keep it: prends, descends, fais.",
+        "A few verbs are irregular: être (sois, soyons, soyez), avoir (aie, ayons, ayez), savoir (sache, sachons, sachez). Vouloir is mainly used as veuillez in formal instructions: Veuillez valider votre ticket.",
+        "In the negative, put ne before the verb and pas after it: Ne traverse pas ! Ne prenez pas cette rue. With a pronoun such as y, an affirmative imperative puts the pronoun after the verb with a hyphen (Allez-y ! Vas-y !), but a negative imperative keeps it before the verb (N'y va pas !).",
+        "Note the -s that comes back in vas-y: the tu form va takes an s before y (and en) to make the liaison easier to pronounce: Vas-y ! Achètes-en !"
+      ],
+      "table": [
+        ["Verb", "tu", "nous", "vous"],
+        ["tourner", "tourne", "tournons", "tournez"],
+        ["prendre", "prends", "prenons", "prenez"],
+        ["descendre", "descends", "descendons", "descendez"],
+        ["aller", "va (vas-y)", "allons", "allez"],
+        ["être", "sois", "soyons", "soyez"],
+        ["avoir", "aie", "ayons", "ayez"]
+      ],
+      "examples": [
+        { "fr": "Continuez tout droit et tournez à la deuxième rue à gauche.", "en": "Go straight on and take the second street on the left." },
+        { "fr": "Prends le tram, c'est plus rapide.", "en": "Take the tram, it's quicker." },
+        { "fr": "Descendez au prochain arrêt.", "en": "Get off at the next stop." },
+        { "fr": "Ne traverse pas, le feu est rouge !", "en": "Don't cross, the light is red!" },
+        { "fr": "Il fait beau : allons au parc à pied !", "en": "The weather's nice: let's walk to the park!" },
+        { "fr": "Le musée est ouvert ce soir ? Alors, vas-y !", "en": "The museum is open tonight? Then go!" },
+        { "fr": "Soyez prudents, il y a beaucoup de circulation.", "en": "Be careful, there's a lot of traffic." }
+      ],
+      "commonMistakes": [
+        { "wrong": "Tournes à droite.", "right": "Tourne à droite.", "why": "-er verbs drop the -s in the tu form of the imperative." },
+        { "wrong": "Va-y !", "right": "Vas-y !", "why": "Before y, the tu form va takes an -s for the liaison." },
+        { "wrong": "Y allez !", "right": "Allez-y !", "why": "In an affirmative imperative, the pronoun goes after the verb, with a hyphen." },
+        { "wrong": "Ne traversez la rue pas.", "right": "Ne traversez pas la rue.", "why": "Pas comes straight after the verb, before the object." }
+      ]
+    }
+  ],
+  "exercises": [
+    { "id": "u05-ex01", "type": "mcq", "level": "A2", "skill": "structures", "grammarTag": "prepositions", "prompt": "Choose the correct word.", "promptFr": "La boulangerie est en face ___ musée.", "options": ["du", "de le", "de la", "au"], "answer": 0, "explanation": "En face de + le musée: de + le contracts to du." },
+    { "id": "u05-ex02", "type": "mcq", "level": "A2", "skill": "structures", "grammarTag": "prepositions", "prompt": "Choose the preposition that fits without adding another word.", "promptFr": "Le parking est ___ la gare et la poste.", "options": ["entre", "au milieu", "en face", "près"], "answer": 0, "explanation": "Entre (between) is followed directly by the noun. Au milieu, en face and près would all need de." },
+    { "id": "u05-ex03", "type": "mcq", "level": "A2", "skill": "structures", "grammarTag": "y-en", "prompt": "Choose the correct answer.", "promptFr": "Tu vas à la bibliothèque cet après-midi ? — Oui, ___.", "options": ["j'y vais", "je vais y", "j'en vais", "je la vais"], "answer": 0, "explanation": "Y replaces à la bibliothèque and goes before the conjugated verb: j'y vais." },
+    { "id": "u05-ex04", "type": "mcq", "level": "A2", "skill": "structures", "grammarTag": "imperatif", "prompt": "Choose the correct tu form of the imperative.", "promptFr": "___ la deuxième rue à droite.", "options": ["Prends", "Prend", "Prennes", "Prendez"], "answer": 0, "explanation": "Prendre is not an -er verb, so its tu imperative keeps the -s of the present tense: tu prends → prends." },
+    { "id": "u05-ex05", "type": "mcq", "level": "A2", "skill": "structures", "grammarTag": "imperatif", "prompt": "You are talking to a friend (tu). Tell them to go there.", "promptFr": "Le musée est ouvert ? Alors ___ !", "options": ["vas-y", "va-y", "y vas", "vas-en"], "answer": 0, "explanation": "In the affirmative imperative, y goes after the verb with a hyphen, and va takes an -s before y: vas-y." },
+    { "id": "u05-ex06", "type": "fill_blank", "level": "A2", "skill": "structures", "grammarTag": "prepositions", "prompt": "Complete the preposition.", "sentence": "Le café est ___ côté de l'hôtel de ville.", "answers": ["à"], "translation": "The café is next to the town hall.", "explanation": "Next to is à côté de." },
+    { "id": "u05-ex07", "type": "fill_blank", "level": "A2", "skill": "structures", "grammarTag": "y-en", "prompt": "Complete with a pronoun.", "sentence": "La gare ? Nous ___ allons en tram.", "answers": ["y"], "translation": "The station? We go there by tram.", "explanation": "Y replaces the place (à la gare) and goes before the verb." },
+    { "id": "u05-ex08", "type": "fill_blank", "level": "A2", "skill": "structures", "grammarTag": "imperatif", "prompt": "Complete with the vous imperative of traverser.", "sentence": "___ au passage piéton, s'il vous plaît.", "answers": ["Traversez"], "translation": "Please cross at the pedestrian crossing.", "explanation": "Vous traversez → Traversez, without the subject pronoun." },
+    { "id": "u05-ex09", "type": "fill_blank", "level": "A2", "skill": "structures", "grammarTag": "imperatif", "prompt": "Complete with the tu imperative of prendre.", "sentence": "Ne ___ pas cette rue, elle est en travaux.", "answers": ["prends"], "translation": "Don't take this street, there are roadworks.", "explanation": "Negative imperative: ne + prends + pas. Prendre keeps its -s in the tu form." },
+    { "id": "u05-ex10", "type": "fill_blank", "level": "A2", "skill": "structures", "grammarTag": "vocabulary", "prompt": "Complete the direction.", "sentence": "Pour aller à la gare, continuez tout ___ jusqu'au rond-point.", "answers": ["droit"], "translation": "To get to the station, go straight on as far as the roundabout.", "explanation": "Tout droit means straight on. Don't confuse it with à droite (on the right)." },
+    { "id": "u05-ex11", "type": "conjugation", "level": "A2", "skill": "structures", "grammarTag": "imperatif", "verb": "aller", "tense": "impératif", "person": "tu", "answers": ["va"], "explanation": "Aller behaves like an -er verb in the imperative: tu vas → va (but vas-y)." },
+    { "id": "u05-ex12", "type": "conjugation", "level": "A2", "skill": "structures", "grammarTag": "imperatif", "verb": "être", "tense": "impératif", "person": "vous", "answers": ["soyez"], "explanation": "Être is irregular in the imperative: sois, soyons, soyez." },
+    { "id": "u05-ex13", "type": "conjugation", "level": "A2", "skill": "structures", "grammarTag": "imperatif", "verb": "descendre", "tense": "impératif", "person": "nous", "answers": ["descendons"], "explanation": "Nous descendons → Descendons ! (Let's get off!)" },
+    { "id": "u05-ex14", "type": "reorder", "level": "A2", "skill": "structures", "grammarTag": "y-en", "prompt": "Put the words in order to answer: \"Tu vas au centre-ville en voiture ?\"", "tokens": ["Non", "je", "n'y", "vais", "jamais", "en", "voiture"], "translation": "No, I never go there by car.", "explanation": "In the negative, ne (n') goes before y, and jamais after the verb." },
+    { "id": "u05-ex15", "type": "reorder", "level": "A2", "skill": "structures", "grammarTag": "imperatif", "prompt": "Put the words in order to give a direction.", "tokens": ["Tournez", "à", "gauche", "après", "le", "pont"], "translation": "Turn left after the bridge.", "explanation": "The imperative starts the sentence, with no subject pronoun." },
+    { "id": "u05-ex16", "type": "match", "level": "A2", "skill": "structures", "grammarTag": "prepositions", "prompt": "Match the prepositions of place.", "pairs": [
+      { "left": "devant", "right": "in front of" },
+      { "left": "derrière", "right": "behind" },
+      { "left": "loin de", "right": "far from" },
+      { "left": "au bout de", "right": "at the end of" },
+      { "left": "en face de", "right": "opposite" }
+    ], "explanation": "Devant and derrière take no de; loin de, au bout de and en face de contract with le and les (loin du centre, au bout des quais)." },
+    { "id": "u05-ex17", "type": "match", "level": "A2", "skill": "structures", "grammarTag": "vocabulary", "prompt": "Match the public transport words.", "pairs": [
+      { "left": "le quai", "right": "platform" },
+      { "left": "la correspondance", "right": "connection (change of line)" },
+      { "left": "l'horaire", "right": "timetable" },
+      { "left": "le trajet", "right": "journey" },
+      { "left": "l'arrêt de bus", "right": "bus stop" }
+    ], "explanation": "These words appear in transport announcements and on signs in stations." },
+    { "id": "u05-ex18", "type": "translate", "level": "A2", "skill": "structures", "grammarTag": "imperatif", "direction": "en-fr", "source": "Take the first street on the left.", "answers": ["Prenez la première rue à gauche", "Prends la première rue à gauche", "Prenez la première rue sur la gauche", "Prends la première rue sur la gauche", "Prenez la première rue sur votre gauche", "Prends la première rue sur ta gauche", "Prenez la première à gauche", "Prends la première à gauche"], "explanation": "Use the imperative without a subject: Prenez (vous) or Prends (tu). First = la première, on the left = à gauche." },
+    { "id": "u05-ex19", "type": "translate", "level": "A2", "skill": "structures", "grammarTag": "y-en", "direction": "fr-en", "source": "J'y vais demain à pied.", "answers": ["I'm going there tomorrow on foot", "I am going there tomorrow on foot", "I'm going there on foot tomorrow", "I am going there on foot tomorrow", "I'll go there tomorrow on foot", "I will go there tomorrow on foot", "I'll go there on foot tomorrow", "I'm walking there tomorrow", "I am walking there tomorrow", "I'll walk there tomorrow", "I will walk there tomorrow", "I'm going tomorrow on foot", "I'm going on foot tomorrow"], "explanation": "Y means \"there\"; à pied means \"on foot\". The present tense can describe a near-future plan." },
+    { "id": "u05-ex20", "type": "dictation", "level": "A2", "skill": "listening", "grammarTag": "imperatif", "text": "Descendez à la prochaine station et prenez la ligne deux.", "translation": "Get off at the next station and take line two.", "explanation": "Two vous imperatives: descendez and prenez. Prochaine is feminine to agree with station." }
+  ],
+  "listening": [
+    {
+      "id": "u05-li01",
+      "title": "Où est l'office de tourisme ?",
+      "level": "A2",
+      "kind": "dialogue",
+      "context": "A tourist asks a passer-by for directions in the street.",
+      "lines": [
+        { "speaker": "Touriste", "fr": "Excusez-moi, madame, je cherche l'office de tourisme, s'il vous plaît." },
+        { "speaker": "Passante", "fr": "L'office de tourisme ? Il est sur la place de l'Hôtel-de-Ville. Ce n'est pas très loin." },
+        { "speaker": "Touriste", "fr": "J'y vais à pied ou je prends le bus ?" },
+        { "speaker": "Passante", "fr": "À pied, c'est à dix minutes. Continuez tout droit jusqu'au feu, puis tournez à gauche." },
+        { "speaker": "Touriste", "fr": "Au feu, à gauche… D'accord." },
+        { "speaker": "Passante", "fr": "Ensuite, traversez le pont. La place est juste après, sur votre droite. L'office de tourisme est en face de l'église." },
+        { "speaker": "Touriste", "fr": "En face de l'église. Merci beaucoup, madame !" },
+        { "speaker": "Passante", "fr": "Je vous en prie. Bonne journée !" }
+      ],
+      "translation": "Tourist: Excuse me, madam, I'm looking for the tourist office, please.\nPasser-by: The tourist office? It's on the Town Hall square. It's not very far.\nTourist: Shall I walk there or take the bus?\nPasser-by: On foot it's ten minutes. Go straight on as far as the traffic lights, then turn left.\nTourist: At the lights, left… OK.\nPasser-by: Then cross the bridge. The square is just after it, on your right. The tourist office is opposite the church.\nTourist: Opposite the church. Thank you very much, madam!\nPasser-by: You're welcome. Have a nice day!",
+      "questions": [
+        { "id": "u05-li01-q1", "question": "How does the passer-by suggest getting there?", "options": ["By bus, it's quicker", "On foot, it takes ten minutes", "By metro, two stops", "By bike along the river"], "answer": 1, "explanation": "« À pied, c'est à dix minutes »." },
+        { "id": "u05-li01-q2", "question": "What should the tourist do at the traffic lights?", "options": ["Turn right", "Turn left", "Cross the bridge", "Go straight on"], "answer": 1, "explanation": "« Continuez tout droit jusqu'au feu, puis tournez à gauche »." },
+        { "id": "u05-li01-q3", "question": "Where exactly is the tourist office?", "options": ["Next to the town hall", "Behind the church", "Opposite the church", "At the end of the bridge"], "answer": 2, "explanation": "« L'office de tourisme est en face de l'église »." }
+      ]
+    },
+    {
+      "id": "u05-li02",
+      "title": "Annonce dans le métro",
+      "level": "A2",
+      "kind": "announcement",
+      "context": "An announcement on a metro platform.",
+      "lines": [
+        { "speaker": "Annonce", "fr": "Mesdames et messieurs, votre attention, s'il vous plaît." },
+        { "speaker": "Annonce", "fr": "En raison de travaux, la station Jardin des Plantes est fermée ce week-end, samedi et dimanche." },
+        { "speaker": "Annonce", "fr": "Les voyageurs pour Jardin des Plantes sont invités à descendre à la station Pasteur et à prendre le bus numéro douze." },
+        { "speaker": "Annonce", "fr": "La correspondance avec la ligne trois est assurée normalement à la station Hôtel de Ville. Merci de votre compréhension." }
+      ],
+      "translation": "Ladies and gentlemen, your attention, please.\nBecause of engineering works, Jardin des Plantes station is closed this weekend, Saturday and Sunday.\nPassengers for Jardin des Plantes are asked to get off at Pasteur station and take bus number twelve.\nThe connection with line three is running normally at Hôtel de Ville station. Thank you for your understanding.",
+      "questions": [
+        { "id": "u05-li02-q1", "question": "Why is Jardin des Plantes station closed?", "options": ["Because of a strike", "Because of engineering works", "Because of an accident", "Because it is a public holiday"], "answer": 1, "explanation": "« En raison de travaux »." },
+        { "id": "u05-li02-q2", "question": "What should passengers for Jardin des Plantes do?", "options": ["Change to line three", "Get off at Pasteur and take bus 12", "Get off at Hôtel de Ville and walk", "Wait for the next train"], "answer": 1, "explanation": "« Descendre à la station Pasteur et prendre le bus numéro douze »." },
+        { "id": "u05-li02-q3", "question": "When is the station closed?", "options": ["Today only", "Every evening", "This weekend", "All week"], "answer": 2, "explanation": "« Ce week-end, samedi et dimanche »." }
+      ]
+    }
+  ],
+  "reading": [
+    {
+      "id": "u05-re01",
+      "title": "Pour venir chez moi",
+      "level": "A2",
+      "kind": "email",
+      "text": "Salut Mehdi,\nJe suis contente que tu viennes dîner samedi ! Voici comment venir chez moi. Prends le métro, ligne 2, et descends à la station Jean-Jaurès. Sors du côté de la place du Marché. Ensuite, traverse la place et prends l'avenue des Tilleuls. Continue tout droit pendant cinq minutes. Mon immeuble est au numéro 18, entre une boulangerie et une pharmacie, en face du parc. Le code de la porte est 4512B. J'habite au troisième étage. Si tu te perds, appelle-moi !\nÀ samedi,\nLéa",
+      "translation": "Hi Mehdi,\nI'm glad you're coming to dinner on Saturday! Here's how to get to my place. Take the metro, line 2, and get off at Jean-Jaurès station. Take the exit on the Place du Marché side. Then cross the square and take Avenue des Tilleuls. Go straight on for five minutes. My building is at number 18, between a bakery and a chemist's, opposite the park. The door code is 4512B. I live on the third floor. If you get lost, call me!\nSee you on Saturday,\nLéa",
+      "questions": [
+        { "id": "u05-re01-q1", "question": "Where should Mehdi get off the metro?", "options": ["At Place du Marché", "At Jean-Jaurès", "At Les Tilleuls", "At the park"], "answer": 1, "explanation": "« Descends à la station Jean-Jaurès »." },
+        { "id": "u05-re01-q2", "question": "Where is Léa's building?", "options": ["Next to the park", "Between a bakery and a chemist's", "On the square", "Behind the metro station"], "answer": 1, "explanation": "« Entre une boulangerie et une pharmacie, en face du parc »." },
+        { "id": "u05-re01-q3", "question": "What should Mehdi do if he gets lost?", "options": ["Ask at the bakery", "Look at a map", "Phone Léa", "Take a taxi"], "answer": 2, "explanation": "« Si tu te perds, appelle-moi ! »" }
+      ]
+    },
+    {
+      "id": "u05-re02",
+      "title": "Nouvelles pistes cyclables",
+      "level": "A2",
+      "kind": "notice",
+      "text": "VILLE DE MIRABEL — INFORMATION AUX HABITANTS\nÀ partir du lundi 3 juin, deux nouvelles pistes cyclables traversent le centre-ville. La première va de la gare jusqu'au musée, le long de la rivière. La seconde relie la place de l'Hôtel-de-Ville au parc des Sports.\nAttention : pendant les travaux, du 6 au 24 mai, le boulevard Pasteur est fermé aux voitures. Garez-vous au parking de la gare (gratuit le week-end).\nPour vous déplacer en ville, pensez aussi aux vélos en libre-service : le premier quart d'heure est gratuit.",
+      "translation": "TOWN OF MIRABEL — INFORMATION FOR RESIDENTS\nFrom Monday 3 June, two new cycle lanes will cross the town centre. The first goes from the station to the museum, along the river. The second links the Town Hall square to the sports park.\nPlease note: during the works, from 6 to 24 May, Boulevard Pasteur is closed to cars. Park in the station car park (free at weekends).\nTo get around town, also think of the self-service bikes: the first quarter of an hour is free.",
+      "questions": [
+        { "id": "u05-re02-q1", "question": "When do the new cycle lanes open?", "options": ["On 6 May", "On 24 May", "On 3 June", "Next weekend"], "answer": 2, "explanation": "« À partir du lundi 3 juin »." },
+        { "id": "u05-re02-q2", "question": "What happens on Boulevard Pasteur during the works?", "options": ["It is closed to bikes.", "It is closed to cars.", "Parking there is free.", "A new tram line opens."], "answer": 1, "explanation": "« Le boulevard Pasteur est fermé aux voitures »." },
+        { "id": "u05-re02-q3", "question": "When is the station car park free?", "options": ["Every day", "During the works only", "At weekends", "For the first quarter of an hour"], "answer": 2, "explanation": "« Parking de la gare (gratuit le week-end) ». The free quarter of an hour is for the self-service bikes." }
+      ]
+    }
+  ],
+  "writing": [
+    {
+      "id": "u05-wr01",
+      "title": "Comment venir chez moi",
+      "level": "A2",
+      "taskType": "message",
+      "instructions": "Write a message (60–120 words) to a friend who is visiting you for the first time. Explain how to get from the station to your home.",
+      "promptFr": "Un(e) ami(e) vient chez vous pour la première fois samedi. Il/Elle arrive en train. Écrivez-lui un message pour expliquer comment venir de la gare jusqu'à chez vous. (60 à 120 mots)",
+      "minWords": 60,
+      "maxWords": 120,
+      "modelAnswer": "Salut Antoine,\nSuper, tu arrives samedi à 15 h ! Je ne peux pas venir te chercher à la gare, mais c'est facile. À la sortie de la gare, prends le tram A, direction Hôpital Nord. Descends au quatrième arrêt, « Place Carnot ». Ensuite, traverse la place et tourne à droite dans la rue Pasteur. Continue tout droit jusqu'au carrefour. Mon immeuble est au coin de la rue, à côté d'une petite épicerie. Sonne à l'interphone « Martin », au troisième étage. Si tu te perds, appelle-moi !\nÀ samedi,\nJulie",
+      "checklist": [
+        "I greeted my friend and signed off.",
+        "I used the tu imperative for directions (prends, descends, tourne, continue).",
+        "I named the means of transport and where to get off.",
+        "I used at least three prepositions of place correctly (à côté de, en face de, au coin de…).",
+        "I checked contractions: du, des, au, aux.",
+        "My message is between 60 and 120 words."
+      ]
+    }
+  ],
+  "speaking": [
+    {
+      "id": "u05-sp01",
+      "title": "Votre quartier et vos déplacements",
+      "level": "A2",
+      "taskType": "entretien",
+      "instructions": "Answer the examiner's question about your neighbourhood and how you get around. Speak for about two minutes without preparation.",
+      "promptFr": "Parlez-moi de votre quartier. Comment est-ce que vous vous déplacez en ville ?",
+      "prepSeconds": 0,
+      "speakSeconds": 120,
+      "modelAnswer": "J'habite dans un quartier assez animé, près du centre-ville. Dans ma rue, il y a une boulangerie, une pharmacie et un petit supermarché. La gare est à quinze minutes à pied. En général, je me déplace à vélo, parce que c'est rapide et pas cher, et il y a une piste cyclable le long de la rivière. Quand il pleut, je prends le tram : l'arrêt est juste en face de chez moi. Je n'aime pas conduire en ville, il y a trop de circulation et c'est difficile de se garer. Le week-end, je vais souvent au parc, j'y vais à pied.",
+      "tips": [
+        "Describe where things are with prepositions: près de, en face de, à côté de.",
+        "Say how you travel: à pied, à vélo, en bus, en tram, en voiture.",
+        "Use y to avoid repeating a place: j'y vais à pied.",
+        "Give reasons with parce que and add an opinion (c'est pratique, il y a trop de circulation)."
+      ]
+    },
+    {
+      "id": "u05-sp02",
+      "title": "Demander son chemin",
+      "level": "A2",
+      "taskType": "interaction",
+      "instructions": "Role-play: you are a tourist in a French town and want to go to the museum. The examiner plays a passer-by. Ask the way, check the details and thank them.",
+      "promptFr": "Vous êtes en vacances dans une ville française. Vous voulez aller au musée. Vous demandez votre chemin à un passant : où se trouve le musée, si c'est loin, comment y aller.",
+      "prepSeconds": 120,
+      "speakSeconds": 210,
+      "modelAnswer": "Excusez-moi, monsieur, je cherche le musée des Beaux-Arts, s'il vous plaît. C'est loin d'ici ? Ah, vingt minutes à pied… Est-ce qu'il y a un bus pour y aller ? Le bus 5, d'accord. Et où est l'arrêt ? Devant la poste, en face de la gare ? Très bien. Je descends à quel arrêt ? « Place Bellecour », puis je tourne à gauche et je continue tout droit. Le musée est à côté de l'église, c'est ça ? Parfait. Et je peux acheter un ticket dans le bus ? Merci beaucoup pour votre aide, bonne journée !",
+      "tips": [
+        "Start politely: Excusez-moi / Pardon, monsieur / madame.",
+        "Ask useful questions: C'est loin d'ici ? Comment est-ce que je peux y aller ? Ça prend combien de temps ?",
+        "Repeat the directions to check you understood: Je tourne à gauche, c'est ça ?",
+        "Thank the person and end the conversation: Merci beaucoup, bonne journée !"
+      ]
+    }
+  ],
+  "checkpoint": [
+    { "id": "u05-cp01", "type": "mcq", "level": "A2", "skill": "structures", "grammarTag": "prepositions", "prompt": "Choose the correct word.", "promptFr": "Je vais ___ parc avec les enfants.", "options": ["au", "à le", "à la", "en"], "answer": 0, "explanation": "Parc is masculine: à + le contracts to au." },
+    { "id": "u05-cp02", "type": "mcq", "level": "A2", "skill": "structures", "grammarTag": "prepositions", "prompt": "Choose the correct word.", "promptFr": "La pharmacie est à côté ___ église.", "options": ["de l'", "du", "de la", "à l'"], "answer": 0, "explanation": "À côté de + l'église: église starts with a vowel, so de l'." },
+    { "id": "u05-cp03", "type": "fill_blank", "level": "A2", "skill": "structures", "grammarTag": "y-en", "prompt": "Complete with a pronoun.", "sentence": "Tu vas au musée ? — Oui, j'___ vais samedi.", "answers": ["y"], "translation": "Are you going to the museum? — Yes, I'm going on Saturday.", "explanation": "Y replaces au musée; je + y becomes j'y." },
+    { "id": "u05-cp04", "type": "mcq", "level": "A2", "skill": "structures", "grammarTag": "y-en", "prompt": "Choose the correct pronoun.", "promptFr": "Vous allez à l'hôtel de ville ? — Non, nous n'___ allons pas aujourd'hui.", "options": ["y", "en", "la", "le"], "answer": 0, "explanation": "Y replaces a place introduced by à (à l'hôtel de ville). En replaces de + noun, and la/le replace direct objects." },
+    { "id": "u05-cp05", "type": "fill_blank", "level": "A2", "skill": "structures", "grammarTag": "imperatif", "prompt": "Complete with the tu imperative of tourner.", "sentence": "___ à droite au carrefour.", "answers": ["Tourne"], "translation": "Turn right at the crossroads.", "explanation": "-er verbs drop the -s in the tu imperative: tu tournes → tourne." },
+    { "id": "u05-cp06", "type": "mcq", "level": "A2", "skill": "structures", "grammarTag": "imperatif", "prompt": "Tell a group of people (vous) to be careful.", "promptFr": "___ prudents, la circulation est dense.", "options": ["Soyez", "Êtes", "Sois", "Soyons"], "answer": 0, "explanation": "The vous imperative of être is soyez. Êtes is the present tense, sois the tu form and soyons the nous form." },
+    { "id": "u05-cp07", "type": "fill_blank", "level": "A2", "skill": "structures", "grammarTag": "prepositions", "prompt": "Complete the preposition.", "sentence": "La poste est ___ face de la gare.", "answers": ["en"], "translation": "The post office is opposite the station.", "explanation": "Opposite is en face de." },
+    { "id": "u05-cp08", "type": "mcq", "level": "A2", "skill": "structures", "grammarTag": "vocabulary", "prompt": "Where do you wait for a train?", "options": ["sur le quai", "sur le trottoir", "au rond-point", "au carrefour"], "answer": 0, "explanation": "Le quai is the platform. The trottoir is the pavement, and rond-point and carrefour are road junctions." },
+    { "id": "u05-cp09", "type": "fill_blank", "level": "A2", "skill": "structures", "grammarTag": "imperatif", "prompt": "Complete the negative imperative with a pronoun.", "sentence": "N'___ va pas à pied, c'est trop loin !", "answers": ["y"], "translation": "Don't walk there, it's too far!", "explanation": "In a negative imperative, the pronoun stays before the verb: n'y va pas." },
+    { "id": "u05-cp10", "type": "mcq", "level": "A2", "skill": "structures", "grammarTag": "vocabulary", "prompt": "Choose the correct word.", "promptFr": "Au ___, prenez la deuxième sortie.", "options": ["rond-point", "quai", "trottoir", "ticket"], "answer": 0, "explanation": "You take an exit (une sortie) at a roundabout: le rond-point." }
+  ]
+}

@@ -1,0 +1,488 @@
+[
+  {
+    "id": "qd-t01",
+    "type": "translate",
+    "level": "A2",
+    "skill": "structures",
+    "grammarTag": "questions",
+    "direction": "en-fr",
+    "source": "Where do you live? (est-ce que, vous; habiter)",
+    "answers": [
+      "Où est-ce que vous habitez ?"
+    ],
+    "explanation": "Est-ce que goes after the question word, and the sentence keeps normal word order: question word + est-ce que + subject + verb."
+  },
+  {
+    "id": "qd-t02",
+    "type": "translate",
+    "level": "A2+",
+    "skill": "structures",
+    "grammarTag": "questions",
+    "direction": "en-fr",
+    "source": "Where do you live? (inversion, vous; habiter)",
+    "answers": [
+      "Où habitez-vous ?"
+    ],
+    "explanation": "In an inversion the verb comes before the subject pronoun, joined with a hyphen. Où habitez-vous ?"
+  },
+  {
+    "id": "qd-t03",
+    "type": "translate",
+    "level": "A2",
+    "skill": "structures",
+    "grammarTag": "questions",
+    "direction": "en-fr",
+    "source": "When does the course start? (est-ce que; le cours, commencer)",
+    "answers": [
+      "Quand est-ce que le cours commence ?"
+    ],
+    "explanation": "Est-ce que goes after the question word, and the sentence keeps normal word order: question word + est-ce que + subject + verb."
+  },
+  {
+    "id": "qd-t04",
+    "type": "translate",
+    "level": "B1",
+    "skill": "structures",
+    "grammarTag": "questions",
+    "direction": "en-fr",
+    "source": "When does the course start? (inversion; le cours, commencer)",
+    "answers": [
+      "Quand le cours commence-t-il ?",
+      "Quand commence le cours ?"
+    ],
+    "explanation": "With a noun subject, keep the noun and add the matching pronoun after the verb (le cours commence-t-il), or simply put the verb before the noun after the question word (quand commence le cours). -t- separates two vowels."
+  },
+  {
+    "id": "qd-t05",
+    "type": "translate",
+    "level": "A2",
+    "skill": "structures",
+    "grammarTag": "questions",
+    "direction": "en-fr",
+    "source": "How much does the room cost? (est-ce que; la chambre, coûter)",
+    "answers": [
+      "Combien est-ce que la chambre coûte ?",
+      "Combien est-ce que coûte la chambre ?"
+    ],
+    "explanation": "Est-ce que goes after the question word, and the sentence keeps normal word order: question word + est-ce que + subject + verb."
+  },
+  {
+    "id": "qd-t06",
+    "type": "translate",
+    "level": "A2+",
+    "skill": "structures",
+    "grammarTag": "questions",
+    "direction": "en-fr",
+    "source": "How much does the room cost? (inversion; la chambre, coûter)",
+    "answers": [
+      "Combien coûte la chambre ?",
+      "Combien la chambre coûte-t-elle ?"
+    ],
+    "explanation": "After combien, French often just puts the verb before the noun: combien coûte la chambre ?"
+  },
+  {
+    "id": "qd-t07",
+    "type": "translate",
+    "level": "A2",
+    "skill": "structures",
+    "grammarTag": "questions",
+    "direction": "en-fr",
+    "source": "Why are you closing early today? (est-ce que, vous; fermer tôt)",
+    "answers": [
+      "Pourquoi est-ce que vous fermez tôt aujourd'hui ?"
+    ],
+    "explanation": "Est-ce que goes after the question word, and the sentence keeps normal word order: question word + est-ce que + subject + verb."
+  },
+  {
+    "id": "qd-t08",
+    "type": "translate",
+    "level": "A2",
+    "skill": "structures",
+    "grammarTag": "questions",
+    "direction": "en-fr",
+    "source": "Is there a car park near the gym? (est-ce que; un parking, la salle de sport)",
+    "answers": [
+      "Est-ce qu'il y a un parking près de la salle de sport ?"
+    ],
+    "explanation": "Est-ce que turns any statement into a yes/no question; before il it becomes est-ce qu'."
+  },
+  {
+    "id": "qd-t09",
+    "type": "translate",
+    "level": "B1",
+    "skill": "structures",
+    "grammarTag": "questions",
+    "direction": "en-fr",
+    "source": "Is there a car park near the gym? (inversion; un parking, la salle de sport)",
+    "answers": [
+      "Y a-t-il un parking près de la salle de sport ?"
+    ],
+    "explanation": "Il y a becomes y a-t-il in an inversion."
+  },
+  {
+    "id": "qd-t10",
+    "type": "translate",
+    "level": "A2+",
+    "skill": "structures",
+    "grammarTag": "questions",
+    "direction": "en-fr",
+    "source": "Do you accept bank cards? (inversion, vous; accepter, les cartes bancaires)",
+    "answers": [
+      "Acceptez-vous les cartes bancaires ?"
+    ],
+    "explanation": "In an inversion the verb comes before the subject pronoun, joined with a hyphen."
+  },
+  {
+    "id": "qd-t11",
+    "type": "translate",
+    "level": "A2",
+    "skill": "structures",
+    "grammarTag": "questions",
+    "direction": "en-fr",
+    "source": "Do you accept bank cards? (est-ce que, vous; accepter, les cartes bancaires)",
+    "answers": [
+      "Est-ce que vous acceptez les cartes bancaires ?"
+    ],
+    "explanation": "Est-ce que goes after the question word, and the sentence keeps normal word order: question word + est-ce que + subject + verb."
+  },
+  {
+    "id": "qd-t12",
+    "type": "translate",
+    "level": "A2",
+    "skill": "structures",
+    "grammarTag": "questions",
+    "direction": "en-fr",
+    "source": "What time does the museum open? (est-ce que; le musée, ouvrir)",
+    "answers": [
+      "À quelle heure est-ce que le musée ouvre ?",
+      "A quelle heure est-ce que le musée ouvre ?"
+    ],
+    "explanation": "À quelle heure asks for a time; then est-ce que + subject + verb."
+  },
+  {
+    "id": "qd-t13",
+    "type": "translate",
+    "level": "B1",
+    "skill": "structures",
+    "grammarTag": "questions",
+    "direction": "en-fr",
+    "source": "What time does the museum open? (inversion; le musée, ouvrir)",
+    "answers": [
+      "À quelle heure le musée ouvre-t-il ?",
+      "À quelle heure ouvre le musée ?",
+      "A quelle heure le musée ouvre-t-il ?",
+      "A quelle heure ouvre le musée ?"
+    ],
+    "explanation": "Le musée ouvre-t-il: noun, verb, then the matching pronoun. Ouvre le musée is the simpler inversion after a question word."
+  },
+  {
+    "id": "qd-t14",
+    "type": "translate",
+    "level": "A2",
+    "skill": "structures",
+    "grammarTag": "questions",
+    "direction": "en-fr",
+    "source": "Which bus goes to the station? (quel; le bus, aller à la gare)",
+    "answers": [
+      "Quel bus va à la gare ?"
+    ],
+    "explanation": "Quel agrees with the noun: le bus is masculine singular, so quel."
+  },
+  {
+    "id": "qd-t15",
+    "type": "translate",
+    "level": "B1",
+    "skill": "structures",
+    "grammarTag": "questions",
+    "direction": "en-fr",
+    "source": "Which activities do you offer for children? (inversion, vous; les activités, proposer)",
+    "answers": [
+      "Quelles activités proposez-vous pour les enfants ?"
+    ],
+    "explanation": "Activités is feminine plural, so quelles; then the inverted verb proposez-vous."
+  },
+  {
+    "id": "qd-t16",
+    "type": "translate",
+    "level": "A2",
+    "skill": "structures",
+    "grammarTag": "questions",
+    "direction": "en-fr",
+    "source": "How do I register? (est-ce que, je; s'inscrire)",
+    "answers": [
+      "Comment est-ce que je m'inscris ?"
+    ],
+    "explanation": "Comment + est-ce que + je m'inscris: the reflexive pronoun stays before the verb."
+  },
+  {
+    "id": "qd-t17",
+    "type": "translate",
+    "level": "A2+",
+    "skill": "structures",
+    "grammarTag": "questions",
+    "direction": "en-fr",
+    "source": "How long does the training last? (est-ce que; la formation, durer)",
+    "answers": [
+      "Combien de temps est-ce que la formation dure ?",
+      "Combien de temps est-ce que dure la formation ?"
+    ],
+    "explanation": "Est-ce que goes after the question word, and the sentence keeps normal word order: question word + est-ce que + subject + verb."
+  },
+  {
+    "id": "qd-t18",
+    "type": "translate",
+    "level": "B1",
+    "skill": "structures",
+    "grammarTag": "questions",
+    "direction": "en-fr",
+    "source": "How long does the training last? (inversion; la formation, durer)",
+    "answers": [
+      "Combien de temps dure la formation ?",
+      "Combien de temps la formation dure-t-elle ?"
+    ],
+    "explanation": "La formation is feminine, so the added pronoun is elle: la formation dure-t-elle ?"
+  },
+  {
+    "id": "qd-t19",
+    "type": "translate",
+    "level": "A2",
+    "skill": "structures",
+    "grammarTag": "questions",
+    "direction": "en-fr",
+    "source": "Who do I have to call? (est-ce que, je; devoir appeler)",
+    "answers": [
+      "Qui est-ce que je dois appeler ?"
+    ],
+    "explanation": "Qui est-ce que asks about the person who receives the action (the object)."
+  },
+  {
+    "id": "qd-t20",
+    "type": "translate",
+    "level": "A2",
+    "skill": "structures",
+    "grammarTag": "questions",
+    "direction": "en-fr",
+    "source": "What do I need to bring? (qu'est-ce que, je; devoir apporter)",
+    "answers": [
+      "Qu'est-ce que je dois apporter ?"
+    ],
+    "explanation": "Qu'est-ce que asks about a thing that is the object of the verb."
+  },
+  {
+    "id": "qd-t21",
+    "type": "translate",
+    "level": "B1",
+    "skill": "structures",
+    "grammarTag": "questions",
+    "direction": "en-fr",
+    "source": "What do you recommend to me? (inversion, vous; conseiller)",
+    "answers": [
+      "Que me conseillez-vous ?"
+    ],
+    "explanation": "Que + object pronoun + inverted verb: que me conseillez-vous ?"
+  },
+  {
+    "id": "qd-t22",
+    "type": "translate",
+    "level": "A2",
+    "skill": "structures",
+    "grammarTag": "questions",
+    "direction": "en-fr",
+    "source": "Can I pay in instalments? (est-ce que, je; payer en plusieurs fois)",
+    "answers": [
+      "Est-ce que je peux payer en plusieurs fois ?"
+    ],
+    "explanation": "Est-ce que + je peux + infinitive."
+  },
+  {
+    "id": "qd-t23",
+    "type": "translate",
+    "level": "A2+",
+    "skill": "structures",
+    "grammarTag": "questions",
+    "direction": "en-fr",
+    "source": "Can we visit the flat on Saturday? (inversion, nous; pouvoir visiter, l'appartement)",
+    "answers": [
+      "Pouvons-nous visiter l'appartement samedi ?"
+    ],
+    "explanation": "In an inversion the verb comes before the subject pronoun, joined with a hyphen. Pouvons-nous + infinitive."
+  },
+  {
+    "id": "qd-t24",
+    "type": "translate",
+    "level": "B1",
+    "skill": "structures",
+    "grammarTag": "questions",
+    "direction": "en-fr",
+    "source": "Does the price include breakfast? (inversion; le prix, comprendre, le petit-déjeuner)",
+    "answers": [
+      "Le prix comprend-il le petit-déjeuner ?"
+    ],
+    "explanation": "Noun subject + verb + matching pronoun: le prix comprend-il ? No -t- is needed because comprend ends in d, pronounced t."
+  },
+  {
+    "id": "qd-t25",
+    "type": "translate",
+    "level": "A2",
+    "skill": "structures",
+    "grammarTag": "questions",
+    "direction": "en-fr",
+    "source": "How many people are there in a group? (est-ce que; combien de personnes, un groupe)",
+    "answers": [
+      "Combien de personnes est-ce qu'il y a dans un groupe ?"
+    ],
+    "explanation": "Combien de + noun, then est-ce qu'il y a."
+  },
+  {
+    "id": "qd-m01",
+    "type": "mcq",
+    "level": "A2+",
+    "skill": "structures",
+    "grammarTag": "questions",
+    "prompt": "Which question is correct?",
+    "options": [
+      "Où vous habitez-vous ?",
+      "Où habitez-vous ?",
+      "Où est-ce vous habitez ?"
+    ],
+    "answer": 1,
+    "explanation": "Inversion puts the verb before the pronoun once: habitez-vous. With est-ce que you need que: où est-ce que vous habitez."
+  },
+  {
+    "id": "qd-m02",
+    "type": "mcq",
+    "level": "A2+",
+    "skill": "structures",
+    "grammarTag": "questions",
+    "prompt": "Which inversion is correct?",
+    "options": [
+      "Parle-il français ?",
+      "Parle-t-il français ?",
+      "Parle-t-il-français ?"
+    ],
+    "answer": 1,
+    "explanation": "When the verb ends in a vowel and the pronoun starts with one, French adds -t-: parle-t-il."
+  },
+  {
+    "id": "qd-m03",
+    "type": "mcq",
+    "level": "A2",
+    "skill": "structures",
+    "grammarTag": "questions",
+    "prompt": "The examiner answers: « Le cours coûte deux cents dollars. » Which question did you ask?",
+    "options": [
+      "Quand coûte le cours ?",
+      "Combien coûte le cours ?",
+      "Pourquoi coûte le cours ?"
+    ],
+    "answer": 1,
+    "explanation": "A price answers combien."
+  },
+  {
+    "id": "qd-m04",
+    "type": "mcq",
+    "level": "A2",
+    "skill": "structures",
+    "grammarTag": "questions",
+    "prompt": "The examiner answers: « Il commence à neuf heures. » Which question did you ask?",
+    "options": [
+      "À quelle heure est-ce qu'il commence ?",
+      "Où est-ce qu'il commence ?",
+      "Combien est-ce qu'il commence ?"
+    ],
+    "answer": 0,
+    "explanation": "A time answers à quelle heure."
+  },
+  {
+    "id": "qd-m05",
+    "type": "mcq",
+    "level": "A2",
+    "skill": "structures",
+    "grammarTag": "questions",
+    "prompt": "___ langues parlez-vous ?",
+    "options": [
+      "Quel",
+      "Quelle",
+      "Quels",
+      "Quelles"
+    ],
+    "answer": 3,
+    "explanation": "Langues is feminine plural, so quelles."
+  },
+  {
+    "id": "qd-m06",
+    "type": "mcq",
+    "level": "A2",
+    "skill": "structures",
+    "grammarTag": "questions",
+    "prompt": "___ est votre adresse ?",
+    "options": [
+      "Quel",
+      "Quelle",
+      "Quels",
+      "Quelles"
+    ],
+    "answer": 1,
+    "explanation": "Adresse is feminine singular, so quelle."
+  },
+  {
+    "id": "qd-m07",
+    "type": "mcq",
+    "level": "A2+",
+    "skill": "structures",
+    "grammarTag": "questions",
+    "prompt": "Which question is the most formal, as in the exam?",
+    "options": [
+      "Tu viens quand ?",
+      "Quand est-ce que tu viens ?",
+      "Quand venez-vous ?"
+    ],
+    "answer": 2,
+    "explanation": "Inversion with vous is the most formal. Intonation questions (tu viens quand ?) are spoken and informal."
+  },
+  {
+    "id": "qd-m08",
+    "type": "mcq",
+    "level": "B1",
+    "skill": "structures",
+    "grammarTag": "questions",
+    "prompt": "Which question is correct?",
+    "options": [
+      "Le magasin est-il ouvert le dimanche ?",
+      "Est le magasin ouvert le dimanche ?",
+      "Le magasin est ouvert-il le dimanche ?"
+    ],
+    "answer": 0,
+    "explanation": "With a noun subject: noun + verb + matching pronoun, joined with a hyphen."
+  },
+  {
+    "id": "qd-m09",
+    "type": "mcq",
+    "level": "B1",
+    "skill": "structures",
+    "grammarTag": "questions",
+    "prompt": "___ vous intéresse dans ce poste ?",
+    "options": [
+      "Qu'est-ce que",
+      "Qu'est-ce qui",
+      "Quoi"
+    ],
+    "answer": 1,
+    "explanation": "Qu'est-ce qui asks about a thing that is the subject of the verb (something interests you)."
+  },
+  {
+    "id": "qd-m10",
+    "type": "mcq",
+    "level": "B1",
+    "skill": "structures",
+    "grammarTag": "questions",
+    "prompt": "Which negative question is correct?",
+    "options": [
+      "N'avez-vous pas reçu mon courriel ?",
+      "Avez-vous ne pas reçu mon courriel ?",
+      "Ne avez-vous pas reçu mon courriel ?"
+    ],
+    "answer": 0,
+    "explanation": "Ne goes before the inverted verb (elided to n'), and pas after the pronoun: n'avez-vous pas reçu…?"
+  }
+]

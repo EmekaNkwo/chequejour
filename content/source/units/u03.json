@@ -1,0 +1,2190 @@
+{
+  "id": "u03",
+  "order": 9,
+  "level": "A2",
+  "theme": "Housing",
+  "titleFr": "Le logement",
+  "description": "Describe your home and neighbourhood, understand flat adverts, and talk about where you used to live and what life was like using the imparfait.",
+  "vocab": [
+    {
+      "id": "u03-w001",
+      "fr": "appartement",
+      "en": "flat, apartment",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "appartements",
+      "level": "A2",
+      "core": true,
+      "example": {
+        "fr": "Nous cherchons un appartement de trois pièces près du centre.",
+        "en": "We're looking for a three-room flat near the centre."
+      }
+    },
+    {
+      "id": "u03-w002",
+      "fr": "maison",
+      "en": "house; home",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "maisons",
+      "level": "A2",
+      "core": true,
+      "example": {
+        "fr": "Quand j'étais petit, nous habitions dans une maison avec un jardin.",
+        "en": "When I was little, we lived in a house with a garden."
+      }
+    },
+    {
+      "id": "u03-w003",
+      "fr": "loyer",
+      "en": "rent",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "loyers",
+      "level": "A2",
+      "core": true,
+      "example": {
+        "fr": "Le loyer est payé le premier du mois.",
+        "en": "The rent is paid on the first of the month."
+      }
+    },
+    {
+      "id": "u03-w004",
+      "fr": "propriétaire",
+      "en": "owner; landlord / landlady",
+      "pos": "noun",
+      "gender": "mf",
+      "plural": "propriétaires",
+      "level": "A2",
+      "core": true,
+      "example": {
+        "fr": "La propriétaire habite au premier étage de l'immeuble.",
+        "en": "The landlady lives on the first floor of the building."
+      }
+    },
+    {
+      "id": "u03-w005",
+      "fr": "locataire",
+      "en": "tenant",
+      "pos": "noun",
+      "gender": "mf",
+      "plural": "locataires",
+      "level": "A2",
+      "core": true,
+      "example": {
+        "fr": "Les locataires doivent payer le loyer avant le cinq.",
+        "en": "Tenants must pay the rent before the fifth."
+      }
+    },
+    {
+      "id": "u03-w006",
+      "fr": "pièce",
+      "en": "room (any room in a home)",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "pièces",
+      "level": "A2",
+      "core": true,
+      "example": {
+        "fr": "Notre ancien appartement avait seulement deux pièces.",
+        "en": "Our old flat only had two rooms."
+      }
+    },
+    {
+      "id": "u03-w007",
+      "fr": "chambre",
+      "en": "bedroom",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "chambres",
+      "level": "A2",
+      "core": true,
+      "example": {
+        "fr": "Ma chambre donne sur la cour, alors elle est calme.",
+        "en": "My bedroom looks onto the courtyard, so it's quiet."
+      }
+    },
+    {
+      "id": "u03-w008",
+      "fr": "salon",
+      "en": "living room, lounge",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "salons",
+      "level": "A2",
+      "core": true,
+      "example": {
+        "fr": "Le soir, nous regardions la télévision dans le salon.",
+        "en": "In the evening, we used to watch television in the living room."
+      }
+    },
+    {
+      "id": "u03-w009",
+      "fr": "cuisine",
+      "en": "kitchen; cooking",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "cuisines",
+      "level": "A2",
+      "core": true,
+      "example": {
+        "fr": "La cuisine est petite, mais elle est bien équipée.",
+        "en": "The kitchen is small, but it's well equipped."
+      }
+    },
+    {
+      "id": "u03-w010",
+      "fr": "salle de bains",
+      "en": "bathroom",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "salles de bains",
+      "level": "A2",
+      "core": true,
+      "example": {
+        "fr": "Dans la salle de bains, il y a une douche et un lavabo.",
+        "en": "In the bathroom, there's a shower and a washbasin."
+      }
+    },
+    {
+      "id": "u03-w011",
+      "fr": "étage",
+      "en": "floor, storey",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "étages",
+      "level": "A2",
+      "core": true,
+      "example": {
+        "fr": "J'habite au cinquième étage, sans ascenseur !",
+        "en": "I live on the fifth floor, without a lift!"
+      }
+    },
+    {
+      "id": "u03-w012",
+      "fr": "immeuble",
+      "en": "block of flats, building",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "immeubles",
+      "level": "A2",
+      "core": true,
+      "example": {
+        "fr": "Notre immeuble a été construit dans les années soixante.",
+        "en": "Our building was built in the sixties."
+      }
+    },
+    {
+      "id": "u03-w013",
+      "fr": "quartier",
+      "en": "neighbourhood, area",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "quartiers",
+      "level": "A2",
+      "core": true,
+      "example": {
+        "fr": "Avant, ce quartier était très calme le soir.",
+        "en": "This area used to be very quiet in the evening."
+      }
+    },
+    {
+      "id": "u03-w014",
+      "fr": "voisin",
+      "en": "neighbour (male); voisine = female neighbour",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "voisins",
+      "level": "A2",
+      "core": true,
+      "example": {
+        "fr": "Mon voisin m'aide toujours à porter mes courses.",
+        "en": "My neighbour always helps me carry my shopping."
+      }
+    },
+    {
+      "id": "u03-w015",
+      "fr": "déménager",
+      "en": "to move (house)",
+      "pos": "verb",
+      "level": "A2",
+      "core": true,
+      "example": {
+        "fr": "Nous déménageons à Saguenay le mois prochain.",
+        "en": "We're moving to Saguenay next month."
+      }
+    },
+    {
+      "id": "u03-w016",
+      "fr": "louer",
+      "en": "to rent; to let",
+      "pos": "verb",
+      "level": "A2",
+      "core": true,
+      "example": {
+        "fr": "Je loue un petit studio près de l'université.",
+        "en": "I rent a small studio near the university."
+      }
+    },
+    {
+      "id": "u03-w017",
+      "fr": "meublé",
+      "en": "furnished",
+      "pos": "adjective",
+      "level": "A2",
+      "core": true,
+      "example": {
+        "fr": "L'appartement est meublé : il y a un lit, une table et un canapé.",
+        "en": "The flat is furnished: there's a bed, a table and a sofa."
+      }
+    },
+    {
+      "id": "u03-w018",
+      "fr": "lumineux / lumineuse",
+      "en": "bright, full of light",
+      "pos": "adjective",
+      "level": "A2",
+      "core": true,
+      "example": {
+        "fr": "Le salon est très lumineux grâce à ses grandes fenêtres.",
+        "en": "The living room is very bright thanks to its big windows."
+      }
+    },
+    {
+      "id": "u03-w019",
+      "fr": "jardin",
+      "en": "garden",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "jardins",
+      "level": "A2",
+      "core": true,
+      "example": {
+        "fr": "Chez mes grands-parents, il y avait des pommiers dans le jardin.",
+        "en": "At my grandparents' house, there were apple trees in the garden."
+      }
+    },
+    {
+      "id": "u03-w020",
+      "fr": "balcon",
+      "en": "balcony",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "balcons",
+      "level": "A2",
+      "core": true,
+      "example": {
+        "fr": "En été, nous prenons le petit-déjeuner sur le balcon.",
+        "en": "In summer, we have breakfast on the balcony."
+      }
+    },
+    {
+      "id": "u03-w021",
+      "fr": "studio",
+      "en": "studio flat",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "studios",
+      "level": "A2",
+      "core": false,
+      "example": {
+        "fr": "Pendant mes études, je vivais dans un studio de dix-huit mètres carrés.",
+        "en": "When I was a student, I lived in an eighteen-square-metre studio."
+      }
+    },
+    {
+      "id": "u03-w022",
+      "fr": "colocation",
+      "en": "flat-sharing, flatshare",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "colocations",
+      "level": "A2",
+      "core": false,
+      "example": {
+        "fr": "La colocation coûte moins cher qu'un studio.",
+        "en": "Flat-sharing costs less than a studio."
+      }
+    },
+    {
+      "id": "u03-w023",
+      "fr": "colocataire",
+      "en": "flatmate",
+      "pos": "noun",
+      "gender": "mf",
+      "plural": "colocataires",
+      "level": "A2",
+      "core": false,
+      "example": {
+        "fr": "Mes colocataires et moi, nous faisions la cuisine à tour de rôle.",
+        "en": "My flatmates and I used to take turns cooking."
+      }
+    },
+    {
+      "id": "u03-w024",
+      "fr": "ascenseur",
+      "en": "lift, elevator",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "ascenseurs",
+      "level": "A2",
+      "core": false,
+      "example": {
+        "fr": "L'ascenseur est en panne depuis lundi.",
+        "en": "The lift has been out of order since Monday."
+      }
+    },
+    {
+      "id": "u03-w025",
+      "fr": "escalier",
+      "en": "stairs, staircase",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "escaliers",
+      "level": "A2",
+      "core": false,
+      "example": {
+        "fr": "Je prends toujours l'escalier pour faire un peu de sport.",
+        "en": "I always take the stairs to get a bit of exercise."
+      }
+    },
+    {
+      "id": "u03-w026",
+      "fr": "rez-de-chaussée",
+      "en": "ground floor",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "rez-de-chaussée",
+      "level": "A2",
+      "core": false,
+      "example": {
+        "fr": "La boulangerie est au rez-de-chaussée de mon immeuble.",
+        "en": "The bakery is on the ground floor of my building."
+      }
+    },
+    {
+      "id": "u03-w027",
+      "fr": "cave",
+      "en": "cellar",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "caves",
+      "level": "A2",
+      "core": false,
+      "example": {
+        "fr": "Nous gardons nos vélos dans la cave.",
+        "en": "We keep our bikes in the cellar."
+      }
+    },
+    {
+      "id": "u03-w028",
+      "fr": "grenier",
+      "en": "attic, loft",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "greniers",
+      "level": "A2",
+      "core": false,
+      "example": {
+        "fr": "Quand j'étais enfant, j'aimais jouer dans le grenier.",
+        "en": "When I was a child, I loved playing in the attic."
+      }
+    },
+    {
+      "id": "u03-w029",
+      "fr": "couloir",
+      "en": "corridor, hallway",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "couloirs",
+      "level": "A2",
+      "core": false,
+      "example": {
+        "fr": "Les toilettes sont au bout du couloir.",
+        "en": "The toilet is at the end of the corridor."
+      }
+    },
+    {
+      "id": "u03-w030",
+      "fr": "entrée",
+      "en": "entrance, hall",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "entrées",
+      "level": "A2",
+      "core": false,
+      "example": {
+        "fr": "Laissez vos chaussures dans l'entrée, s'il vous plaît.",
+        "en": "Please leave your shoes in the hall."
+      }
+    },
+    {
+      "id": "u03-w031",
+      "fr": "toilettes",
+      "en": "toilet (always plural in French)",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "toilettes",
+      "level": "A2",
+      "core": false,
+      "example": {
+        "fr": "Dans mon premier appartement, les toilettes étaient sur le palier.",
+        "en": "In my first flat, the toilet was on the landing."
+      },
+      "pluralOnly": true
+    },
+    {
+      "id": "u03-w032",
+      "fr": "fenêtre",
+      "en": "window",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "fenêtres",
+      "level": "A2",
+      "core": false,
+      "example": {
+        "fr": "De ma fenêtre, je vois le mont Royal.",
+        "en": "From my window, I can see Mount Royal."
+      }
+    },
+    {
+      "id": "u03-w033",
+      "fr": "porte",
+      "en": "door",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "portes",
+      "level": "A2",
+      "core": false,
+      "example": {
+        "fr": "N'oublie pas de fermer la porte à clé.",
+        "en": "Don't forget to lock the door."
+      }
+    },
+    {
+      "id": "u03-w034",
+      "fr": "mur",
+      "en": "wall",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "murs",
+      "level": "A2",
+      "core": false,
+      "example": {
+        "fr": "Les murs de ma chambre étaient bleus.",
+        "en": "The walls of my bedroom were blue."
+      }
+    },
+    {
+      "id": "u03-w035",
+      "fr": "sol",
+      "en": "floor (surface), ground",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "sols",
+      "level": "A2",
+      "core": false,
+      "example": {
+        "fr": "Le sol de la cuisine est en carrelage.",
+        "en": "The kitchen floor is tiled."
+      }
+    },
+    {
+      "id": "u03-w036",
+      "fr": "plafond",
+      "en": "ceiling",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "plafonds",
+      "level": "A2",
+      "core": false,
+      "example": {
+        "fr": "Dans les vieux immeubles, les plafonds sont souvent très hauts.",
+        "en": "In old buildings, the ceilings are often very high."
+      }
+    },
+    {
+      "id": "u03-w037",
+      "fr": "volet",
+      "en": "shutter",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "volets",
+      "level": "A2",
+      "core": false,
+      "example": {
+        "fr": "En été, je ferme les volets pour garder la fraîcheur.",
+        "en": "In summer, I close the shutters to keep the house cool."
+      }
+    },
+    {
+      "id": "u03-w038",
+      "fr": "chauffage",
+      "en": "heating",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2",
+      "core": false,
+      "example": {
+        "fr": "Le chauffage ne marchait pas et nous avions froid.",
+        "en": "The heating wasn't working and we were cold."
+      }
+    },
+    {
+      "id": "u03-w039",
+      "fr": "électricité",
+      "en": "electricity",
+      "pos": "noun",
+      "gender": "f",
+      "level": "A2",
+      "core": false,
+      "example": {
+        "fr": "L'électricité n'est pas comprise dans le loyer.",
+        "en": "Electricity isn't included in the rent."
+      }
+    },
+    {
+      "id": "u03-w040",
+      "fr": "charges",
+      "en": "service charges (shared building costs, often water and heating)",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "charges",
+      "level": "A2",
+      "core": false,
+      "example": {
+        "fr": "Le loyer est de 700 dollars, charges comprises.",
+        "en": "The rent is 700 dollars, including service charges."
+      },
+      "pluralOnly": true
+    },
+    {
+      "id": "u03-w041",
+      "fr": "caution",
+      "en": "deposit (for a rental)",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "cautions",
+      "level": "A2",
+      "core": false,
+      "example": {
+        "fr": "Il faut payer une caution d'un mois de loyer.",
+        "en": "You have to pay a deposit of one month's rent."
+      }
+    },
+    {
+      "id": "u03-w042",
+      "fr": "agence immobilière",
+      "en": "estate agency",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "agences immobilières",
+      "level": "A2",
+      "core": false,
+      "example": {
+        "fr": "J'ai trouvé cet appartement grâce à une agence immobilière.",
+        "en": "I found this flat through an estate agency."
+      }
+    },
+    {
+      "id": "u03-w043",
+      "fr": "annonce",
+      "en": "advert, listing",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "annonces",
+      "level": "A2",
+      "core": false,
+      "example": {
+        "fr": "Je lis les annonces de location tous les matins sur Internet.",
+        "en": "I read the rental listings online every morning."
+      }
+    },
+    {
+      "id": "u03-w044",
+      "fr": "bail",
+      "en": "lease, tenancy agreement",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "baux",
+      "level": "A2",
+      "core": false,
+      "example": {
+        "fr": "Nous avons signé un bail de trois ans.",
+        "en": "We signed a three-year lease."
+      }
+    },
+    {
+      "id": "u03-w045",
+      "fr": "mètre carré",
+      "en": "square metre",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "mètres carrés",
+      "level": "A2",
+      "core": false,
+      "example": {
+        "fr": "Notre appartement fait soixante mètres carrés.",
+        "en": "Our flat is sixty square metres."
+      }
+    },
+    {
+      "id": "u03-w046",
+      "fr": "meuble",
+      "en": "piece of furniture",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "meubles",
+      "level": "A2",
+      "core": false,
+      "example": {
+        "fr": "Nous avons acheté des meubles d'occasion pour le salon.",
+        "en": "We bought second-hand furniture for the living room."
+      }
+    },
+    {
+      "id": "u03-w047",
+      "fr": "canapé",
+      "en": "sofa, settee",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "canapés",
+      "level": "A2",
+      "core": false,
+      "example": {
+        "fr": "Mon cousin dort sur le canapé quand il vient chez moi.",
+        "en": "My cousin sleeps on the sofa when he comes to my place."
+      }
+    },
+    {
+      "id": "u03-w048",
+      "fr": "armoire",
+      "en": "wardrobe",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "armoires",
+      "level": "A2",
+      "core": false,
+      "example": {
+        "fr": "Il y avait une vieille armoire en bois dans la chambre.",
+        "en": "There was an old wooden wardrobe in the bedroom."
+      }
+    },
+    {
+      "id": "u03-w049",
+      "fr": "placard",
+      "en": "cupboard",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "placards",
+      "level": "A2",
+      "core": false,
+      "example": {
+        "fr": "Les assiettes sont dans le placard au-dessus de l'évier.",
+        "en": "The plates are in the cupboard above the sink."
+      }
+    },
+    {
+      "id": "u03-w050",
+      "fr": "lit",
+      "en": "bed",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "lits",
+      "level": "A2",
+      "core": false,
+      "example": {
+        "fr": "La chambre d'amis a un grand lit et une petite table.",
+        "en": "The spare room has a double bed and a small table."
+      }
+    },
+    {
+      "id": "u03-w051",
+      "fr": "étagère",
+      "en": "shelf; shelves",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "étagères",
+      "level": "A2",
+      "core": false,
+      "example": {
+        "fr": "Mes livres sont rangés sur l'étagère du salon.",
+        "en": "My books are on the shelf in the living room."
+      }
+    },
+    {
+      "id": "u03-w052",
+      "fr": "lave-linge",
+      "en": "washing machine",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "lave-linge",
+      "level": "A2",
+      "core": false,
+      "example": {
+        "fr": "Le lave-linge est dans la salle de bains.",
+        "en": "The washing machine is in the bathroom."
+      }
+    },
+    {
+      "id": "u03-w053",
+      "fr": "réfrigérateur",
+      "en": "fridge, refrigerator",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "réfrigérateurs",
+      "level": "A2",
+      "core": false,
+      "example": {
+        "fr": "Le réfrigérateur de l'appartement est neuf.",
+        "en": "The flat's fridge is brand new."
+      }
+    },
+    {
+      "id": "u03-w054",
+      "fr": "four",
+      "en": "oven",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "fours",
+      "level": "A2",
+      "core": false,
+      "example": {
+        "fr": "La cuisine équipée a un four et des plaques électriques.",
+        "en": "The fitted kitchen has an oven and an electric hob."
+      }
+    },
+    {
+      "id": "u03-w055",
+      "fr": "lampe",
+      "en": "lamp",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "lampes",
+      "level": "A2",
+      "core": false,
+      "example": {
+        "fr": "J'ai mis une lampe à côté du canapé pour lire.",
+        "en": "I put a lamp next to the sofa for reading."
+      }
+    },
+    {
+      "id": "u03-w056",
+      "fr": "tapis",
+      "en": "rug, carpet",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "tapis",
+      "level": "A2",
+      "core": false,
+      "example": {
+        "fr": "Un grand tapis rouge décorait le salon de ma grand-mère.",
+        "en": "A big red rug decorated my grandmother's living room."
+      }
+    },
+    {
+      "id": "u03-w057",
+      "fr": "clé",
+      "en": "key",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "clés",
+      "level": "A2",
+      "core": false,
+      "example": {
+        "fr": "Le propriétaire m'a donné les clés de l'appartement.",
+        "en": "The landlord gave me the keys to the flat."
+      }
+    },
+    {
+      "id": "u03-w058",
+      "fr": "boîte aux lettres",
+      "en": "letterbox, mailbox",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "boîtes aux lettres",
+      "level": "A2",
+      "core": false,
+      "example": {
+        "fr": "Il faut écrire votre nom sur la boîte aux lettres.",
+        "en": "You need to write your name on the letterbox."
+      }
+    },
+    {
+      "id": "u03-w059",
+      "fr": "banlieue",
+      "en": "suburbs",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "banlieues",
+      "level": "A2",
+      "core": false,
+      "example": {
+        "fr": "Les loyers sont moins chers en banlieue.",
+        "en": "Rents are cheaper in the suburbs."
+      }
+    },
+    {
+      "id": "u03-w060",
+      "fr": "centre-ville",
+      "en": "town centre, city centre",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "centres-villes",
+      "level": "A2",
+      "core": false,
+      "example": {
+        "fr": "Nous habitons en plein centre-ville, tout est à côté.",
+        "en": "We live right in the town centre; everything is close by."
+      }
+    },
+    {
+      "id": "u03-w061",
+      "fr": "campagne",
+      "en": "countryside",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "campagnes",
+      "level": "A2",
+      "core": false,
+      "example": {
+        "fr": "Mes parents ont acheté une maison à la campagne.",
+        "en": "My parents bought a house in the countryside."
+      }
+    },
+    {
+      "id": "u03-w062",
+      "fr": "calme",
+      "en": "quiet, calm",
+      "pos": "adjective",
+      "level": "A2",
+      "core": false,
+      "example": {
+        "fr": "La rue est très calme le dimanche.",
+        "en": "The street is very quiet on Sundays."
+      }
+    },
+    {
+      "id": "u03-w063",
+      "fr": "bruyant",
+      "en": "noisy",
+      "pos": "adjective",
+      "level": "A2",
+      "core": false,
+      "example": {
+        "fr": "Notre ancien quartier était bruyant à cause des bars.",
+        "en": "Our old area was noisy because of the bars."
+      }
+    },
+    {
+      "id": "u03-w064",
+      "fr": "spacieux / spacieuse",
+      "en": "spacious, roomy",
+      "pos": "adjective",
+      "level": "A2",
+      "core": false,
+      "example": {
+        "fr": "La cuisine est spacieuse, on peut y manger à six.",
+        "en": "The kitchen is spacious; six people can eat in it."
+      }
+    },
+    {
+      "id": "u03-w065",
+      "fr": "ancien / ancienne",
+      "en": "old; former (before a noun)",
+      "pos": "adjective",
+      "level": "A2",
+      "core": false,
+      "example": {
+        "fr": "Mon ancienne maison était au bord de la mer.",
+        "en": "My former house was by the sea."
+      }
+    },
+    {
+      "id": "u03-w066",
+      "fr": "moderne",
+      "en": "modern",
+      "pos": "adjective",
+      "level": "A2",
+      "core": false,
+      "example": {
+        "fr": "Ils habitent dans un immeuble moderne avec une salle de sport.",
+        "en": "They live in a modern building with a gym."
+      }
+    },
+    {
+      "id": "u03-w067",
+      "fr": "neuf / neuve",
+      "en": "brand new",
+      "pos": "adjective",
+      "level": "A2",
+      "core": false,
+      "example": {
+        "fr": "Toute la cuisine est neuve.",
+        "en": "The whole kitchen is brand new."
+      }
+    },
+    {
+      "id": "u03-w068",
+      "fr": "sombre",
+      "en": "dark",
+      "pos": "adjective",
+      "level": "A2",
+      "core": false,
+      "example": {
+        "fr": "Le salon était sombre parce que la fenêtre était petite.",
+        "en": "The living room was dark because the window was small."
+      }
+    },
+    {
+      "id": "u03-w069",
+      "fr": "propre",
+      "en": "clean",
+      "pos": "adjective",
+      "level": "A2",
+      "core": false,
+      "example": {
+        "fr": "Il faut rendre l'appartement propre à la fin du bail.",
+        "en": "You must return the flat clean at the end of the lease."
+      }
+    },
+    {
+      "id": "u03-w070",
+      "fr": "sale",
+      "en": "dirty",
+      "pos": "adjective",
+      "level": "A2",
+      "core": false,
+      "example": {
+        "fr": "Quand nous sommes arrivés, la cuisine était très sale.",
+        "en": "When we arrived, the kitchen was very dirty."
+      }
+    },
+    {
+      "id": "u03-w071",
+      "fr": "confortable",
+      "en": "comfortable",
+      "pos": "adjective",
+      "level": "A2",
+      "core": false,
+      "example": {
+        "fr": "Le canapé n'est pas beau, mais il est très confortable.",
+        "en": "The sofa isn't pretty, but it's very comfortable."
+      }
+    },
+    {
+      "id": "u03-w072",
+      "fr": "s'installer",
+      "en": "to settle in, to move in",
+      "pos": "verb",
+      "level": "A2",
+      "core": false,
+      "example": {
+        "fr": "Nous nous sommes installés à Trois-Rivières il y a deux ans.",
+        "en": "We settled in Trois-Rivières two years ago."
+      }
+    },
+    {
+      "id": "u03-w073",
+      "fr": "emménager",
+      "en": "to move in",
+      "pos": "verb",
+      "level": "A2",
+      "core": false,
+      "example": {
+        "fr": "Les nouveaux locataires emménagent samedi.",
+        "en": "The new tenants are moving in on Saturday."
+      }
+    },
+    {
+      "id": "u03-w074",
+      "fr": "ranger",
+      "en": "to tidy (up), to put away",
+      "pos": "verb",
+      "level": "A2",
+      "core": false,
+      "example": {
+        "fr": "Quand j'étais ado, je ne rangeais jamais ma chambre.",
+        "en": "When I was a teenager, I never tidied my room."
+      }
+    },
+    {
+      "id": "u03-w075",
+      "fr": "nettoyer",
+      "en": "to clean",
+      "pos": "verb",
+      "level": "A2",
+      "core": false,
+      "example": {
+        "fr": "Je nettoie la salle de bains tous les samedis.",
+        "en": "I clean the bathroom every Saturday."
+      }
+    },
+    {
+      "id": "u03-w076",
+      "fr": "partager",
+      "en": "to share",
+      "pos": "verb",
+      "level": "A2",
+      "core": false,
+      "example": {
+        "fr": "Je partage un appartement avec deux amies.",
+        "en": "I share a flat with two friends."
+      }
+    },
+    {
+      "id": "u03-w077",
+      "fr": "décorer",
+      "en": "to decorate",
+      "pos": "verb",
+      "level": "A2",
+      "core": false,
+      "example": {
+        "fr": "Elle a décoré son salon avec des plantes et des photos.",
+        "en": "She decorated her living room with plants and photos."
+      }
+    },
+    {
+      "id": "u03-w078",
+      "fr": "chez",
+      "en": "at / to (someone's home)",
+      "pos": "preposition",
+      "level": "A2",
+      "core": false,
+      "example": {
+        "fr": "Ce soir, on dîne chez Marc.",
+        "en": "Tonight, we're having dinner at Marc's."
+      }
+    },
+    {
+      "id": "u03-w079",
+      "fr": "à côté de",
+      "en": "next to",
+      "pos": "preposition",
+      "level": "A2",
+      "core": false,
+      "example": {
+        "fr": "Il y a une pharmacie juste à côté de mon immeuble.",
+        "en": "There's a chemist's right next to my building."
+      }
+    },
+    {
+      "id": "u03-w080",
+      "fr": "en face de",
+      "en": "opposite",
+      "pos": "preposition",
+      "level": "A2",
+      "core": false,
+      "example": {
+        "fr": "Avant, nous habitions en face de l'école.",
+        "en": "We used to live opposite the school."
+      }
+    },
+    {
+      "id": "u03-w081",
+      "fr": "autrefois",
+      "en": "in the past, formerly",
+      "pos": "adverb",
+      "level": "A2",
+      "core": false,
+      "example": {
+        "fr": "Autrefois, cette vieille maison était une ferme.",
+        "en": "In the past, this old house was a farm."
+      }
+    },
+    {
+      "id": "u03-w082",
+      "fr": "à l'époque",
+      "en": "at the time, back then",
+      "pos": "expression",
+      "level": "A2",
+      "core": false,
+      "example": {
+        "fr": "À l'époque, le loyer coûtait seulement trois cents dollars.",
+        "en": "Back then, the rent only cost three hundred dollars."
+      }
+    },
+    {
+      "id": "u03-w083",
+      "fr": "déménagement",
+      "en": "move, removal (moving house)",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "déménagements",
+      "level": "A2",
+      "core": false,
+      "example": {
+        "fr": "Mes amis m'ont aidé pour le déménagement.",
+        "en": "My friends helped me with the move."
+      }
+    },
+    {
+      "id": "u03-w084",
+      "fr": "cheminée",
+      "en": "fireplace; chimney",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "cheminées",
+      "level": "A2",
+      "core": false,
+      "example": {
+        "fr": "L'hiver, nous nous asseyions devant la cheminée.",
+        "en": "In winter, we used to sit in front of the fireplace."
+      }
+    }
+  ],
+  "grammar": [
+    {
+      "id": "u03-g01",
+      "title": "Forming the imparfait",
+      "level": "A2",
+      "grammarTag": "imparfait",
+      "explanation": [
+        "The imparfait is a past tense used to describe how things were and what used to happen: j'habitais à Montréal (I lived / I used to live / I was living in Montréal).",
+        "To form it, take the nous form of the present tense, remove -ons, and add the endings -ais, -ais, -ait, -ions, -iez, -aient. For example: nous habitons → habit- → j'habitais; nous finissons → finiss- → je finissais; nous faisons → fais- → je faisais.",
+        "This works for almost every verb, even irregular ones: nous avons → j'avais, nous prenons → je prenais, nous allons → j'allais. The only exception is être, which uses the stem ét-: j'étais, tu étais, il était, nous étions, vous étiez, ils étaient.",
+        "Three endings (-ais, -ait, -aient) sound exactly the same, so be careful when you write. Verbs ending in -ger keep an e before a: je mangeais, il rangeait (but nous mangions). Verbs ending in -cer take ç before a: je commençais (but nous commencions). Verbs in -ier have a double i in the nous and vous forms: nous étudiions, vous étudiiez.",
+        "Two very useful forms: il y a → il y avait (there was / there were) and c'est → c'était (it was)."
+      ],
+      "table": [
+        [
+          "Subject",
+          "habiter",
+          "finir",
+          "faire",
+          "être"
+        ],
+        [
+          "je / j'",
+          "habitais",
+          "finissais",
+          "faisais",
+          "étais"
+        ],
+        [
+          "tu",
+          "habitais",
+          "finissais",
+          "faisais",
+          "étais"
+        ],
+        [
+          "il / elle / on",
+          "habitait",
+          "finissait",
+          "faisait",
+          "était"
+        ],
+        [
+          "nous",
+          "habitions",
+          "finissions",
+          "faisions",
+          "étions"
+        ],
+        [
+          "vous",
+          "habitiez",
+          "finissiez",
+          "faisiez",
+          "étiez"
+        ],
+        [
+          "ils / elles",
+          "habitaient",
+          "finissaient",
+          "faisaient",
+          "étaient"
+        ]
+      ],
+      "examples": [
+        {
+          "fr": "Avant, j'habitais dans un petit studio.",
+          "en": "Before, I lived in a small studio."
+        },
+        {
+          "fr": "Nous avions un chien et deux chats.",
+          "en": "We had a dog and two cats."
+        },
+        {
+          "fr": "Il y avait un parc en face de notre immeuble.",
+          "en": "There was a park opposite our building."
+        },
+        {
+          "fr": "C'était un quartier très calme.",
+          "en": "It was a very quiet neighbourhood."
+        },
+        {
+          "fr": "Mes voisins faisaient beaucoup de bruit le soir.",
+          "en": "My neighbours used to make a lot of noise in the evening."
+        },
+        {
+          "fr": "Tu partageais ta chambre avec ton frère ?",
+          "en": "Did you share your bedroom with your brother?"
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "Avant, j'étudais à Montréal.",
+          "right": "Avant, j'étudiais à Montréal.",
+          "why": "The stem comes from nous étudions → étudi-, so the i stays: j'étudiais."
+        },
+        {
+          "wrong": "Mon frère rangait sa chambre.",
+          "right": "Mon frère rangeait sa chambre.",
+          "why": "Verbs in -ger keep the e before a to keep the soft g sound: rangeait."
+        },
+        {
+          "wrong": "L'appartement étais petit.",
+          "right": "L'appartement était petit.",
+          "why": "With a singular noun subject (il/elle), the ending is -ait, not -ais."
+        },
+        {
+          "wrong": "Il y était un jardin.",
+          "right": "Il y avait un jardin.",
+          "why": "The expression il y a uses avoir, so its imparfait is il y avait."
+        }
+      ]
+    },
+    {
+      "id": "u03-g02",
+      "title": "Using the imparfait: descriptions and habits",
+      "level": "A2",
+      "grammarTag": "imparfait",
+      "explanation": [
+        "Use the imparfait to describe a place, a person or a situation in the past: what it looked like, what there was, how people felt. La maison était grande. Il y avait trois chambres. J'étais content.",
+        "Use it also for repeated actions and habits in the past — English often says 'used to' or 'would': Le dimanche, nous mangions chez ma grand-mère (On Sundays, we used to eat at my grandmother's).",
+        "Typical signal words for the imparfait: avant (before), autrefois (in the past), à l'époque (back then), quand j'étais petit(e) (when I was little), tous les jours, le samedi, d'habitude, souvent, toujours.",
+        "A very common pattern compares the past and the present: Avant, j'habitais en banlieue ; maintenant, j'habite en centre-ville. Avant + imparfait, maintenant + présent.",
+        "For a single, finished event (I moved in 2020, we bought a sofa yesterday), French uses the passé composé, not the imparfait: J'ai déménagé en 2020. You will study how the two tenses work together in unit 8."
+      ],
+      "table": [
+        [
+          "Use",
+          "Signal words",
+          "Example"
+        ],
+        [
+          "Description of a place",
+          "c'était, il y avait",
+          "C'était une vieille maison. Il y avait une cheminée."
+        ],
+        [
+          "Description of people and feelings",
+          "être, avoir",
+          "Les voisins étaient gentils. J'avais peur du noir."
+        ],
+        [
+          "Past habits",
+          "tous les jours, le dimanche, souvent",
+          "Le samedi, je nettoyais ma chambre."
+        ],
+        [
+          "Past vs now",
+          "avant… maintenant…",
+          "Avant, je louais ; maintenant, je suis propriétaire."
+        ]
+      ],
+      "examples": [
+        {
+          "fr": "Quand j'étais petite, j'habitais au bord de la mer.",
+          "en": "When I was little, I lived by the sea."
+        },
+        {
+          "fr": "Notre appartement était au troisième étage et il n'y avait pas d'ascenseur.",
+          "en": "Our flat was on the third floor and there was no lift."
+        },
+        {
+          "fr": "Le samedi matin, mon père faisait le ménage en écoutant la radio.",
+          "en": "On Saturday mornings, my father used to do the cleaning while listening to the radio."
+        },
+        {
+          "fr": "À l'époque, nous n'avions pas de lave-linge.",
+          "en": "Back then, we didn't have a washing machine."
+        },
+        {
+          "fr": "Avant, je partageais un appartement ; maintenant, j'habite seul.",
+          "en": "Before, I shared a flat; now I live alone."
+        },
+        {
+          "fr": "Les murs étaient blancs et le salon était très lumineux.",
+          "en": "The walls were white and the living room was very bright."
+        },
+        {
+          "fr": "Tous les étés, mes cousins venaient chez nous à la campagne.",
+          "en": "Every summer, my cousins used to come to our place in the countryside."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "Quand j'étais petit, j'ai habité souvent chez ma tante.",
+          "right": "Quand j'étais petit, j'habitais souvent chez ma tante.",
+          "why": "A repeated situation in the past (souvent) is a habit, so it needs the imparfait."
+        },
+        {
+          "wrong": "La maison a été grande et il y a eu un jardin.",
+          "right": "La maison était grande et il y avait un jardin.",
+          "why": "Describing what a place was like uses the imparfait."
+        },
+        {
+          "wrong": "Avant, j'habite en banlieue.",
+          "right": "Avant, j'habitais en banlieue.",
+          "why": "Avant refers to the past, so the verb must be in a past tense, not the present."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "u03-ex01",
+      "type": "mcq",
+      "level": "A2",
+      "skill": "structures",
+      "grammarTag": "imparfait",
+      "prompt": "Choose the correct verb form.",
+      "promptFr": "Quand j'étais petit, nous ___ dans une grande maison.",
+      "options": [
+        "habitions",
+        "habitons",
+        "habitaient",
+        "habitiez"
+      ],
+      "answer": 0,
+      "explanation": "The subject is nous and the sentence describes the past (quand j'étais petit): imparfait nous habitions. Habitons is present; habitaient and habitiez are other persons."
+    },
+    {
+      "id": "u03-ex02",
+      "type": "mcq",
+      "level": "A2",
+      "skill": "structures",
+      "grammarTag": "imparfait",
+      "prompt": "Choose the correct form.",
+      "promptFr": "Avant, il y ___ un cinéma dans ma rue.",
+      "options": [
+        "avait",
+        "était",
+        "avaient",
+        "étais"
+      ],
+      "answer": 0,
+      "explanation": "Il y a becomes il y avait in the imparfait. It is always singular, even with a plural noun, and it uses avoir, not être."
+    },
+    {
+      "id": "u03-ex03",
+      "type": "mcq",
+      "level": "A2",
+      "skill": "structures",
+      "grammarTag": "imparfait",
+      "prompt": "Choose the correct form of être.",
+      "promptFr": "L'appartement ___ petit, mais très lumineux.",
+      "options": [
+        "était",
+        "étais",
+        "étaient",
+        "été"
+      ],
+      "answer": 0,
+      "explanation": "L'appartement is singular (il), so the ending is -ait: était. Étais goes with je/tu, étaient is plural, and été is the past participle."
+    },
+    {
+      "id": "u03-ex04",
+      "type": "mcq",
+      "level": "A2",
+      "skill": "structures",
+      "grammarTag": "vocabulary",
+      "prompt": "Complete the definition.",
+      "promptFr": "La personne qui possède l'appartement et qui reçoit le loyer, c'est le ___.",
+      "options": [
+        "propriétaire",
+        "locataire",
+        "voisin",
+        "colocataire"
+      ],
+      "answer": 0,
+      "explanation": "The owner who receives the rent is le propriétaire. The locataire (tenant) and the colocataire (flatmate) pay rent; the voisin is the neighbour."
+    },
+    {
+      "id": "u03-ex05",
+      "type": "mcq",
+      "level": "A2",
+      "skill": "structures",
+      "grammarTag": "imparfait",
+      "prompt": "Choose the correct spelling.",
+      "promptFr": "Quand j'étais enfant, ma mère ___ ma chambre tous les samedis.",
+      "options": [
+        "rangeait",
+        "rangait",
+        "rangeais",
+        "rangé"
+      ],
+      "answer": 0,
+      "explanation": "Ranger keeps the e before a (rangeait) to keep the soft g sound. Rangeais goes with je/tu, and rangé alone is a participle without an auxiliary."
+    },
+    {
+      "id": "u03-ex06",
+      "type": "fill_blank",
+      "level": "A2",
+      "skill": "structures",
+      "grammarTag": "imparfait",
+      "prompt": "Complete with habiter in the imparfait.",
+      "sentence": "Autrefois, mes grands-parents ___ à la campagne.",
+      "answers": [
+        "habitaient"
+      ],
+      "hint": "habiter",
+      "translation": "In the past, my grandparents lived in the countryside.",
+      "explanation": "Ils/elles in the imparfait: stem habit- + -aient → habitaient."
+    },
+    {
+      "id": "u03-ex07",
+      "type": "fill_blank",
+      "level": "A2",
+      "skill": "structures",
+      "grammarTag": "imparfait",
+      "prompt": "Complete with partager in the imparfait.",
+      "sentence": "Quand nous étions étudiants, nous ___ un petit appartement.",
+      "answers": [
+        "partagions"
+      ],
+      "hint": "partager",
+      "translation": "When we were students, we shared a small flat.",
+      "explanation": "With nous, the ending is -ions, which starts with i, so no extra e is needed: partagions."
+    },
+    {
+      "id": "u03-ex08",
+      "type": "fill_blank",
+      "level": "A2",
+      "skill": "structures",
+      "grammarTag": "imparfait",
+      "prompt": "Complete with être in the imparfait.",
+      "sentence": "Dans mon ancien quartier, les voisins ___ très bruyants.",
+      "answers": [
+        "étaient"
+      ],
+      "hint": "être",
+      "translation": "In my old neighbourhood, the neighbours were very noisy.",
+      "explanation": "Être uses the irregular stem ét-; with a plural subject: étaient."
+    },
+    {
+      "id": "u03-ex09",
+      "type": "fill_blank",
+      "level": "A2",
+      "skill": "structures",
+      "grammarTag": "imparfait",
+      "prompt": "Complete with avoir in the imparfait.",
+      "sentence": "Notre première maison ___ un grand jardin.",
+      "answers": [
+        "avait"
+      ],
+      "hint": "avoir",
+      "translation": "Our first house had a big garden.",
+      "explanation": "Avoir: nous avons → av- + -ait → avait (singular subject)."
+    },
+    {
+      "id": "u03-ex10",
+      "type": "fill_blank",
+      "level": "A2",
+      "skill": "structures",
+      "grammarTag": "imparfait",
+      "prompt": "Complete with ranger in the imparfait.",
+      "sentence": "À l'époque, tu ___ souvent ta chambre ?",
+      "answers": [
+        "rangeais"
+      ],
+      "hint": "ranger",
+      "translation": "Back then, did you often tidy your room?",
+      "explanation": "Tu → -ais, and ranger keeps the e before a: tu rangeais."
+    },
+    {
+      "id": "u03-ex11",
+      "type": "conjugation",
+      "level": "A2",
+      "skill": "structures",
+      "grammarTag": "imparfait",
+      "verb": "faire",
+      "tense": "imparfait",
+      "person": "nous",
+      "answers": [
+        "faisions"
+      ],
+      "explanation": "Nous faisons → fais- + -ions → nous faisions."
+    },
+    {
+      "id": "u03-ex12",
+      "type": "conjugation",
+      "level": "A2",
+      "skill": "structures",
+      "grammarTag": "imparfait",
+      "verb": "commencer",
+      "tense": "imparfait",
+      "person": "je",
+      "answers": [
+        "commençais"
+      ],
+      "explanation": "Verbs in -cer take ç before a to keep the soft c sound: je commençais."
+    },
+    {
+      "id": "u03-ex13",
+      "type": "conjugation",
+      "level": "A2",
+      "skill": "structures",
+      "grammarTag": "imparfait",
+      "verb": "étudier",
+      "tense": "imparfait",
+      "person": "vous",
+      "answers": [
+        "étudiiez"
+      ],
+      "explanation": "The stem is étudi- and the ending is -iez, which gives a double i: vous étudiiez."
+    },
+    {
+      "id": "u03-ex14",
+      "type": "reorder",
+      "level": "A2",
+      "skill": "structures",
+      "grammarTag": "imparfait",
+      "prompt": "Put the words in order to make a sentence.",
+      "tokens": [
+        "Il y avait",
+        "une",
+        "cheminée",
+        "dans",
+        "le",
+        "salon."
+      ],
+      "translation": "There was a fireplace in the living room.",
+      "explanation": "Il y avait (there was) + noun + place. It's the usual way to describe what a home had."
+    },
+    {
+      "id": "u03-ex15",
+      "type": "reorder",
+      "level": "A2",
+      "skill": "structures",
+      "grammarTag": "imparfait",
+      "prompt": "Put the words in order to make a sentence.",
+      "tokens": [
+        "Quand",
+        "j'étais",
+        "petit,",
+        "j'habitais",
+        "au",
+        "troisième",
+        "étage."
+      ],
+      "translation": "When I was little, I lived on the third floor.",
+      "explanation": "Quand j'étais petit sets the scene in the past; both verbs are in the imparfait because they describe a situation."
+    },
+    {
+      "id": "u03-ex16",
+      "type": "match",
+      "level": "A2",
+      "skill": "structures",
+      "grammarTag": "vocabulary",
+      "prompt": "Match the rooms with their English names.",
+      "pairs": [
+        {
+          "left": "cuisine",
+          "right": "kitchen"
+        },
+        {
+          "left": "salon",
+          "right": "living room"
+        },
+        {
+          "left": "chambre",
+          "right": "bedroom"
+        },
+        {
+          "left": "salle de bains",
+          "right": "bathroom"
+        },
+        {
+          "left": "grenier",
+          "right": "attic"
+        }
+      ],
+      "explanation": "Une pièce is any room; une chambre is only a bedroom."
+    },
+    {
+      "id": "u03-ex17",
+      "type": "match",
+      "level": "A2",
+      "skill": "structures",
+      "grammarTag": "vocabulary",
+      "prompt": "Match the rental words with their meanings.",
+      "pairs": [
+        {
+          "left": "loyer",
+          "right": "rent"
+        },
+        {
+          "left": "caution",
+          "right": "deposit"
+        },
+        {
+          "left": "bail",
+          "right": "lease"
+        },
+        {
+          "left": "charges",
+          "right": "service charges"
+        },
+        {
+          "left": "locataire",
+          "right": "tenant"
+        }
+      ],
+      "explanation": "These words appear in almost every flat advert and rental contract."
+    },
+    {
+      "id": "u03-ex18",
+      "type": "translate",
+      "level": "A2",
+      "skill": "structures",
+      "grammarTag": "imparfait",
+      "direction": "en-fr",
+      "source": "When I was a child, we lived in a small flat.",
+      "answers": [
+        "Quand j'étais enfant, nous habitions dans un petit appartement.",
+        "Quand j'étais enfant, nous habitions un petit appartement.",
+        "Quand j'étais enfant, on habitait dans un petit appartement.",
+        "Quand j'étais enfant, nous vivions dans un petit appartement.",
+        "Quand j'étais enfant, on vivait dans un petit appartement.",
+        "Quand j'étais petit, nous habitions dans un petit appartement.",
+        "Quand j'étais petite, nous habitions dans un petit appartement.",
+        "Quand j'étais petit, on habitait dans un petit appartement.",
+        "Quand j'étais petite, on habitait dans un petit appartement.",
+        "Quand j'étais enfant, on habitait un petit appartement.",
+        "Quand j'étais petit, nous vivions dans un petit appartement.",
+        "Quand j'étais petite, nous vivions dans un petit appartement.",
+        "Quand j'étais petit, nous habitions un petit appartement.",
+        "Quand j'étais petite, nous habitions un petit appartement."
+      ],
+      "explanation": "Both verbs describe a past situation, so both are in the imparfait: j'étais, nous habitions."
+    },
+    {
+      "id": "u03-ex19",
+      "type": "translate",
+      "level": "A2",
+      "skill": "structures",
+      "grammarTag": "imparfait",
+      "direction": "fr-en",
+      "source": "Notre appartement était sombre, mais le loyer n'était pas cher.",
+      "answers": [
+        "Our flat was dark, but the rent wasn't expensive.",
+        "Our flat was dark, but the rent was not expensive.",
+        "Our apartment was dark, but the rent wasn't expensive.",
+        "Our apartment was dark, but the rent was not expensive.",
+        "Our flat was dark, but the rent was cheap.",
+        "Our apartment was dark, but the rent was cheap.",
+        "Our flat was dark but the rent wasn't high.",
+        "Our flat was dark, but the rent was not high.",
+        "Our apartment was dark, but the rent wasn't high.",
+        "Our apartment was dark, but the rent was not high."
+      ],
+      "explanation": "Était and n'était pas are the imparfait of être, used here to describe the flat."
+    },
+    {
+      "id": "u03-ex20",
+      "type": "dictation",
+      "level": "A2",
+      "skill": "listening",
+      "grammarTag": "imparfait",
+      "text": "Avant, j'habitais dans un studio en centre-ville.",
+      "translation": "Before, I lived in a studio flat in the town centre.",
+      "explanation": "In j'habitais, the ending -ais sounds like 'è' and the s is silent. Centre-ville has a hyphen."
+    },
+    {
+      "id": "u03-ex21",
+      "type": "match",
+      "level": "A2",
+      "skill": "structures",
+      "grammarTag": "imparfait",
+      "prompt": "Match the beginnings and endings of the sentences.",
+      "pairs": [
+        {
+          "left": "Quand j'habitais à Montréal,",
+          "right": "j'avais un petit studio sous les toits."
+        },
+        {
+          "left": "Notre ancienne maison",
+          "right": "avait un grand jardin."
+        },
+        {
+          "left": "Les voisins du dessus",
+          "right": "faisaient beaucoup de bruit le soir."
+        },
+        {
+          "left": "Avant, nous",
+          "right": "louions un appartement en centre-ville."
+        }
+      ],
+      "explanation": "The imparfait describes how things used to be. The verb ending tells you the subject: j'avais (je), avait (one thing), faisaient (several people), louions (nous)."
+    }
+  ],
+  "listening": [
+    {
+      "id": "u03-li01",
+      "title": "Le nouvel appartement de Léo",
+      "level": "A2",
+      "kind": "dialogue",
+      "context": "Amira visits her friend Léo's new flat for the first time.",
+      "lines": [
+        {
+          "speaker": "Léo",
+          "fr": "Bienvenue chez moi ! Entre, entre."
+        },
+        {
+          "speaker": "Amira",
+          "fr": "Oh, c'est très lumineux ! Ton ancien appartement était plus sombre, non ?"
+        },
+        {
+          "speaker": "Léo",
+          "fr": "Oui, il était au rez-de-chaussée et les fenêtres donnaient sur une petite cour."
+        },
+        {
+          "speaker": "Amira",
+          "fr": "Et ici, tu as combien de pièces ?"
+        },
+        {
+          "speaker": "Léo",
+          "fr": "Trois : le salon, ma chambre et un petit bureau. Avant, j'avais seulement un studio de vingt mètres carrés."
+        },
+        {
+          "speaker": "Amira",
+          "fr": "Et le quartier ? Avant, tu habitais près de la gare, c'est ça ?"
+        },
+        {
+          "speaker": "Léo",
+          "fr": "Oui, c'était pratique, mais c'était très bruyant. Il y avait des voitures toute la nuit. Ici, c'est calme."
+        },
+        {
+          "speaker": "Amira",
+          "fr": "Et le loyer, il est cher ?"
+        },
+        {
+          "speaker": "Léo",
+          "fr": "Un peu plus cher : huit cents dollars, mais les charges sont comprises."
+        }
+      ],
+      "translation": "Léo: Welcome to my place! Come in, come in.\nAmira: Oh, it's very bright! Your old flat was darker, wasn't it?\nLéo: Yes, it was on the ground floor and the windows looked onto a small courtyard.\nAmira: And here, how many rooms do you have?\nLéo: Three: the living room, my bedroom and a small study. Before, I only had a twenty-square-metre studio.\nAmira: And the area? Before, you lived near the station, right?\nLéo: Yes, it was convenient, but it was very noisy. There were cars all night. Here it's quiet.\nAmira: And the rent, is it expensive?\nLéo: A bit more expensive: eight hundred dollars, but service charges are included.",
+      "questions": [
+        {
+          "id": "u03-li01-q1",
+          "question": "Where was Léo's old flat?",
+          "options": [
+            "On the top floor, near a park",
+            "On the ground floor, near the station",
+            "On the third floor, in the countryside",
+            "In the same building"
+          ],
+          "answer": 1,
+          "explanation": "« il était au rez-de-chaussée » and « tu habitais près de la gare »."
+        },
+        {
+          "id": "u03-li01-q2",
+          "question": "What was the problem with his old neighbourhood?",
+          "options": [
+            "It was far from the station.",
+            "It was very noisy.",
+            "It was too expensive.",
+            "There were no shops."
+          ],
+          "answer": 1,
+          "explanation": "« c'était très bruyant. Il y avait des voitures toute la nuit. »"
+        },
+        {
+          "id": "u03-li01-q3",
+          "question": "What do we learn about the new rent?",
+          "options": [
+            "It is $800 including service charges.",
+            "It is cheaper than before.",
+            "It is $800 plus service charges.",
+            "It is $20 per square metre."
+          ],
+          "answer": 0,
+          "explanation": "« huit cents dollars, mais les charges sont comprises » — the charges are included. It is a bit more expensive than before."
+        }
+      ]
+    },
+    {
+      "id": "u03-li02",
+      "title": "Un message de l'agence",
+      "level": "A2",
+      "kind": "message",
+      "context": "An estate agent leaves a voicemail for a woman who wants to rent a flat.",
+      "lines": [
+        {
+          "speaker": "Thomas Petit",
+          "fr": "Bonjour Madame Diallo, ici Thomas Petit, de l'agence Immo Plus."
+        },
+        {
+          "speaker": "Thomas Petit",
+          "fr": "Je vous appelle pour l'appartement de la rue Victor-Hugo. Bonne nouvelle : le propriétaire est d'accord pour vous le louer !"
+        },
+        {
+          "speaker": "Thomas Petit",
+          "fr": "Le loyer est de six cent cinquante dollars par mois, plus cinquante dollars de charges."
+        },
+        {
+          "speaker": "Thomas Petit",
+          "fr": "Pour signer le bail, vous devez venir à l'agence jeudi à dix heures avec la caution, c'est-à-dire un mois de loyer, et une attestation d'assurance."
+        },
+        {
+          "speaker": "Thomas Petit",
+          "fr": "Vous pouvez emménager le premier du mois. Merci de me rappeler au cinq un quatre, cinq cinq cinq, zéro un neuf zéro."
+        }
+      ],
+      "translation": "Hello Mrs Diallo, this is Thomas Petit from the Immo Plus agency. I'm calling about the flat on rue Victor-Hugo. Good news: the owner agrees to rent it to you! The rent is six hundred and fifty dollars a month, plus fifty dollars of service charges. To sign the lease, you need to come to the agency on Thursday at ten with the deposit, that is one month's rent, and a certificate of insurance. You can move in on the first of the month. Please call me back on 514 555-0190.",
+      "questions": [
+        {
+          "id": "u03-li02-q1",
+          "question": "What is the good news?",
+          "options": [
+            "The rent is lower than planned.",
+            "The owner agrees to rent her the flat.",
+            "The flat is furnished.",
+            "She can visit the flat on Thursday."
+          ],
+          "answer": 1,
+          "explanation": "« le propriétaire est d'accord pour vous le louer »."
+        },
+        {
+          "id": "u03-li02-q2",
+          "question": "How much is the deposit?",
+          "options": [
+            "$50",
+            "$650",
+            "$700",
+            "Two months' rent"
+          ],
+          "answer": 1,
+          "explanation": "The deposit is « un mois de loyer » (one month's rent), and the rent is $650."
+        },
+        {
+          "id": "u03-li02-q3",
+          "question": "What must she do on Thursday at ten?",
+          "options": [
+            "Move in",
+            "Visit the flat",
+            "Sign the lease at the agency",
+            "Meet the neighbours"
+          ],
+          "answer": 2,
+          "explanation": "« Pour signer le bail, vous devez venir à l'agence jeudi à dix heures. » She can move in on the first of the month."
+        }
+      ]
+    }
+  ],
+  "reading": [
+    {
+      "id": "u03-re01",
+      "title": "La maison de mon enfance",
+      "level": "A2",
+      "kind": "letter",
+      "text": "Mon cher Tom,\n\nTu m'as demandé comment était la maison de mon enfance. Elle était à la campagne, près d'un petit village de la Gaspésie. C'était une vieille maison en pierre avec un grand jardin. Au rez-de-chaussée, il y avait une cuisine immense avec une cheminée : l'hiver, toute la famille mangeait là, parce que c'était la seule pièce chaude. Il n'y avait pas de salle de bains ! Nous nous lavions dans la cuisine avec de l'eau chaude. En haut, je partageais une chambre avec mes deux sœurs. Le dimanche, mon père travaillait dans le jardin et ma mère préparait un gâteau. J'adorais cette maison.\n\nJe t'embrasse,\nMamie",
+      "translation": "My dear Tom,\n\nYou asked me what the house where I grew up was like. It was in the countryside, near a small village in the Gaspé Peninsula. It was an old stone house with a big garden. On the ground floor, there was a huge kitchen with a fireplace: in winter, the whole family ate there, because it was the only warm room. There was no bathroom! We washed in the kitchen with hot water. Upstairs, I shared a bedroom with my two sisters. On Sundays, my father worked in the garden and my mother made a cake. I loved that house.\n\nLove,\nGrandma",
+      "questions": [
+        {
+          "id": "u03-re01-q1",
+          "question": "Where was the house?",
+          "options": [
+            "In a big city",
+            "In the countryside in the Gaspé Peninsula",
+            "By the sea",
+            "In the suburbs of Ottawa"
+          ],
+          "answer": 1,
+          "explanation": "« Elle était à la campagne, près d'un petit village de la Gaspésie. »"
+        },
+        {
+          "id": "u03-re01-q2",
+          "question": "Why did the family eat in the kitchen in winter?",
+          "options": [
+            "It was the biggest room.",
+            "There was no dining room.",
+            "It was the only warm room.",
+            "The children liked the fireplace."
+          ],
+          "answer": 2,
+          "explanation": "« parce que c'était la seule pièce chaude »."
+        },
+        {
+          "id": "u03-re01-q3",
+          "question": "Which statement is true?",
+          "options": [
+            "The house had a modern bathroom.",
+            "Grandma had her own bedroom.",
+            "Grandma shared a bedroom with her sisters.",
+            "Her mother worked in the garden on Sundays."
+          ],
+          "answer": 2,
+          "explanation": "« je partageais une chambre avec mes deux sœurs ». There was no bathroom, and it was her father who worked in the garden."
+        }
+      ]
+    },
+    {
+      "id": "u03-re02",
+      "title": "Appartement à louer",
+      "level": "A2",
+      "kind": "advert",
+      "text": "À LOUER – MONTRÉAL (PLATEAU)\n\nAppartement de 45 m² au 3e étage avec ascenseur. Séjour lumineux avec balcon, une chambre, cuisine équipée (four, réfrigérateur, lave-linge), salle de bains avec douche. Non meublé.\n\nLoyer : 720 $ par mois + 60 $ de charges (chauffage et eau compris).\n\nÀ cinq minutes à pied du métro et des commerces. Quartier calme.\nDisponible à partir du 1er novembre. Animaux non acceptés.\n\nVisites le samedi matin uniquement. Contactez l'agence Habitat Plateau au 514 555-0105.",
+      "translation": "TO LET – MONTRÉAL (Plateau)\n\n45 m² flat on the 3rd floor with a lift. Bright living room with a balcony, one bedroom, fitted kitchen (oven, fridge, washing machine), bathroom with a shower. Unfurnished.\n\nRent: $720 a month + $60 service charges (heating and water included).\n\nFive minutes' walk from the metro and the shops. Quiet area.\nAvailable from 1 November. No pets.\n\nViewings on Saturday mornings only. Contact the Habitat Plateau agency on 514 555-0105.",
+      "questions": [
+        {
+          "id": "u03-re02-q1",
+          "question": "Which of these is true about the flat?",
+          "options": [
+            "It is furnished.",
+            "It has two bedrooms.",
+            "It has a balcony.",
+            "It is on the ground floor."
+          ],
+          "answer": 2,
+          "explanation": "« Séjour lumineux avec balcon ». It is unfurnished (non meublé), has one bedroom and is on the 3rd floor."
+        },
+        {
+          "id": "u03-re02-q2",
+          "question": "What do the $60 service charges include?",
+          "options": [
+            "Electricity and internet",
+            "Heating and water",
+            "The deposit",
+            "Parking"
+          ],
+          "answer": 1,
+          "explanation": "« 60 $ de charges (chauffage et eau compris) »."
+        },
+        {
+          "id": "u03-re02-q3",
+          "question": "When can you visit the flat?",
+          "options": [
+            "Every day",
+            "On Saturday mornings only",
+            "From 1 November",
+            "On weekday evenings"
+          ],
+          "answer": 1,
+          "explanation": "« Visites le samedi matin uniquement. » 1 November is the date the flat becomes available."
+        }
+      ]
+    }
+  ],
+  "writing": [
+    {
+      "id": "u03-wr01",
+      "title": "My new home",
+      "level": "A2",
+      "taskType": "message",
+      "instructions": "Write a message (60–120 words) to a friend: describe your new home and compare it with your old one. Use the present for the new home and the imparfait for the old one.",
+      "promptFr": "Vous venez de déménager. Vous écrivez un message à un(e) ami(e) pour décrire votre nouveau logement et le comparer avec votre ancien logement. Vous l'invitez à venir le visiter. (60 à 120 mots)",
+      "minWords": 60,
+      "maxWords": 120,
+      "modelAnswer": "Salut Sam,\n\nÇa y est, j'ai déménagé ! Mon nouvel appartement est au quatrième étage d'un immeuble moderne, près du centre-ville. Il y a deux chambres, un grand salon et un balcon avec une belle vue. Avant, j'habitais dans un studio en banlieue. Il était petit et sombre, et les voisins étaient très bruyants. Je prenais le bus pendant une heure pour aller au travail ! Maintenant, je vais au bureau à pied en quinze minutes. Le loyer est un peu plus cher, mais je suis vraiment content. Tu viens dîner samedi pour visiter ?\n\nÀ bientôt,\nAli",
+      "checklist": [
+        "I greet my friend, sign the message and invite them to visit.",
+        "I describe the new home in the present (rooms, floor, area).",
+        "I describe the old home in the imparfait (il était, il y avait, j'habitais…).",
+        "I use avant… maintenant… to compare.",
+        "I use at least three housing words (étage, pièce, loyer, quartier…).",
+        "My adjectives agree with their nouns (une chambre lumineuse, des voisins bruyants)."
+      ]
+    }
+  ],
+  "speaking": [
+    {
+      "id": "u03-sp01",
+      "title": "Your childhood home",
+      "level": "A2",
+      "taskType": "entretien",
+      "instructions": "The examiner asks you about the home where you lived as a child. Speak for about two minutes using the imparfait: where it was, what it was like, and what you used to do there.",
+      "promptFr": "Où est-ce que vous habitiez quand vous étiez enfant ? Décrivez votre maison ou votre appartement et votre quartier.",
+      "prepSeconds": 0,
+      "speakSeconds": 120,
+      "modelAnswer": "Quand j'étais enfant, j'habitais à Lagos, au Nigeria, avec mes parents et mes trois frères. Nous avions un appartement au deuxième étage d'un grand immeuble. Il y avait trois chambres, alors je partageais ma chambre avec mon petit frère. Le salon était grand et très lumineux. Il n'y avait pas de jardin, mais il y avait une grande cour où nous jouions au football après l'école. Le quartier était un peu bruyant, mais j'aimais beaucoup l'ambiance. Nos voisins étaient très gentils : le dimanche, nous mangeions souvent ensemble. Maintenant, j'habite seul dans un petit studio, et cette vie de famille me manque.",
+      "tips": [
+        "Use c'était and il y avait to describe the place.",
+        "Use the imparfait for habits: le dimanche, nous mangions… ; après l'école, je jouais…",
+        "Finish with a comparison: avant… / maintenant… (present tense for now).",
+        "Make your adjectives agree: une cuisine spacieuse, des voisins gentils."
+      ]
+    },
+    {
+      "id": "u03-sp02",
+      "title": "Calling about a flat",
+      "level": "A2",
+      "taskType": "interaction",
+      "instructions": "Role-play: you have seen a flat advert and you phone the estate agency (the examiner). Ask questions to get the information you need and arrange a viewing.",
+      "promptFr": "Vous avez vu une annonce pour un appartement à louer. Vous téléphonez à l'agence pour avoir des informations (loyer, charges, étage, meubles, quartier) et pour organiser une visite.",
+      "prepSeconds": 120,
+      "speakSeconds": 210,
+      "modelAnswer": "Bonjour Madame, je vous appelle pour l'annonce de l'appartement de la rue des Lilas. Il est toujours disponible ? Très bien. Il fait combien de mètres carrés ? Et il y a combien de chambres ? Le loyer est de sept cents dollars, c'est ça ? Est-ce que les charges sont comprises ? Il est à quel étage ? Il y a un ascenseur ? Je demande parce que j'ai un vélo. L'appartement est meublé ou vide ? Et le quartier, il est calme ? Il y a des commerces et un arrêt de bus près de l'immeuble ? Parfait. Est-ce que je peux visiter samedi matin ? Dix heures, d'accord. Merci beaucoup, au revoir !",
+      "tips": [
+        "Use vous and polite formulas: Bonjour Madame, je vous appelle pour…, merci beaucoup.",
+        "Prepare a list of questions: combien…, est-ce que…, à quel étage…, quand…",
+        "Repeat key information to check it: Le loyer est de 700 dollars, c'est ça ?",
+        "End by arranging a precise time for the visit."
+      ]
+    }
+  ],
+  "checkpoint": [
+    {
+      "id": "u03-cp01",
+      "type": "mcq",
+      "level": "A2",
+      "skill": "structures",
+      "grammarTag": "imparfait",
+      "prompt": "Choose the correct verb form.",
+      "promptFr": "Quand j'étais petite, je ___ dans la chambre de ma sœur.",
+      "options": [
+        "dormais",
+        "dormait",
+        "dormirais",
+        "dors"
+      ],
+      "answer": 0,
+      "explanation": "Je + imparfait → dormais. Dormait goes with il/elle, dormirais is the conditional, and dors is the present."
+    },
+    {
+      "id": "u03-cp02",
+      "type": "mcq",
+      "level": "A2",
+      "skill": "structures",
+      "grammarTag": "imparfait",
+      "prompt": "Choose the correct form of être.",
+      "promptFr": "Les murs ___ blancs et la cuisine était jaune.",
+      "options": [
+        "étaient",
+        "était",
+        "sont",
+        "étions"
+      ],
+      "answer": 0,
+      "explanation": "Les murs is plural (ils): étaient. The sentence describes the past, so the present sont is wrong."
+    },
+    {
+      "id": "u03-cp03",
+      "type": "mcq",
+      "level": "A2",
+      "skill": "structures",
+      "grammarTag": "imparfait",
+      "prompt": "Which expression usually introduces a past habit (imparfait)?",
+      "options": [
+        "tous les dimanches",
+        "hier à 15 heures",
+        "demain",
+        "en ce moment"
+      ],
+      "answer": 0,
+      "explanation": "Tous les dimanches shows a repeated action, typical of the imparfait. Hier à 15 heures points to one event, demain is the future and en ce moment is the present."
+    },
+    {
+      "id": "u03-cp04",
+      "type": "mcq",
+      "level": "A2",
+      "skill": "structures",
+      "grammarTag": "vocabulary",
+      "prompt": "Choose the logical word.",
+      "promptFr": "Il n'y a pas d'ascenseur, alors je prends ___.",
+      "options": [
+        "l'escalier",
+        "le couloir",
+        "la cave",
+        "le balcon"
+      ],
+      "answer": 0,
+      "explanation": "Without a lift, you take the stairs: l'escalier."
+    },
+    {
+      "id": "u03-cp05",
+      "type": "mcq",
+      "level": "A2",
+      "skill": "structures",
+      "grammarTag": "vocabulary",
+      "prompt": "Choose the right adjective.",
+      "promptFr": "Un appartement ___ a déjà des meubles : un lit, une table, un canapé.",
+      "options": [
+        "meublé",
+        "lumineux",
+        "bruyant",
+        "spacieux"
+      ],
+      "answer": 0,
+      "explanation": "Meublé means furnished. Lumineux = bright, bruyant = noisy, spacieux = spacious."
+    },
+    {
+      "id": "u03-cp06",
+      "type": "fill_blank",
+      "level": "A2",
+      "skill": "structures",
+      "grammarTag": "imparfait",
+      "prompt": "Complete with habiter in the imparfait.",
+      "sentence": "Avant, nous ___ en banlieue.",
+      "answers": [
+        "habitions"
+      ],
+      "hint": "habiter",
+      "translation": "Before, we lived in the suburbs.",
+      "explanation": "Nous + imparfait → -ions: nous habitions."
+    },
+    {
+      "id": "u03-cp07",
+      "type": "fill_blank",
+      "level": "A2",
+      "skill": "structures",
+      "grammarTag": "imparfait",
+      "prompt": "Complete with être in the imparfait.",
+      "sentence": "Mon ancien appartement ___ au rez-de-chaussée.",
+      "answers": [
+        "était"
+      ],
+      "hint": "être",
+      "translation": "My old flat was on the ground floor.",
+      "explanation": "Être has the irregular stem ét-; singular subject → était."
+    },
+    {
+      "id": "u03-cp08",
+      "type": "fill_blank",
+      "level": "A2",
+      "skill": "structures",
+      "grammarTag": "imparfait",
+      "prompt": "Complete with lire in the imparfait.",
+      "sentence": "Le soir, mes parents ___ devant la cheminée.",
+      "answers": [
+        "lisaient"
+      ],
+      "hint": "lire",
+      "translation": "In the evening, my parents used to read in front of the fireplace.",
+      "explanation": "Nous lisons → lis- + -aient → ils lisaient. A repeated evening activity is a habit: imparfait."
+    },
+    {
+      "id": "u03-cp09",
+      "type": "fill_blank",
+      "level": "A2",
+      "skill": "structures",
+      "grammarTag": "imparfait",
+      "prompt": "Complete the expression in the imparfait.",
+      "sentence": "Dans notre immeuble, il y ___ un vieux monsieur très gentil.",
+      "answers": [
+        "avait"
+      ],
+      "translation": "In our building, there was a very kind old man.",
+      "explanation": "Il y a → il y avait (there was)."
+    },
+    {
+      "id": "u03-cp10",
+      "type": "fill_blank",
+      "level": "A2",
+      "skill": "structures",
+      "grammarTag": "imparfait",
+      "prompt": "Complete with faire in the imparfait.",
+      "sentence": "Le samedi, vous ___ le ménage ensemble ?",
+      "answers": [
+        "faisiez"
+      ],
+      "hint": "faire",
+      "translation": "On Saturdays, did you use to do the cleaning together?",
+      "explanation": "Nous faisons → fais- + -iez → vous faisiez."
+    }
+  ]
+}

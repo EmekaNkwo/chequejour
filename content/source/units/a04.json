@@ -1,0 +1,1928 @@
+{
+  "id": "a04",
+  "order": 4,
+  "level": "A1+",
+  "theme": "At home",
+  "titleFr": "Chez moi",
+  "description": "Describe your home, its rooms, furniture and colours, say where things are with il y a and prepositions of place, and make negative sentences with ne… pas.",
+  "vocab": [
+    {
+      "id": "a04-w001",
+      "fr": "salle à manger",
+      "en": "dining room",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "salles à manger",
+      "level": "A1+",
+      "core": true,
+      "example": {
+        "fr": "Le dimanche, nous mangeons dans la salle à manger.",
+        "en": "On Sundays, we eat in the dining room."
+      }
+    },
+    {
+      "id": "a04-w002",
+      "fr": "garage",
+      "en": "garage",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "garages",
+      "level": "A1+",
+      "core": false,
+      "example": {
+        "fr": "La voiture est dans le garage.",
+        "en": "The car is in the garage."
+      }
+    },
+    {
+      "id": "a04-w003",
+      "fr": "terrasse",
+      "en": "terrace, patio",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "terrasses",
+      "level": "A1+",
+      "core": false,
+      "example": {
+        "fr": "Il y a une table et quatre chaises sur la terrasse.",
+        "en": "There is a table and four chairs on the terrace."
+      }
+    },
+    {
+      "id": "a04-w004",
+      "fr": "toit",
+      "en": "roof",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "toits",
+      "level": "A1+",
+      "core": false,
+      "example": {
+        "fr": "La maison a un toit rouge.",
+        "en": "The house has a red roof."
+      }
+    },
+    {
+      "id": "a04-w005",
+      "fr": "maison individuelle",
+      "en": "detached house",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "maisons individuelles",
+      "level": "A1+",
+      "core": false,
+      "example": {
+        "fr": "Mes parents habitent dans une maison individuelle avec un jardin.",
+        "en": "My parents live in a detached house with a garden."
+      }
+    },
+    {
+      "id": "a04-w006",
+      "fr": "résidence",
+      "en": "residence, (student) halls",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "résidences",
+      "level": "A1+",
+      "core": false,
+      "example": {
+        "fr": "J'habite dans une résidence pour étudiants.",
+        "en": "I live in a student residence."
+      }
+    },
+    {
+      "id": "a04-w007",
+      "fr": "cour",
+      "en": "courtyard",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "cours",
+      "level": "A1+",
+      "core": false,
+      "example": {
+        "fr": "Les enfants jouent dans la cour de l'immeuble.",
+        "en": "The children play in the building's courtyard."
+      }
+    },
+    {
+      "id": "a04-w008",
+      "fr": "deux-pièces",
+      "en": "two-room flat (one bedroom and a living room)",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "deux-pièces",
+      "level": "A1+",
+      "core": false,
+      "example": {
+        "fr": "Je loue un deux-pièces : un salon et une chambre.",
+        "en": "I rent a two-room flat: a living room and a bedroom."
+      }
+    },
+    {
+      "id": "a04-w009",
+      "fr": "salle d'eau",
+      "en": "shower room",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "salles d'eau",
+      "level": "A1+",
+      "core": false,
+      "example": {
+        "fr": "Dans la salle d'eau, il y a une douche et un lavabo.",
+        "en": "In the shower room, there is a shower and a washbasin."
+      }
+    },
+    {
+      "id": "a04-w010",
+      "fr": "table",
+      "en": "table",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "tables",
+      "level": "A1+",
+      "core": true,
+      "example": {
+        "fr": "La table est dans la cuisine.",
+        "en": "The table is in the kitchen."
+      }
+    },
+    {
+      "id": "a04-w011",
+      "fr": "chaise",
+      "en": "chair",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "chaises",
+      "level": "A1+",
+      "core": true,
+      "example": {
+        "fr": "Il y a six chaises dans la salle à manger.",
+        "en": "There are six chairs in the dining room."
+      }
+    },
+    {
+      "id": "a04-w012",
+      "fr": "fauteuil",
+      "en": "armchair",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "fauteuils",
+      "level": "A1+",
+      "core": true,
+      "example": {
+        "fr": "Mon père lit le journal dans son fauteuil.",
+        "en": "My father reads the newspaper in his armchair."
+      }
+    },
+    {
+      "id": "a04-w013",
+      "fr": "miroir",
+      "en": "mirror",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "miroirs",
+      "level": "A1+",
+      "core": false,
+      "example": {
+        "fr": "Il y a un grand miroir dans l'entrée.",
+        "en": "There is a big mirror in the hall."
+      }
+    },
+    {
+      "id": "a04-w014",
+      "fr": "frigo",
+      "en": "fridge",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "frigos",
+      "level": "A1+",
+      "core": true,
+      "example": {
+        "fr": "Le lait est dans le frigo.",
+        "en": "The milk is in the fridge."
+      }
+    },
+    {
+      "id": "a04-w015",
+      "fr": "baignoire",
+      "en": "bath, bathtub",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "baignoires",
+      "level": "A1+",
+      "core": false,
+      "example": {
+        "fr": "Il n'y a pas de baignoire, seulement une douche.",
+        "en": "There is no bath, only a shower."
+      }
+    },
+    {
+      "id": "a04-w016",
+      "fr": "lavabo",
+      "en": "washbasin",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "lavabos",
+      "level": "A1+",
+      "core": false,
+      "example": {
+        "fr": "Le savon est sur le lavabo.",
+        "en": "The soap is on the washbasin."
+      }
+    },
+    {
+      "id": "a04-w017",
+      "fr": "évier",
+      "en": "kitchen sink",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "éviers",
+      "level": "A1+",
+      "core": false,
+      "example": {
+        "fr": "Les assiettes sales sont dans l'évier.",
+        "en": "The dirty plates are in the sink."
+      }
+    },
+    {
+      "id": "a04-w018",
+      "fr": "commode",
+      "en": "chest of drawers",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "commodes",
+      "level": "A1+",
+      "core": false,
+      "example": {
+        "fr": "Mes pulls sont dans la commode.",
+        "en": "My jumpers are in the chest of drawers."
+      }
+    },
+    {
+      "id": "a04-w019",
+      "fr": "table de nuit",
+      "en": "bedside table",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "tables de nuit",
+      "level": "A1+",
+      "core": false,
+      "example": {
+        "fr": "Mon téléphone est sur la table de nuit.",
+        "en": "My phone is on the bedside table."
+      }
+    },
+    {
+      "id": "a04-w020",
+      "fr": "table basse",
+      "en": "coffee table",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "tables basses",
+      "level": "A1+",
+      "core": false,
+      "example": {
+        "fr": "Il y a une plante sur la table basse.",
+        "en": "There is a plant on the coffee table."
+      }
+    },
+    {
+      "id": "a04-w021",
+      "fr": "rideau",
+      "en": "curtain",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "rideaux",
+      "level": "A1+",
+      "core": false,
+      "example": {
+        "fr": "Les rideaux de ma chambre sont bleus.",
+        "en": "The curtains in my bedroom are blue."
+      }
+    },
+    {
+      "id": "a04-w022",
+      "fr": "coussin",
+      "en": "cushion",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "coussins",
+      "level": "A1+",
+      "core": false,
+      "example": {
+        "fr": "Il y a trois coussins jaunes sur le canapé.",
+        "en": "There are three yellow cushions on the sofa."
+      }
+    },
+    {
+      "id": "a04-w023",
+      "fr": "télévision",
+      "en": "television",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "télévisions",
+      "level": "A1+",
+      "core": true,
+      "example": {
+        "fr": "La télévision est en face du canapé.",
+        "en": "The television is opposite the sofa."
+      }
+    },
+    {
+      "id": "a04-w024",
+      "fr": "ordinateur",
+      "en": "computer",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "ordinateurs",
+      "level": "A1+",
+      "core": false,
+      "example": {
+        "fr": "Mon ordinateur est sur le bureau, dans ma chambre.",
+        "en": "My computer is on the desk, in my bedroom."
+      }
+    },
+    {
+      "id": "a04-w025",
+      "fr": "plante",
+      "en": "plant",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "plantes",
+      "level": "A1+",
+      "core": false,
+      "example": {
+        "fr": "J'ai beaucoup de plantes sur mon balcon.",
+        "en": "I have a lot of plants on my balcony."
+      }
+    },
+    {
+      "id": "a04-w026",
+      "fr": "machine à laver",
+      "en": "washing machine",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "machines à laver",
+      "level": "A1+",
+      "core": false,
+      "example": {
+        "fr": "La machine à laver est dans la salle de bains.",
+        "en": "The washing machine is in the bathroom."
+      }
+    },
+    {
+      "id": "a04-w027",
+      "fr": "oreiller",
+      "en": "pillow",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "oreillers",
+      "level": "A1+",
+      "core": false,
+      "example": {
+        "fr": "J'aime dormir avec deux oreillers.",
+        "en": "I like sleeping with two pillows."
+      }
+    },
+    {
+      "id": "a04-w028",
+      "fr": "couverture",
+      "en": "blanket",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "couvertures",
+      "level": "A1+",
+      "core": false,
+      "example": {
+        "fr": "En hiver, j'ai une grosse couverture sur mon lit.",
+        "en": "In winter, I have a thick blanket on my bed."
+      }
+    },
+    {
+      "id": "a04-w029",
+      "fr": "poubelle",
+      "en": "bin",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "poubelles",
+      "level": "A1+",
+      "core": false,
+      "example": {
+        "fr": "La poubelle est sous l'évier.",
+        "en": "The bin is under the sink."
+      }
+    },
+    {
+      "id": "a04-w030",
+      "fr": "horloge",
+      "en": "clock",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "horloges",
+      "level": "A1+",
+      "core": false,
+      "example": {
+        "fr": "Il y a une vieille horloge dans le salon.",
+        "en": "There is an old clock in the living room."
+      }
+    },
+    {
+      "id": "a04-w031",
+      "fr": "radiateur",
+      "en": "radiator",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "radiateurs",
+      "level": "A1+",
+      "core": false,
+      "example": {
+        "fr": "Le radiateur est sous la fenêtre.",
+        "en": "The radiator is under the window."
+      }
+    },
+    {
+      "id": "a04-w032",
+      "fr": "robinet",
+      "en": "tap",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "robinets",
+      "level": "A1+",
+      "core": false,
+      "example": {
+        "fr": "Ferme le robinet, s'il te plaît.",
+        "en": "Turn off the tap, please."
+      }
+    },
+    {
+      "id": "a04-w033",
+      "fr": "sonnette",
+      "en": "doorbell",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "sonnettes",
+      "level": "A1+",
+      "core": false,
+      "example": {
+        "fr": "La sonnette ne marche pas : frappez à la porte !",
+        "en": "The doorbell doesn't work: knock on the door!"
+      }
+    },
+    {
+      "id": "a04-w034",
+      "fr": "petite annonce",
+      "en": "small ad, classified ad",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "petites annonces",
+      "level": "A1+",
+      "core": false,
+      "example": {
+        "fr": "Je lis les petites annonces pour trouver une colocation.",
+        "en": "I read the small ads to find a flatshare."
+      }
+    },
+    {
+      "id": "a04-w035",
+      "fr": "couleur",
+      "en": "colour",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "couleurs",
+      "level": "A1+",
+      "core": true,
+      "example": {
+        "fr": "De quelle couleur est ta chambre ?",
+        "en": "What colour is your bedroom?"
+      }
+    },
+    {
+      "id": "a04-w036",
+      "fr": "rouge",
+      "en": "red",
+      "pos": "adjective",
+      "level": "A1+",
+      "core": true,
+      "example": {
+        "fr": "J'ai un canapé rouge dans mon salon.",
+        "en": "I have a red sofa in my living room."
+      }
+    },
+    {
+      "id": "a04-w037",
+      "fr": "bleu / bleue",
+      "en": "blue",
+      "pos": "adjective",
+      "level": "A1+",
+      "core": true,
+      "example": {
+        "fr": "La salle de bains est bleue.",
+        "en": "The bathroom is blue."
+      }
+    },
+    {
+      "id": "a04-w038",
+      "fr": "vert / verte",
+      "en": "green",
+      "pos": "adjective",
+      "level": "A1+",
+      "core": true,
+      "example": {
+        "fr": "Les murs de la cuisine sont verts.",
+        "en": "The kitchen walls are green."
+      }
+    },
+    {
+      "id": "a04-w039",
+      "fr": "jaune",
+      "en": "yellow",
+      "pos": "adjective",
+      "level": "A1+",
+      "core": false,
+      "example": {
+        "fr": "Ma chambre est jaune et blanche.",
+        "en": "My bedroom is yellow and white."
+      }
+    },
+    {
+      "id": "a04-w040",
+      "fr": "noir / noire",
+      "en": "black",
+      "pos": "adjective",
+      "level": "A1+",
+      "core": true,
+      "example": {
+        "fr": "Il y a une table noire dans la salle à manger.",
+        "en": "There is a black table in the dining room."
+      }
+    },
+    {
+      "id": "a04-w041",
+      "fr": "blanc / blanche",
+      "en": "white",
+      "pos": "adjective",
+      "level": "A1+",
+      "core": true,
+      "example": {
+        "fr": "J'ai une armoire blanche dans ma chambre.",
+        "en": "I have a white wardrobe in my bedroom."
+      }
+    },
+    {
+      "id": "a04-w042",
+      "fr": "gris / grise",
+      "en": "grey",
+      "pos": "adjective",
+      "level": "A1+",
+      "core": false,
+      "example": {
+        "fr": "Le canapé est gris.",
+        "en": "The sofa is grey."
+      }
+    },
+    {
+      "id": "a04-w043",
+      "fr": "rose",
+      "en": "pink",
+      "pos": "adjective",
+      "level": "A1+",
+      "core": false,
+      "example": {
+        "fr": "La chambre de ma sœur est rose.",
+        "en": "My sister's bedroom is pink."
+      }
+    },
+    {
+      "id": "a04-w044",
+      "fr": "orange",
+      "en": "orange (never changes)",
+      "pos": "adjective",
+      "level": "A1+",
+      "core": false,
+      "example": {
+        "fr": "Les coussins sont orange.",
+        "en": "The cushions are orange."
+      }
+    },
+    {
+      "id": "a04-w045",
+      "fr": "marron",
+      "en": "brown (never changes)",
+      "pos": "adjective",
+      "level": "A1+",
+      "core": false,
+      "example": {
+        "fr": "J'ai deux fauteuils marron.",
+        "en": "I have two brown armchairs."
+      }
+    },
+    {
+      "id": "a04-w046",
+      "fr": "violet / violette",
+      "en": "purple",
+      "pos": "adjective",
+      "level": "A1+",
+      "core": false,
+      "example": {
+        "fr": "Elle a une lampe violette sur son bureau.",
+        "en": "She has a purple lamp on her desk."
+      }
+    },
+    {
+      "id": "a04-w047",
+      "fr": "clair / claire",
+      "en": "bright, light (full of light)",
+      "pos": "adjective",
+      "level": "A1+",
+      "core": false,
+      "example": {
+        "fr": "Le salon est très clair le matin.",
+        "en": "The living room is very bright in the morning."
+      }
+    },
+    {
+      "id": "a04-w048",
+      "fr": "pratique",
+      "en": "practical, handy",
+      "pos": "adjective",
+      "level": "A1+",
+      "core": false,
+      "example": {
+        "fr": "Mon appartement est petit, mais il est pratique.",
+        "en": "My flat is small, but it is practical."
+      }
+    },
+    {
+      "id": "a04-w049",
+      "fr": "agréable",
+      "en": "pleasant, nice",
+      "pos": "adjective",
+      "level": "A1+",
+      "core": false,
+      "example": {
+        "fr": "La terrasse est très agréable en été.",
+        "en": "The terrace is very pleasant in summer."
+      }
+    },
+    {
+      "id": "a04-w050",
+      "fr": "vide",
+      "en": "empty",
+      "pos": "adjective",
+      "level": "A1+",
+      "core": false,
+      "example": {
+        "fr": "Le frigo est vide !",
+        "en": "The fridge is empty!"
+      }
+    },
+    {
+      "id": "a04-w051",
+      "fr": "rangé / rangée",
+      "en": "tidy",
+      "pos": "adjective",
+      "level": "A1+",
+      "core": false,
+      "example": {
+        "fr": "Ma chambre est toujours rangée.",
+        "en": "My bedroom is always tidy."
+      }
+    },
+    {
+      "id": "a04-w052",
+      "fr": "non-fumeur / non-fumeuse",
+      "en": "non-smoking, non-smoker",
+      "pos": "adjective",
+      "level": "A1+",
+      "core": false,
+      "example": {
+        "fr": "Nous cherchons un colocataire non-fumeur.",
+        "en": "We are looking for a non-smoking flatmate."
+      }
+    },
+    {
+      "id": "a04-w053",
+      "fr": "sur",
+      "en": "on",
+      "pos": "preposition",
+      "level": "A1+",
+      "core": true,
+      "example": {
+        "fr": "Les clés sont sur la table.",
+        "en": "The keys are on the table."
+      }
+    },
+    {
+      "id": "a04-w054",
+      "fr": "sous",
+      "en": "under",
+      "pos": "preposition",
+      "level": "A1+",
+      "core": true,
+      "example": {
+        "fr": "Le chat dort sous le lit.",
+        "en": "The cat sleeps under the bed."
+      }
+    },
+    {
+      "id": "a04-w055",
+      "fr": "dans",
+      "en": "in, inside",
+      "pos": "preposition",
+      "level": "A1+",
+      "core": true,
+      "example": {
+        "fr": "Mes vêtements sont dans l'armoire.",
+        "en": "My clothes are in the wardrobe."
+      }
+    },
+    {
+      "id": "a04-w056",
+      "fr": "au fond de",
+      "en": "at the back of, at the end of",
+      "pos": "preposition",
+      "level": "A1+",
+      "core": false,
+      "example": {
+        "fr": "La salle de bains est au fond du couloir.",
+        "en": "The bathroom is at the end of the corridor."
+      }
+    },
+    {
+      "id": "a04-w057",
+      "fr": "par terre",
+      "en": "on the floor",
+      "pos": "expression",
+      "level": "A1+",
+      "core": false,
+      "example": {
+        "fr": "Il y a des livres par terre dans ma chambre.",
+        "en": "There are books on the floor in my bedroom."
+      }
+    },
+    {
+      "id": "a04-w058",
+      "fr": "en haut",
+      "en": "upstairs, at the top",
+      "pos": "adverb",
+      "level": "A1+",
+      "core": false,
+      "example": {
+        "fr": "Les chambres sont en haut.",
+        "en": "The bedrooms are upstairs."
+      }
+    },
+    {
+      "id": "a04-w059",
+      "fr": "en bas",
+      "en": "downstairs, at the bottom",
+      "pos": "adverb",
+      "level": "A1+",
+      "core": false,
+      "example": {
+        "fr": "La cuisine et le salon sont en bas.",
+        "en": "The kitchen and the living room are downstairs."
+      }
+    },
+    {
+      "id": "a04-w060",
+      "fr": "il n'y a pas de",
+      "en": "there is no, there are no",
+      "pos": "expression",
+      "level": "A1+",
+      "core": true,
+      "example": {
+        "fr": "Il n'y a pas de garage dans mon immeuble.",
+        "en": "There is no garage in my building."
+      }
+    },
+    {
+      "id": "a04-w061",
+      "fr": "chez moi",
+      "en": "at my place, at home",
+      "pos": "expression",
+      "level": "A1+",
+      "core": true,
+      "example": {
+        "fr": "Chez moi, il y a trois chambres.",
+        "en": "At my place, there are three bedrooms."
+      }
+    },
+    {
+      "id": "a04-w062",
+      "fr": "à louer",
+      "en": "for rent, to let",
+      "pos": "expression",
+      "level": "A1+",
+      "core": false,
+      "example": {
+        "fr": "Il y a une chambre à louer dans notre appartement.",
+        "en": "There is a room to let in our flat."
+      }
+    },
+    {
+      "id": "a04-w063",
+      "fr": "en désordre",
+      "en": "messy, untidy",
+      "pos": "expression",
+      "level": "A1+",
+      "core": false,
+      "example": {
+        "fr": "Le salon est en désordre après la fête.",
+        "en": "The living room is messy after the party."
+      }
+    },
+    {
+      "id": "a04-w064",
+      "fr": "chercher",
+      "en": "to look for",
+      "pos": "verb",
+      "level": "A1+",
+      "core": true,
+      "example": {
+        "fr": "Je cherche une chambre près de l'université.",
+        "en": "I'm looking for a room near the university."
+      }
+    },
+    {
+      "id": "a04-w065",
+      "fr": "trouver",
+      "en": "to find",
+      "pos": "verb",
+      "level": "A1+",
+      "core": true,
+      "example": {
+        "fr": "Je ne trouve pas mes clés.",
+        "en": "I can't find my keys."
+      }
+    },
+    {
+      "id": "a04-w066",
+      "fr": "fermer",
+      "en": "to close, to shut",
+      "pos": "verb",
+      "level": "A1+",
+      "core": false,
+      "example": {
+        "fr": "Je ferme toujours la porte à clé le soir.",
+        "en": "I always lock the door in the evening."
+      }
+    },
+    {
+      "id": "a04-w067",
+      "fr": "ouvrir",
+      "en": "to open",
+      "pos": "verb",
+      "level": "A1+",
+      "core": false,
+      "example": {
+        "fr": "J'ouvre la fenêtre le matin.",
+        "en": "I open the window in the morning."
+      }
+    },
+    {
+      "id": "a04-w068",
+      "fr": "allumer",
+      "en": "to switch on (a light, a device)",
+      "pos": "verb",
+      "level": "A1+",
+      "core": false,
+      "example": {
+        "fr": "Il allume la lampe à côté du lit.",
+        "en": "He switches on the lamp next to the bed."
+      }
+    }
+  ],
+  "grammar": [
+    {
+      "id": "a04-g01",
+      "title": "Il y a and prepositions of place",
+      "level": "A1+",
+      "grammarTag": "il-y-a",
+      "explanation": [
+        "Il y a means 'there is' or 'there are'. It never changes: il y a un lit (there is a bed), il y a deux lits (there are two beds).",
+        "After il y a, you usually use un, une, des or a number: Il y a une table dans la cuisine. Il y a des plantes sur le balcon.",
+        "To ask what there is, say Qu'est-ce qu'il y a… ? For a yes/no question, just raise your voice: Il y a un garage ?",
+        "To say where something is, use être + a preposition: Le chat est sous la table. Les livres sont sur l'étagère. The table below shows the most useful prepositions.",
+        "Some prepositions end in de: à côté de, en face de. De + le becomes du, and de + les becomes des: à côté du lit, en face des fenêtres. De la and de l' do not change: à côté de la porte, en face de l'armoire.",
+        "To ask where something is, say Où est… ? for one thing and Où sont… ? for several things: Où est la télévision ? Où sont mes clés ?"
+      ],
+      "table": [
+        [
+          "Preposition",
+          "Meaning",
+          "Example"
+        ],
+        [
+          "sur",
+          "on",
+          "Le livre est sur la table."
+        ],
+        [
+          "sous",
+          "under",
+          "Le chat est sous le lit."
+        ],
+        [
+          "dans",
+          "in",
+          "Les pulls sont dans l'armoire."
+        ],
+        [
+          "devant",
+          "in front of",
+          "La voiture est devant le garage."
+        ],
+        [
+          "derrière",
+          "behind",
+          "Le jardin est derrière la maison."
+        ],
+        [
+          "à côté de",
+          "next to",
+          "La lampe est à côté du canapé."
+        ],
+        [
+          "entre",
+          "between",
+          "La table est entre les deux fauteuils."
+        ],
+        [
+          "en face de",
+          "opposite",
+          "Le miroir est en face de la fenêtre."
+        ]
+      ],
+      "examples": [
+        {
+          "fr": "Dans ma chambre, il y a un lit, une armoire et une chaise.",
+          "en": "In my bedroom, there is a bed, a wardrobe and a chair."
+        },
+        {
+          "fr": "Il y a deux fauteuils dans le salon.",
+          "en": "There are two armchairs in the living room."
+        },
+        {
+          "fr": "Qu'est-ce qu'il y a dans le frigo ?",
+          "en": "What is there in the fridge?"
+        },
+        {
+          "fr": "La télévision est en face du canapé.",
+          "en": "The television is opposite the sofa."
+        },
+        {
+          "fr": "Le tapis est entre la table basse et le canapé.",
+          "en": "The rug is between the coffee table and the sofa."
+        },
+        {
+          "fr": "Mon vélo est derrière la porte.",
+          "en": "My bike is behind the door."
+        },
+        {
+          "fr": "Où sont les coussins ? Ils sont sur le fauteuil.",
+          "en": "Where are the cushions? They are on the armchair."
+        },
+        {
+          "fr": "La salle de bains est à côté de la chambre.",
+          "en": "The bathroom is next to the bedroom."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "Il y ont trois chambres.",
+          "right": "Il y a trois chambres.",
+          "why": "Il y a never changes, even when there are many things."
+        },
+        {
+          "wrong": "Il est un frigo dans la cuisine.",
+          "right": "Il y a un frigo dans la cuisine.",
+          "why": "To say 'there is', use il y a, not il est."
+        },
+        {
+          "wrong": "La lampe est à côté de le lit.",
+          "right": "La lampe est à côté du lit.",
+          "why": "De + le always becomes du."
+        },
+        {
+          "wrong": "Le chat est sur le lit. (when it is under the bed)",
+          "right": "Le chat est sous le lit.",
+          "why": "Sur means 'on' and sous means 'under'. They sound similar, so listen carefully: sur has the 'u' sound, sous has the 'ou' sound."
+        }
+      ]
+    },
+    {
+      "id": "a04-g02",
+      "title": "Negation with ne… pas",
+      "level": "A1+",
+      "grammarTag": "negation",
+      "explanation": [
+        "To make a sentence negative, put ne before the verb and pas after the verb: Je regarde la télévision → Je ne regarde pas la télévision.",
+        "Ne becomes n' before a vowel or a silent h: je n'aime pas, il n'habite pas ici, nous n'avons pas.",
+        "After a negative verb, un, une and des become de (d' before a vowel): J'ai un garage → Je n'ai pas de garage. J'ai des plantes → Je n'ai pas de plantes. Il y a un ordinateur → Il n'y a pas d'ordinateur.",
+        "Il y a becomes il n'y a pas de: Il n'y a pas de baignoire. Il n'y a pas de rideaux.",
+        "Le, la, l' and les do not change: J'aime le rouge → Je n'aime pas le rouge. After être, un, une and des do not change either: C'est un studio → Ce n'est pas un studio.",
+        "In everyday speech, French people often drop ne (J'ai pas de télé). In writing and in the exam, always use ne… pas."
+      ],
+      "table": [
+        [
+          "Positive",
+          "Negative"
+        ],
+        [
+          "Je ferme la porte.",
+          "Je ne ferme pas la porte."
+        ],
+        [
+          "J'aime le bleu.",
+          "Je n'aime pas le bleu."
+        ],
+        [
+          "J'ai un frigo.",
+          "Je n'ai pas de frigo."
+        ],
+        [
+          "Nous avons des plantes.",
+          "Nous n'avons pas de plantes."
+        ],
+        [
+          "Il y a une baignoire.",
+          "Il n'y a pas de baignoire."
+        ],
+        [
+          "Il y a un ordinateur.",
+          "Il n'y a pas d'ordinateur."
+        ],
+        [
+          "C'est une chaise.",
+          "Ce n'est pas une chaise."
+        ]
+      ],
+      "examples": [
+        {
+          "fr": "Je ne trouve pas la télécommande.",
+          "en": "I can't find the remote control."
+        },
+        {
+          "fr": "Elle n'habite pas dans une maison, elle habite dans un appartement.",
+          "en": "She doesn't live in a house, she lives in a flat."
+        },
+        {
+          "fr": "Il n'y a pas de lave-vaisselle dans la cuisine.",
+          "en": "There is no dishwasher in the kitchen."
+        },
+        {
+          "fr": "Nous n'avons pas de jardin, mais nous avons une terrasse.",
+          "en": "We don't have a garden, but we have a terrace."
+        },
+        {
+          "fr": "Tu n'aimes pas la couleur des murs ?",
+          "en": "Don't you like the colour of the walls?"
+        },
+        {
+          "fr": "Je n'ai pas d'ordinateur chez moi.",
+          "en": "I don't have a computer at home."
+        },
+        {
+          "fr": "Ce n'est pas une grande chambre, mais elle est claire.",
+          "en": "It isn't a big bedroom, but it is bright."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "Je n'ai pas un garage.",
+          "right": "Je n'ai pas de garage.",
+          "why": "After a negative verb, un, une and des become de."
+        },
+        {
+          "wrong": "Je ne aime pas le vert.",
+          "right": "Je n'aime pas le vert.",
+          "why": "Ne becomes n' before a vowel."
+        },
+        {
+          "wrong": "Il n'y a pas des chaises.",
+          "right": "Il n'y a pas de chaises.",
+          "why": "Des also becomes de after il n'y a pas."
+        },
+        {
+          "wrong": "Je pas ferme la fenêtre.",
+          "right": "Je ne ferme pas la fenêtre.",
+          "why": "Use both parts: ne before the verb and pas after it."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "a04-ex01",
+      "type": "mcq",
+      "level": "A1+",
+      "skill": "structures",
+      "grammarTag": "il-y-a",
+      "prompt": "The cat is under the bed. Choose the right word.",
+      "promptFr": "Le chat dort ___ le lit.",
+      "options": [
+        "sous",
+        "sur",
+        "dans",
+        "entre"
+      ],
+      "answer": 0,
+      "explanation": "Sous means 'under'. Sur means 'on', dans means 'in' and entre means 'between' (you need two things for entre)."
+    },
+    {
+      "id": "a04-ex02",
+      "type": "mcq",
+      "level": "A1+",
+      "skill": "structures",
+      "grammarTag": "negation",
+      "prompt": "Choose the correct word after the negative.",
+      "promptFr": "Dans la salle de bains, il n'y a pas ___ baignoire.",
+      "options": [
+        "de",
+        "une",
+        "la",
+        "des"
+      ],
+      "answer": 0,
+      "explanation": "After il n'y a pas, un, une and des become de. So: il n'y a pas de baignoire."
+    },
+    {
+      "id": "a04-ex03",
+      "type": "mcq",
+      "level": "A1+",
+      "skill": "structures",
+      "grammarTag": "vocabulary",
+      "prompt": "Which room is for eating meals with your family?",
+      "options": [
+        "la salle à manger",
+        "la salle d'eau",
+        "le garage",
+        "la chambre"
+      ],
+      "answer": 0,
+      "explanation": "You eat in la salle à manger (the dining room). La salle d'eau is for washing, le garage is for the car and la chambre is for sleeping."
+    },
+    {
+      "id": "a04-ex04",
+      "type": "mcq",
+      "level": "A1+",
+      "skill": "structures",
+      "grammarTag": "il-y-a",
+      "prompt": "Choose the correct form.",
+      "promptFr": "La lampe est à côté ___ lit.",
+      "options": [
+        "du",
+        "de le",
+        "de la",
+        "des"
+      ],
+      "answer": 0,
+      "explanation": "Lit is masculine singular: de + le becomes du. De le is never used, de la is for feminine words and des is for plurals."
+    },
+    {
+      "id": "a04-ex05",
+      "type": "mcq",
+      "level": "A1+",
+      "skill": "structures",
+      "grammarTag": "negation",
+      "prompt": "Choose the correct word.",
+      "promptFr": "Je ___ aime pas le jaune.",
+      "options": [
+        "n'",
+        "ne",
+        "pas",
+        "non"
+      ],
+      "answer": 0,
+      "explanation": "Aime starts with a vowel, so ne becomes n': je n'aime pas. Pas is already after the verb, and non is not used inside a sentence like this."
+    },
+    {
+      "id": "a04-ex06",
+      "type": "fill_blank",
+      "level": "A1+",
+      "skill": "structures",
+      "grammarTag": "il-y-a",
+      "prompt": "Complete with the expression for 'there is / there are'.",
+      "sentence": "Dans le salon, ___ un canapé et deux fauteuils.",
+      "answers": [
+        "il y a"
+      ],
+      "hint": "there is / there are",
+      "translation": "In the living room, there is a sofa and two armchairs.",
+      "explanation": "Il y a means both 'there is' and 'there are'. It never changes."
+    },
+    {
+      "id": "a04-ex07",
+      "type": "fill_blank",
+      "level": "A1+",
+      "skill": "structures",
+      "grammarTag": "negation",
+      "prompt": "Complete the negative sentence with one small word.",
+      "sentence": "Nous n'avons pas ___ garage.",
+      "answers": [
+        "de"
+      ],
+      "translation": "We don't have a garage.",
+      "explanation": "After a negative verb, un becomes de: nous avons un garage → nous n'avons pas de garage."
+    },
+    {
+      "id": "a04-ex08",
+      "type": "fill_blank",
+      "level": "A1+",
+      "skill": "structures",
+      "grammarTag": "accord",
+      "prompt": "Write the colour 'white' in the correct form.",
+      "sentence": "J'ai une armoire ___.",
+      "answers": [
+        "blanche"
+      ],
+      "hint": "blanc",
+      "translation": "I have a white wardrobe.",
+      "explanation": "Armoire is feminine, so blanc becomes blanche. The colour comes after the noun."
+    },
+    {
+      "id": "a04-ex09",
+      "type": "fill_blank",
+      "level": "A1+",
+      "skill": "structures",
+      "grammarTag": "il-y-a",
+      "prompt": "Complete with the preposition meaning 'between'.",
+      "sentence": "Le tapis est ___ le canapé et la table basse.",
+      "answers": [
+        "entre"
+      ],
+      "translation": "The rug is between the sofa and the coffee table.",
+      "explanation": "Entre means 'between'. You use it with two things: entre le canapé et la table basse."
+    },
+    {
+      "id": "a04-ex10",
+      "type": "conjugation",
+      "level": "A1+",
+      "skill": "structures",
+      "grammarTag": "present",
+      "verb": "chercher",
+      "tense": "présent",
+      "person": "nous",
+      "answers": [
+        "cherchons"
+      ],
+      "explanation": "Chercher is a regular -er verb: je cherche, tu cherches, il cherche, nous cherchons, vous cherchez, ils cherchent."
+    },
+    {
+      "id": "a04-ex11",
+      "type": "conjugation",
+      "level": "A1+",
+      "skill": "structures",
+      "grammarTag": "present",
+      "verb": "ouvrir",
+      "tense": "présent",
+      "person": "je",
+      "answers": [
+        "ouvre",
+        "j'ouvre"
+      ],
+      "explanation": "Ouvrir ends in -ir but takes -er endings in the present: j'ouvre, tu ouvres, il ouvre, nous ouvrons, vous ouvrez, ils ouvrent."
+    },
+    {
+      "id": "a04-ex12",
+      "type": "reorder",
+      "level": "A1+",
+      "skill": "structures",
+      "grammarTag": "il-y-a",
+      "prompt": "Put the words in order to make a sentence.",
+      "tokens": [
+        "Il",
+        "y",
+        "a",
+        "une",
+        "plante",
+        "sur",
+        "la",
+        "table."
+      ],
+      "translation": "There is a plant on the table.",
+      "explanation": "Start with il y a, then the thing (une plante), then the place (sur la table)."
+    },
+    {
+      "id": "a04-ex13",
+      "type": "reorder",
+      "level": "A1+",
+      "skill": "structures",
+      "grammarTag": "negation",
+      "prompt": "Put the words in order to make a sentence.",
+      "tokens": [
+        "Il",
+        "n'y",
+        "a",
+        "pas",
+        "de",
+        "rideaux",
+        "dans",
+        "ma",
+        "chambre."
+      ],
+      "translation": "There are no curtains in my bedroom.",
+      "explanation": "Il n'y a pas de + noun. Des rideaux becomes de rideaux after the negative."
+    },
+    {
+      "id": "a04-ex14",
+      "type": "match",
+      "level": "A1+",
+      "skill": "structures",
+      "grammarTag": "vocabulary",
+      "prompt": "Match the colours with their meanings.",
+      "pairs": [
+        {
+          "left": "rouge",
+          "right": "red"
+        },
+        {
+          "left": "jaune",
+          "right": "yellow"
+        },
+        {
+          "left": "vert",
+          "right": "green"
+        },
+        {
+          "left": "gris",
+          "right": "grey"
+        },
+        {
+          "left": "marron",
+          "right": "brown"
+        }
+      ],
+      "explanation": "Learn the colours with things in your home: un canapé rouge, des murs jaunes, une plante verte. Marron never changes: des fauteuils marron."
+    },
+    {
+      "id": "a04-ex15",
+      "type": "match",
+      "level": "A1+",
+      "skill": "structures",
+      "grammarTag": "il-y-a",
+      "prompt": "Match the prepositions with their meanings.",
+      "pairs": [
+        {
+          "left": "sur",
+          "right": "on"
+        },
+        {
+          "left": "sous",
+          "right": "under"
+        },
+        {
+          "left": "dans",
+          "right": "in"
+        },
+        {
+          "left": "derrière",
+          "right": "behind"
+        },
+        {
+          "left": "en face de",
+          "right": "opposite"
+        }
+      ],
+      "explanation": "These prepositions say where things are: le livre est sur la table, le chat est sous le lit, le vélo est derrière la porte."
+    },
+    {
+      "id": "a04-ex16",
+      "type": "translate",
+      "level": "A1+",
+      "skill": "structures",
+      "grammarTag": "negation",
+      "direction": "en-fr",
+      "source": "There is no television in my bedroom.",
+      "answers": [
+        "Il n'y a pas de télévision dans ma chambre.",
+        "Il n'y a pas de télé dans ma chambre.",
+        "Dans ma chambre, il n'y a pas de télévision."
+      ],
+      "explanation": "There is no… = il n'y a pas de… Une télévision becomes de télévision after the negative."
+    },
+    {
+      "id": "a04-ex17",
+      "type": "translate",
+      "level": "A1+",
+      "skill": "structures",
+      "grammarTag": "il-y-a",
+      "direction": "fr-en",
+      "source": "Il y a deux chaises devant la fenêtre.",
+      "answers": [
+        "There are two chairs in front of the window.",
+        "In front of the window there are two chairs."
+      ],
+      "explanation": "Il y a = there are. Devant = in front of."
+    },
+    {
+      "id": "a04-ex18",
+      "type": "translate",
+      "level": "A1+",
+      "skill": "structures",
+      "grammarTag": "il-y-a",
+      "direction": "en-fr",
+      "source": "The bin is under the sink.",
+      "answers": [
+        "La poubelle est sous l'évier.",
+        "La poubelle se trouve sous l'évier."
+      ],
+      "explanation": "La poubelle = the bin, sous = under, l'évier = the kitchen sink. Use être to say where something is."
+    },
+    {
+      "id": "a04-ex19",
+      "type": "translate",
+      "level": "A1+",
+      "skill": "structures",
+      "grammarTag": "negation",
+      "direction": "fr-en",
+      "source": "Je n'ai pas d'ordinateur chez moi.",
+      "answers": [
+        "I don't have a computer at home.",
+        "I haven't got a computer at home.",
+        "I have no computer at home.",
+        "I don't have a computer at my place."
+      ],
+      "explanation": "Je n'ai pas de/d'… = I don't have a… Un ordinateur becomes d'ordinateur because ordinateur starts with a vowel. Chez moi = at home."
+    },
+    {
+      "id": "a04-ex20",
+      "type": "dictation",
+      "level": "A1+",
+      "skill": "listening",
+      "grammarTag": "il-y-a",
+      "text": "Il y a un fauteuil rouge dans le salon.",
+      "translation": "There is a red armchair in the living room.",
+      "explanation": "Listen for il y a at the start. The colour rouge comes after the noun fauteuil."
+    }
+  ],
+  "listening": [
+    {
+      "id": "a04-li01",
+      "title": "Où sont mes clés ?",
+      "level": "A1+",
+      "kind": "dialogue",
+      "context": "Two flatmates are at home. Karim is late and cannot find something.",
+      "lines": [
+        {
+          "speaker": "Karim",
+          "fr": "Inès, je ne trouve pas mes clés !"
+        },
+        {
+          "speaker": "Inès",
+          "fr": "Elles ne sont pas sur la table de la cuisine ?"
+        },
+        {
+          "speaker": "Karim",
+          "fr": "Non, il n'y a pas de clés sur la table."
+        },
+        {
+          "speaker": "Inès",
+          "fr": "Regarde dans ton manteau, derrière la porte."
+        },
+        {
+          "speaker": "Karim",
+          "fr": "Non, elles ne sont pas dans mon manteau."
+        },
+        {
+          "speaker": "Inès",
+          "fr": "Ah, regarde ! Elles sont par terre, sous la chaise."
+        },
+        {
+          "speaker": "Karim",
+          "fr": "Super, merci !"
+        }
+      ],
+      "translation": "Karim: Inès, I can't find my keys!\nInès: Aren't they on the kitchen table?\nKarim: No, there are no keys on the table.\nInès: Look in your coat, behind the door.\nKarim: No, they aren't in my coat.\nInès: Oh, look! They're on the floor, under the chair.\nKarim: Great, thanks!",
+      "questions": [
+        {
+          "id": "a04-li01-q1",
+          "question": "What is Karim looking for?",
+          "options": [
+            "His keys",
+            "His coat",
+            "His phone",
+            "A chair"
+          ],
+          "answer": 0,
+          "explanation": "Karim says: « je ne trouve pas mes clés ! » (I can't find my keys!)."
+        },
+        {
+          "id": "a04-li01-q2",
+          "question": "Where is Karim's coat?",
+          "options": [
+            "On the kitchen table",
+            "Behind the door",
+            "Under the chair",
+            "In the bedroom"
+          ],
+          "answer": 1,
+          "explanation": "Inès says: « Regarde dans ton manteau, derrière la porte. » The coat is behind the door."
+        },
+        {
+          "id": "a04-li01-q3",
+          "question": "Where are the keys in the end?",
+          "options": [
+            "On the table",
+            "In the coat",
+            "On the floor, under the chair",
+            "On the chair"
+          ],
+          "answer": 2,
+          "explanation": "« Elles sont par terre, sous la chaise. » Par terre means on the floor and sous means under."
+        }
+      ]
+    },
+    {
+      "id": "a04-li02",
+      "title": "Une chambre à louer",
+      "level": "A1+",
+      "kind": "message",
+      "context": "You are looking for a room. Claire leaves you a voicemail about a room in her flat.",
+      "lines": [
+        {
+          "speaker": "Claire",
+          "fr": "Bonjour, c'est Claire. Vous cherchez une chambre ? J'ai une chambre à louer chez moi."
+        },
+        {
+          "speaker": "Claire",
+          "fr": "Dans l'appartement, il y a deux chambres, un salon et une petite cuisine."
+        },
+        {
+          "speaker": "Claire",
+          "fr": "La chambre est claire, avec un lit, une commode et un bureau."
+        },
+        {
+          "speaker": "Claire",
+          "fr": "Il n'y a pas de baignoire, mais il y a une douche."
+        },
+        {
+          "speaker": "Claire",
+          "fr": "Le loyer est de cinq cents dollars par mois. Rappelez-moi, s'il vous plaît !"
+        }
+      ],
+      "translation": "Claire: Hello, it's Claire. Are you looking for a room? I have a room to rent at my place.\nClaire: In the flat, there are two bedrooms, a living room and a small kitchen.\nClaire: The room is bright, with a bed, a chest of drawers and a desk.\nClaire: There is no bath, but there is a shower.\nClaire: The rent is five hundred dollars a month. Call me back, please!",
+      "questions": [
+        {
+          "id": "a04-li02-q1",
+          "question": "What does Claire have?",
+          "options": [
+            "A house for sale",
+            "A room to rent in her flat",
+            "A new sofa",
+            "A two-bedroom house with a garden"
+          ],
+          "answer": 1,
+          "explanation": "« J'ai une chambre à louer chez moi. » À louer means for rent, and chez moi means at my place."
+        },
+        {
+          "id": "a04-li02-q2",
+          "question": "What furniture is in the room?",
+          "options": [
+            "A bed, a chest of drawers and a desk",
+            "A bed, a sofa and a television",
+            "A bed and a wardrobe",
+            "A desk and two chairs"
+          ],
+          "answer": 0,
+          "explanation": "« avec un lit, une commode et un bureau » — a bed, a chest of drawers and a desk."
+        },
+        {
+          "id": "a04-li02-q3",
+          "question": "What is there NOT in the flat?",
+          "options": [
+            "A shower",
+            "A kitchen",
+            "A bath",
+            "A living room"
+          ],
+          "answer": 2,
+          "explanation": "« Il n'y a pas de baignoire, mais il y a une douche. » There is no bath, but there is a shower."
+        }
+      ]
+    }
+  ],
+  "reading": [
+    {
+      "id": "a04-re01",
+      "title": "Colocation à Montréal",
+      "level": "A1+",
+      "kind": "advert",
+      "text": "CHAMBRE À LOUER – Colocation à Montréal\n\nGrand appartement près du métro. Il y a trois chambres, un salon, une cuisine et une salle de bains. La chambre à louer est meublée : un lit, une commode, une table de nuit et une chaise. Il y a une machine à laver dans la cuisine, mais il n'y a pas de garage. Nous cherchons une colocataire non-fumeuse. Pas d'animaux, s'il vous plaît.\n\nLoyer : 650 $ par mois.\nContact : Julie, 514 555 0198",
+      "translation": "ROOM FOR RENT – Flatshare in Montreal\n\nLarge flat near the metro. There are three bedrooms, a living room, a kitchen and a bathroom. The room for rent is furnished: a bed, a chest of drawers, a bedside table and a chair. There is a washing machine in the kitchen, but there is no garage. We are looking for a non-smoking (female) flatmate. No pets, please.\n\nRent: $650 a month.\nContact: Julie, 514 555 0198",
+      "questions": [
+        {
+          "id": "a04-re01-q1",
+          "question": "What furniture is in the room for rent?",
+          "options": [
+            "A bed, a sofa and a desk",
+            "A bed, a chest of drawers, a bedside table and a chair",
+            "A bed and a wardrobe only",
+            "There is no furniture."
+          ],
+          "answer": 1,
+          "explanation": "« un lit, une commode, une table de nuit et une chaise » — the room is furnished (meublée)."
+        },
+        {
+          "id": "a04-re01-q2",
+          "question": "What does the flat NOT have?",
+          "options": [
+            "A washing machine",
+            "A living room",
+            "A garage",
+            "A bathroom"
+          ],
+          "answer": 2,
+          "explanation": "« il n'y a pas de garage » — there is no garage. The washing machine is in the kitchen."
+        },
+        {
+          "id": "a04-re01-q3",
+          "question": "Who are they looking for?",
+          "options": [
+            "A non-smoking woman",
+            "A student with a cat",
+            "A family",
+            "A man who smokes"
+          ],
+          "answer": 0,
+          "explanation": "« Nous cherchons une colocataire non-fumeuse » — une colocataire and non-fumeuse are feminine, so they want a woman who doesn't smoke. Pets are not allowed."
+        }
+      ]
+    },
+    {
+      "id": "a04-re02",
+      "title": "Mon nouvel appartement",
+      "level": "A1+",
+      "kind": "message",
+      "text": "Salut Tom !\nMon nouvel appartement est super ! C'est un deux-pièces au troisième étage. Le salon est clair, avec un canapé gris et deux fauteuils bleus. Dans ma chambre, il y a un lit, une armoire et un petit bureau devant la fenêtre. La cuisine est petite, mais pratique. Il n'y a pas de balcon, mais il y a une grande cour derrière l'immeuble. Viens samedi !\nBises,\nLina",
+      "translation": "Hi Tom!\nMy new flat is great! It's a two-room flat on the third floor. The living room is bright, with a grey sofa and two blue armchairs. In my bedroom, there is a bed, a wardrobe and a small desk in front of the window. The kitchen is small, but practical. There is no balcony, but there is a big courtyard behind the building. Come on Saturday!\nLove,\nLina",
+      "questions": [
+        {
+          "id": "a04-re02-q1",
+          "question": "What colour is the sofa?",
+          "options": [
+            "Blue",
+            "Grey",
+            "White",
+            "Green"
+          ],
+          "answer": 1,
+          "explanation": "« un canapé gris » — the sofa is grey. The armchairs are blue (deux fauteuils bleus)."
+        },
+        {
+          "id": "a04-re02-q2",
+          "question": "Where is the desk?",
+          "options": [
+            "In the living room",
+            "Next to the bed",
+            "In front of the window",
+            "In the kitchen"
+          ],
+          "answer": 2,
+          "explanation": "« un petit bureau devant la fenêtre » — devant means in front of."
+        },
+        {
+          "id": "a04-re02-q3",
+          "question": "What is there NOT in Lina's flat?",
+          "options": [
+            "A balcony",
+            "A wardrobe",
+            "A kitchen",
+            "Armchairs"
+          ],
+          "answer": 0,
+          "explanation": "« Il n'y a pas de balcon, mais il y a une grande cour derrière l'immeuble. »"
+        }
+      ]
+    }
+  ],
+  "writing": [
+    {
+      "id": "a04-wr01",
+      "title": "Describe your home",
+      "level": "A1+",
+      "taskType": "message",
+      "instructions": "Write a short message (20–40 words) to your friend Paul. Describe your home: the rooms, one or two pieces of furniture and a colour. Use il y a and one negative sentence with il n'y a pas de.",
+      "promptFr": "Vous habitez dans un nouveau logement. Écrivez un message à votre ami Paul pour décrire votre logement : les pièces, les meubles et les couleurs. (20 à 40 mots)",
+      "minWords": 20,
+      "maxWords": 40,
+      "modelAnswer": "Salut Paul !\nJ'ai un nouvel appartement. Il y a un salon, une chambre et une cuisine. Dans le salon, il y a un canapé vert. Il n'y a pas de balcon.\nÀ bientôt !\nSara",
+      "checklist": [
+        "I greet Paul and sign the message.",
+        "I name the rooms with il y a.",
+        "I describe one piece of furniture with a colour after the noun (un canapé vert).",
+        "I write one negative sentence with il n'y a pas de.",
+        "I write between 20 and 40 words."
+      ]
+    }
+  ],
+  "speaking": [
+    {
+      "id": "a04-sp01",
+      "title": "Talk about your home",
+      "level": "A1+",
+      "taskType": "entretien",
+      "instructions": "The examiner asks where you live. Answer simply: say if you live in a house or a flat, say the rooms and what you like or don't like. Use il y a and il n'y a pas de.",
+      "promptFr": "Où est-ce que vous habitez ? Décrivez votre logement, s'il vous plaît.",
+      "prepSeconds": 0,
+      "speakSeconds": 120,
+      "modelAnswer": "J'habite dans un appartement en ville. C'est un deux-pièces au deuxième étage. Il y a un salon, une chambre, une petite cuisine et une salle de bains. Il n'y a pas de baignoire, il y a une douche. Dans le salon, il y a un canapé bleu, une table basse et une télévision. Il n'y a pas de balcon, mais il y a beaucoup de plantes. J'aime mon appartement parce qu'il est clair et pratique.",
+      "tips": [
+        "Start with the type of home: J'habite dans un appartement / une maison.",
+        "List the rooms with il y a, then add one negative sentence with il n'y a pas de.",
+        "Finish with an opinion: J'aime mon appartement parce qu'il est clair / calme / pratique."
+      ]
+    },
+    {
+      "id": "a04-sp02",
+      "title": "Describe your bedroom",
+      "level": "A1+",
+      "taskType": "entretien",
+      "instructions": "The examiner asks you to describe your bedroom. Say what furniture there is, where things are and the colours.",
+      "promptFr": "Décrivez votre chambre. Qu'est-ce qu'il y a dans votre chambre ? De quelle couleur sont les murs ?",
+      "prepSeconds": 0,
+      "speakSeconds": 120,
+      "modelAnswer": "Ma chambre n'est pas grande, mais elle est agréable. Les murs sont blancs et les rideaux sont jaunes. Il y a un lit, une table de nuit et une armoire. La table de nuit est à côté du lit, et sur la table de nuit, il y a une lampe. Mon bureau est devant la fenêtre. Sur le bureau, il y a mon ordinateur. Il n'y a pas de télévision dans ma chambre. Ma chambre est toujours rangée !",
+      "tips": [
+        "Use prepositions to say where things are: à côté du lit, devant la fenêtre, sur le bureau.",
+        "Put colours after the noun and make them agree: les murs blancs, une lampe verte.",
+        "Speak slowly and use short sentences. It's better to say simple things correctly."
+      ]
+    }
+  ],
+  "checkpoint": [
+    {
+      "id": "a04-cp01",
+      "type": "mcq",
+      "level": "A1+",
+      "skill": "structures",
+      "grammarTag": "il-y-a",
+      "prompt": "The keys are on the table. Choose the right word.",
+      "promptFr": "Les clés sont ___ la table.",
+      "options": [
+        "sur",
+        "sous",
+        "devant",
+        "entre"
+      ],
+      "answer": 0,
+      "explanation": "Sur means 'on'. Sous means 'under', devant means 'in front of' and entre means 'between'."
+    },
+    {
+      "id": "a04-cp02",
+      "type": "mcq",
+      "level": "A1+",
+      "skill": "structures",
+      "grammarTag": "negation",
+      "prompt": "Choose the correct word.",
+      "promptFr": "Dans la cuisine, il n'y a pas ___ chaises.",
+      "options": [
+        "de",
+        "des",
+        "les",
+        "une"
+      ],
+      "answer": 0,
+      "explanation": "After il n'y a pas, des becomes de: il n'y a pas de chaises. Une is singular, and les is not used after il y a."
+    },
+    {
+      "id": "a04-cp03",
+      "type": "mcq",
+      "level": "A1+",
+      "skill": "structures",
+      "grammarTag": "vocabulary",
+      "prompt": "What do you put your head on in bed?",
+      "options": [
+        "un oreiller",
+        "un robinet",
+        "une poubelle",
+        "une horloge"
+      ],
+      "answer": 0,
+      "explanation": "Un oreiller is a pillow. Un robinet is a tap, une poubelle is a bin and une horloge is a clock."
+    },
+    {
+      "id": "a04-cp04",
+      "type": "fill_blank",
+      "level": "A1+",
+      "skill": "structures",
+      "grammarTag": "il-y-a",
+      "prompt": "Complete with the preposition meaning 'behind'.",
+      "sentence": "Le jardin est ___ la maison.",
+      "answers": [
+        "derrière"
+      ],
+      "translation": "The garden is behind the house.",
+      "explanation": "Derrière means 'behind'. Its opposite is devant (in front of)."
+    },
+    {
+      "id": "a04-cp05",
+      "type": "fill_blank",
+      "level": "A1+",
+      "skill": "structures",
+      "grammarTag": "negation",
+      "prompt": "Complete the negative sentence.",
+      "sentence": "Je ___ trouve pas mes clés.",
+      "answers": [
+        "ne"
+      ],
+      "translation": "I can't find my keys.",
+      "explanation": "Trouve starts with a consonant, so you use ne (not n'): je ne trouve pas."
+    },
+    {
+      "id": "a04-cp06",
+      "type": "fill_blank",
+      "level": "A1+",
+      "skill": "structures",
+      "grammarTag": "accord",
+      "prompt": "Write the colour 'green' in the correct form.",
+      "sentence": "J'ai deux fauteuils ___.",
+      "answers": [
+        "verts"
+      ],
+      "hint": "vert",
+      "translation": "I have two green armchairs.",
+      "explanation": "Fauteuils is masculine plural, so vert takes an s: verts."
+    },
+    {
+      "id": "a04-cp07",
+      "type": "reorder",
+      "level": "A1+",
+      "skill": "structures",
+      "grammarTag": "il-y-a",
+      "prompt": "Put the words in order to make a sentence.",
+      "tokens": [
+        "La",
+        "lampe",
+        "est",
+        "à",
+        "côté",
+        "du",
+        "canapé."
+      ],
+      "translation": "The lamp is next to the sofa.",
+      "explanation": "À côté de + le canapé becomes à côté du canapé."
+    },
+    {
+      "id": "a04-cp08",
+      "type": "translate",
+      "level": "A1+",
+      "skill": "structures",
+      "grammarTag": "negation",
+      "direction": "en-fr",
+      "source": "We don't have a dining room.",
+      "answers": [
+        "Nous n'avons pas de salle à manger.",
+        "On n'a pas de salle à manger."
+      ],
+      "explanation": "Avoir in the negative: nous n'avons pas. Une salle à manger becomes de salle à manger after the negative."
+    },
+    {
+      "id": "a04-cp09",
+      "type": "match",
+      "level": "A1+",
+      "skill": "structures",
+      "grammarTag": "vocabulary",
+      "prompt": "Match the words with their meanings.",
+      "pairs": [
+        {
+          "left": "le lavabo",
+          "right": "washbasin"
+        },
+        {
+          "left": "l'évier",
+          "right": "kitchen sink"
+        },
+        {
+          "left": "la baignoire",
+          "right": "bath"
+        },
+        {
+          "left": "le robinet",
+          "right": "tap"
+        },
+        {
+          "left": "le frigo",
+          "right": "fridge"
+        }
+      ],
+      "explanation": "Le lavabo is in the bathroom, l'évier is in the kitchen. Both are 'sinks' in English."
+    },
+    {
+      "id": "a04-cp10",
+      "type": "translate",
+      "level": "A1+",
+      "skill": "structures",
+      "grammarTag": "il-y-a",
+      "direction": "fr-en",
+      "source": "La salle de bains est au fond du couloir.",
+      "answers": [
+        "The bathroom is at the end of the corridor.",
+        "The bathroom is at the end of the hall.",
+        "The bathroom is at the end of the hallway."
+      ],
+      "explanation": "Au fond de = at the end of / at the back of. De + le couloir becomes du couloir."
+    }
+  ]
+}

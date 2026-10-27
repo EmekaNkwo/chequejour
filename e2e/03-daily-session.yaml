@@ -1,0 +1,30 @@
+# Runs today's session: opens the session, starts the first lesson step and finishes it.
+appId: com.emeka.chequejour
+---
+- setAirplaneMode: enabled
+- clearState
+- launchApp
+- tapOn:
+    id: onboarding-start
+- tapOn:
+    id: skip-placement
+- tapOn:
+    id: start-session
+- assertVisible:
+    id: session-screen
+- tapOn:
+    id: session-step-lesson
+- repeat:
+    while:
+      notVisible:
+        id: lesson-complete
+    times: 30
+    commands:
+      - tapOn:
+          id: lesson-next
+          optional: true
+- tapOn:
+    id: lesson-complete
+- assertVisible:
+    id: session-screen
+- setAirplaneMode: disabled

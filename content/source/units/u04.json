@@ -1,0 +1,2154 @@
+{
+  "id": "u04",
+  "order": 10,
+  "level": "A2",
+  "theme": "Food and shopping",
+  "titleFr": "Les courses et la nourriture",
+  "description": "Shop at the market and the supermarket, ask for quantities and prices, and talk about what you eat. Grammar: articles and partitives (du, de la, des), de after negation and quantities, and the pronoun en.",
+  "vocab": [
+    {
+      "id": "u04-w001",
+      "fr": "courses",
+      "en": "groceries, food shopping",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "courses",
+      "level": "A2",
+      "core": true,
+      "example": {
+        "fr": "Je fais les courses le samedi matin.",
+        "en": "I do the food shopping on Saturday mornings."
+      },
+      "pluralOnly": true
+    },
+    {
+      "id": "u04-w002",
+      "fr": "marché",
+      "en": "market",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "marchés",
+      "level": "A2",
+      "core": true,
+      "example": {
+        "fr": "Il y a un marché sur la place tous les mercredis.",
+        "en": "There is a market on the square every Wednesday."
+      }
+    },
+    {
+      "id": "u04-w003",
+      "fr": "boulangerie",
+      "en": "bakery",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "boulangeries",
+      "level": "A2",
+      "core": true,
+      "example": {
+        "fr": "Je passe à la boulangerie pour acheter une baguette.",
+        "en": "I'm stopping at the bakery to buy a baguette."
+      }
+    },
+    {
+      "id": "u04-w004",
+      "fr": "boucherie",
+      "en": "butcher's shop",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "boucheries",
+      "level": "A2",
+      "core": true,
+      "example": {
+        "fr": "On trouve de la très bonne viande à la boucherie du quartier.",
+        "en": "You can find very good meat at the local butcher's."
+      }
+    },
+    {
+      "id": "u04-w005",
+      "fr": "supermarché",
+      "en": "supermarket",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "supermarchés",
+      "level": "A2",
+      "core": true,
+      "example": {
+        "fr": "Le supermarché ferme à vingt et une heures.",
+        "en": "The supermarket closes at 9 p.m."
+      }
+    },
+    {
+      "id": "u04-w006",
+      "fr": "pain",
+      "en": "bread",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "pains",
+      "level": "A2",
+      "core": true,
+      "example": {
+        "fr": "Tu peux acheter du pain en rentrant ?",
+        "en": "Can you buy some bread on your way home?"
+      }
+    },
+    {
+      "id": "u04-w007",
+      "fr": "fromage",
+      "en": "cheese",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "fromages",
+      "level": "A2",
+      "core": true,
+      "example": {
+        "fr": "Nous mangeons souvent du fromage après le plat principal.",
+        "en": "We often eat cheese after the main course."
+      }
+    },
+    {
+      "id": "u04-w008",
+      "fr": "viande",
+      "en": "meat",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "viandes",
+      "level": "A2",
+      "core": true,
+      "example": {
+        "fr": "Ma sœur ne mange pas de viande.",
+        "en": "My sister doesn't eat meat."
+      }
+    },
+    {
+      "id": "u04-w009",
+      "fr": "poisson",
+      "en": "fish",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "poissons",
+      "level": "A2",
+      "core": true,
+      "example": {
+        "fr": "Le vendredi, on mange du poisson à la cantine.",
+        "en": "On Fridays we eat fish in the canteen."
+      }
+    },
+    {
+      "id": "u04-w010",
+      "fr": "légume",
+      "en": "vegetable",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "légumes",
+      "level": "A2",
+      "core": true,
+      "example": {
+        "fr": "Les légumes du marché sont très frais.",
+        "en": "The vegetables at the market are very fresh."
+      }
+    },
+    {
+      "id": "u04-w011",
+      "fr": "fruit",
+      "en": "fruit",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "fruits",
+      "level": "A2",
+      "core": true,
+      "example": {
+        "fr": "Je mange des fruits tous les matins.",
+        "en": "I eat fruit every morning."
+      }
+    },
+    {
+      "id": "u04-w012",
+      "fr": "lait",
+      "en": "milk",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "laits",
+      "level": "A2",
+      "core": true,
+      "example": {
+        "fr": "Il n'y a plus de lait dans le frigo.",
+        "en": "There's no more milk in the fridge."
+      }
+    },
+    {
+      "id": "u04-w013",
+      "fr": "œuf",
+      "en": "egg",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "œufs",
+      "level": "A2",
+      "core": true,
+      "example": {
+        "fr": "J'ai besoin de six œufs pour faire ce gâteau.",
+        "en": "I need six eggs to make this cake."
+      }
+    },
+    {
+      "id": "u04-w014",
+      "fr": "kilo",
+      "en": "kilo",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "kilos",
+      "level": "A2",
+      "core": true,
+      "example": {
+        "fr": "Je voudrais un kilo de pommes, s'il vous plaît.",
+        "en": "I'd like a kilo of apples, please."
+      }
+    },
+    {
+      "id": "u04-w015",
+      "fr": "bouteille",
+      "en": "bottle",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "bouteilles",
+      "level": "A2",
+      "core": true,
+      "example": {
+        "fr": "Achète deux bouteilles d'eau pour le pique-nique.",
+        "en": "Buy two bottles of water for the picnic."
+      }
+    },
+    {
+      "id": "u04-w016",
+      "fr": "paquet",
+      "en": "packet, pack",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "paquets",
+      "level": "A2",
+      "core": true,
+      "example": {
+        "fr": "Il nous faut un paquet de café.",
+        "en": "We need a packet of coffee."
+      }
+    },
+    {
+      "id": "u04-w017",
+      "fr": "prix",
+      "en": "price",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "prix",
+      "level": "A2",
+      "core": true,
+      "example": {
+        "fr": "Le prix des fraises a beaucoup augmenté.",
+        "en": "The price of strawberries has gone up a lot."
+      }
+    },
+    {
+      "id": "u04-w018",
+      "fr": "acheter",
+      "en": "to buy",
+      "pos": "verb",
+      "level": "A2",
+      "core": true,
+      "example": {
+        "fr": "Qu'est-ce que tu achètes pour le dîner ?",
+        "en": "What are you buying for dinner?"
+      }
+    },
+    {
+      "id": "u04-w019",
+      "fr": "coûter",
+      "en": "to cost",
+      "pos": "verb",
+      "level": "A2",
+      "core": true,
+      "example": {
+        "fr": "Combien coûte ce fromage ?",
+        "en": "How much does this cheese cost?"
+      }
+    },
+    {
+      "id": "u04-w020",
+      "fr": "caisse",
+      "en": "checkout, till",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "caisses",
+      "level": "A2",
+      "core": true,
+      "example": {
+        "fr": "Il y a beaucoup de monde à la caisse ce soir.",
+        "en": "There are a lot of people at the checkout this evening."
+      }
+    },
+    {
+      "id": "u04-w021",
+      "fr": "épicerie",
+      "en": "grocery shop, corner shop",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "épiceries",
+      "level": "A2",
+      "core": false,
+      "example": {
+        "fr": "L'épicerie en bas de chez moi est ouverte jusqu'à minuit.",
+        "en": "The corner shop below my flat is open until midnight."
+      }
+    },
+    {
+      "id": "u04-w022",
+      "fr": "poissonnerie",
+      "en": "fishmonger's",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "poissonneries",
+      "level": "A2",
+      "core": false,
+      "example": {
+        "fr": "À la poissonnerie, le saumon est en promotion.",
+        "en": "At the fishmonger's, the salmon is on special offer."
+      }
+    },
+    {
+      "id": "u04-w023",
+      "fr": "fromagerie",
+      "en": "cheese shop",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "fromageries",
+      "level": "A2",
+      "core": false,
+      "example": {
+        "fr": "Cette fromagerie vend plus de cent fromages différents.",
+        "en": "This cheese shop sells more than a hundred different cheeses."
+      }
+    },
+    {
+      "id": "u04-w024",
+      "fr": "pâtisserie",
+      "en": "cake shop; pastry",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "pâtisseries",
+      "level": "A2",
+      "core": false,
+      "example": {
+        "fr": "On a acheté une tarte aux pommes à la pâtisserie.",
+        "en": "We bought an apple tart at the cake shop."
+      }
+    },
+    {
+      "id": "u04-w025",
+      "fr": "commerçant",
+      "en": "shopkeeper, trader",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "commerçants",
+      "level": "A2",
+      "core": false,
+      "example": {
+        "fr": "Les commerçants du marché arrivent très tôt le matin.",
+        "en": "The market traders arrive very early in the morning."
+      }
+    },
+    {
+      "id": "u04-w026",
+      "fr": "rayon",
+      "en": "aisle, department (in a shop)",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "rayons",
+      "level": "A2",
+      "core": false,
+      "example": {
+        "fr": "Excusez-moi, où est le rayon des produits laitiers ?",
+        "en": "Excuse me, where is the dairy aisle?"
+      }
+    },
+    {
+      "id": "u04-w027",
+      "fr": "chariot",
+      "en": "shopping trolley",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "chariots",
+      "level": "A2",
+      "core": false,
+      "example": {
+        "fr": "Il faut une pièce d'un dollar pour prendre un chariot.",
+        "en": "You need a one-dollar coin to take a trolley."
+      }
+    },
+    {
+      "id": "u04-w028",
+      "fr": "panier",
+      "en": "basket",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "paniers",
+      "level": "A2",
+      "core": false,
+      "example": {
+        "fr": "Elle met les tomates dans son panier.",
+        "en": "She puts the tomatoes in her basket."
+      }
+    },
+    {
+      "id": "u04-w029",
+      "fr": "sac",
+      "en": "bag",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "sacs",
+      "level": "A2",
+      "core": false,
+      "example": {
+        "fr": "N'oublie pas d'apporter des sacs pour les courses.",
+        "en": "Don't forget to bring some bags for the shopping."
+      }
+    },
+    {
+      "id": "u04-w030",
+      "fr": "liste",
+      "en": "list",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "listes",
+      "level": "A2",
+      "core": false,
+      "example": {
+        "fr": "J'ai oublié ma liste de courses à la maison.",
+        "en": "I left my shopping list at home."
+      }
+    },
+    {
+      "id": "u04-w031",
+      "fr": "ticket de caisse",
+      "en": "receipt",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "tickets de caisse",
+      "level": "A2",
+      "core": false,
+      "example": {
+        "fr": "Gardez votre ticket de caisse si vous voulez échanger l'article.",
+        "en": "Keep your receipt if you want to exchange the item."
+      }
+    },
+    {
+      "id": "u04-w032",
+      "fr": "carte bancaire",
+      "en": "bank card, debit card",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "cartes bancaires",
+      "level": "A2",
+      "core": false,
+      "example": {
+        "fr": "Je peux payer par carte bancaire ?",
+        "en": "Can I pay by card?"
+      }
+    },
+    {
+      "id": "u04-w033",
+      "fr": "monnaie",
+      "en": "change (coins)",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "monnaies",
+      "level": "A2",
+      "core": false,
+      "example": {
+        "fr": "Désolé, je n'ai pas de monnaie, seulement un billet de cinquante dollars.",
+        "en": "Sorry, I don't have any change, only a fifty-dollar note."
+      }
+    },
+    {
+      "id": "u04-w034",
+      "fr": "promotion",
+      "en": "special offer",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "promotions",
+      "level": "A2",
+      "core": false,
+      "example": {
+        "fr": "Cette semaine, les yaourts sont en promotion.",
+        "en": "This week the yoghurts are on special offer."
+      }
+    },
+    {
+      "id": "u04-w035",
+      "fr": "étiquette",
+      "en": "label, price tag",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "étiquettes",
+      "level": "A2",
+      "core": false,
+      "example": {
+        "fr": "Le prix est écrit sur l'étiquette.",
+        "en": "The price is written on the label."
+      }
+    },
+    {
+      "id": "u04-w036",
+      "fr": "farine",
+      "en": "flour",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "farines",
+      "level": "A2",
+      "core": false,
+      "example": {
+        "fr": "Pour les crêpes, il faut de la farine, des œufs et du lait.",
+        "en": "For pancakes you need flour, eggs and milk."
+      }
+    },
+    {
+      "id": "u04-w037",
+      "fr": "sucre",
+      "en": "sugar",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "sucres",
+      "level": "A2",
+      "core": false,
+      "example": {
+        "fr": "Tu prends du sucre dans ton café ?",
+        "en": "Do you take sugar in your coffee?"
+      }
+    },
+    {
+      "id": "u04-w038",
+      "fr": "sel",
+      "en": "salt",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "sels",
+      "level": "A2",
+      "core": false,
+      "example": {
+        "fr": "Cette soupe manque un peu de sel.",
+        "en": "This soup needs a little more salt."
+      }
+    },
+    {
+      "id": "u04-w039",
+      "fr": "poivre",
+      "en": "pepper (spice)",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "poivres",
+      "level": "A2",
+      "core": false,
+      "example": {
+        "fr": "Ajoutez du sel et du poivre à la fin.",
+        "en": "Add salt and pepper at the end."
+      }
+    },
+    {
+      "id": "u04-w040",
+      "fr": "beurre",
+      "en": "butter",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "beurres",
+      "level": "A2",
+      "core": false,
+      "example": {
+        "fr": "Je mets du beurre sur mes tartines le matin.",
+        "en": "I put butter on my bread in the morning."
+      }
+    },
+    {
+      "id": "u04-w041",
+      "fr": "huile",
+      "en": "oil",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "huiles",
+      "level": "A2",
+      "core": false,
+      "example": {
+        "fr": "Il faut acheter de l'huile d'olive.",
+        "en": "We need to buy some olive oil."
+      }
+    },
+    {
+      "id": "u04-w042",
+      "fr": "riz",
+      "en": "rice",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "riz",
+      "level": "A2",
+      "core": false,
+      "example": {
+        "fr": "Ce soir, on mange du riz avec du poulet.",
+        "en": "Tonight we're having rice with chicken."
+      }
+    },
+    {
+      "id": "u04-w043",
+      "fr": "pâtes",
+      "en": "pasta",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "pâtes",
+      "level": "A2",
+      "core": false,
+      "example": {
+        "fr": "Les enfants adorent les pâtes à la tomate.",
+        "en": "The children love pasta with tomato sauce."
+      },
+      "pluralOnly": true
+    },
+    {
+      "id": "u04-w044",
+      "fr": "yaourt",
+      "en": "yoghurt",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "yaourts",
+      "level": "A2",
+      "core": false,
+      "example": {
+        "fr": "Je prends un yaourt nature au dessert.",
+        "en": "I have a plain yoghurt for dessert."
+      }
+    },
+    {
+      "id": "u04-w045",
+      "fr": "jambon",
+      "en": "ham",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "jambons",
+      "level": "A2",
+      "core": false,
+      "example": {
+        "fr": "Je voudrais quatre tranches de jambon, s'il vous plaît.",
+        "en": "I'd like four slices of ham, please."
+      }
+    },
+    {
+      "id": "u04-w046",
+      "fr": "poulet",
+      "en": "chicken",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "poulets",
+      "level": "A2",
+      "core": false,
+      "example": {
+        "fr": "Le dimanche, mon père prépare un poulet rôti.",
+        "en": "On Sundays my father makes a roast chicken."
+      }
+    },
+    {
+      "id": "u04-w047",
+      "fr": "bœuf",
+      "en": "beef",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "bœufs",
+      "level": "A2",
+      "core": false,
+      "example": {
+        "fr": "Le bœuf est plus cher que le poulet.",
+        "en": "Beef is more expensive than chicken."
+      }
+    },
+    {
+      "id": "u04-w048",
+      "fr": "pomme de terre",
+      "en": "potato",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "pommes de terre",
+      "level": "A2",
+      "core": false,
+      "example": {
+        "fr": "Il faut éplucher les pommes de terre pour la soupe.",
+        "en": "The potatoes need peeling for the soup."
+      }
+    },
+    {
+      "id": "u04-w049",
+      "fr": "tomate",
+      "en": "tomato",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "tomates",
+      "level": "A2",
+      "core": false,
+      "example": {
+        "fr": "Ces tomates viennent du jardin de ma voisine.",
+        "en": "These tomatoes come from my neighbour's garden."
+      }
+    },
+    {
+      "id": "u04-w050",
+      "fr": "carotte",
+      "en": "carrot",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "carottes",
+      "level": "A2",
+      "core": false,
+      "example": {
+        "fr": "Les carottes râpées sont une entrée classique en France.",
+        "en": "Grated carrots are a classic starter in France."
+      }
+    },
+    {
+      "id": "u04-w051",
+      "fr": "oignon",
+      "en": "onion",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "oignons",
+      "level": "A2",
+      "core": false,
+      "example": {
+        "fr": "Coupez l'oignon en petits morceaux.",
+        "en": "Cut the onion into small pieces."
+      }
+    },
+    {
+      "id": "u04-w052",
+      "fr": "salade",
+      "en": "lettuce; salad",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "salades",
+      "level": "A2",
+      "core": false,
+      "example": {
+        "fr": "Je prends une salade verte avec mon steak.",
+        "en": "I'll have a green salad with my steak."
+      }
+    },
+    {
+      "id": "u04-w053",
+      "fr": "pomme",
+      "en": "apple",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "pommes",
+      "level": "A2",
+      "core": false,
+      "example": {
+        "fr": "Une pomme par jour, c'est bon pour la santé.",
+        "en": "An apple a day is good for your health."
+      }
+    },
+    {
+      "id": "u04-w054",
+      "fr": "fraise",
+      "en": "strawberry",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "fraises",
+      "level": "A2",
+      "core": false,
+      "example": {
+        "fr": "Les fraises sont délicieuses en juin.",
+        "en": "Strawberries are delicious in June."
+      }
+    },
+    {
+      "id": "u04-w055",
+      "fr": "citron",
+      "en": "lemon",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "citrons",
+      "level": "A2",
+      "core": false,
+      "example": {
+        "fr": "Ajoute un peu de jus de citron sur le poisson.",
+        "en": "Add a little lemon juice to the fish."
+      }
+    },
+    {
+      "id": "u04-w056",
+      "fr": "confiture",
+      "en": "jam",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "confitures",
+      "level": "A2",
+      "core": false,
+      "example": {
+        "fr": "Ma grand-mère fait de la confiture d'abricots.",
+        "en": "My grandmother makes apricot jam."
+      }
+    },
+    {
+      "id": "u04-w057",
+      "fr": "gâteau",
+      "en": "cake",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "gâteaux",
+      "level": "A2",
+      "core": false,
+      "example": {
+        "fr": "Pour son anniversaire, on a fait un gâteau au chocolat.",
+        "en": "For her birthday we made a chocolate cake."
+      }
+    },
+    {
+      "id": "u04-w058",
+      "fr": "eau",
+      "en": "water",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "eaux",
+      "level": "A2",
+      "core": false,
+      "example": {
+        "fr": "Une bouteille d'eau minérale coûte moins d'un dollar.",
+        "en": "A bottle of mineral water costs less than a dollar."
+      }
+    },
+    {
+      "id": "u04-w059",
+      "fr": "jus",
+      "en": "juice",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "jus",
+      "level": "A2",
+      "core": false,
+      "example": {
+        "fr": "Je bois un jus d'orange au petit-déjeuner.",
+        "en": "I drink an orange juice at breakfast."
+      }
+    },
+    {
+      "id": "u04-w060",
+      "fr": "boîte",
+      "en": "tin, can; box",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "boîtes",
+      "level": "A2",
+      "core": false,
+      "example": {
+        "fr": "Il reste une boîte de thon dans le placard.",
+        "en": "There's one tin of tuna left in the cupboard."
+      }
+    },
+    {
+      "id": "u04-w061",
+      "fr": "pot",
+      "en": "jar, pot",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "pots",
+      "level": "A2",
+      "core": false,
+      "example": {
+        "fr": "J'ai acheté un pot de miel au marché.",
+        "en": "I bought a jar of honey at the market."
+      }
+    },
+    {
+      "id": "u04-w062",
+      "fr": "tranche",
+      "en": "slice",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "tranches",
+      "level": "A2",
+      "core": false,
+      "example": {
+        "fr": "Tu veux une autre tranche de pain ?",
+        "en": "Do you want another slice of bread?"
+      }
+    },
+    {
+      "id": "u04-w063",
+      "fr": "morceau",
+      "en": "piece",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "morceaux",
+      "level": "A2",
+      "core": false,
+      "example": {
+        "fr": "Je voudrais un morceau de comté, s'il vous plaît.",
+        "en": "I'd like a piece of Comté cheese, please."
+      }
+    },
+    {
+      "id": "u04-w064",
+      "fr": "douzaine",
+      "en": "dozen",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "douzaines",
+      "level": "A2",
+      "core": false,
+      "example": {
+        "fr": "Une douzaine d'œufs, s'il vous plaît.",
+        "en": "A dozen eggs, please."
+      }
+    },
+    {
+      "id": "u04-w065",
+      "fr": "gramme",
+      "en": "gram",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "grammes",
+      "level": "A2",
+      "core": false,
+      "example": {
+        "fr": "Mettez deux cents grammes de farine dans un saladier.",
+        "en": "Put two hundred grams of flour in a mixing bowl."
+      }
+    },
+    {
+      "id": "u04-w066",
+      "fr": "litre",
+      "en": "litre",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "litres",
+      "level": "A2",
+      "core": false,
+      "example": {
+        "fr": "Achète deux litres de lait, s'il te plaît.",
+        "en": "Buy two litres of milk, please."
+      }
+    },
+    {
+      "id": "u04-w067",
+      "fr": "livre",
+      "en": "pound (500 grams)",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "livres",
+      "level": "A2",
+      "core": false,
+      "example": {
+        "fr": "Une livre de cerises, c'est cinq cents grammes.",
+        "en": "A pound of cherries is five hundred grams."
+      }
+    },
+    {
+      "id": "u04-w068",
+      "fr": "peser",
+      "en": "to weigh",
+      "pos": "verb",
+      "level": "A2",
+      "core": false,
+      "example": {
+        "fr": "Le vendeur pèse les pommes de terre.",
+        "en": "The stallholder weighs the potatoes."
+      }
+    },
+    {
+      "id": "u04-w069",
+      "fr": "payer",
+      "en": "to pay",
+      "pos": "verb",
+      "level": "A2",
+      "core": false,
+      "example": {
+        "fr": "Vous payez en espèces ou par carte ?",
+        "en": "Are you paying in cash or by card?"
+      }
+    },
+    {
+      "id": "u04-w070",
+      "fr": "choisir",
+      "en": "to choose",
+      "pos": "verb",
+      "level": "A2",
+      "core": false,
+      "example": {
+        "fr": "Prends le temps de choisir un bon melon.",
+        "en": "Take your time to choose a good melon."
+      }
+    },
+    {
+      "id": "u04-w071",
+      "fr": "goûter",
+      "en": "to taste",
+      "pos": "verb",
+      "level": "A2",
+      "core": false,
+      "example": {
+        "fr": "Vous voulez goûter ce fromage de chèvre ?",
+        "en": "Would you like to taste this goat's cheese?"
+      }
+    },
+    {
+      "id": "u04-w072",
+      "fr": "frais / fraîche",
+      "en": "fresh",
+      "pos": "adjective",
+      "level": "A2",
+      "core": false,
+      "example": {
+        "fr": "Ce poisson est très frais, il est arrivé ce matin.",
+        "en": "This fish is very fresh, it arrived this morning."
+      }
+    },
+    {
+      "id": "u04-w073",
+      "fr": "bio",
+      "en": "organic",
+      "pos": "adjective",
+      "level": "A2",
+      "core": false,
+      "example": {
+        "fr": "Nous achetons des légumes bio au marché.",
+        "en": "We buy organic vegetables at the market."
+      }
+    },
+    {
+      "id": "u04-w074",
+      "fr": "mûr",
+      "en": "ripe",
+      "pos": "adjective",
+      "level": "A2",
+      "core": false,
+      "example": {
+        "fr": "Ces bananes ne sont pas encore mûres.",
+        "en": "These bananas aren't ripe yet."
+      }
+    },
+    {
+      "id": "u04-w075",
+      "fr": "cher / chère",
+      "en": "expensive",
+      "pos": "adjective",
+      "level": "A2",
+      "core": false,
+      "example": {
+        "fr": "Les cerises sont chères en ce moment.",
+        "en": "Cherries are expensive at the moment."
+      }
+    },
+    {
+      "id": "u04-w076",
+      "fr": "bon marché",
+      "en": "cheap, inexpensive",
+      "pos": "adjective",
+      "level": "A2",
+      "core": false,
+      "example": {
+        "fr": "Les fruits sont assez bon marché dans ce magasin.",
+        "en": "Fruit is quite cheap in this shop."
+      }
+    },
+    {
+      "id": "u04-w077",
+      "fr": "délicieux / délicieuse",
+      "en": "delicious",
+      "pos": "adjective",
+      "level": "A2",
+      "core": false,
+      "example": {
+        "fr": "Cette tarte est délicieuse !",
+        "en": "This tart is delicious!"
+      }
+    },
+    {
+      "id": "u04-w078",
+      "fr": "c'est combien ?",
+      "en": "how much is it?",
+      "pos": "expression",
+      "level": "A2",
+      "core": false,
+      "example": {
+        "fr": "Les melons, c'est combien ?",
+        "en": "How much are the melons?"
+      }
+    },
+    {
+      "id": "u04-w079",
+      "fr": "je voudrais",
+      "en": "I would like",
+      "pos": "expression",
+      "level": "A2",
+      "core": false,
+      "example": {
+        "fr": "Je voudrais une baguette bien cuite, s'il vous plaît.",
+        "en": "I'd like a well-baked baguette, please."
+      }
+    },
+    {
+      "id": "u04-w080",
+      "fr": "et avec ceci ?",
+      "en": "anything else? (said by shopkeepers)",
+      "pos": "expression",
+      "level": "A2",
+      "core": false,
+      "example": {
+        "fr": "« Et avec ceci ? — Ce sera tout, merci. »",
+        "en": "\"Anything else? — That's all, thank you.\""
+      }
+    },
+    {
+      "id": "u04-w081",
+      "fr": "rendre la monnaie",
+      "en": "to give change",
+      "pos": "expression",
+      "level": "A2",
+      "core": false,
+      "example": {
+        "fr": "La caissière m'a rendu la monnaie sur vingt dollars.",
+        "en": "The cashier gave me change from twenty dollars."
+      }
+    },
+    {
+      "id": "u04-w082",
+      "fr": "un peu de",
+      "en": "a little (of)",
+      "pos": "expression",
+      "level": "A2",
+      "core": false,
+      "example": {
+        "fr": "Tu veux un peu de crème dans ta soupe ?",
+        "en": "Would you like a little cream in your soup?"
+      }
+    },
+    {
+      "id": "u04-w083",
+      "fr": "beaucoup de",
+      "en": "a lot of, lots of",
+      "pos": "expression",
+      "level": "A2",
+      "core": false,
+      "example": {
+        "fr": "Il y a beaucoup de monde au marché le samedi.",
+        "en": "There are lots of people at the market on Saturdays."
+      }
+    },
+    {
+      "id": "u04-w084",
+      "fr": "assez de",
+      "en": "enough",
+      "pos": "expression",
+      "level": "A2",
+      "core": false,
+      "example": {
+        "fr": "On a assez de pain pour ce soir ?",
+        "en": "Do we have enough bread for tonight?"
+      }
+    }
+  ],
+  "grammar": [
+    {
+      "id": "u04-g01",
+      "title": "Articles: le, un or du? And de after negation",
+      "level": "A2",
+      "grammarTag": "partitifs",
+      "explanation": [
+        "French nouns almost always need an article, and the choice of article carries meaning. The definite article (le, la, l', les) talks about something specific or about a thing in general. The indefinite article (un, une, des) talks about one countable item, or several. The partitive article (du, de la, de l') talks about an unspecified amount of something you don't count: it often translates as \"some\" or \"any\", or as nothing at all in English.",
+        "After verbs of taste and preference (aimer, adorer, détester, préférer), use the definite article, because you are talking about the thing in general: J'aime le fromage. After verbs of eating, drinking, buying and wanting (manger, boire, prendre, acheter, vouloir), use the partitive or indefinite article: Je mange du fromage. J'achète un fromage (one whole cheese).",
+        "The partitive is de + the definite article: de + le = du, de + la = de la, and de l' before a vowel or a silent h (de l'eau, de l'huile). In the plural, the form is des, the same as the indefinite plural: des fraises, des pâtes.",
+        "In a negative sentence, un, une, des, du, de la and de l' all become de (d' before a vowel): Je n'ai pas de voiture. Il ne mange pas de viande. Il n'y a plus d'œufs. The definite articles le, la, les do not change: Je n'aime pas le lait.",
+        "One exception: after être, the article stays the same in the negative, because you are saying what something is, not how much there is: Ce n'est pas du sucre, c'est du sel."
+      ],
+      "table": [
+        [
+          "",
+          "Masculine",
+          "Feminine",
+          "Before a vowel / silent h",
+          "Plural"
+        ],
+        [
+          "Definite",
+          "le pain",
+          "la viande",
+          "l'eau",
+          "les fruits"
+        ],
+        [
+          "Indefinite",
+          "un gâteau",
+          "une pomme",
+          "un œuf / une orange",
+          "des œufs"
+        ],
+        [
+          "Partitive",
+          "du pain",
+          "de la viande",
+          "de l'eau",
+          "des pâtes"
+        ],
+        [
+          "After negation",
+          "pas de pain",
+          "pas de viande",
+          "pas d'eau",
+          "pas d'œufs"
+        ]
+      ],
+      "examples": [
+        {
+          "fr": "J'adore le chocolat, mais je n'en mange pas tous les jours.",
+          "en": "I love chocolate, but I don't eat it every day."
+        },
+        {
+          "fr": "Le matin, je bois du café et je mange du pain avec de la confiture.",
+          "en": "In the morning I drink coffee and eat bread with jam."
+        },
+        {
+          "fr": "Tu veux de l'eau ou du jus de pomme ?",
+          "en": "Do you want water or apple juice?"
+        },
+        {
+          "fr": "Nous achetons des légumes au marché.",
+          "en": "We buy vegetables at the market."
+        },
+        {
+          "fr": "Je ne prends pas de sucre dans mon thé.",
+          "en": "I don't take sugar in my tea."
+        },
+        {
+          "fr": "Il n'y a plus d'huile, il faut en acheter.",
+          "en": "There's no oil left, we need to buy some."
+        },
+        {
+          "fr": "Ce n'est pas du beurre, c'est de la margarine.",
+          "en": "It isn't butter, it's margarine."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "Je n'ai pas du lait.",
+          "right": "Je n'ai pas de lait.",
+          "why": "After a negation, du, de la, des and un/une become de."
+        },
+        {
+          "wrong": "J'aime du fromage.",
+          "right": "J'aime le fromage.",
+          "why": "Verbs of preference (aimer, adorer, détester, préférer) take the definite article."
+        },
+        {
+          "wrong": "Je mange pain le matin.",
+          "right": "Je mange du pain le matin.",
+          "why": "French needs an article where English has none: use the partitive for an unspecified amount."
+        },
+        {
+          "wrong": "Je voudrais de le pain.",
+          "right": "Je voudrais du pain.",
+          "why": "De + le always contracts to du."
+        }
+      ]
+    },
+    {
+      "id": "u04-g02",
+      "title": "Quantities with de, and the pronoun en",
+      "level": "A2",
+      "grammarTag": "y-en",
+      "explanation": [
+        "After an expression of quantity, use de (d' before a vowel) on its own, never du, de la or des: un kilo de pommes, une bouteille d'eau, un paquet de pâtes, beaucoup de sucre, un peu de sel, assez de pain, trop de monde. The same rule applies to containers and measures: une boîte de thon, un litre de lait, une tranche de jambon.",
+        "The pronoun en replaces a noun introduced by du, de la, de l', des, de, or by a quantity. It usually means \"some\", \"any\" or \"of it / of them\": Tu as du pain ? — Oui, j'en ai. Vous voulez des fraises ? — Oui, j'en voudrais.",
+        "When you give a number or a quantity, en replaces the noun and the number or quantity stays at the end of the sentence: Tu veux combien de tomates ? — J'en veux deux kilos. Il reste du lait ? — Oui, il en reste un litre. With un or une, repeat it: Tu as un sac ? — Oui, j'en ai un.",
+        "En goes directly before the conjugated verb (j'en achète, il en reste), and before the infinitive when there are two verbs (je vais en acheter). In the negative, ne… pas goes around en and the verb: je n'en veux pas, il n'en reste plus. In the passé composé, en goes before the auxiliary, and the past participle does not agree with it: j'en ai acheté.",
+        "Remember elision: je + en = j'en, ne + en = n'en. And make the liaison: you pronounce the s or n linking en to the next word, as in vous en voulez [vou-zan-vou-lé] and il y en a [il-yan-na]."
+      ],
+      "table": [
+        [
+          "Question",
+          "Answer with en"
+        ],
+        [
+          "Tu achètes du pain ?",
+          "Oui, j'en achète."
+        ],
+        [
+          "Vous avez des œufs ?",
+          "Non, je n'en ai pas."
+        ],
+        [
+          "Tu prends combien de pommes ?",
+          "J'en prends un kilo."
+        ],
+        [
+          "Il y a une boulangerie ici ?",
+          "Oui, il y en a une."
+        ],
+        [
+          "Tu vas acheter de l'eau ?",
+          "Oui, je vais en acheter."
+        ],
+        [
+          "Tu as pris du fromage ?",
+          "Oui, j'en ai pris."
+        ]
+      ],
+      "examples": [
+        {
+          "fr": "Je voudrais une livre de fraises et un pot de confiture.",
+          "en": "I'd like a pound of strawberries and a jar of jam."
+        },
+        {
+          "fr": "Il y a trop de monde au supermarché le samedi.",
+          "en": "There are too many people at the supermarket on Saturdays."
+        },
+        {
+          "fr": "Des citrons ? J'en ai acheté trois ce matin.",
+          "en": "Lemons? I bought three this morning."
+        },
+        {
+          "fr": "Du café ? Non merci, je n'en bois jamais le soir.",
+          "en": "Coffee? No thanks, I never drink it in the evening."
+        },
+        {
+          "fr": "Il reste des yaourts ? — Oui, il en reste quatre.",
+          "en": "Are there any yoghurts left? — Yes, there are four left."
+        },
+        {
+          "fr": "On n'a plus de farine, je vais en acheter à l'épicerie.",
+          "en": "We're out of flour, I'll buy some at the corner shop."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "Un kilo des tomates, s'il vous plaît.",
+          "right": "Un kilo de tomates, s'il vous plaît.",
+          "why": "After a quantity, use de alone, not des."
+        },
+        {
+          "wrong": "J'ai deux en.",
+          "right": "J'en ai deux.",
+          "why": "En goes before the verb; the number stays after it."
+        },
+        {
+          "wrong": "Oui, j'en prends un kilo de pommes.",
+          "right": "Oui, j'en prends un kilo.",
+          "why": "En already replaces \"de pommes\", so don't repeat the noun."
+        },
+        {
+          "wrong": "Je ne veux pas en.",
+          "right": "Je n'en veux pas.",
+          "why": "En sits directly before the conjugated verb, inside ne… pas."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "u04-ex01",
+      "type": "mcq",
+      "level": "A2",
+      "skill": "structures",
+      "grammarTag": "partitifs",
+      "prompt": "Choose the correct article.",
+      "promptFr": "Le matin, je bois ___ café au lait.",
+      "options": [
+        "du",
+        "de la",
+        "des",
+        "de l'"
+      ],
+      "answer": 0,
+      "explanation": "Café is masculine and you drink an unspecified amount, so you use the partitive du."
+    },
+    {
+      "id": "u04-ex02",
+      "type": "mcq",
+      "level": "A2",
+      "skill": "structures",
+      "grammarTag": "partitifs",
+      "prompt": "Choose the correct article.",
+      "promptFr": "Je n'aime pas ___ poisson.",
+      "options": [
+        "du",
+        "le",
+        "de",
+        "un"
+      ],
+      "answer": 1,
+      "explanation": "Aimer is a verb of preference, so it takes the definite article le, and le does not change after a negation."
+    },
+    {
+      "id": "u04-ex03",
+      "type": "mcq",
+      "level": "A2",
+      "skill": "structures",
+      "grammarTag": "partitifs",
+      "prompt": "Choose the correct word.",
+      "promptFr": "Il n'y a plus ___ œufs dans le frigo.",
+      "options": [
+        "des",
+        "d'",
+        "les",
+        "de les"
+      ],
+      "answer": 1,
+      "explanation": "After a negation (ne… plus), des becomes de, which elides to d' before the vowel of œufs."
+    },
+    {
+      "id": "u04-ex04",
+      "type": "mcq",
+      "level": "A2",
+      "skill": "structures",
+      "grammarTag": "partitifs",
+      "prompt": "Choose the correct word.",
+      "promptFr": "Je voudrais un kilo ___ tomates, s'il vous plaît.",
+      "options": [
+        "de",
+        "des",
+        "du",
+        "les"
+      ],
+      "answer": 0,
+      "explanation": "After an expression of quantity such as un kilo, use de on its own."
+    },
+    {
+      "id": "u04-ex05",
+      "type": "mcq",
+      "level": "A2",
+      "skill": "structures",
+      "grammarTag": "y-en",
+      "prompt": "Choose the correct answer.",
+      "promptFr": "Tu as acheté du pain ? — Oui, ___.",
+      "options": [
+        "j'en ai acheté",
+        "j'ai en acheté",
+        "j'en ai acheté du pain",
+        "j'ai acheté en"
+      ],
+      "answer": 0,
+      "explanation": "En replaces du pain and goes before the auxiliary in the passé composé. Don't repeat the noun after en."
+    },
+    {
+      "id": "u04-ex06",
+      "type": "fill_blank",
+      "level": "A2",
+      "skill": "structures",
+      "grammarTag": "partitifs",
+      "prompt": "Complete with the correct partitive article.",
+      "sentence": "Tu peux acheter ___ farine pour les crêpes ?",
+      "answers": [
+        "de la"
+      ],
+      "hint": "farine is feminine",
+      "translation": "Can you buy some flour for the pancakes?",
+      "explanation": "Farine is feminine and uncountable, so the partitive is de la."
+    },
+    {
+      "id": "u04-ex07",
+      "type": "fill_blank",
+      "level": "A2",
+      "skill": "structures",
+      "grammarTag": "partitifs",
+      "prompt": "Complete the negative sentence.",
+      "sentence": "Je ne mange jamais ___ viande.",
+      "answers": [
+        "de"
+      ],
+      "translation": "I never eat meat.",
+      "explanation": "After a negation (ne… jamais), de la becomes de."
+    },
+    {
+      "id": "u04-ex08",
+      "type": "fill_blank",
+      "level": "A2",
+      "skill": "structures",
+      "grammarTag": "partitifs",
+      "prompt": "Complete the expression of quantity.",
+      "sentence": "Il nous faut deux paquets ___ pâtes.",
+      "answers": [
+        "de"
+      ],
+      "translation": "We need two packets of pasta.",
+      "explanation": "After a quantity (deux paquets), use de alone, not des."
+    },
+    {
+      "id": "u04-ex09",
+      "type": "fill_blank",
+      "level": "A2",
+      "skill": "structures",
+      "grammarTag": "y-en",
+      "prompt": "Complete with a pronoun.",
+      "sentence": "Des carottes ? J'___ ai acheté un kilo.",
+      "answers": [
+        "en"
+      ],
+      "translation": "Carrots? I bought a kilo of them.",
+      "explanation": "En replaces des carottes; the quantity un kilo stays after the verb."
+    },
+    {
+      "id": "u04-ex10",
+      "type": "fill_blank",
+      "level": "A2",
+      "skill": "structures",
+      "grammarTag": "vocabulary",
+      "prompt": "Complete with the right shop.",
+      "sentence": "Pour acheter des croissants, je vais à la ___.",
+      "answers": [
+        "boulangerie",
+        "boulangerie-pâtisserie"
+      ],
+      "translation": "To buy croissants, I go to the bakery.",
+      "explanation": "Bread and croissants are sold at the boulangerie."
+    },
+    {
+      "id": "u04-ex11",
+      "type": "conjugation",
+      "level": "A2",
+      "skill": "structures",
+      "grammarTag": "present",
+      "verb": "acheter",
+      "tense": "présent",
+      "person": "je",
+      "answers": [
+        "achète"
+      ],
+      "explanation": "Acheter takes a grave accent when the ending is silent: j'achète, tu achètes, il achète, but nous achetons."
+    },
+    {
+      "id": "u04-ex12",
+      "type": "conjugation",
+      "level": "A2",
+      "skill": "structures",
+      "grammarTag": "present",
+      "verb": "boire",
+      "tense": "présent",
+      "person": "nous",
+      "answers": [
+        "buvons"
+      ],
+      "explanation": "Boire is irregular: je bois, tu bois, il boit, nous buvons, vous buvez, ils boivent."
+    },
+    {
+      "id": "u04-ex13",
+      "type": "conjugation",
+      "level": "A2",
+      "skill": "structures",
+      "grammarTag": "present",
+      "verb": "prendre",
+      "tense": "présent",
+      "person": "ils",
+      "answers": [
+        "prennent"
+      ],
+      "explanation": "Prendre doubles the n in the ils/elles form: ils prennent."
+    },
+    {
+      "id": "u04-ex14",
+      "type": "reorder",
+      "level": "A2",
+      "skill": "structures",
+      "grammarTag": "y-en",
+      "prompt": "Put the words in order to answer: \"Vous voulez combien de kilos de pommes ?\"",
+      "tokens": [
+        "J'en",
+        "voudrais",
+        "deux",
+        "kilos",
+        "s'il vous plaît"
+      ],
+      "translation": "I'd like two kilos, please.",
+      "explanation": "En comes before the verb and the quantity (deux kilos) comes after it."
+    },
+    {
+      "id": "u04-ex15",
+      "type": "reorder",
+      "level": "A2",
+      "skill": "structures",
+      "grammarTag": "partitifs",
+      "prompt": "Put the words in order.",
+      "tokens": [
+        "Je",
+        "ne",
+        "bois",
+        "pas",
+        "de",
+        "lait"
+      ],
+      "translation": "I don't drink milk.",
+      "explanation": "Ne… pas goes around the verb, and du becomes de after the negation."
+    },
+    {
+      "id": "u04-ex16",
+      "type": "match",
+      "level": "A2",
+      "skill": "structures",
+      "grammarTag": "vocabulary",
+      "prompt": "Match each shop with what you buy there.",
+      "pairs": [
+        {
+          "left": "la boulangerie",
+          "right": "bread and croissants"
+        },
+        {
+          "left": "la boucherie",
+          "right": "meat"
+        },
+        {
+          "left": "la poissonnerie",
+          "right": "fish and seafood"
+        },
+        {
+          "left": "la fromagerie",
+          "right": "cheese"
+        },
+        {
+          "left": "la pâtisserie",
+          "right": "cakes and tarts"
+        }
+      ],
+      "explanation": "Most French shop names end in -erie and come from the product or the trade: boulanger → boulangerie, poisson → poissonnerie, fromage → fromagerie."
+    },
+    {
+      "id": "u04-ex17",
+      "type": "match",
+      "level": "A2",
+      "skill": "structures",
+      "grammarTag": "vocabulary",
+      "prompt": "Match the quantities.",
+      "pairs": [
+        {
+          "left": "un paquet de",
+          "right": "a packet of"
+        },
+        {
+          "left": "une bouteille de",
+          "right": "a bottle of"
+        },
+        {
+          "left": "une tranche de",
+          "right": "a slice of"
+        },
+        {
+          "left": "une douzaine de",
+          "right": "a dozen"
+        },
+        {
+          "left": "un pot de",
+          "right": "a jar of"
+        }
+      ],
+      "explanation": "All these quantity expressions are followed by de alone: un paquet de riz, une bouteille d'eau."
+    },
+    {
+      "id": "u04-ex18",
+      "type": "translate",
+      "level": "A2",
+      "skill": "structures",
+      "grammarTag": "partitifs",
+      "direction": "en-fr",
+      "source": "I would like some cheese, please.",
+      "answers": [
+        "Je voudrais du fromage, s'il vous plaît",
+        "Je voudrais du fromage, s'il te plaît",
+        "Je voudrais du fromage",
+        "Je voudrais un peu de fromage, s'il vous plaît",
+        "Je voudrais un peu de fromage, s'il te plaît",
+        "Je voudrais un peu de fromage"
+      ],
+      "explanation": "\"Some cheese\" is an unspecified amount, so use the partitive du. Je voudrais is the polite way to ask for something."
+    },
+    {
+      "id": "u04-ex19",
+      "type": "translate",
+      "level": "A2",
+      "skill": "structures",
+      "grammarTag": "partitifs",
+      "direction": "fr-en",
+      "source": "Il n'y a plus de beurre.",
+      "answers": [
+        "There is no more butter",
+        "There's no more butter",
+        "There isn't any more butter",
+        "There is no butter left",
+        "There's no butter left",
+        "There isn't any butter left",
+        "We're out of butter",
+        "We are out of butter",
+        "We've run out of butter",
+        "We have run out of butter"
+      ],
+      "explanation": "Ne… plus means \"no more / not any more\". After the negation, du beurre becomes de beurre."
+    },
+    {
+      "id": "u04-ex20",
+      "type": "dictation",
+      "level": "A2",
+      "skill": "listening",
+      "grammarTag": "partitifs",
+      "text": "Je voudrais une douzaine d'œufs et un litre de lait.",
+      "translation": "I'd like a dozen eggs and a litre of milk.",
+      "explanation": "After quantities, de stays the same and elides before a vowel: d'œufs. Note the spelling of œufs with the joined œ."
+    }
+  ],
+  "listening": [
+    {
+      "id": "u04-li01",
+      "title": "Au marché",
+      "level": "A2",
+      "kind": "dialogue",
+      "context": "A customer is buying fruit and vegetables at a market stall.",
+      "lines": [
+        {
+          "speaker": "Vendeur",
+          "fr": "Bonjour madame ! Qu'est-ce que je vous sers ?"
+        },
+        {
+          "speaker": "Cliente",
+          "fr": "Bonjour. Je voudrais un kilo de tomates, s'il vous plaît."
+        },
+        {
+          "speaker": "Vendeur",
+          "fr": "Voilà, un kilo. Et avec ceci ?"
+        },
+        {
+          "speaker": "Cliente",
+          "fr": "Vous avez des fraises ?"
+        },
+        {
+          "speaker": "Vendeur",
+          "fr": "Oui, et elles sont très bonnes aujourd'hui. Je vous en mets combien ?"
+        },
+        {
+          "speaker": "Cliente",
+          "fr": "J'en prends une livre. Et il me faut aussi des œufs."
+        },
+        {
+          "speaker": "Vendeur",
+          "fr": "Ah, désolé, je n'en ai plus. Il y en a à l'épicerie, juste en face."
+        },
+        {
+          "speaker": "Cliente",
+          "fr": "D'accord, merci. Ça fait combien ?"
+        },
+        {
+          "speaker": "Vendeur",
+          "fr": "Six dollars cinquante, s'il vous plaît."
+        }
+      ],
+      "translation": "Stallholder: Good morning, madam! What can I get you?\nCustomer: Good morning. I'd like a kilo of tomatoes, please.\nStallholder: There you are, a kilo. Anything else?\nCustomer: Do you have strawberries?\nStallholder: Yes, and they're very good today. How many shall I give you?\nCustomer: I'll take a pound. And I also need some eggs.\nStallholder: Ah, sorry, I haven't got any left. There are some at the grocer's, just opposite.\nCustomer: All right, thank you. How much is that?\nStallholder: Six dollars fifty, please.",
+      "questions": [
+        {
+          "id": "u04-li01-q1",
+          "question": "How many tomatoes does the customer buy?",
+          "options": [
+            "Half a kilo",
+            "One kilo",
+            "Two kilos",
+            "A dozen"
+          ],
+          "answer": 1,
+          "explanation": "She says: « Je voudrais un kilo de tomates »."
+        },
+        {
+          "id": "u04-li01-q2",
+          "question": "How many strawberries does she take?",
+          "options": [
+            "500 grams",
+            "One kilo",
+            "Two punnets",
+            "None, they are too expensive"
+          ],
+          "answer": 0,
+          "explanation": "« J'en prends une livre » — une livre is 500 grams."
+        },
+        {
+          "id": "u04-li01-q3",
+          "question": "Why doesn't she buy eggs at the stall?",
+          "options": [
+            "They are too expensive.",
+            "The stallholder has none left.",
+            "She already has some.",
+            "The eggs are not fresh."
+          ],
+          "answer": 1,
+          "explanation": "« Je n'en ai plus » — he has no eggs left and sends her to the grocer's opposite."
+        }
+      ]
+    },
+    {
+      "id": "u04-li02",
+      "title": "Annonce au supermarché",
+      "level": "A2",
+      "kind": "announcement",
+      "context": "An announcement over the loudspeakers in a supermarket.",
+      "lines": [
+        {
+          "speaker": "Annonce",
+          "fr": "Chers clients, bonjour et bienvenue dans votre supermarché."
+        },
+        {
+          "speaker": "Annonce",
+          "fr": "Aujourd'hui, au rayon boucherie, le poulet est en promotion : pour deux poulets achetés, le troisième est offert."
+        },
+        {
+          "speaker": "Annonce",
+          "fr": "Au rayon fruits et légumes, profitez de nos fraises bio à trois dollars la barquette."
+        },
+        {
+          "speaker": "Annonce",
+          "fr": "Nous vous rappelons que le magasin ferme à vingt heures ce soir. Merci de vous diriger vers les caisses dix minutes avant la fermeture."
+        }
+      ],
+      "translation": "Dear customers, good morning and welcome to your supermarket.\nToday, at the butcher's counter, chicken is on special offer: buy two chickens and get the third one free.\nIn the fruit and vegetable aisle, enjoy our organic strawberries at three dollars a punnet.\nPlease remember that the shop closes at 8 p.m. this evening. Please make your way to the checkouts ten minutes before closing.",
+      "questions": [
+        {
+          "id": "u04-li02-q1",
+          "question": "Which product is on special offer at the butcher's counter?",
+          "options": [
+            "Beef",
+            "Chicken",
+            "Ham",
+            "Fish"
+          ],
+          "answer": 1,
+          "explanation": "« Le poulet est en promotion »: buy two, get the third free."
+        },
+        {
+          "id": "u04-li02-q2",
+          "question": "How much is a punnet of organic strawberries?",
+          "options": [
+            "$2",
+            "$3",
+            "$5",
+            "$13"
+          ],
+          "answer": 1,
+          "explanation": "« Trois dollars la barquette »."
+        },
+        {
+          "id": "u04-li02-q3",
+          "question": "What time does the shop close today?",
+          "options": [
+            "7.50 p.m.",
+            "8 p.m.",
+            "8.10 p.m.",
+            "10 p.m."
+          ],
+          "answer": 1,
+          "explanation": "It closes « à vingt heures »; customers should go to the checkouts ten minutes earlier."
+        }
+      ]
+    }
+  ],
+  "reading": [
+    {
+      "id": "u04-re01",
+      "title": "Un message de Camille",
+      "level": "A2",
+      "kind": "message",
+      "text": "Salut Lucas,\nJe rentre tard ce soir, est-ce que tu peux faire les courses ? Il n'y a plus de lait et il reste seulement deux œufs. Achète une douzaine d'œufs, deux litres de lait et du pain à la boulangerie. Pour le dîner, je voudrais faire des pâtes à la tomate : on a déjà des pâtes, mais il faut des tomates et un oignon. Ne prends pas de fromage, j'en ai acheté hier au marché. Tu peux payer avec la carte bancaire, je te rembourse demain.\nMerci !\nCamille",
+      "translation": "Hi Lucas,\nI'm getting home late tonight, can you do the shopping? There's no more milk and there are only two eggs left. Buy a dozen eggs, two litres of milk and some bread at the bakery. For dinner I'd like to make pasta with tomato sauce: we already have pasta, but we need tomatoes and an onion. Don't get any cheese, I bought some at the market yesterday. You can pay with the bank card, I'll pay you back tomorrow.\nThanks!\nCamille",
+      "questions": [
+        {
+          "id": "u04-re01-q1",
+          "question": "What should Lucas NOT buy?",
+          "options": [
+            "Cheese",
+            "Bread",
+            "Tomatoes",
+            "Milk"
+          ],
+          "answer": 0,
+          "explanation": "« Ne prends pas de fromage, j'en ai acheté hier »."
+        },
+        {
+          "id": "u04-re01-q2",
+          "question": "What does Camille want to cook?",
+          "options": [
+            "An omelette",
+            "Pasta with tomato sauce",
+            "Onion soup",
+            "A cheese tart"
+          ],
+          "answer": 1,
+          "explanation": "« Je voudrais faire des pâtes à la tomate »."
+        },
+        {
+          "id": "u04-re01-q3",
+          "question": "How many eggs should Lucas buy?",
+          "options": [
+            "Two",
+            "Six",
+            "Ten",
+            "Twelve"
+          ],
+          "answer": 3,
+          "explanation": "« Une douzaine d'œufs » means twelve eggs."
+        }
+      ]
+    },
+    {
+      "id": "u04-re02",
+      "title": "Le marché bio du quartier",
+      "level": "A2",
+      "kind": "notice",
+      "text": "MARCHÉ BIO DU QUARTIER SAINT-MICHEL\nTous les samedis, de 8 h à 13 h, place Saint-Michel.\nUne vingtaine de producteurs de la région vous proposent des fruits et des légumes de saison, du fromage de chèvre, du miel, du pain et de la viande bio.\nNouveau : à partir du 5 mars, vous pouvez payer par carte bancaire chez tous les commerçants.\nPensez à apporter vos sacs et vos paniers : le marché ne distribue plus de sacs en plastique.\nPour les familles : atelier cuisine gratuit pour les enfants, le premier samedi du mois, à 10 h.",
+      "translation": "SAINT-MICHEL DISTRICT ORGANIC MARKET\nEvery Saturday, from 8 a.m. to 1 p.m., place Saint-Michel.\nAbout twenty local producers offer you seasonal fruit and vegetables, goat's cheese, honey, bread and organic meat.\nNew: from 5 March, you can pay by card at all the stalls.\nRemember to bring your bags and baskets: the market no longer hands out plastic bags.\nFor families: a free cooking workshop for children on the first Saturday of the month, at 10 a.m.",
+      "questions": [
+        {
+          "id": "u04-re02-q1",
+          "question": "When is the market open?",
+          "options": [
+            "Every day from 8 a.m.",
+            "Saturday mornings",
+            "Saturday afternoons",
+            "The first Saturday of the month only"
+          ],
+          "answer": 1,
+          "explanation": "« Tous les samedis, de 8 h à 13 h »."
+        },
+        {
+          "id": "u04-re02-q2",
+          "question": "What is new from 5 March?",
+          "options": [
+            "Card payment at every stall",
+            "A children's cooking workshop",
+            "Organic meat",
+            "Longer opening hours"
+          ],
+          "answer": 0,
+          "explanation": "« À partir du 5 mars, vous pouvez payer par carte bancaire chez tous les commerçants »."
+        },
+        {
+          "id": "u04-re02-q3",
+          "question": "Why should you bring your own bags?",
+          "options": [
+            "Bags cost one dollar.",
+            "There are no more plastic bags at the market.",
+            "The producers ask for it in the workshop.",
+            "Baskets are compulsory."
+          ],
+          "answer": 1,
+          "explanation": "« Le marché ne distribue plus de sacs en plastique »."
+        }
+      ]
+    }
+  ],
+  "writing": [
+    {
+      "id": "u04-wr01",
+      "title": "Une liste de courses pour un ami",
+      "level": "A2",
+      "taskType": "message",
+      "instructions": "Write a message (60–120 words) to a friend asking them to do some shopping for a dinner you are organising. Say what to buy, how much, and where.",
+      "promptFr": "Vous organisez un dîner chez vous samedi soir. Écrivez un message à votre ami(e) pour lui demander de faire des courses. Dites-lui quels produits acheter, en quelle quantité et dans quels magasins. (60 à 120 mots)",
+      "minWords": 60,
+      "maxWords": 120,
+      "modelAnswer": "Salut Hugo,\nSamedi soir, nous sommes huit à dîner chez moi ! Est-ce que tu peux faire quelques courses pour moi samedi matin ? Au marché, achète deux kilos de pommes de terre, un kilo de tomates et une salade. À la boucherie, prends un gros poulet. Il faut aussi du pain : passe à la boulangerie et prends trois baguettes. Pour le dessert, n'achète pas de gâteau, j'en fais un au chocolat. Pour les boissons, prends six bouteilles d'eau et du jus d'orange. Je te rembourse samedi soir.\nMerci beaucoup !\nBises,\nInès",
+      "checklist": [
+        "I greeted my friend and signed off.",
+        "I asked politely (Est-ce que tu peux… ?).",
+        "I gave at least four products with a quantity followed by de (un kilo de, six bouteilles d'…).",
+        "I used du, de la, des correctly, and de after a negation.",
+        "I said where to buy things (au marché, à la boulangerie…).",
+        "My message is between 60 and 120 words."
+      ]
+    }
+  ],
+  "speaking": [
+    {
+      "id": "u04-sp01",
+      "title": "Vos habitudes de courses",
+      "level": "A2",
+      "taskType": "entretien",
+      "instructions": "Answer the examiner's question about your shopping habits. Speak for about two minutes without preparation.",
+      "promptFr": "Où est-ce que vous faites vos courses ? Qu'est-ce que vous achetez d'habitude ?",
+      "prepSeconds": 0,
+      "speakSeconds": 120,
+      "modelAnswer": "Je fais les courses une fois par semaine, en général le samedi matin. Je vais au supermarché près de chez moi parce que c'est pratique et assez bon marché. J'achète surtout des légumes, des fruits, du riz, des pâtes et du poulet. Je ne mange pas beaucoup de viande rouge. Le dimanche, je vais parfois au marché : les produits sont plus frais et j'aime parler avec les commerçants. Je fais toujours une liste de courses, sinon j'oublie quelque chose ! Et je paie presque toujours par carte.",
+      "tips": [
+        "Say when, where and how often you shop: une fois par semaine, le samedi matin.",
+        "Use partitives for what you buy (du riz, des légumes) and de after negations (je ne mange pas de…).",
+        "Give a reason with parce que: c'est pratique, c'est moins cher.",
+        "Add a personal detail to make your answer lively."
+      ]
+    },
+    {
+      "id": "u04-sp02",
+      "title": "Au marché",
+      "level": "A2",
+      "taskType": "interaction",
+      "instructions": "Role-play: you are at a market stall and want to buy fruit and vegetables for a meal. The examiner plays the stallholder. Ask about prices, quality and quantities, then pay.",
+      "promptFr": "Vous êtes au marché. Vous voulez acheter des fruits et des légumes pour un repas. Vous posez des questions au vendeur sur les produits, les prix et les quantités.",
+      "prepSeconds": 120,
+      "speakSeconds": 210,
+      "modelAnswer": "Bonjour monsieur ! Je voudrais des tomates, s'il vous plaît. Elles viennent d'où ? Ah, de la région, très bien. J'en prends un kilo. Et vos fraises, elles sont bien mûres ? Je peux en goûter une ? Elles sont délicieuses ! C'est combien, la barquette ? Trois dollars ? D'accord, j'en prends deux. Vous avez des citrons ? Non ? Tant pis. Alors je voudrais aussi une salade et une livre de carottes. Ce sera tout, merci. Ça fait combien ? Je peux payer par carte ? Parfait. Merci, bonne journée !",
+      "tips": [
+        "Use polite formulas: Je voudrais…, s'il vous plaît, Je peux… ?",
+        "Use en to avoid repeating the product: J'en prends un kilo.",
+        "Ask about price (C'est combien ?), quality (Elles sont mûres ?) and origin (Elles viennent d'où ?).",
+        "Finish the exchange: Ce sera tout, Ça fait combien ?, Merci, bonne journée."
+      ]
+    }
+  ],
+  "checkpoint": [
+    {
+      "id": "u04-cp01",
+      "type": "mcq",
+      "level": "A2",
+      "skill": "structures",
+      "grammarTag": "partitifs",
+      "prompt": "Choose the correct article.",
+      "promptFr": "J'adore ___ fraises.",
+      "options": [
+        "les",
+        "des",
+        "de",
+        "du"
+      ],
+      "answer": 0,
+      "explanation": "Adorer expresses a preference about strawberries in general, so it takes the definite article les."
+    },
+    {
+      "id": "u04-cp02",
+      "type": "mcq",
+      "level": "A2",
+      "skill": "structures",
+      "grammarTag": "partitifs",
+      "prompt": "Choose the correct article.",
+      "promptFr": "Tu veux ___ eau ?",
+      "options": [
+        "de l'",
+        "du",
+        "de la",
+        "des"
+      ],
+      "answer": 0,
+      "explanation": "Eau starts with a vowel, so the partitive is de l'."
+    },
+    {
+      "id": "u04-cp03",
+      "type": "fill_blank",
+      "level": "A2",
+      "skill": "structures",
+      "grammarTag": "partitifs",
+      "prompt": "Complete the negative sentence.",
+      "sentence": "Nous n'achetons pas ___ bonbons pour les enfants.",
+      "answers": [
+        "de"
+      ],
+      "translation": "We don't buy sweets for the children.",
+      "explanation": "After a negation, des becomes de."
+    },
+    {
+      "id": "u04-cp04",
+      "type": "fill_blank",
+      "level": "A2",
+      "skill": "structures",
+      "grammarTag": "y-en",
+      "prompt": "Complete the negative answer.",
+      "sentence": "Il reste du lait ? — Non, il n'en reste ___.",
+      "answers": [
+        "plus",
+        "pas"
+      ],
+      "translation": "Is there any milk left? — No, there's none left.",
+      "explanation": "Ne… plus (no more) or ne… pas goes around en + the verb: il n'en reste plus."
+    },
+    {
+      "id": "u04-cp05",
+      "type": "mcq",
+      "level": "A2",
+      "skill": "structures",
+      "grammarTag": "y-en",
+      "prompt": "Choose the correct pronoun.",
+      "promptFr": "Tu prends des tomates ? — Oui, ___ prends un kilo.",
+      "options": [
+        "j'en",
+        "je les",
+        "j'y",
+        "je"
+      ],
+      "answer": 0,
+      "explanation": "En replaces des tomates when you give a quantity (un kilo). Les can't be used with a quantity, and y replaces a place."
+    },
+    {
+      "id": "u04-cp06",
+      "type": "mcq",
+      "level": "A2",
+      "skill": "structures",
+      "grammarTag": "partitifs",
+      "prompt": "Choose the correct word.",
+      "promptFr": "Ce n'est pas ___ sucre, c'est du sel !",
+      "options": [
+        "du",
+        "de",
+        "d'",
+        "des"
+      ],
+      "answer": 0,
+      "explanation": "After être, the partitive does not change in the negative: ce n'est pas du sucre."
+    },
+    {
+      "id": "u04-cp07",
+      "type": "fill_blank",
+      "level": "A2",
+      "skill": "structures",
+      "grammarTag": "partitifs",
+      "prompt": "Complete the expression of quantity.",
+      "sentence": "Je voudrais une bouteille ___ jus d'orange.",
+      "answers": [
+        "de"
+      ],
+      "translation": "I'd like a bottle of orange juice.",
+      "explanation": "After a quantity (une bouteille), use de alone."
+    },
+    {
+      "id": "u04-cp08",
+      "type": "mcq",
+      "level": "A2",
+      "skill": "structures",
+      "grammarTag": "vocabulary",
+      "prompt": "Where do you pay in a supermarket?",
+      "options": [
+        "à la caisse",
+        "au rayon",
+        "dans le chariot",
+        "sur l'étiquette"
+      ],
+      "answer": 0,
+      "explanation": "La caisse is the checkout. The rayon is an aisle, the chariot a trolley and the étiquette the price label."
+    },
+    {
+      "id": "u04-cp09",
+      "type": "mcq",
+      "level": "A2",
+      "skill": "structures",
+      "grammarTag": "vocabulary",
+      "prompt": "Choose the correct verb.",
+      "promptFr": "Combien ___ ce melon ?",
+      "options": [
+        "coûte",
+        "coûtent",
+        "achète",
+        "pèsent"
+      ],
+      "answer": 0,
+      "explanation": "To ask the price, use coûter; ce melon is singular, so coûte."
+    },
+    {
+      "id": "u04-cp10",
+      "type": "fill_blank",
+      "level": "A2",
+      "skill": "structures",
+      "grammarTag": "y-en",
+      "prompt": "Complete with a pronoun.",
+      "sentence": "Des œufs ? Il y ___ a six dans le frigo.",
+      "answers": [
+        "en"
+      ],
+      "translation": "Eggs? There are six in the fridge.",
+      "explanation": "En replaces des œufs; with il y a, it goes between y and a: il y en a six."
+    }
+  ]
+}

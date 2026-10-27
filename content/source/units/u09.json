@@ -1,0 +1,2226 @@
+{
+  "id": "u09",
+  "order": 15,
+  "level": "A2+",
+  "theme": "Travel and holidays",
+  "titleFr": "Voyages et vacances",
+  "description": "Plan a trip, book a stay and talk about your holidays. Use the futur simple to describe future plans, make predictions and promises, including with quand and si.",
+  "vocab": [
+    {
+      "id": "u09-w001",
+      "fr": "voyage",
+      "en": "trip, journey",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "voyages",
+      "level": "A2",
+      "core": true,
+      "example": {
+        "fr": "Pour nos dix ans de mariage, nous ferons un grand voyage en Asie.",
+        "en": "For our tenth wedding anniversary, we'll go on a big trip to Asia."
+      }
+    },
+    {
+      "id": "u09-w002",
+      "fr": "vacances",
+      "en": "holidays, vacation",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "vacances",
+      "level": "A2",
+      "core": true,
+      "example": {
+        "fr": "Cet été, nous passerons nos vacances en Gaspésie.",
+        "en": "This summer, we'll spend our holidays in the Gaspé Peninsula."
+      },
+      "pluralOnly": true
+    },
+    {
+      "id": "u09-w003",
+      "fr": "billet",
+      "en": "ticket",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "billets",
+      "level": "A2",
+      "core": true,
+      "example": {
+        "fr": "J'achèterai les billets de train dès qu'ils seront en vente.",
+        "en": "I'll buy the train tickets as soon as they go on sale."
+      }
+    },
+    {
+      "id": "u09-w004",
+      "fr": "valise",
+      "en": "suitcase",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "valises",
+      "level": "A2",
+      "core": true,
+      "example": {
+        "fr": "Ma valise est trop lourde, je dois enlever des vêtements.",
+        "en": "My suitcase is too heavy, I need to take some clothes out."
+      }
+    },
+    {
+      "id": "u09-w005",
+      "fr": "passeport",
+      "en": "passport",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "passeports",
+      "level": "A2",
+      "core": true,
+      "example": {
+        "fr": "Vérifie la date de ton passeport : il doit être valable six mois.",
+        "en": "Check the date on your passport: it must be valid for six months."
+      }
+    },
+    {
+      "id": "u09-w006",
+      "fr": "réservation",
+      "en": "booking, reservation",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "réservations",
+      "level": "A2",
+      "core": true,
+      "example": {
+        "fr": "Vous recevrez la confirmation de votre réservation par courriel.",
+        "en": "You will receive confirmation of your booking by email."
+      }
+    },
+    {
+      "id": "u09-w007",
+      "fr": "hôtel",
+      "en": "hotel",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "hôtels",
+      "level": "A2",
+      "core": true,
+      "example": {
+        "fr": "Notre hôtel se trouve à cinq minutes de la plage.",
+        "en": "Our hotel is five minutes from the beach."
+      }
+    },
+    {
+      "id": "u09-w008",
+      "fr": "plage",
+      "en": "beach",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "plages",
+      "level": "A2",
+      "core": true,
+      "example": {
+        "fr": "S'il fait beau, les enfants iront à la plage tous les jours.",
+        "en": "If the weather is nice, the children will go to the beach every day."
+      }
+    },
+    {
+      "id": "u09-w009",
+      "fr": "montagne",
+      "en": "mountain(s)",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "montagnes",
+      "level": "A2",
+      "core": true,
+      "example": {
+        "fr": "En février, nous irons à la montagne pour faire du ski.",
+        "en": "In February, we'll go to the mountains to ski."
+      }
+    },
+    {
+      "id": "u09-w010",
+      "fr": "à l'étranger",
+      "en": "abroad",
+      "pos": "expression",
+      "level": "A2",
+      "core": true,
+      "example": {
+        "fr": "Ce sera la première fois que mon fils partira seul à l'étranger.",
+        "en": "It will be the first time my son goes abroad on his own."
+      }
+    },
+    {
+      "id": "u09-w011",
+      "fr": "départ",
+      "en": "departure",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "départs",
+      "level": "A2",
+      "core": true,
+      "example": {
+        "fr": "Le départ du car est prévu à 7 heures devant l'hôtel de ville.",
+        "en": "The coach is due to leave at 7 am outside the town hall."
+      }
+    },
+    {
+      "id": "u09-w012",
+      "fr": "arrivée",
+      "en": "arrival",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "arrivées",
+      "level": "A2",
+      "core": true,
+      "example": {
+        "fr": "À notre arrivée à Rome, nous prendrons un taxi.",
+        "en": "When we arrive in Rome, we'll take a taxi."
+      }
+    },
+    {
+      "id": "u09-w013",
+      "fr": "vol",
+      "en": "flight",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "vols",
+      "level": "A2",
+      "core": true,
+      "example": {
+        "fr": "Le vol pour Montréal durera environ sept heures.",
+        "en": "The flight to Montreal will last about seven hours."
+      }
+    },
+    {
+      "id": "u09-w014",
+      "fr": "aéroport",
+      "en": "airport",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "aéroports",
+      "level": "A2",
+      "core": true,
+      "example": {
+        "fr": "Mon frère viendra nous chercher à l'aéroport.",
+        "en": "My brother will come and pick us up at the airport."
+      }
+    },
+    {
+      "id": "u09-w015",
+      "fr": "séjour",
+      "en": "stay",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "séjours",
+      "level": "A2+",
+      "core": true,
+      "example": {
+        "fr": "Pendant notre séjour à Montréal, nous logerons chez des amis.",
+        "en": "During our stay in Montréal, we'll stay with friends."
+      }
+    },
+    {
+      "id": "u09-w016",
+      "fr": "visiter",
+      "en": "to visit (a place)",
+      "pos": "verb",
+      "level": "A2",
+      "core": true,
+      "example": {
+        "fr": "Demain, nous visiterons le château et la vieille ville.",
+        "en": "Tomorrow, we'll visit the castle and the old town."
+      }
+    },
+    {
+      "id": "u09-w017",
+      "fr": "réserver",
+      "en": "to book, to reserve",
+      "pos": "verb",
+      "level": "A2",
+      "core": true,
+      "example": {
+        "fr": "Je réserverai une table pour six personnes ce soir.",
+        "en": "I'll book a table for six people this evening."
+      }
+    },
+    {
+      "id": "u09-w018",
+      "fr": "partir",
+      "en": "to leave, to go away",
+      "pos": "verb",
+      "level": "A2",
+      "core": true,
+      "example": {
+        "fr": "Nous partirons tôt pour éviter les embouteillages.",
+        "en": "We'll leave early to avoid the traffic jams."
+      }
+    },
+    {
+      "id": "u09-w019",
+      "fr": "voyager",
+      "en": "to travel",
+      "pos": "verb",
+      "level": "A2",
+      "core": true,
+      "example": {
+        "fr": "Quand je serai à la retraite, je voyagerai beaucoup.",
+        "en": "When I'm retired, I'll travel a lot."
+      }
+    },
+    {
+      "id": "u09-w020",
+      "fr": "découvrir",
+      "en": "to discover",
+      "pos": "verb",
+      "level": "A2+",
+      "core": true,
+      "example": {
+        "fr": "Pendant ce voyage, vous découvrirez les plus beaux villages de Charlevoix.",
+        "en": "On this trip, you will discover the most beautiful villages in Charlevoix."
+      }
+    },
+    {
+      "id": "u09-w021",
+      "fr": "bagage",
+      "en": "piece of luggage; (pl.) luggage",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "bagages",
+      "level": "A2",
+      "core": false,
+      "example": {
+        "fr": "Chaque passager pourra emporter un bagage en cabine.",
+        "en": "Each passenger will be able to take one piece of hand luggage."
+      }
+    },
+    {
+      "id": "u09-w022",
+      "fr": "sac à dos",
+      "en": "backpack, rucksack",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "sacs à dos",
+      "level": "A2",
+      "core": false,
+      "example": {
+        "fr": "Pour la randonnée, prends un petit sac à dos avec de l'eau.",
+        "en": "For the hike, take a small backpack with some water."
+      }
+    },
+    {
+      "id": "u09-w023",
+      "fr": "carte d'embarquement",
+      "en": "boarding pass",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "cartes d'embarquement",
+      "level": "A2+",
+      "core": false,
+      "example": {
+        "fr": "Vous pourrez imprimer votre carte d'embarquement 24 heures avant le vol.",
+        "en": "You'll be able to print your boarding pass 24 hours before the flight."
+      }
+    },
+    {
+      "id": "u09-w024",
+      "fr": "douane",
+      "en": "customs",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "douanes",
+      "level": "A2+",
+      "core": false,
+      "example": {
+        "fr": "À la douane, on nous a demandé d'ouvrir nos valises.",
+        "en": "At customs, we were asked to open our suitcases."
+      }
+    },
+    {
+      "id": "u09-w025",
+      "fr": "frontière",
+      "en": "border",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "frontières",
+      "level": "A2+",
+      "core": false,
+      "example": {
+        "fr": "Halifax est tout près de la frontière allemande.",
+        "en": "Halifax is very close to the German border."
+      }
+    },
+    {
+      "id": "u09-w026",
+      "fr": "visa",
+      "en": "visa",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "visas",
+      "level": "A2+",
+      "core": false,
+      "example": {
+        "fr": "Pour aller dans ce pays, vous aurez besoin d'un visa.",
+        "en": "To go to this country, you will need a visa."
+      }
+    },
+    {
+      "id": "u09-w027",
+      "fr": "escale",
+      "en": "stopover, layover",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "escales",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Nous ferons une escale de trois heures à Dubaï.",
+        "en": "We'll have a three-hour stopover in Dubai."
+      }
+    },
+    {
+      "id": "u09-w028",
+      "fr": "correspondance",
+      "en": "connection (train, flight)",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "correspondances",
+      "level": "A2+",
+      "core": false,
+      "example": {
+        "fr": "Si le train a du retard, nous raterons notre correspondance.",
+        "en": "If the train is late, we'll miss our connection."
+      }
+    },
+    {
+      "id": "u09-w029",
+      "fr": "compagnie aérienne",
+      "en": "airline",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "compagnies aériennes",
+      "level": "A2+",
+      "core": false,
+      "example": {
+        "fr": "Cette compagnie aérienne propose des vols bon marché vers l'Espagne.",
+        "en": "This airline offers cheap flights to Spain."
+      }
+    },
+    {
+      "id": "u09-w030",
+      "fr": "auberge de jeunesse",
+      "en": "youth hostel",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "auberges de jeunesse",
+      "level": "A2+",
+      "core": false,
+      "example": {
+        "fr": "Pour économiser, nous dormirons dans des auberges de jeunesse.",
+        "en": "To save money, we'll sleep in youth hostels."
+      }
+    },
+    {
+      "id": "u09-w031",
+      "fr": "camping",
+      "en": "campsite; camping",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "campings",
+      "level": "A2",
+      "core": false,
+      "example": {
+        "fr": "Le camping est au bord de la rivière, à l'ombre des arbres.",
+        "en": "The campsite is by the river, in the shade of the trees."
+      }
+    },
+    {
+      "id": "u09-w032",
+      "fr": "tente",
+      "en": "tent",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "tentes",
+      "level": "A2",
+      "core": false,
+      "example": {
+        "fr": "Les enfants monteront la tente pendant que je préparerai le repas.",
+        "en": "The children will put up the tent while I make the meal."
+      }
+    },
+    {
+      "id": "u09-w033",
+      "fr": "gîte",
+      "en": "holiday cottage, gîte",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "gîtes",
+      "level": "A2+",
+      "core": false,
+      "example": {
+        "fr": "Nous avons loué un gîte à la campagne pour toute la famille.",
+        "en": "We rented a holiday cottage in the countryside for the whole family."
+      }
+    },
+    {
+      "id": "u09-w034",
+      "fr": "chambre d'hôtes",
+      "en": "bed and breakfast, guest house",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "chambres d'hôtes",
+      "level": "A2+",
+      "core": false,
+      "example": {
+        "fr": "Dans cette chambre d'hôtes, le petit déjeuner est servi dans le jardin.",
+        "en": "In this B&B, breakfast is served in the garden."
+      }
+    },
+    {
+      "id": "u09-w035",
+      "fr": "location",
+      "en": "rental, hire",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "locations",
+      "level": "A2+",
+      "core": false,
+      "example": {
+        "fr": "La location de vélos coûte quinze dollars par jour.",
+        "en": "Bike hire costs fifteen dollars a day."
+      }
+    },
+    {
+      "id": "u09-w036",
+      "fr": "office de tourisme",
+      "en": "tourist office",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "offices de tourisme",
+      "level": "A2",
+      "core": false,
+      "example": {
+        "fr": "À l'office de tourisme, on vous donnera un plan gratuit de la ville.",
+        "en": "At the tourist office, they'll give you a free map of the town."
+      }
+    },
+    {
+      "id": "u09-w037",
+      "fr": "guide",
+      "en": "guide (person or book)",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "guides",
+      "level": "A2",
+      "core": false,
+      "example": {
+        "fr": "Le guide nous expliquera l'histoire de la cathédrale.",
+        "en": "The guide will explain the history of the cathedral to us."
+      }
+    },
+    {
+      "id": "u09-w038",
+      "fr": "dépliant",
+      "en": "leaflet, brochure",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "dépliants",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "J'ai pris quelques dépliants sur les excursions en bateau.",
+        "en": "I picked up a few leaflets about boat trips."
+      }
+    },
+    {
+      "id": "u09-w039",
+      "fr": "excursion",
+      "en": "excursion, day trip",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "excursions",
+      "level": "A2+",
+      "core": false,
+      "example": {
+        "fr": "Jeudi, nous ferons une excursion sur l'île d'Oléron.",
+        "en": "On Thursday, we'll go on a day trip to the island of Oléron."
+      }
+    },
+    {
+      "id": "u09-w040",
+      "fr": "visite guidée",
+      "en": "guided tour",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "visites guidées",
+      "level": "A2",
+      "core": false,
+      "example": {
+        "fr": "La visite guidée du musée commencera à 14 heures.",
+        "en": "The guided tour of the museum will start at 2 pm."
+      }
+    },
+    {
+      "id": "u09-w041",
+      "fr": "monument",
+      "en": "monument, landmark",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "monuments",
+      "level": "A2",
+      "core": false,
+      "example": {
+        "fr": "Le soir, les monuments d'Ottawa sont illuminés.",
+        "en": "In the evening, the monuments of Ottawa are lit up."
+      }
+    },
+    {
+      "id": "u09-w042",
+      "fr": "paysage",
+      "en": "landscape, scenery",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "paysages",
+      "level": "A2+",
+      "core": false,
+      "example": {
+        "fr": "Depuis le train, vous verrez des paysages magnifiques.",
+        "en": "From the train, you'll see magnificent scenery."
+      }
+    },
+    {
+      "id": "u09-w043",
+      "fr": "côte",
+      "en": "coast",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "côtes",
+      "level": "A2+",
+      "core": false,
+      "example": {
+        "fr": "Nous longerons la côte en voiture jusqu'à Percé.",
+        "en": "We'll drive along the coast as far as Percé."
+      }
+    },
+    {
+      "id": "u09-w044",
+      "fr": "île",
+      "en": "island",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "îles",
+      "level": "A2",
+      "core": false,
+      "example": {
+        "fr": "On peut aller sur l'île en bateau en vingt minutes.",
+        "en": "You can get to the island by boat in twenty minutes."
+      }
+    },
+    {
+      "id": "u09-w045",
+      "fr": "lac",
+      "en": "lake",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "lacs",
+      "level": "A2",
+      "core": false,
+      "example": {
+        "fr": "L'eau du lac est très froide, même en été.",
+        "en": "The water in the lake is very cold, even in summer."
+      }
+    },
+    {
+      "id": "u09-w046",
+      "fr": "station balnéaire",
+      "en": "seaside resort",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "stations balnéaires",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "En juillet, cette petite station balnéaire sera pleine de touristes.",
+        "en": "In July, this little seaside resort will be full of tourists."
+      }
+    },
+    {
+      "id": "u09-w047",
+      "fr": "village",
+      "en": "village",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "villages",
+      "level": "A2",
+      "core": false,
+      "example": {
+        "fr": "Ce petit village de montagne n'a que deux cents habitants.",
+        "en": "This little mountain village has only two hundred inhabitants."
+      }
+    },
+    {
+      "id": "u09-w048",
+      "fr": "souvenir",
+      "en": "souvenir; memory",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "souvenirs",
+      "level": "A2",
+      "core": false,
+      "example": {
+        "fr": "Je rapporterai un souvenir à chacun de mes collègues.",
+        "en": "I'll bring back a souvenir for each of my colleagues."
+      }
+    },
+    {
+      "id": "u09-w049",
+      "fr": "carte postale",
+      "en": "postcard",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "cartes postales",
+      "level": "A2",
+      "core": false,
+      "example": {
+        "fr": "Promis, je vous enverrai une carte postale de Grèce !",
+        "en": "I promise I'll send you a postcard from Greece!"
+      }
+    },
+    {
+      "id": "u09-w050",
+      "fr": "crème solaire",
+      "en": "sun cream, sunscreen",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "crèmes solaires",
+      "level": "A2",
+      "core": false,
+      "example": {
+        "fr": "N'oublie pas de mettre de la crème solaire aux enfants.",
+        "en": "Don't forget to put sun cream on the children."
+      }
+    },
+    {
+      "id": "u09-w051",
+      "fr": "maillot de bain",
+      "en": "swimsuit, swimming trunks",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "maillots de bain",
+      "level": "A2",
+      "core": false,
+      "example": {
+        "fr": "L'hôtel a une piscine, alors prends ton maillot de bain.",
+        "en": "The hotel has a pool, so bring your swimsuit."
+      }
+    },
+    {
+      "id": "u09-w052",
+      "fr": "lunettes de soleil",
+      "en": "sunglasses",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "lunettes de soleil",
+      "level": "A2",
+      "core": false,
+      "example": {
+        "fr": "J'ai oublié mes lunettes de soleil dans la voiture.",
+        "en": "I left my sunglasses in the car."
+      },
+      "pluralOnly": true
+    },
+    {
+      "id": "u09-w053",
+      "fr": "coup de soleil",
+      "en": "sunburn",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "coups de soleil",
+      "level": "A2+",
+      "core": false,
+      "example": {
+        "fr": "Si tu restes au soleil sans crème, tu attraperas un coup de soleil.",
+        "en": "If you stay in the sun without cream, you'll get sunburnt."
+      }
+    },
+    {
+      "id": "u09-w054",
+      "fr": "touriste",
+      "en": "tourist",
+      "pos": "noun",
+      "gender": "mf",
+      "plural": "touristes",
+      "level": "A2",
+      "core": false,
+      "example": {
+        "fr": "En août, il y a beaucoup de touristes dans la vieille ville.",
+        "en": "In August, there are lots of tourists in the old town."
+      }
+    },
+    {
+      "id": "u09-w055",
+      "fr": "voyageur",
+      "en": "traveller, passenger",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "voyageurs",
+      "level": "A2+",
+      "core": false,
+      "example": {
+        "fr": "Les voyageurs pour Sherbrooke sont priés de se rendre voie 4.",
+        "en": "Passengers for Sherbrooke are requested to go to platform 4."
+      }
+    },
+    {
+      "id": "u09-w056",
+      "fr": "haute saison",
+      "en": "high season, peak season",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "hautes saisons",
+      "level": "A2+",
+      "core": false,
+      "example": {
+        "fr": "En haute saison, les prix des hôtels augmentent beaucoup.",
+        "en": "In high season, hotel prices go up a lot."
+      }
+    },
+    {
+      "id": "u09-w057",
+      "fr": "itinéraire",
+      "en": "route, itinerary",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "itinéraires",
+      "level": "A2+",
+      "core": false,
+      "example": {
+        "fr": "Nous préparerons l'itinéraire ensemble ce week-end.",
+        "en": "We'll plan the route together this weekend."
+      }
+    },
+    {
+      "id": "u09-w058",
+      "fr": "aller-retour",
+      "en": "return ticket, round trip",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "allers-retours",
+      "level": "A2",
+      "core": false,
+      "example": {
+        "fr": "Un aller-retour pour Gatineau, s'il vous plaît.",
+        "en": "A return ticket to Gatineau, please."
+      }
+    },
+    {
+      "id": "u09-w059",
+      "fr": "aller simple",
+      "en": "one-way ticket, single",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "allers simples",
+      "level": "A2",
+      "core": false,
+      "example": {
+        "fr": "Je prendrai un aller simple, car je ne sais pas quand je rentrerai.",
+        "en": "I'll take a one-way ticket, because I don't know when I'll come back."
+      }
+    },
+    {
+      "id": "u09-w060",
+      "fr": "décoller",
+      "en": "to take off (plane)",
+      "pos": "verb",
+      "level": "A2+",
+      "core": false,
+      "example": {
+        "fr": "L'avion décollera avec vingt minutes de retard.",
+        "en": "The plane will take off twenty minutes late."
+      }
+    },
+    {
+      "id": "u09-w061",
+      "fr": "atterrir",
+      "en": "to land",
+      "pos": "verb",
+      "level": "A2+",
+      "core": false,
+      "example": {
+        "fr": "Nous atterrirons à Lisbonne à 16 h 30, heure locale.",
+        "en": "We will land in Lisbon at 4.30 pm local time."
+      }
+    },
+    {
+      "id": "u09-w062",
+      "fr": "embarquer",
+      "en": "to board",
+      "pos": "verb",
+      "level": "A2+",
+      "core": false,
+      "example": {
+        "fr": "Les passagers du vol pour Nice pourront embarquer dans dix minutes.",
+        "en": "Passengers on the flight to Nice will be able to board in ten minutes."
+      }
+    },
+    {
+      "id": "u09-w063",
+      "fr": "faire sa valise",
+      "en": "to pack (one's suitcase)",
+      "pos": "expression",
+      "level": "A2",
+      "core": false,
+      "example": {
+        "fr": "Je ferai ma valise ce soir, comme ça je serai prêt demain matin.",
+        "en": "I'll pack my suitcase tonight, so I'll be ready tomorrow morning."
+      }
+    },
+    {
+      "id": "u09-w064",
+      "fr": "annuler",
+      "en": "to cancel",
+      "pos": "verb",
+      "level": "A2+",
+      "core": false,
+      "example": {
+        "fr": "Si vous annulez moins de 48 heures avant, vous ne serez pas remboursé.",
+        "en": "If you cancel less than 48 hours beforehand, you won't get a refund."
+      }
+    },
+    {
+      "id": "u09-w065",
+      "fr": "louer",
+      "en": "to rent, to hire",
+      "pos": "verb",
+      "level": "A2",
+      "core": false,
+      "example": {
+        "fr": "Sur place, nous louerons une voiture pour visiter la région.",
+        "en": "Once there, we'll hire a car to explore the area."
+      }
+    },
+    {
+      "id": "u09-w066",
+      "fr": "bronzer",
+      "en": "to sunbathe, to get a tan",
+      "pos": "verb",
+      "level": "A2",
+      "core": false,
+      "example": {
+        "fr": "Moi, je n'aime pas bronzer, je préfère visiter les musées.",
+        "en": "I don't like sunbathing, I prefer visiting museums."
+      }
+    },
+    {
+      "id": "u09-w067",
+      "fr": "se baigner",
+      "en": "to go swimming, to bathe",
+      "pos": "verb",
+      "level": "A2",
+      "core": false,
+      "example": {
+        "fr": "Il y a trop de vagues aujourd'hui, on ne pourra pas se baigner.",
+        "en": "There are too many waves today, we won't be able to go in the water."
+      }
+    },
+    {
+      "id": "u09-w068",
+      "fr": "camper",
+      "en": "to camp",
+      "pos": "verb",
+      "level": "A2",
+      "core": false,
+      "example": {
+        "fr": "Nous camperons près du lac pendant trois nuits.",
+        "en": "We'll camp near the lake for three nights."
+      }
+    },
+    {
+      "id": "u09-w069",
+      "fr": "explorer",
+      "en": "to explore",
+      "pos": "verb",
+      "level": "A2+",
+      "core": false,
+      "example": {
+        "fr": "Avec un vélo, vous pourrez explorer toute l'île.",
+        "en": "With a bike, you'll be able to explore the whole island."
+      }
+    },
+    {
+      "id": "u09-w070",
+      "fr": "faire du tourisme",
+      "en": "to go sightseeing",
+      "pos": "expression",
+      "level": "A2",
+      "core": false,
+      "example": {
+        "fr": "Le matin, nous travaillerons, et l'après-midi, nous ferons du tourisme.",
+        "en": "In the morning, we'll work, and in the afternoon, we'll go sightseeing."
+      }
+    },
+    {
+      "id": "u09-w071",
+      "fr": "longer",
+      "en": "to go along, to follow (a coast, a river)",
+      "pos": "verb",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Le sentier longe la mer pendant dix kilomètres.",
+        "en": "The path runs along the sea for ten kilometres."
+      }
+    },
+    {
+      "id": "u09-w072",
+      "fr": "emporter",
+      "en": "to take (with you)",
+      "pos": "verb",
+      "level": "A2+",
+      "core": false,
+      "example": {
+        "fr": "Il fera froid le soir, alors emporte un pull.",
+        "en": "It'll be cold in the evening, so take a jumper."
+      }
+    },
+    {
+      "id": "u09-w073",
+      "fr": "dormir à la belle étoile",
+      "en": "to sleep under the stars",
+      "pos": "expression",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "S'il fait chaud, nous dormirons à la belle étoile.",
+        "en": "If it's warm, we'll sleep under the stars."
+      }
+    },
+    {
+      "id": "u09-w074",
+      "fr": "dépaysant",
+      "en": "exotic, offering a change of scene",
+      "pos": "adjective",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Ce voyage au Maroc a été très dépaysant pour les enfants.",
+        "en": "This trip to Morocco was a real change of scene for the children."
+      }
+    },
+    {
+      "id": "u09-w075",
+      "fr": "inoubliable",
+      "en": "unforgettable",
+      "pos": "adjective",
+      "level": "A2+",
+      "core": false,
+      "example": {
+        "fr": "Vous verrez, ce sera un séjour inoubliable !",
+        "en": "You'll see, it will be an unforgettable stay!"
+      }
+    },
+    {
+      "id": "u09-w076",
+      "fr": "ensoleillé",
+      "en": "sunny",
+      "pos": "adjective",
+      "level": "A2+",
+      "core": false,
+      "example": {
+        "fr": "Notre chambre est grande et très ensoleillée.",
+        "en": "Our room is big and very sunny."
+      }
+    },
+    {
+      "id": "u09-w077",
+      "fr": "bondé",
+      "en": "packed, crowded",
+      "pos": "adjective",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Le 15 août, les plages seront bondées.",
+        "en": "On 15 August, the beaches will be packed."
+      }
+    },
+    {
+      "id": "u09-w078",
+      "fr": "reposant",
+      "en": "restful, relaxing",
+      "pos": "adjective",
+      "level": "A2+",
+      "core": false,
+      "example": {
+        "fr": "Une semaine à la campagne, ce sera très reposant.",
+        "en": "A week in the countryside will be very relaxing."
+      }
+    },
+    {
+      "id": "u09-w079",
+      "fr": "pittoresque",
+      "en": "picturesque",
+      "pos": "adjective",
+      "level": "B1",
+      "core": false,
+      "example": {
+        "fr": "Nous nous promènerons dans les ruelles pittoresques du port.",
+        "en": "We'll wander through the picturesque little streets of the harbour."
+      }
+    },
+    {
+      "id": "u09-w080",
+      "fr": "tout compris",
+      "en": "all-inclusive",
+      "pos": "expression",
+      "level": "A2+",
+      "core": false,
+      "example": {
+        "fr": "Le prix est tout compris : vol, hôtel et repas.",
+        "en": "The price is all-inclusive: flight, hotel and meals."
+      }
+    },
+    {
+      "id": "u09-w081",
+      "fr": "hors saison",
+      "en": "off-season, out of season",
+      "pos": "expression",
+      "level": "A2+",
+      "core": false,
+      "example": {
+        "fr": "Hors saison, l'hôtel sera moins cher et plus calme.",
+        "en": "Out of season, the hotel will be cheaper and quieter."
+      }
+    },
+    {
+      "id": "u09-w082",
+      "fr": "l'année prochaine",
+      "en": "next year",
+      "pos": "expression",
+      "level": "A2",
+      "core": false,
+      "example": {
+        "fr": "L'année prochaine, j'irai voir mes cousins au Canada.",
+        "en": "Next year, I'll go and see my cousins in Canada."
+      }
+    },
+    {
+      "id": "u09-w083",
+      "fr": "dans quinze jours",
+      "en": "in two weeks' time, in a fortnight",
+      "pos": "expression",
+      "level": "A2+",
+      "core": false,
+      "example": {
+        "fr": "Dans quinze jours, nous serons sur une plage en Corse !",
+        "en": "In two weeks' time, we'll be on a beach in Corsica!"
+      }
+    },
+    {
+      "id": "u09-w084",
+      "fr": "bon voyage",
+      "en": "have a good trip",
+      "pos": "expression",
+      "level": "A2",
+      "core": false,
+      "example": {
+        "fr": "Bon voyage, et appelle-nous quand tu arriveras !",
+        "en": "Have a good trip, and call us when you arrive!"
+      }
+    }
+  ],
+  "grammar": [
+    {
+      "id": "u09-g01",
+      "title": "The futur simple: regular verbs",
+      "level": "A2+",
+      "grammarTag": "futur-simple",
+      "explanation": [
+        "The futur simple says what will happen: plans, predictions, promises and planned events. Nous partirons en juillet. Il fera beau demain. Je t'appellerai ce soir. It is used a lot in writing (timetables, programmes, emails) and for things that feel further away or more formal than the futur proche.",
+        "To form it, take the infinitive and add the endings -ai, -as, -a, -ons, -ez, -ont. Voyager → je voyagerai. Partir → nous partirons. The endings are the same for every verb, and the stem always ends in -r.",
+        "Verbs in -re drop the final -e before the ending: prendre → je prendrai, attendre → tu attendras, écrire → elle écrira.",
+        "Some -er verbs change their spelling, as in the present: acheter → j'achèterai, se lever → je me lèverai, appeler → j'appellerai, essayer → j'essaierai (or j'essayerai).",
+        "Futur proche or futur simple? Often both are possible. The futur proche (je vais partir) is more spoken and feels closer or already decided; the futur simple (je partirai) is more neutral, more written, and common for predictions and promises."
+      ],
+      "table": [
+        [
+          "Subject",
+          "voyager",
+          "partir",
+          "prendre"
+        ],
+        [
+          "je",
+          "voyagerai",
+          "partirai",
+          "prendrai"
+        ],
+        [
+          "tu",
+          "voyageras",
+          "partiras",
+          "prendras"
+        ],
+        [
+          "il / elle / on",
+          "voyagera",
+          "partira",
+          "prendra"
+        ],
+        [
+          "nous",
+          "voyagerons",
+          "partirons",
+          "prendrons"
+        ],
+        [
+          "vous",
+          "voyagerez",
+          "partirez",
+          "prendrez"
+        ],
+        [
+          "ils / elles",
+          "voyageront",
+          "partiront",
+          "prendront"
+        ]
+      ],
+      "examples": [
+        {
+          "fr": "Nous partirons le 3 août et nous rentrerons le 20.",
+          "en": "We'll leave on 3 August and come back on the 20th."
+        },
+        {
+          "fr": "Le train arrivera à Sherbrooke à 18 h 12.",
+          "en": "The train will arrive in Sherbrooke at 6.12 pm."
+        },
+        {
+          "fr": "Tu prendras un taxi ou le bus pour aller à l'hôtel ?",
+          "en": "Will you take a taxi or the bus to get to the hotel?"
+        },
+        {
+          "fr": "Je vous écrirai dès mon arrivée.",
+          "en": "I'll write to you as soon as I arrive."
+        },
+        {
+          "fr": "Les enfants dormiront dans la petite chambre.",
+          "en": "The children will sleep in the small bedroom."
+        },
+        {
+          "fr": "J'achèterai des souvenirs pour toute la famille.",
+          "en": "I'll buy souvenirs for the whole family."
+        },
+        {
+          "fr": "Vous visiterez le musée le matin et vous déjeunerez au port.",
+          "en": "You will visit the museum in the morning and have lunch at the harbour."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "Je prendreai le train.",
+          "right": "Je prendrai le train.",
+          "why": "Verbs ending in -re lose their final -e: prendr- + -ai."
+        },
+        {
+          "wrong": "Nous voyagerions en juillet.",
+          "right": "Nous voyagerons en juillet.",
+          "why": "-ions is the conditional/imparfait ending. The futur simple ending for nous is -ons."
+        },
+        {
+          "wrong": "Elles partirons à 8 heures.",
+          "right": "Elles partiront à 8 heures.",
+          "why": "The ending for ils/elles is -ont; -ons is the ending for nous."
+        }
+      ]
+    },
+    {
+      "id": "u09-g02",
+      "title": "Irregular stems; quand and si with the future",
+      "level": "A2+",
+      "grammarTag": "futur-simple",
+      "explanation": [
+        "Some very common verbs have an irregular stem, but the endings stay regular (-ai, -as, -a, -ons, -ez, -ont). Learn these stems by heart: être → ser-, avoir → aur-, aller → ir-, faire → fer-, venir → viendr-, voir → verr-, pouvoir → pourr-, vouloir → voudr-, devoir → devr-, savoir → saur-, envoyer → enverr-, recevoir → recevr-, courir → courr-. Impersonal verbs: il faut → il faudra, il pleut → il pleuvra.",
+        "After quand (when), lorsque and dès que (as soon as), French uses the futur simple when the action is in the future, where English uses the present: Quand j'arriverai, je t'appellerai = When I arrive, I'll call you.",
+        "After si (if), it is the opposite: use the present after si, and the futur simple in the other part of the sentence: S'il fait beau, nous irons à la plage. Never put the future directly after si in this kind of sentence.",
+        "Remember the elision: si + il → s'il (but si elle, si on stay unchanged)."
+      ],
+      "table": [
+        [
+          "Infinitive",
+          "Stem",
+          "je",
+          "nous"
+        ],
+        [
+          "être",
+          "ser-",
+          "serai",
+          "serons"
+        ],
+        [
+          "avoir",
+          "aur-",
+          "aurai",
+          "aurons"
+        ],
+        [
+          "aller",
+          "ir-",
+          "irai",
+          "irons"
+        ],
+        [
+          "faire",
+          "fer-",
+          "ferai",
+          "ferons"
+        ],
+        [
+          "venir",
+          "viendr-",
+          "viendrai",
+          "viendrons"
+        ],
+        [
+          "voir",
+          "verr-",
+          "verrai",
+          "verrons"
+        ],
+        [
+          "pouvoir",
+          "pourr-",
+          "pourrai",
+          "pourrons"
+        ],
+        [
+          "devoir",
+          "devr-",
+          "devrai",
+          "devrons"
+        ],
+        [
+          "envoyer",
+          "enverr-",
+          "enverrai",
+          "enverrons"
+        ]
+      ],
+      "examples": [
+        {
+          "fr": "L'été prochain, nous irons en Italie.",
+          "en": "Next summer, we'll go to Italy."
+        },
+        {
+          "fr": "Il fera beau toute la semaine sur la côte.",
+          "en": "The weather will be nice all week on the coast."
+        },
+        {
+          "fr": "Quand vous serez à Rome, vous verrez le Colisée.",
+          "en": "When you're in Rome, you'll see the Colosseum."
+        },
+        {
+          "fr": "S'il pleut, nous visiterons les musées.",
+          "en": "If it rains, we'll visit the museums."
+        },
+        {
+          "fr": "Je t'enverrai des photos dès que j'aurai du réseau.",
+          "en": "I'll send you photos as soon as I have signal."
+        },
+        {
+          "fr": "Il faudra arriver à l'aéroport deux heures avant le départ.",
+          "en": "You will have to get to the airport two hours before departure."
+        },
+        {
+          "fr": "Mes parents viendront nous chercher à la gare.",
+          "en": "My parents will come and pick us up at the station."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "J'allerai en Espagne.",
+          "right": "J'irai en Espagne.",
+          "why": "Aller has the irregular stem ir- in the futur simple."
+        },
+        {
+          "wrong": "S'il fera beau, nous irons à la plage.",
+          "right": "S'il fait beau, nous irons à la plage.",
+          "why": "After si (if), use the present tense, not the future."
+        },
+        {
+          "wrong": "Quand j'arrive à Montréal demain, je te téléphonerai.",
+          "right": "Quand j'arriverai à Montréal demain, je te téléphonerai.",
+          "why": "After quand, a future action takes the futur simple in French, even though English uses the present."
+        },
+        {
+          "wrong": "Nous voirons la mer.",
+          "right": "Nous verrons la mer.",
+          "why": "Voir has the irregular stem verr- (with two r's)."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "u09-ex01",
+      "type": "mcq",
+      "level": "A2+",
+      "skill": "structures",
+      "grammarTag": "futur-simple",
+      "prompt": "Choose the correct futur simple form.",
+      "promptFr": "L'été prochain, nous ___ en Grèce.",
+      "options": [
+        "irons",
+        "allerons",
+        "irions",
+        "allions"
+      ],
+      "answer": 0,
+      "explanation": "Aller has the irregular future stem ir-: nous irons. Irions is the conditional, allions the imparfait, and allerons does not exist."
+    },
+    {
+      "id": "u09-ex02",
+      "type": "mcq",
+      "level": "A2+",
+      "skill": "structures",
+      "grammarTag": "futur-simple",
+      "prompt": "Choose the correct form after quand.",
+      "promptFr": "Quand tu ___ à Lisbonne, tu m'enverras un message.",
+      "options": [
+        "arriveras",
+        "arriverais",
+        "arrivais",
+        "arriverez"
+      ],
+      "answer": 0,
+      "explanation": "After quand, a future action takes the futur simple: tu arriveras. Arriverais is conditional, arrivais is imparfait, and arriverez goes with vous."
+    },
+    {
+      "id": "u09-ex03",
+      "type": "mcq",
+      "level": "A2+",
+      "skill": "structures",
+      "grammarTag": "futur-simple",
+      "prompt": "Choose the correct form.",
+      "promptFr": "S'il fait beau demain, nous ___ à la plage.",
+      "options": [
+        "irons",
+        "irions",
+        "allions",
+        "sommes allés"
+      ],
+      "answer": 0,
+      "explanation": "Si + present (il fait), then futur simple in the result: nous irons. Irions (conditional) would need si + imparfait."
+    },
+    {
+      "id": "u09-ex04",
+      "type": "mcq",
+      "level": "A2+",
+      "skill": "structures",
+      "grammarTag": "futur-simple",
+      "prompt": "What is the futur simple of voir with je?",
+      "options": [
+        "je verrai",
+        "je voirai",
+        "je verai",
+        "je voyerai"
+      ],
+      "answer": 0,
+      "explanation": "Voir has the irregular stem verr- (double r): je verrai."
+    },
+    {
+      "id": "u09-ex05",
+      "type": "mcq",
+      "level": "A2+",
+      "skill": "structures",
+      "grammarTag": "vocabulary",
+      "prompt": "Choose the right word.",
+      "promptFr": "À l'aéroport, on contrôle les bagages qui viennent de l'étranger à la ___.",
+      "options": [
+        "douane",
+        "plage",
+        "tente",
+        "réservation"
+      ],
+      "answer": 0,
+      "explanation": "La douane (customs) checks luggage coming from abroad. The other words have nothing to do with checking luggage."
+    },
+    {
+      "id": "u09-ex06",
+      "type": "fill_blank",
+      "level": "A2+",
+      "skill": "structures",
+      "grammarTag": "futur-simple",
+      "prompt": "Put prendre in the futur simple.",
+      "sentence": "Demain, nous ___ le train de 7 heures.",
+      "answers": [
+        "prendrons"
+      ],
+      "hint": "prendre",
+      "translation": "Tomorrow, we'll take the 7 o'clock train.",
+      "explanation": "-re verbs drop the final -e: prendr- + -ons → nous prendrons."
+    },
+    {
+      "id": "u09-ex07",
+      "type": "fill_blank",
+      "level": "A2+",
+      "skill": "structures",
+      "grammarTag": "futur-simple",
+      "prompt": "Put avoir in the futur simple.",
+      "sentence": "Tu ___ besoin de ton passeport pour ce voyage.",
+      "answers": [
+        "auras"
+      ],
+      "hint": "avoir",
+      "translation": "You'll need your passport for this trip.",
+      "explanation": "Avoir has the irregular stem aur-: tu auras."
+    },
+    {
+      "id": "u09-ex08",
+      "type": "fill_blank",
+      "level": "A2+",
+      "skill": "structures",
+      "grammarTag": "futur-simple",
+      "prompt": "Put venir in the futur simple.",
+      "sentence": "Mes parents ___ nous voir en août.",
+      "answers": [
+        "viendront"
+      ],
+      "hint": "venir",
+      "translation": "My parents will come to see us in August.",
+      "explanation": "Venir has the irregular stem viendr-: ils viendront."
+    },
+    {
+      "id": "u09-ex09",
+      "type": "fill_blank",
+      "level": "A2+",
+      "skill": "structures",
+      "grammarTag": "futur-simple",
+      "prompt": "Put faire in the futur simple.",
+      "sentence": "D'après la météo, il ___ beau toute la semaine sur la côte.",
+      "answers": [
+        "fera"
+      ],
+      "hint": "faire",
+      "translation": "According to the forecast, the weather will be nice all week on the coast.",
+      "explanation": "Faire has the irregular stem fer-: il fera."
+    },
+    {
+      "id": "u09-ex10",
+      "type": "fill_blank",
+      "level": "A2+",
+      "skill": "structures",
+      "grammarTag": "vocabulary",
+      "prompt": "Complete with a word from the unit.",
+      "sentence": "N'oublie pas ta crème ___, il va faire très chaud !",
+      "answers": [
+        "solaire"
+      ],
+      "translation": "Don't forget your sun cream, it's going to be very hot!",
+      "explanation": "La crème solaire protects you from the sun."
+    },
+    {
+      "id": "u09-ex11",
+      "type": "conjugation",
+      "level": "A2+",
+      "skill": "structures",
+      "grammarTag": "futur-simple",
+      "verb": "être",
+      "tense": "futur simple",
+      "person": "vous",
+      "answers": [
+        "serez"
+      ],
+      "explanation": "Être has the irregular stem ser-: vous serez."
+    },
+    {
+      "id": "u09-ex12",
+      "type": "conjugation",
+      "level": "A2+",
+      "skill": "structures",
+      "grammarTag": "futur-simple",
+      "verb": "pouvoir",
+      "tense": "futur simple",
+      "person": "nous",
+      "answers": [
+        "pourrons"
+      ],
+      "explanation": "Pouvoir has the irregular stem pourr- (double r): nous pourrons."
+    },
+    {
+      "id": "u09-ex13",
+      "type": "conjugation",
+      "level": "A2+",
+      "skill": "structures",
+      "grammarTag": "futur-simple",
+      "verb": "envoyer",
+      "tense": "futur simple",
+      "person": "je",
+      "answers": [
+        "enverrai"
+      ],
+      "explanation": "Envoyer has the irregular stem enverr-: j'enverrai."
+    },
+    {
+      "id": "u09-ex14",
+      "type": "reorder",
+      "level": "A2+",
+      "skill": "structures",
+      "grammarTag": "futur-simple",
+      "prompt": "Put the words in order: 'I'll send you a postcard.'",
+      "tokens": [
+        "Je",
+        "vous",
+        "enverrai",
+        "une",
+        "carte",
+        "postale"
+      ],
+      "translation": "I'll send you a postcard.",
+      "explanation": "The pronoun vous goes before the verb: je vous enverrai."
+    },
+    {
+      "id": "u09-ex15",
+      "type": "reorder",
+      "level": "A2+",
+      "skill": "structures",
+      "grammarTag": "futur-simple",
+      "prompt": "Put the words in order: 'We'll have to book the hotel very early.'",
+      "tokens": [
+        "Il",
+        "faudra",
+        "réserver",
+        "l'hôtel",
+        "très",
+        "tôt"
+      ],
+      "translation": "We'll have to book the hotel very early.",
+      "explanation": "Il faut becomes il faudra in the futur simple, followed by an infinitive."
+    },
+    {
+      "id": "u09-ex16",
+      "type": "match",
+      "level": "A2+",
+      "skill": "structures",
+      "grammarTag": "vocabulary",
+      "prompt": "Match the French words with their English meaning.",
+      "pairs": [
+        {
+          "left": "une valise",
+          "right": "a suitcase"
+        },
+        {
+          "left": "un billet",
+          "right": "a ticket"
+        },
+        {
+          "left": "un séjour",
+          "right": "a stay"
+        },
+        {
+          "left": "un vol",
+          "right": "a flight"
+        },
+        {
+          "left": "une escale",
+          "right": "a stopover"
+        }
+      ],
+      "explanation": "Key travel words. Note: un vol also means 'a theft'!"
+    },
+    {
+      "id": "u09-ex17",
+      "type": "match",
+      "level": "A2+",
+      "skill": "structures",
+      "grammarTag": "futur-simple",
+      "prompt": "Match each infinitive with its futur simple (je form).",
+      "pairs": [
+        {
+          "left": "être",
+          "right": "je serai"
+        },
+        {
+          "left": "avoir",
+          "right": "j'aurai"
+        },
+        {
+          "left": "aller",
+          "right": "j'irai"
+        },
+        {
+          "left": "faire",
+          "right": "je ferai"
+        },
+        {
+          "left": "venir",
+          "right": "je viendrai"
+        }
+      ],
+      "explanation": "These five verbs have irregular stems: ser-, aur-, ir-, fer-, viendr-."
+    },
+    {
+      "id": "u09-ex18",
+      "type": "translate",
+      "level": "A2+",
+      "skill": "structures",
+      "grammarTag": "futur-simple",
+      "direction": "en-fr",
+      "source": "When we arrive in Paris, we will visit the Louvre.",
+      "answers": [
+        "Quand nous arriverons à Paris, nous visiterons le Louvre.",
+        "Quand on arrivera à Paris, on visitera le Louvre.",
+        "Nous visiterons le Louvre quand nous arriverons à Paris.",
+        "On visitera le Louvre quand on arrivera à Paris.",
+        "Lorsque nous arriverons à Paris, nous visiterons le Louvre.",
+        "Lorsqu'on arrivera à Paris, on visitera le Louvre.",
+        "Nous visiterons le Louvre lorsque nous arriverons à Paris."
+      ],
+      "explanation": "After quand, French uses the futur simple for a future action: quand nous arriverons. Visiter = to visit a place."
+    },
+    {
+      "id": "u09-ex19",
+      "type": "translate",
+      "level": "A2+",
+      "skill": "structures",
+      "grammarTag": "futur-simple",
+      "direction": "fr-en",
+      "source": "S'il pleut, nous resterons à l'hôtel et nous jouerons aux cartes.",
+      "answers": [
+        "If it rains, we will stay at the hotel and play cards.",
+        "If it rains, we'll stay at the hotel and play cards.",
+        "If it rains, we will stay at the hotel and we will play cards.",
+        "If it rains, we'll stay at the hotel and we'll play cards.",
+        "If it rains, we'll stay in the hotel and play cards.",
+        "If it rains, we will stay in the hotel and play cards."
+      ],
+      "explanation": "Si + present (il pleut) → English 'if it rains'; the futur simple (resterons, jouerons) → 'will'."
+    },
+    {
+      "id": "u09-ex20",
+      "type": "dictation",
+      "level": "A2+",
+      "skill": "structures",
+      "grammarTag": "futur-simple",
+      "text": "L'année prochaine, nous ferons le tour de l'Italie en train.",
+      "translation": "Next year, we'll travel around Italy by train.",
+      "explanation": "Ferons: futur simple of faire with the irregular stem fer-."
+    },
+    {
+      "id": "u09-ex21",
+      "type": "match",
+      "level": "A2+",
+      "skill": "structures",
+      "grammarTag": "futur-simple",
+      "prompt": "Match the beginnings and endings of the sentences.",
+      "pairs": [
+        {
+          "left": "Si tu réserves maintenant,",
+          "right": "tu paieras moins cher."
+        },
+        {
+          "left": "Quand nous arriverons à l'hôtel,",
+          "right": "nous déposerons nos valises."
+        },
+        {
+          "left": "Si mes parents ont des vacances en juillet,",
+          "right": "ils iront à la plage."
+        },
+        {
+          "left": "Quand vous serez à Québec,",
+          "right": "vous verrez le Château Frontenac."
+        }
+      ],
+      "explanation": "After si, use the présent and then the futur simple. After quand about the future, French uses the futur in both parts: quand nous arriverons…, nous déposerons."
+    }
+  ],
+  "listening": [
+    {
+      "id": "u09-li01",
+      "title": "On part au Portugal !",
+      "level": "A2+",
+      "kind": "dialogue",
+      "context": "Two friends, Emma and Lucas, organise their summer trip.",
+      "lines": [
+        {
+          "speaker": "Emma",
+          "fr": "Alors, c'est décidé, on part au Portugal en juillet ?"
+        },
+        {
+          "speaker": "Lucas",
+          "fr": "Oui ! Je réserverai les billets d'avion ce soir. Le vol partira de Montréal le 8 juillet."
+        },
+        {
+          "speaker": "Emma",
+          "fr": "Parfait. Et pour dormir, on prendra un hôtel ?"
+        },
+        {
+          "speaker": "Lucas",
+          "fr": "Non, ce sera trop cher. Je préfère louer un petit appartement à Lisbonne."
+        },
+        {
+          "speaker": "Emma",
+          "fr": "D'accord. On restera combien de temps là-bas ?"
+        },
+        {
+          "speaker": "Lucas",
+          "fr": "Dix jours. On passera une semaine à Lisbonne, puis trois jours sur la côte."
+        },
+        {
+          "speaker": "Emma",
+          "fr": "Super ! Il fera chaud, n'oublie pas ton maillot de bain !"
+        },
+        {
+          "speaker": "Lucas",
+          "fr": "Ne t'inquiète pas. Et toi, tu t'occuperas de la location de voiture ?"
+        },
+        {
+          "speaker": "Emma",
+          "fr": "Oui, je m'en occuperai demain. Je t'enverrai les détails par message."
+        },
+        {
+          "speaker": "Lucas",
+          "fr": "Génial, ce sera un séjour inoubliable !"
+        }
+      ],
+      "translation": "Emma: So, it's decided, we're going to Portugal in July?\nLucas: Yes! I'll book the plane tickets tonight. The flight will leave from Montréal on 8 July.\nEmma: Perfect. And where will we sleep, shall we take a hotel?\nLucas: No, it'll be too expensive. I'd rather rent a small flat in Lisbon.\nEmma: OK. How long will we stay there?\nLucas: Ten days. We'll spend a week in Lisbon, then three days on the coast.\nEmma: Great! It'll be hot, don't forget your swimsuit!\nLucas: Don't worry. And will you take care of the car hire?\nEmma: Yes, I'll do it tomorrow. I'll send you the details by text.\nLucas: Brilliant, it'll be an unforgettable stay!",
+      "questions": [
+        {
+          "id": "u09-li01-q1",
+          "question": "Where will they sleep in Lisbon?",
+          "options": [
+            "In a rented flat",
+            "In a hotel",
+            "In a youth hostel",
+            "At a campsite"
+          ],
+          "answer": 0,
+          "explanation": "Lucas says the hotel will be too expensive: « Je préfère louer un petit appartement à Lisbonne. »"
+        },
+        {
+          "id": "u09-li01-q2",
+          "question": "How long will the trip last?",
+          "options": [
+            "Ten days",
+            "One week",
+            "Three days",
+            "Two weeks"
+          ],
+          "answer": 0,
+          "explanation": "« Dix jours. On passera une semaine à Lisbonne, puis trois jours sur la côte. »"
+        },
+        {
+          "id": "u09-li01-q3",
+          "question": "What will Emma do tomorrow?",
+          "options": [
+            "Organise the car hire",
+            "Book the plane tickets",
+            "Buy a swimsuit",
+            "Book the flat"
+          ],
+          "answer": 0,
+          "explanation": "« tu t'occuperas de la location de voiture ? — Oui, je m'en occuperai demain. »"
+        }
+      ]
+    },
+    {
+      "id": "u09-li02",
+      "title": "Annonce à l'aéroport",
+      "level": "A2+",
+      "kind": "announcement",
+      "context": "An announcement in the departure hall of an airport.",
+      "lines": [
+        {
+          "speaker": "Annonce",
+          "fr": "Mesdames et messieurs, votre attention, s'il vous plaît."
+        },
+        {
+          "speaker": "Annonce",
+          "fr": "Le vol CJ 482 à destination de Gatineau partira avec un retard d'environ quarante-cinq minutes."
+        },
+        {
+          "speaker": "Annonce",
+          "fr": "L'embarquement commencera à 15 h 10, porte 22, et non porte 18."
+        },
+        {
+          "speaker": "Annonce",
+          "fr": "Les passagers voyageant avec de jeunes enfants pourront embarquer en premier."
+        },
+        {
+          "speaker": "Annonce",
+          "fr": "Nous vous rappelons que chaque passager devra présenter sa carte d'embarquement et une pièce d'identité."
+        },
+        {
+          "speaker": "Annonce",
+          "fr": "Nous vous prions de nous excuser pour ce retard et nous vous souhaitons un agréable voyage."
+        }
+      ],
+      "translation": "Ladies and gentlemen, your attention please. Flight CJ 482 to Gatineau will leave with a delay of about forty-five minutes. Boarding will begin at 3.10 pm, at gate 22, not gate 18. Passengers travelling with young children will be able to board first. We remind you that every passenger will have to show their boarding pass and an identity document. We apologise for this delay and wish you a pleasant journey.",
+      "questions": [
+        {
+          "id": "u09-li02-q1",
+          "question": "How long is the delay?",
+          "options": [
+            "About 45 minutes",
+            "About 15 minutes",
+            "About 2 hours",
+            "There is no delay"
+          ],
+          "answer": 0,
+          "explanation": "« un retard d'environ quarante-cinq minutes »."
+        },
+        {
+          "id": "u09-li02-q2",
+          "question": "Which gate will passengers board from?",
+          "options": [
+            "Gate 22",
+            "Gate 18",
+            "Gate 15",
+            "Gate 10"
+          ],
+          "answer": 0,
+          "explanation": "« porte 22, et non porte 18 »."
+        },
+        {
+          "id": "u09-li02-q3",
+          "question": "Who will board first?",
+          "options": [
+            "Passengers with young children",
+            "Passengers with no luggage",
+            "Elderly passengers",
+            "Business passengers"
+          ],
+          "answer": 0,
+          "explanation": "« Les passagers voyageant avec de jeunes enfants pourront embarquer en premier. »"
+        }
+      ]
+    }
+  ],
+  "reading": [
+    {
+      "id": "u09-re01",
+      "title": "Votre séjour au gîte",
+      "level": "A2+",
+      "kind": "email",
+      "text": "Objet : Votre séjour au gîte des Tilleuls\n\nBonjour Madame Dubois,\n\nMerci pour votre réservation du 14 au 21 août. Voici quelques informations pratiques pour votre arrivée.\n\nLe gîte se trouve à deux kilomètres du village. Vous pourrez arriver à partir de 16 heures. Si vous arrivez après 20 heures, prévenez-moi : je laisserai la clé dans la boîte aux lettres.\n\nLes draps et les serviettes de toilette seront fournis, mais n'oubliez pas vos serviettes de plage ! La piscine sera ouverte tous les jours de 9 heures à 20 heures.\n\nLe mardi matin, il y a un marché très pittoresque sur la place de l'église. Je vous conseille aussi la randonnée jusqu'au lac : vous verrez des paysages magnifiques.\n\nÀ très bientôt,\n\nFrançois Martel",
+      "translation": "Subject: Your stay at the Gîte des Tilleuls\n\nDear Mrs Dubois,\n\nThank you for your booking from 14 to 21 August. Here is some practical information for your arrival.\n\nThe cottage is two kilometres from the village. You will be able to arrive from 4 pm. If you arrive after 8 pm, let me know: I'll leave the key in the letterbox.\n\nSheets and bath towels will be provided, but don't forget your beach towels! The swimming pool will be open every day from 9 am to 8 pm.\n\nOn Tuesday mornings, there is a very picturesque market in the church square. I also recommend the hike up to the lake: you'll see magnificent scenery.\n\nSee you very soon,\n\nFrançois Martel",
+      "questions": [
+        {
+          "id": "u09-re01-q1",
+          "question": "What will happen if Mrs Dubois arrives after 8 pm?",
+          "options": [
+            "The owner will leave the key in the letterbox if she warns him.",
+            "She will have to sleep in the village.",
+            "She will have to pay extra.",
+            "The owner will wait for her at the church."
+          ],
+          "answer": 0,
+          "explanation": "« Si vous arrivez après 20 heures, prévenez-moi : je laisserai la clé dans la boîte aux lettres. »"
+        },
+        {
+          "id": "u09-re01-q2",
+          "question": "What should she bring?",
+          "options": [
+            "Beach towels",
+            "Sheets",
+            "Bath towels",
+            "A key"
+          ],
+          "answer": 0,
+          "explanation": "Sheets and bath towels are provided, « mais n'oubliez pas vos serviettes de plage ! »"
+        },
+        {
+          "id": "u09-re01-q3",
+          "question": "What does the owner recommend?",
+          "options": [
+            "The Tuesday market and the hike to the lake",
+            "A restaurant in the village",
+            "A boat trip",
+            "Visiting the church"
+          ],
+          "answer": 0,
+          "explanation": "He mentions the picturesque Tuesday market and says « Je vous conseille aussi la randonnée jusqu'au lac »."
+        }
+      ]
+    },
+    {
+      "id": "u09-re02",
+      "title": "Programme de l'été",
+      "level": "A2+",
+      "kind": "notice",
+      "text": "Office de tourisme de Port-Clair\nCet été, découvrez notre ville autrement !\n\nVisites guidées : du 1er juillet au 31 août, un guide vous fera découvrir la vieille ville tous les mardis et jeudis à 10 heures. Départ devant l'office de tourisme. Durée : 1 h 30. Tarif : 8 $, gratuit pour les moins de 12 ans.\n\nExcursion en bateau : le samedi, un bateau partira du port à 14 heures pour faire le tour des îles. Vous pourrez vous baigner dans une petite crique. Attention, les places sont limitées : il faudra réserver au moins deux jours à l'avance.\n\nMarché nocturne : chaque vendredi soir, les artisans de la région présenteront leurs produits sur le port, de 19 heures à minuit.\n\nRenseignements et réservations à l'accueil de l'office de tourisme.",
+      "translation": "Port-Clair Tourist Office\nThis summer, discover our town differently!\n\nGuided tours: from 1 July to 31 August, a guide will show you the old town every Tuesday and Thursday at 10 am. Departure in front of the tourist office. Duration: 1 hour 30. Price: $8, free for under-12s.\n\nBoat trip: on Saturdays, a boat will leave the harbour at 2 pm for a tour of the islands. You'll be able to swim in a small cove. Please note, places are limited: you will have to book at least two days in advance.\n\nNight market: every Friday evening, local craftspeople will present their products at the harbour, from 7 pm to midnight.\n\nInformation and bookings at the tourist office reception.",
+      "questions": [
+        {
+          "id": "u09-re02-q1",
+          "question": "When are the guided tours of the old town?",
+          "options": [
+            "Tuesdays and Thursdays at 10 am",
+            "Every day at 10 am",
+            "Saturdays at 2 pm",
+            "Friday evenings"
+          ],
+          "answer": 0,
+          "explanation": "« tous les mardis et jeudis à 10 heures »."
+        },
+        {
+          "id": "u09-re02-q2",
+          "question": "What do you have to do for the boat trip?",
+          "options": [
+            "Book at least two days in advance",
+            "Bring your own boat",
+            "Arrive at 10 am",
+            "Pay at the harbour"
+          ],
+          "answer": 0,
+          "explanation": "« il faudra réserver au moins deux jours à l'avance »."
+        },
+        {
+          "id": "u09-re02-q3",
+          "question": "Who doesn't pay for the guided tour?",
+          "options": [
+            "Children under 12",
+            "Students",
+            "Local residents",
+            "Groups"
+          ],
+          "answer": 0,
+          "explanation": "« Tarif : 8 $, gratuit pour les moins de 12 ans »."
+        }
+      ]
+    }
+  ],
+  "writing": [
+    {
+      "id": "u09-wr01",
+      "title": "Un service avant les vacances",
+      "level": "A2+",
+      "taskType": "message",
+      "instructions": "Write a message to your neighbour (60–120 words). You are going on holiday: ask them to look after your flat (plants, post…), say where you are going and when you will be back. Use the futur simple.",
+      "promptFr": "Vous partez en vacances. Vous écrivez un message à votre voisin(e) pour lui demander de s'occuper de votre appartement (plantes, courrier…). Vous expliquez où vous irez et quand vous rentrerez. (60 mots minimum / 120 mots maximum)",
+      "minWords": 60,
+      "maxWords": 120,
+      "modelAnswer": "Bonjour Madame Lopez,\n\nJe pars en vacances samedi matin : je passerai deux semaines en Espagne, chez des amis, près de Valence. Est-ce que vous pourrez arroser mes plantes deux fois par semaine ? Je vous laisserai la clé vendredi soir. Si vous avez le temps, vous pourrez aussi prendre mon courrier dans la boîte aux lettres. Je rentrerai le dimanche 24 au soir et je passerai chez vous le lundi pour récupérer la clé. Bien sûr, je vous rapporterai un petit souvenir ! Mon numéro est le 514 555-0178 si vous avez un problème.\n\nMerci beaucoup et à bientôt,\nJulien",
+      "checklist": [
+        "I greet my neighbour politely and sign the message.",
+        "I say where I am going and for how long.",
+        "I ask politely for help (Est-ce que vous pourrez… ?).",
+        "I use the futur simple correctly, including irregular verbs.",
+        "I say when I will be back and thank my neighbour.",
+        "My message has between 60 and 120 words."
+      ]
+    },
+    {
+      "id": "u09-wr02",
+      "title": "Mes prochaines vacances",
+      "level": "A2+",
+      "taskType": "description",
+      "instructions": "Describe your next holidays, real or ideal (120–150 words): where you will go, with whom, how you will travel, where you will stay and what you will do.",
+      "promptFr": "Décrivez vos prochaines vacances (réelles ou idéales) : où vous irez, avec qui, comment vous voyagerez, où vous logerez et ce que vous ferez. (120 mots minimum / 150 mots maximum)",
+      "minWords": 120,
+      "maxWords": 150,
+      "modelAnswer": "L'été prochain, je partirai trois semaines au Québec avec ma meilleure amie, Chloé. Nous prendrons l'avion à Paris et nous atterrirons à Montréal en fin d'après-midi. Nous resterons d'abord quelques jours à Montréal, dans une auberge de jeunesse du centre-ville. Nous visiterons les musées, nous nous promènerons dans le Vieux-Port et, le soir, nous irons écouter de la musique dans les bars. Ensuite, nous louerons une voiture et nous partirons vers le nord. Nous camperons au bord des lacs et nous ferons de longues randonnées dans la forêt. Si nous avons de la chance, nous verrons peut-être des baleines ! Pour finir, nous passerons trois jours à Québec, une ville très pittoresque. Je suis sûre que ce sera un voyage inoubliable et que je voudrai y retourner.",
+      "checklist": [
+        "I say where, when and with whom I will travel.",
+        "I explain how I will travel and where I will stay.",
+        "I describe at least four activities with the futur simple.",
+        "I use at least three irregular futures (irai, ferai, verrai, serai…).",
+        "I use connectors: d'abord, ensuite, pour finir.",
+        "My text has between 120 and 150 words."
+      ]
+    }
+  ],
+  "speaking": [
+    {
+      "id": "u09-sp01",
+      "title": "À l'office de tourisme",
+      "level": "A2+",
+      "taskType": "interaction",
+      "instructions": "Role-play: you are at the tourist office of a seaside town. The examiner is the employee. Ask questions to organise your stay: activities, prices, times, transport.",
+      "promptFr": "Vous êtes à l'office de tourisme d'une ville au bord de la mer. Vous posez des questions à l'employé(e) (l'examinateur) pour organiser votre séjour : activités, prix, horaires, transports.",
+      "prepSeconds": 120,
+      "speakSeconds": 210,
+      "modelAnswer": "Bonjour Madame. Je suis arrivé hier et je resterai ici jusqu'à dimanche avec ma femme et nos deux enfants. Qu'est-ce que vous nous conseillez de faire ? Les enfants adorent la mer : est-ce qu'il y a une plage surveillée près du centre ? On m'a parlé d'une excursion en bateau vers les îles. Elle part à quelle heure, et combien coûtent les billets pour une famille ? S'il pleut un jour, qu'est-ce que nous pourrons visiter ? Un musée, peut-être ? Nous n'avons pas de voiture : est-ce qu'il y a un bus pour aller au phare ? Enfin, est-ce que je peux réserver l'excursion ici, tout de suite ? Merci beaucoup, vous êtes très aimable.",
+      "tips": [
+        "Say who you are and how long you will stay.",
+        "Prepare questions on several topics: activities, prices, times, transport.",
+        "Use si + present + futur: « S'il pleut, qu'est-ce que nous pourrons faire ? »",
+        "Be polite: Bonjour, s'il vous plaît, merci, vous êtes très aimable."
+      ]
+    },
+    {
+      "id": "u09-sp02",
+      "title": "Partir loin ou rester près ?",
+      "level": "A2+",
+      "taskType": "opinion",
+      "instructions": "Give your opinion: is it better to go abroad for your holidays or to stay in your own country? Justify your answer with examples.",
+      "promptFr": "Selon vous, est-ce qu'il vaut mieux partir à l'étranger pendant les vacances ou rester dans son pays ? Pourquoi ?",
+      "prepSeconds": 0,
+      "speakSeconds": 270,
+      "modelAnswer": "À mon avis, les deux sont intéressants, mais je préfère partir à l'étranger. D'abord, c'est plus dépaysant : on découvre une autre culture, une autre cuisine et une autre langue. Par exemple, il y a deux ans, je suis allée au Vietnam et j'ai appris beaucoup de choses. Ensuite, on rencontre des gens très différents. Mais rester dans son pays a aussi des avantages. C'est moins cher, on voyage moins longtemps et c'est meilleur pour la planète, parce qu'on ne prend pas l'avion. Et il y a souvent des régions magnifiques tout près de chez nous ! Alors, je pense qu'on peut alterner. Cet été, par exemple, je resterai au Canada et je visiterai les Rocheuses. L'année prochaine, je partirai sûrement au Japon.",
+      "tips": [
+        "Give your opinion first: « À mon avis… », « Je préfère… »",
+        "Present advantages and disadvantages of both options.",
+        "Give a past example (passé composé) and a future plan (futur simple).",
+        "Conclude with a balanced answer."
+      ]
+    }
+  ],
+  "checkpoint": [
+    {
+      "id": "u09-cp01",
+      "type": "mcq",
+      "level": "A2+",
+      "skill": "structures",
+      "grammarTag": "futur-simple",
+      "prompt": "Choose the correct futur simple form.",
+      "promptFr": "Demain, il ___ beau sur toute la région.",
+      "options": [
+        "fera",
+        "faira",
+        "ferait",
+        "faisait"
+      ],
+      "answer": 0,
+      "explanation": "Faire has the irregular stem fer-: il fera. Ferait is conditional, faisait is imparfait, faira does not exist."
+    },
+    {
+      "id": "u09-cp02",
+      "type": "fill_blank",
+      "level": "A2+",
+      "skill": "structures",
+      "grammarTag": "futur-simple",
+      "prompt": "Put devoir in the futur simple.",
+      "sentence": "Vous ___ montrer votre passeport à la douane.",
+      "answers": [
+        "devrez"
+      ],
+      "hint": "devoir",
+      "translation": "You will have to show your passport at customs.",
+      "explanation": "Devoir has the irregular stem devr-: vous devrez."
+    },
+    {
+      "id": "u09-cp03",
+      "type": "mcq",
+      "level": "A2+",
+      "skill": "structures",
+      "grammarTag": "futur-simple",
+      "prompt": "Choose the correct form after quand.",
+      "promptFr": "Quand je ___ à la retraite, je ferai le tour du monde.",
+      "options": [
+        "serai",
+        "serais",
+        "étais",
+        "serons"
+      ],
+      "answer": 0,
+      "explanation": "After quand, a future action takes the futur simple: quand je serai. Serais is conditional, étais is imparfait, serons goes with nous."
+    },
+    {
+      "id": "u09-cp04",
+      "type": "fill_blank",
+      "level": "A2+",
+      "skill": "structures",
+      "grammarTag": "vocabulary",
+      "prompt": "Complete with a word from the unit.",
+      "sentence": "Notre ___ pour Nice décollera à 18 h 40.",
+      "answers": [
+        "vol",
+        "avion"
+      ],
+      "translation": "Our flight to Nice will take off at 6.40 pm.",
+      "explanation": "Un vol (flight) or un avion (plane) takes off (décoller)."
+    },
+    {
+      "id": "u09-cp05",
+      "type": "mcq",
+      "level": "A2+",
+      "skill": "structures",
+      "grammarTag": "vocabulary",
+      "prompt": "Choose the right word.",
+      "promptFr": "Pour dormir au camping, il faut une ___.",
+      "options": [
+        "tente",
+        "valise",
+        "douane",
+        "plage"
+      ],
+      "answer": 0,
+      "explanation": "At a campsite, you sleep in a tente (tent)."
+    },
+    {
+      "id": "u09-cp06",
+      "type": "fill_blank",
+      "level": "A2+",
+      "skill": "structures",
+      "grammarTag": "futur-simple",
+      "prompt": "Put aller in the futur simple.",
+      "sentence": "Pendant les vacances de février, ils ___ à la montagne.",
+      "answers": [
+        "iront"
+      ],
+      "hint": "aller",
+      "translation": "During the February holidays, they will go to the mountains.",
+      "explanation": "Aller has the irregular stem ir-: ils iront."
+    },
+    {
+      "id": "u09-cp07",
+      "type": "mcq",
+      "level": "A2+",
+      "skill": "structures",
+      "grammarTag": "futur-simple",
+      "prompt": "Choose the correct form.",
+      "promptFr": "Si vous réservez maintenant, vous ___ une réduction de 20 %.",
+      "options": [
+        "aurez",
+        "auriez",
+        "aviez",
+        "avez eu"
+      ],
+      "answer": 0,
+      "explanation": "Si + present (vous réservez), then futur simple: vous aurez. Auriez (conditional) would need si + imparfait."
+    },
+    {
+      "id": "u09-cp08",
+      "type": "fill_blank",
+      "level": "A2+",
+      "skill": "structures",
+      "grammarTag": "futur-simple",
+      "prompt": "Put appeler in the futur simple.",
+      "sentence": "Je t'___ quand j'arriverai à l'hôtel.",
+      "answers": [
+        "appellerai"
+      ],
+      "hint": "appeler",
+      "translation": "I'll call you when I get to the hotel.",
+      "explanation": "Appeler doubles the l in the future: j'appellerai."
+    },
+    {
+      "id": "u09-cp09",
+      "type": "mcq",
+      "level": "A2+",
+      "skill": "structures",
+      "grammarTag": "vocabulary",
+      "prompt": "Choose the right word.",
+      "promptFr": "Un billet pour aller à Montréal et revenir, c'est un ___.",
+      "options": [
+        "aller-retour",
+        "aller simple",
+        "séjour",
+        "visa"
+      ],
+      "answer": 0,
+      "explanation": "Aller-retour = return ticket. An aller simple is one-way; séjour (stay) and visa are not tickets."
+    },
+    {
+      "id": "u09-cp10",
+      "type": "fill_blank",
+      "level": "A2+",
+      "skill": "structures",
+      "grammarTag": "futur-simple",
+      "prompt": "Put voir in the futur simple.",
+      "sentence": "Dimanche, nous ___ enfin la tour Eiffel !",
+      "answers": [
+        "verrons"
+      ],
+      "hint": "voir",
+      "translation": "On Sunday, we'll finally see the Eiffel Tower!",
+      "explanation": "Voir has the irregular stem verr-: nous verrons."
+    }
+  ]
+}

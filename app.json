@@ -1,25 +1,124 @@
 {
   "expo": {
-    "name": "chequejour",
+    "name": "Chaque Jour",
     "slug": "chequejour",
+    "scheme": "chequejour",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
-    "userInterfaceStyle": "light",
+    "userInterfaceStyle": "automatic",
+    "backgroundColor": "#EEF3F8",
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.emeka.chequejour"
     },
     "android": {
+      "package": "com.emeka.chequejour",
       "adaptiveIcon": {
-        "backgroundColor": "#E6F4FE",
+        "backgroundColor": "#1B2440",
         "foregroundImage": "./assets/android-icon-foreground.png",
         "backgroundImage": "./assets/android-icon-background.png",
         "monochromeImage": "./assets/android-icon-monochrome.png"
       },
+      "permissions": [
+        "android.permission.POST_NOTIFICATIONS",
+        "android.permission.SCHEDULE_EXACT_ALARM",
+        "android.permission.RECEIVE_BOOT_COMPLETED",
+        "android.permission.RECORD_AUDIO"
+      ],
       "predictiveBackGestureEnabled": false
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": [
+      "./plugins/with-lean-llama",
+      "expo-router",
+      "expo-status-bar",
+      "expo-sqlite",
+      [
+        "expo-audio",
+        {
+          "microphonePermission": "Chaque Jour records your speaking practice. Recordings stay on this device.",
+          "enableBackgroundPlayback": false,
+          "enableBackgroundRecording": false
+        }
+      ],
+      [
+        "expo-notifications",
+        {
+          "color": "#2F5BD3",
+          "icon": "./assets/notification-icon.png"
+        }
+      ],
+      "expo-sharing",
+      [
+        "expo-font",
+        {
+          "fonts": [
+            "./node_modules/@expo-google-fonts/nunito/700Bold/Nunito_700Bold.ttf"
+          ]
+        }
+      ],
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/splash-icon.png",
+          "imageWidth": 120,
+          "resizeMode": "contain",
+          "backgroundColor": "#EEF3F8",
+          "dark": {
+            "backgroundColor": "#141A2E"
+          }
+        }
+      ],
+      "expo-asset",
+      [
+        "expo-build-properties",
+        {
+          "android": {
+            "enableMinifyInReleaseBuilds": true,
+            "enableShrinkResourcesInReleaseBuilds": true,
+            "extraProguardRules": "# The home-screen widget runs through WorkManager, which creates its database, workers\n# and input mergers by reflection; R8 would strip them from release builds.\n-keep class * extends androidx.room.RoomDatabase { <init>(); }\n-keep class androidx.work.** { *; }\n-keep class com.reactnativeandroidwidget.** { *; }\n# On-device AI pack: language model and the PCM recorder (JNI and reflection).\n-keep class com.rnllama.** { *; }\n-keep class com.imxiqi.rnliveaudiostream.** { *; }"
+          }
+        }
+      ],
+      "@react-native-community/datetimepicker",
+      [
+        "react-native-android-widget",
+        {
+          "widgets": [
+            {
+              "name": "WordOfDay",
+              "label": "Mot du jour",
+              "description": "The word of the day from Chaque Jour, in French and English.",
+              "minWidth": "180dp",
+              "minHeight": "110dp",
+              "targetCellWidth": 3,
+              "targetCellHeight": 2,
+              "resizeMode": "horizontal|vertical",
+              "updatePeriodMillis": 3600000
+            }
+          ]
+        }
+      ],
+      [
+        "expo-speech-recognition",
+        {
+          "microphonePermission": "Chaque Jour records your speaking practice. Recordings stay on this device.",
+          "speechRecognitionPermission": "Chaque Jour can check your pronunciation with on-device speech recognition. Nothing is sent online.",
+          "androidSpeechServicePackages": [
+            "com.google.android.as",
+            "com.google.android.tts"
+          ]
+        }
+      ],
+      [
+        "llama.rn",
+        {
+          "enableOpenCLAndHexagon": false
+        }
+      ]
+    ]
   }
 }

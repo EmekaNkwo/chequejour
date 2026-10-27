@@ -1,0 +1,22 @@
+# Shadowing a listening text: step lines, record a try, compare with the original.
+appId: com.emeka.chequejour
+---
+- runFlow: common/fresh-start.yaml
+- openLink: chequejour://shadow?kind=listening&id=u01-li01
+- assertVisible:
+    id: shadow-screen
+- assertVisible: Line 1 of .*
+- tapOn:
+    id: shadow-next
+- assertVisible: Line 2 of .*
+- tapOn:
+    id: shadow-record
+- assertVisible: Recording…
+- waitForAnimationToEnd:
+    timeout: 2000
+- tapOn:
+    id: shadow-record
+- assertVisible: Your tries for this line
+- tapOn:
+    id: shadow-compare
+- setAirplaneMode: disabled

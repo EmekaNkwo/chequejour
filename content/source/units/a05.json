@@ -1,0 +1,1911 @@
+{
+  "id": "a05",
+  "order": 5,
+  "level": "A1+",
+  "theme": "Daily life, food and shopping",
+  "titleFr": "La vie quotidienne",
+  "description": "Describe your daily routine with reflexive verbs, talk about meals and food, buy things in shops and ask simple questions about prices, places and times.",
+  "vocab": [
+    {
+      "id": "a05-w001",
+      "fr": "se doucher",
+      "en": "to shower",
+      "pos": "verb",
+      "level": "A1+",
+      "core": true,
+      "example": {
+        "fr": "Je me douche le matin, avant le petit-déjeuner.",
+        "en": "I shower in the morning, before breakfast."
+      }
+    },
+    {
+      "id": "a05-w002",
+      "fr": "se préparer",
+      "en": "to get ready",
+      "pos": "verb",
+      "level": "A1+",
+      "core": true,
+      "example": {
+        "fr": "Les enfants se préparent pour l'école.",
+        "en": "The children get ready for school."
+      }
+    },
+    {
+      "id": "a05-w003",
+      "fr": "se maquiller",
+      "en": "to put on make-up",
+      "pos": "verb",
+      "level": "A1+",
+      "core": false,
+      "example": {
+        "fr": "Elle se maquille devant le miroir de la salle de bains.",
+        "en": "She puts on her make-up in front of the bathroom mirror."
+      }
+    },
+    {
+      "id": "a05-w004",
+      "fr": "se coiffer",
+      "en": "to do your hair",
+      "pos": "verb",
+      "level": "A1+",
+      "core": false,
+      "example": {
+        "fr": "Tu te coiffes le matin ou le soir ?",
+        "en": "Do you do your hair in the morning or in the evening?"
+      }
+    },
+    {
+      "id": "a05-w005",
+      "fr": "s'endormir",
+      "en": "to fall asleep",
+      "pos": "verb",
+      "level": "A1+",
+      "core": false,
+      "example": {
+        "fr": "Je m'endors souvent devant la télévision.",
+        "en": "I often fall asleep in front of the TV."
+      }
+    },
+    {
+      "id": "a05-w006",
+      "fr": "se déshabiller",
+      "en": "to get undressed",
+      "pos": "verb",
+      "level": "A1+",
+      "core": false,
+      "example": {
+        "fr": "Le soir, il se déshabille et il met son pyjama.",
+        "en": "In the evening, he gets undressed and puts on his pyjamas."
+      }
+    },
+    {
+      "id": "a05-w007",
+      "fr": "savon",
+      "en": "soap",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "savons",
+      "level": "A1+",
+      "core": false,
+      "example": {
+        "fr": "Il y a du savon à côté du lavabo.",
+        "en": "There is soap next to the washbasin."
+      }
+    },
+    {
+      "id": "a05-w008",
+      "fr": "brosse à dents",
+      "en": "toothbrush",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "brosses à dents",
+      "level": "A1+",
+      "core": false,
+      "example": {
+        "fr": "J'ai une brosse à dents bleue.",
+        "en": "I have a blue toothbrush."
+      }
+    },
+    {
+      "id": "a05-w009",
+      "fr": "prendre le petit-déjeuner",
+      "en": "to have breakfast",
+      "pos": "expression",
+      "level": "A1+",
+      "core": false,
+      "example": {
+        "fr": "Nous prenons le petit-déjeuner à sept heures.",
+        "en": "We have breakfast at seven o'clock."
+      }
+    },
+    {
+      "id": "a05-w010",
+      "fr": "manger",
+      "en": "to eat",
+      "pos": "verb",
+      "level": "A1+",
+      "core": true,
+      "example": {
+        "fr": "Le midi, je mange un sandwich au bureau.",
+        "en": "At lunchtime, I eat a sandwich at the office."
+      }
+    },
+    {
+      "id": "a05-w011",
+      "fr": "boire",
+      "en": "to drink",
+      "pos": "verb",
+      "level": "A1+",
+      "core": true,
+      "example": {
+        "fr": "Je bois un verre d'eau le matin.",
+        "en": "I drink a glass of water in the morning."
+      }
+    },
+    {
+      "id": "a05-w012",
+      "fr": "cuisiner",
+      "en": "to cook",
+      "pos": "verb",
+      "level": "A1+",
+      "core": false,
+      "example": {
+        "fr": "Il cuisine très bien, surtout les plats italiens.",
+        "en": "He cooks very well, especially Italian dishes."
+      }
+    },
+    {
+      "id": "a05-w013",
+      "fr": "déjeuner",
+      "en": "to have lunch",
+      "pos": "verb",
+      "level": "A1+",
+      "core": false,
+      "example": {
+        "fr": "Nous déjeunons ensemble le dimanche.",
+        "en": "We have lunch together on Sundays."
+      }
+    },
+    {
+      "id": "a05-w014",
+      "fr": "dîner",
+      "en": "to have dinner",
+      "pos": "verb",
+      "level": "A1+",
+      "core": false,
+      "example": {
+        "fr": "Ils dînent vers vingt heures.",
+        "en": "They have dinner around 8 p.m."
+      }
+    },
+    {
+      "id": "a05-w015",
+      "fr": "préférer",
+      "en": "to prefer",
+      "pos": "verb",
+      "level": "A1+",
+      "core": false,
+      "example": {
+        "fr": "Je préfère le thé au café.",
+        "en": "I prefer tea to coffee."
+      }
+    },
+    {
+      "id": "a05-w016",
+      "fr": "vendre",
+      "en": "to sell",
+      "pos": "verb",
+      "level": "A1+",
+      "core": false,
+      "example": {
+        "fr": "Ce magasin vend du pain et des gâteaux.",
+        "en": "This shop sells bread and cakes."
+      }
+    },
+    {
+      "id": "a05-w017",
+      "fr": "commander",
+      "en": "to order",
+      "pos": "verb",
+      "level": "A1+",
+      "core": false,
+      "example": {
+        "fr": "Au restaurant, je commande toujours un dessert.",
+        "en": "At the restaurant, I always order a dessert."
+      }
+    },
+    {
+      "id": "a05-w018",
+      "fr": "faire les courses",
+      "en": "to do the shopping",
+      "pos": "expression",
+      "level": "A1+",
+      "core": false,
+      "example": {
+        "fr": "Je fais les courses le samedi matin.",
+        "en": "I do the shopping on Saturday mornings."
+      }
+    },
+    {
+      "id": "a05-w019",
+      "fr": "repas",
+      "en": "meal",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "repas",
+      "level": "A1+",
+      "core": true,
+      "example": {
+        "fr": "Le dîner est mon repas préféré.",
+        "en": "Dinner is my favourite meal."
+      }
+    },
+    {
+      "id": "a05-w020",
+      "fr": "goûter",
+      "en": "afternoon snack",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "goûters",
+      "level": "A1+",
+      "core": false,
+      "example": {
+        "fr": "Les enfants mangent un goûter à quatre heures et demie.",
+        "en": "The children have an afternoon snack at half past four."
+      }
+    },
+    {
+      "id": "a05-w022",
+      "fr": "menu",
+      "en": "set menu, menu",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "menus",
+      "level": "A1+",
+      "core": false,
+      "example": {
+        "fr": "Le menu du jour coûte quinze dollars.",
+        "en": "The menu of the day costs fifteen dollars."
+      }
+    },
+    {
+      "id": "a05-w023",
+      "fr": "plat",
+      "en": "dish, main course",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "plats",
+      "level": "A1+",
+      "core": false,
+      "example": {
+        "fr": "Comme plat, je prends le poulet avec des frites.",
+        "en": "For my main course, I'll have the chicken with chips."
+      }
+    },
+    {
+      "id": "a05-w024",
+      "fr": "dessert",
+      "en": "dessert",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "desserts",
+      "level": "A1+",
+      "core": false,
+      "example": {
+        "fr": "Qu'est-ce que vous prenez comme dessert ?",
+        "en": "What are you having for dessert?"
+      }
+    },
+    {
+      "id": "a05-w025",
+      "fr": "addition",
+      "en": "bill (in a restaurant)",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "additions",
+      "level": "A1+",
+      "core": false,
+      "example": {
+        "fr": "Le serveur apporte l'addition à la fin du repas.",
+        "en": "The waiter brings the bill at the end of the meal."
+      }
+    },
+    {
+      "id": "a05-w026",
+      "fr": "boisson",
+      "en": "drink",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "boissons",
+      "level": "A1+",
+      "core": false,
+      "example": {
+        "fr": "Quelle boisson est-ce que vous voulez ?",
+        "en": "Which drink do you want?"
+      }
+    },
+    {
+      "id": "a05-w027",
+      "fr": "café",
+      "en": "coffee",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "cafés",
+      "level": "A1+",
+      "core": true,
+      "example": {
+        "fr": "Je bois un café noir sans sucre.",
+        "en": "I drink a black coffee without sugar."
+      }
+    },
+    {
+      "id": "a05-w028",
+      "fr": "thé",
+      "en": "tea",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "thés",
+      "level": "A1+",
+      "core": true,
+      "example": {
+        "fr": "Le soir, elle boit un thé à la menthe.",
+        "en": "In the evening, she drinks a mint tea."
+      }
+    },
+    {
+      "id": "a05-w029",
+      "fr": "vin",
+      "en": "wine",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "vins",
+      "level": "A1+",
+      "core": false,
+      "example": {
+        "fr": "Une bouteille de vin rouge coûte huit dollars.",
+        "en": "A bottle of red wine costs eight dollars."
+      }
+    },
+    {
+      "id": "a05-w030",
+      "fr": "bière",
+      "en": "beer",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "bières",
+      "level": "A1+",
+      "core": false,
+      "example": {
+        "fr": "Il commande une bière bien fraîche.",
+        "en": "He orders a nice cold beer."
+      }
+    },
+    {
+      "id": "a05-w031",
+      "fr": "croissant",
+      "en": "croissant",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "croissants",
+      "level": "A1+",
+      "core": true,
+      "example": {
+        "fr": "Le dimanche, nous mangeons des croissants.",
+        "en": "On Sundays, we eat croissants."
+      }
+    },
+    {
+      "id": "a05-w032",
+      "fr": "baguette",
+      "en": "baguette, French stick",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "baguettes",
+      "level": "A1+",
+      "core": true,
+      "example": {
+        "fr": "J'achète une baguette à la boulangerie tous les matins.",
+        "en": "I buy a baguette at the bakery every morning."
+      }
+    },
+    {
+      "id": "a05-w033",
+      "fr": "sandwich",
+      "en": "sandwich",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "sandwichs",
+      "level": "A1+",
+      "core": false,
+      "example": {
+        "fr": "Je prends un sandwich au jambon pour midi.",
+        "en": "I'm taking a ham sandwich for lunch."
+      }
+    },
+    {
+      "id": "a05-w034",
+      "fr": "soupe",
+      "en": "soup",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "soupes",
+      "level": "A1+",
+      "core": false,
+      "example": {
+        "fr": "Le soir, je mange une soupe de légumes.",
+        "en": "In the evening, I eat vegetable soup."
+      }
+    },
+    {
+      "id": "a05-w035",
+      "fr": "frite",
+      "en": "chip, French fry",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "frites",
+      "level": "A1+",
+      "core": false,
+      "example": {
+        "fr": "Les enfants adorent les frites.",
+        "en": "Children love chips."
+      }
+    },
+    {
+      "id": "a05-w036",
+      "fr": "chocolat",
+      "en": "chocolate",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "chocolats",
+      "level": "A1+",
+      "core": false,
+      "example": {
+        "fr": "Tu veux un chocolat chaud ?",
+        "en": "Do you want a hot chocolate?"
+      }
+    },
+    {
+      "id": "a05-w037",
+      "fr": "glace",
+      "en": "ice cream",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "glaces",
+      "level": "A1+",
+      "core": false,
+      "example": {
+        "fr": "Je voudrais une glace à la vanille.",
+        "en": "I would like a vanilla ice cream."
+      }
+    },
+    {
+      "id": "a05-w038",
+      "fr": "céréales",
+      "en": "cereal",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "céréales",
+      "pluralOnly": true,
+      "level": "A1+",
+      "core": false,
+      "example": {
+        "fr": "Mon fils mange des céréales avec du lait.",
+        "en": "My son eats cereal with milk."
+      }
+    },
+    {
+      "id": "a05-w039",
+      "fr": "miel",
+      "en": "honey",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "miels",
+      "level": "A1+",
+      "core": false,
+      "example": {
+        "fr": "Je mets du miel dans mon thé.",
+        "en": "I put honey in my tea."
+      }
+    },
+    {
+      "id": "a05-w040",
+      "fr": "banane",
+      "en": "banana",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "bananes",
+      "level": "A1+",
+      "core": false,
+      "example": {
+        "fr": "Une banane, c'est un bon goûter.",
+        "en": "A banana is a good snack."
+      }
+    },
+    {
+      "id": "a05-w041",
+      "fr": "orange",
+      "en": "orange",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "oranges",
+      "level": "A1+",
+      "core": false,
+      "example": {
+        "fr": "Le kilo d'oranges coûte deux dollars.",
+        "en": "A kilo of oranges costs two dollars."
+      }
+    },
+    {
+      "id": "a05-w042",
+      "fr": "poire",
+      "en": "pear",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "poires",
+      "level": "A1+",
+      "core": false,
+      "example": {
+        "fr": "Ces poires sont très mûres.",
+        "en": "These pears are very ripe."
+      }
+    },
+    {
+      "id": "a05-w043",
+      "fr": "raisin",
+      "en": "grapes",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "raisins",
+      "level": "A1+",
+      "core": false,
+      "example": {
+        "fr": "J'achète du raisin au marché.",
+        "en": "I buy grapes at the market."
+      }
+    },
+    {
+      "id": "a05-w044",
+      "fr": "magasin",
+      "en": "shop",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "magasins",
+      "level": "A1+",
+      "core": true,
+      "example": {
+        "fr": "Le magasin ferme à dix-neuf heures.",
+        "en": "The shop closes at 7 p.m."
+      }
+    },
+    {
+      "id": "a05-w045",
+      "fr": "dollar",
+      "en": "dollar",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "dollars",
+      "level": "A1+",
+      "core": true,
+      "example": {
+        "fr": "Le pain coûte un dollar vingt.",
+        "en": "The bread costs one dollar twenty."
+      }
+    },
+    {
+      "id": "a05-w046",
+      "fr": "cent",
+      "en": "cent",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "cents",
+      "level": "A1+",
+      "core": false,
+      "example": {
+        "fr": "Le croissant coûte quatre-vingt-dix cents.",
+        "en": "The croissant costs ninety cents."
+      }
+    },
+    {
+      "id": "a05-w047",
+      "fr": "argent",
+      "en": "money",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A1+",
+      "core": true,
+      "example": {
+        "fr": "Je n'ai pas assez d'argent pour acheter du vin.",
+        "en": "I don't have enough money to buy wine."
+      }
+    },
+    {
+      "id": "a05-w048",
+      "fr": "sachet",
+      "en": "small bag, sachet",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "sachets",
+      "level": "A1+",
+      "core": false,
+      "example": {
+        "fr": "Je voudrais un sachet de bonbons, s'il vous plaît.",
+        "en": "I would like a bag of sweets, please."
+      }
+    },
+    {
+      "id": "a05-w049",
+      "fr": "part",
+      "en": "slice, portion",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "parts",
+      "level": "A1+",
+      "core": false,
+      "example": {
+        "fr": "Une part de tarte coûte trois dollars.",
+        "en": "A slice of tart costs three dollars."
+      }
+    },
+    {
+      "id": "a05-w050",
+      "fr": "canette",
+      "en": "can (of drink)",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "canettes",
+      "level": "A1+",
+      "core": false,
+      "example": {
+        "fr": "Une canette de soda coûte un dollar cinquante.",
+        "en": "A can of soda costs one dollar fifty."
+      }
+    },
+    {
+      "id": "a05-w051",
+      "fr": "bon / bonne",
+      "en": "good",
+      "pos": "adjective",
+      "level": "A1+",
+      "core": false,
+      "example": {
+        "fr": "Ce gâteau est très bon !",
+        "en": "This cake is very good!"
+      }
+    },
+    {
+      "id": "a05-w052",
+      "fr": "chaud",
+      "en": "hot, warm",
+      "pos": "adjective",
+      "level": "A1+",
+      "core": false,
+      "example": {
+        "fr": "Attention, la soupe est très chaude.",
+        "en": "Careful, the soup is very hot."
+      }
+    },
+    {
+      "id": "a05-w053",
+      "fr": "sucré",
+      "en": "sweet, sugary",
+      "pos": "adjective",
+      "level": "A1+",
+      "core": false,
+      "example": {
+        "fr": "Je n'aime pas le café sucré.",
+        "en": "I don't like sweet coffee."
+      }
+    },
+    {
+      "id": "a05-w054",
+      "fr": "salé",
+      "en": "salty, savoury",
+      "pos": "adjective",
+      "level": "A1+",
+      "core": false,
+      "example": {
+        "fr": "Les frites sont trop salées.",
+        "en": "The chips are too salty."
+      }
+    },
+    {
+      "id": "a05-w055",
+      "fr": "végétarien / végétarienne",
+      "en": "vegetarian",
+      "pos": "adjective",
+      "level": "A1+",
+      "core": false,
+      "example": {
+        "fr": "Ma femme est végétarienne : elle ne mange pas de viande.",
+        "en": "My wife is vegetarian: she doesn't eat meat."
+      }
+    },
+    {
+      "id": "a05-w056",
+      "fr": "avoir faim",
+      "en": "to be hungry",
+      "pos": "expression",
+      "level": "A1+",
+      "core": true,
+      "example": {
+        "fr": "J'ai faim : on mange ?",
+        "en": "I'm hungry: shall we eat?"
+      }
+    },
+    {
+      "id": "a05-w057",
+      "fr": "avoir soif",
+      "en": "to be thirsty",
+      "pos": "expression",
+      "level": "A1+",
+      "core": true,
+      "example": {
+        "fr": "J'ai soif, je voudrais un verre d'eau.",
+        "en": "I'm thirsty, I would like a glass of water."
+      }
+    },
+    {
+      "id": "a05-w058",
+      "fr": "bon appétit !",
+      "en": "enjoy your meal!",
+      "pos": "expression",
+      "level": "A1+",
+      "core": false,
+      "example": {
+        "fr": "Le repas est prêt. Bon appétit !",
+        "en": "The meal is ready. Enjoy your meal!"
+      }
+    },
+    {
+      "id": "a05-w059",
+      "fr": "ça fait combien ?",
+      "en": "how much is that?",
+      "pos": "expression",
+      "level": "A1+",
+      "core": true,
+      "example": {
+        "fr": "Une baguette et deux croissants, ça fait combien ?",
+        "en": "A baguette and two croissants, how much is that?"
+      }
+    },
+    {
+      "id": "a05-w060",
+      "fr": "c'est tout",
+      "en": "that's all",
+      "pos": "expression",
+      "level": "A1+",
+      "core": false,
+      "example": {
+        "fr": "Non merci, c'est tout pour aujourd'hui.",
+        "en": "No thank you, that's all for today."
+      }
+    },
+    {
+      "id": "a05-w061",
+      "fr": "à emporter",
+      "en": "to take away",
+      "pos": "expression",
+      "level": "A1+",
+      "core": false,
+      "example": {
+        "fr": "Je voudrais une pizza à emporter.",
+        "en": "I would like a pizza to take away."
+      }
+    },
+    {
+      "id": "a05-w062",
+      "fr": "qu'est-ce que vous désirez ?",
+      "en": "what would you like?",
+      "pos": "expression",
+      "level": "A1+",
+      "core": false,
+      "example": {
+        "fr": "Bonjour madame, qu'est-ce que vous désirez ?",
+        "en": "Hello madam, what would you like?"
+      }
+    },
+    {
+      "id": "a05-w063",
+      "fr": "combien",
+      "en": "how much, how many",
+      "pos": "adverb",
+      "level": "A1+",
+      "core": true,
+      "example": {
+        "fr": "Combien coûtent les tomates ?",
+        "en": "How much are the tomatoes?"
+      }
+    },
+    {
+      "id": "a05-w064",
+      "fr": "où",
+      "en": "where",
+      "pos": "adverb",
+      "level": "A1+",
+      "core": true,
+      "example": {
+        "fr": "Où est-ce que tu achètes ton pain ?",
+        "en": "Where do you buy your bread?"
+      }
+    },
+    {
+      "id": "a05-w065",
+      "fr": "quand",
+      "en": "when",
+      "pos": "adverb",
+      "level": "A1+",
+      "core": true,
+      "example": {
+        "fr": "Quand est-ce que vous faites les courses ?",
+        "en": "When do you do the shopping?"
+      }
+    },
+    {
+      "id": "a05-w066",
+      "fr": "quel / quelle",
+      "en": "which, what (+ noun)",
+      "pos": "adjective",
+      "level": "A1+",
+      "core": true,
+      "example": {
+        "fr": "Quelle soupe est-ce que vous préférez ?",
+        "en": "Which soup do you prefer?"
+      }
+    },
+    {
+      "id": "a05-w067",
+      "fr": "qu'est-ce que",
+      "en": "what (in a question)",
+      "pos": "expression",
+      "level": "A1+",
+      "core": true,
+      "example": {
+        "fr": "Qu'est-ce que tu manges le matin ?",
+        "en": "What do you eat in the morning?"
+      }
+    }
+  ],
+  "grammar": [
+    {
+      "id": "a05-g01",
+      "title": "Reflexive verbs for your daily routine",
+      "level": "A1+",
+      "grammarTag": "pronominaux",
+      "explanation": [
+        "Some French verbs have a small extra word in front: se. They are called reflexive verbs. In the dictionary you see se laver, se lever, se coucher, s'habiller. The action goes back to the subject: je me lave means 'I wash (myself)'.",
+        "The small pronoun changes with the subject: je → me, tu → te, il / elle / on → se, nous → nous, vous → vous, ils / elles → se. The verb has its normal present-tense endings: je me lave, tu te laves, nous nous lavons.",
+        "Before a vowel or a silent h, me, te and se lose their e and become m', t' and s': je m'habille, tu t'endors, elle s'habille. Nous and vous never change.",
+        "English often uses no pronoun: I get up, I shower, I go to bed. French always keeps it: je me lève, je me douche, je me couche. Most daily-routine verbs work like this.",
+        "In a negative sentence, ne goes before the pronoun and pas goes after the verb: je ne me lève pas tôt. The pronoun always stays right next to the verb: ne + me + lève + pas.",
+        "After another verb (je veux, j'aime, je vais), the reflexive verb stays in the infinitive, but the pronoun still matches the subject: je vais me coucher, tu veux te reposer ?, nous aimons nous lever tard."
+      ],
+      "table": [
+        [
+          "Subject",
+          "se laver (to wash)",
+          "s'habiller (to get dressed)",
+          "Negative: se lever"
+        ],
+        [
+          "je",
+          "je me lave",
+          "je m'habille",
+          "je ne me lève pas"
+        ],
+        [
+          "tu",
+          "tu te laves",
+          "tu t'habilles",
+          "tu ne te lèves pas"
+        ],
+        [
+          "il / elle / on",
+          "il se lave",
+          "elle s'habille",
+          "on ne se lève pas"
+        ],
+        [
+          "nous",
+          "nous nous lavons",
+          "nous nous habillons",
+          "nous ne nous levons pas"
+        ],
+        [
+          "vous",
+          "vous vous lavez",
+          "vous vous habillez",
+          "vous ne vous levez pas"
+        ],
+        [
+          "ils / elles",
+          "ils se lavent",
+          "elles s'habillent",
+          "ils ne se lèvent pas"
+        ]
+      ],
+      "examples": [
+        {
+          "fr": "Je me lève à sept heures et je me douche.",
+          "en": "I get up at seven o'clock and I take a shower."
+        },
+        {
+          "fr": "Tu t'habilles vite le matin ?",
+          "en": "Do you get dressed quickly in the morning?"
+        },
+        {
+          "fr": "Mon frère se rase dans la salle de bains.",
+          "en": "My brother shaves in the bathroom."
+        },
+        {
+          "fr": "Nous nous préparons pour le travail.",
+          "en": "We get ready for work."
+        },
+        {
+          "fr": "Vous vous couchez à quelle heure ?",
+          "en": "What time do you go to bed?"
+        },
+        {
+          "fr": "Les enfants s'endorment à huit heures.",
+          "en": "The children fall asleep at eight o'clock."
+        },
+        {
+          "fr": "Le dimanche, je ne me lève pas tôt.",
+          "en": "On Sundays, I don't get up early."
+        },
+        {
+          "fr": "Elle ne se maquille pas pour aller au travail.",
+          "en": "She doesn't put on make-up to go to work."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "Je lève à sept heures.",
+          "right": "Je me lève à sept heures.",
+          "why": "Se lever is reflexive, so you need the pronoun me. Je lève means 'I lift (something)'."
+        },
+        {
+          "wrong": "Je me ne douche pas.",
+          "right": "Je ne me douche pas.",
+          "why": "Ne goes before the pronoun, not between the pronoun and the verb."
+        },
+        {
+          "wrong": "Je me habille.",
+          "right": "Je m'habille.",
+          "why": "Me becomes m' before a vowel or a silent h."
+        },
+        {
+          "wrong": "Nous se couchons tard.",
+          "right": "Nous nous couchons tard.",
+          "why": "The pronoun must match the subject: nous goes with nous, not se."
+        }
+      ]
+    },
+    {
+      "id": "a05-g02",
+      "title": "Asking simple questions",
+      "level": "A1+",
+      "grammarTag": "questions",
+      "explanation": [
+        "There are two easy ways to ask a yes / no question. The first is intonation: say a normal sentence, but make your voice go up at the end. Tu as faim ? Vous avez du pain ? This is very common when people speak.",
+        "The second way is to put est-ce que at the start: Est-ce que tu as faim ? The rest of the sentence does not change. Before a vowel, que becomes qu': Est-ce qu'il mange ici ?",
+        "To ask for information, use a question word. With est-ce que, the question word comes first: Où est-ce que tu fais les courses ? Quand est-ce que vous dînez ? In relaxed speech, you can also put the question word at the end: Tu fais les courses où ?",
+        "Combien means 'how much' or 'how many'. For prices, say: C'est combien ?, Ça fait combien ? or Combien coûte le pain ? Before a noun, use combien de (no le, la, les): Combien de croissants est-ce que vous voulez ?",
+        "Qu'est-ce que means 'what': Qu'est-ce que tu manges ? Qu'est-ce que vous voulez boire ? Do not start the question with quoi. (In relaxed speech, quoi can go at the end: Tu manges quoi ?)",
+        "Quel means 'which' or 'what' in front of a noun. It agrees with the noun: quel (masculine), quelle (feminine), quels and quelles (plural). They all sound the same. Quel fromage ? Quelle boisson ? À quelle heure ? means 'at what time?'."
+      ],
+      "table": [
+        [
+          "Question word",
+          "Meaning",
+          "Example"
+        ],
+        [
+          "est-ce que",
+          "(yes / no question)",
+          "Est-ce que tu as soif ?"
+        ],
+        [
+          "où",
+          "where",
+          "Où est-ce que tu achètes le pain ?"
+        ],
+        [
+          "quand",
+          "when",
+          "Quand est-ce que vous faites les courses ?"
+        ],
+        [
+          "à quelle heure",
+          "at what time",
+          "À quelle heure est-ce que tu te lèves ?"
+        ],
+        [
+          "combien",
+          "how much",
+          "Combien coûte la baguette ?"
+        ],
+        [
+          "combien de + noun",
+          "how many, how much",
+          "Combien de pommes est-ce que vous voulez ?"
+        ],
+        [
+          "qu'est-ce que",
+          "what",
+          "Qu'est-ce que tu bois le matin ?"
+        ],
+        [
+          "quel / quelle / quels / quelles",
+          "which, what (+ noun)",
+          "Quelle glace est-ce que tu préfères ?"
+        ]
+      ],
+      "examples": [
+        {
+          "fr": "Tu veux un café ?",
+          "en": "Do you want a coffee?"
+        },
+        {
+          "fr": "Est-ce que vous avez des croissants ?",
+          "en": "Do you have any croissants?"
+        },
+        {
+          "fr": "Est-ce qu'elle mange de la viande ?",
+          "en": "Does she eat meat?"
+        },
+        {
+          "fr": "Où est-ce que tu fais les courses ?",
+          "en": "Where do you do the shopping?"
+        },
+        {
+          "fr": "Combien coûtent les poires ?",
+          "en": "How much are the pears?"
+        },
+        {
+          "fr": "Qu'est-ce que vous prenez comme dessert ?",
+          "en": "What are you having for dessert?"
+        },
+        {
+          "fr": "À quelle heure est-ce que vous dînez ?",
+          "en": "What time do you have dinner?"
+        },
+        {
+          "fr": "Quel vin est-ce que vous préférez ?",
+          "en": "Which wine do you prefer?"
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "Est-ce que il a faim ?",
+          "right": "Est-ce qu'il a faim ?",
+          "why": "Que becomes qu' before a vowel."
+        },
+        {
+          "wrong": "Quel boisson est-ce que tu veux ?",
+          "right": "Quelle boisson est-ce que tu veux ?",
+          "why": "Boisson is feminine, so you need quelle."
+        },
+        {
+          "wrong": "Combien de les pommes ?",
+          "right": "Combien de pommes ?",
+          "why": "After combien de, you don't use le, la or les."
+        },
+        {
+          "wrong": "Quoi tu manges ?",
+          "right": "Qu'est-ce que tu manges ?",
+          "why": "Don't start a question with quoi. Use qu'est-ce que at the start (or say tu manges quoi ? in relaxed speech)."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "a05-ex01",
+      "type": "mcq",
+      "level": "A1+",
+      "skill": "structures",
+      "grammarTag": "pronominaux",
+      "prompt": "Choose the correct pronoun.",
+      "promptFr": "Je ___ douche à sept heures.",
+      "options": [
+        "me",
+        "te",
+        "se",
+        "nous"
+      ],
+      "answer": 0,
+      "explanation": "With je, the reflexive pronoun is me: je me douche. Te goes with tu, se with il / elle / ils, nous with nous."
+    },
+    {
+      "id": "a05-ex02",
+      "type": "mcq",
+      "level": "A1+",
+      "skill": "structures",
+      "grammarTag": "pronominaux",
+      "prompt": "Choose the correct pronoun.",
+      "promptFr": "Nous ___ couchons tard le samedi.",
+      "options": [
+        "nous",
+        "vous",
+        "se",
+        "me"
+      ],
+      "answer": 0,
+      "explanation": "With nous, the pronoun is also nous: nous nous couchons. It looks strange, but it is correct."
+    },
+    {
+      "id": "a05-ex03",
+      "type": "mcq",
+      "level": "A1+",
+      "skill": "structures",
+      "grammarTag": "pronominaux",
+      "prompt": "Which sentence is the correct negative of « Je me lève tôt » ?",
+      "options": [
+        "Je ne me lève pas tôt.",
+        "Je me ne lève pas tôt.",
+        "Je ne lève me pas tôt.",
+        "Je ne me pas lève tôt."
+      ],
+      "answer": 0,
+      "explanation": "Ne goes before the pronoun me, and pas goes after the verb lève. The pronoun stays next to the verb."
+    },
+    {
+      "id": "a05-ex04",
+      "type": "mcq",
+      "level": "A1+",
+      "skill": "structures",
+      "grammarTag": "questions",
+      "prompt": "Choose the right question word.",
+      "promptFr": "___ coûte la baguette ? — Un dollar vingt.",
+      "options": [
+        "Combien",
+        "Où",
+        "Quand",
+        "Quel"
+      ],
+      "answer": 0,
+      "explanation": "The answer is a price, so the question asks 'how much': combien. Où asks for a place, quand for a time, and quel needs a noun after it."
+    },
+    {
+      "id": "a05-ex05",
+      "type": "mcq",
+      "level": "A1+",
+      "skill": "structures",
+      "grammarTag": "questions",
+      "prompt": "Choose the correct word.",
+      "promptFr": "___ fromage est-ce que tu préfères ?",
+      "options": [
+        "Quel",
+        "Quelle",
+        "Quels",
+        "Qu'est-ce que"
+      ],
+      "answer": 0,
+      "explanation": "Fromage is masculine and singular, so you use quel. Quelle is feminine, quels is plural, and qu'est-ce que cannot go before a noun."
+    },
+    {
+      "id": "a05-ex06",
+      "type": "mcq",
+      "level": "A1+",
+      "skill": "structures",
+      "grammarTag": "vocabulary",
+      "prompt": "Choose the word that makes sense.",
+      "promptFr": "Au restaurant, à la fin du repas, je demande ___ pour payer.",
+      "options": [
+        "l'addition",
+        "le menu",
+        "la boisson",
+        "le plat"
+      ],
+      "answer": 0,
+      "explanation": "To pay at the end of a meal, you ask for the bill: l'addition. You read the menu at the start, and the drink and the dish are things you order."
+    },
+    {
+      "id": "a05-ex07",
+      "type": "fill_blank",
+      "level": "A1+",
+      "skill": "structures",
+      "grammarTag": "pronominaux",
+      "prompt": "Complete with the reflexive pronoun.",
+      "sentence": "Elle ___ maquille dans la salle de bains.",
+      "answers": [
+        "se"
+      ],
+      "hint": "se maquiller",
+      "translation": "She puts on her make-up in the bathroom.",
+      "explanation": "With elle, the reflexive pronoun is se: elle se maquille."
+    },
+    {
+      "id": "a05-ex08",
+      "type": "fill_blank",
+      "level": "A1+",
+      "skill": "structures",
+      "grammarTag": "pronominaux",
+      "prompt": "Complete with the reflexive pronoun.",
+      "sentence": "Vous ___ préparez pour le travail ?",
+      "answers": [
+        "vous"
+      ],
+      "hint": "se préparer",
+      "translation": "Are you getting ready for work?",
+      "explanation": "With vous, the pronoun is vous: vous vous préparez."
+    },
+    {
+      "id": "a05-ex09",
+      "type": "fill_blank",
+      "level": "A1+",
+      "skill": "structures",
+      "grammarTag": "questions",
+      "prompt": "Complete with a question word.",
+      "sentence": "___ est-ce que tu fais les courses ? — Au marché.",
+      "answers": [
+        "Où"
+      ],
+      "translation": "Where do you do the shopping? — At the market.",
+      "explanation": "The answer is a place (au marché), so the question word is où (where). Don't forget the accent on où: ou without an accent means 'or'."
+    },
+    {
+      "id": "a05-ex10",
+      "type": "fill_blank",
+      "level": "A1+",
+      "skill": "structures",
+      "grammarTag": "questions",
+      "prompt": "Complete the question (meaning 'what').",
+      "sentence": "___ vous mangez ce soir ? — Une soupe.",
+      "answers": [
+        "Qu'est-ce que"
+      ],
+      "translation": "What are you eating tonight? — A soup.",
+      "explanation": "To ask 'what' at the start of a question, use qu'est-ce que: Qu'est-ce que vous mangez ?"
+    },
+    {
+      "id": "a05-ex11",
+      "type": "conjugation",
+      "level": "A1+",
+      "skill": "structures",
+      "grammarTag": "pronominaux",
+      "verb": "se lever",
+      "tense": "présent",
+      "person": "nous",
+      "answers": [
+        "nous levons",
+        "nous nous levons"
+      ],
+      "explanation": "Se lever with nous: nous nous levons. Note: no accent in nous levons, but je me lève has è."
+    },
+    {
+      "id": "a05-ex12",
+      "type": "conjugation",
+      "level": "A1+",
+      "skill": "structures",
+      "grammarTag": "pronominaux",
+      "verb": "se doucher",
+      "tense": "présent",
+      "person": "ils",
+      "answers": [
+        "se douchent",
+        "ils se douchent"
+      ],
+      "explanation": "Se doucher is a regular -er verb: ils se douchent. The -ent ending is silent."
+    },
+    {
+      "id": "a05-ex13",
+      "type": "conjugation",
+      "level": "A1+",
+      "skill": "structures",
+      "grammarTag": "present",
+      "verb": "boire",
+      "tense": "présent",
+      "person": "vous",
+      "answers": [
+        "buvez"
+      ],
+      "explanation": "Boire is irregular: je bois, tu bois, il boit, nous buvons, vous buvez, ils boivent."
+    },
+    {
+      "id": "a05-ex14",
+      "type": "reorder",
+      "level": "A1+",
+      "skill": "structures",
+      "grammarTag": "pronominaux",
+      "prompt": "Put the words in order to make a sentence.",
+      "tokens": [
+        "Le",
+        "dimanche,",
+        "je",
+        "ne",
+        "me",
+        "lève",
+        "pas",
+        "tôt."
+      ],
+      "translation": "On Sundays, I don't get up early.",
+      "explanation": "In the negative, ne comes before the pronoun me and pas comes straight after the verb lève."
+    },
+    {
+      "id": "a05-ex15",
+      "type": "reorder",
+      "level": "A1+",
+      "skill": "structures",
+      "grammarTag": "questions",
+      "prompt": "Put the words in order to make a question.",
+      "tokens": [
+        "À",
+        "quelle",
+        "heure",
+        "est-ce",
+        "que",
+        "tu",
+        "dînes ?"
+      ],
+      "translation": "What time do you have dinner?",
+      "explanation": "The question word (à quelle heure) comes first, then est-ce que, then the subject and the verb."
+    },
+    {
+      "id": "a05-ex16",
+      "type": "match",
+      "level": "A1+",
+      "skill": "structures",
+      "grammarTag": "vocabulary",
+      "prompt": "Match the French words with their meanings.",
+      "pairs": [
+        {
+          "left": "café",
+          "right": "coffee"
+        },
+        {
+          "left": "thé",
+          "right": "tea"
+        },
+        {
+          "left": "bière",
+          "right": "beer"
+        },
+        {
+          "left": "vin",
+          "right": "wine"
+        },
+        {
+          "left": "miel",
+          "right": "honey"
+        }
+      ],
+      "explanation": "These are common food and drink words. Café, thé, vin and miel are masculine; bière is feminine."
+    },
+    {
+      "id": "a05-ex17",
+      "type": "match",
+      "level": "A1+",
+      "skill": "structures",
+      "grammarTag": "questions",
+      "prompt": "Match the question words with their meanings.",
+      "pairs": [
+        {
+          "left": "combien",
+          "right": "how much"
+        },
+        {
+          "left": "où",
+          "right": "where"
+        },
+        {
+          "left": "quand",
+          "right": "when"
+        },
+        {
+          "left": "qu'est-ce que",
+          "right": "what"
+        },
+        {
+          "left": "à quelle heure",
+          "right": "at what time"
+        }
+      ],
+      "explanation": "These question words help you ask about prices, places, times and things."
+    },
+    {
+      "id": "a05-ex18",
+      "type": "translate",
+      "level": "A1+",
+      "skill": "structures",
+      "grammarTag": "vocabulary",
+      "direction": "en-fr",
+      "source": "I would like a baguette and two croissants, please.",
+      "answers": [
+        "Je voudrais une baguette et deux croissants, s'il vous plaît.",
+        "Je voudrais une baguette et deux croissants, s'il te plaît."
+      ],
+      "explanation": "Je voudrais (I would like) is the polite way to order. Baguette is feminine (une) and croissant is masculine."
+    },
+    {
+      "id": "a05-ex19",
+      "type": "translate",
+      "level": "A1+",
+      "skill": "structures",
+      "grammarTag": "questions",
+      "direction": "fr-en",
+      "source": "Où est-ce que vous faites les courses ?",
+      "answers": [
+        "Where do you do the shopping?",
+        "Where do you do your shopping?",
+        "Where do you go shopping?",
+        "Where do you shop?"
+      ],
+      "explanation": "Où = where. Est-ce que only shows that this is a question; you don't translate it. Faire les courses = to do the shopping."
+    },
+    {
+      "id": "a05-ex20",
+      "type": "dictation",
+      "level": "A1+",
+      "skill": "listening",
+      "grammarTag": "pronominaux",
+      "text": "Le matin, je me douche et je bois un café.",
+      "translation": "In the morning, I take a shower and I drink a coffee.",
+      "explanation": "Listen for the small pronoun me in je me douche. The s at the end of bois is silent."
+    }
+  ],
+  "listening": [
+    {
+      "id": "a05-li01",
+      "title": "À la boulangerie",
+      "level": "A1+",
+      "kind": "dialogue",
+      "context": "A customer buys bread in a small bakery in the morning.",
+      "lines": [
+        {
+          "speaker": "Mme Roux",
+          "fr": "Bonjour monsieur, qu'est-ce que vous désirez ?"
+        },
+        {
+          "speaker": "Karim",
+          "fr": "Bonjour madame. Je voudrais une baguette et deux croissants, s'il vous plaît."
+        },
+        {
+          "speaker": "Mme Roux",
+          "fr": "Voilà. Et avec ceci ?"
+        },
+        {
+          "speaker": "Karim",
+          "fr": "Est-ce que vous avez des tartes aux pommes ?"
+        },
+        {
+          "speaker": "Mme Roux",
+          "fr": "Non, désolée, pas aujourd'hui. Mais j'ai des gâteaux au chocolat."
+        },
+        {
+          "speaker": "Karim",
+          "fr": "Non merci, c'est tout. Ça fait combien ?"
+        },
+        {
+          "speaker": "Mme Roux",
+          "fr": "Trois dollars vingt, s'il vous plaît."
+        }
+      ],
+      "translation": "Mme Roux: Hello, sir, what would you like?\nKarim: Hello, madam. I would like a baguette and two croissants, please.\nMme Roux: Here you are. Anything else?\nKarim: Do you have any apple tarts?\nMme Roux: No, sorry, not today. But I have some chocolate cakes.\nKarim: No thank you, that's all. How much is that?\nMme Roux: Three dollars twenty, please.",
+      "questions": [
+        {
+          "id": "a05-li01-q1",
+          "question": "What does Karim buy?",
+          "options": [
+            "A baguette and two croissants",
+            "Two baguettes and a croissant",
+            "A baguette and an apple tart",
+            "A chocolate cake and two croissants"
+          ],
+          "answer": 0,
+          "explanation": "Karim says: « Je voudrais une baguette et deux croissants. » He doesn't buy a cake."
+        },
+        {
+          "id": "a05-li01-q2",
+          "question": "Why doesn't Karim buy an apple tart?",
+          "options": [
+            "There are no apple tarts today.",
+            "They are too expensive.",
+            "He prefers chocolate cake.",
+            "The bakery is closing."
+          ],
+          "answer": 0,
+          "explanation": "Mme Roux says: « Non, désolée, pas aujourd'hui. » There are no apple tarts today."
+        },
+        {
+          "id": "a05-li01-q3",
+          "question": "How much does Karim pay?",
+          "options": [
+            "$3.20",
+            "$2.30",
+            "$3.00",
+            "$13.20"
+          ],
+          "answer": 0,
+          "explanation": "« Trois dollars vingt » means $3.20."
+        }
+      ]
+    },
+    {
+      "id": "a05-li02",
+      "title": "Un message de Paul",
+      "level": "A1+",
+      "kind": "message",
+      "context": "Paul leaves a voice message for his friend Inès about dinner tonight.",
+      "lines": [
+        {
+          "speaker": "Paul",
+          "fr": "Salut Inès, c'est Paul !"
+        },
+        {
+          "speaker": "Paul",
+          "fr": "Ce soir, je fais le dîner chez moi."
+        },
+        {
+          "speaker": "Paul",
+          "fr": "Après le travail, vers dix-huit heures, je fais les courses au supermarché."
+        },
+        {
+          "speaker": "Paul",
+          "fr": "Je voudrais faire une soupe de légumes et du poulet."
+        },
+        {
+          "speaker": "Paul",
+          "fr": "Mais est-ce que tu manges de la viande ? Je ne sais pas !"
+        },
+        {
+          "speaker": "Paul",
+          "fr": "Et toi, est-ce que tu peux acheter une bouteille de vin ?"
+        },
+        {
+          "speaker": "Paul",
+          "fr": "Envoie-moi un message. À ce soir !"
+        }
+      ],
+      "translation": "Paul: Hi Inès, it's Paul!\nPaul: Tonight, I'm making dinner at my place.\nPaul: After work, around six o'clock, I'm doing the shopping at the supermarket.\nPaul: I would like to make a vegetable soup and some chicken.\nPaul: But do you eat meat? I don't know!\nPaul: And you, can you buy a bottle of wine?\nPaul: Send me a message. See you tonight!",
+      "questions": [
+        {
+          "id": "a05-li02-q1",
+          "question": "When does Paul do the shopping?",
+          "options": [
+            "After work, around 6 p.m.",
+            "In the morning, before work",
+            "At lunchtime",
+            "Around 8 p.m., after dinner"
+          ],
+          "answer": 0,
+          "explanation": "He says: « Après le travail, vers dix-huit heures, je fais les courses. »"
+        },
+        {
+          "id": "a05-li02-q2",
+          "question": "What does Paul want to know?",
+          "options": [
+            "If Inès eats meat",
+            "If Inès likes soup",
+            "What time Inès finishes work",
+            "Where the supermarket is"
+          ],
+          "answer": 0,
+          "explanation": "He asks: « Est-ce que tu manges de la viande ? »"
+        },
+        {
+          "id": "a05-li02-q3",
+          "question": "What does Paul ask Inès to buy?",
+          "options": [
+            "A bottle of wine",
+            "Some vegetables",
+            "Some chicken",
+            "Some bread"
+          ],
+          "answer": 0,
+          "explanation": "« Est-ce que tu peux acheter une bouteille de vin ? » Paul buys the food himself."
+        }
+      ]
+    }
+  ],
+  "reading": [
+    {
+      "id": "a05-re01",
+      "title": "Boulangerie Martin",
+      "level": "A1+",
+      "kind": "advert",
+      "text": "BOULANGERIE MARTIN\nOuvert du mardi au dimanche, de 7 h à 19 h. Fermé le lundi.\n\nNos prix :\nBaguette : 1,20 $\nCroissant : 1,10 $\nPain au chocolat : 1,30 $\nSandwich jambon-beurre : 4,50 $\nTarte aux fraises (une part) : 3,50 $\n\nLe matin, un café ou un thé offert pour deux croissants achetés !\nSandwichs à emporter de 11 h à 14 h.",
+      "translation": "MARTIN BAKERY\nOpen from Tuesday to Sunday, from 7 a.m. to 7 p.m. Closed on Mondays.\n\nOur prices:\nBaguette: $1.20\nCroissant: $1.10\nPain au chocolat: $1.30\nHam and butter sandwich: $4.50\nStrawberry tart (one slice): $3.50\n\nIn the morning, a free coffee or tea when you buy two croissants!\nTakeaway sandwiches from 11 a.m. to 2 p.m.",
+      "questions": [
+        {
+          "id": "a05-re01-q1",
+          "question": "Which day is the bakery closed?",
+          "options": [
+            "Monday",
+            "Tuesday",
+            "Sunday",
+            "Saturday"
+          ],
+          "answer": 0,
+          "explanation": "« Fermé le lundi » means closed on Mondays. It is open from Tuesday to Sunday."
+        },
+        {
+          "id": "a05-re01-q2",
+          "question": "How much is a ham and butter sandwich?",
+          "options": [
+            "$4.50",
+            "$1.30",
+            "$3.50",
+            "$1.20"
+          ],
+          "answer": 0,
+          "explanation": "« Sandwich jambon-beurre : 4,50 $ ». $3.50 is the slice of strawberry tart."
+        },
+        {
+          "id": "a05-re01-q3",
+          "question": "What do you get free in the morning if you buy two croissants?",
+          "options": [
+            "A coffee or a tea",
+            "A baguette",
+            "A slice of tart",
+            "A sandwich"
+          ],
+          "answer": 0,
+          "explanation": "« Le matin, un café ou un thé offert pour deux croissants achetés ! » Offert means free."
+        }
+      ]
+    },
+    {
+      "id": "a05-re02",
+      "title": "Un mot pour Théo",
+      "level": "A1+",
+      "kind": "message",
+      "text": "Bonjour Théo !\n\nCe soir, je travaille tard. Tu dînes seul : il y a de la soupe dans le réfrigérateur et du pain sur la table. Après le dîner, tu te douches et tu te couches à neuf heures et demie. Tu ne te couches pas tard, d'accord ? Demain matin, nous nous levons à sept heures pour aller chez Mamie.\n\nBisous,\nMaman",
+      "translation": "Hello Théo!\n\nTonight, I'm working late. You're having dinner on your own: there is soup in the fridge and bread on the table. After dinner, you take a shower and go to bed at half past nine. You don't go to bed late, OK? Tomorrow morning, we're getting up at seven to go to Grandma's.\n\nLove,\nMum",
+      "questions": [
+        {
+          "id": "a05-re02-q1",
+          "question": "What can Théo eat for dinner?",
+          "options": [
+            "Soup and bread",
+            "Chicken and chips",
+            "A sandwich",
+            "Cereal with milk"
+          ],
+          "answer": 0,
+          "explanation": "« Il y a de la soupe dans le réfrigérateur et du pain sur la table. »"
+        },
+        {
+          "id": "a05-re02-q2",
+          "question": "What time must Théo go to bed?",
+          "options": [
+            "At 9.30",
+            "At 9.00",
+            "At 7.00",
+            "At 10.30"
+          ],
+          "answer": 0,
+          "explanation": "« Tu te couches à neuf heures et demie » means at half past nine."
+        },
+        {
+          "id": "a05-re02-q3",
+          "question": "What happens tomorrow morning?",
+          "options": [
+            "They get up at seven to visit Grandma.",
+            "Théo goes to school at seven.",
+            "Mum works late.",
+            "They have breakfast at Grandma's at nine."
+          ],
+          "answer": 0,
+          "explanation": "« Demain matin, nous nous levons à sept heures pour aller chez Mamie. »"
+        }
+      ]
+    }
+  ],
+  "writing": [
+    {
+      "id": "a05-wr01",
+      "title": "A message about dinner",
+      "level": "A1+",
+      "taskType": "message",
+      "instructions": "Write a short message (20–40 words) to your friend Claire. You are doing the shopping for dinner tonight. Ask her what she wants to eat and drink, and what time she is arriving.",
+      "promptFr": "Ce soir, votre amie Claire dîne chez vous. Vous êtes au supermarché. Vous écrivez un message à Claire : vous lui demandez ce qu'elle veut manger et boire, et à quelle heure elle arrive. (20 à 40 mots)",
+      "minWords": 20,
+      "maxWords": 40,
+      "modelAnswer": "Salut Claire !\n\nJe suis au supermarché pour ce soir. Qu'est-ce que tu veux manger : du poulet ou du poisson ? Est-ce que tu bois du vin ? À quelle heure est-ce que tu arrives ?\n\nBises,\nSam",
+      "checklist": [
+        "I greet Claire and sign my message.",
+        "I say where I am and what I am doing.",
+        "I ask what she wants to eat and drink.",
+        "I ask what time she is arriving (à quelle heure).",
+        "I use est-ce que or qu'est-ce que correctly in my questions."
+      ]
+    }
+  ],
+  "speaking": [
+    {
+      "id": "a05-sp01",
+      "title": "Your daily routine",
+      "level": "A1+",
+      "taskType": "entretien",
+      "instructions": "The examiner asks you about your day. Speak for about two minutes, with no preparation: what time you get up, what you do in the morning, your meals and the evening.",
+      "promptFr": "Parlez-moi de votre journée. À quelle heure est-ce que vous vous levez ? Qu'est-ce que vous faites le matin et le soir ?",
+      "prepSeconds": 0,
+      "speakSeconds": 120,
+      "modelAnswer": "Je me lève à six heures et demie. Je me douche et je m'habille. Ensuite, je prends le petit-déjeuner : je mange du pain avec du miel et je bois un café. Je pars au travail à sept heures et demie. À midi, je déjeune avec mes collègues. Le soir, je fais la cuisine et je dîne vers vingt heures. Je ne me couche pas tard : je me couche à dix heures et demie. Je m'endors très vite !",
+      "tips": [
+        "Follow the order of your day: morning, lunchtime, evening.",
+        "Use reflexive verbs with the right pronoun: je me lève, je me douche, je m'habille.",
+        "Give times with à (or vers for 'around'): à sept heures, à midi, vers vingt heures."
+      ]
+    },
+    {
+      "id": "a05-sp02",
+      "title": "Food and shopping",
+      "level": "A1+",
+      "taskType": "entretien",
+      "instructions": "The examiner asks you about food and shopping. Speak for about two minutes, with no preparation: where and when you do the shopping, what you buy, and what you like to eat and drink.",
+      "promptFr": "Où est-ce que vous faites les courses ? Qu'est-ce que vous aimez manger et boire ?",
+      "prepSeconds": 0,
+      "speakSeconds": 120,
+      "modelAnswer": "Je fais les courses le samedi matin, au supermarché près de chez moi. J'achète des fruits, des légumes, du riz et du poulet. Le dimanche, je vais à la boulangerie : je prends une baguette et des croissants. J'aime beaucoup les bananes et les oranges. Le matin, je bois du thé, et pendant la journée, je bois de l'eau. Je ne bois pas de vin. Mon plat préféré, c'est le poulet avec des frites. Et comme dessert, j'adore la glace au chocolat !",
+      "tips": [
+        "Say where and when: au supermarché, au marché, le samedi matin.",
+        "Use du, de la, des for food: du pain, de la soupe, des fruits.",
+        "Add a negative sentence: je ne bois pas de café, je ne mange pas de viande."
+      ]
+    }
+  ],
+  "checkpoint": [
+    {
+      "id": "a05-cp01",
+      "type": "mcq",
+      "level": "A1+",
+      "skill": "structures",
+      "grammarTag": "pronominaux",
+      "prompt": "Choose the correct pronoun.",
+      "promptFr": "Ils ___ lèvent à six heures.",
+      "options": [
+        "se",
+        "s'",
+        "leur",
+        "nous"
+      ],
+      "answer": 0,
+      "explanation": "With ils, the reflexive pronoun is se. S' is only used before a vowel, and lèvent starts with l."
+    },
+    {
+      "id": "a05-cp02",
+      "type": "mcq",
+      "level": "A1+",
+      "skill": "structures",
+      "grammarTag": "pronominaux",
+      "prompt": "Choose the correct pronoun.",
+      "promptFr": "Tu ___habilles dans ta chambre ?",
+      "options": [
+        "t'",
+        "te",
+        "s'",
+        "se"
+      ],
+      "answer": 0,
+      "explanation": "With tu, the pronoun is te, and te becomes t' before a silent h: tu t'habilles. S' and se go with il / elle / ils."
+    },
+    {
+      "id": "a05-cp03",
+      "type": "mcq",
+      "level": "A1+",
+      "skill": "structures",
+      "grammarTag": "vocabulary",
+      "prompt": "Choose the word that makes sense.",
+      "promptFr": "J'ai soif. Je voudrais une ___ d'eau, s'il vous plaît.",
+      "options": [
+        "bouteille",
+        "tranche",
+        "part",
+        "brosse"
+      ],
+      "answer": 0,
+      "explanation": "Water comes in a bottle: une bouteille d'eau. A tranche or a part is a slice of food, and a brosse is a brush."
+    },
+    {
+      "id": "a05-cp04",
+      "type": "mcq",
+      "level": "A1+",
+      "skill": "structures",
+      "grammarTag": "questions",
+      "prompt": "Which question means 'What time do you have lunch?'",
+      "options": [
+        "À quelle heure est-ce que tu déjeunes ?",
+        "Où est-ce que tu déjeunes ?",
+        "Qu'est-ce que tu manges à midi ?",
+        "Combien est-ce que tu déjeunes ?"
+      ],
+      "answer": 0,
+      "explanation": "À quelle heure asks for the time. Où asks for a place, qu'est-ce que asks 'what', and combien asks 'how much'."
+    },
+    {
+      "id": "a05-cp05",
+      "type": "fill_blank",
+      "level": "A1+",
+      "skill": "structures",
+      "grammarTag": "pronominaux",
+      "prompt": "Complete with the reflexive pronoun.",
+      "sentence": "Nous ne ___ couchons pas tard.",
+      "answers": [
+        "nous"
+      ],
+      "translation": "We don't go to bed late.",
+      "explanation": "With nous, the pronoun is nous. In the negative, it stays between ne and the verb: nous ne nous couchons pas."
+    },
+    {
+      "id": "a05-cp06",
+      "type": "fill_blank",
+      "level": "A1+",
+      "skill": "structures",
+      "grammarTag": "questions",
+      "prompt": "Complete with a question word.",
+      "sentence": "___ coûtent les pommes ? — Trois dollars le kilo.",
+      "answers": [
+        "Combien"
+      ],
+      "translation": "How much are the apples? — Three dollars a kilo.",
+      "explanation": "The answer is a price, so you ask combien (how much)."
+    },
+    {
+      "id": "a05-cp07",
+      "type": "conjugation",
+      "level": "A1+",
+      "skill": "structures",
+      "grammarTag": "pronominaux",
+      "verb": "se coiffer",
+      "tense": "présent",
+      "person": "elle",
+      "answers": [
+        "se coiffe",
+        "elle se coiffe"
+      ],
+      "explanation": "Se coiffer is a regular -er verb: elle se coiffe."
+    },
+    {
+      "id": "a05-cp08",
+      "type": "reorder",
+      "level": "A1+",
+      "skill": "structures",
+      "grammarTag": "questions",
+      "prompt": "Put the words in order to make a question.",
+      "tokens": [
+        "Qu'est-ce",
+        "que",
+        "tu",
+        "bois",
+        "le",
+        "matin ?"
+      ],
+      "translation": "What do you drink in the morning?",
+      "explanation": "Qu'est-ce que comes first, then the subject tu and the verb bois."
+    },
+    {
+      "id": "a05-cp09",
+      "type": "translate",
+      "level": "A1+",
+      "skill": "structures",
+      "grammarTag": "pronominaux",
+      "direction": "en-fr",
+      "source": "I don't shower in the evening.",
+      "answers": [
+        "Je ne me douche pas le soir.",
+        "Je ne prends pas de douche le soir.",
+        "Le soir, je ne me douche pas.",
+        "Le soir, je ne prends pas de douche."
+      ],
+      "explanation": "Se doucher is reflexive: je me douche. In the negative: je ne me douche pas."
+    },
+    {
+      "id": "a05-cp10",
+      "type": "translate",
+      "level": "A1+",
+      "skill": "structures",
+      "grammarTag": "questions",
+      "direction": "fr-en",
+      "source": "Combien coûte le croissant ?",
+      "answers": [
+        "How much is the croissant?",
+        "How much does the croissant cost?",
+        "How much is a croissant?",
+        "How much does a croissant cost?"
+      ],
+      "explanation": "Combien coûte… ? means 'How much is / does … cost?'."
+    }
+  ]
+}

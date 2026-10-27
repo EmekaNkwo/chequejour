@@ -1,0 +1,29 @@
+# Placement test from a fresh install; answers the first option each time.
+appId: com.emeka.chequejour
+---
+- setAirplaneMode: enabled
+- clearState
+- launchApp
+- tapOn:
+    id: onboarding-start
+- tapOn:
+    id: start-placement
+- repeat:
+    while:
+      notVisible:
+        id: placement-continue
+    commands:
+      - tapOn:
+          id: option-0
+      - runFlow:
+          when:
+            visible:
+              id: feedback-continue
+          commands:
+            - tapOn:
+                id: feedback-continue
+- tapOn:
+    id: placement-continue
+- assertVisible:
+    id: home-screen
+- setAirplaneMode: disabled
