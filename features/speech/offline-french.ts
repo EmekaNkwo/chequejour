@@ -25,7 +25,10 @@ export interface SpeechApi {
   start(options: SpeechStartOptions): void;
 }
 
-export async function checkOfflineFrench(api: SpeechApi): Promise<OfflineSpeechStatus> {
+/** What the availability check needs to know about the phone. */
+export type SpeechFacts = Pick<SpeechApi, 'platform' | 'apiLevel' | 'supportsOnDeviceRecognition' | 'getSupportedLocales'>;
+
+export async function checkOfflineFrench(api: SpeechFacts): Promise<OfflineSpeechStatus> {
   try {
     const { installedLocales } = await api.getSupportedLocales();
     return offlineFrenchStatus({ platform: api.platform, apiLevel: api.apiLevel, supportsOnDevice: api.supportsOnDeviceRecognition(), installedLocales });

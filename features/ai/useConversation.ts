@@ -35,7 +35,6 @@ export interface Conversation {
 }
 
 export interface ConversationModels {
-  stt: ModelEntry;
   llm: ModelEntry;
 }
 
@@ -153,7 +152,7 @@ export function useConversation(task: ConversationTask, models: ConversationMode
         return;
       }
       uri = take.uri;
-      const text = await transcribe({ model: models.stt, uri: take.uri, durationMs: take.durationMs, signal });
+      const text = await transcribe({ uri: take.uri, durationMs: take.durationMs, signal });
       if (!signal.aborted) say(text);
     } catch (e: unknown) {
       if (signal.aborted) return;
@@ -163,7 +162,7 @@ export function useConversation(task: ConversationTask, models: ConversationMode
     } finally {
       if (uri) deleteTake(uri);
     }
-  }, [models.stt, say]);
+  }, [say]);
 
   const replay = useCallback((index: number) => speak(index, turnsRef.current[index]?.text ?? ''), [speak]);
 

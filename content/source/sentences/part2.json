@@ -17,7 +17,7 @@
   },
   {
     "id": "s193",
-    "fr": "Cet été, nous partirons en Bretagne et nous louerons une petite maison près de la mer.",
+    "fr": "Cet été, nous partirons en Gaspésie et nous louerons une petite maison près de la mer.",
     "en": "This summer we'll go to Brittany and rent a little house near the sea.",
     "grammarNote": "Futur simple for firm plans: 'nous partirons', 'nous louerons'.",
     "grammarTag": "futur-simple",
@@ -41,7 +41,7 @@
   },
   {
     "id": "s196",
-    "fr": "J'ai téléphoné à la mairie et je leur ai expliqué mon problème de stationnement.",
+    "fr": "J'ai téléphoné à l'hôtel de ville et je leur ai expliqué mon problème de stationnement.",
     "en": "I phoned the town hall and explained my parking problem to them.",
     "grammarNote": "'Leur' is the indirect object pronoun for 'à + people': expliquer quelque chose à quelqu'un.",
     "grammarTag": "coi",
@@ -689,7 +689,7 @@
   },
   {
     "id": "s277",
-    "fr": "Tu as pensé à ton rendez-vous de demain à la préfecture ? Oui, j'y pense, ne t'inquiète pas.",
+    "fr": "Tu as pensé à ton rendez-vous de demain à Service Canada ? Oui, j'y pense, ne t'inquiète pas.",
     "en": "Have you remembered your appointment at the prefecture tomorrow? Yes, I've got it in mind, don't worry.",
     "grammarNote": "'Y' replaces 'à + thing' after 'penser à': 'j'y pense'.",
     "grammarTag": "y-en",
@@ -1177,8 +1177,8 @@
   },
   {
     "id": "s338",
-    "fr": "Je cherche un logement dont le loyer ne dépasse pas sept cents euros.",
-    "en": "I'm looking for a place whose rent doesn't exceed seven hundred euros.",
+    "fr": "Je cherche un logement dont le loyer ne dépasse pas sept cents dollars.",
+    "en": "I'm looking for a place whose rent doesn't exceed seven hundred dollars.",
     "grammarNote": "'Dont' for possession: 'un logement dont le loyer…' (whose rent).",
     "grammarTag": "dont",
     "level": "B1"
@@ -1297,7 +1297,7 @@
   },
   {
     "id": "s353",
-    "fr": "Je souhaite que cette rencontre soit l'occasion d'un vrai dialogue entre les habitants et la mairie.",
+    "fr": "Je souhaite que cette rencontre soit l'occasion d'un vrai dialogue entre les habitants et la Ville.",
     "en": "I hope this meeting will be a chance for real dialogue between residents and the town hall.",
     "grammarNote": "'Souhaiter que' takes the subjonctif ('soit'), unlike 'espérer que'.",
     "grammarTag": "subjonctif",
@@ -1433,8 +1433,8 @@
   },
   {
     "id": "s370",
-    "fr": "Elle a raconté qu'elle avait vécu plusieurs années en Afrique avant de s'installer en France.",
-    "en": "She told us she had lived in Africa for several years before settling in France.",
+    "fr": "Elle a raconté qu'elle avait vécu plusieurs années en Afrique avant de s'installer au Québec.",
+    "en": "She told us she had lived in Africa for several years before settling in Québec.",
     "grammarNote": "Reported narrative: passé composé becomes plus-que-parfait ('elle avait vécu').",
     "grammarTag": "discours-indirect",
     "level": "B1"
@@ -1465,8 +1465,8 @@
   },
   {
     "id": "s374",
-    "fr": "Vous devriez vous renseigner auprès de la caisse d'allocations familiales avant de déménager.",
-    "en": "You should check with the family benefits office before moving.",
+    "fr": "Vous devriez vous renseigner auprès de l'Agence du revenu du Canada avant de déménager.",
+    "en": "You should check with the Canada Revenue Agency before moving.",
     "grammarNote": "Conditionnel of 'devoir' ('vous devriez') for polite advice.",
     "grammarTag": "conditionnel",
     "level": "B1"

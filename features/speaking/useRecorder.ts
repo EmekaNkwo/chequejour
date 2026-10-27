@@ -33,12 +33,12 @@ export interface Recorder {
 export interface SavedRecording {
   fileName: string;
   durationMs: number;
-  /** True when saved as 16 kHz WAV, which the speech model can read. */
+  /** True when saved as 16 kHz WAV, which the phone's recognizer can read. */
   wav: boolean;
 }
 
 export interface RecorderOptions {
-  /** Record 16 kHz WAV for the speech model instead of compressed audio. */
+  /** Record 16 kHz WAV for speech recognition instead of compressed audio. */
   wav?: boolean;
 }
 

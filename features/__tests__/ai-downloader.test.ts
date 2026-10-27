@@ -9,17 +9,17 @@ const fs = (jest.requireMock('expo-file-system') as { __fs: FakeFs }).__fs;
 
 const BODY = 'pretend model weights';
 const model: ModelEntry = {
-  id: 'whisper-base',
-  kind: 'stt',
-  name: 'Whisper base',
-  file: 'ggml-base.bin',
-  url: 'https://huggingface.co/x/ggml-base.bin',
+  id: 'qwen3-1.7b',
+  kind: 'llm',
+  name: 'Qwen3 1.7B',
+  file: 'model.gguf',
+  url: 'https://huggingface.co/x/model.gguf',
   bytes: BODY.length,
   sha256: createHash('sha256').update(BODY).digest('hex'),
   licence: 'MIT',
   source: 'test',
 };
-const FINAL = 'file:///documents/ai-pack/ggml-base.bin';
+const FINAL = 'file:///documents/ai-pack/model.gguf';
 const PART = `${FINAL}.part`;
 
 beforeEach(() => {

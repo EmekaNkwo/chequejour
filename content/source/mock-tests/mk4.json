@@ -541,7 +541,7 @@
       "title": "Un stage à Montréal",
       "level": "B1",
       "kind": "dialogue",
-      "context": "Two students in France talking about an internship abroad.",
+      "context": "Two students in Québec talking about an internship.",
       "lines": [
         {
           "speaker": "Chloé",
@@ -607,11 +607,11 @@
       "lines": [
         {
           "speaker": "Voyageuse",
-          "fr": "Bonjour, mon train pour Lyon de dix heures douze est annulé. Qu'est-ce que je peux faire ?"
+          "fr": "Bonjour, mon train pour Montréal de dix heures douze est annulé. Qu'est-ce que je peux faire ?"
         },
         {
           "speaker": "Agent",
-          "fr": "Je suis désolé, madame, il y a un problème sur la voie. Le prochain train direct part à treize heures, mais il est complet. Je peux vous proposer le train de onze heures quarante, avec un changement à Dijon."
+          "fr": "Je suis désolé, madame, il y a un problème sur la voie. Le prochain train direct part à treize heures, mais il est complet. Je peux vous proposer le train de onze heures quarante, avec un changement à Drummondville."
         },
         {
           "speaker": "Voyageuse",
@@ -626,7 +626,7 @@
           "fr": "Bon, je prends celui-là, alors."
         }
       ],
-      "translation": "Traveller: Hello, my 10:12 train to Lyon is cancelled. What can I do? / Agent: I'm sorry, madam, there's a problem on the line. The next direct train leaves at 1 pm, but it's full. I can offer you the 11:40 train, with a change in Dijon. / Traveller: And what time will I arrive? / Agent: At 3:10 pm. And because of the delay, you can claim back half of your ticket on our website. / Traveller: Right, I'll take that one, then.",
+      "translation": "Traveller: Hello, my 10:12 train to Montréal is cancelled. What can I do? / Agent: I'm sorry, madam, there's a problem on the line. The next direct train leaves at 1 pm, but it's full. I can offer you the 11:40 train, with a change in Drummondville. / Traveller: And what time will I arrive? / Agent: At 3:10 pm. And because of the delay, you can claim back half of your ticket on our website. / Traveller: Right, I'll take that one, then.",
       "questions": [
         {
           "id": "mk4-li15-q1",
@@ -635,10 +635,10 @@
             "Le train de onze heures quarante avec un changement",
             "Le train direct de treize heures",
             "Le remboursement complet de son billet",
-            "Un autocar pour Lyon"
+            "Un autocar pour Montréal"
           ],
           "answer": 0,
-          "explanation": "The 1 pm direct train « est complet », so she takes the 11:40 train « avec un changement à Dijon ». She will get half her ticket back, not all of it.",
+          "explanation": "The 1 pm direct train « est complet », so she takes the 11:40 train « avec un changement à Drummondville ». She will get half her ticket back, not all of it.",
           "band": "B1"
         }
       ]
@@ -1055,7 +1055,7 @@
         },
         {
           "speaker": "Madame Lefèvre",
-          "fr": "Rarement à eux seuls, et c'est là que les communes jouent un rôle décisif. Souvent, c'est la mairie qui achète le local et qui le loue à bas prix au commerçant. En échange, celui-ci s'engage à rester ouvert un certain nombre de jours par semaine. Ce qu'il faut comprendre, c'est que ces lieux ne vendent pas seulement des produits : ils recréent du lien social, en particulier pour les personnes âgées qui ne conduisent plus."
+          "fr": "Rarement à eux seuls, et c'est là que les communes jouent un rôle décisif. Souvent, c'est la Ville qui achète le local et qui le loue à bas prix au commerçant. En échange, celui-ci s'engage à rester ouvert un certain nombre de jours par semaine. Ce qu'il faut comprendre, c'est que ces lieux ne vendent pas seulement des produits : ils recréent du lien social, en particulier pour les personnes âgées qui ne conduisent plus."
         }
       ],
       "translation": "Journalist: In many villages, the last shop is closing down. You study this phenomenon, Ms Lefèvre. Is it inevitable? / Ms Lefèvre: I don't think so. It's true that big supermarkets and online shopping have weakened small grocery shops. But a new model is emerging: the multi-service shop. In the same place you can buy your bread, drop off a parcel, have a coffee and sometimes even do administrative paperwork with the help of an employee. / Journalist: Are these shops really profitable? / Ms Lefèvre: Rarely on their own, and that's where local councils play a decisive role. Often the town hall buys the premises and rents them cheaply to the shopkeeper. In return, the shopkeeper commits to staying open a certain number of days a week. What you have to understand is that these places don't just sell products: they rebuild social ties, especially for elderly people who no longer drive.",
@@ -1083,7 +1083,7 @@
             "Elles interdisent les grandes surfaces à proximité"
           ],
           "answer": 1,
-          "explanation": "« C'est la mairie qui achète le local et qui le loue à bas prix au commerçant. »",
+          "explanation": "« C'est la Ville qui achète le local et qui le loue à bas prix au commerçant. »",
           "band": "B2"
         },
         {
@@ -1108,8 +1108,8 @@
       "title": "Restaurant Chez Mamie",
       "level": "A2",
       "kind": "advert",
-      "text": "RESTAURANT CHEZ MAMIE\n\nMenu du jour : 16 €\nEntrée + plat + dessert\nBoisson non comprise\n\nOuvert du mardi au dimanche, midi et soir\nFermé le lundi\nRéservation conseillée le week-end",
-      "translation": "RESTAURANT CHEZ MAMIE\n\nSet menu of the day: €16\nStarter + main course + dessert\nDrink not included\n\nOpen Tuesday to Sunday, lunchtime and evening\nClosed on Mondays\nBooking recommended at weekends",
+      "text": "RESTAURANT CHEZ MAMIE\n\nMenu du jour : 16 $\nEntrée + plat + dessert\nBoisson non comprise\n\nOuvert du mardi au dimanche, midi et soir\nFermé le lundi\nRéservation conseillée le week-end",
+      "translation": "RESTAURANT CHEZ MAMIE\n\nSet menu of the day: $16\nStarter + main course + dessert\nDrink not included\n\nOpen Tuesday to Sunday, lunchtime and evening\nClosed on Mondays\nBooking recommended at weekends",
       "questions": [
         {
           "id": "mk4-re01-q1",

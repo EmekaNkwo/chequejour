@@ -221,7 +221,7 @@
             "Au centre commercial",
             "À l'hôpital",
             "Au centre communautaire",
-            "À la mairie"
+            "À l'hôtel de ville"
           ],
           "answer": 2,
           "explanation": "« Une collecte de sang aura lieu au centre communautaire. » The announcement is heard in a shopping centre, but the blood drive is elsewhere.",
@@ -1173,7 +1173,7 @@
             "Au stationnement de l'école",
             "Dans la rue",
             "Sur le trottoir",
-            "Au garage de la mairie"
+            "Au garage de l'hôtel de ville"
           ],
           "answer": 0,
           "explanation": "« Vous pouvez vous garer gratuitement au stationnement de l'école Saint-Louis. » Cars left in the street will be towed.",

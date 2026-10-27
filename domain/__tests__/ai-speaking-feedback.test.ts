@@ -1,4 +1,4 @@
-import { SPEAKING_FEEDBACK_SCHEMA, checkSpeakingFeedback, speakingFeedbackMessages, type SpeakingFeedbackInput } from '../ai/speaking-feedback';
+import { SPEAKING_FEEDBACK_SCHEMA, checkSpeakingFeedback, speakingFeedbackMessages, type SpeakingFeedbackInput, fromSpeakingReply } from '../ai/speaking-feedback';
 
 const input: SpeakingFeedbackInput = {
   taskType: 'opinion',
@@ -61,5 +61,23 @@ describe('checking speaking feedback', () => {
   it('rejects feedback that grades or that is not in English', () => {
     expect(rejected(() => checkSpeakingFeedback({ ...sound, task: 'Good answer, NCLC 7.' }, input))).toBe(true);
     expect(rejected(() => checkSpeakingFeedback({ ...sound, nextStep: 'Donne un deuxième argument et un exemple de ta ville.' }, input))).toBe(true);
+  });
+});
+
+describe('the reply the model writes', () => {
+  it('names the language in each key, since the model writes the key just before its answer', () => {
+    const reply = {
+      task_in_english: 'You answer the question.',
+      corrections: [{ original: 'que il', corrected: 'qu’il', why_in_english: '"Que" elides before a vowel.' }],
+      phrases: [{ fr: 'à mon avis', en: 'in my opinion' }],
+      next_step_in_english: 'Add an example.',
+    };
+    expect(SPEAKING_FEEDBACK_SCHEMA.safeParse(reply).success).toBe(true);
+    expect(fromSpeakingReply(reply)).toEqual({
+      task: 'You answer the question.',
+      corrections: [{ original: 'que il', corrected: 'qu’il', why: '"Que" elides before a vowel.' }],
+      phrases: [{ fr: 'à mon avis', en: 'in my opinion' }],
+      nextStep: 'Add an example.',
+    });
   });
 });

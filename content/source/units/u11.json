@@ -30,7 +30,7 @@
       "level": "A2",
       "core": true,
       "example": {
-        "fr": "Avec ce diplôme, il pourra enseigner dans un lycée.",
+        "fr": "Avec ce diplôme, il pourra enseigner dans une école secondaire.",
         "en": "With this qualification, he'll be able to teach in a secondary school."
       }
     },
@@ -176,7 +176,7 @@
       "level": "A2+",
       "core": true,
       "example": {
-        "fr": "Les enseignants de ce lycée sont très disponibles.",
+        "fr": "Les enseignants de cette école sont très disponibles.",
         "en": "The teachers at this school are always ready to help."
       }
     },
@@ -294,16 +294,16 @@
     },
     {
       "id": "u11-w022",
-      "fr": "lycéen",
-      "en": "secondary-school pupil (f: lycéenne)",
+      "fr": "cégépien",
+      "en": "CEGEP student, in Québec (f: cégépienne)",
       "pos": "noun",
       "gender": "m",
-      "plural": "lycéens",
+      "plural": "cégépiens",
       "level": "A2+",
       "core": false,
       "example": {
-        "fr": "Les lycéens passent le bac à la fin de la terminale.",
-        "en": "Secondary-school pupils take the bac at the end of their final year."
+        "fr": "Les cégépiens obtiennent leur diplôme après deux ou trois ans d'études.",
+        "en": "CEGEP students get their diploma after two or three years of study."
       }
     },
     {
@@ -386,8 +386,8 @@
       "level": "A2+",
       "core": false,
       "example": {
-        "fr": "Il prépare un master de biologie à Montpellier.",
-        "en": "He's doing a master's in biology in Montpellier."
+        "fr": "Il prépare un master de biologie à Rimouski.",
+        "en": "He's doing a master's in biology in Rimouski."
       }
     },
     {
@@ -407,15 +407,15 @@
     {
       "id": "u11-w030",
       "fr": "baccalauréat",
-      "en": "baccalaureate (French school-leaving exam)",
+      "en": "bachelor's degree (in Québec; in France, the school-leaving exam)",
       "pos": "noun",
       "gender": "m",
       "plural": "baccalauréats",
       "level": "A2+",
       "core": false,
       "example": {
-        "fr": "Le baccalauréat, qu'on appelle souvent « le bac », marque la fin du lycée.",
-        "en": "The baccalaureate, often called 'the bac', marks the end of secondary school."
+        "fr": "Au Québec, le baccalauréat, qu'on appelle souvent « le bac », est un diplôme universitaire de trois ou quatre ans.",
+        "en": "In Québec, the baccalauréat, often called 'le bac', is a three- or four-year university degree."
       }
     },
     {
@@ -428,8 +428,8 @@
       "level": "B1",
       "core": false,
       "example": {
-        "fr": "Il a eu son bac avec mention bien.",
-        "en": "He got his bac with a 'good' distinction."
+        "fr": "Elle a obtenu son diplôme avec mention.",
+        "en": "She graduated with honours."
       }
     },
     {
@@ -1133,7 +1133,7 @@
         "To compare with an adjective or an adverb, put plus (more), moins (less) or aussi (as) before it, and que before the second element: « Ce cours est plus intéressant que l'autre. » « Elle parle aussi vite que son professeur. » The adjective agrees with the noun it describes: « Les épreuves orales sont plus difficiles que l'écrit. »",
         "With nouns, use plus de, moins de or autant de + noun + que: « J'ai plus de cours que l'an dernier. » « Il y a autant d'étudiantes que d'étudiants. » With verbs, put plus, moins or autant after the verb: « Il révise autant que moi. » Remember: aussi goes with adjectives and adverbs, autant with nouns and verbs.",
         "Two very common forms are irregular. Bon (good, adjective) becomes meilleur: « Ses notes sont meilleures que les miennes. » Bien (well, adverb) becomes mieux: « Je travaille mieux le matin. » Never say « plus bon » or « plus bien ». For 'not as good / well', say moins bon(ne) or moins bien. Mauvais has two comparatives: plus mauvais and pire (stronger).",
-        "After que, use a stressed pronoun: moi, toi, lui, elle, nous, vous, eux, elles. Que becomes qu' before a vowel: « plus jeune qu'elle », « moins cher qu'à Paris ».",
+        "After que, use a stressed pronoun: moi, toi, lui, elle, nous, vous, eux, elles. Que becomes qu' before a vowel: « plus jeune qu'elle », « moins cher qu'à Ottawa ».",
         "To describe a trend, use de plus en plus or de moins en moins: « Les formations à distance sont de plus en plus populaires. » With nouns, add de: « de plus en plus d'adultes reprennent leurs études »."
       ],
       "table": [
@@ -1234,7 +1234,7 @@
       "grammarTag": "comparatifs",
       "explanation": [
         "The superlative picks out the top or bottom of a group. Use le, la or les + plus / moins + adjective. The article and the adjective agree with the noun: « la matière la plus difficile », « les étudiants les plus motivés ».",
-        "Most adjectives come after the noun, and so does the superlative, with the article repeated: « l'examen le plus difficile », « la formation la moins chère ». Adjectives that normally come before the noun (grand, petit, bon, beau, jeune, vieux…) can stay before it: « la plus grande université de France ».",
+        "Most adjectives come after the noun, and so does the superlative, with the article repeated: « l'examen le plus difficile », « la formation la moins chère ». Adjectives that normally come before the noun (grand, petit, bon, beau, jeune, vieux…) can stay before it: « la plus grande université du Canada ».",
         "To say 'in' or 'of' the group, use de (du, de la, des): « le meilleur étudiant de la classe », « la ville la plus chère du pays ». Do not use dans here.",
         "Irregular forms: le meilleur / la meilleure / les meilleur(e)s is the adjective (the best): « C'est la meilleure note de la classe. » Le mieux is the adverb (the best way) and never changes: « C'est Léa qui explique le mieux. » With a verb, the article is always le: « C'est elle qui travaille le plus. » Le pire means 'the worst'.",
         "With nouns, use le plus de / le moins de: « C'est en juin qu'on a le plus d'examens. » You can soften a superlative with l'un(e) des… les plus: « C'est l'une des écoles les plus sélectives. »"
@@ -1601,7 +1601,7 @@
           "right": "the start of the school year"
         }
       ],
-      "explanation": "Key words for talking about studies in France."
+      "explanation": "Key words for talking about studies."
     },
     {
       "id": "u11-ex17",
@@ -1692,7 +1692,7 @@
       "title": "Licence ou alternance ?",
       "level": "B1",
       "kind": "dialogue",
-      "context": "A secondary-school student talks to a careers adviser about two options after the bac.",
+      "context": "A secondary-school student talks to a careers adviser about two options after secondary school.",
       "lines": [
         {
           "speaker": "Conseiller",
@@ -1882,8 +1882,8 @@
       "title": "Reprendre ses études à 41 ans",
       "level": "B1",
       "kind": "article",
-      "text": "Reprendre ses études à 41 ans : le pari de Karine\n\nPendant quinze ans, Karine a été caissière dans un supermarché de Rouen. « Ce n'était pas le travail le plus passionnant du monde, mais j'avais un salaire et des horaires fixes », raconte-t-elle. À 41 ans, elle a pourtant décidé de tout changer : elle prépare aujourd'hui un diplôme d'aide-soignante.\n\nSa reconversion n'a pas été simple. « Les premières semaines ont été les plus dures. Je n'avais plus l'habitude de prendre des notes ni de réviser le soir. Les autres élèves avaient vingt ans de moins que moi et apprenaient beaucoup plus vite. » Mais Karine a un avantage : son expérience. « Je suis plus patiente qu'avant, et je sais mieux m'organiser. Face aux patients, c'est un vrai atout. »\n\nSon cas n'est pas isolé. Grâce aux aides à la formation, de plus en plus d'adultes reprennent des études pour changer de métier. Selon les formateurs, ces apprenants sont souvent les plus motivés du groupe, car ils ont fait un choix réfléchi.\n\nKarine passera ses examens en juin. « J'ai le trac, bien sûr. Mais je n'ai jamais été aussi heureuse d'apprendre. »",
-      "translation": "Going back to school at 41: Karine's gamble\n\nFor fifteen years, Karine was a cashier in a supermarket in Rouen. 'It wasn't the most exciting job in the world, but I had a salary and fixed hours,' she says. At 41, however, she decided to change everything: today she is studying for a care assistant's diploma.\n\nHer career change hasn't been easy. 'The first weeks were the hardest. I was no longer used to taking notes or revising in the evening. The other students were twenty years younger than me and learned much faster.' But Karine has one advantage: her experience. 'I'm more patient than before, and I'm better at organising myself. With patients, that's a real asset.'\n\nHer case is not unusual. Thanks to training grants, more and more adults are going back to study to change careers. According to trainers, these learners are often the most motivated in the group, because they have made a carefully considered choice.\n\nKarine will take her exams in June. 'I'm nervous, of course. But I've never been so happy to learn.'",
+      "text": "Reprendre ses études à 41 ans : le pari de Karine\n\nPendant quinze ans, Karine a été caissière dans un supermarché de Longueuil. « Ce n'était pas le travail le plus passionnant du monde, mais j'avais un salaire et des horaires fixes », raconte-t-elle. À 41 ans, elle a pourtant décidé de tout changer : elle prépare aujourd'hui un diplôme d'aide-soignante.\n\nSa reconversion n'a pas été simple. « Les premières semaines ont été les plus dures. Je n'avais plus l'habitude de prendre des notes ni de réviser le soir. Les autres élèves avaient vingt ans de moins que moi et apprenaient beaucoup plus vite. » Mais Karine a un avantage : son expérience. « Je suis plus patiente qu'avant, et je sais mieux m'organiser. Face aux patients, c'est un vrai atout. »\n\nSon cas n'est pas isolé. Grâce aux aides à la formation, de plus en plus d'adultes reprennent des études pour changer de métier. Selon les formateurs, ces apprenants sont souvent les plus motivés du groupe, car ils ont fait un choix réfléchi.\n\nKarine passera ses examens en juin. « J'ai le trac, bien sûr. Mais je n'ai jamais été aussi heureuse d'apprendre. »",
+      "translation": "Going back to school at 41: Karine's gamble\n\nFor fifteen years, Karine was a cashier in a supermarket in Longueuil. 'It wasn't the most exciting job in the world, but I had a salary and fixed hours,' she says. At 41, however, she decided to change everything: today she is studying for a care assistant's diploma.\n\nHer career change hasn't been easy. 'The first weeks were the hardest. I was no longer used to taking notes or revising in the evening. The other students were twenty years younger than me and learned much faster.' But Karine has one advantage: her experience. 'I'm more patient than before, and I'm better at organising myself. With patients, that's a real asset.'\n\nHer case is not unusual. Thanks to training grants, more and more adults are going back to study to change careers. According to trainers, these learners are often the most motivated in the group, because they have made a carefully considered choice.\n\nKarine will take her exams in June. 'I'm nervous, of course. But I've never been so happy to learn.'",
       "questions": [
         {
           "id": "u11-re01-q1",
@@ -1892,7 +1892,7 @@
             "Paying for the course",
             "Getting used to studying again",
             "Working with patients",
-            "Travelling to Rouen"
+            "Travelling to Longueuil"
           ],
           "answer": 1,
           "explanation": "She was no longer used to taking notes or revising in the evening."
@@ -1940,8 +1940,8 @@
       "title": "Cours du soir de langues",
       "level": "B1",
       "kind": "notice",
-      "text": "CENTRE DE LANGUES – UNIVERSITÉ DE VALMONT\nCours du soir de langues étrangères : inscriptions pour le second semestre\n\nLes inscriptions sont ouvertes du 6 au 24 janvier, uniquement en ligne, sur votre espace étudiant.\n\nDeux formules sont proposées :\n– Formule intensive : 4 heures par semaine, en présentiel. C'est la formule la plus efficace pour progresser rapidement, mais aussi la plus exigeante : trois absences entraînent l'exclusion du cours.\n– Formule souple : 2 heures par semaine, à distance, avec un tuteur. Elle demande moins de présence, mais autant de travail personnel.\n\nAvant de vous inscrire, vous devez passer un test de niveau en ligne (30 minutes). Les groupes sont limités à 18 personnes : les premiers inscrits seront les premiers servis.\n\nTarifs : gratuit pour les étudiants de l'université ; 180 € par semestre pour les personnes extérieures.\n\nDébut des cours : lundi 3 février.",
-      "translation": "LANGUAGE CENTRE – UNIVERSITY OF VALMONT\nEvening foreign-language classes: enrolment for the second semester\n\nEnrolment is open from 6 to 24 January, online only, through your student account.\n\nTwo options are offered:\n– Intensive option: 4 hours a week, in person. It is the most effective option for making fast progress, but also the most demanding: three absences lead to exclusion from the class.\n– Flexible option: 2 hours a week, remotely, with a tutor. It requires less attendance, but just as much personal work.\n\nBefore enrolling, you must take a 30-minute online placement test. Groups are limited to 18 people: first come, first served.\n\nFees: free for students of the university; €180 per semester for external participants.\n\nClasses start: Monday 3 February.",
+      "text": "CENTRE DE LANGUES – UNIVERSITÉ DE VALMONT\nCours du soir de langues étrangères : inscriptions pour le second semestre\n\nLes inscriptions sont ouvertes du 6 au 24 janvier, uniquement en ligne, sur votre espace étudiant.\n\nDeux formules sont proposées :\n– Formule intensive : 4 heures par semaine, en présentiel. C'est la formule la plus efficace pour progresser rapidement, mais aussi la plus exigeante : trois absences entraînent l'exclusion du cours.\n– Formule souple : 2 heures par semaine, à distance, avec un tuteur. Elle demande moins de présence, mais autant de travail personnel.\n\nAvant de vous inscrire, vous devez passer un test de niveau en ligne (30 minutes). Les groupes sont limités à 18 personnes : les premiers inscrits seront les premiers servis.\n\nTarifs : gratuit pour les étudiants de l'université ; 180 $ par semestre pour les personnes extérieures.\n\nDébut des cours : lundi 3 février.",
+      "translation": "LANGUAGE CENTRE – UNIVERSITY OF VALMONT\nEvening foreign-language classes: enrolment for the second semester\n\nEnrolment is open from 6 to 24 January, online only, through your student account.\n\nTwo options are offered:\n– Intensive option: 4 hours a week, in person. It is the most effective option for making fast progress, but also the most demanding: three absences lead to exclusion from the class.\n– Flexible option: 2 hours a week, remotely, with a tutor. It requires less attendance, but just as much personal work.\n\nBefore enrolling, you must take a 30-minute online placement test. Groups are limited to 18 people: first come, first served.\n\nFees: free for students of the university; $180 per semester for external participants.\n\nClasses start: Monday 3 February.",
       "questions": [
         {
           "id": "u11-re02-q1",

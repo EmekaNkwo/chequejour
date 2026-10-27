@@ -96,9 +96,34 @@ const reject = (why: string): never => {
   throw new AiError('rejected', why);
 };
 
+/** Scripts the app never shows (CJK, Cyrillic, Arabic, Hebrew, Indic, Thai, full-width): a small model drifting out of French and English. */
+const FOREIGN_SCRIPT = /[\u0400-\u04FF\u0590-\u06FF\u0900-\u0DFF\u0E00-\u0E7F\u3040-\u30FF\u3400-\u9FFF\uAC00-\uD7AF\uF900-\uFAFF\uFF00-\uFFEF]/;
+/** A sentence's last mark, with any closing quote (French puts a space before « »). */
+const SENTENCE_END = /[.!?…](?:[\s\u00A0\u202F]*»|["”’)])*(?=\s|$)/g;
+/** A reply this close to its limit was most likely cut off by the grammar mid-sentence. */
+const NEAR_LIMIT = 0.9;
+
+/** `text` up to the end of its last full sentence, or '' when it has none. */
+function fullSentences(text: string): string {
+  let end = 0;
+  for (const m of text.matchAll(SENTENCE_END)) end = (m.index ?? 0) + m[0].length;
+  return text.slice(0, end).trim();
+}
+
+/**
+ * Keeps what can be shown of a reply that drifted into another script or was cut at the
+ * length limit: its full sentences before that point. A short reply is left as it is.
+ */
+function trimDrift(text: string, maxChars: number): string {
+  const drift = text.search(FOREIGN_SCRIPT);
+  if (drift >= 0) return fullSentences(text.slice(0, drift));
+  if (text.length >= maxChars * NEAR_LIMIT && !/[.!?…](?:[\s\u00A0\u202F]*»|["”’)])*$/.test(text)) return fullSentences(text) || text;
+  return text;
+}
+
 /** The text, trimmed, if it passes; throws AiError('rejected') otherwise. */
 export function checkText(raw: string, { language, maxChars }: TextCheck): string {
-  const text = stripReasoning(raw);
+  const text = trimDrift(stripReasoning(raw), maxChars);
   if (text.length === 0) reject('The AI answer was empty.');
   if (text.length > maxChars) reject('The AI answer was too long.');
   if (TEMPLATE_TOKEN.test(text)) reject('The AI answer was garbled.');

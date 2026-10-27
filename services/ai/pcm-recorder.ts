@@ -1,5 +1,5 @@
 /**
- * Records the microphone as 16 kHz mono PCM for the speech model and writes it out as a
+ * Records the microphone as 16 kHz mono PCM for speech recognition and writes it out as a
  * WAV file in the cache. The native recorder only streams base64 chunks; they are kept
  * in memory (about 32 KB a second) and written once recording stops.
  */

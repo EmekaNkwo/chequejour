@@ -693,36 +693,36 @@
       "level": "A2+",
       "core": false,
       "example": {
-        "fr": "La consultation coûte trente euros.",
-        "en": "The consultation costs thirty euros."
+        "fr": "La consultation coûte trente dollars.",
+        "en": "The consultation costs thirty dollars."
       }
     },
     {
       "id": "u06-w051",
-      "fr": "carte Vitale",
-      "en": "French health insurance card",
+      "fr": "carte d'assurance maladie",
+      "en": "health insurance card (in Québec, from the RAMQ)",
       "pos": "noun",
       "gender": "f",
-      "plural": "cartes Vitale",
+      "plural": "cartes d'assurance maladie",
       "level": "A2+",
       "core": false,
       "example": {
-        "fr": "N'oubliez pas votre carte Vitale pour être remboursé.",
-        "en": "Don't forget your health insurance card so you get reimbursed."
+        "fr": "N'oubliez pas votre carte d'assurance maladie pour votre rendez-vous.",
+        "en": "Don't forget your health insurance card for your appointment."
       }
     },
     {
       "id": "u06-w052",
-      "fr": "mutuelle",
-      "en": "top-up health insurance",
+      "fr": "assurance collective",
+      "en": "group health insurance (through an employer)",
       "pos": "noun",
       "gender": "f",
-      "plural": "mutuelles",
+      "plural": "assurances collectives",
       "level": "A2+",
       "core": false,
       "example": {
-        "fr": "Ma mutuelle rembourse une partie de mes lunettes.",
-        "en": "My top-up insurance pays back part of the cost of my glasses."
+        "fr": "Mon assurance collective rembourse une partie de mes lunettes.",
+        "en": "My group insurance pays back part of the cost of my glasses."
       }
     },
     {
@@ -1273,7 +1273,7 @@
       ],
       "examples": [
         {
-          "fr": "Ta carte Vitale ? Je l'ai trouvée dans la voiture.",
+          "fr": "Ta carte d'assurance maladie ? Je l'ai trouvée dans la voiture.",
           "en": "Your health card? I found it in the car."
         },
         {
@@ -1784,10 +1784,10 @@
         },
         {
           "speaker": "Secrétaire",
-          "fr": "Rappelez-nous au 04 72 15 36 80 pour confirmer. N'oubliez pas votre carte Vitale. Merci et bonne journée."
+          "fr": "Rappelez-nous au 514 555-0180 pour confirmer. N'oubliez pas votre carte d'assurance maladie. Merci et bonne journée."
         }
       ],
-      "translation": "Hello, this is the Les Lilas medical practice. This message is for Ms Sophie Leroy.\nDr Benali is ill, so your appointment tomorrow, Thursday, at ten o'clock is cancelled.\nWe can offer you Friday at 2.30 p.m. with Dr Morel, or Monday morning at 9 a.m. with Dr Benali.\nPlease call us back on 04 72 15 36 80 to confirm. Don't forget your health insurance card. Thank you and have a nice day.",
+      "translation": "Hello, this is the Les Lilas medical practice. This message is for Ms Sophie Leroy.\nDr Benali is ill, so your appointment tomorrow, Thursday, at ten o'clock is cancelled.\nWe can offer you Friday at 2.30 p.m. with Dr Morel, or Monday morning at 9 a.m. with Dr Benali.\nPlease call us back on 514 555-0180 to confirm. Don't forget your health insurance card. Thank you and have a nice day.",
       "questions": [
         {
           "id": "u06-li02-q1",
@@ -1823,7 +1823,7 @@
             "A sick note"
           ],
           "answer": 1,
-          "explanation": "« N'oubliez pas votre carte Vitale »."
+          "explanation": "« N'oubliez pas votre carte d'assurance maladie »."
         }
       ]
     }
@@ -1951,7 +1951,7 @@
       "promptFr": "Racontez une fois où vous avez été malade ou blessé(e). Qu'est-ce qui s'est passé ? Qu'est-ce que vous avez fait pour vous soigner ? (120 à 150 mots)",
       "minWords": 120,
       "maxWords": 150,
-      "modelAnswer": "L'hiver dernier, je suis parti faire du ski avec des amis dans les Alpes. Le deuxième jour, je suis tombé sur une piste difficile et je me suis fait très mal au genou. Je ne pouvais plus marcher ! Mes amis ont appelé les secours, et on m'a emmené à l'hôpital de la station. Là, un médecin m'a examiné et il a fait une radio de ma jambe. Heureusement, ce n'était pas grave : je ne me suis rien cassé. Le médecin m'a donné une ordonnance pour des médicaments contre la douleur et une pommade. Je l'ai mise sur mon genou matin et soir. Il m'a aussi conseillé de me reposer pendant deux semaines. Je suis donc resté à la maison, la jambe sur un coussin. Aujourd'hui, je vais bien, mais je fais plus attention sur les pistes !",
+      "modelAnswer": "L'hiver dernier, je suis parti faire du ski avec des amis dans les Laurentides. Le deuxième jour, je suis tombé sur une piste difficile et je me suis fait très mal au genou. Je ne pouvais plus marcher ! Mes amis ont appelé les secours, et on m'a emmené à l'hôpital de la station. Là, un médecin m'a examiné et il a fait une radio de ma jambe. Heureusement, ce n'était pas grave : je ne me suis rien cassé. Le médecin m'a donné une ordonnance pour des médicaments contre la douleur et une pommade. Je l'ai mise sur mon genou matin et soir. Il m'a aussi conseillé de me reposer pendant deux semaines. Je suis donc resté à la maison, la jambe sur un coussin. Aujourd'hui, je vais bien, mais je fais plus attention sur les pistes !",
       "checklist": [
         "I said when and where it happened.",
         "I told the events in order with the passé composé (and the imparfait for the situation).",
@@ -2006,7 +2006,7 @@
       "skill": "structures",
       "grammarTag": "cod",
       "prompt": "Choose the correct pronoun.",
-      "promptFr": "Ta carte Vitale ? Je ___ ai dans mon sac.",
+      "promptFr": "Ta carte d'assurance maladie ? Je ___ ai dans mon sac.",
       "options": [
         "l'",
         "la",
@@ -2088,7 +2088,7 @@
       "options": [
         "à la pharmacie",
         "à la boulangerie",
-        "à la mairie",
+        "à l'hôtel de ville",
         "à la gare"
       ],
       "answer": 0,

@@ -1,11 +1,11 @@
 /**
- * Tidies what the speech model heard before a learner sees it. Whisper writes sound
- * tags and, on silence, the subtitle credits it saw in training; neither was said.
+ * Tidies what the recognizer heard before a learner sees it: stray spaces, and any sound
+ * tags or invented subtitle credits (some speech models write them on silence).
  */
 import { countWords } from '../writing/word-count';
 
 const SOUND_TAG = /\[[^\]]*\]|\([^)]*\)/g;
-/** Subtitle credits Whisper invents for quiet audio, to the end of the text. */
+/** Subtitle credits a speech model may invent for quiet audio, to the end of the text. */
 const CREDITS = /\s*sous-titr(?:es|age)\b(?:\s+(?:réalisés|fait|faits)\b.*|\s+ST\b.*|\s+par\b.*|\s+para\b.*)$/i;
 
 export function cleanTranscript(raw: string): string {

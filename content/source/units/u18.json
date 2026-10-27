@@ -58,7 +58,7 @@
       "level": "B1",
       "core": true,
       "example": {
-        "fr": "J'ai trouvé cette offre d'emploi sur le site de la mairie.",
+        "fr": "J'ai trouvé cette offre d'emploi sur le site de la Ville.",
         "en": "I found this job advert on the town hall's website."
       }
     },
@@ -1254,8 +1254,8 @@
       ],
       "examples": [
         {
-          "fr": "Des postes à Lyon ? Oui, il y en a trois.",
-          "en": "Jobs in Lyon? Yes, there are three."
+          "fr": "Des postes à Montréal ? Oui, il y en a trois.",
+          "en": "Jobs in Montréal? Yes, there are three."
         },
         {
           "fr": "Tu as parlé de ta candidature à ton chef ? — Oui, je lui en ai parlé hier.",
@@ -2033,7 +2033,7 @@
       "level": "B1",
       "kind": "article",
       "text": "Le savoir-être, nouvelle priorité des recruteurs\n\nPendant longtemps, le diplôme et l'expérience ont été les deux critères principaux pour décrocher un emploi. Ce n'est plus tout à fait le cas. Selon une enquête menée auprès de 500 entreprises françaises, sept recruteurs sur dix affirment avoir déjà refusé un candidat très qualifié à cause de son comportement pendant l'entretien.\n\nCe que les employeurs recherchent désormais, ce sont aussi des qualités humaines : l'esprit d'équipe, la capacité à s'adapter, la curiosité ou encore la fiabilité. C'est ce qu'on appelle le « savoir-être ». « Les compétences techniques, on peut les apprendre en quelques mois. Mais une personne qui n'écoute personne et qui ne se remet jamais en question, c'est beaucoup plus difficile à changer », explique Claire Morel, responsable du recrutement dans une PME lyonnaise.\n\nPour les candidats, cela change la façon de préparer un entretien. Il ne suffit plus de réciter son CV : il faut raconter des situations concrètes qui montrent ses qualités. Un conseil des spécialistes : préparez trois ou quatre exemples précis avant le jour J. Et n'oubliez pas que l'entretien commence dès votre arrivée : la façon dont vous saluez la personne à l'accueil compte aussi !",
-      "translation": "Soft skills, recruiters' new priority\n\nFor a long time, qualifications and experience were the two main criteria for landing a job. That is no longer quite the case. According to a survey of 500 French companies, seven recruiters out of ten say they have already turned down a highly qualified candidate because of their behaviour during the interview.\n\nWhat employers are now looking for are also human qualities: team spirit, adaptability, curiosity and reliability. This is what is called 'savoir-être' (soft skills). 'Technical skills can be learned in a few months. But someone who doesn't listen to anyone and never questions themselves is much harder to change,' explains Claire Morel, head of recruitment at a small company in Lyon.\n\nFor candidates, this changes the way they prepare for an interview. It is no longer enough to recite your CV: you need to describe concrete situations that show your qualities. One piece of advice from specialists: prepare three or four precise examples before the big day. And don't forget that the interview begins as soon as you arrive: the way you greet the person at reception matters too!",
+      "translation": "Soft skills, recruiters' new priority\n\nFor a long time, qualifications and experience were the two main criteria for landing a job. That is no longer quite the case. According to a survey of 500 French companies, seven recruiters out of ten say they have already turned down a highly qualified candidate because of their behaviour during the interview.\n\nWhat employers are now looking for are also human qualities: team spirit, adaptability, curiosity and reliability. This is what is called 'savoir-être' (soft skills). 'Technical skills can be learned in a few months. But someone who doesn't listen to anyone and never questions themselves is much harder to change,' explains Claire Morel, head of recruitment at a small company in Montréal.\n\nFor candidates, this changes the way they prepare for an interview. It is no longer enough to recite your CV: you need to describe concrete situations that show your qualities. One piece of advice from specialists: prepare three or four precise examples before the big day. And don't forget that the interview begins as soon as you arrive: the way you greet the person at reception matters too!",
       "questions": [
         {
           "id": "u18-re01-q1",
@@ -2090,8 +2090,8 @@
       "title": "Offre d'emploi : assistant(e) commercial(e)",
       "level": "B1",
       "kind": "advert",
-      "text": "OFFRE D'EMPLOI\n\nLa Fabrique Verte, PME de 45 salariés spécialisée dans les produits d'entretien écologiques, recrute un(e) assistant(e) commercial(e) en CDI.\n\nVos missions :\n– répondre aux demandes des clients par téléphone et par courriel ;\n– préparer les devis et suivre les commandes ;\n– participer à l'organisation des salons professionnels.\n\nVotre profil :\n– vous êtes rigoureux(se), organisé(e) et vous avez le sens du contact ;\n– vous maîtrisez les outils bureautiques, en particulier le tableur ;\n– un bon niveau d'anglais est indispensable ; des notions d'allemand seraient un plus.\n\nAucun diplôme précis n'est exigé, mais une première expérience sur un poste similaire est souhaitée.\n\nRémunération : entre 2 100 et 2 300 € brut par mois, selon l'expérience. Poste basé à Nantes, avec deux jours de télétravail possibles par semaine.\n\nPour postuler, envoyez votre CV et votre lettre de motivation à Mme Karine Leroy avant le 30 avril, en précisant la référence AC-24.",
-      "translation": "JOB OFFER\n\nLa Fabrique Verte, a 45-employee SME specialising in eco-friendly cleaning products, is recruiting a sales assistant on a permanent contract.\n\nYour duties:\n– answering customer enquiries by phone and email;\n– preparing quotes and following up orders;\n– helping to organise trade fairs.\n\nYour profile:\n– you are meticulous, organised and good with people;\n– you have a good command of office software, especially spreadsheets;\n– a good level of English is essential; some knowledge of German would be a plus.\n\nNo specific qualification is required, but some previous experience in a similar position is preferred.\n\nPay: between €2,100 and €2,300 gross per month, depending on experience. The job is based in Nantes, with the possibility of two days a week working from home.\n\nTo apply, send your CV and cover letter to Ms Karine Leroy before 30 April, quoting reference AC-24.",
+      "text": "OFFRE D'EMPLOI\n\nLa Fabrique Verte, PME de 45 salariés spécialisée dans les produits d'entretien écologiques, recrute un(e) assistant(e) commercial(e) en CDI.\n\nVos missions :\n– répondre aux demandes des clients par téléphone et par courriel ;\n– préparer les devis et suivre les commandes ;\n– participer à l'organisation des salons professionnels.\n\nVotre profil :\n– vous êtes rigoureux(se), organisé(e) et vous avez le sens du contact ;\n– vous maîtrisez les outils bureautiques, en particulier le tableur ;\n– un bon niveau d'anglais est indispensable ; des notions d'allemand seraient un plus.\n\nAucun diplôme précis n'est exigé, mais une première expérience sur un poste similaire est souhaitée.\n\nRémunération : entre 2 100 et 2 300 $ brut par mois, selon l'expérience. Poste basé à Trois-Rivières, avec deux jours de télétravail possibles par semaine.\n\nPour postuler, envoyez votre CV et votre lettre de motivation à Mme Karine Leroy avant le 30 avril, en précisant la référence AC-24.",
+      "translation": "JOB OFFER\n\nLa Fabrique Verte, a 45-employee SME specialising in eco-friendly cleaning products, is recruiting a sales assistant on a permanent contract.\n\nYour duties:\n– answering customer enquiries by phone and email;\n– preparing quotes and following up orders;\n– helping to organise trade fairs.\n\nYour profile:\n– you are meticulous, organised and good with people;\n– you have a good command of office software, especially spreadsheets;\n– a good level of English is essential; some knowledge of German would be a plus.\n\nNo specific qualification is required, but some previous experience in a similar position is preferred.\n\nPay: between $2,100 and $2,300 gross per month, depending on experience. The job is based in Trois-Rivières, with the possibility of two days a week working from home.\n\nTo apply, send your CV and cover letter to Ms Karine Leroy before 30 April, quoting reference AC-24.",
       "questions": [
         {
           "id": "u18-re02-q1",
@@ -2111,7 +2111,7 @@
           "options": [
             "Some knowledge of German",
             "A specific qualification",
-            "Living in Nantes",
+            "Living in Trois-Rivières",
             "A good level of English"
           ],
           "answer": 3,
@@ -2151,7 +2151,7 @@
       "level": "B1",
       "taskType": "message",
       "instructions": "Write a short formal email applying for the job in the advert. Present your background, your qualities and your availability.",
-      "promptFr": "Vous avez lu cette annonce sur un site d'emploi : « Hôtel des Arts, Bordeaux, recherche réceptionniste (H/F) pour la saison d'été. Anglais exigé. » Vous écrivez un courriel au responsable pour présenter votre candidature. Vous présentez votre parcours, vos qualités et vos disponibilités. (60 à 120 mots)",
+      "promptFr": "Vous avez lu cette annonce sur un site d'emploi : « Hôtel des Arts, Sherbrooke, recherche réceptionniste (H/F) pour la saison d'été. Anglais exigé. » Vous écrivez un courriel au responsable pour présenter votre candidature. Vous présentez votre parcours, vos qualités et vos disponibilités. (60 à 120 mots)",
       "minWords": 60,
       "maxWords": 120,
       "modelAnswer": "Objet : Candidature au poste de réceptionniste\n\nMadame, Monsieur,\n\nSuite à votre annonce, je souhaite poser ma candidature au poste de réceptionniste pour la saison d'été.\n\nJ'ai travaillé deux ans à l'accueil d'une auberge de jeunesse à Lisbonne, où je gérais les réservations et répondais aux demandes des clients. Je parle couramment anglais et portugais.\n\nJe suis organisée et souriante, et je n'ai aucun problème avec les horaires de nuit ou de week-end. Je suis disponible dès le 1er juin.\n\nVous trouverez mon CV en pièce jointe. Je me tiens à votre disposition pour un entretien.\n\nVeuillez agréer, Madame, Monsieur, mes salutations distinguées.\n\nSofia Martins",
@@ -2173,7 +2173,7 @@
       "promptFr": "Pour trouver un emploi, certains pensent que le diplôme est essentiel, d'autres que l'expérience compte davantage. Quelle est votre opinion ? Justifiez votre réponse avec des exemples. (120 à 180 mots)",
       "minWords": 120,
       "maxWords": 180,
-      "modelAnswer": "À mon avis, le diplôme et l'expérience sont tous les deux importants, mais l'expérience a souvent plus de poids.\n\nD'un côté, le diplôme reste nécessaire pour certains métiers. On ne peut pas devenir médecin ou avocat sans études longues, et beaucoup d'entreprises n'examinent aucune candidature sans un certain niveau de formation.\n\nD'un autre côté, un diplôme ne garantit pas qu'on sache travailler en équipe ou gérer des imprévus. C'est sur le terrain qu'on apprend vraiment un métier. Ma cousine, par exemple, n'avait que le baccalauréat, mais après trois ans de petits boulots dans la restauration, elle a été embauchée comme responsable d'un restaurant.\n\nDe plus, de nombreux recruteurs accordent aujourd'hui beaucoup d'importance au savoir-être, qui ne s'apprend pas à l'université.\n\nEn conclusion, je pense que le diplôme ouvre des portes, mais que c'est l'expérience qui permet ensuite de progresser.",
+      "modelAnswer": "À mon avis, le diplôme et l'expérience sont tous les deux importants, mais l'expérience a souvent plus de poids.\n\nD'un côté, le diplôme reste nécessaire pour certains métiers. On ne peut pas devenir médecin ou avocat sans études longues, et beaucoup d'entreprises n'examinent aucune candidature sans un certain niveau de formation.\n\nD'un autre côté, un diplôme ne garantit pas qu'on sache travailler en équipe ou gérer des imprévus. C'est sur le terrain qu'on apprend vraiment un métier. Ma cousine, par exemple, n'avait que son diplôme d'études secondaires, mais après trois ans de petits boulots dans la restauration, elle a été embauchée comme responsable d'un restaurant.\n\nDe plus, de nombreux recruteurs accordent aujourd'hui beaucoup d'importance au savoir-être, qui ne s'apprend pas à l'université.\n\nEn conclusion, je pense que le diplôme ouvre des portes, mais que c'est l'expérience qui permet ensuite de progresser.",
       "checklist": [
         "I give my opinion clearly in the introduction and the conclusion.",
         "I present arguments on both sides with connectors (d'un côté, d'un autre côté, de plus, en conclusion).",
@@ -2193,7 +2193,7 @@
       "promptFr": "Vous passez un entretien d'embauche pour un poste de vendeur ou vendeuse dans une librairie. L'examinateur joue le rôle du recruteur. Vous vous présentez, vous répondez à ses questions et vous lui posez au moins deux questions sur le poste.",
       "prepSeconds": 120,
       "speakSeconds": 210,
-      "modelAnswer": "(Bonjour, présentez-vous, s'il vous plaît.)\nBonjour, madame. Je m'appelle Daniel, j'ai vingt-huit ans et j'habite à Rennes depuis deux ans. J'ai travaillé trois ans dans une boutique de jeux vidéo, où je conseillais les clients et je gérais les stocks.\n(Pourquoi voulez-vous travailler dans une librairie ?)\nJ'adore lire, surtout des romans policiers, et j'aime partager mes découvertes. Je pense que c'est un atout pour conseiller les clients.\n(Vous avez déjà travaillé dans une librairie ?)\nNon, je n'y ai jamais travaillé, mais j'apprends vite et je suis très organisé.\nJ'ai deux questions, si vous permettez. Quels seraient les horaires de travail ? Et est-ce qu'il y a une formation au début ?\n(Vous travaillerez du mardi au samedi, et oui, il y a une semaine de formation.)\nParfait, merci beaucoup. Je suis vraiment motivé par ce poste.",
+      "modelAnswer": "(Bonjour, présentez-vous, s'il vous plaît.)\nBonjour, madame. Je m'appelle Daniel, j'ai vingt-huit ans et j'habite à Lévis depuis deux ans. J'ai travaillé trois ans dans une boutique de jeux vidéo, où je conseillais les clients et je gérais les stocks.\n(Pourquoi voulez-vous travailler dans une librairie ?)\nJ'adore lire, surtout des romans policiers, et j'aime partager mes découvertes. Je pense que c'est un atout pour conseiller les clients.\n(Vous avez déjà travaillé dans une librairie ?)\nNon, je n'y ai jamais travaillé, mais j'apprends vite et je suis très organisé.\nJ'ai deux questions, si vous permettez. Quels seraient les horaires de travail ? Et est-ce qu'il y a une formation au début ?\n(Vous travaillerez du mardi au samedi, et oui, il y a une semaine de formation.)\nParfait, merci beaucoup. Je suis vraiment motivé par ce poste.",
       "tips": [
         "Use vous and polite formulas throughout (si vous permettez, je voudrais savoir…).",
         "Present your experience with the passé composé and the imparfait.",

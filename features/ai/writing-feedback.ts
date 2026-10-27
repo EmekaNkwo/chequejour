@@ -1,11 +1,15 @@
 import type { ModelEntry } from '../../domain/ai/manifest';
-import { checkWritingFeedback, WRITING_FEEDBACK_SCHEMA, writingFeedbackMessages, type CheckedWritingFeedback, type WritingFeedbackInput } from '../../domain/ai/writing-feedback';
-import { askJson } from './ask';
+import { checkWritingFeedback, writingFeedbackMessages, writingMaxChars, writingMaxTokens, type CheckedWritingFeedback, type WritingFeedbackInput } from '../../domain/ai/writing-feedback';
+import { askText, RETRY_TEMPERATURE_STEP, withRetry } from './ask';
 
-const TEMPERATURE = 0.2;
-const MAX_TOKENS = 600;
+/** Low: the model should copy the text and fix it, not get creative. */
+const TEMPERATURE = 0.1;
 
 export async function writingFeedback(model: ModelEntry, input: WritingFeedbackInput, signal?: AbortSignal): Promise<CheckedWritingFeedback> {
-  const value = await askJson({ model, messages: writingFeedbackMessages(input), maxTokens: MAX_TOKENS, temperature: TEMPERATURE, signal }, WRITING_FEEDBACK_SCHEMA);
-  return checkWritingFeedback(value, input);
+  return withRetry(async (tryNumber) => {
+    const temperature = TEMPERATURE + tryNumber * RETRY_TEMPERATURE_STEP;
+    const messages = writingFeedbackMessages(input);
+    const corrected = await askText({ model, messages, maxTokens: writingMaxTokens(input.text), temperature, signal }, { language: 'fr', maxChars: writingMaxChars(input.text) });
+    return checkWritingFeedback(corrected, input);
+  }, signal);
 }

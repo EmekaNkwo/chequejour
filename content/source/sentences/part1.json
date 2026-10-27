@@ -33,8 +33,8 @@
   },
   {
     "id": "s005",
-    "fr": "J'habite à Lyon, mais je travaille en banlieue, à vingt minutes en train.",
-    "en": "I live in Lyon, but I work in the suburbs, twenty minutes away by train.",
+    "fr": "J'habite à Montréal, mais je travaille en banlieue, à vingt minutes en train.",
+    "en": "I live in Montréal, but I work in the suburbs, twenty minutes away by train.",
     "grammarNote": "'À' before a city, 'en' for 'en banlieue' and for travelling by train.",
     "grammarTag": "prepositions",
     "level": "A2"
@@ -153,8 +153,8 @@
   },
   {
     "id": "s020",
-    "fr": "Bonjour, je voudrais un aller-retour pour Bordeaux, s'il vous plaît.",
-    "en": "Hello, I'd like a return ticket to Bordeaux, please.",
+    "fr": "Bonjour, je voudrais un aller-retour pour Sherbrooke, s'il vous plaît.",
+    "en": "Hello, I'd like a return ticket to Sherbrooke, please.",
     "grammarNote": "Conditional 'je voudrais' makes a request polite.",
     "grammarTag": "conditionnel",
     "level": "A2"
@@ -593,8 +593,8 @@
   },
   {
     "id": "s075",
-    "fr": "Vous avez de la monnaie ? Je n'ai qu'un billet de cinquante euros.",
-    "en": "Do you have any change? I've only got a fifty-euro note.",
+    "fr": "Vous avez de la monnaie ? Je n'ai qu'un billet de cinquante dollars.",
+    "en": "Do you have any change? I've only got a fifty-dollar note.",
     "grammarNote": "Partitive 'de la' for an uncountable noun (monnaie).",
     "grammarTag": "partitifs",
     "level": "A2"
@@ -737,8 +737,8 @@
   },
   {
     "id": "s093",
-    "fr": "L'année prochaine, je passerai le TCF et je chercherai du travail en France.",
-    "en": "Next year I'll take the TCF and look for work in France.",
+    "fr": "L'année prochaine, je passerai le TCF et je chercherai du travail au Canada.",
+    "en": "Next year I'll take the TCF and look for work in Canada.",
     "grammarNote": "Futur simple for future plans: infinitive + -ai.",
     "grammarTag": "futur-simple",
     "level": "A2+"
@@ -1009,7 +1009,7 @@
   },
   {
     "id": "s127",
-    "fr": "Je suis allé à la mairie pour demander un extrait d'acte de naissance.",
+    "fr": "Je suis allé à l'hôtel de ville pour demander un extrait d'acte de naissance.",
     "en": "I went to the town hall to ask for a copy of my birth certificate.",
     "grammarNote": "'Pour' + infinitive to express purpose.",
     "grammarTag": "prepositions",

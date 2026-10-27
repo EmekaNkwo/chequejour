@@ -210,8 +210,8 @@
       "level": "A2",
       "core": true,
       "example": {
-        "fr": "Nous déménageons à Toulouse le mois prochain.",
-        "en": "We're moving to Toulouse next month."
+        "fr": "Nous déménageons à Saguenay le mois prochain.",
+        "en": "We're moving to Saguenay next month."
       }
     },
     {
@@ -443,8 +443,8 @@
       "level": "A2",
       "core": false,
       "example": {
-        "fr": "De ma fenêtre, je vois la tour Eiffel.",
-        "en": "From my window, I can see the Eiffel Tower."
+        "fr": "De ma fenêtre, je vois le mont Royal.",
+        "en": "From my window, I can see Mount Royal."
       }
     },
     {
@@ -553,8 +553,8 @@
       "level": "A2",
       "core": false,
       "example": {
-        "fr": "Le loyer est de 700 euros, charges comprises.",
-        "en": "The rent is 700 euros, including service charges."
+        "fr": "Le loyer est de 700 dollars, charges comprises.",
+        "en": "The rent is 700 dollars, including service charges."
       },
       "pluralOnly": true
     },
@@ -980,8 +980,8 @@
       "level": "A2",
       "core": false,
       "example": {
-        "fr": "Nous nous sommes installés à Nantes il y a deux ans.",
-        "en": "We settled in Nantes two years ago."
+        "fr": "Nous nous sommes installés à Trois-Rivières il y a deux ans.",
+        "en": "We settled in Trois-Rivières two years ago."
       }
     },
     {
@@ -1100,8 +1100,8 @@
       "level": "A2",
       "core": false,
       "example": {
-        "fr": "À l'époque, le loyer coûtait seulement trois cents euros.",
-        "en": "Back then, the rent only cost three hundred euros."
+        "fr": "À l'époque, le loyer coûtait seulement trois cents dollars.",
+        "en": "Back then, the rent only cost three hundred dollars."
       }
     },
     {
@@ -1140,7 +1140,7 @@
       "level": "A2",
       "grammarTag": "imparfait",
       "explanation": [
-        "The imparfait is a past tense used to describe how things were and what used to happen: j'habitais à Lyon (I lived / I used to live / I was living in Lyon).",
+        "The imparfait is a past tense used to describe how things were and what used to happen: j'habitais à Montréal (I lived / I used to live / I was living in Montréal).",
         "To form it, take the nous form of the present tense, remove -ons, and add the endings -ais, -ais, -ait, -ions, -iez, -aient. For example: nous habitons → habit- → j'habitais; nous finissons → finiss- → je finissais; nous faisons → fais- → je faisais.",
         "This works for almost every verb, even irregular ones: nous avons → j'avais, nous prenons → je prenais, nous allons → j'allais. The only exception is être, which uses the stem ét-: j'étais, tu étais, il était, nous étions, vous étiez, ils étaient.",
         "Three endings (-ais, -ait, -aient) sound exactly the same, so be careful when you write. Verbs ending in -ger keep an e before a: je mangeais, il rangeait (but nous mangions). Verbs ending in -cer take ç before a: je commençais (but nous commencions). Verbs in -ier have a double i in the nous and vous forms: nous étudiions, vous étudiiez.",
@@ -1225,8 +1225,8 @@
       ],
       "commonMistakes": [
         {
-          "wrong": "Avant, j'étudais à Lyon.",
-          "right": "Avant, j'étudiais à Lyon.",
+          "wrong": "Avant, j'étudais à Montréal.",
+          "right": "Avant, j'étudiais à Montréal.",
           "why": "The stem comes from nous étudions → étudi-, so the i stays: j'étudiais."
         },
         {
@@ -1634,7 +1634,7 @@
           "right": "tenant"
         }
       ],
-      "explanation": "These words appear in almost every flat advert and rental contract in France."
+      "explanation": "These words appear in almost every flat advert and rental contract."
     },
     {
       "id": "u03-ex18",
@@ -1703,7 +1703,7 @@
       "prompt": "Match the beginnings and endings of the sentences.",
       "pairs": [
         {
-          "left": "Quand j'habitais à Lyon,",
+          "left": "Quand j'habitais à Montréal,",
           "right": "j'avais un petit studio sous les toits."
         },
         {
@@ -1764,10 +1764,10 @@
         },
         {
           "speaker": "Léo",
-          "fr": "Un peu plus cher : huit cents euros, mais les charges sont comprises."
+          "fr": "Un peu plus cher : huit cents dollars, mais les charges sont comprises."
         }
       ],
-      "translation": "Léo: Welcome to my place! Come in, come in.\nAmira: Oh, it's very bright! Your old flat was darker, wasn't it?\nLéo: Yes, it was on the ground floor and the windows looked onto a small courtyard.\nAmira: And here, how many rooms do you have?\nLéo: Three: the living room, my bedroom and a small study. Before, I only had a twenty-square-metre studio.\nAmira: And the area? Before, you lived near the station, right?\nLéo: Yes, it was convenient, but it was very noisy. There were cars all night. Here it's quiet.\nAmira: And the rent, is it expensive?\nLéo: A bit more expensive: eight hundred euros, but service charges are included.",
+      "translation": "Léo: Welcome to my place! Come in, come in.\nAmira: Oh, it's very bright! Your old flat was darker, wasn't it?\nLéo: Yes, it was on the ground floor and the windows looked onto a small courtyard.\nAmira: And here, how many rooms do you have?\nLéo: Three: the living room, my bedroom and a small study. Before, I only had a twenty-square-metre studio.\nAmira: And the area? Before, you lived near the station, right?\nLéo: Yes, it was convenient, but it was very noisy. There were cars all night. Here it's quiet.\nAmira: And the rent, is it expensive?\nLéo: A bit more expensive: eight hundred dollars, but service charges are included.",
       "questions": [
         {
           "id": "u03-li01-q1",
@@ -1797,13 +1797,13 @@
           "id": "u03-li01-q3",
           "question": "What do we learn about the new rent?",
           "options": [
-            "It is €800 including service charges.",
+            "It is $800 including service charges.",
             "It is cheaper than before.",
-            "It is €800 plus service charges.",
-            "It is €20 per square metre."
+            "It is $800 plus service charges.",
+            "It is $20 per square metre."
           ],
           "answer": 0,
-          "explanation": "« huit cents euros, mais les charges sont comprises » — the charges are included. It is a bit more expensive than before."
+          "explanation": "« huit cents dollars, mais les charges sont comprises » — the charges are included. It is a bit more expensive than before."
         }
       ]
     },
@@ -1824,7 +1824,7 @@
         },
         {
           "speaker": "Thomas Petit",
-          "fr": "Le loyer est de six cent cinquante euros par mois, plus cinquante euros de charges."
+          "fr": "Le loyer est de six cent cinquante dollars par mois, plus cinquante dollars de charges."
         },
         {
           "speaker": "Thomas Petit",
@@ -1832,10 +1832,10 @@
         },
         {
           "speaker": "Thomas Petit",
-          "fr": "Vous pouvez emménager le premier du mois. Merci de me rappeler au zéro quatre, soixante-douze, quinze, trente-huit, quatre-vingt-dix."
+          "fr": "Vous pouvez emménager le premier du mois. Merci de me rappeler au cinq un quatre, cinq cinq cinq, zéro un neuf zéro."
         }
       ],
-      "translation": "Hello Mrs Diallo, this is Thomas Petit from the Immo Plus agency. I'm calling about the flat on rue Victor-Hugo. Good news: the owner agrees to rent it to you! The rent is six hundred and fifty euros a month, plus fifty euros of service charges. To sign the lease, you need to come to the agency on Thursday at ten with the deposit, that is one month's rent, and a certificate of insurance. You can move in on the first of the month. Please call me back on 04 72 15 38 90.",
+      "translation": "Hello Mrs Diallo, this is Thomas Petit from the Immo Plus agency. I'm calling about the flat on rue Victor-Hugo. Good news: the owner agrees to rent it to you! The rent is six hundred and fifty dollars a month, plus fifty dollars of service charges. To sign the lease, you need to come to the agency on Thursday at ten with the deposit, that is one month's rent, and a certificate of insurance. You can move in on the first of the month. Please call me back on 514 555-0190.",
       "questions": [
         {
           "id": "u03-li02-q1",
@@ -1853,13 +1853,13 @@
           "id": "u03-li02-q2",
           "question": "How much is the deposit?",
           "options": [
-            "€50",
-            "€650",
-            "€700",
+            "$50",
+            "$650",
+            "$700",
             "Two months' rent"
           ],
           "answer": 1,
-          "explanation": "The deposit is « un mois de loyer » (one month's rent), and the rent is €650."
+          "explanation": "The deposit is « un mois de loyer » (one month's rent), and the rent is $650."
         },
         {
           "id": "u03-li02-q3",
@@ -1882,20 +1882,20 @@
       "title": "La maison de mon enfance",
       "level": "A2",
       "kind": "letter",
-      "text": "Mon cher Tom,\n\nTu m'as demandé comment était la maison de mon enfance. Elle était à la campagne, près d'un petit village de Normandie. C'était une vieille maison en pierre avec un grand jardin. Au rez-de-chaussée, il y avait une cuisine immense avec une cheminée : l'hiver, toute la famille mangeait là, parce que c'était la seule pièce chaude. Il n'y avait pas de salle de bains ! Nous nous lavions dans la cuisine avec de l'eau chaude. En haut, je partageais une chambre avec mes deux sœurs. Le dimanche, mon père travaillait dans le jardin et ma mère préparait un gâteau. J'adorais cette maison.\n\nJe t'embrasse,\nMamie",
-      "translation": "My dear Tom,\n\nYou asked me what the house where I grew up was like. It was in the countryside, near a small village in Normandy. It was an old stone house with a big garden. On the ground floor, there was a huge kitchen with a fireplace: in winter, the whole family ate there, because it was the only warm room. There was no bathroom! We washed in the kitchen with hot water. Upstairs, I shared a bedroom with my two sisters. On Sundays, my father worked in the garden and my mother made a cake. I loved that house.\n\nLove,\nGrandma",
+      "text": "Mon cher Tom,\n\nTu m'as demandé comment était la maison de mon enfance. Elle était à la campagne, près d'un petit village de la Gaspésie. C'était une vieille maison en pierre avec un grand jardin. Au rez-de-chaussée, il y avait une cuisine immense avec une cheminée : l'hiver, toute la famille mangeait là, parce que c'était la seule pièce chaude. Il n'y avait pas de salle de bains ! Nous nous lavions dans la cuisine avec de l'eau chaude. En haut, je partageais une chambre avec mes deux sœurs. Le dimanche, mon père travaillait dans le jardin et ma mère préparait un gâteau. J'adorais cette maison.\n\nJe t'embrasse,\nMamie",
+      "translation": "My dear Tom,\n\nYou asked me what the house where I grew up was like. It was in the countryside, near a small village in the Gaspé Peninsula. It was an old stone house with a big garden. On the ground floor, there was a huge kitchen with a fireplace: in winter, the whole family ate there, because it was the only warm room. There was no bathroom! We washed in the kitchen with hot water. Upstairs, I shared a bedroom with my two sisters. On Sundays, my father worked in the garden and my mother made a cake. I loved that house.\n\nLove,\nGrandma",
       "questions": [
         {
           "id": "u03-re01-q1",
           "question": "Where was the house?",
           "options": [
             "In a big city",
-            "In the countryside in Normandy",
+            "In the countryside in the Gaspé Peninsula",
             "By the sea",
-            "In the suburbs of Paris"
+            "In the suburbs of Ottawa"
           ],
           "answer": 1,
-          "explanation": "« Elle était à la campagne, près d'un petit village de Normandie. »"
+          "explanation": "« Elle était à la campagne, près d'un petit village de la Gaspésie. »"
         },
         {
           "id": "u03-re01-q2",
@@ -1928,8 +1928,8 @@
       "title": "Appartement à louer",
       "level": "A2",
       "kind": "advert",
-      "text": "À LOUER – LYON 7e\n\nAppartement de 45 m² au 3e étage avec ascenseur. Séjour lumineux avec balcon, une chambre, cuisine équipée (four, réfrigérateur, lave-linge), salle de bains avec douche. Non meublé.\n\nLoyer : 720 € par mois + 60 € de charges (chauffage et eau compris).\nCaution : un mois de loyer.\n\nÀ cinq minutes à pied du métro et des commerces. Quartier calme.\nDisponible à partir du 1er novembre. Animaux non acceptés.\n\nVisites le samedi matin uniquement. Contactez l'agence Habitat Rhône au 04 78 22 61 05.",
-      "translation": "TO LET – LYON 7th district\n\n45 m² flat on the 3rd floor with a lift. Bright living room with a balcony, one bedroom, fitted kitchen (oven, fridge, washing machine), bathroom with a shower. Unfurnished.\n\nRent: €720 a month + €60 service charges (heating and water included).\nDeposit: one month's rent.\n\nFive minutes' walk from the metro and the shops. Quiet area.\nAvailable from 1 November. No pets.\n\nViewings on Saturday mornings only. Contact the Habitat Rhône agency on 04 78 22 61 05.",
+      "text": "À LOUER – MONTRÉAL (PLATEAU)\n\nAppartement de 45 m² au 3e étage avec ascenseur. Séjour lumineux avec balcon, une chambre, cuisine équipée (four, réfrigérateur, lave-linge), salle de bains avec douche. Non meublé.\n\nLoyer : 720 $ par mois + 60 $ de charges (chauffage et eau compris).\n\nÀ cinq minutes à pied du métro et des commerces. Quartier calme.\nDisponible à partir du 1er novembre. Animaux non acceptés.\n\nVisites le samedi matin uniquement. Contactez l'agence Habitat Plateau au 514 555-0105.",
+      "translation": "TO LET – MONTRÉAL (Plateau)\n\n45 m² flat on the 3rd floor with a lift. Bright living room with a balcony, one bedroom, fitted kitchen (oven, fridge, washing machine), bathroom with a shower. Unfurnished.\n\nRent: $720 a month + $60 service charges (heating and water included).\n\nFive minutes' walk from the metro and the shops. Quiet area.\nAvailable from 1 November. No pets.\n\nViewings on Saturday mornings only. Contact the Habitat Plateau agency on 514 555-0105.",
       "questions": [
         {
           "id": "u03-re02-q1",
@@ -1945,7 +1945,7 @@
         },
         {
           "id": "u03-re02-q2",
-          "question": "What do the €60 service charges include?",
+          "question": "What do the $60 service charges include?",
           "options": [
             "Electricity and internet",
             "Heating and water",
@@ -1953,7 +1953,7 @@
             "Parking"
           ],
           "answer": 1,
-          "explanation": "« 60 € de charges (chauffage et eau compris) »."
+          "explanation": "« 60 $ de charges (chauffage et eau compris) »."
         },
         {
           "id": "u03-re02-q3",
@@ -2018,11 +2018,11 @@
       "promptFr": "Vous avez vu une annonce pour un appartement à louer. Vous téléphonez à l'agence pour avoir des informations (loyer, charges, étage, meubles, quartier) et pour organiser une visite.",
       "prepSeconds": 120,
       "speakSeconds": 210,
-      "modelAnswer": "Bonjour Madame, je vous appelle pour l'annonce de l'appartement de la rue des Lilas. Il est toujours disponible ? Très bien. Il fait combien de mètres carrés ? Et il y a combien de chambres ? Le loyer est de sept cents euros, c'est ça ? Est-ce que les charges sont comprises ? Il est à quel étage ? Il y a un ascenseur ? Je demande parce que j'ai un vélo. L'appartement est meublé ou vide ? Et le quartier, il est calme ? Il y a des commerces et un arrêt de bus près de l'immeuble ? Parfait. Est-ce que je peux visiter samedi matin ? Dix heures, d'accord. Merci beaucoup, au revoir !",
+      "modelAnswer": "Bonjour Madame, je vous appelle pour l'annonce de l'appartement de la rue des Lilas. Il est toujours disponible ? Très bien. Il fait combien de mètres carrés ? Et il y a combien de chambres ? Le loyer est de sept cents dollars, c'est ça ? Est-ce que les charges sont comprises ? Il est à quel étage ? Il y a un ascenseur ? Je demande parce que j'ai un vélo. L'appartement est meublé ou vide ? Et le quartier, il est calme ? Il y a des commerces et un arrêt de bus près de l'immeuble ? Parfait. Est-ce que je peux visiter samedi matin ? Dix heures, d'accord. Merci beaucoup, au revoir !",
       "tips": [
         "Use vous and polite formulas: Bonjour Madame, je vous appelle pour…, merci beaucoup.",
         "Prepare a list of questions: combien…, est-ce que…, à quel étage…, quand…",
-        "Repeat key information to check it: Le loyer est de 700 euros, c'est ça ?",
+        "Repeat key information to check it: Le loyer est de 700 dollars, c'est ça ?",
         "End by arranging a precise time for the visit."
       ]
     }

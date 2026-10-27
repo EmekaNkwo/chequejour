@@ -12,4 +12,9 @@ export const expoSpeechApi: SpeechApi = {
   start: (options) => ExpoSpeechRecognitionModule.start(options),
 };
 
+/** Asks Android to download its on-device French model (Android 13+). */
+export async function triggerFrenchDownload(locale: string): Promise<void> {
+  await ExpoSpeechRecognitionModule.androidTriggerOfflineModelDownload({ locale });
+}
+
 export const stopRecognition = (): void => ExpoSpeechRecognitionModule.stop();

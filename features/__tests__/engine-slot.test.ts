@@ -156,3 +156,32 @@ describe('engine slot', () => {
     expect(loads()).toBe(2);
   });
 });
+
+describe('warming the model up', () => {
+  it('loads ahead of the first job, once, and the job reuses it', async () => {
+    const { slot, loads } = makeSlot();
+    slot.warm();
+    slot.warm();
+    await new Promise((r) => setTimeout(r, 0));
+    expect(slot.loaded).toBe(true);
+    expect(await slot.run(async (c) => c.id, { timeoutMs: 1000 })).toBe(1);
+    expect(loads()).toBe(1);
+    await slot.unload();
+  });
+
+  it('frees a warmed model that was never used after the idle time', async () => {
+    const { slot, released } = makeSlot({ idleMs: 20 });
+    slot.warm();
+    await new Promise((r) => setTimeout(r, 60));
+    expect(slot.loaded).toBe(false);
+    expect(released).toEqual([1]);
+  });
+
+  it('ignores a failed warm-up; the next job tries again', async () => {
+    const { slot } = makeSlot({ failLoad: true });
+    slot.warm();
+    await new Promise((r) => setTimeout(r, 0));
+    expect(await failureOf(slot.run(async () => 'x', { timeoutMs: 1000 }))).toBe('load-failed');
+    await slot.unload();
+  });
+});

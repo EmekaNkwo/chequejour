@@ -418,8 +418,8 @@
       "level": "B1",
       "core": false,
       "example": {
-        "fr": "Pendant la canicule, il a fait 40 degrés à Lyon.",
-        "en": "During the heatwave, it reached 40 degrees in Lyon."
+        "fr": "Pendant la canicule, il a fait 40 degrés à Montréal.",
+        "en": "During the heatwave, it reached 40 degrees in Montréal."
       }
     },
     {
@@ -592,7 +592,7 @@
       "level": "B1",
       "core": false,
       "example": {
-        "fr": "La mairie a interdit la vaisselle jetable pendant la fête du quartier.",
+        "fr": "La Ville a interdit la vaisselle jetable pendant la fête du quartier.",
         "en": "The town hall banned disposable tableware during the neighbourhood party."
       }
     },
@@ -1096,8 +1096,8 @@
       "level": "B1",
       "core": false,
       "example": {
-        "fr": "Il vaudrait mieux prendre le train que l'avion pour aller à Marseille.",
-        "en": "It would be better to take the train than the plane to go to Marseille."
+        "fr": "Il vaudrait mieux prendre le train que l'avion pour aller à Québec.",
+        "en": "It would be better to take the train than the plane to go to Quebec City."
       }
     }
   ],
@@ -1722,7 +1722,7 @@
         },
         {
           "speaker": "Inès",
-          "fr": "La mairie a installé des bacs à compost dans le square, juste en bas de la rue."
+          "fr": "La Ville a installé des bacs à compost dans le square, juste en bas de la rue."
         },
         {
           "speaker": "Hugo",
@@ -1806,7 +1806,7 @@
       "lines": [
         {
           "speaker": "Journaliste",
-          "fr": "Bonjour à tous, voici le point sur la sécheresse dans notre département."
+          "fr": "Bonjour à tous, voici le point sur la sécheresse dans notre région."
         },
         {
           "speaker": "Journaliste",
@@ -1814,7 +1814,7 @@
         },
         {
           "speaker": "Journaliste",
-          "fr": "La préfecture a donc décidé de limiter l'usage de l'eau à partir de lundi prochain."
+          "fr": "La municipalité a donc décidé de limiter l'usage de l'eau à partir de lundi prochain."
         },
         {
           "speaker": "Journaliste",
@@ -1826,14 +1826,14 @@
         },
         {
           "speaker": "Journaliste",
-          "fr": "Selon Météo-France, des orages pourraient éclater en fin de semaine, mais ils ne suffiraient pas à remplir les nappes d'eau souterraines."
+          "fr": "Selon Environnement Canada, des orages pourraient éclater en fin de semaine, mais ils ne suffiraient pas à remplir les nappes d'eau souterraines."
         },
         {
           "speaker": "Journaliste",
-          "fr": "En cas de non-respect de ces règles, les contrevenants risquent une amende. Plus d'informations sur le site de la préfecture."
+          "fr": "En cas de non-respect de ces règles, les contrevenants risquent une amende. Plus d'informations sur le site de la municipalité."
         }
       ],
-      "translation": "Hello everyone, here is the latest on the drought in our département.\nSince the beginning of the summer, it has hardly rained, and the river levels are very low.\nThe prefecture has therefore decided to restrict water use from next Monday.\nIt will be forbidden to water gardens between 8 a.m. and 8 p.m. and to wash your car at home.\nPrivate swimming pools may not be filled until further notice.\nAccording to Météo-France, storms could break out at the end of the week, but they would not be enough to refill the underground water reserves.\nAnyone who breaks these rules risks a fine. More information on the prefecture's website.",
+      "translation": "Hello everyone, here is the latest on the drought in our region.\nSince the beginning of the summer, it has hardly rained, and the river levels are very low.\nThe municipality has therefore decided to restrict water use from next Monday.\nIt will be forbidden to water gardens between 8 a.m. and 8 p.m. and to wash your car at home.\nPrivate swimming pools may not be filled until further notice.\nAccording to Environment Canada, storms could break out at the end of the week, but they would not be enough to refill the underground water reserves.\nAnyone who breaks these rules risks a fine. More information on the municipality's website.",
       "questions": [
         {
           "id": "u13-li02-q1",
@@ -1880,8 +1880,8 @@
       "title": "Réparer plutôt que jeter",
       "level": "B1",
       "kind": "article",
-      "text": "Une cafetière qui ne chauffe plus, une lampe qui ne s'allume pas, un pantalon déchiré : autrefois, beaucoup de ces objets finissaient à la poubelle. Aujourd'hui, de plus en plus de Français les apportent dans un repair café. Le principe est simple : une fois par mois, des bénévoles accueillent les habitants dans une salle municipale et les aident à réparer eux-mêmes leurs objets abîmés. Le service est gratuit, mais chacun peut laisser une petite contribution.\n\nÀ Tours, le repair café du quartier des Fontaines existe depuis six ans. « Au début, nous recevions une dizaine de personnes. Maintenant, il en vient parfois cinquante », raconte Michel, électricien à la retraite. Selon lui, environ deux objets sur trois repartent en état de marche.\n\nPour les organisateurs, l'objectif n'est pas seulement écologique. « Si chacun apprenait à réparer, on achèterait moins d'appareils neufs et on produirait moins de déchets. Mais c'est aussi un lieu où l'on discute et où l'on se rencontre entre voisins », explique Sarah, l'une des fondatrices. Elle aimerait maintenant ouvrir un atelier réservé aux adolescents : « Ce sont eux qui changeront les habitudes de demain. »",
-      "translation": "A coffee maker that no longer heats up, a lamp that won't switch on, torn trousers: in the past, many of these objects ended up in the bin. Today, more and more French people take them to a repair café. The idea is simple: once a month, volunteers welcome residents in a council hall and help them repair their damaged objects themselves. The service is free, but everyone can leave a small contribution.\n\nIn Tours, the repair café in the Fontaines district has existed for six years. \"At the beginning, we had about ten people. Now, sometimes fifty come,\" says Michel, a retired electrician. According to him, about two objects out of three leave in working order.\n\nFor the organisers, the goal is not only ecological. \"If everyone learnt to repair things, we would buy fewer new appliances and produce less waste. But it's also a place where neighbours chat and meet each other,\" explains Sarah, one of the founders. She would now like to open a workshop just for teenagers: \"They are the ones who will change tomorrow's habits.\"",
+      "text": "Une cafetière qui ne chauffe plus, une lampe qui ne s'allume pas, un pantalon déchiré : autrefois, beaucoup de ces objets finissaient à la poubelle. Aujourd'hui, de plus en plus de Français les apportent dans un repair café. Le principe est simple : une fois par mois, des bénévoles accueillent les habitants dans une salle municipale et les aident à réparer eux-mêmes leurs objets abîmés. Le service est gratuit, mais chacun peut laisser une petite contribution.\n\nÀ Sherbrooke, le repair café du quartier des Fontaines existe depuis six ans. « Au début, nous recevions une dizaine de personnes. Maintenant, il en vient parfois cinquante », raconte Michel, électricien à la retraite. Selon lui, environ deux objets sur trois repartent en état de marche.\n\nPour les organisateurs, l'objectif n'est pas seulement écologique. « Si chacun apprenait à réparer, on achèterait moins d'appareils neufs et on produirait moins de déchets. Mais c'est aussi un lieu où l'on discute et où l'on se rencontre entre voisins », explique Sarah, l'une des fondatrices. Elle aimerait maintenant ouvrir un atelier réservé aux adolescents : « Ce sont eux qui changeront les habitudes de demain. »",
+      "translation": "A coffee maker that no longer heats up, a lamp that won't switch on, torn trousers: in the past, many of these objects ended up in the bin. Today, more and more French people take them to a repair café. The idea is simple: once a month, volunteers welcome residents in a council hall and help them repair their damaged objects themselves. The service is free, but everyone can leave a small contribution.\n\nIn Sherbrooke, the repair café in the Fontaines district has existed for six years. \"At the beginning, we had about ten people. Now, sometimes fifty come,\" says Michel, a retired electrician. According to him, about two objects out of three leave in working order.\n\nFor the organisers, the goal is not only ecological. \"If everyone learnt to repair things, we would buy fewer new appliances and produce less waste. But it's also a place where neighbours chat and meet each other,\" explains Sarah, one of the founders. She would now like to open a workshop just for teenagers: \"They are the ones who will change tomorrow's habits.\"",
       "questions": [
         {
           "id": "u13-re01-q1",
@@ -1897,7 +1897,7 @@
         },
         {
           "id": "u13-re01-q2",
-          "question": "What does Michel say about the repair café in Tours?",
+          "question": "What does Michel say about the repair café in Sherbrooke?",
           "options": [
             "Fewer people come than before",
             "Only electrical objects are accepted",
@@ -1938,8 +1938,8 @@
       "title": "Train ou avion ?",
       "level": "B1",
       "kind": "message",
-      "text": "Forum « Vivre plus vert » — Sujet : Prendre l'avion pour aller à Marseille, c'est raisonnable ?\n\nMessage de Léa_31 :\nBonjour à tous ! Je dois aller voir ma sœur à Marseille le mois prochain. J'habite à Paris et, honnêtement, l'avion me tente : c'est rapide et j'ai trouvé un billet à 45 euros. Mais mes collègues me répètent que je devrais prendre le train, parce que l'avion émet beaucoup plus de CO2. En réalité, le TGV met à peu près trois heures et quart, et si je compte le trajet jusqu'à l'aéroport, le contrôle de sécurité et l'attente, j'arriverais presque à la même heure en avion. Le seul vrai problème, c'est le prix : le même jour, le train coûte 95 euros. Si les billets de train étaient moins chers, je n'hésiterais pas une seconde ! Qu'est-ce que vous feriez à ma place ?",
-      "translation": "Forum \"Living greener\" — Topic: Is it reasonable to fly to Marseille?\n\nMessage from Léa_31:\nHello everyone! I have to visit my sister in Marseille next month. I live in Paris and, honestly, flying is tempting: it's quick and I found a ticket for 45 euros. But my colleagues keep telling me I should take the train, because the plane emits much more CO2. In reality, the TGV takes about three and a quarter hours, and if I count the journey to the airport, the security check and the waiting, I would arrive at almost the same time by plane. The only real problem is the price: on the same day, the train costs 95 euros. If train tickets were cheaper, I wouldn't hesitate for a second! What would you do in my place?",
+      "text": "Forum « Vivre plus vert » — Sujet : Prendre l'avion pour aller à Québec, c'est raisonnable ?\n\nMessage de Léa_31 :\nBonjour à tous ! Je dois aller voir ma sœur à Québec le mois prochain. J'habite à Montréal et, honnêtement, l'avion me tente : c'est rapide et j'ai trouvé un billet à 45 dollars. Mais mes collègues me répètent que je devrais prendre le train, parce que l'avion émet beaucoup plus de CO2. En réalité, le train met à peu près trois heures et quart, et si je compte le trajet jusqu'à l'aéroport, le contrôle de sécurité et l'attente, j'arriverais presque à la même heure en avion. Le seul vrai problème, c'est le prix : le même jour, le train coûte 95 dollars. Si les billets de train étaient moins chers, je n'hésiterais pas une seconde ! Qu'est-ce que vous feriez à ma place ?",
+      "translation": "Forum \"Living greener\" — Topic: Is it reasonable to fly to Quebec City?\n\nMessage from Léa_31:\nHello everyone! I have to visit my sister in Quebec City next month. I live in Montreal and, honestly, flying is tempting: it's quick and I found a ticket for 45 dollars. But my colleagues keep telling me I should take the train, because the plane emits much more CO2. In reality, the train takes about three and a quarter hours, and if I count the journey to the airport, the security check and the waiting, I would arrive at almost the same time by plane. The only real problem is the price: on the same day, the train costs 95 dollars. If train tickets were cheaper, I wouldn't hesitate for a second! What would you do in my place?",
       "questions": [
         {
           "id": "u13-re02-q1",
@@ -1951,7 +1951,7 @@
             "Her colleagues recommend it"
           ],
           "answer": 1,
-          "explanation": "« C'est rapide et j'ai trouvé un billet à 45 euros »."
+          "explanation": "« C'est rapide et j'ai trouvé un billet à 45 dollars »."
         },
         {
           "id": "u13-re02-q2",
@@ -1970,7 +1970,7 @@
           "question": "What would make Léa choose the train without hesitation?",
           "options": [
             "Cheaper train tickets",
-            "A faster TGV",
+            "A faster train",
             "Her sister's advice",
             "A direct flight"
           ],
@@ -1990,7 +1990,7 @@
       "promptFr": "Plusieurs villes envisagent d'interdire les voitures dans leur centre. Qu'en pensez-vous ? Vous donnerez votre opinion et la justifierez avec des arguments et des exemples. (120 à 180 mots)",
       "minWords": 120,
       "maxWords": 180,
-      "modelAnswer": "Aujourd'hui, de nombreuses villes réfléchissent à interdire les voitures dans leur centre. À mon avis, c'est une bonne idée, à condition de proposer de vraies solutions aux habitants.\n\nD'abord, si les voitures ne circulaient plus dans le centre, l'air serait beaucoup moins pollué. Les enfants et les personnes âgées respireraient mieux et il y aurait moins de bruit. Ensuite, les rues deviendraient plus agréables : on pourrait y créer des pistes cyclables, des terrasses ou des espaces verts.\n\nCependant, cette mesure ne peut pas fonctionner sans de bons transports en commun. Si les bus étaient rares ou trop chers, les personnes qui habitent loin seraient pénalisées. Il faudrait aussi penser aux personnes handicapées et aux livraisons.\n\nEn conclusion, je suis favorable à un centre-ville sans voitures, mais la mairie devrait d'abord développer les transports en commun et les parkings à l'entrée de la ville. Ainsi, tout le monde pourrait profiter d'une ville plus propre et plus calme.",
+      "modelAnswer": "Aujourd'hui, de nombreuses villes réfléchissent à interdire les voitures dans leur centre. À mon avis, c'est une bonne idée, à condition de proposer de vraies solutions aux habitants.\n\nD'abord, si les voitures ne circulaient plus dans le centre, l'air serait beaucoup moins pollué. Les enfants et les personnes âgées respireraient mieux et il y aurait moins de bruit. Ensuite, les rues deviendraient plus agréables : on pourrait y créer des pistes cyclables, des terrasses ou des espaces verts.\n\nCependant, cette mesure ne peut pas fonctionner sans de bons transports en commun. Si les bus étaient rares ou trop chers, les personnes qui habitent loin seraient pénalisées. Il faudrait aussi penser aux personnes handicapées et aux livraisons.\n\nEn conclusion, je suis favorable à un centre-ville sans voitures, mais la Ville devrait d'abord développer les transports en commun et les parkings à l'entrée de la ville. Ainsi, tout le monde pourrait profiter d'une ville plus propre et plus calme.",
       "checklist": [
         "I stated my opinion clearly in the introduction.",
         "I gave at least two arguments, each with an example.",
@@ -2022,14 +2022,14 @@
   "speaking": [
     {
       "id": "u13-sp01",
-      "title": "Se renseigner sur le tri à la mairie",
+      "title": "Se renseigner sur le tri à l'hôtel de ville",
       "level": "B1",
       "taskType": "interaction",
       "instructions": "Role-play. You have just moved to a new town. You call the town hall to find out how waste sorting and collection work. The examiner plays the town hall employee. Ask polite questions using the conditionnel.",
-      "promptFr": "Vous venez d'emménager dans une nouvelle ville. Vous téléphonez à la mairie pour vous renseigner sur le tri et le ramassage des déchets (jours de collecte, bacs, encombrants, compost…).",
+      "promptFr": "Vous venez d'emménager dans une nouvelle ville. Vous téléphonez à l'hôtel de ville pour vous renseigner sur le tri et le ramassage des déchets (jours de collecte, bacs, encombrants, compost…).",
       "prepSeconds": 120,
       "speakSeconds": 210,
-      "modelAnswer": "Bonjour madame, je viens d'emménager dans le quartier de la gare et je voudrais quelques renseignements sur le tri des déchets. D'abord, pourriez-vous me dire quels jours passent les camions de collecte ? D'accord, le mardi pour les ordures ménagères et le vendredi pour le bac jaune. Et qu'est-ce qu'on peut mettre exactement dans le bac jaune ? Les emballages en plastique, le carton et les canettes, très bien. Pour le verre, il faudrait l'apporter dans un conteneur, c'est ça ? Est-ce que vous sauriez où se trouve le plus proche ? Autre question : j'ai un vieux canapé à jeter. Comment est-ce que je devrais faire ? Ah, il faut prendre rendez-vous pour les encombrants, je vois. Enfin, j'aimerais faire du compost, mais je n'ai pas de jardin. Est-ce que la mairie distribuerait des composteurs pour les appartements ? Parfait, je vais remplir le formulaire en ligne. Merci beaucoup pour votre aide, bonne journée !",
+      "modelAnswer": "Bonjour madame, je viens d'emménager dans le quartier de la gare et je voudrais quelques renseignements sur le tri des déchets. D'abord, pourriez-vous me dire quels jours passent les camions de collecte ? D'accord, le mardi pour les ordures ménagères et le vendredi pour le bac jaune. Et qu'est-ce qu'on peut mettre exactement dans le bac jaune ? Les emballages en plastique, le carton et les canettes, très bien. Pour le verre, il faudrait l'apporter dans un conteneur, c'est ça ? Est-ce que vous sauriez où se trouve le plus proche ? Autre question : j'ai un vieux canapé à jeter. Comment est-ce que je devrais faire ? Ah, il faut prendre rendez-vous pour les encombrants, je vois. Enfin, j'aimerais faire du compost, mais je n'ai pas de jardin. Est-ce que la Ville distribuerait des composteurs pour les appartements ? Parfait, je vais remplir le formulaire en ligne. Merci beaucoup pour votre aide, bonne journée !",
       "tips": [
         "Use the conditionnel to sound polite: je voudrais, pourriez-vous, est-ce que vous sauriez…",
         "Reformulate the answers you get (D'accord, le mardi…) to show that you understand and to keep the conversation going.",

@@ -12,16 +12,18 @@ import { Button, IconButton } from '../../components/ui/Button';
 import { Card } from '../../components/ui/Card';
 import { ErrorState, Loading, Screen } from '../../components/ui/Screen';
 import { ScreenHeader } from '../../components/ui/ScreenHeader';
-import { learnerSide, MAX_LEARNER_TURNS, type ConversationTask } from '../../domain/ai/conversation';
+import { conversationMessages, learnerSide, MAX_LEARNER_TURNS, openingLine, type ConversationTask } from '../../domain/ai/conversation';
 import { aiFailureMessage } from '../../domain/ai/errors';
 import type { SpeakingTask } from '../../domain/content-types';
 import { useAiFeature } from '../../features/ai/useAiFeature';
-import { useAiPack } from '../../features/ai/useAiPack';
+import { useWarmLlm } from '../../features/ai/useWarmLlm';
 import { useConversation, type ConversationModels } from '../../features/ai/useConversation';
 import { useApp } from '../../features/app/AppContext';
 import { useLoad } from '../../features/app/useLoad';
 import { useStudyTimer } from '../../features/progress/useStudyTimer';
 import { findSpeaking } from '../../features/skills/skill-items';
+import { useFrenchSpeech } from '../../features/speech/useFrenchSpeech';
+import { FrenchSpeechSetup } from '../../components/speaking/FrenchSpeechSetup';
 
 const isConversationTask = (t: SpeakingTask): t is SpeakingTask & ConversationTask => t.taskType === 'interaction' || t.taskType === 'opinion';
 
@@ -30,21 +32,23 @@ export default function ConversationScreen() {
   const { id, mock } = useLocalSearchParams<{ id: string; mock?: string }>();
   const { content } = useApp();
   const { ready, llm } = useAiFeature('conversation');
-  const pack = useAiPack();
   const { data, error, reload } = useLoad(`conversation ${id}`, async () => ({ task: await findSpeaking(content, id, mock) }), [id, mock]);
   if (error) return <ErrorState message={error} onRetry={reload} />;
   if (!data) return <Loading />;
   if (!data.task || !isConversationTask(data.task)) return <ErrorState message="This task has no conversation practice." />;
-  if (!ready || !llm || !pack.installedIds.includes(pack.plan.stt.id)) {
+  if (!ready || !llm) {
     return <ErrorState message="The conversation partner needs the AI pack with its language model, and the feature turned on in Settings → AI pack." />;
   }
-  return <Chat task={data.task} models={{ stt: pack.plan.stt, llm }} />;
+  return <Chat task={data.task} models={{ llm }} />;
 }
 
 function Chat({ task, models }: { task: SpeakingTask & ConversationTask; models: ConversationModels }) {
   useStudyTimer();
   const { colors } = useTheme();
   const chat = useConversation(task, models);
+  const speech = useFrenchSpeech();
+  // The partner's instructions (with its opening line) are read while the learner reads the task.
+  useWarmLlm(models.llm, conversationMessages(task, [{ role: 'partner', text: openingLine(task) }]));
   const [typed, setTyped] = useState('');
   const learnerTurns = chat.turns.filter((t) => t.role === 'learner').length;
   const busy = chat.phase === 'transcribing' || chat.phase === 'replying';
@@ -100,6 +104,8 @@ function Chat({ task, models }: { task: SpeakingTask & ConversationTask; models:
         </AppText>
       ) : null}
 
+      {chat.phase !== 'ended' ? <FrenchSpeechSetup speech={speech} purpose="To answer by voice, your phone needs to recognise French." /> : null}
+
       {chat.phase === 'ended' ? (
         <Card testID="conversation-ended">
           <AppText variant="cardTitle">Conversation finished</AppText>
@@ -109,19 +115,21 @@ function Chat({ task, models }: { task: SpeakingTask & ConversationTask; models:
         </Card>
       ) : (
         <Card>
-          <Button
-            label={chat.phase === 'recording' ? 'Stop and send' : 'Tap to speak'}
-            icon={chat.phase === 'recording' ? 'square' : 'mic'}
-            onPress={() => void (chat.phase === 'recording' ? chat.stopTalking() : chat.startTalking())}
-            disabled={busy}
-            testID="conversation-talk"
-          />
+          {speech.ready ? (
+            <Button
+              label={chat.phase === 'recording' ? 'Stop and send' : 'Tap to speak'}
+              icon={chat.phase === 'recording' ? 'square' : 'mic'}
+              onPress={() => void (chat.phase === 'recording' ? chat.stopTalking() : chat.startTalking())}
+              disabled={busy}
+              testID="conversation-talk"
+            />
+          ) : null}
           {chat.micAllowed === false ? (
             <AppText variant="meta" tone="muted">
               Microphone access is off. You can type your answers instead.
             </AppText>
           ) : null}
-          <AnswerInput value={typed} onChange={setTyped} onSubmit={send} placeholder="…or type in French" accessibilityLabel="Your answer in French" editable={!busy && chat.phase !== 'recording'} testID="conversation-input" />
+          <AnswerInput value={typed} onChange={setTyped} onSubmit={send} placeholder={speech.ready ? '…or type in French' : 'Type your answer in French'} accessibilityLabel="Your answer in French" editable={!busy && chat.phase !== 'recording'} testID="conversation-input" />
           <Button label="Send" icon="send" variant="secondary" onPress={send} disabled={busy || typed.trim().length === 0} testID="conversation-send" />
         </Card>
       )}

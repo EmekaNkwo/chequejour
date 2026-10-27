@@ -16,8 +16,8 @@
       "level": "A2",
       "core": true,
       "example": {
-        "fr": "Mon entreprise va ouvrir un nouveau bureau à Lille.",
-        "en": "My company is going to open a new office in Lille."
+        "fr": "Mon entreprise va ouvrir un nouveau bureau à Moncton.",
+        "en": "My company is going to open a new office in Moncton."
       }
     },
     {
@@ -790,8 +790,8 @@
       "level": "A2+",
       "core": false,
       "example": {
-        "fr": "Nous recrutons un vendeur pour notre magasin de Nantes.",
-        "en": "We are recruiting a sales assistant for our shop in Nantes."
+        "fr": "Nous recrutons un vendeur pour notre magasin de Trois-Rivières.",
+        "en": "We are recruiting a sales assistant for our shop in Trois-Rivières."
       }
     },
     {
@@ -1224,7 +1224,7 @@
         "Form it with the present tense of aller + an infinitive: je vais, tu vas, il/elle/on va, nous allons, vous allez, ils/elles vont + travailler, finir, prendre… Do not put a preposition between aller and the infinitive.",
         "In the negative, ne… pas goes around aller, not around the infinitive: Je ne vais pas travailler demain. Elle ne va pas accepter ce poste.",
         "Object pronouns (lui, leur, le, me…) and reflexive pronouns go in front of the infinitive, because they belong to that verb: Je vais lui téléphoner. Nous allons leur répondre. Tu vas te débrouiller.",
-        "Typical time expressions: tout à l'heure, ce soir, demain, bientôt, la semaine prochaine, le mois prochain, dans deux jours, l'année prochaine. Je vais aller à Lyon is correct: aller + aller is perfectly normal."
+        "Typical time expressions: tout à l'heure, ce soir, demain, bientôt, la semaine prochaine, le mois prochain, dans deux jours, l'année prochaine. Je vais aller à Montréal is correct: aller + aller is perfectly normal."
       ],
       "table": [
         [
@@ -1468,7 +1468,7 @@
         "complet"
       ],
       "translation": "I work 35 hours a week: I have a full-time job.",
-      "explanation": "À temps plein (or à temps complet) = full-time (about 35 hours a week in France). À temps partiel = part-time."
+      "explanation": "À temps plein (or à temps complet) = full-time (about 35 to 40 hours a week in Canada). À temps partiel = part-time."
     },
     {
       "id": "u07-ex11",
@@ -1578,7 +1578,7 @@
           "right": "a pay rise"
         }
       ],
-      "explanation": "These words are all about working conditions in France."
+      "explanation": "These words are all about working conditions."
     },
     {
       "id": "u07-ex17",
@@ -1935,7 +1935,7 @@
       "promptFr": "Décrivez votre travail (ou un travail que vous aimeriez faire) : vos tâches, vos collègues, vos horaires. Dites aussi ce que vous allez faire dans les prochains mois. (120 mots minimum / 150 mots maximum)",
       "minWords": 120,
       "maxWords": 150,
-      "modelAnswer": "Je travaille comme assistante commerciale dans une entreprise de meubles à Lyon. J'ai un CDI à temps plein et mes horaires sont assez flexibles : je commence entre 8 h et 9 h 30, et le vendredi, je suis en télétravail. Mes tâches sont variées. Le matin, je réponds aux courriels des clients et je leur envoie des devis. L'après-midi, je prépare les commandes avec mon équipe. Mes collègues sont sympathiques et nous déjeunons souvent ensemble à la cantine. Ma responsable est exigeante, mais elle m'aide beaucoup. Dans les prochains mois, je vais suivre une formation en anglais, parce que nous allons travailler avec des clients étrangers. En septembre, je vais aussi demander une augmentation à ma responsable : je vais lui parler de mes résultats. J'espère qu'elle va accepter !",
+      "modelAnswer": "Je travaille comme assistante commerciale dans une entreprise de meubles à Montréal. J'ai un CDI à temps plein et mes horaires sont assez flexibles : je commence entre 8 h et 9 h 30, et le vendredi, je suis en télétravail. Mes tâches sont variées. Le matin, je réponds aux courriels des clients et je leur envoie des devis. L'après-midi, je prépare les commandes avec mon équipe. Mes collègues sont sympathiques et nous déjeunons souvent ensemble à la cantine. Ma responsable est exigeante, mais elle m'aide beaucoup. Dans les prochains mois, je vais suivre une formation en anglais, parce que nous allons travailler avec des clients étrangers. En septembre, je vais aussi demander une augmentation à ma responsable : je vais lui parler de mes résultats. J'espère qu'elle va accepter !",
       "checklist": [
         "I say what my job is and where I work.",
         "I describe my tasks and my hours in the present tense.",

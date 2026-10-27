@@ -1,7 +1,7 @@
 /**
- * What the speech model heard in a recording, for shadowing and speaking practice. Ready
- * only when the AI pack's speech model is installed and the learner left speaking
- * feedback on; otherwise screens keep their non-AI behaviour.
+ * What the phone's on-device recognizer heard in a recording, for shadowing and speaking
+ * practice. Ready only when the phone has offline French speech recognition and the
+ * learner left speaking feedback on; otherwise screens keep their non-AI behaviour.
  */
 import { useCallback, useEffect, useRef, useState } from 'react';
 import { aiFailureOf, type AiFailure } from '../../domain/ai/errors';
@@ -10,13 +10,17 @@ import { transcribe } from '../../services/ai/stt';
 import { useApp } from '../app/AppContext';
 import { logError } from '../app/log';
 import { recordingUri } from '../skills/recordings';
+import { useFrenchSpeech, type FrenchSpeech } from '../speech/useFrenchSpeech';
 import type { SavedRecording } from '../speaking/useRecorder';
-import { useAiPack } from './useAiPack';
 
 export type Transcript = { status: 'working' } | { status: 'done'; text: string } | { status: 'failed'; failure: AiFailure };
 
 export interface SpeechAi {
   ready: boolean;
+  /** The phone's French recognizer, to offer installing French when it is missing. */
+  speech: FrenchSpeech;
+  /** The learner left speech feedback on (it may still need French installed). */
+  wanted: boolean;
   /** Transcripts by recording file name. */
   transcripts: Readonly<Record<string, Transcript>>;
   /** Transcribes a WAV take in the background; other takes are ignored. */
@@ -25,8 +29,8 @@ export interface SpeechAi {
 
 export function useSpeechAi(): SpeechAi {
   const { settings } = useApp();
-  const pack = useAiPack();
-  const ready = featureReady('speaking', settings.aiFeatures, { sttId: pack.plan.stt.id, llmId: pack.plan.llm?.id ?? null, installedIds: pack.installedIds });
+  const speech = useFrenchSpeech();
+  const ready = featureReady('speaking', settings.aiFeatures, { speechReady: speech.ready, llmId: null, installedIds: [] });
   const [transcripts, setTranscripts] = useState<Record<string, Transcript>>({});
   const controller = useRef(new AbortController());
 
@@ -42,7 +46,7 @@ export function useSpeechAi(): SpeechAi {
       const set = (t: Transcript) => setTranscripts((all) => ({ ...all, [take.fileName]: t }));
       set({ status: 'working' });
       const signal = controller.current.signal;
-      transcribe({ model: pack.plan.stt, uri: recordingUri(take.fileName), durationMs: take.durationMs, signal })
+      transcribe({ uri: recordingUri(take.fileName), durationMs: take.durationMs, signal })
         .then((text) => {
           if (!signal.aborted) set({ status: 'done', text });
         })
@@ -52,8 +56,8 @@ export function useSpeechAi(): SpeechAi {
           set({ status: 'failed', failure: aiFailureOf(e) });
         });
     },
-    [ready, pack.plan.stt],
+    [ready],
   );
 
-  return { ready, transcripts, request };
+  return { ready, speech, wanted: settings.aiFeatures.speaking, transcripts, request };
 }

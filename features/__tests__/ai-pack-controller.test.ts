@@ -2,15 +2,12 @@ import { createHash } from 'node:crypto';
 import type { FakeFs } from '../../test-utils/fake-file-system';
 
 const sha = (s: string) => createHash('sha256').update(s).digest('hex');
-const STT = 'speech weights';
 const LLM = 'language model weights';
 const mockManifest = {
   version: 1,
   allowedHosts: ['huggingface.co'],
-  stt: { standard: 'stt', light: 'stt' },
   llm: { high: 'llm', mid: 'llm' },
   models: [
-    { id: 'stt', kind: 'stt', name: 'Speech', file: 'stt.bin', url: 'https://huggingface.co/a/stt.bin', bytes: STT.length, sha256: sha(STT), licence: 'MIT', source: 's' },
     { id: 'llm', kind: 'llm', name: 'Language', file: 'llm.gguf', url: 'https://huggingface.co/a/llm.gguf', bytes: LLM.length, sha256: sha(LLM), licence: 'Apache-2.0', source: 's' },
   ],
 };
@@ -29,8 +26,7 @@ const pack = require('../ai/ai-pack-controller') as typeof import('../ai/ai-pack
 
 beforeEach(async () => {
   fs.reset();
-  fs.remote.set(mockManifest.models[0]!.url, STT);
-  fs.remote.set(mockManifest.models[1]!.url, LLM);
+  fs.remote.set(mockManifest.models[0]!.url, LLM);
   Object.assign(mockNetwork, { type: 'WIFI', isConnected: true });
   jest.spyOn(console, 'warn').mockImplementation(() => undefined);
   await pack.refresh();
@@ -47,9 +43,8 @@ describe('AI pack controller', () => {
     const unsubscribe = pack.subscribe((s) => seen.push(s.active?.modelId ?? null));
     expect(await pack.download(false)).toEqual({ kind: 'installed' });
     unsubscribe();
-    expect(pack.getState().installedIds).toEqual(['stt', 'llm']);
+    expect(pack.getState().installedIds).toEqual(['llm']);
     expect(pack.isInstalled()).toBe(true);
-    expect(seen).toContain('stt');
     expect(seen).toContain('llm');
   });
 
@@ -70,7 +65,7 @@ describe('AI pack controller', () => {
     await new Promise((r) => setTimeout(r, 0));
     pack.pause();
     expect(await run).toEqual({ kind: 'paused' });
-    expect(pack.getState().pendingId).toBe('stt');
+    expect(pack.getState().pendingId).toBe('llm');
     fs.holdDownloads = false;
     expect(await pack.download(false)).toEqual({ kind: 'installed' });
     expect(pack.getState().pendingId).toBeNull();
@@ -113,7 +108,7 @@ describe('AI pack controller', () => {
 
   it('reports a damaged file by name', async () => {
     fs.remote.set(mockManifest.models[0]!.url, 'corrupted');
-    expect(await pack.download(false)).toEqual({ kind: 'checksum-failed', modelName: 'Speech' });
+    expect(await pack.download(false)).toEqual({ kind: 'checksum-failed', modelName: 'Language' });
     expect(pack.getState().installedIds).toEqual([]);
   });
 

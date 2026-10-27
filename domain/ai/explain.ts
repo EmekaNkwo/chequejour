@@ -17,18 +17,29 @@ export interface ExplainInput {
   grammarTag: GrammarTag | null;
 }
 
+/**
+ * The reply's keys name their language: the grammar makes the model write each key just
+ * before its answer, and on the phone a plain "explanation" key often got a French one.
+ */
 export const EXPLAIN_SCHEMA = z.object({
-  explanation: z.string().min(1).max(600),
-  example: z.string().min(1).max(200),
+  why_in_english: z.string().min(1).max(300),
+  example_in_french: z.string().min(1).max(160),
 });
 
-export type Explanation = z.infer<typeof EXPLAIN_SCHEMA>;
+export interface Explanation {
+  explanation: string;
+  example: string;
+}
+
+export function fromReply(reply: z.infer<typeof EXPLAIN_SCHEMA>): Explanation {
+  return { explanation: reply.why_in_english, example: reply.example_in_french };
+}
 
 const SYSTEM = [
   'You are a patient French teacher. Your student is an English-speaking adult preparing for the TCF Canada, around level A2–B1.',
   'You are given an exercise, the student’s wrong answer and the correct answer. The correct answer is certain: never question it and never say the student’s answer could also be right.',
-  'In "explanation", say in simple English, in at most three short sentences, why the student’s answer is wrong and how to choose the right form. Quote French words in double quotes.',
-  'In "example", write one new short French sentence that uses the correct form. Do not reuse the exercise sentence.',
+  'In "why_in_english", say in simple English, in one or two short sentences (under 40 words), why the student’s answer is wrong and how to choose the right form. Quote French words in double quotes.',
+  'In "example_in_french", write one new short French sentence that uses the correct form. Do not reuse the exercise sentence.',
   'Reply with JSON only.',
 ].join('\n');
 
@@ -49,9 +60,9 @@ const CONCEDES = /\byour answer (?:is|was) (?:also )?(?:correct|right|acceptable
 const norm = (s: string): string => s.toLowerCase().replace(/[’']/g, "'").replace(/\s+/g, ' ').trim();
 
 export function checkExplanation(value: Explanation, m: ExplainInput): Explanation {
-  const explanation = checkText(value.explanation, { language: 'en', maxChars: 600 });
+  const explanation = checkText(value.explanation, { language: 'en', maxChars: 300 });
   if (CONCEDES.test(explanation)) throw new AiError('rejected', 'The AI explanation contradicted the answer key.');
-  const example = checkText(value.example, { language: 'fr', maxChars: 200 });
+  const example = checkText(value.example, { language: 'fr', maxChars: 160 });
   const wrong = norm(m.userAnswer);
   // A wrong answer that is part of the right one ("à" in "à la") can't be told apart; only longer slips are checked.
   if (wrong.length >= 3 && !norm(m.correctAnswer).includes(wrong) && norm(example).includes(wrong)) {

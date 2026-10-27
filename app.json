@@ -76,7 +76,7 @@
         "expo-build-properties",
         {
           "android": {
-            "extraProguardRules": "# The home-screen widget runs through WorkManager, which creates its database, workers\n# and input mergers by reflection; R8 would strip them from release builds.\n-keep class * extends androidx.room.RoomDatabase { <init>(); }\n-keep class androidx.work.** { *; }\n-keep class com.reactnativeandroidwidget.** { *; }\n# On-device AI pack: speech recognition, language model and the PCM recorder (JNI and reflection).\n-keep class com.rnwhisper.** { *; }\n-keep class com.rnllama.** { *; }\n-keep class com.imxiqi.rnliveaudiostream.** { *; }"
+            "extraProguardRules": "# The home-screen widget runs through WorkManager, which creates its database, workers\n# and input mergers by reflection; R8 would strip them from release builds.\n-keep class * extends androidx.room.RoomDatabase { <init>(); }\n-keep class androidx.work.** { *; }\n-keep class com.reactnativeandroidwidget.** { *; }\n# On-device AI pack: language model and the PCM recorder (JNI and reflection).\n-keep class com.rnllama.** { *; }\n-keep class com.imxiqi.rnliveaudiostream.** { *; }"
           }
         }
       ],

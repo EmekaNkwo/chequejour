@@ -9,7 +9,7 @@ jest.mock('../ui/PressableScale', () => ({ PressableScale: jest.requireActual('r
 jest.mock('../ui/Progress', () => ({ ProgressRing: () => null, ProgressBar: () => null, BarChart: () => null }));
 const mockFeature = { ready: true, llm: { id: 'llm' } as unknown };
 jest.mock('../../features/ai/useAiFeature', () => ({ useAiFeature: () => mockFeature }));
-jest.mock('../../services/ai/llm', () => ({ generate: jest.fn() }));
+jest.mock('../../services/ai/llm', () => ({ generate: jest.fn(), warmLlm: jest.fn() }));
 
 const gen = generate as jest.Mock;
 const input: SpeakingFeedbackInput = {
@@ -41,10 +41,10 @@ describe('AI speaking coaching', () => {
   it('shows task fit, checked corrections, phrases and a next step', async () => {
     gen.mockResolvedValueOnce(
       JSON.stringify({
-        task: 'You give an opinion with one reason.',
-        corrections: [{ original: 'que il', corrected: 'qu’il', why: '"Que" elides before a vowel.' }],
+        task_in_english: 'You give an opinion with one reason.',
+        corrections: [{ original: 'que il', corrected: 'qu’il', why_in_english: '"Que" elides before a vowel.' }],
         phrases: [{ fr: 'De plus', en: 'Moreover' }],
-        nextStep: 'Add a second argument.',
+        next_step_in_english: 'Add a second argument.',
       }),
     );
     await show();
@@ -53,5 +53,22 @@ describe('AI speaking coaching', () => {
     expect(screen.getByText('qu’il')).toBeTruthy();
     expect(screen.getByText('De plus')).toBeTruthy();
     expect(screen.getByText('Next take: Add a second argument.')).toBeTruthy();
+  });
+
+  it('shows a fix without its reason when the reason failed the checks', async () => {
+    gen.mockResolvedValueOnce(
+      JSON.stringify({
+        task_in_english: 'You give an opinion with one reason.',
+        corrections: [{ original: 'que il', corrected: 'qu’il', why_in_english: "Le mot 'que' devient 'qu' devant une voyelle, comme dans la phrase." }],
+        phrases: [],
+        next_step_in_english: 'Add a second argument.',
+      }),
+    );
+    await show();
+    await fireEvent.press(screen.getByTestId('ai-speaking-ask'));
+    await waitFor(() => expect(screen.getByText('qu’il')).toBeTruthy());
+    expect(screen.queryByText(/devient/)).toBeNull();
+    // No empty reason line is left behind either.
+    expect(screen.queryByText('')).toBeNull();
   });
 });

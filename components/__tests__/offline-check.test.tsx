@@ -10,6 +10,10 @@ jest.mock('../ui/Progress', () => ({ ProgressRing: () => null, ProgressBar: () =
 
 let mockSpeech: OfflineFrench;
 jest.mock('../../features/speech/useOfflineFrench', () => ({ useOfflineFrench: () => mockSpeech }));
+const mockInstall = jest.fn(async () => undefined);
+jest.mock('../../features/speech/useFrenchSpeech', () => ({
+  useFrenchSpeech: () => ({ status: { status: 'needs-pack' }, ready: false, canInstall: true, install: mockInstall }),
+}));
 
 const base: OfflineFrench = { status: null, listening: false, heard: null, error: null, listen: jest.fn(async () => 'started' as const), stop: jest.fn(), reset: jest.fn() };
 const show = () =>
@@ -31,7 +35,9 @@ describe('OfflineCheck', () => {
     mockSpeech = { ...base, status: { status: 'needs-pack' } };
     await show();
     expect(screen.getByText(/never uses online recognition/)).toBeTruthy();
-    await fireEvent.press(screen.getByText('How to install French'));
+    await fireEvent.press(screen.getByTestId('french-speech-install'));
+    expect(mockInstall).toHaveBeenCalled();
+    await fireEvent.press(screen.getByText('Or install it from Settings'));
     expect(screen.getByText(/Add French \(France or Canada\)/)).toBeTruthy();
     expect(screen.queryByTestId('offline-check-listen')).toBeNull();
   });

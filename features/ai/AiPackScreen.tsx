@@ -26,9 +26,9 @@ import { useAiPack } from './useAiPack';
 const PRIVACY_NOTE = 'Runs on your phone. Your writing and recordings never leave the device. AI suggestions can be wrong.';
 
 const TIER_TEXT: Record<Tier, string> = {
-  high: 'This phone can run speech recognition and the larger language model.',
-  mid: 'This phone can run speech recognition and the smaller language model.',
-  low: 'This phone can run speech recognition. Language-model features need about 6 GB of memory, so they stay hidden.',
+  high: 'This phone can run the larger language model.',
+  mid: 'This phone can run the smaller language model.',
+  low: 'Language-model features need about 6 GB of memory, so this phone has nothing to download.',
 };
 
 function outcomeToast(outcome: DownloadOutcome): { tone: 'success' | 'info' | 'error'; title: string; message?: string } | null {
@@ -52,7 +52,7 @@ function outcomeToast(outcome: DownloadOutcome): { tone: 'success' | 'info' | 'e
 }
 
 const FEATURE_TEXT: Record<AiFeature, { label: string; description: string }> = {
-  speaking: { label: 'Speaking transcripts', description: 'Shows what the AI heard in your shadowing and speaking recordings.' },
+  speaking: { label: 'Speaking transcripts', description: 'Shows what your phone heard in your shadowing and speaking recordings, using its own offline French recognition.' },
   writing: { label: 'Writing feedback', description: 'Suggestions on your texts after you check them.' },
   explain: { label: 'Explain my mistake', description: 'A short explanation of a wrong answer in your mistakes.' },
   conversation: { label: 'Conversation partner', description: 'Practise speaking tasks 2 and 3 with an AI partner.' },
@@ -184,6 +184,9 @@ export default function AiPackScreen() {
           <AppText variant="body" testID="ai-tier">
             {TIER_TEXT[pack.plan.tier]}
           </AppText>
+          <AppText variant="meta" tone="muted">
+            Speaking transcripts need no download: they use your phone’s own offline French speech recognition.
+          </AppText>
           {pack.plan.models.map((m) => (
             <ModelRow key={m.id} model={m} status={statusOf(m)} />
           ))}
@@ -215,39 +218,40 @@ export default function AiPackScreen() {
               testID="ai-mobile-data"
             />
           ) : null}
-          {installed || pack.installedIds.length > 0 ? (
+          {pack.installedIds.length > 0 ? (
             <Button label="Delete AI pack" icon="trash-2" variant="ghost" onPress={() => void confirmDelete()} testID="ai-delete" />
           ) : null}
         </SettingsGroup>
       </Card>
 
-      {installed ? (
+      {/* Speaking transcripts need no download; the language-model features appear once it is installed. */}
+      <Card>
+        <SettingsGroup title="Features">
+          {FEATURE_ORDER.filter((f) => (pack.plan.llm !== null && installed) || !LLM_FEATURES.includes(f)).map((f) => (
+            <SwitchRow
+              key={f}
+              label={FEATURE_TEXT[f].label}
+              description={FEATURE_TEXT[f].description}
+              value={settings.aiFeatures[f]}
+              onChange={(v) => void updateSetting('aiFeatures', { ...settings.aiFeatures, [f]: v })}
+              testID={`ai-feature-${f}`}
+            />
+          ))}
+          {pack.plan.llm && installed ? <LlmCheck model={pack.plan.llm} /> : null}
+        </SettingsGroup>
+      </Card>
+
+      {pack.plan.models.length > 0 ? (
         <Card>
-          <SettingsGroup title="Features">
-            {FEATURE_ORDER.filter((f) => pack.plan.llm !== null || !LLM_FEATURES.includes(f)).map((f) => (
-              <SwitchRow
-                key={f}
-                label={FEATURE_TEXT[f].label}
-                description={FEATURE_TEXT[f].description}
-                value={settings.aiFeatures[f]}
-                onChange={(v) => void updateSetting('aiFeatures', { ...settings.aiFeatures, [f]: v })}
-                testID={`ai-feature-${f}`}
-              />
+          <SettingsGroup title="Models and licences">
+            {pack.plan.models.map((m) => (
+              <AppText key={m.id} variant="meta" tone="secondary">
+                {m.name}: {m.source}. Licence: {m.licence}.
+              </AppText>
             ))}
-            {pack.plan.llm ? <LlmCheck model={pack.plan.llm} /> : null}
           </SettingsGroup>
         </Card>
       ) : null}
-
-      <Card>
-        <SettingsGroup title="Models and licences">
-          {pack.plan.models.map((m) => (
-            <AppText key={m.id} variant="meta" tone="secondary">
-              {m.name}: {m.source}. Licence: {m.licence}.
-            </AppText>
-          ))}
-        </SettingsGroup>
-      </Card>
     </Screen>
   );
 }

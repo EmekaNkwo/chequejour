@@ -2,7 +2,7 @@ import { fireEvent, render, screen, waitFor } from '@testing-library/react-nativ
 import { AiError } from '../../domain/ai/errors';
 import type { ExplainInput } from '../../domain/ai/explain';
 import { explainMistake } from '../../features/ai/explain-mistake';
-import { generate } from '../../services/ai/llm';
+import { generate, warmLlm } from '../../services/ai/llm';
 import { ExplainMistake } from '../ai/ExplainMistake';
 import { ThemeProvider } from '../theme/ThemeProvider';
 
@@ -11,7 +11,7 @@ jest.mock('../ui/PressableScale', () => ({ PressableScale: jest.requireActual('r
 jest.mock('../ui/Progress', () => ({ ProgressRing: () => null, ProgressBar: () => null, BarChart: () => null }));
 const mockFeature = { ready: true, llm: { id: 'llm' } as unknown };
 jest.mock('../../features/ai/useAiFeature', () => ({ useAiFeature: () => mockFeature }));
-jest.mock('../../services/ai/llm', () => ({ generate: jest.fn() }));
+jest.mock('../../services/ai/llm', () => ({ generate: jest.fn(), warmLlm: jest.fn() }));
 
 const gen = generate as jest.Mock;
 const mistake: ExplainInput = { prompt: 'Je vais ___ Montréal.', userAnswer: 'en', correctAnswer: 'à', explanation: 'Use à before a city.', grammarTag: 'prepositions' };
@@ -25,14 +25,20 @@ beforeEach(() => {
 });
 
 describe('Explain my mistake', () => {
-  it('is hidden when the feature is not ready', async () => {
+  it('is hidden when the feature is not ready, and loads nothing', async () => {
     Object.assign(mockFeature, { ready: false, llm: null });
     await show();
     expect(screen.queryByText('Explain with AI')).toBeNull();
+    expect(warmLlm).not.toHaveBeenCalled();
+  });
+
+  it('starts loading the model, with its instructions, as soon as the button is shown', async () => {
+    await show();
+    expect(warmLlm).toHaveBeenCalledWith({ id: 'llm' }, [expect.objectContaining({ role: 'system' })]);
   });
 
   it('shows the explanation and an example, labelled as an AI suggestion', async () => {
-    reply({ explanation: 'Before a city French uses "à", not "en".', example: 'Elle habite à Québec.' });
+    reply({ why_in_english: 'Before a city French uses "à", not "en".', example_in_french: 'Elle habite à Québec.' });
     await show();
     await fireEvent.press(screen.getByText('Explain with AI'));
     await waitFor(() => expect(screen.getByText(/Before a city French uses/)).toBeTruthy());
@@ -42,7 +48,7 @@ describe('Explain my mistake', () => {
   });
 
   it('drops an explanation that contradicts the answer key and offers to retry', async () => {
-    reply({ explanation: 'Your answer is also correct in Quebec French.', example: 'Je vais à Laval.' });
+    gen.mockResolvedValue(JSON.stringify({ why_in_english: 'Your answer is also correct in Quebec French.', example_in_french: 'Je vais à Laval.' }));
     await show();
     await fireEvent.press(screen.getByText('Explain with AI'));
     await waitFor(() => expect(screen.getByText(/did not pass the app’s checks/)).toBeTruthy());
@@ -60,7 +66,15 @@ describe('Explain my mistake', () => {
 
 describe('explainMistake', () => {
   it('rejects malformed replies', async () => {
-    gen.mockResolvedValueOnce('Sure, here you go!');
+    gen.mockResolvedValue('Sure, here you go!');
     await expect(explainMistake({ id: 'llm' } as never, mistake)).rejects.toMatchObject({ failure: 'rejected' });
+    expect(gen).toHaveBeenCalledTimes(2);
+  });
+
+  it('shows the second answer when the first fails the checks', async () => {
+    gen.mockResolvedValueOnce('Sure, here you go!').mockResolvedValueOnce(JSON.stringify({ why_in_english: 'Use "à" before a city name.', example_in_french: 'Je vais à Laval.' }));
+    await expect(explainMistake({ id: 'llm' } as never, mistake)).resolves.toEqual({ explanation: 'Use "à" before a city name.', example: 'Je vais à Laval.' });
+    // The retry is a little warmer, so it doesn't repeat itself.
+    expect(gen.mock.calls[1][0].temperature).toBeGreaterThan(gen.mock.calls[0][0].temperature);
   });
 });

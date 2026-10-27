@@ -5,6 +5,7 @@ import { useCallback, useEffect, useRef, useState } from 'react';
 import { StyleSheet, View } from 'react-native';
 import { SpeakingAiFeedback } from '../../components/ai/SpeakingAiFeedback';
 import { TranscriptCard } from '../../components/ai/TranscriptCard';
+import { FrenchSpeechSetup } from '../../components/speaking/FrenchSpeechSetup';
 import { PlayButton } from '../../components/audio/AudioControls';
 import { useTheme } from '../../components/theme/ThemeProvider';
 import { radii, spacing } from '../../components/theme/tokens';
@@ -260,6 +261,8 @@ function Speaking({ task, mock }: { task: SpeakingTask; mock?: string }) {
           ))
         )}
       </Card>
+
+      {speechAi.wanted && !speechAi.ready ? <FrenchSpeechSetup speech={speechAi.speech} purpose="See a transcript of each take and get coaching on it." /> : null}
 
       {recordings[0] && speechAi.transcripts[recordings[0].uri] ? (
         <TranscriptCard transcript={speechAi.transcripts[recordings[0].uri]} durationMs={recordings[0].durationMs}>

@@ -258,8 +258,8 @@
       "level": "A1",
       "core": false,
       "example": {
-        "fr": "Mon numéro de téléphone commence par zéro six.",
-        "en": "My phone number starts with zero six."
+        "fr": "Mon numéro de téléphone se termine par zéro.",
+        "en": "My phone number ends in zero."
       }
     },
     {

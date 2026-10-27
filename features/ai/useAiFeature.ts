@@ -16,7 +16,8 @@ export interface AiFeatureAccess {
 export function useAiFeature(feature: AiFeature): AiFeatureAccess {
   const { settings } = useApp();
   const pack = useAiPack();
-  const ready = featureReady(feature, settings.aiFeatures, { sttId: pack.plan.stt.id, llmId: pack.plan.llm?.id ?? null, installedIds: pack.installedIds });
+  // Speech recognition is checked where it is used (useSpeechAi, the conversation screen); here only the toggle and models count.
+  const ready = featureReady(feature, settings.aiFeatures, { speechReady: true, llmId: pack.plan.llm?.id ?? null, installedIds: pack.installedIds });
   const llm = pack.plan.llm && pack.installedIds.includes(pack.plan.llm.id) ? pack.plan.llm : null;
   return { ready, llm: ready ? llm : null };
 }

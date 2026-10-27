@@ -19,6 +19,8 @@ const rejected = (fn: () => unknown) => {
 describe('conversation partner', () => {
   it('opens with a fixed line: a greeting for a role-play, the question for an opinion task', () => {
     expect(openingLine(interaction)).toMatch(/^Bonjour/);
+    // Task 2 situations vary (a neighbour, a friend, a shop): the greeting must not assume a service desk.
+    expect(openingLine(interaction)).not.toMatch(/je vous écoute|que puis-je faire/i);
     expect(openingLine(opinion)).toContain('Faut-il interdire les voitures en centre-ville ?');
   });
 

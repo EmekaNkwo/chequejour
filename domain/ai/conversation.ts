@@ -30,7 +30,7 @@ export const REDIRECT_LINE = 'Restons polis, s’il vous plaît, et revenons au 
 export const CLOSING_LINE = 'Merci, c’est terminé. Vous avez bien travaillé !';
 
 export function openingLine(task: ConversationTask): string {
-  return task.taskType === 'interaction' ? 'Bonjour, je vous écoute. Que puis-je faire pour vous ?' : `${task.promptFr} Qu’en pensez-vous ?`;
+  return task.taskType === 'interaction' ? 'Bonjour !' : `${task.promptFr} Qu’en pensez-vous ?`;
 }
 
 const ROLE: Record<ConversationTaskType, string> = {

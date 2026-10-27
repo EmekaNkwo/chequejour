@@ -3,10 +3,9 @@ import { AiError } from '../../domain/ai/errors';
 import { transcribe } from '../../services/ai/stt';
 import { useSpeechAi } from '../ai/useSpeechAi';
 
-const mockStt = { id: 'whisper-small' };
-const mockState = { speaking: true, installed: ['whisper-small'] };
+const mockState = { speaking: true, french: true };
 jest.mock('../app/AppContext', () => ({ useApp: () => ({ settings: { aiFeatures: { speaking: mockState.speaking } } }) }));
-jest.mock('../ai/useAiPack', () => ({ useAiPack: () => ({ plan: { stt: mockStt, llm: null }, installedIds: mockState.installed }) }));
+jest.mock('../speech/useFrenchSpeech', () => ({ useFrenchSpeech: () => ({ ready: mockState.french }) }));
 jest.mock('../../services/ai/stt', () => ({ transcribe: jest.fn() }));
 jest.mock('../skills/recordings', () => ({ recordingUri: (name: string) => `file:///rec/${name}` }));
 
@@ -16,15 +15,15 @@ const take = { fileName: 'a.wav', durationMs: 3000, wav: true };
 beforeEach(() => {
   jest.clearAllMocks();
   jest.spyOn(console, 'warn').mockImplementation(() => undefined);
-  Object.assign(mockState, { speaking: true, installed: ['whisper-small'] });
+  Object.assign(mockState, { speaking: true, french: true });
 });
 
 describe('useSpeechAi', () => {
-  it('is ready only with the speech model installed and speaking feedback on', async () => {
+  it('is ready only with on-device French recognition and speaking feedback on', async () => {
     expect((await renderHook(() => useSpeechAi())).result.current.ready).toBe(true);
     mockState.speaking = false;
     expect((await renderHook(() => useSpeechAi())).result.current.ready).toBe(false);
-    Object.assign(mockState, { speaking: true, installed: [] });
+    Object.assign(mockState, { speaking: true, french: false });
     expect((await renderHook(() => useSpeechAi())).result.current.ready).toBe(false);
   });
 
@@ -34,7 +33,7 @@ describe('useSpeechAi', () => {
     await act(async () => {
       result.current.request(take);
     });
-    expect(run).toHaveBeenCalledWith(expect.objectContaining({ model: mockStt, uri: 'file:///rec/a.wav', durationMs: 3000 }));
+    expect(run).toHaveBeenCalledWith(expect.objectContaining({ uri: 'file:///rec/a.wav', durationMs: 3000 }));
     expect(result.current.transcripts['a.wav']).toEqual({ status: 'done', text: 'Bonjour' });
   });
 

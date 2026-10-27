@@ -1,5 +1,5 @@
 /**
- * What the on-device speech model heard in the learner's latest take. With a target line
+ * What the phone's on-device recognizer heard in the learner's latest take. With a target line
  * (shadowing) it compares word by word; without one (speaking tasks) it shows the text
  * and the speaking pace. Always labelled as a hint, never as a score.
  */
@@ -33,7 +33,7 @@ export function TranscriptCard({ transcript, target, durationMs, children }: Tra
       <Row gap={spacing.sm}>
         <Feather name="cpu" size={16} color={colors.textMuted} />
         <AppText variant="bodyStrong" style={styles.flex}>
-          What the AI heard
+          What your phone heard
         </AppText>
       </Row>
       {transcript.status === 'working' ? (
@@ -45,7 +45,7 @@ export function TranscriptCard({ transcript, target, durationMs, children }: Tra
         </Row>
       ) : transcript.status === 'failed' ? (
         <AppText variant="meta" tone="muted">
-          {aiFailureMessage(transcript.failure)}
+          {transcript.failure === 'unavailable' ? 'Offline French speech recognition is not available on this phone right now.' : aiFailureMessage(transcript.failure)}
         </AppText>
       ) : transcript.text === '' ? (
         <AppText variant="body" tone="secondary">

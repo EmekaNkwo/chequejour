@@ -3,7 +3,7 @@ import { z } from 'zod';
 import { AiError } from '../../domain/ai/errors';
 import type { ModelEntry } from '../../domain/ai/manifest';
 import { generate } from '../../services/ai/llm';
-import { askJson, askText, grammarSchema, llmTimeoutMs } from '../ai/ask';
+import { askJson, askText, grammarSchema, llmTimeoutMs, withRetry } from '../ai/ask';
 import { useAiJob } from '../ai/useAiJob';
 
 jest.mock('../../services/ai/llm', () => ({ generate: jest.fn() }));
@@ -92,5 +92,44 @@ describe('useAiJob', () => {
     await act(async () => result.current.run(() => new Promise((r) => (finish = r))));
     await unmount();
     finish('late');
+  });
+});
+
+describe('one more try', () => {
+  it('asks once more, a little less predictably, when the answer fails the checks', async () => {
+    const attempt = jest
+      .fn<Promise<string>, [number]>()
+      .mockRejectedValueOnce(new AiError('rejected', 'Not in English.'))
+      .mockResolvedValueOnce('ok');
+    await expect(withRetry(attempt)).resolves.toBe('ok');
+    expect(attempt.mock.calls).toEqual([[0], [1]]);
+  });
+
+  it('gives up after the second try', async () => {
+    const attempt = jest.fn(async () => {
+      throw new AiError('rejected', 'Not in English.');
+    });
+    await expect(withRetry(attempt)).rejects.toMatchObject({ failure: 'rejected' });
+    expect(attempt).toHaveBeenCalledTimes(2);
+  });
+
+  it('does not retry a timeout, a cancel or a missing model', async () => {
+    for (const failure of ['timeout', 'cancelled', 'unavailable', 'load-failed'] as const) {
+      const attempt = jest.fn(async () => {
+        throw new AiError(failure, 'x');
+      });
+      await expect(withRetry(attempt)).rejects.toMatchObject({ failure });
+      expect(attempt).toHaveBeenCalledTimes(1);
+    }
+  });
+
+  it('does not retry once the learner has cancelled', async () => {
+    const controller = new AbortController();
+    const attempt = jest.fn(async () => {
+      controller.abort();
+      throw new AiError('rejected', 'x');
+    });
+    await expect(withRetry(attempt, controller.signal)).rejects.toMatchObject({ failure: 'rejected' });
+    expect(attempt).toHaveBeenCalledTimes(1);
   });
 });

@@ -10,7 +10,7 @@ jest.mock('../ui/Progress', () => ({ ProgressRing: () => null, ProgressBar: () =
 jest.mock('../audio/AudioControls', () => ({ PlayButton: () => null }));
 const mockFeature = { ready: true, llm: { id: 'llm' } as unknown };
 jest.mock('../../features/ai/useAiFeature', () => ({ useAiFeature: () => mockFeature }));
-jest.mock('../../services/ai/llm', () => ({ generate: jest.fn() }));
+jest.mock('../../services/ai/llm', () => ({ generate: jest.fn(), warmLlm: jest.fn() }));
 
 const gen = generate as jest.Mock;
 const word: ExampleWord = { fr: 'se lever', en: 'to get up', pos: 'verb', level: 'A2', example: { fr: 'Je me lève à sept heures.', en: 'I get up at seven.' } };

@@ -40,10 +40,10 @@
       "lines": [
         {
           "speaker": "Annonce",
-          "fr": "Mesdames et messieurs, les passagers du vol 872 à destination de Paris sont priés de se présenter à la porte quatorze. L'embarquement commence dans dix minutes. Merci."
+          "fr": "Mesdames et messieurs, les passagers du vol 872 à destination d'Ottawa sont priés de se présenter à la porte quatorze. L'embarquement commence dans dix minutes. Merci."
         }
       ],
-      "translation": "Ladies and gentlemen, passengers on flight 872 to Paris are asked to go to gate fourteen. Boarding begins in ten minutes. Thank you.",
+      "translation": "Ladies and gentlemen, passengers on flight 872 to Ottawa are asked to go to gate fourteen. Boarding begins in ten minutes. Thank you.",
       "questions": [
         {
           "id": "mk2-li02-q1",

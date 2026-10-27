@@ -279,11 +279,11 @@
       "skill": "reading",
       "grammarTag": "futur-simple",
       "prompt": "Read the email. What does Karim ask Madame Roux to do?",
-      "promptFr": "Bonjour Madame Roux, je ne pourrai pas assister à la réunion de jeudi, car je serai en déplacement à Lille. Pourriez-vous m'envoyer le compte rendu ? Merci d'avance. Karim Benali",
+      "promptFr": "Bonjour Madame Roux, je ne pourrai pas assister à la réunion de jeudi, car je serai en déplacement à Moncton. Pourriez-vous m'envoyer le compte rendu ? Merci d'avance. Karim Benali",
       "options": [
-        "Book him a train ticket to Lille",
+        "Book him a train ticket to Moncton",
         "Send him the minutes of the meeting",
-        "Meet him in Lille on Thursday",
+        "Meet him in Moncton on Thursday",
         "Move the meeting to another day"
       ],
       "answer": 1,

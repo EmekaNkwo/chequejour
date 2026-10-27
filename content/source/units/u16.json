@@ -456,8 +456,8 @@
       "level": "B1",
       "core": false,
       "example": {
-        "fr": "J'ai hâte de commencer ma nouvelle vie à Bordeaux.",
-        "en": "I can't wait to start my new life in Bordeaux."
+        "fr": "J'ai hâte de commencer ma nouvelle vie à Sherbrooke.",
+        "en": "I can't wait to start my new life in Sherbrooke."
       }
     },
     {
@@ -1188,7 +1188,7 @@
       "level": "B1",
       "grammarTag": "subjonctif",
       "explanation": [
-        "To say why you do something, use pour or afin de + infinitive when the person doing the action is also the person who will do the second action: J'apprends le français pour travailler à Paris. Afin de means the same but is more formal and common in writing.",
+        "To say why you do something, use pour or afin de + infinitive when the person doing the action is also the person who will do the second action: J'apprends le français pour travailler à Ottawa. Afin de means the same but is more formal and common in writing.",
         "When the purpose concerns another person, use pour que or afin que + subjonctif: Je parle lentement pour que tu comprennes. These conjunctions always take the subjonctif, never the indicative or the future.",
         "To express something you want to avoid, use de peur que / de crainte que + subjonctif (different subjects) or de peur de + infinitive (same subject): Il part tôt de peur de rater le train. In everyday speech, pour ne pas + infinitive is the simplest option: pour ne pas rater le train.",
         "Watch the position of the negation. With an infinitive, both parts go before the verb: pour ne pas oublier. With pour que, the negation surrounds the conjugated verb: pour qu'il ne s'inquiète pas."
@@ -1907,7 +1907,7 @@
         },
         {
           "speaker": "Présentatrice",
-          "fr": "Chaque projet retenu recevra une aide pouvant aller jusqu'à 5 000 euros, ainsi que l'accompagnement d'un mentor pendant un an."
+          "fr": "Chaque projet retenu recevra une aide pouvant aller jusqu'à 5 000 dollars, ainsi que l'accompagnement d'un mentor pendant un an."
         },
         {
           "speaker": "Présentatrice",
@@ -1922,7 +1922,7 @@
           "fr": "Et pour que chacun ait sa chance, des ateliers gratuits ont lieu tous les mercredis à la Maison des jeunes pour vous aider à préparer votre dossier."
         }
       ],
-      "translation": "Are you between 18 and 30 and do you have a project close to your heart? The region is launching the 'Cap Avenir' programme.\nWhether you dream of starting your own business, volunteering abroad or organising a festival in your village, Cap Avenir can help you.\nEach project selected will receive funding of up to 5,000 euros, as well as support from a mentor for a year.\nPlease note: applications must be submitted online before 15 March.\nA jury will then meet the candidates in April in order to select about forty projects.\nAnd so that everyone has a fair chance, free workshops take place every Wednesday at the youth centre to help you prepare your application.",
+      "translation": "Are you between 18 and 30 and do you have a project close to your heart? The region is launching the 'Cap Avenir' programme.\nWhether you dream of starting your own business, volunteering abroad or organising a festival in your village, Cap Avenir can help you.\nEach project selected will receive funding of up to 5,000 dollars, as well as support from a mentor for a year.\nPlease note: applications must be submitted online before 15 March.\nA jury will then meet the candidates in April in order to select about forty projects.\nAnd so that everyone has a fair chance, free workshops take place every Wednesday at the youth centre to help you prepare your application.",
       "questions": [
         {
           "id": "u16-li02-q1",
@@ -1940,13 +1940,13 @@
           "id": "u16-li02-q2",
           "question": "What will each selected project receive?",
           "options": [
-            "Exactly €5,000 and free workshops",
+            "Exactly $5,000 and free workshops",
             "A year of free training",
-            "Up to €5,000 and a mentor for a year",
+            "Up to $5,000 and a mentor for a year",
             "A place at the youth centre"
           ],
           "answer": 2,
-          "explanation": "« une aide pouvant aller jusqu'à 5 000 euros, ainsi que l'accompagnement d'un mentor pendant un an »."
+          "explanation": "« une aide pouvant aller jusqu'à 5 000 dollars, ainsi que l'accompagnement d'un mentor pendant un an »."
         },
         {
           "id": "u16-li02-q3",
@@ -1981,8 +1981,8 @@
       "title": "Changer de vie à 40 ans",
       "level": "B1",
       "kind": "article",
-      "text": "Changer de vie à 40 ans : la tentation de la reconversion\n\nIls étaient comptables, ingénieurs ou commerciaux. Aujourd'hui, ils sont boulangers, menuisiers ou professeurs de yoga. Selon une étude récente, près d'un actif sur deux envisage une reconversion professionnelle au cours de sa carrière, et la tendance s'accélère chez les 35-45 ans.\n\nPourquoi un tel désir de changement ? Le salaire n'est pas la première raison. La plupart des personnes interrogées disent chercher un métier qui ait du sens et qui leur permette de mieux concilier vie professionnelle et vie familiale.\n\nPourtant, le chemin n'est pas toujours simple. « J'avais peur que ma famille ne me suive pas, et je doutais d'être capable d'apprendre un nouveau métier à 41 ans », raconte Julien, ancien cadre devenu fromager dans le Jura. Il lui a fallu deux ans de formation et beaucoup de persévérance avant d'ouvrir sa boutique.\n\nLes spécialistes conseillent de ne pas tout quitter du jour au lendemain. Faire un bilan de compétences, rencontrer des professionnels du secteur et tester le métier lors d'un stage sont des étapes essentielles afin d'éviter les mauvaises surprises. Car si la reconversion peut être une source d'épanouissement, elle reste aussi un pari.",
-      "translation": "Changing your life at 40: the lure of a career change\n\nThey were accountants, engineers or salespeople. Today they are bakers, carpenters or yoga teachers. According to a recent study, nearly one working person in two considers a career change at some point in their working life, and the trend is speeding up among 35- to 45-year-olds.\n\nWhy such a desire for change? Salary is not the main reason. Most of the people surveyed say they are looking for a job that has meaning and that allows them to balance work and family life better.\n\nHowever, the road is not always easy. 'I was afraid my family wouldn't follow me, and I doubted I could learn a new trade at 41,' says Julien, a former manager who became a cheesemaker in the Jura. It took him two years of training and a lot of perseverance before he opened his shop.\n\nSpecialists advise against quitting everything overnight. Doing a skills assessment, meeting professionals in the sector and trying out the job during a work placement are essential steps to avoid unpleasant surprises. For although a career change can be a source of fulfilment, it is still a gamble.",
+      "text": "Changer de vie à 40 ans : la tentation de la reconversion\n\nIls étaient comptables, ingénieurs ou commerciaux. Aujourd'hui, ils sont boulangers, menuisiers ou professeurs de yoga. Selon une étude récente, près d'un actif sur deux envisage une reconversion professionnelle au cours de sa carrière, et la tendance s'accélère chez les 35-45 ans.\n\nPourquoi un tel désir de changement ? Le salaire n'est pas la première raison. La plupart des personnes interrogées disent chercher un métier qui ait du sens et qui leur permette de mieux concilier vie professionnelle et vie familiale.\n\nPourtant, le chemin n'est pas toujours simple. « J'avais peur que ma famille ne me suive pas, et je doutais d'être capable d'apprendre un nouveau métier à 41 ans », raconte Julien, ancien cadre devenu fromager dans Charlevoix. Il lui a fallu deux ans de formation et beaucoup de persévérance avant d'ouvrir sa boutique.\n\nLes spécialistes conseillent de ne pas tout quitter du jour au lendemain. Faire un bilan de compétences, rencontrer des professionnels du secteur et tester le métier lors d'un stage sont des étapes essentielles afin d'éviter les mauvaises surprises. Car si la reconversion peut être une source d'épanouissement, elle reste aussi un pari.",
+      "translation": "Changing your life at 40: the lure of a career change\n\nThey were accountants, engineers or salespeople. Today they are bakers, carpenters or yoga teachers. According to a recent study, nearly one working person in two considers a career change at some point in their working life, and the trend is speeding up among 35- to 45-year-olds.\n\nWhy such a desire for change? Salary is not the main reason. Most of the people surveyed say they are looking for a job that has meaning and that allows them to balance work and family life better.\n\nHowever, the road is not always easy. 'I was afraid my family wouldn't follow me, and I doubted I could learn a new trade at 41,' says Julien, a former manager who became a cheesemaker in Charlevoix. It took him two years of training and a lot of perseverance before he opened his shop.\n\nSpecialists advise against quitting everything overnight. Doing a skills assessment, meeting professionals in the sector and trying out the job during a work placement are essential steps to avoid unpleasant surprises. For although a career change can be a source of fulfilment, it is still a gamble.",
       "questions": [
         {
           "id": "u16-re01-q1",
@@ -2002,7 +2002,7 @@
           "options": [
             "The cost of opening a shop",
             "His family's reaction and his own ability to learn a new trade",
-            "The lack of training in the Jura",
+            "The lack of training in Charlevoix",
             "Losing his manager's salary"
           ],
           "answer": 1,
@@ -2122,7 +2122,7 @@
       "promptFr": "Vous écrivez un courriel à un ami pour lui annoncer un projet important (changement de métier, voyage, formation…). Vous lui expliquez votre projet et vos raisons, et vous lui demandez son avis. (60 à 120 mots)",
       "minWords": 60,
       "maxWords": 120,
-      "modelAnswer": "Salut Marco,\n\nJ'ai une grande nouvelle : j'ai décidé de me lancer dans la pâtisserie ! À partir de janvier, je vais suivre une formation de six mois à Lyon, puis je compte ouvrir un petit salon de thé.\n\nJe travaille dans un bureau depuis huit ans et je ne m'y épanouis plus. Cuisiner, c'est ma passion depuis toujours, alors je veux essayer avant qu'il soit trop tard.\n\nMes parents ont peur que je perde ma sécurité, mais moi, je suis plutôt optimiste. Et toi, qu'en penses-tu ? Tu crois que c'est une bonne idée ?\n\nÀ bientôt,\nInès",
+      "modelAnswer": "Salut Marco,\n\nJ'ai une grande nouvelle : j'ai décidé de me lancer dans la pâtisserie ! À partir de janvier, je vais suivre une formation de six mois à Montréal, puis je compte ouvrir un petit salon de thé.\n\nJe travaille dans un bureau depuis huit ans et je ne m'y épanouis plus. Cuisiner, c'est ma passion depuis toujours, alors je veux essayer avant qu'il soit trop tard.\n\nMes parents ont peur que je perde ma sécurité, mais moi, je suis plutôt optimiste. Et toi, qu'en penses-tu ? Tu crois que c'est une bonne idée ?\n\nÀ bientôt,\nInès",
       "checklist": [
         "I greet my friend and sign off in an informal register (tu).",
         "I explain the plan with future forms (je vais…, je compte…).",

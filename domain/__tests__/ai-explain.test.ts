@@ -1,4 +1,4 @@
-import { EXPLAIN_SCHEMA, checkExplanation, explainMessages, type ExplainInput } from '../ai/explain';
+import { EXPLAIN_SCHEMA, checkExplanation, explainMessages, type ExplainInput, fromReply } from '../ai/explain';
 
 const mistake: ExplainInput = {
   prompt: 'Je vais ___ Montréal demain.',
@@ -29,8 +29,13 @@ describe('explain-my-mistake prompt', () => {
   });
 
   it('asks for a short explanation and one example', () => {
-    expect(EXPLAIN_SCHEMA.safeParse({ explanation: 'Because.', example: 'Je vais à Paris.' }).success).toBe(true);
-    expect(EXPLAIN_SCHEMA.safeParse({ explanation: 'x'.repeat(601), example: 'Je vais à Paris.' }).success).toBe(false);
+    expect(EXPLAIN_SCHEMA.safeParse({ why_in_english: 'Because.', example_in_french: 'Je vais à Paris.' }).success).toBe(true);
+    expect(EXPLAIN_SCHEMA.safeParse({ why_in_english: 'x'.repeat(301), example_in_french: 'Je vais à Paris.' }).success).toBe(false);
+  });
+
+  it('names the language in each key, since the model writes the key just before its answer', () => {
+    expect(Object.keys(EXPLAIN_SCHEMA.shape)).toEqual(['why_in_english', 'example_in_french']);
+    expect(fromReply({ why_in_english: 'Because.', example_in_french: 'Je vais à Paris.' })).toEqual({ explanation: 'Because.', example: 'Je vais à Paris.' });
   });
 });
 

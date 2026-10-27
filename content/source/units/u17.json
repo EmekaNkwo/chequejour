@@ -86,8 +86,8 @@
       "level": "B1",
       "core": true,
       "example": {
-        "fr": "Marseille est connue pour la diversité de sa population.",
-        "en": "Marseille is known for the diversity of its population."
+        "fr": "Gatineau est connue pour la diversité de sa population.",
+        "en": "Gatineau is known for the diversity of its population."
       }
     },
     {
@@ -184,8 +184,8 @@
       "level": "B1",
       "core": true,
       "example": {
-        "fr": "Le mode de vie des Parisiens est très différent de celui des campagnes.",
-        "en": "Parisians' way of life is very different from that of people in the countryside."
+        "fr": "Le mode de vie des Montréalais est très différent de celui des campagnes.",
+        "en": "Montrealers' way of life is very different from that of people in the countryside."
       }
     },
     {
@@ -508,7 +508,7 @@
       "level": "B1",
       "core": false,
       "example": {
-        "fr": "La mairie veut favoriser la mixité sociale dans les nouveaux quartiers.",
+        "fr": "La Ville veut favoriser la mixité sociale dans les nouveaux quartiers.",
         "en": "The town council wants to encourage a social mix in the new neighbourhoods."
       }
     },
@@ -647,8 +647,8 @@
       "level": "B1",
       "core": false,
       "example": {
-        "fr": "Il a grandi en banlieue, à vingt minutes de Paris.",
-        "en": "He grew up in the suburbs, twenty minutes from Paris."
+        "fr": "Il a grandi en banlieue, à vingt minutes d'Ottawa.",
+        "en": "He grew up in the suburbs, twenty minutes from Ottawa."
       }
     },
     {
@@ -688,8 +688,8 @@
       "level": "A2+",
       "core": false,
       "example": {
-        "fr": "En France, la fête nationale a lieu le 14 juillet.",
-        "en": "In France, the national day is on 14 July."
+        "fr": "Au Québec, la fête nationale a lieu le 24 juin.",
+        "en": "In Québec, the national holiday is on 24 June."
       }
     },
     {
@@ -731,7 +731,7 @@
       "core": false,
       "example": {
         "fr": "La gastronomie lyonnaise est réputée dans le monde entier.",
-        "en": "Lyon's food culture is famous all over the world."
+        "en": "Montréal's food culture is famous all over the world."
       }
     },
     {
@@ -771,8 +771,8 @@
       "level": "A2+",
       "core": false,
       "example": {
-        "fr": "Le 1er mai est un jour férié en France.",
-        "en": "1 May is a public holiday in France."
+        "fr": "La fête du Travail, en septembre, est un jour férié au Canada.",
+        "en": "Labour Day, in September, is a public holiday in Canada."
       }
     },
     {
@@ -999,8 +999,8 @@
       "level": "B1",
       "core": false,
       "example": {
-        "fr": "Le marché de Noël de Strasbourg est un rendez-vous incontournable.",
-        "en": "The Strasbourg Christmas market is an unmissable event."
+        "fr": "Le marché de Noël de Halifax est un rendez-vous incontournable.",
+        "en": "The Halifax Christmas market is an unmissable event."
       }
     },
     {
@@ -1205,7 +1205,7 @@
         "Ce qui, ce que and ce dont mean 'what' (= the thing that) when there is no noun before the relative pronoun. They appear in statements and in indirect questions: Je ne sais pas ce que tu veux. Dis-moi ce qui se passe.",
         "Choose them the same way as qui and que. Ce qui is the subject of the next verb (ce qui m'intéresse = the thing that interests me). Ce que is the direct object (ce que j'aime = the thing I like). Quick test: if a subject (je, tu, les gens…) follows, it is ce que; if a verb or object pronoun follows directly, it is ce qui. Ce que becomes ce qu' before a vowel; ce qui never changes.",
         "Ce dont is used with verbs and expressions followed by de: Ce dont j'ai besoin, c'est de calme. Ce dont on parle, c'est du nouveau musée.",
-        "A very common structure for emphasis puts ce qui / ce que / ce dont at the start and c'est after the comma: Ce que j'aime à Lyon, c'est la gastronomie. Ce qui me choque, c'est l'indifférence. This is a natural way to give your opinion at B1.",
+        "A very common structure for emphasis puts ce qui / ce que / ce dont at the start and c'est after the comma: Ce que j'aime à Montréal, c'est la gastronomie. Ce qui me choque, c'est l'indifférence. This is a natural way to give your opinion at B1.",
         "In indirect questions, qu'est-ce qui becomes ce qui and qu'est-ce que becomes ce que: « Qu'est-ce que tu fais ? » → Il me demande ce que je fais. Never say je ne sais pas qu'est-ce que…"
       ],
       "table": [
@@ -1811,7 +1811,7 @@
         },
         {
           "speaker": "Amina",
-          "fr": "Oui, surtout pour trouver de l'argent. Ce dont nous avons besoin, c'est d'un vrai soutien de la mairie."
+          "fr": "Oui, surtout pour trouver de l'argent. Ce dont nous avons besoin, c'est d'un vrai soutien de la Ville."
         },
         {
           "speaker": "Journaliste",
@@ -1858,7 +1858,7 @@
             "A bigger building"
           ],
           "answer": 1,
-          "explanation": "« Ce dont nous avons besoin, c'est d'un vrai soutien de la mairie. » The difficulty is money."
+          "explanation": "« Ce dont nous avons besoin, c'est d'un vrai soutien de la Ville. » The difficulty is money."
         },
         {
           "id": "u17-li01-q4",
@@ -2087,7 +2087,7 @@
       "promptFr": "Dans certains pays, les grands musées sont gratuits. Selon vous, l'accès aux musées devrait-il être gratuit pour tout le monde ? Donnez votre opinion en l'illustrant d'exemples. (120 à 180 mots)",
       "minWords": 120,
       "maxWords": 180,
-      "modelAnswer": "Selon moi, l'accès aux musées devrait être gratuit, au moins pour une grande partie de la population.\n\nTout d'abord, la culture est un droit, pas un luxe. Le patrimoine d'un pays appartient à tous ses citoyens, et c'est ce qui nous permet de comprendre notre histoire. Or, pour une famille de quatre personnes, une visite peut coûter plus de cinquante euros, ce qui exclut beaucoup de gens.\n\nDe plus, quand l'entrée est gratuite, on y va plus souvent et plus spontanément. Au Royaume-Uni, par exemple, les grands musées nationaux sont gratuits, et ils accueillent un public très varié.\n\nCependant, je comprends que les musées aient besoin d'argent pour entretenir les œuvres et payer leur personnel. C'est pourquoi on pourrait demander aux touristes de payer, ou proposer aux visiteurs de faire un don.\n\nEn conclusion, la gratuité est un investissement pour une société plus ouverte et moins inégalitaire.",
+      "modelAnswer": "Selon moi, l'accès aux musées devrait être gratuit, au moins pour une grande partie de la population.\n\nTout d'abord, la culture est un droit, pas un luxe. Le patrimoine d'un pays appartient à tous ses citoyens, et c'est ce qui nous permet de comprendre notre histoire. Or, pour une famille de quatre personnes, une visite peut coûter plus de cinquante dollars, ce qui exclut beaucoup de gens.\n\nDe plus, quand l'entrée est gratuite, on y va plus souvent et plus spontanément. Au Royaume-Uni, par exemple, les grands musées nationaux sont gratuits, et ils accueillent un public très varié.\n\nCependant, je comprends que les musées aient besoin d'argent pour entretenir les œuvres et payer leur personnel. C'est pourquoi on pourrait demander aux touristes de payer, ou proposer aux visiteurs de faire un don.\n\nEn conclusion, la gratuité est un investissement pour une société plus ouverte et moins inégalitaire.",
       "checklist": [
         "I give my opinion clearly in the introduction.",
         "I develop at least two arguments with connectors (tout d'abord, de plus, cependant, en conclusion).",
@@ -2123,8 +2123,8 @@
       "title": "Choisir une sortie culturelle",
       "level": "B1",
       "taskType": "interaction",
-      "instructions": "TCF task 2: role-play. You have two minutes to prepare. The examiner plays your French friend. Suggest outings, discuss them and agree on one.",
-      "promptFr": "Vous êtes en France. Ce week-end, vous voulez faire une sortie culturelle avec un ami français (l'examinateur). Vous lui proposez plusieurs activités, vous lui posez des questions sur ses goûts et vous choisissez ensemble.",
+      "instructions": "TCF task 2: role-play. You have two minutes to prepare. The examiner plays your friend from Québec. Suggest outings, discuss them and agree on one.",
+      "promptFr": "Vous êtes au Québec. Ce week-end, vous voulez faire une sortie culturelle avec un ami québécois (l'examinateur). Vous lui proposez plusieurs activités, vous lui posez des questions sur ses goûts et vous choisissez ensemble.",
       "prepSeconds": 120,
       "speakSeconds": 210,
       "modelAnswer": "Salut Paul ! Ce week-end, il y a plein de choses en ville. Tu as envie de sortir ?\n(Oui, pourquoi pas. Qu'est-ce que tu proposes ?)\nAlors, il y a l'exposition de photos dont tout le monde parle, au musée des Beaux-Arts. Sinon, le théâtre municipal joue une pièce de Molière samedi soir. Qu'est-ce que tu préfères ?\n(Molière, je l'ai déjà vu plusieurs fois…)\nD'accord ! Et l'exposition, ça te tente ? Ce qui m'intéresse, c'est qu'elle montre la vie des quartiers populaires dans les années 1950.\n(Oui, ça a l'air bien. C'est combien ?)\nC'est gratuit le dimanche matin, mais il y a souvent du monde. On pourrait y aller vers dix heures, et ensuite déjeuner dans le petit restaurant libanais dont je t'ai parlé.\n(Parfait, je suis d'accord.)\nSuper ! Alors rendez-vous dimanche à dix heures devant le musée.",
@@ -2144,7 +2144,7 @@
       "promptFr": "« Pour s'intégrer dans un pays, il faut avant tout en parler la langue. » Qu'en pensez-vous ?",
       "prepSeconds": 0,
       "speakSeconds": 270,
-      "modelAnswer": "Je suis plutôt d'accord avec cette affirmation, mais je pense que la langue ne suffit pas.\n\nD'abord, parler la langue est essentiel pour la vie quotidienne : on en a besoin pour trouver un travail, parler avec les voisins ou comprendre les démarches administratives. C'est aussi ce qui permet de comprendre l'humour et la culture du pays. Moi, par exemple, je me sens beaucoup plus à l'aise en France depuis que je comprends les conversations au travail.\n\nCependant, ce dont on a aussi besoin, c'est d'être accueilli. Certaines personnes parlent parfaitement français, mais elles sont victimes de préjugés ou de discrimination. Dans ce cas, l'intégration est difficile, même avec un très bon niveau.\n\nEn conclusion, apprendre la langue est la première étape, mais l'intégration dépend aussi de la société d'accueil et de sa capacité à faire une place aux nouveaux arrivants.",
+      "modelAnswer": "Je suis plutôt d'accord avec cette affirmation, mais je pense que la langue ne suffit pas.\n\nD'abord, parler la langue est essentiel pour la vie quotidienne : on en a besoin pour trouver un travail, parler avec les voisins ou comprendre les démarches administratives. C'est aussi ce qui permet de comprendre l'humour et la culture du pays. Moi, par exemple, je me sens beaucoup plus à l'aise au Québec depuis que je comprends les conversations au travail.\n\nCependant, ce dont on a aussi besoin, c'est d'être accueilli. Certaines personnes parlent parfaitement français, mais elles sont victimes de préjugés ou de discrimination. Dans ce cas, l'intégration est difficile, même avec un très bon niveau.\n\nEn conclusion, apprendre la langue est la première étape, mais l'intégration dépend aussi de la société d'accueil et de sa capacité à faire une place aux nouveaux arrivants.",
       "tips": [
         "State your position clearly, then nuance it (plutôt d'accord, mais…).",
         "Give a personal example to make your argument concrete.",

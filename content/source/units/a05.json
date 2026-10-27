@@ -264,8 +264,8 @@
       "level": "A1+",
       "core": false,
       "example": {
-        "fr": "Le menu du jour coûte quinze euros.",
-        "en": "The menu of the day costs fifteen euros."
+        "fr": "Le menu du jour coûte quinze dollars.",
+        "en": "The menu of the day costs fifteen dollars."
       }
     },
     {
@@ -362,8 +362,8 @@
       "level": "A1+",
       "core": false,
       "example": {
-        "fr": "Une bouteille de vin rouge coûte huit euros.",
-        "en": "A bottle of red wine costs eight euros."
+        "fr": "Une bouteille de vin rouge coûte huit dollars.",
+        "en": "A bottle of red wine costs eight dollars."
       }
     },
     {
@@ -531,8 +531,8 @@
       "level": "A1+",
       "core": false,
       "example": {
-        "fr": "Le kilo d'oranges coûte deux euros.",
-        "en": "A kilo of oranges costs two euros."
+        "fr": "Le kilo d'oranges coûte deux dollars.",
+        "en": "A kilo of oranges costs two dollars."
       }
     },
     {
@@ -579,29 +579,29 @@
     },
     {
       "id": "a05-w045",
-      "fr": "euro",
-      "en": "euro",
+      "fr": "dollar",
+      "en": "dollar",
       "pos": "noun",
       "gender": "m",
-      "plural": "euros",
+      "plural": "dollars",
       "level": "A1+",
       "core": true,
       "example": {
-        "fr": "Le pain coûte un euro vingt.",
-        "en": "The bread costs one euro twenty."
+        "fr": "Le pain coûte un dollar vingt.",
+        "en": "The bread costs one dollar twenty."
       }
     },
     {
       "id": "a05-w046",
-      "fr": "centime",
+      "fr": "cent",
       "en": "cent",
       "pos": "noun",
       "gender": "m",
-      "plural": "centimes",
+      "plural": "cents",
       "level": "A1+",
       "core": false,
       "example": {
-        "fr": "Le croissant coûte quatre-vingt-dix centimes.",
+        "fr": "Le croissant coûte quatre-vingt-dix cents.",
         "en": "The croissant costs ninety cents."
       }
     },
@@ -642,8 +642,8 @@
       "level": "A1+",
       "core": false,
       "example": {
-        "fr": "Une part de tarte coûte trois euros.",
-        "en": "A slice of tart costs three euros."
+        "fr": "Une part de tarte coûte trois dollars.",
+        "en": "A slice of tart costs three dollars."
       }
     },
     {
@@ -656,8 +656,8 @@
       "level": "A1+",
       "core": false,
       "example": {
-        "fr": "Une canette de soda coûte un euro cinquante.",
-        "en": "A can of soda costs one euro fifty."
+        "fr": "Une canette de soda coûte un dollar cinquante.",
+        "en": "A can of soda costs one dollar fifty."
       }
     },
     {
@@ -1156,7 +1156,7 @@
       "skill": "structures",
       "grammarTag": "questions",
       "prompt": "Choose the right question word.",
-      "promptFr": "___ coûte la baguette ? — Un euro vingt.",
+      "promptFr": "___ coûte la baguette ? — Un dollar vingt.",
       "options": [
         "Combien",
         "Où",
@@ -1478,10 +1478,10 @@
         },
         {
           "speaker": "Mme Roux",
-          "fr": "Trois euros vingt, s'il vous plaît."
+          "fr": "Trois dollars vingt, s'il vous plaît."
         }
       ],
-      "translation": "Mme Roux: Hello, sir, what would you like?\nKarim: Hello, madam. I would like a baguette and two croissants, please.\nMme Roux: Here you are. Anything else?\nKarim: Do you have any apple tarts?\nMme Roux: No, sorry, not today. But I have some chocolate cakes.\nKarim: No thank you, that's all. How much is that?\nMme Roux: Three euros twenty, please.",
+      "translation": "Mme Roux: Hello, sir, what would you like?\nKarim: Hello, madam. I would like a baguette and two croissants, please.\nMme Roux: Here you are. Anything else?\nKarim: Do you have any apple tarts?\nMme Roux: No, sorry, not today. But I have some chocolate cakes.\nKarim: No thank you, that's all. How much is that?\nMme Roux: Three dollars twenty, please.",
       "questions": [
         {
           "id": "a05-li01-q1",
@@ -1511,13 +1511,13 @@
           "id": "a05-li01-q3",
           "question": "How much does Karim pay?",
           "options": [
-            "€3.20",
-            "€2.30",
-            "€3.00",
-            "€13.20"
+            "$3.20",
+            "$2.30",
+            "$3.00",
+            "$13.20"
           ],
           "answer": 0,
-          "explanation": "« Trois euros vingt » means €3.20."
+          "explanation": "« Trois dollars vingt » means $3.20."
         }
       ]
     },
@@ -1604,8 +1604,8 @@
       "title": "Boulangerie Martin",
       "level": "A1+",
       "kind": "advert",
-      "text": "BOULANGERIE MARTIN\nOuvert du mardi au dimanche, de 7 h à 19 h. Fermé le lundi.\n\nNos prix :\nBaguette : 1,20 €\nCroissant : 1,10 €\nPain au chocolat : 1,30 €\nSandwich jambon-beurre : 4,50 €\nTarte aux fraises (une part) : 3,50 €\n\nLe matin, un café ou un thé offert pour deux croissants achetés !\nSandwichs à emporter de 11 h à 14 h.",
-      "translation": "MARTIN BAKERY\nOpen from Tuesday to Sunday, from 7 a.m. to 7 p.m. Closed on Mondays.\n\nOur prices:\nBaguette: €1.20\nCroissant: €1.10\nPain au chocolat: €1.30\nHam and butter sandwich: €4.50\nStrawberry tart (one slice): €3.50\n\nIn the morning, a free coffee or tea when you buy two croissants!\nTakeaway sandwiches from 11 a.m. to 2 p.m.",
+      "text": "BOULANGERIE MARTIN\nOuvert du mardi au dimanche, de 7 h à 19 h. Fermé le lundi.\n\nNos prix :\nBaguette : 1,20 $\nCroissant : 1,10 $\nPain au chocolat : 1,30 $\nSandwich jambon-beurre : 4,50 $\nTarte aux fraises (une part) : 3,50 $\n\nLe matin, un café ou un thé offert pour deux croissants achetés !\nSandwichs à emporter de 11 h à 14 h.",
+      "translation": "MARTIN BAKERY\nOpen from Tuesday to Sunday, from 7 a.m. to 7 p.m. Closed on Mondays.\n\nOur prices:\nBaguette: $1.20\nCroissant: $1.10\nPain au chocolat: $1.30\nHam and butter sandwich: $4.50\nStrawberry tart (one slice): $3.50\n\nIn the morning, a free coffee or tea when you buy two croissants!\nTakeaway sandwiches from 11 a.m. to 2 p.m.",
       "questions": [
         {
           "id": "a05-re01-q1",
@@ -1623,13 +1623,13 @@
           "id": "a05-re01-q2",
           "question": "How much is a ham and butter sandwich?",
           "options": [
-            "€4.50",
-            "€1.30",
-            "€3.50",
-            "€1.20"
+            "$4.50",
+            "$1.30",
+            "$3.50",
+            "$1.20"
           ],
           "answer": 0,
-          "explanation": "« Sandwich jambon-beurre : 4,50 € ». €3.50 is the slice of strawberry tart."
+          "explanation": "« Sandwich jambon-beurre : 4,50 $ ». $3.50 is the slice of strawberry tart."
         },
         {
           "id": "a05-re01-q3",
@@ -1835,11 +1835,11 @@
       "skill": "structures",
       "grammarTag": "questions",
       "prompt": "Complete with a question word.",
-      "sentence": "___ coûtent les pommes ? — Trois euros le kilo.",
+      "sentence": "___ coûtent les pommes ? — Trois dollars le kilo.",
       "answers": [
         "Combien"
       ],
-      "translation": "How much are the apples? — Three euros a kilo.",
+      "translation": "How much are the apples? — Three dollars a kilo.",
       "explanation": "The answer is a price, so you ask combien (how much)."
     },
     {

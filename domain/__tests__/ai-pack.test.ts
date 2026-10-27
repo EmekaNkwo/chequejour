@@ -7,7 +7,8 @@ const manifest = parseManifest(manifestJson);
 
 describe('AI model manifest', () => {
   it('parses the bundled manifest and resolves every referenced model', () => {
-    expect(manifest.models.map((m) => m.id)).toEqual(['whisper-small', 'whisper-base', 'smollm3-3b', 'qwen3-1.7b']);
+    // Speech uses the phone's own recognizer: the pack holds language models only.
+    expect(manifest.models.map((m) => m.id)).toEqual(['smollm3-3b', 'qwen3-1.7b']);
   });
 
   it('rejects a model hosted outside the allowed hosts or without https', () => {
@@ -19,7 +20,8 @@ describe('AI model manifest', () => {
   it('rejects a bad checksum, a missing reference and the wrong kind of model', () => {
     expect(() => parseManifest({ ...manifestJson, models: manifestJson.models.map((m) => ({ ...m, sha256: 'abc' })) })).toThrow();
     expect(() => parseManifest({ ...manifestJson, llm: { ...manifestJson.llm, mid: 'nope' } })).toThrow(/nope/);
-    expect(() => parseManifest({ ...manifestJson, llm: { ...manifestJson.llm, mid: 'whisper-base' } })).toThrow(/llm/);
+    const notLlm = { ...manifestJson.models[0], id: 'other', kind: 'stt' };
+    expect(() => parseManifest({ ...manifestJson, models: [...manifestJson.models, notLlm] })).toThrow();
     expect(() => parseManifest({ ...manifestJson, models: [...manifestJson.models, manifestJson.models[0]] })).toThrow(/twice/);
   });
 });
@@ -34,10 +36,9 @@ describe('device tiers', () => {
   });
 
   it('gives each tier its models: a language model only from the mid tier up', () => {
-    expect(planPack(manifest, 8 * GB).models.map((m) => m.id)).toEqual(['whisper-small', 'smollm3-3b']);
-    expect(planPack(manifest, 5.54 * GB).models.map((m) => m.id)).toEqual(['whisper-small', 'qwen3-1.7b']);
-    expect(planPack(manifest, 3.6 * GB)).toMatchObject({ tier: 'low', llm: null, models: [{ id: 'whisper-small' }] });
-    expect(planPack(manifest, 2.8 * GB).models.map((m) => m.id)).toEqual(['whisper-base']);
+    expect(planPack(manifest, 8 * GB).models.map((m) => m.id)).toEqual(['smollm3-3b']);
+    expect(planPack(manifest, 5.54 * GB).models.map((m) => m.id)).toEqual(['qwen3-1.7b']);
+    expect(planPack(manifest, 3.6 * GB)).toEqual({ tier: 'low', llm: null, models: [] });
   });
 
   it('needs room for the missing models plus headroom', () => {
@@ -46,7 +47,7 @@ describe('device tiers', () => {
     expect(storageCheck(pack.models, [], total + STORAGE_HEADROOM_BYTES)).toEqual({ ok: true, neededBytes: total + STORAGE_HEADROOM_BYTES });
     expect(storageCheck(pack.models, [], total)).toEqual({ ok: false, neededBytes: total + STORAGE_HEADROOM_BYTES });
     // Models already installed don't count again.
-    expect(storageCheck(pack.models, ['qwen3-1.7b', 'whisper-small'], 600 * MB)).toEqual({ ok: true, neededBytes: STORAGE_HEADROOM_BYTES });
+    expect(storageCheck(pack.models, ['qwen3-1.7b'], 600 * MB)).toEqual({ ok: true, neededBytes: STORAGE_HEADROOM_BYTES });
   });
 });
 

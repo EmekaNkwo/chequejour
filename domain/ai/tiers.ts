@@ -12,8 +12,6 @@ export type Tier = 'high' | 'mid' | 'low';
 
 const HIGH_MIN_BYTES = 6.8 * GB;
 const MID_MIN_BYTES = 5 * GB;
-/** Below this, even Whisper small is too heavy; the light speech model is used. */
-const LIGHT_STT_BELOW_BYTES = 3.2 * GB;
 /** Free space to keep beyond the models themselves. */
 export const STORAGE_HEADROOM_BYTES = 500 * MB;
 
@@ -26,17 +24,14 @@ export function tierFor(totalMemoryBytes: number | null): Tier {
 
 export interface PackPlan {
   tier: Tier;
-  stt: ModelEntry;
   llm: ModelEntry | null;
   models: readonly ModelEntry[];
 }
 
 export function planPack(manifest: Manifest, totalMemoryBytes: number | null): PackPlan {
   const tier = tierFor(totalMemoryBytes);
-  const lightStt = totalMemoryBytes !== null && totalMemoryBytes < LIGHT_STT_BELOW_BYTES;
-  const stt = modelById(manifest, lightStt ? manifest.stt.light : manifest.stt.standard);
   const llm = tier === 'low' ? null : modelById(manifest, manifest.llm[tier]);
-  return { tier, stt, llm, models: llm ? [stt, llm] : [stt] };
+  return { tier, llm, models: llm ? [llm] : [] };
 }
 
 export interface StorageCheck {

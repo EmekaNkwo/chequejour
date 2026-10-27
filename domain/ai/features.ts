@@ -21,18 +21,22 @@ export const DEFAULT_AI_FEATURES: AiFeatureToggles = {
   generatedPractice: false,
 };
 
-/** Features that need the language model; speaking feedback needs only Whisper. */
+/** Features that need the language model; speech transcripts need only the phone's recognizer. */
 export const LLM_FEATURES: readonly AiFeature[] = ['writing', 'conversation', 'explain', 'generatedPractice'];
 
 export interface InstalledModels {
-  sttId: string;
+  /** The phone's on-device French speech recognition is ready. */
+  speechReady: boolean;
   llmId: string | null;
   installedIds: readonly string[];
 }
 
-/** A feature runs when the learner left it on and the model it needs is installed. */
+/**
+ * A feature runs when the learner left it on and what it needs is there. The conversation
+ * partner needs only the language model: without speech recognition the learner types.
+ */
 export function featureReady(feature: AiFeature, toggles: AiFeatureToggles, models: InstalledModels): boolean {
   if (!toggles[feature]) return false;
-  if (!LLM_FEATURES.includes(feature)) return models.installedIds.includes(models.sttId);
+  if (!LLM_FEATURES.includes(feature)) return models.speechReady;
   return models.llmId !== null && models.installedIds.includes(models.llmId);
 }

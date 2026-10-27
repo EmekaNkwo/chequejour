@@ -1,5 +1,5 @@
 /**
- * The speech model reads 16 kHz mono 16-bit PCM WAV. The recorder streams raw PCM as
+ * Speech recognition reads 16 kHz mono 16-bit PCM WAV. The recorder streams raw PCM as
  * base64 chunks; these turn them into a WAV file once recording stops.
  */
 export const WAV_FORMAT = { sampleRate: 16000, channels: 1, bitsPerSample: 16 } as const;

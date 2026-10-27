@@ -30,8 +30,8 @@
       "level": "A2",
       "core": true,
       "example": {
-        "fr": "Cet été, nous passerons nos vacances en Bretagne.",
-        "en": "This summer, we'll spend our holidays in Brittany."
+        "fr": "Cet été, nous passerons nos vacances en Gaspésie.",
+        "en": "This summer, we'll spend our holidays in the Gaspé Peninsula."
       },
       "pluralOnly": true
     },
@@ -155,7 +155,7 @@
       "level": "A2",
       "core": true,
       "example": {
-        "fr": "Le départ du car est prévu à 7 heures devant la mairie.",
+        "fr": "Le départ du car est prévu à 7 heures devant l'hôtel de ville.",
         "en": "The coach is due to leave at 7 am outside the town hall."
       }
     },
@@ -211,8 +211,8 @@
       "level": "A2+",
       "core": true,
       "example": {
-        "fr": "Pendant notre séjour à Lyon, nous logerons chez des amis.",
-        "en": "During our stay in Lyon, we'll stay with friends."
+        "fr": "Pendant notre séjour à Montréal, nous logerons chez des amis.",
+        "en": "During our stay in Montréal, we'll stay with friends."
       }
     },
     {
@@ -271,8 +271,8 @@
       "level": "A2+",
       "core": true,
       "example": {
-        "fr": "Pendant ce voyage, vous découvrirez les plus beaux villages de Provence.",
-        "en": "On this trip, you will discover the most beautiful villages in Provence."
+        "fr": "Pendant ce voyage, vous découvrirez les plus beaux villages de Charlevoix.",
+        "en": "On this trip, you will discover the most beautiful villages in Charlevoix."
       }
     },
     {
@@ -341,8 +341,8 @@
       "level": "A2+",
       "core": false,
       "example": {
-        "fr": "Strasbourg est tout près de la frontière allemande.",
-        "en": "Strasbourg is very close to the German border."
+        "fr": "Halifax est tout près de la frontière allemande.",
+        "en": "Halifax is very close to the German border."
       }
     },
     {
@@ -481,8 +481,8 @@
       "level": "A2+",
       "core": false,
       "example": {
-        "fr": "La location de vélos coûte quinze euros par jour.",
-        "en": "Bike hire costs fifteen euros a day."
+        "fr": "La location de vélos coûte quinze dollars par jour.",
+        "en": "Bike hire costs fifteen dollars a day."
       }
     },
     {
@@ -565,8 +565,8 @@
       "level": "A2",
       "core": false,
       "example": {
-        "fr": "Le soir, les monuments de Paris sont illuminés.",
-        "en": "In the evening, the monuments of Paris are lit up."
+        "fr": "Le soir, les monuments d'Ottawa sont illuminés.",
+        "en": "In the evening, the monuments of Ottawa are lit up."
       }
     },
     {
@@ -593,8 +593,8 @@
       "level": "A2+",
       "core": false,
       "example": {
-        "fr": "Nous longerons la côte en voiture jusqu'à Biarritz.",
-        "en": "We'll drive along the coast as far as Biarritz."
+        "fr": "Nous longerons la côte en voiture jusqu'à Percé.",
+        "en": "We'll drive along the coast as far as Percé."
       }
     },
     {
@@ -762,8 +762,8 @@
       "level": "A2+",
       "core": false,
       "example": {
-        "fr": "Les voyageurs pour Bordeaux sont priés de se rendre voie 4.",
-        "en": "Passengers for Bordeaux are requested to go to platform 4."
+        "fr": "Les voyageurs pour Sherbrooke sont priés de se rendre voie 4.",
+        "en": "Passengers for Sherbrooke are requested to go to platform 4."
       }
     },
     {
@@ -804,8 +804,8 @@
       "level": "A2",
       "core": false,
       "example": {
-        "fr": "Un aller-retour pour Marseille, s'il vous plaît.",
-        "en": "A return ticket to Marseille, please."
+        "fr": "Un aller-retour pour Gatineau, s'il vous plaît.",
+        "en": "A return ticket to Gatineau, please."
       }
     },
     {
@@ -1186,8 +1186,8 @@
           "en": "We'll leave on 3 August and come back on the 20th."
         },
         {
-          "fr": "Le train arrivera à Bordeaux à 18 h 12.",
-          "en": "The train will arrive in Bordeaux at 6.12 pm."
+          "fr": "Le train arrivera à Sherbrooke à 18 h 12.",
+          "en": "The train will arrive in Sherbrooke at 6.12 pm."
         },
         {
           "fr": "Tu prendras un taxi ou le bus pour aller à l'hôtel ?",
@@ -1343,8 +1343,8 @@
           "why": "After si (if), use the present tense, not the future."
         },
         {
-          "wrong": "Quand j'arrive à Lyon demain, je te téléphonerai.",
-          "right": "Quand j'arriverai à Lyon demain, je te téléphonerai.",
+          "wrong": "Quand j'arrive à Montréal demain, je te téléphonerai.",
+          "right": "Quand j'arriverai à Montréal demain, je te téléphonerai.",
           "why": "After quand, a future action takes the futur simple in French, even though English uses the present."
         },
         {
@@ -1743,7 +1743,7 @@
         },
         {
           "speaker": "Lucas",
-          "fr": "Oui ! Je réserverai les billets d'avion ce soir. Le vol partira de Lyon le 8 juillet."
+          "fr": "Oui ! Je réserverai les billets d'avion ce soir. Le vol partira de Montréal le 8 juillet."
         },
         {
           "speaker": "Emma",
@@ -1778,7 +1778,7 @@
           "fr": "Génial, ce sera un séjour inoubliable !"
         }
       ],
-      "translation": "Emma: So, it's decided, we're going to Portugal in July?\nLucas: Yes! I'll book the plane tickets tonight. The flight will leave from Lyon on 8 July.\nEmma: Perfect. And where will we sleep, shall we take a hotel?\nLucas: No, it'll be too expensive. I'd rather rent a small flat in Lisbon.\nEmma: OK. How long will we stay there?\nLucas: Ten days. We'll spend a week in Lisbon, then three days on the coast.\nEmma: Great! It'll be hot, don't forget your swimsuit!\nLucas: Don't worry. And will you take care of the car hire?\nEmma: Yes, I'll do it tomorrow. I'll send you the details by text.\nLucas: Brilliant, it'll be an unforgettable stay!",
+      "translation": "Emma: So, it's decided, we're going to Portugal in July?\nLucas: Yes! I'll book the plane tickets tonight. The flight will leave from Montréal on 8 July.\nEmma: Perfect. And where will we sleep, shall we take a hotel?\nLucas: No, it'll be too expensive. I'd rather rent a small flat in Lisbon.\nEmma: OK. How long will we stay there?\nLucas: Ten days. We'll spend a week in Lisbon, then three days on the coast.\nEmma: Great! It'll be hot, don't forget your swimsuit!\nLucas: Don't worry. And will you take care of the car hire?\nEmma: Yes, I'll do it tomorrow. I'll send you the details by text.\nLucas: Brilliant, it'll be an unforgettable stay!",
       "questions": [
         {
           "id": "u09-li01-q1",
@@ -1831,7 +1831,7 @@
         },
         {
           "speaker": "Annonce",
-          "fr": "Le vol CJ 482 à destination de Marseille partira avec un retard d'environ quarante-cinq minutes."
+          "fr": "Le vol CJ 482 à destination de Gatineau partira avec un retard d'environ quarante-cinq minutes."
         },
         {
           "speaker": "Annonce",
@@ -1850,7 +1850,7 @@
           "fr": "Nous vous prions de nous excuser pour ce retard et nous vous souhaitons un agréable voyage."
         }
       ],
-      "translation": "Ladies and gentlemen, your attention please. Flight CJ 482 to Marseille will leave with a delay of about forty-five minutes. Boarding will begin at 3.10 pm, at gate 22, not gate 18. Passengers travelling with young children will be able to board first. We remind you that every passenger will have to show their boarding pass and an identity document. We apologise for this delay and wish you a pleasant journey.",
+      "translation": "Ladies and gentlemen, your attention please. Flight CJ 482 to Gatineau will leave with a delay of about forty-five minutes. Boarding will begin at 3.10 pm, at gate 22, not gate 18. Passengers travelling with young children will be able to board first. We remind you that every passenger will have to show their boarding pass and an identity document. We apologise for this delay and wish you a pleasant journey.",
       "questions": [
         {
           "id": "u09-li02-q1",
@@ -1943,8 +1943,8 @@
       "title": "Programme de l'été",
       "level": "A2+",
       "kind": "notice",
-      "text": "Office de tourisme de Port-Clair\nCet été, découvrez notre ville autrement !\n\nVisites guidées : du 1er juillet au 31 août, un guide vous fera découvrir la vieille ville tous les mardis et jeudis à 10 heures. Départ devant l'office de tourisme. Durée : 1 h 30. Tarif : 8 €, gratuit pour les moins de 12 ans.\n\nExcursion en bateau : le samedi, un bateau partira du port à 14 heures pour faire le tour des îles. Vous pourrez vous baigner dans une petite crique. Attention, les places sont limitées : il faudra réserver au moins deux jours à l'avance.\n\nMarché nocturne : chaque vendredi soir, les artisans de la région présenteront leurs produits sur le port, de 19 heures à minuit.\n\nRenseignements et réservations à l'accueil de l'office de tourisme.",
-      "translation": "Port-Clair Tourist Office\nThis summer, discover our town differently!\n\nGuided tours: from 1 July to 31 August, a guide will show you the old town every Tuesday and Thursday at 10 am. Departure in front of the tourist office. Duration: 1 hour 30. Price: €8, free for under-12s.\n\nBoat trip: on Saturdays, a boat will leave the harbour at 2 pm for a tour of the islands. You'll be able to swim in a small cove. Please note, places are limited: you will have to book at least two days in advance.\n\nNight market: every Friday evening, local craftspeople will present their products at the harbour, from 7 pm to midnight.\n\nInformation and bookings at the tourist office reception.",
+      "text": "Office de tourisme de Port-Clair\nCet été, découvrez notre ville autrement !\n\nVisites guidées : du 1er juillet au 31 août, un guide vous fera découvrir la vieille ville tous les mardis et jeudis à 10 heures. Départ devant l'office de tourisme. Durée : 1 h 30. Tarif : 8 $, gratuit pour les moins de 12 ans.\n\nExcursion en bateau : le samedi, un bateau partira du port à 14 heures pour faire le tour des îles. Vous pourrez vous baigner dans une petite crique. Attention, les places sont limitées : il faudra réserver au moins deux jours à l'avance.\n\nMarché nocturne : chaque vendredi soir, les artisans de la région présenteront leurs produits sur le port, de 19 heures à minuit.\n\nRenseignements et réservations à l'accueil de l'office de tourisme.",
+      "translation": "Port-Clair Tourist Office\nThis summer, discover our town differently!\n\nGuided tours: from 1 July to 31 August, a guide will show you the old town every Tuesday and Thursday at 10 am. Departure in front of the tourist office. Duration: 1 hour 30. Price: $8, free for under-12s.\n\nBoat trip: on Saturdays, a boat will leave the harbour at 2 pm for a tour of the islands. You'll be able to swim in a small cove. Please note, places are limited: you will have to book at least two days in advance.\n\nNight market: every Friday evening, local craftspeople will present their products at the harbour, from 7 pm to midnight.\n\nInformation and bookings at the tourist office reception.",
       "questions": [
         {
           "id": "u09-re02-q1",
@@ -1980,7 +1980,7 @@
             "Groups"
           ],
           "answer": 0,
-          "explanation": "« Tarif : 8 €, gratuit pour les moins de 12 ans »."
+          "explanation": "« Tarif : 8 $, gratuit pour les moins de 12 ans »."
         }
       ]
     }
@@ -1995,7 +1995,7 @@
       "promptFr": "Vous partez en vacances. Vous écrivez un message à votre voisin(e) pour lui demander de s'occuper de votre appartement (plantes, courrier…). Vous expliquez où vous irez et quand vous rentrerez. (60 mots minimum / 120 mots maximum)",
       "minWords": 60,
       "maxWords": 120,
-      "modelAnswer": "Bonjour Madame Lopez,\n\nJe pars en vacances samedi matin : je passerai deux semaines en Espagne, chez des amis, près de Valence. Est-ce que vous pourrez arroser mes plantes deux fois par semaine ? Je vous laisserai la clé vendredi soir. Si vous avez le temps, vous pourrez aussi prendre mon courrier dans la boîte aux lettres. Je rentrerai le dimanche 24 au soir et je passerai chez vous le lundi pour récupérer la clé. Bien sûr, je vous rapporterai un petit souvenir ! Mon numéro est le 06 12 34 56 78 si vous avez un problème.\n\nMerci beaucoup et à bientôt,\nJulien",
+      "modelAnswer": "Bonjour Madame Lopez,\n\nJe pars en vacances samedi matin : je passerai deux semaines en Espagne, chez des amis, près de Valence. Est-ce que vous pourrez arroser mes plantes deux fois par semaine ? Je vous laisserai la clé vendredi soir. Si vous avez le temps, vous pourrez aussi prendre mon courrier dans la boîte aux lettres. Je rentrerai le dimanche 24 au soir et je passerai chez vous le lundi pour récupérer la clé. Bien sûr, je vous rapporterai un petit souvenir ! Mon numéro est le 514 555-0178 si vous avez un problème.\n\nMerci beaucoup et à bientôt,\nJulien",
       "checklist": [
         "I greet my neighbour politely and sign the message.",
         "I say where I am going and for how long.",
@@ -2052,7 +2052,7 @@
       "promptFr": "Selon vous, est-ce qu'il vaut mieux partir à l'étranger pendant les vacances ou rester dans son pays ? Pourquoi ?",
       "prepSeconds": 0,
       "speakSeconds": 270,
-      "modelAnswer": "À mon avis, les deux sont intéressants, mais je préfère partir à l'étranger. D'abord, c'est plus dépaysant : on découvre une autre culture, une autre cuisine et une autre langue. Par exemple, il y a deux ans, je suis allée au Vietnam et j'ai appris beaucoup de choses. Ensuite, on rencontre des gens très différents. Mais rester dans son pays a aussi des avantages. C'est moins cher, on voyage moins longtemps et c'est meilleur pour la planète, parce qu'on ne prend pas l'avion. Et il y a souvent des régions magnifiques tout près de chez nous ! Alors, je pense qu'on peut alterner. Cet été, par exemple, je resterai en France et je visiterai les Alpes. L'année prochaine, je partirai sûrement au Japon.",
+      "modelAnswer": "À mon avis, les deux sont intéressants, mais je préfère partir à l'étranger. D'abord, c'est plus dépaysant : on découvre une autre culture, une autre cuisine et une autre langue. Par exemple, il y a deux ans, je suis allée au Vietnam et j'ai appris beaucoup de choses. Ensuite, on rencontre des gens très différents. Mais rester dans son pays a aussi des avantages. C'est moins cher, on voyage moins longtemps et c'est meilleur pour la planète, parce qu'on ne prend pas l'avion. Et il y a souvent des régions magnifiques tout près de chez nous ! Alors, je pense qu'on peut alterner. Cet été, par exemple, je resterai au Canada et je visiterai les Rocheuses. L'année prochaine, je partirai sûrement au Japon.",
       "tips": [
         "Give your opinion first: « À mon avis… », « Je préfère… »",
         "Present advantages and disadvantages of both options.",
@@ -2197,7 +2197,7 @@
       "skill": "structures",
       "grammarTag": "vocabulary",
       "prompt": "Choose the right word.",
-      "promptFr": "Un billet pour aller à Lyon et revenir, c'est un ___.",
+      "promptFr": "Un billet pour aller à Montréal et revenir, c'est un ___.",
       "options": [
         "aller-retour",
         "aller simple",

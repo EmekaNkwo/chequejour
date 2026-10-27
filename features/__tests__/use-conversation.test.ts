@@ -37,7 +37,7 @@ jest.mock('../audio/audio-controller', () => ({ play: jest.fn(async () => undefi
 jest.mock('../ai/conversation-partner', () => ({ partnerReply: jest.fn() }));
 
 const task: ConversationTask = { taskType: 'interaction', level: 'A2', promptFr: 'Vous appelez le club de sport.' };
-const models = { stt: { id: 'stt' } as ModelEntry, llm: { id: 'llm' } as ModelEntry };
+const models = { llm: { id: 'llm' } as ModelEntry };
 const reply = partnerReply as jest.Mock;
 
 beforeEach(() => {
@@ -49,7 +49,7 @@ beforeEach(() => {
 describe('useConversation', () => {
   it('opens with the partner’s first line, read aloud', async () => {
     const { result } = await renderHook(() => useConversation(task, models));
-    expect(result.current.turns).toEqual([{ role: 'partner', text: 'Bonjour, je vous écoute. Que puis-je faire pour vous ?' }]);
+    expect(result.current.turns).toEqual([{ role: 'partner', text: 'Bonjour !' }]);
     expect(play).toHaveBeenCalledWith('ai-partner-0', expect.stringMatching(/^Bonjour/));
   });
 
@@ -73,7 +73,7 @@ describe('useConversation', () => {
     expect(startPcm).toHaveBeenCalled();
     expect(result.current.phase).toBe('recording');
     await act(async () => result.current.stopTalking());
-    expect(transcribe).toHaveBeenCalledWith(expect.objectContaining({ model: models.stt, uri: 'file:///cache/speech-1.wav' }));
+    expect(transcribe).toHaveBeenCalledWith(expect.objectContaining({ uri: 'file:///cache/speech-1.wav' }));
     expect(mockDeleted).toEqual(['file:///cache/speech-1.wav']);
     expect(result.current.turns.map((t) => t.text)).toContain('Je voudrais m’inscrire.');
     expect(result.current.turns.at(-1)?.text).toBe('Très bien. Quel sport ?');

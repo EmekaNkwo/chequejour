@@ -42,8 +42,8 @@
       "level": "A2+",
       "core": true,
       "example": {
-        "fr": "J'ai dépensé presque cent euros en cadeaux de Noël.",
-        "en": "I spent almost a hundred euros on Christmas presents."
+        "fr": "J'ai dépensé presque cent dollars en cadeaux de Noël.",
+        "en": "I spent almost a hundred dollars on Christmas presents."
       }
     },
     {
@@ -146,8 +146,8 @@
       "level": "B1",
       "core": true,
       "example": {
-        "fr": "Je te rembourserai les vingt euros demain, promis.",
-        "en": "I'll pay you back the twenty euros tomorrow, I promise."
+        "fr": "Je te rembourserai les vingt dollars demain, promis.",
+        "en": "I'll pay you back the twenty dollars tomorrow, I promise."
       }
     },
     {
@@ -322,7 +322,7 @@
       "core": false,
       "example": {
         "fr": "Désolé, je n'ai pas de monnaie, seulement un billet de cinquante.",
-        "en": "Sorry, I haven't got any change, only a fifty-euro note."
+        "en": "Sorry, I haven't got any change, only a fifty-dollar note."
       }
     },
     {
@@ -623,8 +623,8 @@
       "level": "A2+",
       "core": false,
       "example": {
-        "fr": "La livraison est gratuite à partir de cinquante euros d'achat.",
-        "en": "Delivery is free for orders over fifty euros."
+        "fr": "La livraison est gratuite à partir de cinquante dollars d'achat.",
+        "en": "Delivery is free for orders over fifty dollars."
       }
     },
     {
@@ -751,8 +751,8 @@
       "level": "B1",
       "core": false,
       "example": {
-        "fr": "Mon frère est très dépensier : il n'a jamais un euro de côté.",
-        "en": "My brother is a big spender: he never has a euro put aside."
+        "fr": "Mon frère est très dépensier : il n'a jamais un dollar de côté.",
+        "en": "My brother is a big spender: he never has a dollar put aside."
       }
     },
     {
@@ -895,8 +895,8 @@
       "level": "A2+",
       "core": false,
       "example": {
-        "fr": "Tu peux me prêter dix euros jusqu'à demain ?",
-        "en": "Can you lend me ten euros until tomorrow?"
+        "fr": "Tu peux me prêter dix dollars jusqu'à demain ?",
+        "en": "Can you lend me ten dollars until tomorrow?"
       }
     },
     {
@@ -983,8 +983,8 @@
       "level": "B1",
       "core": false,
       "example": {
-        "fr": "J'ai fait une bonne affaire : ce vélo ne m'a coûté que quarante euros.",
-        "en": "I got a bargain: this bike only cost me forty euros."
+        "fr": "J'ai fait une bonne affaire : ce vélo ne m'a coûté que quarante dollars.",
+        "en": "I got a bargain: this bike only cost me forty dollars."
       }
     },
     {
@@ -997,8 +997,8 @@
       "level": "B1",
       "core": false,
       "example": {
-        "fr": "Douze euros pour un café ? C'est une arnaque !",
-        "en": "Twelve euros for a coffee? It's a rip-off!"
+        "fr": "Douze dollars pour un café ? C'est une arnaque !",
+        "en": "Twelve dollars for a coffee? It's a rip-off!"
       }
     },
     {
@@ -1024,8 +1024,8 @@
       "level": "A2+",
       "core": false,
       "example": {
-        "fr": "Mes enfants reçoivent dix euros d'argent de poche par semaine.",
-        "en": "My children get ten euros of pocket money a week."
+        "fr": "Mes enfants reçoivent dix dollars d'argent de poche par semaine.",
+        "en": "My children get ten dollars of pocket money a week."
       }
     },
     {
@@ -1706,7 +1706,7 @@
         },
         {
           "speaker": "Paul",
-          "fr": "D'accord. Par contre, ma mère veut qu'on vienne la voir à Bordeaux en décembre, et le train coûte cher."
+          "fr": "D'accord. Par contre, ma mère veut qu'on vienne la voir à Sherbrooke en décembre, et le train coûte cher."
         },
         {
           "speaker": "Nadia",
@@ -1722,7 +1722,7 @@
         },
         {
           "speaker": "Paul",
-          "fr": "Bonne idée. Avec tout ça, on pourrait mettre cent euros de côté chaque mois."
+          "fr": "Bonne idée. Avec tout ça, on pourrait mettre cent dollars de côté chaque mois."
         },
         {
           "speaker": "Nadia",
@@ -1733,7 +1733,7 @@
           "fr": "Parfait, je prends rendez-vous à la banque demain."
         }
       ],
-      "translation": "Nadia: Right, shall we go over the budget? Our spending has gone up again this month.\nPaul: Yes, I've seen the bank statement. We were nearly overdrawn last week.\nNadia: We really need to save money. Look at all these subscriptions: the gym, two streaming platforms…\nPaul: I haven't been to the gym since September. I need to cancel my membership.\nNadia: And for streaming, we could keep just one.\nPaul: OK. On the other hand, my mother wants us to come and see her in Bordeaux in December, and the train is expensive.\nNadia: If we book now, it'll be cheaper. You need to look at the tickets tonight.\nPaul: I'll take care of it. And for the shopping, do you want me to make a list before going to the supermarket?\nNadia: Yes, that way we'll avoid unnecessary purchases. We could also go to the market late in the morning: prices drop before closing time.\nPaul: Good idea. With all that, we could put a hundred euros aside every month.\nNadia: Exactly. And I'd like us to open a savings account for the summer holidays.\nPaul: Perfect, I'll make an appointment at the bank tomorrow.",
+      "translation": "Nadia: Right, shall we go over the budget? Our spending has gone up again this month.\nPaul: Yes, I've seen the bank statement. We were nearly overdrawn last week.\nNadia: We really need to save money. Look at all these subscriptions: the gym, two streaming platforms…\nPaul: I haven't been to the gym since September. I need to cancel my membership.\nNadia: And for streaming, we could keep just one.\nPaul: OK. On the other hand, my mother wants us to come and see her in Sherbrooke in December, and the train is expensive.\nNadia: If we book now, it'll be cheaper. You need to look at the tickets tonight.\nPaul: I'll take care of it. And for the shopping, do you want me to make a list before going to the supermarket?\nNadia: Yes, that way we'll avoid unnecessary purchases. We could also go to the market late in the morning: prices drop before closing time.\nPaul: Good idea. With all that, we could put a hundred dollars aside every month.\nNadia: Exactly. And I'd like us to open a savings account for the summer holidays.\nPaul: Perfect, I'll make an appointment at the bank tomorrow.",
       "questions": [
         {
           "id": "u15-li01-q1",
@@ -1802,7 +1802,7 @@
         },
         {
           "speaker": "Chroniqueuse",
-          "fr": "Ces sites proposent des produits de grandes marques à des prix incroyablement bas : des baskets à quinze euros, par exemple."
+          "fr": "Ces sites proposent des produits de grandes marques à des prix incroyablement bas : des baskets à quinze dollars, par exemple."
         },
         {
           "speaker": "Chroniqueuse",
@@ -1821,7 +1821,7 @@
           "fr": "Enfin, méfiez-vous des offres « valables seulement aujourd'hui » : elles sont faites pour vous pousser à acheter sans réfléchir."
         }
       ],
-      "translation": "Hello everyone, and welcome to our consumer segment.\nThis month, many listeners have told us about fake online shopping sites.\nThese sites offer big-brand products at incredibly low prices: trainers for fifteen euros, for example.\nThe problem is that after payment, the parcel never arrives.\nTo avoid these scams, you should check the website address and read other customers' reviews.\nIt's also better to pay by bank card, because in case of fraud, your bank can refund you.\nFinally, beware of offers that are \"valid today only\": they are designed to push you into buying without thinking.",
+      "translation": "Hello everyone, and welcome to our consumer segment.\nThis month, many listeners have told us about fake online shopping sites.\nThese sites offer big-brand products at incredibly low prices: trainers for fifteen dollars, for example.\nThe problem is that after payment, the parcel never arrives.\nTo avoid these scams, you should check the website address and read other customers' reviews.\nIt's also better to pay by bank card, because in case of fraud, your bank can refund you.\nFinally, beware of offers that are \"valid today only\": they are designed to push you into buying without thinking.",
       "questions": [
         {
           "id": "u15-li02-q1",
@@ -1864,7 +1864,7 @@
           "question": "What can we infer about \"today only\" offers?",
           "options": [
             "They are always the best deals",
-            "They are illegal in France",
+            "They are illegal in Canada",
             "They are only on big-brand sites",
             "They use time pressure to stop you thinking"
           ],
@@ -1938,8 +1938,8 @@
       "title": "Réclamation : un aspirateur en panne",
       "level": "B1",
       "kind": "email",
-      "text": "Objet : Commande n° 48213 – demande de remboursement\n\nMadame, Monsieur,\n\nLe 3 mars, j'ai commandé sur votre site un aspirateur sans fil d'une valeur de 189 euros. Je l'ai reçu le 10 mars, mais il ne fonctionne pas : la batterie ne se charge pas, même après une nuit entière.\n\nJ'ai contacté votre service client à deux reprises par téléphone. On m'a promis qu'un technicien me rappellerait, mais je n'ai reçu aucun appel.\n\nJe souhaite donc que vous me remboursiez la totalité de mon achat, frais de port compris. Je voudrais également que vous m'envoyiez une étiquette de retour, afin que je puisse vous renvoyer l'appareil sans frais supplémentaires.\n\nSans réponse de votre part dans un délai de quinze jours, je serai obligé de contacter une association de consommateurs.\n\nDans l'attente de votre réponse, je vous prie d'agréer, Madame, Monsieur, mes salutations distinguées.\n\nThomas Girard",
-      "translation": "Subject: Order no. 48213 – refund request\n\nDear Sir or Madam,\n\nOn 3 March, I ordered a cordless vacuum cleaner worth 189 euros on your website. I received it on 10 March, but it doesn't work: the battery doesn't charge, even after a whole night.\n\nI contacted your customer service twice by phone. I was promised that a technician would call me back, but I haven't received any call.\n\nI would therefore like you to refund my entire purchase, including postage. I would also like you to send me a return label, so that I can send the appliance back to you at no extra cost.\n\nIf I receive no reply from you within fifteen days, I will have to contact a consumer association.\n\nI look forward to your reply.\nYours faithfully,\n\nThomas Girard",
+      "text": "Objet : Commande n° 48213 – demande de remboursement\n\nMadame, Monsieur,\n\nLe 3 mars, j'ai commandé sur votre site un aspirateur sans fil d'une valeur de 189 dollars. Je l'ai reçu le 10 mars, mais il ne fonctionne pas : la batterie ne se charge pas, même après une nuit entière.\n\nJ'ai contacté votre service client à deux reprises par téléphone. On m'a promis qu'un technicien me rappellerait, mais je n'ai reçu aucun appel.\n\nJe souhaite donc que vous me remboursiez la totalité de mon achat, frais de port compris. Je voudrais également que vous m'envoyiez une étiquette de retour, afin que je puisse vous renvoyer l'appareil sans frais supplémentaires.\n\nSans réponse de votre part dans un délai de quinze jours, je serai obligé de contacter une association de consommateurs.\n\nDans l'attente de votre réponse, je vous prie d'agréer, Madame, Monsieur, mes salutations distinguées.\n\nThomas Girard",
+      "translation": "Subject: Order no. 48213 – refund request\n\nDear Sir or Madam,\n\nOn 3 March, I ordered a cordless vacuum cleaner worth 189 dollars on your website. I received it on 10 March, but it doesn't work: the battery doesn't charge, even after a whole night.\n\nI contacted your customer service twice by phone. I was promised that a technician would call me back, but I haven't received any call.\n\nI would therefore like you to refund my entire purchase, including postage. I would also like you to send me a return label, so that I can send the appliance back to you at no extra cost.\n\nIf I receive no reply from you within fifteen days, I will have to contact a consumer association.\n\nI look forward to your reply.\nYours faithfully,\n\nThomas Girard",
       "questions": [
         {
           "id": "u15-re02-q1",
@@ -2002,7 +2002,7 @@
       "promptFr": "Beaucoup de jeunes adultes ont des difficultés à gérer leur budget. Selon vous, l'école devrait-elle apprendre aux élèves à gérer leur argent ? Vous donnerez votre opinion en la justifiant par des arguments et des exemples. (120 à 180 mots)",
       "minWords": 120,
       "maxWords": 180,
-      "modelAnswer": "Aujourd'hui, beaucoup de jeunes adultes ont du mal à gérer leur budget. À mon avis, il faudrait donc enseigner l'éducation financière à l'école.\n\nTout d'abord, l'argent fait partie de la vie quotidienne. Pourtant, à dix-huit ans, beaucoup de jeunes ne savent ni lire un relevé de compte ni comparer deux offres de prêt. Il faut que l'école leur donne ces outils, car tous les parents ne peuvent pas le faire.\n\nEnsuite, avec le paiement sans contact et les achats en ligne, il est devenu très facile de dépenser sans s'en rendre compte. Des cours simples permettraient aux élèves de comprendre les pièges du crédit et de la publicité.\n\nCertains pensent que les programmes sont déjà trop chargés. C'est vrai ; cependant, une heure par mois suffirait, par exemple en cours de mathématiques.\n\nEn conclusion, je souhaite que tous les élèves quittent le lycée en sachant gérer un budget. Ce serait un vrai investissement pour leur avenir.",
+      "modelAnswer": "Aujourd'hui, beaucoup de jeunes adultes ont du mal à gérer leur budget. À mon avis, il faudrait donc enseigner l'éducation financière à l'école.\n\nTout d'abord, l'argent fait partie de la vie quotidienne. Pourtant, à dix-huit ans, beaucoup de jeunes ne savent ni lire un relevé de compte ni comparer deux offres de prêt. Il faut que l'école leur donne ces outils, car tous les parents ne peuvent pas le faire.\n\nEnsuite, avec le paiement sans contact et les achats en ligne, il est devenu très facile de dépenser sans s'en rendre compte. Des cours simples permettraient aux élèves de comprendre les pièges du crédit et de la publicité.\n\nCertains pensent que les programmes sont déjà trop chargés. C'est vrai ; cependant, une heure par mois suffirait, par exemple en cours de mathématiques.\n\nEn conclusion, je souhaite que tous les élèves quittent l'école secondaire en sachant gérer un budget. Ce serait un vrai investissement pour leur avenir.",
       "checklist": [
         "My position is clear in the introduction and the conclusion.",
         "I gave at least two arguments with examples.",
@@ -2021,7 +2021,7 @@
       "promptFr": "Vous vivez en colocation. Les dépenses pour les courses communes ont beaucoup augmenté. Vous écrivez un message à vos colocataires pour proposer une nouvelle organisation et un moment pour en parler. (60 à 120 mots)",
       "minWords": 60,
       "maxWords": 120,
-      "modelAnswer": "Salut à tous,\n\nCe mois-ci, nos dépenses pour les courses ont beaucoup augmenté, et je pense qu'il faut qu'on s'organise mieux. Je propose qu'on crée une cagnotte commune : chacun pourrait y mettre 80 euros au début du mois. Pour que ce soit juste, il faut que nous gardions tous les tickets de caisse. Je voudrais aussi qu'on fasse une liste ensemble le dimanche soir, pour éviter d'acheter deux fois la même chose. Qu'est-ce que vous en pensez ? On pourrait en parler jeudi, pendant le dîner.\n\nÀ plus,\nMehdi",
+      "modelAnswer": "Salut à tous,\n\nCe mois-ci, nos dépenses pour les courses ont beaucoup augmenté, et je pense qu'il faut qu'on s'organise mieux. Je propose qu'on crée une cagnotte commune : chacun pourrait y mettre 80 dollars au début du mois. Pour que ce soit juste, il faut que nous gardions tous les tickets de caisse. Je voudrais aussi qu'on fasse une liste ensemble le dimanche soir, pour éviter d'acheter deux fois la même chose. Qu'est-ce que vous en pensez ? On pourrait en parler jeudi, pendant le dîner.\n\nÀ plus,\nMehdi",
       "checklist": [
         "I explained the problem in one or two sentences.",
         "I made at least two concrete proposals.",
@@ -2186,13 +2186,13 @@
       "skill": "structures",
       "grammarTag": "vocabulary",
       "prompt": "Complete with the right noun.",
-      "sentence": "Mon ___ de téléphone coûte vingt euros par mois.",
+      "sentence": "Mon ___ de téléphone coûte vingt dollars par mois.",
       "answers": [
         "abonnement",
         "forfait"
       ],
       "hint": "subscription, monthly plan",
-      "translation": "My phone plan costs twenty euros a month.",
+      "translation": "My phone plan costs twenty dollars a month.",
       "explanation": "Un abonnement is a subscription; for phones, people also say un forfait."
     },
     {

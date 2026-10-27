@@ -1,9 +1,10 @@
 /** Coaching on a speaking take, from its transcript: task fit, a few slips, phrases to try, a next step. */
 import { Feather } from '@expo/vector-icons';
 import { StyleSheet, View } from 'react-native';
-import type { SpeakingFeedback, SpeakingFeedbackInput } from '../../domain/ai/speaking-feedback';
+import { speakingFeedbackMessages, type CheckedSpeakingFeedback, type SpeakingFeedbackInput } from '../../domain/ai/speaking-feedback';
 import { speakingFeedback } from '../../features/ai/speaking-feedback';
 import { useAiFeature } from '../../features/ai/useAiFeature';
+import { useWarmLlm } from '../../features/ai/useWarmLlm';
 import { useAiJob } from '../../features/ai/useAiJob';
 import { useTheme } from '../theme/ThemeProvider';
 import { spacing } from '../theme/tokens';
@@ -17,8 +18,10 @@ const MIN_WORDS = 8;
 
 export function SpeakingAiFeedback({ input }: { input: SpeakingFeedbackInput }) {
   const { llm } = useAiFeature('speaking');
-  const job = useAiJob<SpeakingFeedback>('speaking feedback');
-  if (!llm || input.transcript.trim().split(/\s+/).length < MIN_WORDS) return null;
+  const shown = llm !== null && input.transcript.trim().split(/\s+/).length >= MIN_WORDS;
+  useWarmLlm(shown ? llm : null, speakingFeedbackMessages(input));
+  const job = useAiJob<CheckedSpeakingFeedback>('speaking feedback');
+  if (!shown || !llm) return null;
   const ask = () => job.run((signal) => speakingFeedback(llm, input, signal));
   const idle = job.state.status === 'idle' || job.state.status === 'failed';
   return (
@@ -31,7 +34,7 @@ export function SpeakingAiFeedback({ input }: { input: SpeakingFeedbackInput }) 
   );
 }
 
-function CoachingView({ value }: { value: SpeakingFeedback }) {
+function CoachingView({ value }: { value: CheckedSpeakingFeedback }) {
   const { colors } = useTheme();
   return (
     <View style={styles.gap}>
@@ -44,9 +47,11 @@ function CoachingView({ value }: { value: SpeakingFeedback }) {
           <AppText variant="french" french tone="success">
             {c.corrected}
           </AppText>
-          <AppText variant="meta" tone="secondary">
-            {c.why}
-          </AppText>
+          {c.why ? (
+            <AppText variant="meta" tone="secondary">
+              {c.why}
+            </AppText>
+          ) : null}
         </View>
       ))}
       {value.phrases.length > 0 ? (

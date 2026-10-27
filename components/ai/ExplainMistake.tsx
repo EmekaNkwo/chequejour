@@ -1,8 +1,9 @@
 /** "Explain with AI" under a mistake: a short explanation and one new example. */
 import { View } from 'react-native';
-import type { ExplainInput, Explanation } from '../../domain/ai/explain';
+import { explainMessages, type ExplainInput, type Explanation } from '../../domain/ai/explain';
 import { explainMistake } from '../../features/ai/explain-mistake';
 import { useAiFeature } from '../../features/ai/useAiFeature';
+import { useWarmLlm } from '../../features/ai/useWarmLlm';
 import { useAiJob } from '../../features/ai/useAiJob';
 import { AppText } from '../ui/AppText';
 import { LinkText } from '../ui/Bits';
@@ -10,6 +11,7 @@ import { AiPanel } from './AiPanel';
 
 export function ExplainMistake({ mistake }: { mistake: ExplainInput }) {
   const { ready, llm } = useAiFeature('explain');
+  useWarmLlm(ready ? llm : null, explainMessages(mistake));
   const job = useAiJob<Explanation>('explain mistake');
   if (!ready || !llm) return null;
   const ask = () => job.run((signal) => explainMistake(llm, mistake, signal));

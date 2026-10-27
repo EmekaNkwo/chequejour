@@ -1,8 +1,9 @@
-/** "Get AI feedback" after handing in a text: checked corrections, strengths and one next step. */
+/** "Get AI feedback" after handing in a text: checked corrections, each explained by the app, and one next step. */
 import { Feather } from '@expo/vector-icons';
 import { StyleSheet, View } from 'react-native';
-import type { CheckedWritingFeedback, WritingFeedbackInput } from '../../domain/ai/writing-feedback';
+import { writingFeedbackMessages, type CheckedWritingFeedback, type WritingFeedbackInput } from '../../domain/ai/writing-feedback';
 import { useAiFeature } from '../../features/ai/useAiFeature';
+import { useWarmLlm } from '../../features/ai/useWarmLlm';
 import { useAiJob } from '../../features/ai/useAiJob';
 import { writingFeedback } from '../../features/ai/writing-feedback';
 import { useTheme } from '../theme/ThemeProvider';
@@ -15,8 +16,10 @@ import { AiPanel } from './AiPanel';
 
 export function WritingAiFeedback({ input }: { input: WritingFeedbackInput }) {
   const { ready, llm } = useAiFeature('writing');
+  const shown = ready && llm !== null && input.text.trim().length > 0;
+  useWarmLlm(shown ? llm : null, writingFeedbackMessages(input));
   const job = useAiJob<CheckedWritingFeedback>('writing feedback');
-  if (!ready || !llm || input.text.trim().length === 0) return null;
+  if (!shown || !llm) return null;
   const ask = () => job.run((signal) => writingFeedback(llm, input, signal));
   const idle = job.state.status === 'idle' || job.state.status === 'failed';
   return (
@@ -25,7 +28,7 @@ export function WritingAiFeedback({ input }: { input: WritingFeedbackInput }) {
       {idle ? (
         <>
           <AppText variant="meta" tone="muted">
-            The AI on your phone reads your text and points out a few mistakes. It takes a minute or two.
+            The AI on your phone corrects your text; the app shows each change with what kind of mistake it fixes. It takes a minute or two.
           </AppText>
           <Button label={job.state.status === 'failed' ? 'Try again' : 'Get AI feedback'} icon="cpu" variant="secondary" onPress={ask} testID="ai-writing-ask" />
         </>
@@ -40,7 +43,7 @@ export function WritingAiFeedback({ input }: { input: WritingFeedbackInput }) {
 /** Never "no mistakes": the AI doesn't decide that, and its corrections may have been held back. */
 function noCorrectionsText(heldBack: number): string {
   return heldBack > 0
-    ? 'The AI’s corrections didn’t pass the app’s checks, so none are shown. Check the hints above.'
+    ? 'The AI changed some words, but not in a way the app could explain, so nothing is shown. Check the hints above.'
     : 'The AI didn’t point out any mistakes. That doesn’t mean there are none: check the hints above too.';
 }
 
@@ -65,18 +68,12 @@ function FeedbackView({ value }: { value: CheckedWritingFeedback }) {
           </View>
         ))
       )}
-      {value.strengths.map((s) => (
-        <Row key={s} gap={spacing.sm} style={styles.top}>
-          <Feather name="check" size={16} color={colors.success} />
-          <AppText variant="body" tone="secondary" style={styles.flex}>
-            {s}
-          </AppText>
+      {value.nextStep ? (
+        <Row gap={spacing.sm} style={styles.top}>
+          <Feather name="arrow-right" size={16} color={colors.textMuted} />
+          <AppText variant="body" style={styles.flex}>{`Next time: ${value.nextStep}`}</AppText>
         </Row>
-      ))}
-      <Row gap={spacing.sm} style={styles.top}>
-        <Feather name="arrow-right" size={16} color={colors.textMuted} />
-        <AppText variant="body" style={styles.flex}>{`Next time: ${value.nextStep}`}</AppText>
-      </Row>
+      ) : null}
     </View>
   );
 }

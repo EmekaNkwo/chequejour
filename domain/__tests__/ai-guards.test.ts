@@ -126,3 +126,32 @@ describe('review fixes: fewer false rejections', () => {
     expect(quotedIn('Le restaurant.', 'est')).toBe(false);
   });
 });
+
+describe('a reply that drifts or is cut off', () => {
+  const en = { language: 'en' as const, maxChars: 120 };
+
+  it('drops what follows a switch into another script, back to the last full sentence', () => {
+    const drift = 'Use "mal" for pain. "Bien" means well, which is a毛病 of the body.';
+    expect(checkText(drift, en)).toBe('Use "mal" for pain.');
+  });
+
+  it('rejects a reply that is all in another script', () => {
+    expect(() => checkText('这是一个错误。', en)).toThrow(AiError);
+    expect(() => checkText('Это ошибка.', en)).toThrow(AiError);
+  });
+
+  it('keeps the full sentences of a reply cut at the length limit', () => {
+    const cut = `Use "mal" for pain. ${'Then the second sentence goes on and on '.repeat(3)}`.slice(0, 120);
+    expect(checkText(cut, en)).toBe('Use "mal" for pain.');
+  });
+
+  it('leaves a short reply without a final full stop alone', () => {
+    expect(checkText('Use "à" before a city', en)).toBe('Use "à" before a city');
+  });
+
+  it('keeps a French closing quote with the sentence it ends', () => {
+    const text = `Il a dit : « Je viens demain. » ${'Puis il est parti vers la gare sans rien dire '.repeat(3)}`.slice(0, 120);
+    expect(checkText(text, { language: 'fr', maxChars: 120 })).toBe('Il a dit : « Je viens demain. »');
+  });
+});
+

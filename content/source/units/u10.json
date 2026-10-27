@@ -4,7 +4,7 @@
   "level": "A2+",
   "theme": "Administration and services",
   "titleFr": "Démarches et services publics",
-  "description": "Forms, appointments and paperwork at the town hall and the prefecture. Grammar: linking ideas with the relative pronouns qui, que and où.",
+  "description": "Forms, appointments and paperwork at the town hall and the immigration office. Grammar: linking ideas with the relative pronouns qui, que and où.",
   "vocab": [
     {
       "id": "u10-w001",
@@ -58,8 +58,8 @@
       "level": "A2",
       "core": true,
       "example": {
-        "fr": "J'ai rendez-vous à la préfecture jeudi à neuf heures.",
-        "en": "I have an appointment at the prefecture on Thursday at nine."
+        "fr": "J'ai rendez-vous au bureau d'immigration jeudi à neuf heures.",
+        "en": "I have an appointment at the immigration office on Thursday at nine."
       }
     },
     {
@@ -120,44 +120,44 @@
     },
     {
       "id": "u10-w009",
-      "fr": "titre de séjour",
-      "en": "residence permit",
+      "fr": "permis de travail",
+      "en": "work permit",
       "pos": "noun",
       "gender": "m",
-      "plural": "titres de séjour",
+      "plural": "permis de travail",
       "level": "A2+",
       "core": true,
       "example": {
-        "fr": "Elle doit renouveler son titre de séjour avant la fin de l'année.",
-        "en": "She must renew her residence permit before the end of the year."
+        "fr": "Elle doit renouveler son permis de travail avant la fin de l'année.",
+        "en": "She must renew her work permit before the end of the year."
       }
     },
     {
       "id": "u10-w010",
-      "fr": "mairie",
-      "en": "town hall",
+      "fr": "hôtel de ville",
+      "en": "town hall, city hall",
       "pos": "noun",
-      "gender": "f",
-      "plural": "mairies",
+      "gender": "m",
+      "plural": "hôtels de ville",
       "level": "A2",
       "core": true,
       "example": {
-        "fr": "Ils se sont mariés à la mairie de leur village.",
+        "fr": "Ils se sont mariés à l'hôtel de ville de leur village.",
         "en": "They got married at their village town hall."
       }
     },
     {
       "id": "u10-w011",
-      "fr": "préfecture",
-      "en": "prefecture (regional state office)",
+      "fr": "bureau d'immigration",
+      "en": "immigration office",
       "pos": "noun",
-      "gender": "f",
-      "plural": "préfectures",
+      "gender": "m",
+      "plural": "bureaux d'immigration",
       "level": "A2+",
       "core": true,
       "example": {
-        "fr": "La préfecture est fermée le mercredi après-midi.",
-        "en": "The prefecture is closed on Wednesday afternoons."
+        "fr": "Le bureau d'immigration est fermé le mercredi après-midi.",
+        "en": "The immigration office is closed on Wednesday afternoons."
       }
     },
     {
@@ -170,8 +170,8 @@
       "level": "A2+",
       "core": true,
       "example": {
-        "fr": "En France, on déclare ses impôts sur le revenu au printemps.",
-        "en": "In France, you declare your income tax in the spring."
+        "fr": "Au Canada, on déclare ses impôts sur le revenu au printemps.",
+        "en": "In Canada, you declare your income tax in the spring."
       }
     },
     {
@@ -234,7 +234,7 @@
       "level": "A2+",
       "core": true,
       "example": {
-        "fr": "J'ai déposé mon dossier à la mairie ce matin.",
+        "fr": "J'ai déposé mon dossier à l'hôtel de ville ce matin.",
         "en": "I submitted my file at the town hall this morning."
       }
     },
@@ -272,8 +272,8 @@
       "level": "A2+",
       "core": true,
       "example": {
-        "fr": "Ce matin, la file d'attente devant la préfecture allait jusqu'au coin de la rue.",
-        "en": "This morning, the queue in front of the prefecture went all the way to the corner of the street."
+        "fr": "Ce matin, la file d'attente devant le bureau d'immigration allait jusqu'au coin de la rue.",
+        "en": "This morning, the queue in front of the immigration office went all the way to the corner of the street."
       }
     },
     {
@@ -376,16 +376,16 @@
     },
     {
       "id": "u10-w028",
-      "fr": "récépissé",
-      "en": "receipt (proof that an application was filed)",
+      "fr": "lettre de confirmation",
+      "en": "confirmation letter (proof that an application was filed)",
       "pos": "noun",
-      "gender": "m",
-      "plural": "récépissés",
+      "gender": "f",
+      "plural": "lettres de confirmation",
       "level": "B1",
       "core": false,
       "example": {
-        "fr": "En attendant votre carte, ce récépissé vous permet de rester en France.",
-        "en": "While you wait for your card, this receipt allows you to stay in France."
+        "fr": "En attendant votre permis, cette lettre de confirmation vous permet de rester au Canada.",
+        "en": "While you wait for your permit, this confirmation letter allows you to stay in Canada."
       }
     },
     {
@@ -412,7 +412,7 @@
       "level": "B1",
       "core": false,
       "example": {
-        "fr": "Le service de l'état civil est au rez-de-chaussée de la mairie.",
+        "fr": "Le service de l'état civil est au rez-de-chaussée de l'hôtel de ville.",
         "en": "The registry office is on the ground floor of the town hall."
       }
     },
@@ -446,29 +446,29 @@
     },
     {
       "id": "u10-w033",
-      "fr": "Sécurité sociale",
-      "en": "French national health and social insurance",
+      "fr": "assurance maladie",
+      "en": "public health insurance (in Québec, the RAMQ)",
       "pos": "noun",
       "gender": "f",
       "level": "A2+",
       "core": false,
       "example": {
-        "fr": "La Sécurité sociale rembourse une partie des frais médicaux.",
-        "en": "The Sécurité sociale reimburses part of medical costs."
+        "fr": "L'assurance maladie couvre la plupart des frais médicaux.",
+        "en": "Public health insurance covers most medical costs."
       }
     },
     {
       "id": "u10-w034",
-      "fr": "caisse d'allocations familiales",
-      "en": "family benefits office (CAF)",
+      "fr": "allocation canadienne pour enfants",
+      "en": "Canada child benefit",
       "pos": "noun",
       "gender": "f",
-      "plural": "caisses d'allocations familiales",
+      "plural": "allocations canadiennes pour enfants",
       "level": "B1",
       "core": false,
       "example": {
-        "fr": "La caisse d'allocations familiales m'a demandé mon dernier avis d'imposition.",
-        "en": "The family benefits office asked me for my latest tax notice."
+        "fr": "Pour recevoir l'allocation canadienne pour enfants, il faut produire sa déclaration de revenus.",
+        "en": "To get the Canada child benefit, you have to file your tax return."
       }
     },
     {
@@ -627,8 +627,8 @@
       "level": "A2",
       "core": false,
       "example": {
-        "fr": "J'ai reçu un courrier de la caisse d'allocations familiales.",
-        "en": "I received a letter from the family benefits office."
+        "fr": "J'ai reçu un courrier de l'Agence du revenu du Canada.",
+        "en": "I received a letter from the Canada Revenue Agency."
       }
     },
     {
@@ -719,8 +719,8 @@
       "level": "A2+",
       "core": false,
       "example": {
-        "fr": "Il a obtenu sa carte de résident après dix ans en France.",
-        "en": "He got his resident card after ten years in France."
+        "fr": "Il a obtenu sa carte de résident permanent un an après son arrivée au Canada.",
+        "en": "He got his permanent resident card a year after arriving in Canada."
       }
     },
     {
@@ -827,7 +827,7 @@
       "level": "B1",
       "core": false,
       "example": {
-        "fr": "La mairie nous a accordé une autorisation exceptionnelle.",
+        "fr": "La Ville nous a accordé une autorisation exceptionnelle.",
         "en": "The town hall granted us special permission."
       }
     },
@@ -868,8 +868,8 @@
       "level": "B1",
       "core": false,
       "example": {
-        "fr": "J'ai reçu une convocation pour un entretien à la préfecture.",
-        "en": "I received a notice to attend an interview at the prefecture."
+        "fr": "J'ai reçu une convocation pour un entretien au bureau d'immigration.",
+        "en": "I received a notice to attend an interview at the immigration office."
       }
     },
     {
@@ -998,8 +998,8 @@
       "level": "A2",
       "core": false,
       "example": {
-        "fr": "Pour la préfecture, il vaut mieux réserver longtemps à l'avance.",
-        "en": "For the prefecture, it's better to book well in advance."
+        "fr": "Pour le bureau d'immigration, il vaut mieux réserver longtemps à l'avance.",
+        "en": "For the immigration office, it's better to book well in advance."
       }
     },
     {
@@ -1052,7 +1052,7 @@
       "level": "A2+",
       "core": false,
       "example": {
-        "fr": "Il faut une autorisation de la mairie pour fermer la rue.",
+        "fr": "Il faut une autorisation de l'hôtel de ville pour fermer la rue.",
         "en": "You need permission from the town hall to close the street."
       }
     },
@@ -1080,8 +1080,8 @@
       "level": "B1",
       "core": false,
       "example": {
-        "fr": "Les frais de dossier s'élèvent à cinquante euros.",
-        "en": "The application fee comes to fifty euros."
+        "fr": "Les frais de dossier s'élèvent à cinquante dollars.",
+        "en": "The application fee comes to fifty dollars."
       },
       "pluralOnly": true
     },
@@ -1105,7 +1105,7 @@
       "level": "A2+",
       "core": false,
       "example": {
-        "fr": "Renseignez-vous à la mairie avant de commencer les travaux.",
+        "fr": "Renseignez-vous à l'hôtel de ville avant de commencer les travaux.",
         "en": "Make enquiries at the town hall before you start the building work."
       }
     },
@@ -1179,8 +1179,8 @@
           "en": "The person we need to call isn't there on Mondays."
         },
         {
-          "fr": "Voici les documents que la préfecture demande.",
-          "en": "Here are the documents the prefecture asks for."
+          "fr": "Voici les documents que le bureau d'immigration demande.",
+          "en": "Here are the documents the immigration office asks for."
         },
         {
           "fr": "Les attestations que j'ai imprimées sont sur la table.",
@@ -1216,10 +1216,10 @@
       "level": "A2+",
       "grammarTag": "relatifs",
       "explanation": [
-        "Où links a clause to a noun of place: « la mairie où je me suis marié », « le bureau où elle travaille ». It replaces là, dans ce bureau, à cette adresse and so on.",
+        "Où links a clause to a noun of place: « l'hôtel de ville où je me suis marié », « le bureau où elle travaille ». It replaces là, dans ce bureau, à cette adresse and so on.",
         "Où is also used after nouns of time: le jour où, le moment où, l'année où, la semaine où. English uses 'when' or nothing at all: « le jour où j'ai reçu ma carte » = 'the day (when) I got my card'. Never use quand in this structure.",
         "To choose the pronoun, ask what role the noun plays in the second clause. Subject → qui. Direct object → que. Place or time → où. Compare « la ville qui me plaît » (subject), « la ville que je préfère » (object) and « la ville où j'habite » (place).",
-        "A place noun does not automatically take où. If the place is the subject or the direct object of the verb, use qui or que: « la préfecture qui ferme à midi », « la préfecture que j'ai appelée ».",
+        "A place noun does not automatically take où. If the place is the subject or the direct object of the verb, use qui or que: « le bureau d'immigration qui ferme à midi », « le bureau d'immigration que j'ai appelé ».",
         "A relative clause comes right after the noun it describes, even in the middle of a sentence: « Le guichet où on dépose les dossiers est au fond du couloir. »"
       ],
       "table": [
@@ -1231,17 +1231,17 @@
         [
           "Subject",
           "qui",
-          "la mairie qui est fermée"
+          "l'hôtel de ville qui est fermé"
         ],
         [
           "Direct object",
           "que / qu'",
-          "la mairie que j'ai contactée"
+          "l'hôtel de ville que j'ai contacté"
         ],
         [
           "Place",
           "où",
-          "la mairie où je me suis marié"
+          "l'hôtel de ville où je me suis marié"
         ],
         [
           "Time",
@@ -1255,20 +1255,20 @@
           "en": "That's the office where you hand in passport applications."
         },
         {
-          "fr": "Je me souviens du jour où j'ai reçu ma carte de résident.",
-          "en": "I remember the day I received my resident card."
+          "fr": "Je me souviens du jour où j'ai reçu ma carte de résident permanent.",
+          "en": "I remember the day I received my permanent resident card."
         },
         {
           "fr": "Le guichet où je dois aller est au premier étage.",
           "en": "The counter I have to go to is on the first floor."
         },
         {
-          "fr": "À l'époque où j'habitais à Lyon, tout se faisait sur papier.",
-          "en": "Back when I lived in Lyon, everything was done on paper."
+          "fr": "À l'époque où j'habitais à Montréal, tout se faisait sur papier.",
+          "en": "Back when I lived in Montréal, everything was done on paper."
         },
         {
-          "fr": "La préfecture que j'ai appelée ne répond jamais.",
-          "en": "The prefecture I called never answers."
+          "fr": "Le bureau d'immigration que j'ai appelé ne répond jamais.",
+          "en": "The immigration office I called never answers."
         },
         {
           "fr": "Le lundi, c'est le seul jour où le service est ouvert l'après-midi.",
@@ -1282,8 +1282,8 @@
           "why": "After a noun of time (le jour, le moment, l'année), French uses où, not quand."
         },
         {
-          "wrong": "La ville où je préfère, c'est Nantes.",
-          "right": "La ville que je préfère, c'est Nantes.",
+          "wrong": "La ville où je préfère, c'est Trois-Rivières.",
+          "right": "La ville que je préfère, c'est Trois-Rivières.",
           "why": "Préférer takes a direct object (je préfère cette ville), so the pronoun is que, even though ville is a place."
         },
         {
@@ -1372,12 +1372,12 @@
       "prompt": "Which document proves where you live?",
       "options": [
         "un acte de naissance",
-        "un titre de séjour",
+        "un permis de travail",
         "un justificatif de domicile",
         "une pièce jointe"
       ],
       "answer": 2,
-      "explanation": "Un justificatif de domicile (for example a recent bill) proves your address. A birth certificate proves your birth, a residence permit your right to stay, and a pièce jointe is an email attachment."
+      "explanation": "Un justificatif de domicile (for example a recent bill) proves your address. A birth certificate proves your birth, a work permit your right to work, and a pièce jointe is an email attachment."
     },
     {
       "id": "u10-ex06",
@@ -1526,8 +1526,9 @@
       "prompt": "Put the words in order.",
       "tokens": [
         "C'est",
-        "la",
-        "mairie",
+        "l'hôtel",
+        "de",
+        "ville",
         "où",
         "ils",
         "se",
@@ -1535,7 +1536,7 @@
         "mariés."
       ],
       "translation": "That's the town hall where they got married.",
-      "explanation": "Où introduces the place where something happened: la mairie où ils se sont mariés."
+      "explanation": "Où introduces the place where something happened: l'hôtel de ville où ils se sont mariés."
     },
     {
       "id": "u10-ex16",
@@ -1590,7 +1591,7 @@
         },
         {
           "left": "La lettre qu'…",
-          "right": "…elle a reçue vient de la mairie."
+          "right": "…elle a reçue vient de l'hôtel de ville."
         }
       ],
       "explanation": "Qui is followed by a verb, que by a subject, qu' by a vowel, and où introduces a place."
@@ -1618,17 +1619,17 @@
       "skill": "structures",
       "grammarTag": "relatifs",
       "direction": "fr-en",
-      "source": "C'est le guichet où on dépose les demandes de titre de séjour.",
+      "source": "C'est le guichet où on dépose les demandes de permis de travail.",
       "answers": [
-        "It's the counter where you hand in residence permit applications.",
-        "This is the counter where you hand in residence permit applications.",
-        "That's the counter where you hand in residence permit applications.",
-        "It's the counter where you submit residence permit applications.",
-        "This is the counter where you submit residence permit applications.",
-        "That's the counter where you submit residence permit applications.",
-        "It's the counter where people submit applications for residence permits.",
-        "This is the counter where you submit applications for residence permits.",
-        "It's the desk where you hand in residence permit applications."
+        "It's the counter where you hand in work permit applications.",
+        "This is the counter where you hand in work permit applications.",
+        "That's the counter where you hand in work permit applications.",
+        "It's the counter where you submit work permit applications.",
+        "This is the counter where you submit work permit applications.",
+        "That's the counter where you submit work permit applications.",
+        "It's the counter where people submit applications for work permits.",
+        "This is the counter where you submit applications for work permits.",
+        "It's the desk where you hand in work permit applications."
       ],
       "explanation": "Où refers to a place and translates as 'where'. On here means 'you' or 'people' in general."
     },
@@ -1669,10 +1670,10 @@
   "listening": [
     {
       "id": "u10-li01",
-      "title": "Au guichet de la préfecture",
+      "title": "Au guichet du bureau d'immigration",
       "level": "A2+",
       "kind": "dialogue",
-      "context": "A man comes to the prefecture counter to renew his residence permit.",
+      "context": "A man comes to the immigration office counter to renew his work permit.",
       "lines": [
         {
           "speaker": "Agente",
@@ -1680,7 +1681,7 @@
         },
         {
           "speaker": "M. Diallo",
-          "fr": "Oui, à dix heures. Je viens pour renouveler mon titre de séjour."
+          "fr": "Oui, à dix heures. Je viens pour renouveler mon permis de travail."
         },
         {
           "speaker": "Agente",
@@ -1716,26 +1717,26 @@
         },
         {
           "speaker": "Agente",
-          "fr": "Non, je vous donne un récépissé qui est valable trois mois. Avec ce papier, vous pouvez continuer à travailler."
+          "fr": "Non, je vous donne une lettre de confirmation qui est valable trois mois. Avec ce papier, vous pouvez continuer à travailler."
         },
         {
           "speaker": "M. Diallo",
           "fr": "Parfait, merci beaucoup !"
         }
       ],
-      "translation": "Officer: Good morning, sir. Do you have an appointment?\nMr Diallo: Yes, at ten. I've come to renew my residence permit.\nOfficer: Very good. Do you have the notice we sent you by email?\nMr Diallo: Yes, here it is. And here's the file I prepared.\nOfficer: Thank you. So… passport, photos, employment certificate… I'm missing the proof of address.\nMr Diallo: Really? I put in an electricity bill, didn't I?\nOfficer: Yes, but it's from January. We need a document that is less than three months old.\nMr Diallo: Oh no! Can I send it to you by email?\nOfficer: No, you have to bring it here. But you don't need an appointment: go to counter six, where we take missing documents, Monday to Thursday.\nMr Diallo: OK. And my current permit expires in two weeks. Is that a problem?\nOfficer: No, I'll give you a receipt that is valid for three months. With this paper, you can keep working.\nMr Diallo: Perfect, thank you very much!",
+      "translation": "Officer: Good morning, sir. Do you have an appointment?\nMr Diallo: Yes, at ten. I've come to renew my work permit.\nOfficer: Very good. Do you have the notice we sent you by email?\nMr Diallo: Yes, here it is. And here's the file I prepared.\nOfficer: Thank you. So… passport, photos, employment certificate… I'm missing the proof of address.\nMr Diallo: Really? I put in an electricity bill, didn't I?\nOfficer: Yes, but it's from January. We need a document that is less than three months old.\nMr Diallo: Oh no! Can I send it to you by email?\nOfficer: No, you have to bring it here. But you don't need an appointment: go to counter six, where we take missing documents, Monday to Thursday.\nMr Diallo: OK. And my current permit expires in two weeks. Is that a problem?\nOfficer: No, I'll give you a confirmation letter that is valid for three months. With this paper, you can keep working.\nMr Diallo: Perfect, thank you very much!",
       "questions": [
         {
           "id": "u10-li01-q1",
-          "question": "Why has Mr Diallo come to the prefecture?",
+          "question": "Why has Mr Diallo come to the immigration office?",
           "options": [
             "To apply for French nationality",
-            "To renew his residence permit",
+            "To renew his work permit",
             "To change his address",
             "To get a new passport"
           ],
           "answer": 1,
-          "explanation": "He says: « Je viens pour renouveler mon titre de séjour. »"
+          "explanation": "He says: « Je viens pour renouveler mon permis de travail. »"
         },
         {
           "id": "u10-li01-q2",
@@ -1763,7 +1764,7 @@
         },
         {
           "id": "u10-li01-q4",
-          "question": "What does the récépissé allow him to do?",
+          "question": "What does the lettre de confirmation allow him to do?",
           "options": [
             "Travel abroad",
             "Get his card immediately",
@@ -1771,20 +1772,20 @@
             "Keep working for three months"
           ],
           "answer": 3,
-          "explanation": "The receipt is valid for three months and lets him continue to work."
+          "explanation": "The lettre de confirmation is valid for three months and lets him continue to work."
         }
       ]
     },
     {
       "id": "u10-li02",
-      "title": "Message de la mairie",
+      "title": "Message de l'hôtel de ville",
       "level": "A2+",
       "kind": "announcement",
       "context": "The recorded message you hear when you phone a town hall.",
       "lines": [
         {
           "speaker": "Message",
-          "fr": "Bonjour, vous êtes bien sur le service d'information de la mairie de Saint-Aubin."
+          "fr": "Bonjour, vous êtes bien sur le service d'information de la Ville de Saint-Aubin."
         },
         {
           "speaker": "Message",
@@ -1792,7 +1793,7 @@
         },
         {
           "speaker": "Message",
-          "fr": "Attention : pendant les travaux, l'accueil se trouve au rez-de-chaussée de la médiathèque, qui est juste en face de la mairie."
+          "fr": "Attention : pendant les travaux, l'accueil se trouve au rez-de-chaussée de la médiathèque, qui est juste en face de l'hôtel de ville."
         },
         {
           "speaker": "Message",
@@ -1819,11 +1820,11 @@
           "options": [
             "On the first floor of the town hall",
             "In the media library opposite the town hall",
-            "At the prefecture",
+            "At the immigration office",
             "In the town hall car park"
           ],
           "answer": 1,
-          "explanation": "During the work, reception is « au rez-de-chaussée de la médiathèque, qui est juste en face de la mairie »."
+          "explanation": "During the work, reception is « au rez-de-chaussée de la médiathèque, qui est juste en face de l'hôtel de ville »."
         },
         {
           "id": "u10-li02-q2",
@@ -1858,8 +1859,8 @@
       "title": "Démarches en ligne : un progrès pour tout le monde ?",
       "level": "A2+",
       "kind": "article",
-      "text": "Démarches en ligne : un progrès pour tout le monde ?\n\nAujourd'hui, en France, la plupart des démarches administratives se font sur internet. On peut déclarer ses revenus, demander un acte de naissance ou prendre rendez-vous à la préfecture sans quitter son canapé. Pour beaucoup d'usagers, c'est un vrai gain de temps : plus de files d'attente interminables, plus de guichets fermés à midi.\n\nPourtant, ce changement ne convient pas à tout le monde. Selon une association qui aide les personnes en difficulté, environ une personne sur six n'est pas à l'aise avec l'informatique. Ce sont souvent des personnes âgées, mais aussi des jeunes qui ont un smartphone mais pas d'ordinateur ni d'imprimante.\n\nPour les aider, de nombreuses villes ont ouvert des espaces France Services, où des conseillers accompagnent les habitants dans leurs démarches. « Les gens que nous recevons ne sont pas paresseux, explique Nadia, conseillère à Amiens. Ils ont simplement besoin d'une personne qui les écoute et qui leur explique les choses. Souvent, une seule visite suffit. »",
-      "translation": "Online procedures: progress for everyone?\n\nToday in France, most administrative procedures are done on the internet. You can declare your income, request a birth certificate or book an appointment at the prefecture without leaving your sofa. For many users, it's a real time-saver: no more endless queues, no more counters closed at lunchtime.\n\nHowever, this change doesn't suit everyone. According to an association that helps people in difficulty, about one person in six isn't comfortable with computers. They are often elderly people, but also young people who have a smartphone but no computer or printer.\n\nTo help them, many towns have opened France Services centres, where advisers support residents with their procedures. 'The people we see aren't lazy,' explains Nadia, an adviser in Amiens. 'They simply need someone who listens to them and explains things to them. Often, a single visit is enough.'",
+      "text": "Démarches en ligne : un progrès pour tout le monde ?\n\nAujourd'hui, au Canada, la plupart des démarches administratives se font sur internet. On peut déclarer ses revenus, demander un acte de naissance ou prendre rendez-vous au bureau d'immigration sans quitter son canapé. Pour beaucoup d'usagers, c'est un vrai gain de temps : plus de files d'attente interminables, plus de guichets fermés à midi.\n\nPourtant, ce changement ne convient pas à tout le monde. Selon une association qui aide les personnes en difficulté, environ une personne sur six n'est pas à l'aise avec l'informatique. Ce sont souvent des personnes âgées, mais aussi des jeunes qui ont un smartphone mais pas d'ordinateur ni d'imprimante.\n\nPour les aider, de nombreuses villes ont ouvert des centres d'aide numérique, où des conseillers accompagnent les habitants dans leurs démarches. « Les gens que nous recevons ne sont pas paresseux, explique Nadia, conseillère à Laval. Ils ont simplement besoin d'une personne qui les écoute et qui leur explique les choses. Souvent, une seule visite suffit. »",
+      "translation": "Online procedures: progress for everyone?\n\nToday in Canada, most administrative procedures are done on the internet. You can declare your income, request a birth certificate or book an appointment at the immigration office without leaving your sofa. For many users, it's a real time-saver: no more endless queues, no more counters closed at lunchtime.\n\nHowever, this change doesn't suit everyone. According to an association that helps people in difficulty, about one person in six isn't comfortable with computers. They are often elderly people, but also young people who have a smartphone but no computer or printer.\n\nTo help them, many towns have opened digital help centres (centres d'aide numérique), where advisers support residents with their procedures. 'The people we see aren't lazy,' explains Nadia, an adviser in Laval. 'They simply need someone who listens to them and explains things to them. Often, a single visit is enough.'",
       "questions": [
         {
           "id": "u10-re01-q1",
@@ -1887,12 +1888,12 @@
         },
         {
           "id": "u10-re01-q3",
-          "question": "What are the espaces France Services?",
+          "question": "What are the centres d'aide numérique?",
           "options": [
             "Places where advisers help people with their procedures",
             "Websites for tax returns",
             "Computer shops in town centres",
-            "Offices inside the prefecture"
+            "Offices inside the immigration office"
           ],
           "answer": 0,
           "explanation": "They are places « où des conseillers accompagnent les habitants dans leurs démarches »."
@@ -1916,7 +1917,7 @@
       "title": "Votre dossier de mariage",
       "level": "A2+",
       "kind": "email",
-      "text": "Objet : Votre dossier de mariage – pièces manquantes\n\nMadame Moreau,\n\nNous avons bien reçu le dossier de mariage que vous avez déposé le 3 mars. Malheureusement, il est incomplet : il manque l'acte de naissance de votre futur époux, qui doit dater de moins de trois mois, ainsi qu'une photocopie de sa pièce d'identité.\n\nVous pouvez nous envoyer ces documents par courrier ou les déposer au guichet de l'état civil, qui est ouvert du lundi au vendredi, de 9 h à 16 h 30. Attention : nous devons recevoir votre dossier complet le 15 avril au plus tard. Après cette date, nous ne pourrons pas garantir la date que vous avez choisie pour la cérémonie.\n\nPour toute question, vous pouvez répondre directement à ce message.\n\nCordialement,\n\nLe service de l'état civil\nMairie de Villeneuve",
+      "text": "Objet : Votre dossier de mariage – pièces manquantes\n\nMadame Moreau,\n\nNous avons bien reçu le dossier de mariage que vous avez déposé le 3 mars. Malheureusement, il est incomplet : il manque l'acte de naissance de votre futur époux, qui doit dater de moins de trois mois, ainsi qu'une photocopie de sa pièce d'identité.\n\nVous pouvez nous envoyer ces documents par courrier ou les déposer au guichet de l'état civil, qui est ouvert du lundi au vendredi, de 9 h à 16 h 30. Attention : nous devons recevoir votre dossier complet le 15 avril au plus tard. Après cette date, nous ne pourrons pas garantir la date que vous avez choisie pour la cérémonie.\n\nPour toute question, vous pouvez répondre directement à ce message.\n\nCordialement,\n\nLe service de l'état civil\nHôtel de ville de Villeneuve",
       "translation": "Subject: Your marriage file – missing documents\n\nDear Ms Moreau,\n\nWe have received the marriage file you submitted on 3 March. Unfortunately, it is incomplete: your future husband's birth certificate, which must be less than three months old, is missing, as is a photocopy of his ID.\n\nYou can send us these documents by post or hand them in at the registry office counter, which is open Monday to Friday, from 9 a.m. to 4.30 p.m. Please note: we must receive your complete file by 15 April at the latest. After that date, we will not be able to guarantee the date you chose for the ceremony.\n\nIf you have any questions, you can reply directly to this message.\n\nKind regards,\n\nThe Registry Office\nVilleneuve Town Hall",
       "questions": [
         {
@@ -1977,7 +1978,7 @@
       "level": "A2+",
       "taskType": "message",
       "instructions": "Write an email to the town hall to move an appointment. Explain why you can't come, suggest other times and ask a question about the documents. Use at least two relative pronouns.",
-      "promptFr": "Vous aviez rendez-vous à la mairie vendredi pour déposer votre demande de carte d'identité, mais vous ne pouvez pas y aller. Écrivez un courriel au service concerné : expliquez la situation, demandez un nouveau rendez-vous et posez une question sur les documents à apporter. (60 à 120 mots)",
+      "promptFr": "Vous aviez rendez-vous à l'hôtel de ville vendredi pour déposer votre demande de carte d'identité, mais vous ne pouvez pas y aller. Écrivez un courriel au service concerné : expliquez la situation, demandez un nouveau rendez-vous et posez une question sur les documents à apporter. (60 à 120 mots)",
       "minWords": 60,
       "maxWords": 120,
       "modelAnswer": "Objet : Report de mon rendez-vous de vendredi\n\nMadame, Monsieur,\n\nJ'avais rendez-vous vendredi à 10 heures pour déposer ma demande de carte d'identité. Malheureusement, je ne pourrai pas venir, car je dois partir en déplacement pour mon travail.\n\nSerait-il possible de reporter ce rendez-vous à la semaine suivante ? Je suis disponible le lundi et le mardi, de préférence le matin.\n\nJ'ai aussi une question : le justificatif de domicile que j'ai, c'est une facture d'internet qui date de février. Est-ce qu'elle est encore valable ?\n\nJe vous remercie par avance de votre réponse.\n\nCordialement,\n\nSamuel Okafor",
@@ -1995,10 +1996,10 @@
       "level": "A2+",
       "taskType": "description",
       "instructions": "Tell the story of an administrative procedure you went through. Describe the place, the people and how it went. Use the passé composé and the imparfait, and several relative clauses.",
-      "promptFr": "Racontez une démarche administrative que vous avez faite (en France ou dans votre pays). Décrivez le lieu où vous êtes allé(e), les personnes que vous avez rencontrées, et dites comment cela s'est passé. (120 à 150 mots)",
+      "promptFr": "Racontez une démarche administrative que vous avez faite (au Canada ou dans votre pays). Décrivez le lieu où vous êtes allé(e), les personnes que vous avez rencontrées, et dites comment cela s'est passé. (120 à 150 mots)",
       "minWords": 120,
       "maxWords": 150,
-      "modelAnswer": "L'année dernière, j'ai dû renouveler mon passeport au consulat de mon pays, à Paris. C'est une démarche que je redoutais, parce que j'avais entendu beaucoup d'histoires négatives.\n\nJ'avais pris rendez-vous en ligne trois semaines à l'avance. Le jour où je suis allée au consulat, il pleuvait et il y avait déjà une longue file d'attente sur le trottoir. La salle où on attendait était petite et un peu sombre, mais les agents étaient bien organisés.\n\nL'employé qui m'a reçue a vérifié tous les documents que j'avais apportés : mon ancien passeport, deux photos et un justificatif de domicile. Heureusement, rien ne manquait ! J'ai payé les frais de dossier sur place et il m'a donné un récépissé.\n\nFinalement, j'ai reçu mon nouveau passeport un mois plus tard. Tout s'est passé beaucoup mieux que prévu.",
+      "modelAnswer": "L'année dernière, j'ai dû renouveler mon passeport au consulat de mon pays, à Ottawa. C'est une démarche que je redoutais, parce que j'avais entendu beaucoup d'histoires négatives.\n\nJ'avais pris rendez-vous en ligne trois semaines à l'avance. Le jour où je suis allée au consulat, il pleuvait et il y avait déjà une longue file d'attente sur le trottoir. La salle où on attendait était petite et un peu sombre, mais les agents étaient bien organisés.\n\nL'employé qui m'a reçue a vérifié tous les documents que j'avais apportés : mon ancien passeport, deux photos et un justificatif de domicile. Heureusement, rien ne manquait ! J'ai payé les frais de dossier sur place et il m'a donné un accusé de réception.\n\nFinalement, j'ai reçu mon nouveau passeport un mois plus tard. Tout s'est passé beaucoup mieux que prévu.",
       "checklist": [
         "I set the scene with the imparfait and told the events with the passé composé.",
         "I described the place and the people.",
@@ -2011,14 +2012,14 @@
   "speaking": [
     {
       "id": "u10-sp01",
-      "title": "À l'accueil de la mairie",
+      "title": "À l'accueil de l'hôtel de ville",
       "level": "A2+",
       "taskType": "interaction",
       "instructions": "Role-play: you have lost your ID card and ask the town hall officer (the examiner) what to do. Ask about the procedure, the documents, the cost and the waiting time.",
-      "promptFr": "Vous avez perdu votre carte d'identité. Vous allez à l'accueil de la mairie pour vous renseigner. Vous posez des questions à l'agent sur la démarche, les documents à fournir, le prix et le délai. L'examinateur joue le rôle de l'agent.",
+      "promptFr": "Vous avez perdu votre carte d'identité. Vous allez à l'accueil de l'hôtel de ville pour vous renseigner. Vous posez des questions à l'agent sur la démarche, les documents à fournir, le prix et le délai. L'examinateur joue le rôle de l'agent.",
       "prepSeconds": 120,
       "speakSeconds": 210,
-      "modelAnswer": "Bonjour madame. Voilà, j'ai perdu ma carte d'identité la semaine dernière et je voudrais en refaire une. Qu'est-ce que je dois faire exactement ? … D'accord. Est-ce qu'il faut prendre rendez-vous, ou est-ce que je peux venir sans rendez-vous ? … Et quels sont les documents que je dois apporter ? J'ai mon passeport, qui est encore valable, et une facture d'électricité. Ça suffit comme justificatif de domicile ? … Ah, il faut aussi une déclaration de perte. C'est un formulaire que je peux remplir ici ou en ligne ? … Très bien. Et combien est-ce que ça coûte ? On m'a dit qu'il fallait un timbre fiscal en cas de perte. … Vingt-cinq euros, d'accord. Dernière question : quel est le délai pour obtenir la nouvelle carte ? Je pars en voyage dans deux mois. … Parfait, merci beaucoup pour ces renseignements. Bonne journée !",
+      "modelAnswer": "Bonjour madame. Voilà, j'ai perdu ma carte d'identité la semaine dernière et je voudrais en refaire une. Qu'est-ce que je dois faire exactement ? … D'accord. Est-ce qu'il faut prendre rendez-vous, ou est-ce que je peux venir sans rendez-vous ? … Et quels sont les documents que je dois apporter ? J'ai mon passeport, qui est encore valable, et une facture d'électricité. Ça suffit comme justificatif de domicile ? … Ah, il faut aussi une déclaration de perte. C'est un formulaire que je peux remplir ici ou en ligne ? … Très bien. Et combien est-ce que ça coûte ? On m'a dit qu'il fallait un timbre fiscal en cas de perte. … Vingt-cinq dollars, d'accord. Dernière question : quel est le délai pour obtenir la nouvelle carte ? Je pars en voyage dans deux mois. … Parfait, merci beaucoup pour ces renseignements. Bonne journée !",
       "tips": [
         "Start by explaining your situation in one or two sentences before asking questions.",
         "Vary your questions: est-ce que…, quels sont les documents que…, combien…, quel est le délai…",
@@ -2035,7 +2036,7 @@
       "promptFr": "Aujourd'hui, beaucoup de démarches administratives se font uniquement sur internet. Pensez-vous que c'est une bonne chose ? Donnez votre opinion et justifiez-la.",
       "prepSeconds": 0,
       "speakSeconds": 270,
-      "modelAnswer": "À mon avis, les démarches en ligne sont un grand progrès, mais il ne faut pas supprimer complètement les guichets. D'abord, internet fait gagner beaucoup de temps. Avant, il fallait prendre une demi-journée de congé pour aller à la préfecture ; maintenant, on peut déposer un dossier le soir, depuis chez soi. C'est aussi plus pratique pour les gens qui habitent loin des grandes villes. Cependant, tout le monde n'a pas d'ordinateur ou d'imprimante, et beaucoup de personnes âgées ne sont pas à l'aise avec les sites administratifs, qui sont parfois compliqués. Moi-même, quand je suis arrivé en France, j'avais besoin de quelqu'un qui m'explique les formulaires. Donc, je pense que la meilleure solution, c'est de garder les deux : des services en ligne pour ceux qui le veulent, et des agents disponibles pour les personnes qui ont besoin d'aide.",
+      "modelAnswer": "À mon avis, les démarches en ligne sont un grand progrès, mais il ne faut pas supprimer complètement les guichets. D'abord, internet fait gagner beaucoup de temps. Avant, il fallait prendre une demi-journée de congé pour aller au bureau d'immigration ; maintenant, on peut déposer un dossier le soir, depuis chez soi. C'est aussi plus pratique pour les gens qui habitent loin des grandes villes. Cependant, tout le monde n'a pas d'ordinateur ou d'imprimante, et beaucoup de personnes âgées ne sont pas à l'aise avec les sites administratifs, qui sont parfois compliqués. Moi-même, quand je suis arrivé au Canada, j'avais besoin de quelqu'un qui m'explique les formulaires. Donc, je pense que la meilleure solution, c'est de garder les deux : des services en ligne pour ceux qui le veulent, et des agents disponibles pour les personnes qui ont besoin d'aide.",
       "tips": [
         "Announce your position in the first sentence (À mon avis…, Je pense que…).",
         "Give at least one advantage and one disadvantage, linked with d'abord, aussi, cependant, donc.",
@@ -2069,7 +2070,7 @@
       "skill": "structures",
       "grammarTag": "relatifs",
       "prompt": "Choose the correct relative pronoun.",
-      "promptFr": "C'est la mairie ___ ferme le samedi.",
+      "promptFr": "C'est l'hôtel de ville ___ ferme le samedi.",
       "options": [
         "que",
         "où",
@@ -2077,7 +2078,7 @@
         "qu'"
       ],
       "answer": 2,
-      "explanation": "Ferme has no other subject: la mairie is the subject, so use qui."
+      "explanation": "Ferme has no other subject: l'hôtel de ville is the subject, so use qui."
     },
     {
       "id": "u10-cp03",
@@ -2118,15 +2119,15 @@
       "level": "A2+",
       "skill": "structures",
       "grammarTag": "vocabulary",
-      "prompt": "In France, where do you usually go to apply for a residence permit?",
+      "prompt": "In Canada, where do you go for an appointment about your work permit?",
       "options": [
         "à la gare",
-        "à la préfecture",
+        "au bureau d'immigration",
         "à la pharmacie",
         "à la banque"
       ],
       "answer": 1,
-      "explanation": "Residence permits (titres de séjour) are handled by the prefecture."
+      "explanation": "Work permits (permis de travail) are handled by the immigration office."
     },
     {
       "id": "u10-cp06",
@@ -2178,12 +2179,12 @@
       "skill": "structures",
       "grammarTag": "vocabulary",
       "prompt": "Complete with the right verb.",
-      "sentence": "Il faut ___ rendez-vous sur le site de la préfecture.",
+      "sentence": "Il faut ___ rendez-vous sur le site du bureau d'immigration.",
       "answers": [
         "prendre"
       ],
       "hint": "to take",
-      "translation": "You have to make an appointment on the prefecture's website.",
+      "translation": "You have to make an appointment on the immigration office's website.",
       "explanation": "The fixed expression is prendre rendez-vous (to make an appointment)."
     },
     {

@@ -156,8 +156,8 @@
       "level": "A1+",
       "core": false,
       "example": {
-        "fr": "Elle va à Paris en avion.",
-        "en": "She is going to Paris by plane."
+        "fr": "Elle va à Ottawa en avion.",
+        "en": "She is going to Ottawa by plane."
       }
     },
     {
@@ -198,8 +198,8 @@
       "level": "A1+",
       "core": false,
       "example": {
-        "fr": "Le tarif étudiant est d'un euro cinquante.",
-        "en": "The student fare is one euro fifty."
+        "fr": "Le tarif étudiant est d'un dollar cinquante.",
+        "en": "The student fare is one dollar fifty."
       }
     },
     {
@@ -1687,20 +1687,20 @@
       "title": "Bus et tramway : les tarifs",
       "level": "A1+",
       "kind": "notice",
-      "text": "BUS ET TRAMWAY DE LA VILLE\n\nTicket : 2 €\nCarnet de 10 tickets : 16 €\n\nVous pouvez acheter vos tickets au guichet de la gare, au bureau de tabac ou sur l'application.\n\nDu lundi au samedi, il y a un bus toutes les 10 minutes. Le dimanche, il y a un bus toutes les 30 minutes.\n\nAttention : en hiver, quand il neige, les horaires peuvent changer. Regardez la météo avant de partir !",
-      "translation": "CITY BUSES AND TRAMS\n\nTicket: €2\nBook of 10 tickets: €16\n\nYou can buy your tickets at the station ticket office, at the tobacconist's or on the app.\n\nFrom Monday to Saturday, there is a bus every 10 minutes. On Sundays, there is a bus every 30 minutes.\n\nCareful: in winter, when it snows, the timetables can change. Check the weather forecast before you leave!",
+      "text": "BUS ET TRAMWAY DE LA VILLE\n\nTicket : 2 $\nCarnet de 10 tickets : 16 $\n\nVous pouvez acheter vos tickets au guichet de la gare, au bureau de tabac ou sur l'application.\n\nDu lundi au samedi, il y a un bus toutes les 10 minutes. Le dimanche, il y a un bus toutes les 30 minutes.\n\nAttention : en hiver, quand il neige, les horaires peuvent changer. Regardez la météo avant de partir !",
+      "translation": "CITY BUSES AND TRAMS\n\nTicket: $2\nBook of 10 tickets: $16\n\nYou can buy your tickets at the station ticket office, at the tobacconist's or on the app.\n\nFrom Monday to Saturday, there is a bus every 10 minutes. On Sundays, there is a bus every 30 minutes.\n\nCareful: in winter, when it snows, the timetables can change. Check the weather forecast before you leave!",
       "questions": [
         {
           "id": "a06-re01-q1",
           "question": "How much is a book of 10 tickets?",
           "options": [
-            "€2",
-            "€10",
-            "€16",
-            "€20"
+            "$2",
+            "$10",
+            "$16",
+            "$20"
           ],
           "answer": 2,
-          "explanation": "« Carnet de 10 tickets : 16 € ». One ticket alone costs €2."
+          "explanation": "« Carnet de 10 tickets : 16 $ ». One ticket alone costs $2."
         },
         {
           "id": "a06-re01-q2",

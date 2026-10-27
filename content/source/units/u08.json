@@ -1754,7 +1754,7 @@
         },
         {
           "speaker": "Responsable du club",
-          "fr": "Dimanche dernier, nous étions trente-deux pour la sortie dans les Vosges."
+          "fr": "Dimanche dernier, nous étions trente-deux pour la sortie dans les Laurentides."
         },
         {
           "speaker": "Responsable du club",
@@ -1773,7 +1773,7 @@
           "fr": "Bonne semaine à tous !"
         }
       ],
-      "translation": "Hello to all the members of the hiking club! Last Sunday, there were thirty-two of us on the outing in the Vosges. It was a bit cold in the morning, but the sun came out around noon and we had a picnic by a lake. Unfortunately, Martine fell on the way down. She's fine, but she hurt her ankle. Just a reminder that registration for the May outing is open until 20 April. Places are limited to forty people. Have a good week, everyone!",
+      "translation": "Hello to all the members of the hiking club! Last Sunday, there were thirty-two of us on the outing in the Laurentians. It was a bit cold in the morning, but the sun came out around noon and we had a picnic by a lake. Unfortunately, Martine fell on the way down. She's fine, but she hurt her ankle. Just a reminder that registration for the May outing is open until 20 April. Places are limited to forty people. Have a good week, everyone!",
       "questions": [
         {
           "id": "u08-li02-q1",
@@ -1866,7 +1866,7 @@
       "title": "Fête du sport : un grand succès",
       "level": "A2+",
       "kind": "article",
-      "text": "Fête du sport à Saint-Martin : un grand succès\n\nSamedi dernier, plus de six cents personnes ont participé à la première Fête du sport de Saint-Martin. Le temps était parfait : il faisait doux et il y avait un peu de soleil.\n\nDès 10 heures, les familles ont découvert une vingtaine d'activités gratuites : tennis, escalade, judo ou encore danse. Pendant que les enfants essayaient les sports, les parents pouvaient s'informer sur les clubs de la ville. À midi, les bénévoles ont servi un pique-nique géant dans le parc.\n\n« Avant, beaucoup d'habitants ne connaissaient pas nos associations, explique Paul Renard, l'organisateur. Ce jour-là, plus de cent personnes se sont inscrites dans un club ! »\n\nLa mairie a déjà annoncé une deuxième édition l'année prochaine.",
+      "text": "Fête du sport à Saint-Martin : un grand succès\n\nSamedi dernier, plus de six cents personnes ont participé à la première Fête du sport de Saint-Martin. Le temps était parfait : il faisait doux et il y avait un peu de soleil.\n\nDès 10 heures, les familles ont découvert une vingtaine d'activités gratuites : tennis, escalade, judo ou encore danse. Pendant que les enfants essayaient les sports, les parents pouvaient s'informer sur les clubs de la ville. À midi, les bénévoles ont servi un pique-nique géant dans le parc.\n\n« Avant, beaucoup d'habitants ne connaissaient pas nos associations, explique Paul Renard, l'organisateur. Ce jour-là, plus de cent personnes se sont inscrites dans un club ! »\n\nLa Ville a déjà annoncé une deuxième édition l'année prochaine.",
       "translation": "Sports Day in Saint-Martin: a great success\n\nLast Saturday, more than six hundred people took part in Saint-Martin's first Sports Day. The weather was perfect: it was mild and there was a little sunshine.\n\nFrom 10 o'clock, families discovered around twenty free activities: tennis, climbing, judo and dance. While the children were trying out the sports, the parents could find out about the town's clubs. At noon, the volunteers served a giant picnic in the park.\n\n'Before, a lot of residents didn't know about our associations,' explains Paul Renard, the organiser. 'That day, more than a hundred people signed up for a club!'\n\nThe town hall has already announced a second edition next year.",
       "questions": [
         {
@@ -1937,7 +1937,7 @@
       "promptFr": "Racontez une sortie, un spectacle ou une activité de loisir qui vous a marqué(e). Décrivez le contexte et dites ce qui s'est passé. (120 mots minimum / 150 mots maximum)",
       "minWords": 120,
       "maxWords": 150,
-      "modelAnswer": "L'été dernier, je suis allé à un match de foot au stade de Marseille avec mon père. C'était la première fois que j'allais dans un si grand stade. Il faisait très chaud et il y avait plus de soixante mille personnes. Les supporters chantaient et agitaient des drapeaux bleus et blancs. Au début, notre équipe jouait mal et, à la mi-temps, elle perdait un à zéro. Mon père était déçu et il ne disait rien. Mais, en deuxième mi-temps, tout a changé. À la soixante-dixième minute, un jeune joueur a marqué un but magnifique. Tout le monde s'est levé et mon père m'a pris dans ses bras. Cinq minutes avant la fin, nous avons marqué un deuxième but. Nous sommes rentrés très tard, mais très heureux. Je n'oublierai jamais ce match !",
+      "modelAnswer": "L'été dernier, je suis allé à un match de foot au stade de Gatineau avec mon père. C'était la première fois que j'allais dans un si grand stade. Il faisait très chaud et il y avait plus de soixante mille personnes. Les supporters chantaient et agitaient des drapeaux bleus et blancs. Au début, notre équipe jouait mal et, à la mi-temps, elle perdait un à zéro. Mon père était déçu et il ne disait rien. Mais, en deuxième mi-temps, tout a changé. À la soixante-dixième minute, un jeune joueur a marqué un but magnifique. Tout le monde s'est levé et mon père m'a pris dans ses bras. Cinq minutes avant la fin, nous avons marqué un deuxième but. Nous sommes rentrés très tard, mais très heureux. Je n'oublierai jamais ce match !",
       "checklist": [
         "I say when, where and with whom it happened.",
         "I use the imparfait for the description and the atmosphere.",

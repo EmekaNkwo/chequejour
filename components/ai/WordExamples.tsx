@@ -1,8 +1,9 @@
 /** AI-made examples for a word (experimental, off by default), with optional fill-the-gap practice. */
 import { useState } from 'react';
 import { StyleSheet, View } from 'react-native';
-import { gapSentence, type ExampleWord, type WordExample } from '../../domain/ai/word-examples';
+import { gapSentence, wordExamplesMessages, type ExampleWord, type WordExample } from '../../domain/ai/word-examples';
 import { useAiFeature } from '../../features/ai/useAiFeature';
+import { useWarmLlm } from '../../features/ai/useWarmLlm';
 import { useAiJob } from '../../features/ai/useAiJob';
 import { wordExamples } from '../../features/ai/word-examples';
 import { PlayButton } from '../audio/AudioControls';
@@ -14,6 +15,7 @@ import { AiPanel } from './AiPanel';
 
 export function WordExamples({ word, wordId }: { word: ExampleWord; wordId: string }) {
   const { ready, llm } = useAiFeature('generatedPractice');
+  useWarmLlm(ready ? llm : null, wordExamplesMessages(word));
   const job = useAiJob<WordExample[]>('word examples');
   const [practising, setPractising] = useState(false);
   if (!ready || !llm) return null;

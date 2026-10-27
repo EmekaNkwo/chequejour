@@ -1,22 +1,14 @@
-import { Feather } from '@expo/vector-icons';
-import { useState } from 'react';
 import { StyleSheet, View } from 'react-native';
 import { heardMatch } from '../../features/speech/offline-french';
+import { useFrenchSpeech } from '../../features/speech/useFrenchSpeech';
 import { useOfflineFrench } from '../../features/speech/useOfflineFrench';
+import { FrenchSpeechSetup } from './FrenchSpeechSetup';
 import { DictationDiff } from '../exercises/DictationDiff';
-import { useTheme } from '../theme/ThemeProvider';
 import { spacing } from '../theme/tokens';
 import { AppText } from '../ui/AppText';
-import { LinkText, Row } from '../ui/Bits';
 import { Button } from '../ui/Button';
 import { Card } from '../ui/Card';
 import { useToast } from '../ui/Toast';
-
-const INSTALL_STEPS = [
-  'Open your phone’s Settings and search for “on-device speech recognition” (on some phones: Google app › Settings › Voice › Offline speech recognition).',
-  'Add French (France or Canada) and wait for it to download.',
-  'Come back here: the check appears once French is installed.',
-];
 
 /**
  * Optional "what did the phone hear?" check using on-device recognition only. Hidden
@@ -25,32 +17,12 @@ const INSTALL_STEPS = [
  */
 export function OfflineCheck({ line, disabled }: { line: string; disabled: boolean }) {
   const speech = useOfflineFrench();
+  const french = useFrenchSpeech();
   const toast = useToast();
-  const { colors } = useTheme();
-  const [showSteps, setShowSteps] = useState(false);
   const { status } = speech;
   if (!status || status.status === 'unsupported') return null;
 
-  if (status.status === 'needs-pack') {
-    return (
-      <Card testID="offline-check-setup">
-        <Row gap={spacing.sm}>
-          <Feather name="wifi-off" size={16} color={colors.textMuted} />
-          <AppText variant="bodyStrong" style={styles.flex}>
-            Check what you said, offline
-          </AppText>
-        </Row>
-        <AppText variant="meta" tone="muted">
-          Your phone can recognise French speech without the internet once its French speech pack is installed. Chaque Jour never uses online recognition.
-        </AppText>
-        {showSteps ? (
-          INSTALL_STEPS.map((s, i) => <AppText key={s} variant="body" tone="secondary">{`${i + 1}. ${s}`}</AppText>)
-        ) : (
-          <LinkText label="How to install French" onPress={() => setShowSteps(true)} />
-        )}
-      </Card>
-    );
-  }
+  if (status.status === 'needs-pack') return <FrenchSpeechSetup speech={french} purpose="Check what you said." />;
 
   const listen = async () => {
     if (speech.listening) {

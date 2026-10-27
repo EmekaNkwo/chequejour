@@ -5,7 +5,8 @@
  */
 import { z } from 'zod';
 
-export type ModelKind = 'stt' | 'llm';
+/** Language models only: speech uses the phone's own on-device recognizer. */
+export type ModelKind = 'llm';
 
 export interface ModelEntry {
   id: string;
@@ -22,8 +23,6 @@ export interface ModelEntry {
 export interface Manifest {
   version: number;
   allowedHosts: readonly string[];
-  /** Speech model for most phones, and a lighter one for phones with little memory. */
-  stt: { standard: string; light: string };
   /** Language model per tier; the low tier gets none. */
   llm: { high: string; mid: string };
   models: readonly ModelEntry[];
@@ -31,7 +30,7 @@ export interface Manifest {
 
 const modelSchema = z.object({
   id: z.string().regex(/^[a-z0-9.-]+$/),
-  kind: z.enum(['stt', 'llm']),
+  kind: z.literal('llm'),
   name: z.string().min(1),
   file: z.string().regex(/^[A-Za-z0-9._-]+$/),
   url: z.string().url().refine((u) => new URL(u).protocol === 'https:', 'Model URLs must use https'),
@@ -44,7 +43,6 @@ const modelSchema = z.object({
 const manifestSchema = z.object({
   version: z.number().int().positive(),
   allowedHosts: z.array(z.string().min(1)).min(1),
-  stt: z.object({ standard: z.string(), light: z.string() }),
   llm: z.object({ high: z.string(), mid: z.string() }),
   models: z.array(modelSchema).min(1),
 });
@@ -64,8 +62,6 @@ export function parseManifest(raw: unknown): Manifest {
     if (!model) throw new Error(`The manifest refers to ${id}, which isn't listed`);
     if (model.kind !== kind) throw new Error(`${id} is used as an ${kind} model but is ${model.kind}`);
   };
-  expect(manifest.stt.standard, 'stt');
-  expect(manifest.stt.light, 'stt');
   expect(manifest.llm.high, 'llm');
   expect(manifest.llm.mid, 'llm');
   return manifest;

@@ -56,6 +56,22 @@ export class EngineSlot<C> {
     });
   }
 
+  /**
+   * Starts loading the model before it is asked for (a screen with an AI button opened), so
+   * the learner doesn't wait for the load. Freed after the usual idle time if unused.
+   */
+  warm(): void {
+    const whenIdle = () => {
+      if (this.busy === 0) this.scheduleIdle();
+    };
+    if (this.context !== null || this.loading) {
+      whenIdle();
+      return;
+    }
+    // A failed warm-up is not reported: the job that needs the model will try again and say so.
+    this.ensureLoaded().then(whenIdle, () => undefined);
+  }
+
   /** Frees the model's memory now; the next job loads it again. */
   async unload(): Promise<void> {
     this.clearIdle();

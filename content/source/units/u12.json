@@ -72,8 +72,8 @@
       "level": "A2+",
       "core": true,
       "example": {
-        "fr": "La presse régionale reste très lue en France.",
-        "en": "The regional press is still widely read in France."
+        "fr": "La presse régionale reste très lue au Québec.",
+        "en": "The regional press is still widely read in Québec."
       }
     },
     {
@@ -712,7 +712,7 @@
       "level": "A2+",
       "core": false,
       "example": {
-        "fr": "La mairie confirme que le concert aura bien lieu.",
+        "fr": "La Ville confirme que le concert aura bien lieu.",
         "en": "The town hall confirms that the concert will go ahead."
       }
     },
@@ -1355,8 +1355,8 @@
       "level": "B1",
       "skill": "structures",
       "grammarTag": "discours-indirect",
-      "prompt": "Report the question: « Qu'est-ce qui se passe à Lyon ? »",
-      "promptFr": "Il demande ___ se passe à Lyon.",
+      "prompt": "Report the question: « Qu'est-ce qui se passe à Montréal ? »",
+      "promptFr": "Il demande ___ se passe à Montréal.",
       "options": [
         "ce que",
         "qu'est-ce qui",
@@ -1657,7 +1657,7 @@
       "lines": [
         {
           "speaker": "Animatrice",
-          "fr": "Bonjour Marc Lemoine. Vous êtes journaliste et vous animez des ateliers sur les fausses informations dans les lycées. Qu'est-ce que vous dites aux élèves ?"
+          "fr": "Bonjour Marc Lemoine. Vous êtes journaliste et vous animez des ateliers sur les fausses informations dans les écoles secondaires. Qu'est-ce que vous dites aux élèves ?"
         },
         {
           "speaker": "Marc",
@@ -1769,7 +1769,7 @@
         },
         {
           "speaker": "Journaliste",
-          "fr": "La mairie de Nantes annonce que le tramway sera gratuit le week-end à partir du mois de mars."
+          "fr": "La Ville de Québec annonce que le tramway sera gratuit le week-end à partir du mois de mars."
         },
         {
           "speaker": "Journaliste",
@@ -1785,14 +1785,14 @@
         },
         {
           "speaker": "Journaliste",
-          "fr": "La préfecture demande aux automobilistes de limiter leurs déplacements et de ne pas traverser les routes inondées."
+          "fr": "Le ministère des Transports demande aux automobilistes de limiter leurs déplacements et de ne pas traverser les routes inondées."
         },
         {
           "speaker": "Journaliste",
           "fr": "Enfin, en sport, l'entraîneur du club local affirme que son équipe est prête pour la finale de samedi."
         }
       ],
-      "translation": "It's 6 p.m.; here is the news flash.\nNantes town hall announces that the tram will be free at weekends from March.\nThe mayor explains that this measure is meant to encourage residents to leave their cars in the garage.\nCity-centre shopkeepers, for their part, wonder whether it will be enough to bring customers back.\nIn other news, the weather services warn that heavy rain is expected tomorrow across the whole region.\nThe prefecture is asking drivers to limit their journeys and not to drive across flooded roads.\nFinally, in sport, the local club's coach says his team is ready for Saturday's final.",
+      "translation": "It's 6 p.m.; here is the news flash.\nQuebec City announces that the tram will be free at weekends from March.\nThe mayor explains that this measure is meant to encourage residents to leave their cars in the garage.\nCity-centre shopkeepers, for their part, wonder whether it will be enough to bring customers back.\nIn other news, the weather services warn that heavy rain is expected tomorrow across the whole region.\nThe Ministry of Transport is asking drivers to limit their journeys and not to drive across flooded roads.\nFinally, in sport, the local club's coach says his team is ready for Saturday's final.",
       "questions": [
         {
           "id": "u12-li02-q1",
@@ -1828,7 +1828,7 @@
             "Leave their cars at home on Saturday"
           ],
           "answer": 2,
-          "explanation": "The prefecture asks them « de limiter leurs déplacements et de ne pas traverser les routes inondées »."
+          "explanation": "The Ministry of Transport asks them « de limiter leurs déplacements et de ne pas traverser les routes inondées »."
         }
       ]
     }
@@ -1839,8 +1839,8 @@
       "title": "Comment les jeunes s'informent-ils ?",
       "level": "B1",
       "kind": "article",
-      "text": "Comment les jeunes s'informent-ils ?\n\nIls ne lisent presque plus de journaux papier et regardent rarement le journal télévisé. Pourtant, les 15-25 ans ne se désintéressent pas de l'actualité, affirme une étude récente. Simplement, ils s'informent autrement.\n\nPour la majorité d'entre eux, les réseaux sociaux sont devenus la première source d'information. Lucas, 19 ans, étudiant à Lille, explique qu'il découvre l'actualité sur son téléphone, entre deux vidéos de musique. « Si un sujet m'intéresse, je cherche un article plus complet sur le site d'un grand quotidien », précise-t-il.\n\nCe mode d'information pose cependant des problèmes. Les algorithmes montrent surtout des contenus qui ressemblent à ce qu'on a déjà aimé, et les publications les plus partagées ne sont pas toujours les plus fiables. Les chercheurs constatent d'ailleurs que beaucoup de jeunes ont du mal à distinguer un reportage d'une publicité.\n\nPour Claire Martin, enseignante en éducation aux médias, la solution n'est pas d'interdire les écrans. Elle dit qu'il faut plutôt apprendre aux élèves à se poser les bonnes questions : qui parle ? Dans quel but ? « Les jeunes ne manquent pas de curiosité, ajoute-t-elle. Il leur manque parfois des outils. »",
-      "translation": "How do young people get their news?\n\nThey hardly read paper newspapers any more and rarely watch the TV news. Yet 15- to 25-year-olds are not losing interest in current events, says a recent study. They simply get their news in a different way.\n\nFor most of them, social media have become their main source of information. Lucas, 19, a student in Lille, explains that he discovers the news on his phone, between two music videos. 'If a topic interests me, I look for a fuller article on the website of a major daily paper,' he adds.\n\nHowever, this way of getting information causes problems. Algorithms mostly show content that resembles what we have already liked, and the most shared posts are not always the most reliable. Researchers also note that many young people find it hard to tell a news report from an advertisement.\n\nFor Claire Martin, a media-education teacher, the solution is not to ban screens. She says that we should instead teach pupils to ask themselves the right questions: who is speaking? For what purpose? 'Young people don't lack curiosity,' she adds. 'What they sometimes lack is the tools.'",
+      "text": "Comment les jeunes s'informent-ils ?\n\nIls ne lisent presque plus de journaux papier et regardent rarement le journal télévisé. Pourtant, les 15-25 ans ne se désintéressent pas de l'actualité, affirme une étude récente. Simplement, ils s'informent autrement.\n\nPour la majorité d'entre eux, les réseaux sociaux sont devenus la première source d'information. Lucas, 19 ans, étudiant à Moncton, explique qu'il découvre l'actualité sur son téléphone, entre deux vidéos de musique. « Si un sujet m'intéresse, je cherche un article plus complet sur le site d'un grand quotidien », précise-t-il.\n\nCe mode d'information pose cependant des problèmes. Les algorithmes montrent surtout des contenus qui ressemblent à ce qu'on a déjà aimé, et les publications les plus partagées ne sont pas toujours les plus fiables. Les chercheurs constatent d'ailleurs que beaucoup de jeunes ont du mal à distinguer un reportage d'une publicité.\n\nPour Claire Martin, enseignante en éducation aux médias, la solution n'est pas d'interdire les écrans. Elle dit qu'il faut plutôt apprendre aux élèves à se poser les bonnes questions : qui parle ? Dans quel but ? « Les jeunes ne manquent pas de curiosité, ajoute-t-elle. Il leur manque parfois des outils. »",
+      "translation": "How do young people get their news?\n\nThey hardly read paper newspapers any more and rarely watch the TV news. Yet 15- to 25-year-olds are not losing interest in current events, says a recent study. They simply get their news in a different way.\n\nFor most of them, social media have become their main source of information. Lucas, 19, a student in Moncton, explains that he discovers the news on his phone, between two music videos. 'If a topic interests me, I look for a fuller article on the website of a major daily paper,' he adds.\n\nHowever, this way of getting information causes problems. Algorithms mostly show content that resembles what we have already liked, and the most shared posts are not always the most reliable. Researchers also note that many young people find it hard to tell a news report from an advertisement.\n\nFor Claire Martin, a media-education teacher, the solution is not to ban screens. She says that we should instead teach pupils to ask themselves the right questions: who is speaking? For what purpose? 'Young people don't lack curiosity,' she adds. 'What they sometimes lack is the tools.'",
       "questions": [
         {
           "id": "u12-re01-q1",
@@ -1897,7 +1897,7 @@
       "title": "Réponse de la rédaction",
       "level": "B1",
       "kind": "email",
-      "text": "Objet : Votre message du 12 octobre\n\nMonsieur Benali,\n\nNous vous remercions pour votre message au sujet de notre article « Le marché du samedi va fermer ». Vous nous dites que cette information est fausse et que vous avez parlé vous-même avec le responsable du marché.\n\nAprès vérification, vous avez raison : la mairie nous confirme que le marché ne fermera pas, mais qu'il s'installera place de la Gare pendant six mois, le temps des travaux. Notre journaliste a mal compris une déclaration de l'adjoint au maire, et nous vous présentons nos excuses.\n\nUn rectificatif sera publié dans notre édition de jeudi et sur notre site internet. Vous nous demandez aussi si vous pouvez écrire un court témoignage sur l'importance de ce marché pour le quartier : avec plaisir ! Envoyez-nous un texte de 1 500 caractères maximum avant mardi.\n\nBien cordialement,\n\nSophie Arnaud\nRédactrice en chef, L'Écho de Valmont",
+      "text": "Objet : Votre message du 12 octobre\n\nMonsieur Benali,\n\nNous vous remercions pour votre message au sujet de notre article « Le marché du samedi va fermer ». Vous nous dites que cette information est fausse et que vous avez parlé vous-même avec le responsable du marché.\n\nAprès vérification, vous avez raison : la Ville nous confirme que le marché ne fermera pas, mais qu'il s'installera place de la Gare pendant six mois, le temps des travaux. Notre journaliste a mal compris une déclaration de l'adjoint au maire, et nous vous présentons nos excuses.\n\nUn rectificatif sera publié dans notre édition de jeudi et sur notre site internet. Vous nous demandez aussi si vous pouvez écrire un court témoignage sur l'importance de ce marché pour le quartier : avec plaisir ! Envoyez-nous un texte de 1 500 caractères maximum avant mardi.\n\nBien cordialement,\n\nSophie Arnaud\nRédactrice en chef, L'Écho de Valmont",
       "translation": "Subject: Your message of 12 October\n\nDear Mr Benali,\n\nThank you for your message about our article 'The Saturday market is going to close'. You tell us that this information is false and that you spoke to the market manager yourself.\n\nAfter checking, you are right: the town hall confirms that the market will not close, but that it will move to the Place de la Gare for six months, while the work is carried out. Our journalist misunderstood a statement by the deputy mayor, and we apologise.\n\nA correction will be published in our Thursday edition and on our website. You also ask whether you can write a short account of how important this market is for the neighbourhood: we'd be delighted! Send us a text of no more than 1,500 characters before Tuesday.\n\nKind regards,\n\nSophie Arnaud\nEditor-in-chief, L'Écho de Valmont",
       "questions": [
         {
