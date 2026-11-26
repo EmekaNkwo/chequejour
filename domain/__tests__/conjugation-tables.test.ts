@@ -36,10 +36,11 @@ describe('conjugation tables', () => {
       const verb = findVerb(e.verb);
       const p = person[e.person.toLowerCase()];
       if (!verb || p === undefined || !(TENSES as readonly string[]).includes(e.tense)) continue;
-      // Passé composé with être shows (e)/(e)s; compare against the masculine form.
-      const plain = normalize(conjugate(verb, e.tense as Tense)[p].replace(/\(e\)(s?)$/, '$1'));
+      // Passé composé with être shows (e)/(e)s; the exercise may use either agreement.
+      const form = conjugate(verb, e.tense as Tense)[p];
+      const agreed = [form.replace(/\(e\)(s?)$/, '$1'), form.replace(/\(e\)(s?)$/, 'e$1')].map(normalize);
       const accepted = e.answers.map(normalize);
-      expect({ id: e.id, ok: accepted.includes(plain) }).toEqual({ id: e.id, ok: true });
+      expect({ id: e.id, ok: agreed.some((f) => accepted.includes(f)) }).toEqual({ id: e.id, ok: true });
       compared += 1;
     }
     expect(compared).toBeGreaterThan(10);

@@ -8,11 +8,15 @@ import { todayPlan, type TodayPlan } from '../session/today-plan';
 import type { StreakInfo } from '../../domain/streak';
 import type { TcfSkill } from '../../domain/tcf/exam-format';
 import { daysToExam } from '../../domain/tcf/exam-plan';
+import type { VerbSpec } from '../../domain/exercises/conjugation-tables';
+import { verbOfDay } from '../../domain/verb-of-day';
 
 export interface HomeData {
   path: PathState;
   plan: TodayPlan;
   daily: DailyContent | null;
+  /** Verbe du jour, at the learner's level. */
+  verb: VerbSpec;
   activity: ActivityDay[];
   level: LevelOverview;
   streak: StreakInfo;
@@ -26,7 +30,8 @@ export async function loadHome(app: Pick<AppServices, 'content' | 'progress' | '
   const { content, progress, settings, today } = app;
   const mastered = await masteredIds(progress);
   const path = await loadPath(content, progress, settings.placementLevel, mastered);
-  await ensureDailyItems(content, progress, today, dailyLearner(path));
+  const learner = dailyLearner(path);
+  await ensureDailyItems(content, progress, today, learner);
   const now = Date.now();
   const exam = await loadExamContext(content, progress, settings, now);
   const [plan, daily, activity, level, streakInfo] = await Promise.all([
@@ -40,6 +45,7 @@ export async function loadHome(app: Pick<AppServices, 'content' | 'progress' | '
     path,
     plan,
     daily,
+    verb: verbOfDay(today, learner.level),
     activity,
     level,
     streak: streakInfo,

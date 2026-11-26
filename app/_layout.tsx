@@ -51,6 +51,7 @@ const APP_SCREENS = [
   'mock/[id]',
   'daily/word',
   'daily/sentence',
+  'daily/verb',
   'settings',
   'ai-pack',
   'weekly',

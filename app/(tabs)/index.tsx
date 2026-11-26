@@ -31,7 +31,7 @@ export default function HomeScreen() {
 
 function Home({ data }: { data: HomeData }) {
   const { colors } = useTheme();
-  const { path, plan, daily, activity, level, streak } = data;
+  const { path, plan, daily, verb, activity, level, streak } = data;
   const current = path.current;
   const unitIndex = current ? path.units.findIndex((u) => u.id === current.id) + 1 : path.units.length;
   const pct = Math.round(plan.completion * 100);
@@ -125,6 +125,23 @@ function Home({ data }: { data: HomeData }) {
           <LinkText label="Test me" icon="arrow-right" onPress={() => router.push(`/daily/sentence?day=${daily.day}&test=1`)} />
         </Card>
       ) : null}
+
+      <Card onPress={() => router.push('/daily/verb')} accessibilityLabel={`Verb of the day: ${verb.infinitive}, ${verb.en}`} testID="verb-of-day">
+        <Row style={styles.between}>
+          <Pill label="VERBE DU JOUR" color={colors.skills.structures.tint} textColor={colors.skills.structures.onTint} icon="zap" />
+          <PlayButton audioKey={`verb:${verb.infinitive}`} text={verb.infinitive} size={48} label="Play verb" />
+        </Row>
+        <AppText variant="frenchLarge" french style={styles.mt}>
+          {verb.infinitive}
+        </AppText>
+        <AppText variant="body" tone="secondary">
+          {verb.en}
+        </AppText>
+        <AppText variant="meta" tone="muted">
+          {`Conjugated in 6 tenses · passé composé with ${verb.aux}`}
+        </AppText>
+        <LinkText label="Test me" icon="arrow-right" onPress={() => router.push('/daily/verb?test=1')} />
+      </Card>
 
       <Card onPress={() => router.push('/weekly')} accessibilityLabel={`Activity: ${weekMinutes} minutes of study in the last 7 days. Opens the weekly summary.`}>
         <Row style={styles.between}>
