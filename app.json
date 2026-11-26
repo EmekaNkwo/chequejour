@@ -90,12 +90,12 @@
           "widgets": [
             {
               "name": "WordOfDay",
-              "label": "Mot du jour",
-              "description": "The word of the day from Chaque Jour, in French and English.",
-              "minWidth": "180dp",
-              "minHeight": "110dp",
-              "targetCellWidth": 3,
-              "targetCellHeight": 2,
+              "label": "Chaque Jour",
+              "description": "The word, sentence and verb of the day from Chaque Jour, in French and English.",
+              "minWidth": "250dp",
+              "minHeight": "180dp",
+              "targetCellWidth": 4,
+              "targetCellHeight": 3,
               "resizeMode": "horizontal|vertical",
               "updatePeriodMillis": 3600000
             }

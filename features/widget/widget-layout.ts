@@ -1,8 +1,9 @@
 /**
- * Text and spacing for the word widget at the size the launcher reports (in dp). The
- * design is drawn for the default 3×2 widget; a bigger widget scales everything up by
- * the tighter of its width and height ratios, so text grows without overflowing. The
- * French word is also capped by its length, so a long expression stays on one line.
+ * Text and spacing for the daily widget (word, sentence and verb stacked) at the size the
+ * launcher reports, in dp. The design is drawn for the default 4×3 widget; a bigger
+ * widget scales everything up by the tighter of its width and height ratios, so text
+ * grows without overflowing, and spare height buys the sentence and translations a
+ * second line. A short widget (one placed at the old 3×2 size) shows one line per item.
  */
 export interface WidgetSize {
   width: number;
@@ -10,43 +11,48 @@ export interface WidgetSize {
 }
 
 export interface WidgetLayout {
+  /** One line per item, without labels or translations. */
+  compact: boolean;
   label: number;
-  word: number;
-  detail: number;
-  english: number;
-  englishLines: number;
+  /** The French text of each item. */
+  fr: number;
+  /** Translation and details under the French. */
+  sub: number;
+  frLines: number;
+  subLines: number;
   padding: number;
+  /** Space around the dividers between items. */
   gap: number;
-  /** Diameter of the pronunciation button in the top-right corner, and its inset. */
+  /** Diameter of each item's pronunciation button. */
   button: number;
-  buttonInset: number;
 }
 
 /** The size the base layout is designed for: the widget's minimum in app.json. */
-export const WIDGET_BASE_SIZE: WidgetSize = { width: 180, height: 110 };
-const MAX_SCALE = 2.5;
-/** Width that one more unit of scale needs: text lines run wider than the base design. */
-const WIDTH_PER_SCALE = 150;
-/** Average glyph width of the bold word, as a share of its font size. */
-const GLYPH_WIDTH = 0.58;
+export const WIDGET_BASE_SIZE: WidgetSize = { width: 250, height: 180 };
+/** Below this height the three items only fit as single lines. */
+const COMPACT_BELOW = 170;
+/** fr grows from 16 to at most 26. */
+const MAX_SCALE = 26 / 16;
+/** Extra height (relative to the scaled design) that earns second lines. */
+const TALL = 1.4;
 
-export function widgetLayout({ width, height }: WidgetSize, word = ''): WidgetLayout {
-  const ratio = Math.min(width / WIDTH_PER_SCALE, height / WIDGET_BASE_SIZE.height);
+const COMPACT: WidgetLayout = { compact: true, label: 0, fr: 14, sub: 0, frLines: 1, subLines: 0, padding: 10, gap: 3, button: 24 };
+
+export function widgetLayout({ width, height }: WidgetSize): WidgetLayout {
+  if (!(height >= COMPACT_BELOW)) return COMPACT;
+  const ratio = Math.min(width / WIDGET_BASE_SIZE.width, height / WIDGET_BASE_SIZE.height);
   const scale = Math.min(MAX_SCALE, Math.max(1, Number.isFinite(ratio) ? ratio : 1));
   const px = (n: number): number => Math.round(n * scale);
-  // Extra height beyond what the scaled text needs goes to more lines of English.
-  const tallness = height / (WIDGET_BASE_SIZE.height * scale);
-  const padding = Math.round(16 * Math.min(scale, 1.5));
-  const fitsWidth = word ? Math.floor((width - 2 * padding) / (word.length * GLYPH_WIDTH)) : Infinity;
+  const tall = height / (WIDGET_BASE_SIZE.height * scale) >= TALL;
   return {
-    label: px(11),
-    word: Math.max(24, Math.min(px(24), fitsWidth)),
-    detail: px(13),
-    english: px(15),
-    englishLines: tallness >= 1.8 ? 4 : tallness >= 1.45 ? 3 : 2,
-    padding,
-    gap: px(4),
-    button: Math.min(64, px(36)),
-    buttonInset: Math.min(16, px(8)),
+    compact: false,
+    label: px(10),
+    fr: px(16),
+    sub: px(12),
+    frLines: tall ? 2 : 1,
+    subLines: tall ? 2 : 1,
+    padding: Math.round(14 * Math.min(scale, 1.3)),
+    gap: px(5),
+    button: Math.min(48, px(30)),
   };
 }

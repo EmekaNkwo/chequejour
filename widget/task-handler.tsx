@@ -9,21 +9,21 @@ import { DATABASE_NAME } from '../features/app/bootstrap';
 import { logError } from '../features/app/log';
 import { play, stop, warmUp } from '../features/audio/audio-controller';
 import { loadSettings } from '../data/settings-repo';
-import { loadWidgetWord, type WidgetWordView } from '../features/widget/widget-data';
+import { loadWidgetDaily, type WidgetItemView } from '../features/widget/widget-data';
 import { playFromWidget } from '../features/widget/widget-play';
-import { WORD_WIDGET_NAME, wordWidget } from './WordOfDayWidget';
+import { dailyWidget, WORD_WIDGET_NAME } from './WordOfDayWidget';
 
-export async function currentWidgetWord(): Promise<WidgetWordView | null> {
+export async function currentWidgetItems(): Promise<WidgetItemView[]> {
   try {
     const db = await SQLite.openDatabaseAsync(DATABASE_NAME);
-    return await loadWidgetWord(db, toDayKey(new Date()));
+    return await loadWidgetDaily(db, toDayKey(new Date()));
   } catch (e: unknown) {
-    logError('widget word', e);
-    return null;
+    logError('widget items', e);
+    return [];
   }
 }
 
-/** Plays the word through the app's audio controller, at the learner's chosen speed. */
+/** Plays a word, sentence or verb through the app's audio controller, at the learner's chosen speed. */
 async function playWord(clickAction: string | undefined, data: Record<string, unknown> | undefined): Promise<void> {
   try {
     // Audio setup is the slow part of a tap; start it while the settings load.
@@ -44,6 +44,6 @@ export async function widgetTaskHandler({ widgetInfo, widgetAction, clickAction,
     return;
   }
   if (widgetAction === 'WIDGET_ADDED' || widgetAction === 'WIDGET_UPDATE' || widgetAction === 'WIDGET_RESIZED') {
-    renderWidget(wordWidget(await currentWidgetWord(), widgetInfo));
+    renderWidget(dailyWidget(await currentWidgetItems(), widgetInfo));
   }
 }

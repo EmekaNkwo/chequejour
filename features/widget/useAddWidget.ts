@@ -14,7 +14,7 @@ const MAX_WAIT_MS = 120_000;
 const SETTLE_MS = 800;
 /** Back this fast means no prompt was really shown. */
 const QUICK_RETURN_MS = 1500;
-const MANUAL = 'Long-press an empty spot on the home screen, choose Widgets, then Chaque Jour › Mot du jour.';
+const MANUAL = 'Long-press an empty spot on the home screen, choose Widgets, then Chaque Jour.';
 
 /**
  * Resolves 'returned' once a launcher prompt took over the screen and the learner came
@@ -62,7 +62,7 @@ export function useAddWidget(): () => Promise<void> {
         count: async () => (await getWidgetInfo(WORD_WIDGET_NAME)).length,
         waitForPrompt,
       });
-      if (outcome === 'added') toast.show({ tone: 'success', title: 'Widget added', message: 'Mot du jour is on your home screen.' });
+      if (outcome === 'added') toast.show({ tone: 'success', title: 'Widget added', message: "Today's word, sentence and verb are on your home screen." });
       else if (outcome === 'no-prompt' && isXiaomi(Platform.constants as { Manufacturer?: string; Brand?: string })) {
         toast.show({
           tone: 'info',

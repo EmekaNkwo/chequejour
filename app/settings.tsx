@@ -264,7 +264,7 @@ export default function SettingsScreen() {
         <Card style={styles.card}>
           <SettingsGroup title="Home-screen widget">
             <AppText variant="meta" tone="muted">
-              Shows the word of the day in French and English. Tap it to open the word. It follows your phone&apos;s light or dark mode.
+              Shows today&apos;s word, sentence and verb in French and English. Tap one to open it, or its speaker to hear it. It follows your phone&apos;s light or dark mode.
             </AppText>
             <WidgetPreviewCard />
             <Button label="Add the widget" icon="grid" variant="secondary" onPress={() => void addWidget()} testID="add-widget" />
