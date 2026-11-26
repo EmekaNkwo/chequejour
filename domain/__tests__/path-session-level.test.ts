@@ -140,7 +140,7 @@ describe('session builder', () => {
 describe('level estimate', () => {
   it('keeps learners without a placement (from before A1 existed) at A2', () => {
     const e = estimateLevel({ completedUnits: 0, totalUnits: 24, masteredCards: 0, recentAttempts: [], placement: null });
-    expect(e.value).toBe(0.15);
+    expect(e.value).toBe(0.12);
     expect(e.label).toBe('A2');
   });
   it('returns A1 and A1+ at low scores', () => {
@@ -160,16 +160,28 @@ describe('level estimate', () => {
     const e = estimateLevel({ completedUnits: 0, totalUnits: 18, masteredCards: 0, recentAttempts: [], placement: 'A2+' });
     expect(e.label).toBe('A2+');
   });
-  it('reaches B1 with full progress and strong B1 answers', () => {
+  it('reaches B1 with the A1–B1 units done and strong B1 answers', () => {
     const e = estimateLevel({
-      completedUnits: 18,
-      totalUnits: 18,
+      completedUnits: 24,
+      totalUnits: 30,
       masteredCards: 700,
       recentAttempts: Array.from({ length: 100 }, () => ({ correct: true, level: 'B1' as const })),
       placement: 'A2',
     });
-    expect(e.value).toBeCloseTo(1);
+    expect(e.value).toBeCloseTo(0.835);
     expect(e.label).toBe('B1');
+  });
+  it('reaches B2 only with the B2 units done and strong B2 answers', () => {
+    const e = estimateLevel({
+      completedUnits: 30,
+      totalUnits: 30,
+      masteredCards: 700,
+      recentAttempts: Array.from({ length: 100 }, () => ({ correct: true, level: 'B2' as const })),
+      placement: 'A2',
+    });
+    expect(e.value).toBeCloseTo(1);
+    expect(e.label).toBe('B2');
+    expect(estimateLevel({ completedUnits: 0, totalUnits: 30, masteredCards: 0, recentAttempts: [], placement: 'B2' }).label).toBe('B2');
   });
   it('discounts demonstrated level when there are few answers', () => {
     const few = estimateLevel({ completedUnits: 0, totalUnits: 18, masteredCards: 0, recentAttempts: [{ correct: true, level: 'B1' }], placement: null });
@@ -186,9 +198,11 @@ describe('level estimate', () => {
     expect(placementLevel({ ...basics, A2: band(3), 'A2+': band(1), B1: band(0) })).toBe('A2');
     expect(placementLevel({ ...basics, A2: band(7), 'A2+': band(5), B1: band(2) })).toBe('A2+');
     expect(placementLevel({ ...basics, A2: band(8), 'A2+': band(7), B1: band(6) })).toBe('B1');
+    expect(placementLevel({ ...basics, A2: band(8), 'A2+': band(7), B1: band(6), B2: band(3) })).toBe('B1');
+    expect(placementLevel({ ...basics, A2: band(8), 'A2+': band(7), B1: band(7), B2: band(5) })).toBe('B2');
   });
-  it('starts each placement result at its unit: A1 1, A1+ 4, A2 7, A2+ 12, B1 17', () => {
-    expect(PLACEMENT_BANDS.map((l) => PLACEMENT_START_UNIT[l])).toEqual([1, 4, 7, 12, 17]);
+  it('starts each placement result at its unit: A1 1, A1+ 4, A2 7, A2+ 12, B1 17, B2 25', () => {
+    expect(PLACEMENT_BANDS.map((l) => PLACEMENT_START_UNIT[l])).toEqual([1, 4, 7, 12, 17, 25]);
     expect(placementStartFor(null)).toBe(7);
   });
   it('stops placement early once later bands cannot change the result', () => {

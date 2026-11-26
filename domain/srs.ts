@@ -12,7 +12,8 @@ const STATES: readonly CardState[] = ['new', 'learning', 'review', 'relearning']
 
 export interface SrsCard {
   itemId: string;
-  itemKind: 'word' | 'sentence';
+  /** Conjugation cards live in their own table, so the word/sentence review never sees them. */
+  itemKind: 'word' | 'sentence' | 'conjugation';
   due: number;
   stability: number;
   difficulty: number;
@@ -31,7 +32,7 @@ const GRADE_TO_RATING: Readonly<Record<ReviewGrade, Grade>> = {
   easy: Rating.Easy,
 };
 
-/** Desired retention 0.9 and a one-year cap suit a year-long A2→B1 course. */
+/** Desired retention 0.9 and a one-year cap suit a year-long A1→B2 course. */
 const scheduler = fsrs(generatorParameters({ request_retention: 0.9, maximum_interval: 365, enable_fuzz: false }));
 
 /** A card counts as mastered once it is in review with at least three weeks of stability. */

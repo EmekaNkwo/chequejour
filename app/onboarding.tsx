@@ -140,7 +140,7 @@ function Welcome({ onNext }: { onNext: () => void }) {
         <Logo size={80} />
         <AppText variant="screenTitle">Chaque Jour</AppText>
         <AppText variant="body" tone="secondary">
-          A calm daily French habit, from A1 to B1, built around the TCF Canada.
+          A calm daily French habit, from A1 to B2, built around the TCF Canada.
         </AppText>
       </View>
       {[
@@ -201,7 +201,7 @@ function Setup({ onPlacement, onSkip }: { onPlacement: () => void; onSkip: () =>
       <Card>
         <AppText variant="cardTitle">Daily reminders</AppText>
         <AppText variant="body" tone="secondary">
-          {`Word of the Day at ${fmt(n.word.time)} and Sentence of the Day at ${fmt(n.sentence.time)}, plus a reminder at ${fmt(app.settings.reminder.time)} if you miss a day. You can change the times or turn them off in Settings.`}
+          {`Word of the Day at ${fmt(n.word.time)}, Verb of the Day at ${fmt(n.verb.time)} and Sentence of the Day at ${fmt(n.sentence.time)}, plus a reminder at ${fmt(app.settings.reminder.time)} if you miss a day. You can change the times or turn them off in Settings.`}
         </AppText>
         <Row style={styles.mt}>
           {permission === 'granted' ? (

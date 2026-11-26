@@ -1,5 +1,5 @@
 /**
- * Practice level estimate on a 0–1 scale from A1 (0) to B1 (1). This is a practice
+ * Practice level estimate on a 0–1 scale from A1 (0) to B2 (1). This is a practice
  * estimate only: it is not, and does not predict, an official TCF result.
  *
  *   estimate = max(placement baseline,
@@ -8,9 +8,10 @@
  * - path progress: completed units / all units
  * - vocabulary mastery: mastered cards / MASTERY_TARGET
  * - demonstrated level: recent answers, where a correct answer earns its item's level
- *   weight (A1 0, A1+ 0.1, A2 0.2, A2+ 0.6, B1 1.0) and a wrong one earns 0
+ *   weight (A1 0, A1+ 0.08, A2 0.16, A2+ 0.45, B1 0.75, B2 1.0) and a wrong one earns 0
  *
- * Five labels: A1, A1+, A2, A2+, B1. A placement result sets a floor; "not taken"
+ * Six labels: A1, A1+, A2, A2+, B1, B2. The scale ran A1 → B1 until the B2 units were
+ * added; it was rescaled so B1 now sits around three quarters of the way. A placement result sets a floor; "not taken"
  * (null) is treated as A2, which is where the course started before the A1 units, so
  * learners from earlier versions keep their label.
  */
@@ -21,21 +22,22 @@ export const RECENT_ATTEMPTS = 120;
 /** At least this many answers before demonstrated level counts fully. */
 export const MIN_ATTEMPTS = 30;
 
-export const LEVEL_WEIGHT: Readonly<Record<Level, number>> = { A1: 0, 'A1+': 0.1, A2: 0.2, 'A2+': 0.6, B1: 1 };
+export const LEVEL_WEIGHT: Readonly<Record<Level, number>> = { A1: 0, 'A1+': 0.08, A2: 0.16, 'A2+': 0.45, B1: 0.75, B2: 1 };
 
 /** Lowest estimate for each label, highest first. */
 export const LEVEL_THRESHOLDS: readonly { level: Level; min: number }[] = [
-  { level: 'B1', min: 0.75 },
-  { level: 'A2+', min: 0.35 },
-  { level: 'A2', min: 0.15 },
-  { level: 'A1+', min: 0.07 },
+  { level: 'B2', min: 0.85 },
+  { level: 'B1', min: 0.6 },
+  { level: 'A2+', min: 0.28 },
+  { level: 'A2', min: 0.12 },
+  { level: 'A1+', min: 0.05 },
   { level: 'A1', min: 0 },
 ];
 
-const PLACEMENT_BASELINE: Readonly<Record<Level, number>> = { A1: 0, 'A1+': 0.07, A2: 0.15, 'A2+': 0.35, B1: 0.7 };
+const PLACEMENT_BASELINE: Readonly<Record<Level, number>> = { A1: 0, 'A1+': 0.05, A2: 0.12, 'A2+': 0.28, B1: 0.6, B2: 0.85 };
 
 /** Mock tests open from this estimate, or once all A2/A2+ units are complete. */
-export const MOCK_TEST_THRESHOLD = 0.6;
+export const MOCK_TEST_THRESHOLD = 0.48;
 
 export interface LevelInput {
   completedUnits: number;
@@ -74,7 +76,7 @@ export function estimateLevel(input: LevelInput): LevelEstimate {
 export type BandScores = Readonly<Partial<Record<Level, { correct: number; total: number }>>>;
 
 /** Placement asks the bands in this order, easiest first. */
-export const PLACEMENT_BANDS: readonly Level[] = ['A1', 'A1+', 'A2', 'A2+', 'B1'];
+export const PLACEMENT_BANDS: readonly Level[] = ['A1', 'A1+', 'A2', 'A2+', 'B1', 'B2'];
 
 const rateOf = (scores: BandScores, l: Level, missing: number): number => {
   const b = scores[l];
@@ -84,6 +86,7 @@ const rateOf = (scores: BandScores, l: Level, missing: number): number => {
 function levelFromRates(rate: (l: Level) => number): Level {
   if (rate('A1') < 0.6) return 'A1';
   if (rate('A1+') < 0.6) return 'A1+';
+  if (rate('A2') >= 0.75 && rate('A2+') >= 0.7 && rate('B1') >= 0.7 && rate('B2') >= 0.6) return 'B2';
   if (rate('A2') >= 0.75 && rate('A2+') >= 0.7 && rate('B1') >= 0.6) return 'B1';
   if (rate('A2') >= 0.75 && rate('A2+') >= 0.5) return 'A2+';
   return 'A2';

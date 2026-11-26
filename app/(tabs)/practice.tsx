@@ -10,9 +10,11 @@ import type { SkillItemSummary } from '../../data/content-repo';
 import { TCF_SKILLS, testMinutes } from '../../domain/tcf/exam-format';
 import { useApp } from '../../features/app/AppContext';
 import { useLoad } from '../../features/app/useLoad';
-import { loadPath } from '../../features/path/path-service';
+import { dailyLearner, loadPath } from '../../features/path/path-service';
 import { levelOverview } from '../../features/progress/stats-service';
 import { masteredIds } from '../../features/session/session-service';
+import { trainerOverview } from '../../features/conjugation/trainer-service';
+import { verbOfDay } from '../../domain/verb-of-day';
 
 type Filter = 'all' | SkillItemSummary['kind'] | 'saved';
 
@@ -33,26 +35,28 @@ function minutes(words: number): string {
 const MOCK_MINUTES = TCF_SKILLS.reduce((n, s) => n + testMinutes(s), 0);
 
 export default function PracticeScreen() {
-  const { content, progress, settings } = useApp();
+  const { db, content, progress, settings, today } = useApp();
   const [filter, setFilter] = useState<Filter>('all');
   const { data, error, reload } = useLoad(
     'practice',
     async () => {
       const mastered = await masteredIds(progress);
       const path = await loadPath(content, progress, settings.placementLevel, mastered);
-      const [items, done, level, listening, mocks] = await Promise.all([
+      const [items, done, level, listening, mocks, trainer] = await Promise.all([
         content.skillItems(),
         progress.skillProgress(),
         levelOverview(progress, path, settings.placementLevel, mastered.size),
         content.listKind('listening'),
         content.listKind('mock'),
+        trainerOverview({ db }, Date.now()),
       ]);
       const words = new Map(listening.map((l) => [l.id, l.lines.reduce((n, line) => n + line.fr.split(/\s+/).length, 0)]));
       const open = new Set(path.units.filter((u) => u.status !== 'locked').map((u) => u.id));
       const themes = new Map(path.units.map((u) => [u.id, u.theme]));
-      return { items, done, level, words, open, themes, mocks };
+      const verb = verbOfDay(today, dailyLearner(path).level);
+      return { items, done, level, words, open, themes, mocks, trainer, verb };
     },
-    [settings.placementLevel],
+    [settings.placementLevel, today],
   );
   if (error) return <ErrorState message={error} onRetry={reload} />;
   if (!data) return <Loading />;
@@ -115,6 +119,25 @@ export default function PracticeScreen() {
           <ListRow skill="structures" category="Mistakes notebook" title="Review your mistakes" icon="repeat" onPress={() => router.push('/mistakes')} />
           <ListRow skill="speaking" category="Speaking task 2" title="Asking questions drill" icon="help-circle" onPress={() => router.push('/questions')} testID="practice-questions" />
           <ListRow skill="listening" category="Listening" title="Dictation" icon="edit-3" onPress={() => router.push('/dictation')} testID="practice-dictation" />
+          <SectionTitle title="Conjugation" />
+          <ListRow
+            skill="structures"
+            category="Conjugation trainer · 10 forms a round"
+            title={data.trainer.due > 0 ? `${data.trainer.due} form${data.trainer.due === 1 ? '' : 's'} to review` : 'Practise your verbs'}
+            right={data.trainer.due > 0 ? 'Due' : undefined}
+            icon="zap"
+            onPress={() => router.push('/verb-trainer')}
+            testID="practice-trainer"
+          />
+          <ListRow
+            skill="structures"
+            category="Verbe du jour"
+            title={`Practise ${data.verb.infinitive} in every tense`}
+            right={data.verb.en}
+            icon="sun"
+            onPress={() => router.push({ pathname: '/verb-trainer', params: { verb: data.verb.infinitive } })}
+            testID="practice-verb-of-day"
+          />
           <ListRow skill="structures" category="Reference" title="Conjugation tables" icon="grid" onPress={() => router.push('/conjugation')} testID="practice-conjugation" />
         </>
       ) : null}

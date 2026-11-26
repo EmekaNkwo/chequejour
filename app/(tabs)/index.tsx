@@ -187,14 +187,14 @@ function Home({ data }: { data: HomeData }) {
         </Card>
       ) : null}
 
-      <Card onPress={() => router.push('/level')} accessibilityLabel={`Estimated level ${level.estimate.label}, practice estimate, ${Math.round(level.estimate.value * 100)} percent of the way from A1 to B1.`}>
+      <Card onPress={() => router.push('/level')} accessibilityLabel={`Estimated level ${level.estimate.label}, practice estimate, ${Math.round(level.estimate.value * 100)} percent of the way from A1 to B2.`}>
         <AppText variant="cardTitle">Your level</AppText>
         <Row style={[styles.between, styles.mt]}>
-          <AppText variant="bodyStrong">A2</AppText>
+          <AppText variant="bodyStrong">A1</AppText>
           <View style={styles.flex}>
             <ProgressBar value={level.estimate.value} />
           </View>
-          <AppText variant="bodyStrong">B1</AppText>
+          <AppText variant="bodyStrong">B2</AppText>
         </Row>
         <AppText variant="meta" tone="muted" style={styles.mt}>
           {`Estimated: ${level.estimate.label} — a practice estimate, not an official TCF result.`}

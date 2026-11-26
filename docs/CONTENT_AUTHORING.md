@@ -33,7 +33,7 @@ new ids instead.
 
 | Item | Pattern | Example |
 | --- | --- | --- |
-| Unit | `uNN` (A2–B1) or `aNN` (A1/A1+) | `u07`, `a03` |
+| Unit | `uNN` (A2–B1), `aNN` (A1/A1+) or `bNN` (B2) | `u07`, `a03`, `b02` |
 | Word | `uNN-wNNN` | `u07-w014` |
 | Grammar lesson | `uNN-gNN` | `u07-g01` |
 | Exercise | `uNN-exNN` | `u07-ex12` |
@@ -48,7 +48,7 @@ new ids instead.
 
 ## Levels
 
-Every item carries `level`: `"A1"`, `"A1+"`, `"A2"`, `"A2+"` or `"B1"`. Tag the item, not just the unit:
+Every item carries `level`: `"A1"`, `"A1+"`, `"A2"`, `"A2+"`, `"B1"` or `"B2"`. Tag the item, not just the unit:
 a B1 unit can contain an A2+ warm-up exercise.
 
 ## Words (`vocab`)
@@ -139,7 +139,7 @@ of view). Give `prepSeconds`, `speakSeconds`, a `modelAnswer` and `tips`.
 
 ## Curriculum map
 
-Units are shown by `order`: a01–a06 are 1–6 and u01–u18 are 7–24. A new unit gets a new
+Units are shown by `order`: a01–a06 are 1–6, u01–u18 are 7–24 and b01–b06 are 25–30. A new unit gets a new
 id and an `order`; never renumber ids to make room.
 
 | Unit | Level | Theme | Grammar focus |
@@ -168,3 +168,9 @@ id and an `order`; never renumber ids to make room.
 | u16 | B1 | Plans and ambitions | Subjonctif after emotion and doubt; pour que / afin de |
 | u17 | B1 | Culture and society | The relative pronoun dont; ce qui / ce que |
 | u18 | B1 | Job applications and interviews | Advanced negation (personne, aucun, ne… que); y and en together |
+| b01 | B2 | Work and the economy | Plus-que-parfait and reported speech in the past; gérondif and participe présent |
+| b02 | B2 | Science and technology | The passive voice; nominalisation |
+| b03 | B2 | Health and society | Subjonctif passé; concession (bien que, même si, malgré, avoir beau) |
+| b04 | B2 | Settling in Canada | Hypotheses (si + plus-que-parfait → conditionnel passé); futur antérieur |
+| b05 | B2 | Rights and citizenship | Compound relatives (lequel, auquel, duquel); cause and consequence |
+| b06 | B2 | Sustainable cities and mobility | Emphasis (c'est… qui/que, ce qui… c'est); connectors for arguments |

@@ -18,22 +18,41 @@ export interface NotificationToggle {
 export interface NotificationSettings {
   word: NotificationToggle;
   sentence: NotificationToggle;
+  verb: NotificationToggle;
 }
+
+export type DailyNotificationKind = keyof NotificationSettings;
 
 export const DEFAULT_NOTIFICATION_SETTINGS: NotificationSettings = {
   word: { enabled: true, time: { hour: 8, minute: 0 } },
   sentence: { enabled: true, time: { hour: 18, minute: 0 } },
+  verb: { enabled: true, time: { hour: 12, minute: 0 } },
 };
 
+export interface NotificationText {
+  title: string;
+  body: string;
+}
+
 export interface NotificationTexts {
-  word: (wordId: string) => { title: string; body: string } | null;
-  sentence: (sentenceId: string) => { title: string; body: string } | null;
+  word: (wordId: string) => NotificationText | null;
+  sentence: (sentenceId: string) => NotificationText | null;
+  /** The verb isn't stored per day; it is derived from the day and the learner's level. */
+  verb: (day: DayKey) => NotificationText | null;
+}
+
+const DAILY_KINDS: readonly DailyNotificationKind[] = ['word', 'sentence', 'verb'];
+
+function textFor(kind: DailyNotificationKind, a: DailyAssignment, texts: NotificationTexts): NotificationText | null {
+  if (kind === 'word') return texts.word(a.wordId);
+  if (kind === 'sentence') return texts.sentence(a.sentenceId);
+  return texts.verb(a.day);
 }
 
 export interface PlannedNotification {
   /** Stable identifier, e.g. "word-2026-10-25". */
   id: string;
-  kind: 'word' | 'sentence' | 'reminder' | 'backup';
+  kind: DailyNotificationKind | 'reminder' | 'backup';
   day: DayKey;
   fireAt: Date;
   title: string;
@@ -54,12 +73,12 @@ export function planNotifications(
 ): PlannedNotification[] {
   const planned: PlannedNotification[] = [];
   for (const a of assignments) {
-    for (const kind of ['word', 'sentence'] as const) {
+    for (const kind of DAILY_KINDS) {
       const toggle = settings[kind];
       if (!toggle.enabled) continue;
       const fireAt = atTime(a.day, toggle.time);
       if (fireAt.getTime() <= now.getTime()) continue;
-      const text = kind === 'word' ? texts.word(a.wordId) : texts.sentence(a.sentenceId);
+      const text = textFor(kind, a, texts);
       if (!text) continue;
       planned.push({
         id: `${kind}-${a.day}`,

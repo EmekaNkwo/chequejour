@@ -78,9 +78,9 @@ export type UnitStatus = 'locked' | 'available' | 'completed';
 
 /**
  * Placement can open the path further along; earlier units stay available. Values are
- * unit orders: the A1 units are 1–6 and the original A2–B1 units 7–24.
+ * unit orders: the A1 units are 1–6, the original A2–B1 units 7–24 and the B2 units 25–30.
  */
-export const PLACEMENT_START_UNIT: Readonly<Record<Level, number>> = { A1: 1, 'A1+': 4, A2: 7, 'A2+': 12, B1: 17 };
+export const PLACEMENT_START_UNIT: Readonly<Record<Level, number>> = { A1: 1, 'A1+': 4, A2: 7, 'A2+': 12, B1: 17, B2: 25 };
 
 /** No placement stored means the learner predates the A1 units, which started them at A2. */
 export const NO_PLACEMENT: Level = 'A2';

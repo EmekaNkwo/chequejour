@@ -1,5 +1,5 @@
 {
-  "version": 2,
+  "version": 3,
   "questions": [
     {
       "id": "pl01",
@@ -720,6 +720,150 @@
       ],
       "answer": 0,
       "explanation": "« L'après-midi, je vais aller à la piscine avec mon frère » means in the afternoon they will go to the pool. The shopping is in the morning, and they do not work tomorrow."
+    },
+    {
+      "id": "pl41",
+      "type": "mcq",
+      "band": "B2",
+      "level": "B2",
+      "skill": "structures",
+      "grammarTag": "hypothese",
+      "prompt": "Choose the correct verb form.",
+      "promptFr": "Si nous étions partis plus tôt, nous ___ le train.",
+      "options": [
+        "aurions pris",
+        "prendrions",
+        "avions pris",
+        "aurons pris"
+      ],
+      "answer": 0,
+      "explanation": "Si + plus-que-parfait (« si nous étions partis ») describes an unreal past; the result is in the conditionnel passé: « nous aurions pris »."
+    },
+    {
+      "id": "pl42",
+      "type": "mcq",
+      "band": "B2",
+      "level": "B2",
+      "skill": "structures",
+      "grammarTag": "concession",
+      "prompt": "Choose the correct verb form.",
+      "promptFr": "Bien qu'il ___ beaucoup d'expérience, il n'a pas obtenu le poste.",
+      "options": [
+        "a",
+        "ait",
+        "avait",
+        "aura"
+      ],
+      "answer": 1,
+      "explanation": "« Bien que » (although) is always followed by the subjunctive: « bien qu'il ait »."
+    },
+    {
+      "id": "pl43",
+      "type": "mcq",
+      "band": "B2",
+      "level": "B2",
+      "skill": "structures",
+      "grammarTag": "relatifs-composes",
+      "prompt": "Choose the correct relative pronoun.",
+      "promptFr": "C'est un projet ___ je tiens beaucoup.",
+      "options": [
+        "dont",
+        "lequel",
+        "auquel",
+        "duquel"
+      ],
+      "answer": 2,
+      "explanation": "The verb is « tenir à quelque chose ». À + lequel contracts to « auquel » (masculine singular, like projet)."
+    },
+    {
+      "id": "pl44",
+      "type": "mcq",
+      "band": "B2",
+      "level": "B2",
+      "skill": "structures",
+      "grammarTag": "passif",
+      "prompt": "Choose the sentence with the same meaning: « Le maire a inauguré la nouvelle bibliothèque. »",
+      "promptFr": "La nouvelle bibliothèque ___ par le maire.",
+      "options": [
+        "a inauguré",
+        "est inaugurée",
+        "a été inaugurée",
+        "était inaugurant"
+      ],
+      "answer": 2,
+      "explanation": "In the passive, the tense is carried by être: the active passé composé « a inauguré » becomes « a été inaugurée », agreeing with bibliothèque."
+    },
+    {
+      "id": "pl45",
+      "type": "mcq",
+      "band": "B2",
+      "level": "B2",
+      "skill": "structures",
+      "grammarTag": "subjonctif-passe",
+      "prompt": "Choose the correct verb form.",
+      "promptFr": "Je suis content que vous ___ venir hier soir.",
+      "options": [
+        "pouvez",
+        "ayez pu",
+        "pourriez",
+        "avez pu"
+      ],
+      "answer": 1,
+      "explanation": "« Être content que » needs the subjunctive; the action is finished (hier soir), so we use the subjonctif passé: « que vous ayez pu »."
+    },
+    {
+      "id": "pl46",
+      "type": "mcq",
+      "band": "B2",
+      "level": "B2",
+      "skill": "structures",
+      "grammarTag": "cause-consequence",
+      "prompt": "Choose the connector that makes sense.",
+      "promptFr": "Les loyers ont fortement augmenté, ___ beaucoup de familles quittent le centre-ville.",
+      "options": [
+        "bien que",
+        "si bien que",
+        "pour que",
+        "à moins que"
+      ],
+      "answer": 1,
+      "explanation": "« Si bien que » introduces a consequence and is followed by the indicative. « Bien que », « pour que » and « à moins que » express concession, purpose and condition."
+    },
+    {
+      "id": "pl47",
+      "type": "mcq",
+      "band": "B2",
+      "level": "B2",
+      "skill": "structures",
+      "grammarTag": "vocabulary",
+      "prompt": "Choose the word with the right meaning: the government decided to cancel the decision.",
+      "promptFr": "Le gouvernement a décidé d'___ cette mesure jugée injuste.",
+      "options": [
+        "abroger",
+        "aborder",
+        "abriter",
+        "aboutir"
+      ],
+      "answer": 0,
+      "explanation": "« Abroger » means to repeal or cancel (a law or measure). « Aborder » means to tackle a subject, « abriter » to shelter and « aboutir » to lead to a result."
+    },
+    {
+      "id": "pl48",
+      "type": "mcq",
+      "band": "B2",
+      "level": "B2",
+      "skill": "reading",
+      "grammarTag": "connecteurs",
+      "prompt": "Read the text. What is the author's position?",
+      "promptFr": "Certes, le télétravail permet de réduire les déplacements et la pollution. Il serait toutefois naïf de croire qu'il ne présente que des avantages : l'isolement de certains salariés et l'effacement de la frontière entre vie privée et vie professionnelle constituent des risques réels, que les entreprises auraient tort d'ignorer.",
+      "options": [
+        "Remote work has only advantages for companies.",
+        "Remote work has benefits, but its risks must be taken seriously.",
+        "Remote work should be banned because of isolation.",
+        "Remote work mainly reduces pollution."
+      ],
+      "answer": 1,
+      "explanation": "« Certes … toutefois » concedes a point and then qualifies it: the author accepts the benefits but warns that the risks are real and should not be ignored."
     }
   ]
 }

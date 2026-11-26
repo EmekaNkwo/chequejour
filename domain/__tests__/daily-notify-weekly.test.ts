@@ -99,11 +99,13 @@ describe('notification plan', () => {
   const texts = {
     word: (id: string) => ({ title: 'Word of the Day', body: id }),
     sentence: (id: string) => ({ title: 'Sentence of the Day', body: id }),
+    verb: (day: string) => ({ title: 'Verb of the Day', body: day }),
   };
-  it('schedules two notifications a day at the chosen times, skipping the past', () => {
+  it('schedules three notifications a day at the chosen times, skipping the past', () => {
     const now = new Date(2026, 9, 25, 12, 0);
     const plan = planNotifications(DEFAULT_NOTIFICATION_SETTINGS, assignments, texts, now);
-    expect(plan).toHaveLength(27);
+    // Day one: 08:00 and 12:00 have passed, so only the sentence is left; then 3 a day.
+    expect(plan).toHaveLength(1 + 13 * 3);
     expect(plan[0].id).toBe('sentence-2026-10-25');
     expect(plan[0].fireAt.getHours()).toBe(18);
     expect(plan[1].fireAt.getHours()).toBe(8);
@@ -111,7 +113,7 @@ describe('notification plan', () => {
     expect(new Set(plan.map((p) => p.id)).size).toBe(plan.length);
   });
   it('respects toggles and custom times', () => {
-    const settings = { word: { enabled: false, time: { hour: 8, minute: 0 } }, sentence: { enabled: true, time: { hour: 7, minute: 30 } } };
+    const settings = { word: { enabled: false, time: { hour: 8, minute: 0 } }, sentence: { enabled: true, time: { hour: 7, minute: 30 } }, verb: { enabled: false, time: { hour: 12, minute: 0 } } };
     const plan = planNotifications(settings, assignments, texts, new Date(2026, 9, 25, 6, 0));
     expect(plan).toHaveLength(14);
     expect(plan.every((p) => p.kind === 'sentence' && p.fireAt.getMinutes() === 30)).toBe(true);
@@ -120,6 +122,17 @@ describe('notification plan', () => {
     const plan = planNotifications(DEFAULT_NOTIFICATION_SETTINGS, assignments, texts, new Date(2026, 9, 25, 0, 0));
     const bodies = plan.filter((p) => p.kind === 'word').map((p) => p.body);
     expect(new Set(bodies).size).toBe(14);
+  });
+  it('schedules the verb of the day at its own time, linking to that day’s verb screen', () => {
+    const settings = { ...DEFAULT_NOTIFICATION_SETTINGS, verb: { enabled: true, time: { hour: 13, minute: 15 } } };
+    const plan = planNotifications(settings, assignments, texts, new Date(2026, 9, 25, 0, 0)).filter((p) => p.kind === 'verb');
+    expect(plan).toHaveLength(14);
+    expect(plan[0]).toMatchObject({ id: 'verb-2026-10-25', day: '2026-10-25', title: 'Verb of the Day', body: '2026-10-25', url: '/daily/verb?day=2026-10-25' });
+    expect(plan.every((p) => p.fireAt.getHours() === 13 && p.fireAt.getMinutes() === 15)).toBe(true);
+  });
+  it('skips a day whose verb has no text', () => {
+    const plan = planNotifications(DEFAULT_NOTIFICATION_SETTINGS, assignments, { ...texts, verb: () => null }, new Date(2026, 9, 25, 0, 0));
+    expect(plan.some((p) => p.kind === 'verb')).toBe(false);
   });
   it('after a time-zone change the same local times are produced', () => {
     const plan = planNotifications(DEFAULT_NOTIFICATION_SETTINGS, assignments, texts, new Date(2026, 9, 25, 0, 0));

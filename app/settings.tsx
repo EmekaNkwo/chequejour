@@ -16,7 +16,7 @@ import { AUDIO_CLIPS } from '../content/build/audio-manifest';
 import { resetProgress } from '../data/backup';
 import type { Settings, ThemePreference } from '../data/settings-repo';
 import { lastBackupLabel, type BackupInterval } from '../domain/backup-reminder';
-import type { NotificationToggle } from '../domain/notification-plan';
+import type { DailyNotificationKind, NotificationToggle } from '../domain/notification-plan';
 import type { DailyGoal } from '../domain/session';
 import { useApp } from '../features/app/AppContext';
 import { logError } from '../features/app/log';
@@ -51,7 +51,7 @@ const THEMES: readonly { value: ThemePreference; label: string }[] = [
 
 const PERMISSION_TEXT = {
   granted: 'Notifications are allowed.',
-  denied: 'Notifications are blocked. Allow them in your phone settings to get the word and sentence of the day.',
+  denied: 'Notifications are blocked. Allow them in your phone settings to get the word, sentence and verb of the day.',
   undetermined: 'Notifications are not allowed yet.',
 } as const;
 
@@ -93,7 +93,7 @@ export default function SettingsScreen() {
     });
   };
 
-  const setToggle = (kind: 'word' | 'sentence', next: Partial<NotificationToggle>) =>
+  const setToggle = (kind: DailyNotificationKind, next: Partial<NotificationToggle>) =>
     save('notifications', { ...settings.notifications, [kind]: { ...settings.notifications[kind], ...next } });
 
   const askPermission = async () => {
@@ -209,6 +209,8 @@ export default function SettingsScreen() {
           <TimePickerRow label="Word time" value={n.word.time} onChange={(t) => setToggle('word', { time: t })} disabled={!n.word.enabled} testID="time-word" />
           <SwitchRow label="Sentence of the Day" value={n.sentence.enabled} onChange={(v) => setToggle('sentence', { enabled: v })} testID="toggle-sentence" />
           <TimePickerRow label="Sentence time" value={n.sentence.time} onChange={(t) => setToggle('sentence', { time: t })} disabled={!n.sentence.enabled} testID="time-sentence" />
+          <SwitchRow label="Verb of the Day" value={n.verb.enabled} onChange={(v) => setToggle('verb', { enabled: v })} testID="toggle-verb" />
+          <TimePickerRow label="Verb time" value={n.verb.time} onChange={(t) => setToggle('verb', { time: t })} disabled={!n.verb.enabled} testID="time-verb" />
           <SwitchRow
             label="Remind me when I miss a day"
             description="After 1, 2, 4, 7 and 12 days without practice, then weekly. Never on days you study."

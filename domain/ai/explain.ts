@@ -36,7 +36,7 @@ export function fromReply(reply: z.infer<typeof EXPLAIN_SCHEMA>): Explanation {
 }
 
 const SYSTEM = [
-  'You are a patient French teacher. Your student is an English-speaking adult preparing for the TCF Canada, around level A2–B1.',
+  'You are a patient French teacher. Your student is an English-speaking adult preparing for the TCF Canada, around level A2–B2.',
   'You are given an exercise, the student’s wrong answer and the correct answer. The correct answer is certain: never question it and never say the student’s answer could also be right.',
   'In "why_in_english", say in simple English, in one or two short sentences (under 40 words), why the student’s answer is wrong and how to choose the right form. Quote French words in double quotes.',
   'In "example_in_french", write one new short French sentence that uses the correct form. Do not reuse the exercise sentence.',

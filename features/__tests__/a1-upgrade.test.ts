@@ -40,8 +40,10 @@ async function oldInstall() {
 
 describe('upgrading to the A1 course', () => {
   it('has six A1 units before the original ones, which keep their ids', () => {
-    expect(realBundle.units.map((u) => u.id)).toEqual([...['a01', 'a02', 'a03', 'a04', 'a05', 'a06'], ...beforeA1.units.map((u) => u.id)]);
-    expect(realBundle.units.map((u) => u.order)).toEqual(Array.from({ length: 24 }, (_, i) => i + 1));
+    const b2 = ['b01', 'b02', 'b03', 'b04', 'b05', 'b06'];
+    expect(realBundle.units.map((u) => u.id)).toEqual([...['a01', 'a02', 'a03', 'a04', 'a05', 'a06'], ...beforeA1.units.map((u) => u.id), ...b2]);
+    expect(realBundle.units.map((u) => u.order)).toEqual(Array.from({ length: 30 }, (_, i) => i + 1));
+    expect(realBundle.units.slice(24).every((u) => u.level === 'B2')).toBe(true);
     expect(realBundle.units.slice(0, 6).map((u) => u.level)).toEqual(['A1', 'A1', 'A1', 'A1+', 'A1+', 'A1+']);
     const a1Words = realBundle.units.slice(0, 6).reduce((n, u) => n + u.vocab.length, 0);
     expect(a1Words).toBeGreaterThanOrEqual(380);

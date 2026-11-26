@@ -38,6 +38,7 @@ const APP_SCREENS = [
   'drill/[unitId]',
   'mistakes',
   'conjugation',
+  'verb-trainer',
   'shadow',
   'questions',
   'dictation',

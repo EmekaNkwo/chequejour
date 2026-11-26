@@ -26,7 +26,7 @@ const TENSE_LEVEL: Readonly<Record<Tense, Level>> = {
   'subjonctif présent': 'B1',
 };
 
-const TENSE_TAG: Readonly<Record<Tense, GrammarTag>> = {
+export const TENSE_TAG: Readonly<Record<Tense, GrammarTag>> = {
   présent: 'present',
   'passé composé': 'passe-compose',
   imparfait: 'imparfait',
@@ -76,15 +76,11 @@ export interface QuizPick {
   person: number;
 }
 
-/** One form to type, picked from the day so it stays the same when the screen reopens. */
-export function verbQuiz(verb: VerbSpec, day: DayKey, level: Level, pick?: QuizPick): ConjugationExercise {
-  const tenses = quizTenses(level);
-  const seed = hashSeed(`${day}:${verb.infinitive}`);
-  const tense = pick?.tense ?? tenses[seed % tenses.length];
-  const person = pick?.person ?? Math.floor(seed / tenses.length) % PERSONS.length;
+/** "Type the form" exercise for one verb, tense and person. */
+export function conjugationExercise(verb: VerbSpec, { tense, person }: QuizPick, id: string): ConjugationExercise {
   const form = conjugate(verb, tense)[person];
   return {
-    id: `daily-verb-${verb.infinitive}-${day}`,
+    id,
     type: 'conjugation',
     level: verb.level,
     skill: 'structures',
@@ -95,4 +91,13 @@ export function verbQuiz(verb: VerbSpec, day: DayKey, level: Level, pick?: QuizP
     answers: acceptedForms(form),
     explanation: `${verb.infinitive} (${verb.en}), ${tense}: ${withPronoun(form, person, tense)}`,
   };
+}
+
+/** One form to type, picked from the day so it stays the same when the screen reopens. */
+export function verbQuiz(verb: VerbSpec, day: DayKey, level: Level, pick?: QuizPick): ConjugationExercise {
+  const tenses = quizTenses(level);
+  const seed = hashSeed(`${day}:${verb.infinitive}`);
+  const tense = pick?.tense ?? tenses[seed % tenses.length];
+  const person = pick?.person ?? Math.floor(seed / tenses.length) % PERSONS.length;
+  return conjugationExercise(verb, { tense, person }, `daily-verb-${verb.infinitive}-${day}`);
 }

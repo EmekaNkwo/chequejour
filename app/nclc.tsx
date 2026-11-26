@@ -80,11 +80,11 @@ export default function NclcInfoScreen() {
           <Row key={t.nclc} style={[styles.tableRow, { borderColor: colors.border }]}>
             <AppText variant="bodyStrong" style={styles.col}>{t.nclc < LOWEST_TABLE_NCLC ? `NCLC ${t.nclc} (below the table)` : `NCLC ${t.nclc}`}</AppText>
             <AppText variant="meta" tone="muted" style={styles.col}>{`from ${Math.round(t.minScore * 100)}%`}</AppText>
-            <AppText variant="meta" tone="muted" style={styles.col}>{t.nclc >= 7 ? '≈ B2' : `≈ ${cefrForNclc(t.nclc)}`}</AppText>
+            <AppText variant="meta" tone="muted" style={styles.col}>{`≈ ${cefrForNclc(t.nclc)}`}</AppText>
           </Row>
         ))}
         <AppText variant="meta" tone="muted" style={styles.mt}>
-          This course goes from A1 to B1, so practice alone can show about NCLC 6. IRCC&apos;s table starts at NCLC 4, so lower estimates show as &ldquo;below NCLC 4&rdquo;. NCLC 7 and 8 are usually placed around B2; the mock tests include a few harder questions, which is how an estimate of NCLC 7 or 8 can appear.
+          This course goes from A1 to B2: strong B1 practice shows about NCLC 6 and strong B2 practice about NCLC 7. IRCC&apos;s table starts at NCLC 4, so lower estimates show as &ldquo;below NCLC 4&rdquo;. NCLC 8 needs consistently strong B2 results, which the mock tests can show.
         </AppText>
       </Card>
     </Screen>

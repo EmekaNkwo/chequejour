@@ -27,10 +27,11 @@ export const PROGRESS_TABLES = [
   'writing_drafts',
   'mock_results',
   'writing_submissions',
+  'conj_cards',
 ] as const;
 
 /** Tables added after the first release: older backups don't have them, so they restore empty. */
-const ADDED_LATER: ReadonlySet<string> = new Set(['writing_submissions']);
+const ADDED_LATER: ReadonlySet<string> = new Set(['writing_submissions', 'conj_cards']);
 
 type ProgressTable = (typeof PROGRESS_TABLES)[number];
 

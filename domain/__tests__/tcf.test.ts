@@ -54,7 +54,7 @@ describe('NCLC estimate', () => {
     expect(nclcForScore(0.72)).toBe(6);
     expect(nclcForScore(0.8)).toBe(7);
     expect(nclcForScore(0.95)).toBe(8);
-    expect([cefrForNclc(1), cefrForNclc(2), cefrForNclc(3), cefrForNclc(4), cefrForNclc(5), cefrForNclc(7)]).toEqual(['A1', 'A1', 'A1+', 'A2', 'A2+', 'B1']);
+    expect([cefrForNclc(1), cefrForNclc(2), cefrForNclc(3), cefrForNclc(4), cefrForNclc(5), cefrForNclc(6), cefrForNclc(7), cefrForNclc(8)]).toEqual(['A1', 'A1', 'A1+', 'A2', 'A2+', 'B1', 'B2', 'B2']);
   });
 
   it('labels scores under the IRCC table as below NCLC 4', () => {

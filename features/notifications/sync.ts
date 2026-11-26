@@ -6,10 +6,13 @@
 import type { ContentRepository } from '../../data/content-repo';
 import type { ProgressRepository } from '../../data/progress-repo';
 import { headword } from '../../domain/audio-keys';
+import type { Level } from '../../domain/content-types';
 import type { DayKey } from '../../domain/dates';
 import { horizonDays, planNotifications, type NotificationSettings, type NotificationTexts, type NotificationToggle, type PlannedNotification } from '../../domain/notification-plan';
 import { planBackupNotification, type BackupReminderSettings } from '../../domain/backup-reminder';
 import { planReminders, REMINDER_HORIZON_DAYS } from '../../domain/reminder-plan';
+import type { VerbSpec } from '../../domain/exercises/conjugation-tables';
+import { conjugationTable, verbOfDay } from '../../domain/verb-of-day';
 import { ensureDailyItems, type DailyLearner } from '../daily/daily-service';
 
 export interface NotificationsApi {
@@ -21,7 +24,13 @@ export interface NotificationsApi {
 
 const truncate = (s: string, max: number): string => (s.length > max ? `${s.slice(0, max - 1)}…` : s);
 
-export async function notificationTexts(content: ContentRepository, ids: { words: string[]; sentences: string[] }): Promise<NotificationTexts> {
+/** « to take — je prends, nous prenons · j'ai pris »: meaning, two present forms and the passé composé. */
+export function verbNotificationText(verb: VerbSpec): { title: string; body: string } {
+  const [present, passeCompose] = conjugationTable(verb);
+  return { title: `Verbe du jour · ${verb.infinitive}`, body: `${verb.en} — ${present.forms[0]}, ${present.forms[3]} · ${passeCompose.forms[0]}` };
+}
+
+export async function notificationTexts(content: ContentRepository, ids: { words: string[]; sentences: string[] }, level: Level): Promise<NotificationTexts> {
   const [words, sentences] = await Promise.all([content.items('word', ids.words), content.items('sentence', ids.sentences)]);
   const wordById = new Map(words.map((w) => [w.id, w]));
   const sentenceById = new Map(sentences.map((s) => [s.id, s]));
@@ -34,6 +43,7 @@ export async function notificationTexts(content: ContentRepository, ids: { words
       const s = sentenceById.get(id);
       return s ? { title: 'Phrase du jour', body: truncate(s.fr, 160) } : null;
     },
+    verb: (day) => verbNotificationText(verbOfDay(day, level)),
   };
 }
 
@@ -81,11 +91,11 @@ export async function syncNotifications(
 }
 
 async function dailyPlan(deps: { content: ContentRepository; progress: ProgressRepository; settings: NotificationSettings; today: DayKey; learner: DailyLearner; now: Date }): Promise<PlannedNotification[]> {
-  if (!deps.settings.word.enabled && !deps.settings.sentence.enabled) return [];
+  if (!deps.settings.word.enabled && !deps.settings.sentence.enabled && !deps.settings.verb.enabled) return [];
   const assignments = await ensureDailyItems(deps.content, deps.progress, deps.today, deps.learner);
   const texts = await notificationTexts(deps.content, {
     words: assignments.map((a) => a.wordId),
     sentences: assignments.map((a) => a.sentenceId),
-  });
+  }, deps.learner.level);
   return planNotifications(deps.settings, assignments, texts, deps.now);
 }

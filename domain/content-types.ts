@@ -4,9 +4,9 @@
  * See docs/CONTENT_AUTHORING.md for the authoring rules.
  */
 
-export type Level = 'A1' | 'A1+' | 'A2' | 'A2+' | 'B1';
+export type Level = 'A1' | 'A1+' | 'A2' | 'A2+' | 'B1' | 'B2';
 
-export const LEVELS: readonly Level[] = ['A1', 'A1+', 'A2', 'A2+', 'B1'];
+export const LEVELS: readonly Level[] = ['A1', 'A1+', 'A2', 'A2+', 'B1', 'B2'];
 
 export type Skill = 'listening' | 'reading' | 'structures' | 'writing' | 'speaking';
 
@@ -54,6 +54,17 @@ export type GrammarTag =
   | 'possessifs'
   | 'il-y-a'
   | 'pronominaux'
+  | 'plus-que-parfait'
+  | 'gerondif'
+  | 'passif'
+  | 'nominalisation'
+  | 'subjonctif-passe'
+  | 'concession'
+  | 'hypothese'
+  | 'futur-anterieur'
+  | 'relatifs-composes'
+  | 'cause-consequence'
+  | 'mise-en-relief'
   | 'vocabulary';
 
 export const GRAMMAR_TAGS: readonly GrammarTag[] = [
@@ -84,6 +95,17 @@ export const GRAMMAR_TAGS: readonly GrammarTag[] = [
   'possessifs',
   'il-y-a',
   'pronominaux',
+  'plus-que-parfait',
+  'gerondif',
+  'passif',
+  'nominalisation',
+  'subjonctif-passe',
+  'concession',
+  'hypothese',
+  'futur-anterieur',
+  'relatifs-composes',
+  'cause-consequence',
+  'mise-en-relief',
   'vocabulary',
 ];
 
@@ -115,6 +137,17 @@ export const GRAMMAR_TAG_LABELS: Readonly<Record<GrammarTag, string>> = {
   possessifs: 'Possessive adjectives',
   'il-y-a': 'Il y a',
   pronominaux: 'Reflexive verbs',
+  'plus-que-parfait': 'Plus-que-parfait',
+  'gerondif': 'Gérondif and participe présent',
+  'passif': 'Passive voice',
+  'nominalisation': 'Nominalisation',
+  'subjonctif-passe': 'Subjonctif passé',
+  'concession': 'Concession: bien que, malgré, même si',
+  'hypothese': 'Hypotheses: si + plus-que-parfait, conditionnel passé',
+  'futur-anterieur': 'Futur antérieur',
+  'relatifs-composes': 'Relative pronouns lequel, auquel, duquel',
+  'cause-consequence': 'Cause and consequence',
+  'mise-en-relief': 'Emphasis: c\'est… qui, ce qui… c\'est',
   vocabulary: 'Vocabulary',
 };
 

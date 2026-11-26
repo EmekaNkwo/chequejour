@@ -37,9 +37,11 @@ export interface QuizRunnerProps {
   record?: boolean;
   /** Hide the explanation panel until the end (timed tests). */
   showFeedback?: boolean;
+  /** Called with every answer, e.g. to save it somewhere other than the attempt history. */
+  onAnswer?: (exercise: Exercise, outcome: CheckOutcome) => void;
 }
 
-export function QuizRunner({ title, exercises, context, unitId, onFinish, onClose, record = true, showFeedback = true }: QuizRunnerProps) {
+export function QuizRunner({ title, exercises, context, unitId, onFinish, onClose, record = true, showFeedback = true, onAnswer }: QuizRunnerProps) {
   const { colors } = useTheme();
   const insets = useSafeAreaInsets();
   const { progress } = useApp();
@@ -66,6 +68,7 @@ export function QuizRunner({ title, exercises, context, unitId, onFinish, onClos
   const handleAnswer = (outcome: CheckOutcome, userAnswer: string) => {
     const nextResults = [...results, { exerciseId: exercise.id, correct: outcome.result !== 'wrong' }];
     setResults(nextResults);
+    onAnswer?.(exercise, outcome);
     if (record) {
       recordExerciseResult(progress, { exercise, result: outcome.result, userAnswer, context, unitId, now: Date.now() }).catch((e: unknown) =>
         logError('record answer', e),

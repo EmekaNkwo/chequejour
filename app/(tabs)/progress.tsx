@@ -17,26 +17,29 @@ import { useLoad } from '../../features/app/useLoad';
 import { loadPath } from '../../features/path/path-service';
 import { levelOverview, skillBreakdown, streak, thisWeek } from '../../features/progress/stats-service';
 import { masteredIds } from '../../features/session/session-service';
+import { trainerOverview } from '../../features/conjugation/trainer-service';
+import { TenseAccuracy } from '../../components/progress/TenseAccuracy';
 
 
 const DAYS_PER_WEEK = 7;
 export default function ProgressScreen() {
-  const { content, progress, settings, today } = useApp();
+  const { db, content, progress, settings, today } = useApp();
   const { colors } = useTheme();
   const { data, error, reload } = useLoad(
     'progress',
     async () => {
       const mastered = await masteredIds(progress);
       const path = await loadPath(content, progress, settings.placementLevel, mastered);
-      const [skills, week, streakInfo, level, mistakes, active] = await Promise.all([
+      const [skills, week, streakInfo, level, mistakes, active, trainer] = await Promise.all([
         skillBreakdown(content, progress, path),
         thisWeek(progress, today),
         streak(progress, today),
         levelOverview(progress, path, settings.placementLevel, mastered.size),
         progress.mistakes(),
         progress.activeDays(),
+        trainerOverview({ db }, Date.now()),
       ]);
-      return { skills, week, streak: streakInfo, level, mistakes, active };
+      return { skills, week, streak: streakInfo, level, mistakes, active, trainer };
     },
     [settings.placementLevel, today],
   );
@@ -51,7 +54,7 @@ export default function ProgressScreen() {
       <ScreenHeader title="Progrès" actions={<IconButton icon="settings" label="Settings" onPress={() => router.push('/settings')} testID="open-settings" />} />
 
       <Card onPress={() => router.push('/level')} accessibilityLabel={`Estimated level ${level.estimate.label}. ${level.completedUnits} of ${level.totalUnits} units complete. ${level.mastered} items mastered.`}>
-        <AppText variant="cardTitle">A1 → B1</AppText>
+        <AppText variant="cardTitle">A1 → B2</AppText>
         <View style={styles.mt}>
           <ProgressBar value={level.estimate.value} height={12} />
         </View>
@@ -85,6 +88,9 @@ export default function ProgressScreen() {
           })}
         </View>
       </Card>
+
+      <SectionTitle title="Conjugation" />
+      <TenseAccuracy stats={data.trainer.stats} />
 
       <SectionTitle title="This week" action={<LinkText label="Details" onPress={() => router.push('/weekly')} />} />
       <Card onPress={() => router.push('/weekly')} accessibilityLabel={`This week: ${week.wordsLearned} words learned, ${week.minutes} minutes, accuracy ${week.accuracy === null ? 'not available' : `${Math.round(week.accuracy * 100)} percent`}.`}>

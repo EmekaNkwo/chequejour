@@ -6,7 +6,7 @@ import { normalize } from '../answers';
 import type { Exercise } from '../content-types';
 import { conjugate, findVerb, TENSES, type Tense } from './conjugation-tables';
 
-export const CONJUGATION_TENSES: readonly string[] = [...TENSES, 'futur proche', 'impératif', 'passé composé, negative'];
+export const CONJUGATION_TENSES: readonly string[] = [...TENSES, 'futur proche', 'impératif', 'passé composé, negative', 'plus-que-parfait', 'conditionnel passé', 'subjonctif passé', 'futur antérieur'];
 const PERSON_INDEX: Readonly<Record<string, number>> = { je: 0, tu: 1, il: 2, elle: 2, on: 2, nous: 3, vous: 4, ils: 5, elles: 5 };
 const SENTENCE_END = /[.!?…]["»)]?$/;
 

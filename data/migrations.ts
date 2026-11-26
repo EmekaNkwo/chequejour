@@ -158,6 +158,25 @@ export const MIGRATIONS: readonly string[] = [
   );
   CREATE INDEX IF NOT EXISTS idx_submissions_task ON writing_submissions (task_id, created_at);
   `,
+  // 3 — conjugation trainer: a review schedule per verb + tense + person
+  `
+  CREATE TABLE IF NOT EXISTS conj_cards (
+    item_id TEXT PRIMARY KEY NOT NULL,
+    due INTEGER NOT NULL,
+    stability REAL NOT NULL,
+    difficulty REAL NOT NULL,
+    scheduled_days INTEGER NOT NULL,
+    learning_steps INTEGER NOT NULL,
+    reps INTEGER NOT NULL,
+    lapses INTEGER NOT NULL,
+    state TEXT NOT NULL,
+    last_review INTEGER,
+    attempts INTEGER NOT NULL,
+    correct INTEGER NOT NULL,
+    created_at INTEGER NOT NULL
+  );
+  CREATE INDEX IF NOT EXISTS idx_conj_due ON conj_cards (due);
+  `,
 ];
 
 export const SCHEMA_VERSION = MIGRATIONS.length;

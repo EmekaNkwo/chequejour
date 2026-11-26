@@ -216,10 +216,16 @@ describe('settings', () => {
     const { db } = await setup();
     expect(await loadSettings(db)).toEqual(DEFAULT_SETTINGS);
     await saveSetting(db, 'dailyGoal', 20);
-    await saveSetting(db, 'notifications', { word: { enabled: false, time: { hour: 7, minute: 15 } }, sentence: DEFAULT_SETTINGS.notifications.sentence });
+    await saveSetting(db, 'notifications', { ...DEFAULT_SETTINGS.notifications, word: { enabled: false, time: { hour: 7, minute: 15 } } });
     const s = await loadSettings(db);
     expect(s.dailyGoal).toBe(20);
     expect(s.notifications.word).toEqual({ enabled: false, time: { hour: 7, minute: 15 } });
+  });
+  it('keeps word and sentence times saved before the verb notification existed', async () => {
+    const { db } = await setup();
+    const legacy = { word: { enabled: false, time: { hour: 6, minute: 30 } }, sentence: { enabled: true, time: { hour: 20, minute: 0 } } };
+    await db.runAsync("INSERT INTO settings (key, value) VALUES ('notifications', ?)", [JSON.stringify(legacy)]);
+    expect((await loadSettings(db)).notifications).toEqual({ ...legacy, verb: DEFAULT_SETTINGS.notifications.verb });
   });
   it('falls back to defaults on corrupt values and rejects invalid writes', async () => {
     const { db } = await setup();

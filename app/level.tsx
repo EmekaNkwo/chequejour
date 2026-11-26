@@ -57,7 +57,7 @@ export default function LevelScreen() {
       title: 'Demonstrated level',
       weight: '30%',
       value: estimate.parts.demonstrated,
-      detail: `Your last ${RECENT_ATTEMPTS} answers. Correct B1 answers count most, A2 answers least. It counts fully after ${MIN_ATTEMPTS} answers.`,
+      detail: `Your last ${RECENT_ATTEMPTS} answers. Correct B2 answers count most, then B1; A1 answers count least. It counts fully after ${MIN_ATTEMPTS} answers.`,
     },
   ];
 
@@ -76,7 +76,7 @@ export default function LevelScreen() {
       <SkillEstimates overview={data.nclc} />
 
       <SectionTitle title="Overall course level" />
-      <Card accessibilityLabel={`Estimated level ${estimate.label}, ${pct(estimate.value)} of the way from A1 to B1. Practice estimate.`}>
+      <Card accessibilityLabel={`Estimated level ${estimate.label}, ${pct(estimate.value)} of the way from A1 to B2. Practice estimate.`}>
         <Row style={styles.between}>
           <AppText variant="cardTitle">Estimated level</AppText>
           <LevelPill level={estimate.label} />
@@ -86,10 +86,10 @@ export default function LevelScreen() {
           <View style={styles.flex}>
             <ProgressBar value={estimate.value} height={12} />
           </View>
-          <AppText variant="bodyStrong">B1</AppText>
+          <AppText variant="bodyStrong">B2</AppText>
         </Row>
         <AppText variant="meta" tone="muted" style={styles.mt}>
-          {`${pct(estimate.value)} of the way from A1 to B1 · A1+ from 7%, A2 from 15%, A2+ from 35%, B1 from 75%`}
+          {`${pct(estimate.value)} of the way from A1 to B2 · A1+ from 5%, A2 from 12%, A2+ from 28%, B1 from 60%, B2 from 85%`}
         </AppText>
       </Card>
 

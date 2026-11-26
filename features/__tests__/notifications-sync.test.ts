@@ -8,6 +8,7 @@ import { ProgressRepository } from '../../data/progress-repo';
 import type { ContentBundle } from '../../domain/content-types';
 import { DEFAULT_NOTIFICATION_SETTINGS, type PlannedNotification } from '../../domain/notification-plan';
 import { DEFAULT_REMINDER } from '../../domain/reminder-plan';
+import { conjugationTable, verbOfDay } from '../../domain/verb-of-day';
 import { createNodeDb } from '../../test-utils/node-db';
 import { syncNotifications, type NotificationsApi } from '../notifications/sync';
 
@@ -57,21 +58,29 @@ async function setup() {
   const db = createNodeDb();
   await migrate(db);
   await seedContentIfNeeded(db, bundle);
-  // Reminders are covered separately below; off here so counts stay word + sentence.
+  // Reminders are covered separately below; off here so counts stay word + sentence + verb.
   const reminder = { toggle: { ...DEFAULT_REMINDER, enabled: false }, examDate: null, dailyGoal: 15, installDay: null };
   return { content: new ContentRepository(db), progress: new ProgressRepository(db), reminder };
 }
 
 describe('notification sync', () => {
-  it('schedules two weeks of word and sentence notifications with real content', async () => {
+  it('schedules two weeks of word, sentence and verb notifications with real content', async () => {
     const deps = await setup();
     const api = new FakeNotifications();
     const result = await syncNotifications(api, { ...deps, settings: DEFAULT_NOTIFICATION_SETTINGS, today: '2026-10-25', learner: { openUnitIds: ['u01'], level: 'A2' }, now: new Date(2026, 9, 25, 7, 0) });
-    expect(result).toEqual({ scheduled: 28, permission: true });
+    expect(result).toEqual({ scheduled: 42, permission: true });
     const first = api.scheduled.get('word-2026-10-25')!;
     expect(first.title).toBe('Mot du jour · le mot0');
     expect(first.body).toBe('word 0 — Exemple 0.');
     expect(api.scheduled.get('sentence-2026-10-25')?.body).toBe('Phrase 0.');
+    const verb = verbOfDay('2026-10-25', 'A2');
+    const [present, passeCompose] = conjugationTable(verb);
+    expect(api.scheduled.get('verb-2026-10-25')).toMatchObject({
+      kind: 'verb',
+      title: `Verbe du jour · ${verb.infinitive}`,
+      body: `${verb.en} — ${present.forms[0]}, ${present.forms[3]} · ${passeCompose.forms[0]}`,
+      url: '/daily/verb?day=2026-10-25',
+    });
   });
 
   it('is idempotent and keeps the same items when re-run (e.g. after a reboot)', async () => {
@@ -102,7 +111,7 @@ describe('notification sync', () => {
     const deps = await setup();
     const denied = new FakeNotifications(false);
     expect((await syncNotifications(denied, { ...deps, settings: DEFAULT_NOTIFICATION_SETTINGS, today: '2026-10-25', learner: { openUnitIds: [], level: 'A2' }, now: new Date(2026, 9, 25) })).scheduled).toBe(0);
-    const off = { word: { ...DEFAULT_NOTIFICATION_SETTINGS.word, enabled: false }, sentence: { ...DEFAULT_NOTIFICATION_SETTINGS.sentence, enabled: false } };
+    const off = { word: { ...DEFAULT_NOTIFICATION_SETTINGS.word, enabled: false }, sentence: { ...DEFAULT_NOTIFICATION_SETTINGS.sentence, enabled: false }, verb: { ...DEFAULT_NOTIFICATION_SETTINGS.verb, enabled: false } };
     const api = new FakeNotifications();
     await api.schedule({ id: 'stale', kind: 'word', day: 'x', fireAt: new Date(), title: '', body: '', url: '' });
     expect((await syncNotifications(api, { ...deps, settings: off, today: '2026-10-25', learner: { openUnitIds: [], level: 'A2' }, now: new Date(2026, 9, 25) })).scheduled).toBe(0);
@@ -161,7 +170,7 @@ describe('notification sync', () => {
   it('reminds after missed days, counted from the last study day', async () => {
     const deps = await setup();
     const api = new FakeNotifications();
-    const off = { word: { ...DEFAULT_NOTIFICATION_SETTINGS.word, enabled: false }, sentence: { ...DEFAULT_NOTIFICATION_SETTINGS.sentence, enabled: false } };
+    const off = { word: { ...DEFAULT_NOTIFICATION_SETTINGS.word, enabled: false }, sentence: { ...DEFAULT_NOTIFICATION_SETTINGS.sentence, enabled: false }, verb: { ...DEFAULT_NOTIFICATION_SETTINGS.verb, enabled: false } };
     await deps.progress.addStudy('2026-10-23', { seconds: 300 });
     const reminder = { ...deps.reminder, toggle: DEFAULT_REMINDER, examDate: '2026-11-20' };
     await syncNotifications(api, { ...deps, reminder, settings: off, today: '2026-10-25', learner: { openUnitIds: [], level: 'A2' }, now: new Date(2026, 9, 25, 9, 0) });

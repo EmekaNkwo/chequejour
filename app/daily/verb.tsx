@@ -112,6 +112,7 @@ export default function VerbOfTheDayScreen() {
         ) : null}
       </Card>
 
+      <LinkText label={`Practise every tense of ${verb.infinitive}`} icon="zap" onPress={() => router.push({ pathname: '/verb-trainer', params: { verb: verb.infinitive } })} />
       <LinkText label="More verbs and tables" icon="grid" onPress={() => router.push({ pathname: '/conjugation', params: { verb: verb.infinitive } })} />
       <LinkText label="Word of the day" icon="arrow-right" onPress={() => router.replace(`/daily/word?day=${day}`)} />
     </Screen>

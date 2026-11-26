@@ -12,8 +12,8 @@ describe('exercise content checks', () => {
   it('flags conjugation drills with an unknown tense or a form the tables disagree with', () => {
     const bad: Exercise = { ...base, id: 'c1', type: 'conjugation', verb: 'aller', tense: 'passé composé', person: 'nous', answers: ['avons allé'] };
     expect(exerciseProblems(bad)).toEqual(['c1: answers ["avons allé"] don\'t include the table form "sommes allés"']);
-    const tense: Exercise = { ...base, id: 'c2', type: 'conjugation', verb: 'zébrer', tense: 'plus-que-parfait', person: 'je', answers: ['avais zébré'] };
-    expect(exerciseProblems(tense)).toEqual(['c2: unknown tense "plus-que-parfait"']);
+    const tense: Exercise = { ...base, id: 'c2', type: 'conjugation', verb: 'zébrer', tense: 'passé simple', person: 'je', answers: ['zébrai'] };
+    expect(exerciseProblems(tense)).toEqual(['c2: unknown tense "passé simple"']);
     const fem: Exercise = { ...base, id: 'c3', type: 'conjugation', verb: 'partir', tense: 'passé composé', person: 'elle', answers: ['est partie'] };
     expect(exerciseProblems(fem)).toEqual([]);
   });

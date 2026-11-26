@@ -1,5 +1,5 @@
 /**
- * Per-skill practice estimate: a CEFR label (A1 to B1) and an approximate NCLC
+ * Per-skill practice estimate: a CEFR label (A1 to B2) and an approximate NCLC
  * level for each of the four TCF Canada tests. Canadian immigration scores each skill
  * separately, so the weakest one matters most.
  *
@@ -10,9 +10,9 @@
  *               = practice score                                   (otherwise, once there is enough practice)
  *
  * Practice evidence is graded answers (listening, reading) or self-assessed tasks
- * (writing, speaking), each weighted by its level (A2 0.2, A2+ 0.6, B1 1). That
- * "demonstrated" value is mapped onto the mock scale; this course's practice goes up
- * to B1, so practice alone tops out around NCLC 6. Practice on A1 and A1+ items lowers
+ * (writing, speaking), each weighted by its level (A2 0.16, A2+ 0.45, B1 0.75, B2 1).
+ * That "demonstrated" value is mapped onto the mock scale so that all-correct B1 practice
+ * shows about NCLC 6 and all-correct B2 practice about NCLC 7. Practice on A1 and A1+ items lowers
  * the floor of that mapping, so a beginner's estimate can fall to NCLC 1–3, shown as
  * "below NCLC 4" (IRCC's TCF table starts at NCLC 4).
  *
@@ -87,7 +87,8 @@ export const MIN_PRACTICE: Readonly<Record<TcfSkill, number>> = { listening: 20,
 export const RECENT_PRACTICE = 60;
 
 const PRACTICE_FLOOR = 0.3;
-const PRACTICE_SPAN = 0.42;
+/** Chosen so A2–B1 practice maps to the same scores as before B2 was added (span 0.42 over weights up to B1 = 1). */
+const PRACTICE_SPAN = 0.56;
 /** How far A1 and A1+ practice pulls the floor down (an all-A1 history floors at 0.05). */
 const BEGINNER_FLOOR_DROP: Partial<Record<Level, number>> = { A1: 0.25, 'A1+': 0.12 };
 
@@ -125,9 +126,10 @@ export function nclcForScore(score: number): Nclc {
   return (NCLC_THRESHOLDS.find((t) => score >= t.minScore) ?? NCLC_THRESHOLDS[NCLC_THRESHOLDS.length - 1]).nclc;
 }
 
-/** NCLC 1–2 ≈ A1, 3 ≈ A1+, 4 ≈ A2, 5 ≈ A2+, 6 and above ≈ B1 (the top of this course). */
+/** NCLC 1–2 ≈ A1, 3 ≈ A1+, 4 ≈ A2, 5 ≈ A2+, 6 ≈ B1, 7 and above ≈ B2 (the top of this course). */
 export function cefrForNclc(nclc: Nclc): Level {
-  if (nclc >= 6) return 'B1';
+  if (nclc >= 7) return 'B2';
+  if (nclc === 6) return 'B1';
   if (nclc === 5) return 'A2+';
   if (nclc === 4) return 'A2';
   if (nclc === 3) return 'A1+';
